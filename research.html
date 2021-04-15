@@ -1,0 +1,66 @@
+---
+layout: default
+section_id: research
+works:
+  - image: images/@stock/one-page-work-1.jpg
+    title: Applications of ML
+    authors:
+    link_to: research-item.html
+    class: machine-learning
+    desc: Application of ML Research Description
+  - image: images/@stock/one-page-work-2.jpg
+    title: Advancing Technology in science
+    authors:
+    link_to: research-item.html
+    class: machine-learning advanced-technology-in-science
+    desc: Research Description
+  - image: images/@stock/one-page-work-2.jpg
+    title: Interdepartmental- Maths/Physics/Psychology
+    authors:
+    link_to: research-item.html
+    class: machine-learning research-cat-2
+    desc: Research Description
+---
+
+<style>
+  .box{padding:25px; margin-bottom:25px;}
+</style>
+
+<div class='full title' style='background-image:url(images/headers/our-research.jpg); min-height:250px'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <h2 style='letter-spacing: 2px;font-size: 4.28571rem; color: rgb(255, 255, 255); text-transform:capitalize'>Research</h2>
+    </div>
+  </div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <!--<h4 style='color: #999'>We focus on</h4>-->
+      <h2>Our Research</h2>
+      <div class='spacing'></div>
+      <p>Accelerate Science pursues research at the interface of AI and the sciences, generating new scientific insights from advanced data analysis and developing AI methods that can be deployed to advance scientific knowledge. This research is carried out in partnership with a community of scientists and AI specialists passionate about the use of AI to benefit science and society.</p>
+    </div>
+  </div>
+  <div class='three spacing'></div>
+</div>
+<div class='full' style='background: #f5f5f5'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod'>
+        <div>
+          {% for work in page.works %}
+            <div class='box' style='background: #f9f9f9;'>
+              <h4>{{work.title}}</h4>
+              <p>{{work.authors}}</p>
+              <p>{{work.desc}}</p>
+              <a class='button small' href='{{work.link_to}}'>Read more</a>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>

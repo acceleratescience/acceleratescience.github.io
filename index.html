@@ -1,0 +1,328 @@
+---
+layout: default
+section_id: home
+slides:
+  - bg: images/slider/1.jpg
+    title:
+      text: <span style='background-color:white; padding-left:10px; padding-right:10px; color:#ffae0d; text-transform:capitalize;'>Accelerate Programme</span><br/><span style='text-transform:lowercase;'>Advancing the frontiers of science with machine learning</span>
+      animation: bottom-to-top
+      class: large-11 medium-11
+    buttons:
+      animation: bottom-to-top
+      class: medium-12
+      items:
+        - text: Read More
+          url: 
+          class: boxed
+  - bg: images/slider/3.jpg
+    title:
+      text: <span style='background-color:#ffae0d; padding-left:10px; padding-right:10px; color:white; text-transform:capitalize;'>How can we</span><br/><span style='color:#ffae0d;text-transform:lowercase;'>predict the risk of side effects from radiotherapy?</span>
+      animation: bottom-to-top
+      class: large-8 medium-11
+    buttons:
+      animation: bottom-to-top
+      class: medium-12
+      items:
+        - text: Read More
+          url: 
+          class: boxed
+  - bg: images/slider/4.jpg
+    title:
+      text: <span style='background-color:#8c31ce; padding-left:10px; padding-right:10px; color:white; text-transform:capitalize;'>How Can We</span><br/><span style='text-transform:lowercase; color:#8c31ce'>Develop next-generation technologies for renewable energy?</span>
+      animation: bottom-to-top
+      class: large-8 medium-11
+    buttons:
+      animation: bottom-to-top
+      class: medium-12
+      items:
+        - text: Read More
+          url: 
+          class: boxed
+boxes:
+  - icon_class: fa fa-star-half-empty
+    title: Research
+    image: research 1.svg
+    text:
+      Accelerate Science pursues research that applies machine learning to the scientific challenges of the 21st century, generating insights that accelerate scientific progress and creating AI tools that are capable of delivering benefits for science and society.
+    link: research.html
+    link_text: Discover
+  - icon_class: fa fa-image
+    title: Education and training
+    image: Education and training 2.svg
+    text:
+      Accelerate Science is creating learning and development opportunities that help equip researchers with the machine learning skills and tools they need to drive a new wave of scientific progress.<br/><br/>
+    link: get-involved.html
+    link_text: Discover
+  - icon_class: fa fa-dot-circle-o
+    title: Engagement
+    image: Engagement.svg
+    text:
+      Accelerate Science is building a community of researchers committed to advancing the use of machine learning across research domains, with the aim of accelerating scientific discovery.<br/><br/><br/>
+    link: events.html
+    link_text: Discover
+milestones:
+  - from: 0
+    to: 69
+    title: Projects Completed
+  - from: 0
+    to: 726
+    title: Cups of coffee offered
+  - from: 0
+    to: 59
+    title: Happy clients
+  - from: 0
+    to: 21
+    title: Articles Published
+
+latest_news:
+  - text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+    title: SPARK COURSE
+    date: March 2021
+    link_to:
+    link_text: Read More
+  - text: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing."
+    title: SCHMIDT DATA FOR SCIENCE COURSE SCORES A HIT
+    date: February 2021
+    link_to:
+    link_text: Read More
+  - text: "Reprehenderit eos et non et ut eum reprehenderit quis sequi quia vel repellendus id. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est."
+    title: ACCLERATE WINTER SCHOOL
+    date: September 2020
+    link_to:
+    link_text: Read More
+
+clients:
+  - images/@stock/client-1.png
+  - images/@stock/client-2.png
+  - images/@stock/client-3.png
+  - images/@stock/client-4.png
+  - images/@stock/client-5.png
+  - images/@stock/client-6.png
+
+---
+
+<div class='advanced mod modDefaultSlider'>
+  <div class='sequence' data-autostop='on' data-timeout='0'>
+    <a class='sequence-prev' href='javascript:void(0);'>
+      <span></span>
+    </a>
+    <a class='sequence-next' href='javascript:void(0);'>
+      <span></span>
+    </a>
+    <ul class='sequence-pagination'>
+      {% for slide in page.slides %}
+        {% if forloop.index == 1 %}
+          <li class='current'></li>
+        {% else %}
+          <li></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    <ul class='sequence-canvas'>
+      {% for slide in page.slides %}
+        {% if forloop.index == 1 %}
+          {% assign class = "static" %}
+        {% else %}
+          {% assign class = '' %}
+        {% endif %}
+
+        <li class='frame {{class}}'>
+          <div class='bg' style='background-image: url({{site.baseurl}}/{{slide.bg}});'></div>
+          {% if slide.infos %}
+            {% for info in slide.infos %}
+              <div class='info{{forloop.index}} {{info.animation}}'>
+                <div class='row'>
+                  <div class='medium-10 large-8 columns'>
+                    <p class='fa fa-check' style='color: #333;'>{{info.text}}</p>
+                    <div class='spacing'></div>
+                  </div>
+                </div>
+              </div>
+            {% endfor %}
+          {% else %}
+            <div class='title {{slide.title.animation}}' style='color: rgb(255, 255, 255);'>
+              <div class='row'>
+                <div class='{{slide.title.class}} columns'>
+                  <h2>{{slide.title.text}}</h2>
+                </div>
+              </div>
+            </div>
+          {% endif %}
+          <div class='buttons-wrapper {{slide.buttons.animation}}' style=''>
+            <div class='row'>
+              <div class='{{slide.buttons.class}} columns'>
+                <!--<div class='two spacing'></div>-->
+                {% for button in slide.buttons.items %}
+                  <a target="_blank" class='button {{button.class}}' href='{{button.url}}'>{{button.text}}</a>
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+<div class='full' style='background: #f5f5f5; padding-top:35px;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <!--<h4 style='font-size:20px; color: #353535'>Accelerate Science</h4>
+      <h2 style='color:#1B56EA'>Advancing the application of AI for scientific discovery</h2>-->
+      <div class='spacing'></div>
+      <p style='font-size:20px; color: #353535'>
+        The Accelerate Programme for Scientific Discovery is an interdisciplinary research unit that advances the use of machine learning to push forward the frontiers of science. Based in Cambridge University’s Department for Computer Science and Technology, Accelerate Science’s work encompasses:
+      </p>
+    </div>
+  </div>
+  <!--<div class='spacing'></div>-->
+</div>
+<div class='full' style='background: #f5f5f5'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod modBoxedTextSlider'>
+        <div class='boxes'>
+          {% for box in page.boxes %}
+            <div class='box'>
+              <!--<i class='{{box.icon_class}}'></i>-->
+              <img style='max-width:50px; display:block; margin:0 auto; margin-bottom:25px;' src='{{site.baseurl}}/images/{{box.image}}'/>
+              <h4>{{box.title}}</h4>
+              <p>{{box.text}}</p>
+              <a class="button small" href="{{site.baseurl}}/{{box.link}}">{{box.link_text}}</a>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+
+
+
+<div class='full'>
+  <div class='row'>
+    <div class='medium-6 columns'>
+      <a class="twitter-timeline" data-height="340" data-link-color="#FAB81E" href="https://twitter.com/AccelerateSci?ref_src=twsrc%5Etfw">Tweets by AccelerateSci</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+    
+    <div class='row'>
+      <div class='medium-6 columns'>
+        <div class='mod modTestimonials'>
+          <div class='row'>
+            <div class='two spacing'></div>
+            <div class='small-12 columns'>
+              <div class='items centered-text'>
+                {% for t in page.latest_news  %}
+                  <div class='item'>
+                    <p class='author'>{{t.text}}</p>
+                    <p class='quote'>{{t.title}}, {{t.date}}</p>
+                    <a class="button small" href="{{site.baseurl}}/{{t.link}}">{{t.link_text}}</a>
+                    <div class='two spacing'></div>
+                  </div>
+                {% endfor %}
+              </div>
+            </div>
+            <div class='spacing'></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--<div class='medium-6 columns'>
+      <div class='spacing'></div>
+      <h4 style='color: #999'>Follow Us Across</h4>
+      <h2>Our Social Channels</h2>
+      <div class='spacing'></div>
+      <p>This is the text about your Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
+      <div class='spacing'></div>
+      <a class='button small' href='#'>Learn more</a>
+    </div>-->
+  </div>
+  <div class='four spacing'></div>
+  <!--<div class='row'>
+    <div class='medium-6 columns'>
+      <div class='two spacing'></div>
+      <h4 style='color: #999'>Simple</h4>
+      <h2>Easy to use</h2>
+      <div class='spacing'></div>
+      <ul class='shortcode-list'>
+        <li>
+          <i class='fa fa-check'></i>
+          This is a check list item, htis is a check list item
+        </li>
+        <li>
+          <i class='fa fa-check'></i>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit ipsum
+        </li>
+        <li>
+          <i class='fa fa-check'></i>
+          Sed diam nonummy nibh euismod tincidunt ut, lorem ipsum dolor sit amet
+        </li>
+        <li>
+          <i class='fa fa-check'></i>
+          Dolore magna aliquam erat volutpat consectetu amet magna adipiscing
+        </li>
+      </ul>
+      <div class='spacing'></div>
+      <a class='button small' href='#'>Learn more</a>
+    </div>
+    <div class='medium-6 columns'>
+      <img class="fadeinright" width="500" height="400" alt="" src="images/@stock/circle-1.png" />
+    </div>
+  </div>
+  <div class='four spacing'></div>-->
+</div>
+
+
+
+
+<!--<div class='full parallax' style='background: #f5f5f5'>
+  <div class='row'>
+    {% for milestone in page.milestones %}
+      <div class='medium-3 large-3 columns right-border left-border'>
+        <div class='mod modMilestone no-icon'>
+          <strong data-from='{{milestone.from}}' data-to='{{milestone.to}}'>&nbsp;</strong>
+          <span>{{milestone.title}}</span>
+          <div class='spacing'></div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+  <div class='four spacing'></div>
+</div>-->
+<!--<div class='full no-padding' style='background: rgb(27, 86, 234); color: #fff'>
+  <div class='two spacing'></div>
+  <div class='mod modCallToAction'>
+    <div class='row'>
+      <div class='medium-9 large-9 columns'>
+        <p>Reprehenderit eos et non et ut eum reprehenderit quis sequi quia vel repellendus id..</p>
+      </div>
+      <div class='medium-3 large-3 columns'>
+        <a class='boxed button' href='/'>Learn more</a>
+      </div>
+    </div>
+  </div>
+  <div class='spacing'></div>
+</div>-->
+
+<div class='full parallax' style='background-image: url({{site.baseurl}}/images/@stock/customers-bg.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod modClients' data-slides_to_show='4'>
+        <div class='clients'>
+          {% for client in page.clients %}
+            <div><img alt="" src="{{site.baseurl}}/{{client}}" /></div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='two spacing'></div>
+
+ 
+</div>
+
+
+
+

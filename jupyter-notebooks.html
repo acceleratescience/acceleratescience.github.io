@@ -1,0 +1,66 @@
+---
+layout: default
+works:
+  - image: images/@stock/one-page-work-1.jpg
+    title: Jupyter Notebook 1
+    link_to: /
+    class: 2020
+    desc: Application of ML Research Description
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <!--<h4 style='color: #999'>We focus on</h4>-->
+      <h2>Jupyter Notebooks</h2>
+      <div class='spacing'></div>
+      <p>Machine learning for science Jupyter notebooks</p>
+    </div>
+  </div>
+  <div class='three spacing'></div>
+</div>
+<div class='full'>
+  <div class='row'>
+    <div class='mod modGallery'>
+      <div class='gallery-nav'>
+        <ul>
+          <li class='current'>
+            <a data-cat='all' href='#'>All</a>
+          </li>
+          <li>
+            <a data-cat='2020' href='#'>2020</a>
+          </li>
+          <li>
+            <a data-cat='2019' href='#'>2019</a>
+          </li>
+        </ul>
+      </div>
+      <ul class='gallery large-block-grid-1 medium-block-grid-3 seperated small-block-grid-2'>
+        {% for work in page.works %}
+          <li class='{{work.class}}'>
+            <a href='{{work.link_to}}'>
+              <!--<img alt="" src="{{site.url}}/{{work.image}}" /> -->
+              <h3>{{work.title}}</h3>
+              <p>{{work.desc}}</p>
+              <div  style='background: white; opacity:1; text-align:left;'>
+                <div style='display:flex; border:solid 1px #999;'>
+                  <h3 style='color:#1B56EA; margin-bottom:0; display:block; padding:25px; background-color:#ffae0d; width:25%; box-sizing: border-box;'>{{work.title}}</h3>
+                  <p style='color:grey;  display:block; width:75%; box-sizing: border-box; padding:25px;'>{{work.desc}}</p>
+                </div>
+              </div>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+  <!--<div class='row'>
+    <div class='large-12 columns'>
+      <p class='centered-text'>
+        <a class='button' href='#'>See more research</a>
+      </p>
+    </div>
+  </div>
+  <div class='four spacing'></div>-->
+</div>

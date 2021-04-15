@@ -1,0 +1,70 @@
+---
+layout: default
+section_id: events
+works:
+  - image: images/@stock/one-page-work-4.jpg
+    title: Accelerate Winter<br/>School
+    date: 21 February 2021
+    link_to: event-item.html
+    class: accelerate-school
+    desc: Accelerate Winter School Description
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='mod modGallery'>
+      <div class='gallery-nav'>
+        <ul>
+          <li class='current'>
+            <a data-cat='all' href='#'>All</a>
+          </li>
+          <li>
+            <a data-cat='accelerate-school' href='#'>Accelerate School</a>
+          </li>
+          <li>
+            <a data-cat='spark' href='#'>Spark</a>
+          </li>
+          <li>
+            <a data-cat='master-class' href='#'>Master Class</a>
+          </li>
+          <li>
+            <a data-cat='learning-workshop' href='#'>Learning Workshop</a>
+          </li>
+        </ul>
+      </div>
+      <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
+        {% for work in page.works %}
+          <li class='{{work.class}}'>
+            <a href='{{work.link_to}}'>
+              <img alt="" src="{{site.url}}/{{site.baseurl}}/{{work.image}}" />
+              <div class='overlay' style='background: rgba(27, 86, 234, 0.8); opacity:0.6'>
+                <div class='thumb-info'>
+                  <h3>{{work.title}}</h3>
+                  <p><b>{{work.date}}</b></p>
+                  <p>{{work.desc}}</p>
+                </div>
+              </div>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+  <div class='row'>
+    <div class='large-6 columns'>
+      <p class='centered-text'>
+        <a class='button' href='{{site.baseurl}}/events.html'>Current Events</a>
+      </p>
+    </div>
+    <div class='large-6 columns'>
+      <p class='centered-text'>
+        <a class='button' href='#'>Subscribe</a>
+      </p>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+
+

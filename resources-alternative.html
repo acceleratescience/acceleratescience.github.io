@@ -1,0 +1,73 @@
+---
+layout: default
+section_id: resources
+works:
+  - image: images/@stock/one-page-work-1.jpg
+    title: Talk 1
+    link_to: resource-item.html
+    class: talks
+    desc: Talk 1 Description
+  - image: images/@stock/one-page-work-2.jpg
+    title: Jupyter Notes
+    link_to: resource-item.html
+    class: jupyter
+    desc: Jupyter Notes Description
+  - image: images/@stock/one-page-work-3.jpg
+    title: Talk 2
+    link_to: resource-item.html
+    class: talks
+    desc: Talk 2 Description
+  - image: images/@stock/one-page-work-3.jpg
+    title: Resource Sample
+    link_to: resource-item.html
+    class: 
+    desc: Resource Sample Description
+---
+
+<div class='full title' style='background-image:url(images/headers/resources.jpg); min-height:250px'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <h2 style='letter-spacing: 2px;font-size: 4.28571rem; color: rgb(255, 255, 255); text-transform:capitalize'>Resources</h2>
+    </div>
+  </div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <div class='mod modGallery'>
+      <div class='gallery-nav'>
+        <ul>
+          <li class='current'>
+            <a data-cat='all' href='#'>All</a>
+          </li>
+          <li>
+            <a data-cat='talks' href='#'>Talks</a>
+          </li>
+          <li>
+            <a data-cat='jupyter' href='#'>Jupyter notebooks</a>
+          </li>
+          <li>
+            <a data-cat='software-code-in-practice' href='#'>Software and code in practice</a>
+          </li>
+        </ul>
+      </div>
+      <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
+        {% for work in page.works %}
+          <li class='{{work.class}}'>
+            <a href='{{work.link_to}}'>
+              <img alt="" src="{{site.url}}/{{work.image}}" />
+              <div class='overlay' style='background: rgba(27, 86, 234, 0.8); opacity:0.6'>
+                <div class='thumb-info'>
+                  <h3>{{work.title}}</h3>
+                  <p>{{work.desc}}</p>
+                </div>
+              </div>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+
+</div>

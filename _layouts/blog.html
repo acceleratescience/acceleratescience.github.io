@@ -1,0 +1,21 @@
+---
+layout: default
+---
+<div class='full title' style='background-image:url({{site.baseurl}}/images/headers/blog.jpg); min-height:250px'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <h2 style='letter-spacing: 2px;font-size: 4.28571rem; color: rgb(255, 255, 255); text-transform:capitalize'>Blog</h2>
+    </div>
+  </div>
+</div>
+
+<div class="full">
+  <div class="row">
+    <div class="large-9 columns">
+      {{content}}
+    </div>
+    <div class="large-3 columns" id="sidebar">
+      {% include sidebar.html %}
+    </div>
+  </div>
+</div>

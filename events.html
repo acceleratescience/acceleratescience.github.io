@@ -1,0 +1,87 @@
+---
+layout: default
+section_id: events
+events:
+  - image: images/@stock/one-page-work-1.jpg
+    title: Master class 1
+    date: 02 June 2021
+    link_to: event-item.html
+    desc: Master class 1 Description
+  - image: images/@stock/one-page-work-2.jpg
+    title: Spark
+    date: 02 July 2021
+    link_to: event-item.html
+    class: spark
+    desc: Spark Event Description
+  - image: images/@stock/one-page-work-3.jpg
+    title: Accelerate Summer School
+    date: 15 August 2021
+    link_to: event-item.html
+    desc: Accelerate Summer School Description
+  - image: images/@stock/one-page-work-3.jpg
+    title: Event Sample
+    date: 26 October 2021
+    link_to: event-item.html
+    desc: Event Sample Description
+---
+
+<style>
+  .box{margin-bottom:50px;}
+</style>
+
+<div class='full title' style='background-image:url({{site.baseurl}}/images/headers/event.jpg); min-height:250px'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <h2 style='letter-spacing: 2px;font-size: 4.28571rem; color: rgb(255, 255, 255); text-transform:capitalize'>Events</h2>
+    </div>
+  </div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <p>Dolores quibusdam eum itaque est et iusto perspiciatis saepe consequuntur quia occaecati consequatur. dignissimos dolores omnis voluptatum quia totam minus architecto qui assumenda ex aut aut.</p>
+    </div>
+  </div>
+</div>
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <div class='mod'>
+        <div>
+          {% for event in page.events %}
+            <div class='box'>
+              <div class='row'>
+                <div class='large-3 columns'>
+                  <img src="{{site.baseurl}}/{{event.image}}"/>
+                </div>
+                <div class='large-9 columns'>
+                  <h4>{{event.title}}</h4>
+                  <p>{{event.date}}</p>
+                  <p>{{event.desc}}</p>
+                  <a class='button small' href='{{event.link_to}}'>Read more</a>
+                </div>
+              </div>
+             
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+  <div class='row'>
+    <div class='large-6 columns'>
+      <p class='centered-text'>
+        <a class='button' href='{{site.baseurl}}/past-events.html'>Past Events</a>
+      </p>
+    </div>
+    <div class='large-6 columns'>
+      <p class='centered-text'>
+        <a class='button' href='#'>Subscribe</a>
+      </p>
+    </div>
+  </div>
+  <div class='four spacing'></div>

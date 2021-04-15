@@ -1,0 +1,105 @@
+---
+layout: default
+section_id: getinvolved
+opps:
+  - title: Example Opportunity 1
+    link: https://www.cambridge.org/core/books/data-mining-and-machine-learning/8A9C1AA9C756A1F8393ED74E22A0450D
+    linkText: Apply Here
+    desc:
+      Dolores quibusdam eum itaque est et iusto perspiciatis saepe consequuntur quia occaecati consequatur. dignissimos dolores omnis voluptatum quia totam minus architecto qui assumenda ex aut aut.
+  - title: Example Opportunity 2
+    link: https://cambridgespark.com/
+    linkText: Read More
+    desc: Dolores quibusdam eum itaque est et iusto perspiciatis saepe consequuntur quia occaecati consequatur. dignissimos dolores omnis voluptatum quia totam minus architecto qui assumenda ex aut aut.
+  - title: Example Opportunity 3
+    link: https://mlatcl.github.io/mlaccelerate/
+    linkText: Read More
+    desc: Dolores quibusdam eum itaque est et iusto perspiciatis saepe consequuntur quia occaecati consequatur. dignissimos dolores omnis voluptatum quia totam minus architecto qui assumenda ex aut aut.
+---
+
+<style>
+  .box{padding:25px; margin-bottom:25px;}
+</style>
+
+
+<div class='full title' style='background-image:url(images/headers/get-involved.jpg); min-height:250px'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <h2 style='letter-spacing: 2px;font-size: 4.28571rem; color: rgb(255, 255, 255); text-transform:capitalize'>Get Involved</h2>
+    </div>
+  </div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <!--<h4 style='color: #999'>We focus on</h4>-->
+      <h2>Applying for the programme</h2>
+      <div class='spacing'></div>
+      <p>The Accelerate Programme welcomes applications from departments across the university. Please ensure you specify that you would like to be on this programme when you make your initial application to your chosen course.</p>
+      <p>Further information: <a target='_blank' href='https://www.cst.cam.ac.uk/admissions/acs'>https://www.cst.cam.ac.uk/admissions/acs</a></p>
+    </div>
+  </div>
+  <div class='three spacing'></div>
+</div>
+<div class='full' style='background: #f5f5f5'>
+  <div class='row'>
+    <div class='large-12 columns'>
+        <h3>Our Opportunites</h3>
+        <div class="spacing"></div>
+      <div class='mod'>
+        <div>
+          {% for opp in page.opps %}
+            <div class='box' style='background: #f9f9f9;'>
+              <h4>{{opp.title}}</h4>
+              <p>{{opp.desc}}</p>
+              <a href='{{opp.link}}'>{{opp.linkText}}</a>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+<div class='full'>
+  <div class='row'>
+    <div class='medium-8 columns'>
+      <div class='form'>
+        <div class='row'>
+          <form id='contact_form' method='POST'>
+            <div class='large-12 columns'>
+              <p id='thanks' style='display: none;'>
+                Thanks for contacting us, we'll be in touch soon!
+              </p>
+            </div>
+            <div class='medium-12 columns'>
+              <p>Accelerate Science is building a community of researchers working at the interface of AI and the sciences. As we build this community, we’d like to keep in touch! To find out more about our work and forthcoming activities, you can sign up for our mailing list.</p>
+              <input class='required' name='name' placeholder='NAME' type='text'>
+              <input class='required email' name='email' placeholder='EMAIL' type='text'>
+              <input class='required' name='subject' placeholder='SUBJECT' type='text'>
+              <textarea class='required' name='message' placeholder='MESSAGE'></textarea>
+              <input class='button white' type='submit'>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class='two spacing'></div>
+    </div>
+    <div class='medium-4 columns'>
+      <div class='contact-details'>
+        <h4>Find Us:</h4>
+        <p>Department of Computer Science and Technology<br/>
+          William Gates Building<br/>
+          15 J J Thomson Avenue<br/>
+          Cambridge<br/>
+          CB3 0FD
+          </p>
+        <h4><a href='https://www.cst.cam.ac.uk/directions' target='_blank'>Directions</a></h4>
+        <p></p>
+        <h4>Our Email:</h4>
+        <p>accelerate-science@cst.cam.ac.uk</p>
+      </div>
+    </div>
+  </div>
+</div>

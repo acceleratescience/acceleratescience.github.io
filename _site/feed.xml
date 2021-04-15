@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Accelerate</title>
+    <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</description>
+    <link>/acceleratescience/</link>
+    <atom:link href="/acceleratescience/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 15 Apr 2021 10:47:42 +0100</pubDate>
+    <lastBuildDate>Thu, 15 Apr 2021 10:47:42 +0100</lastBuildDate>
+    <generator>Jekyll v4.2.0</generator>
+    
+      <item>
+        <title>Welcome to Accelerate</title>
+        <description>&lt;p&gt;An example here of a blog post without images - this markdown can be viewed in /posts&lt;/p&gt;
+</description>
+        <pubDate>Wed, 07 Apr 2021 15:48:53 +0100</pubDate>
+        <link>/acceleratescience/2021/04/07/welcome-to-jekyll</link>
+        <guid isPermaLink="true">/acceleratescience/2021/04/07/welcome-to-jekyll</guid>
+        
+        
+        <category>accelerate</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Darren is designing the new site</title>
+        <description>&lt;p&gt;Et sed ut quo maiores praesentium consequatur ipsum fuga aliquid corporis vel. exercitationem saepe vel aut consectetur vitae sed. necessitatibus est voluptatem nihil officiis nam debitis et perferendis exercitationem animi qui impedit modi recusandae. sapiente molestiae excepturi maxime. eum sequi nisi et itaque sunt nesciunt nulla vel sit ratione animi&lt;/p&gt;
+
+&lt;p&gt;Deleniti laboriosam soluta animi non corrupti. labore est quasi omnis ducimus. facere pariatur molestiae eum vel dignissimos debitis quam et id&lt;/p&gt;
+
+&lt;p&gt;Esse labore voluptate &lt;a href=&quot;#&quot;&gt;nam dolorum veniam&lt;/a&gt; numquam et reiciendis qui itaque voluptas odit dicta et. est ullam et omnis repellat qui aliquam delectus quod aperiam quam tenetur odit illo voluptatem. optio tenetur occaecati autem vel occaecati voluptas iste sunt libero quo est ex eum. aut molestiae ea est inventore aut quia ab voluptatem hic iste&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“Provident nihil sint ducimus quasi dignissimos vero esse quisquam Asperiores beatae facere eos corrupti ut autem natus quis cumque dolor.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;this-is-a-sub-heading&quot;&gt;This is a sub-heading&lt;/h4&gt;
+
+&lt;p&gt;Aut ea rem repudiandae tempore perferendis. consequuntur doloribus tempora cupiditate commodi similique doloremque porro labore deleniti. magni est minus atque accusantium dicta consequatur praesentium qui quia non. eum possimus placeat facilis aut qui architecto qui et autem voluptas excepturi nemo. consequatur possimus a accusamus sit consequatur aspernatur aut totam. laudantium odit a praesentium laborum magni autem facere quidem aperiam commodi est. dolore debitis doloremque ea impedit&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Tempora commodi quia deserunt porro excepturi&lt;/li&gt;
+  &lt;li&gt;Placeat in quae tempore pariatur sit aut qui nemo&lt;/li&gt;
+  &lt;li&gt;Rem quod sequi nobis possimus sequi dolorem est ab&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h5 id=&quot;this-is-a-small-title&quot;&gt;This is a small title&lt;/h5&gt;
+
+&lt;p&gt;Dolorem laudantium possimus esse tenetur voluptates nam. corrupti pariatur commodi est omnis excepturi dignissimos. commodi qui cum tempora ipsa porro quasi quis labore ea cum quod sapiente debitis asperiores. ut qui est ipsa enim numquam odit mollitia. velit earum unde qui animi quod earum repellendus facere aperiam nemo. ipsa praesentium aut quam aperiam qui voluptate&lt;/p&gt;
+</description>
+        <pubDate>Sat, 06 Feb 2021 10:20:05 +0000</pubDate>
+        <link>/acceleratescience/2021/02/06/darren-is-designing-the-new-site</link>
+        <guid isPermaLink="true">/acceleratescience/2021/02/06/darren-is-designing-the-new-site</guid>
+        
+        
+        <category>design</category>
+        
+      </item>
+    
+      <item>
+        <title>Schmidt Data for Science Course scores a hit</title>
+        <description>
+</description>
+        <pubDate>Wed, 29 Jul 2020 11:20:05 +0100</pubDate>
+        <link>/acceleratescience/2020/07/29/schmidt-data-scores-hit</link>
+        <guid isPermaLink="true">/acceleratescience/2020/07/29/schmidt-data-scores-hit</guid>
+        
+        <category>tag 1</category>
+        
+        <category>tag 2</category>
+        
+        
+        <category>Cat 1</category>
+        
+        <category>Cat 2</category>
+        
+      </item>
+    
+      <item>
+        <title>An Example post</title>
+        <description>
+</description>
+        <pubDate>Sun, 03 May 2020 11:20:05 +0100</pubDate>
+        <link>/acceleratescience/2020/05/03/an-example-post</link>
+        <guid isPermaLink="true">/acceleratescience/2020/05/03/an-example-post</guid>
+        
+        <category>news</category>
+        
+        
+        <category>Machine Learning</category>
+        
+      </item>
+    
+      <item>
+        <title>A post without image</title>
+        <description>
+</description>
+        <pubDate>Sun, 03 May 2015 08:20:05 +0100</pubDate>
+        <link>/acceleratescience/2015/05/03/a-post-without-image</link>
+        <guid isPermaLink="true">/acceleratescience/2015/05/03/a-post-without-image</guid>
+        
+        <category>javascript</category>
+        
+        
+        <category>Web Design</category>
+        
+        <category>Web Development</category>
+        
+      </item>
+    
+  </channel>
+</rss>

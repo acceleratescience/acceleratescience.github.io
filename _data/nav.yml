@@ -1,0 +1,28 @@
+- name: About
+  path: about.html
+  section_id: about
+- name: Latest
+  path: latest.html
+  section_id: latest
+- name: Research
+  path: research.html
+  section_id: research
+- name: Resources
+  path: resources.html
+  section_id: resources
+- name: Events
+  path: events.html
+  section_id: events
+  children:
+    - name: Example Event Direct Nav Link
+      path: event-item.html
+    - name: Example Event No Image
+      path: event-item-no-image.html
+    - name: Past Events
+      path: past-events.html
+- name: Get Involved
+  path: get-involved.html
+  section_id: getinvolved
+- name: Blog
+  path: blog/
+  section_id: blog
