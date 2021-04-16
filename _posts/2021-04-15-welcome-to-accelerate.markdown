@@ -14,7 +14,7 @@ excerpt:
   Welcome to the Accelerate Programme! This new initiative will be advancing research at the interface of machine learning and the sciences.
 ---
 
-#### Computer science and machine learning for science
+#### Computer science and the Computer Lab
 
 The Department for Computer Science and Technology was set up in the 1930s, when it was known as the Mathematical Laboratory. At that time ‘computer’ had a different meaning – a computer was a person employed to do numerical calculations by hand – and there was growing demand for a shrinking pool of people able to perform this work. Recent advances in mechanical systems looked promising, but these automated ‘computers’ weren’t considered suitable for the complex problems that were of interest to scientists at the University. In 1936, University leaders agreed that, if the University was to be at the forefront of the use of the new computing revolution, researchers would require wider access to these mechanical systems, as well as more sophisticated computing machinery. The Mathematical Laboratory was created with this mission.
 
