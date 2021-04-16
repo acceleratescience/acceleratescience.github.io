@@ -9,7 +9,7 @@ tags:
 author: Neil Lawrence and Jess Montgomery
 images:
 preview:
-  - images/@stock/blog-4.jpg
+  - images/APSci_social-asset_white.jpg
 excerpt:
   Welcome to the Accelerate Programme! This new initiative will be advancing research at the interface of machine learning and the sciences.
 ---
