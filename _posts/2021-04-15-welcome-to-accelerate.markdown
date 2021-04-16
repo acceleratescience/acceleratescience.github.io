@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Welcome to the Accelerate Programme
+title:  Welcome to Accelerate Science
 date:   2021-04-15 10:20:05
 categories:
   - Machine Learning
