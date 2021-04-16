@@ -1,24 +1,14 @@
 ---
 layout: default
 works:
-  - image: images/@stock/one-page-work-1.jpg
-    title: Jupyter Notebook 1
-    link_to: /
-    class: 2020
-    desc: Application of ML Research Description
+  - image: images/@stock/one-page-work-4.jpg
+    title: Accelerate Winter<br/>School
+    date: 21 February 2021
+    link_to: event-item.html
+    class: accelerate-school
+    desc: Accelerate Winter School Description
 ---
 
-<div class='full'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <!--<h4 style='color: #999'>We focus on</h4>-->
-      <h2>Jupyter Notebooks</h2>
-      <div class='spacing'></div>
-      <p>Machine learning for science Jupyter notebooks</p>
-    </div>
-  </div>
-  <div class='three spacing'></div>
-</div>
 <div class='full'>
   <div class='row'>
     <div class='mod modGallery'>
@@ -28,24 +18,29 @@ works:
             <a data-cat='all' href='#'>All</a>
           </li>
           <li>
-            <a data-cat='2020' href='#'>2020</a>
+            <a data-cat='accelerate-school' href='#'>Accelerate School</a>
           </li>
           <li>
-            <a data-cat='2019' href='#'>2019</a>
+            <a data-cat='spark' href='#'>Spark</a>
+          </li>
+          <li>
+            <a data-cat='master-class' href='#'>Master Class</a>
+          </li>
+          <li>
+            <a data-cat='learning-workshop' href='#'>Learning Workshop</a>
           </li>
         </ul>
       </div>
-      <ul class='gallery large-block-grid-1 medium-block-grid-3 seperated small-block-grid-2'>
+      <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
         {% for work in page.works %}
           <li class='{{work.class}}'>
             <a href='{{work.link_to}}'>
-              <!--<img alt="" src="{{site.url}}/{{work.image}}" /> -->
-              <h3>{{work.title}}</h3>
-              <p>{{work.desc}}</p>
-              <div  style='background: white; opacity:1; text-align:left;'>
-                <div style='display:flex; border:solid 1px #999;'>
-                  <h3 style='color:#1B56EA; margin-bottom:0; display:block; padding:25px; background-color:#ffae0d; width:25%; box-sizing: border-box;'>{{work.title}}</h3>
-                  <p style='color:grey;  display:block; width:75%; box-sizing: border-box; padding:25px;'>{{work.desc}}</p>
+              <img alt="" src="{{site.url}}/{{site.baseurl}}/{{work.image}}" />
+              <div class='overlay' style='background: rgba(27, 86, 234, 0.8); opacity:0.6'>
+                <div class='thumb-info'>
+                  <h3>{{work.title}}</h3>
+                  <p><b>{{work.date}}</b></p>
+                  <p>{{work.desc}}</p>
                 </div>
               </div>
             </a>
@@ -55,12 +50,18 @@ works:
     </div>
   </div>
   <div class='four spacing'></div>
-  <!--<div class='row'>
-    <div class='large-12 columns'>
+  <div class='row'>
+    <div class='large-6 columns'>
       <p class='centered-text'>
-        <a class='button' href='#'>See more research</a>
+        <a class='button' href='{{site.baseurl}}/events.html'>Current Events</a>
+      </p>
+    </div>
+    <div class='large-6 columns'>
+      <p class='centered-text'>
+        <a class='button' href='#'>Subscribe</a>
       </p>
     </div>
   </div>
-  <div class='four spacing'></div>-->
+  <div class='four spacing'></div>
 </div>
+
