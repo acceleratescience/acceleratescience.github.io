@@ -4,110 +4,48 @@
     <title>Accelerate</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>/acceleratescience/</link>
-    <atom:link href="/acceleratescience/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 15 Apr 2021 10:47:42 +0100</pubDate>
-    <lastBuildDate>Thu, 15 Apr 2021 10:47:42 +0100</lastBuildDate>
+    <link>/accelerateweb/</link>
+    <atom:link href="/accelerateweb/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 20 Apr 2021 11:05:14 +0100</pubDate>
+    <lastBuildDate>Tue, 20 Apr 2021 11:05:14 +0100</lastBuildDate>
     <generator>Jekyll v4.2.0</generator>
     
       <item>
-        <title>Welcome to Accelerate</title>
-        <description>&lt;p&gt;An example here of a blog post without images - this markdown can be viewed in /posts&lt;/p&gt;
-</description>
-        <pubDate>Wed, 07 Apr 2021 15:48:53 +0100</pubDate>
-        <link>/acceleratescience/2021/04/07/welcome-to-jekyll</link>
-        <guid isPermaLink="true">/acceleratescience/2021/04/07/welcome-to-jekyll</guid>
-        
-        
-        <category>accelerate</category>
-        
-        <category>update</category>
-        
-      </item>
-    
-      <item>
-        <title>Darren is designing the new site</title>
-        <description>&lt;p&gt;Et sed ut quo maiores praesentium consequatur ipsum fuga aliquid corporis vel. exercitationem saepe vel aut consectetur vitae sed. necessitatibus est voluptatem nihil officiis nam debitis et perferendis exercitationem animi qui impedit modi recusandae. sapiente molestiae excepturi maxime. eum sequi nisi et itaque sunt nesciunt nulla vel sit ratione animi&lt;/p&gt;
+        <title>Welcome to Accelerate Science</title>
+        <description>&lt;p&gt;The Department for Computer Science and Technology was set up in the 1930s, when it was known as the Mathematical Laboratory. At that time ‘computer’ had a different meaning – a computer was a person employed to do numerical calculations by hand – and there was growing demand for a shrinking pool of people able to perform this work. Recent advances in mechanical systems looked promising, but these automated ‘computers’ weren’t considered suitable for the complex problems that were of interest to scientists at the University. In 1936, University leaders agreed that, if the University was to be at the forefront of the use of the new computing revolution, researchers would require wider access to these mechanical systems, as well as more sophisticated computing machinery. The Mathematical Laboratory was created with this mission.&lt;/p&gt;
 
-&lt;p&gt;Deleniti laboriosam soluta animi non corrupti. labore est quasi omnis ducimus. facere pariatur molestiae eum vel dignissimos debitis quam et id&lt;/p&gt;
+&lt;p&gt;We’re now in a new phase of the development of computing, with rapid advances in machine learning attracting attention from across scientific domains. But we see some of the same issues emerging. While researchers across disciplines hope to make use of machine learning, they need access to skills and tools to use machine learning in their research. In parallel, researchers in machine learning need to develop more sophisticated methods to tackle complex, ‘real world’ problems.&lt;/p&gt;
 
-&lt;p&gt;Esse labore voluptate &lt;a href=&quot;#&quot;&gt;nam dolorum veniam&lt;/a&gt; numquam et reiciendis qui itaque voluptas odit dicta et. est ullam et omnis repellat qui aliquam delectus quod aperiam quam tenetur odit illo voluptatem. optio tenetur occaecati autem vel occaecati voluptas iste sunt libero quo est ex eum. aut molestiae ea est inventore aut quia ab voluptatem hic iste&lt;/p&gt;
+&lt;p&gt;It is with these challenges in mind that the Department for Computer Science and Technology has started the Accelerate Programme for Scientific Discovery. This new Programme seeks to advance the frontiers of science through the use of machine learning, by supporting researchers to develop skills to use machine learning in their research and by creating new collaborations.&lt;/p&gt;
 
-&lt;blockquote&gt;
-  &lt;p&gt;“Provident nihil sint ducimus quasi dignissimos vero esse quisquam Asperiores beatae facere eos corrupti ut autem natus quis cumque dolor.”&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Machine learning for science at Cambridge&lt;/strong&gt;&lt;/p&gt;
 
-&lt;h4 id=&quot;this-is-a-sub-heading&quot;&gt;This is a sub-heading&lt;/h4&gt;
+&lt;p&gt;In pursuing this mission, the Programme is building on a legacy of successful work at the interface of machine learning and science. Researchers at Cambridge are using machine learning as part of efforts to improve healthcare outcomes, to monitor environmental change, and to develop new materials. Outside the University, impressive advances in the use of machine learning to tackle major scientific questions – how do proteins fold? how is climate change affecting the Earth? – have also attracted widespread attention.&lt;/p&gt;
 
-&lt;p&gt;Aut ea rem repudiandae tempore perferendis. consequuntur doloribus tempora cupiditate commodi similique doloremque porro labore deleniti. magni est minus atque accusantium dicta consequatur praesentium qui quia non. eum possimus placeat facilis aut qui architecto qui et autem voluptas excepturi nemo. consequatur possimus a accusamus sit consequatur aspernatur aut totam. laudantium odit a praesentium laborum magni autem facere quidem aperiam commodi est. dolore debitis doloremque ea impedit&lt;/p&gt;
+&lt;p&gt;These high-profile successes can act as beacons, inspiring researchers to pursue ambitious projects at the interface of machine learning and the sciences. Realising these ambitions will require interventions that move cutting edge tools and techniques from the hands of the world’s leading AI companies into the hands of the scientists. Our aim is to develop the portfolio of tools available to these scientists and the skills base to use those tools, empowering researchers to drive forward their discoveries.&lt;/p&gt;
+
+&lt;p&gt;Our ambition is that the Accelerate Programme can build the bridges we need to achieve these outcomes. Too often, disciplinary boundaries contribute to a situation where those researchers working with machine learning in a scientific domain are isolated from a wider machine learning community, lacking access to the expertise they need to avoid reinventing the wheel or chasing phantoms. If we can create links between the machine learning community and the wider scientific community – building on the work already going on across Cambridge at the interface of machine learning and the sciences – then we will find opportunities and connections that can deliver a step change in the use of machine learning for science.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;The Accelerate Programme for Scientific Discovery&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;With this aim, Accelerate is developing three areas of activity:&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;Tempora commodi quia deserunt porro excepturi&lt;/li&gt;
-  &lt;li&gt;Placeat in quae tempore pariatur sit aut qui nemo&lt;/li&gt;
-  &lt;li&gt;Rem quod sequi nobis possimus sequi dolorem est ab&lt;/li&gt;
+  &lt;li&gt;Research: we’re developing a research agenda that applies cutting edge machine learning methods to scientific challenges, with four Accelerate Research fellows developing research projects that seek to advance both the use of machine learning in science and the science of machine learning.&lt;/li&gt;
+  &lt;li&gt;Education: building on the teaching activities already delivered through University courses, we’re creating learning opportunities for Cambridge researchers to develop skills in machine learning and to create machine learning tools that can help tackle real-world challenges.&lt;/li&gt;
+  &lt;li&gt;Engagement: we hope that Accelerate will build a community of researchers working across the University at the interface on machine learning and the sciences, helping to share best practice and new methods, and support each other in advancing their research. Over the coming years, we’ll be running a variety of events and activities in support of this.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h5 id=&quot;this-is-a-small-title&quot;&gt;This is a small title&lt;/h5&gt;
-
-&lt;p&gt;Dolorem laudantium possimus esse tenetur voluptates nam. corrupti pariatur commodi est omnis excepturi dignissimos. commodi qui cum tempora ipsa porro quasi quis labore ea cum quod sapiente debitis asperiores. ut qui est ipsa enim numquam odit mollitia. velit earum unde qui animi quod earum repellendus facere aperiam nemo. ipsa praesentium aut quam aperiam qui voluptate&lt;/p&gt;
+&lt;p&gt;This website will be the hub for material from the Programme, hosting research, resources, and highlighting opportunities to engage with our activities. We’ll be posting further details as they become available. In the meantime, to keep in touch, please visit our ‘Get Involved’ page.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 06 Feb 2021 10:20:05 +0000</pubDate>
-        <link>/acceleratescience/2021/02/06/darren-is-designing-the-new-site</link>
-        <guid isPermaLink="true">/acceleratescience/2021/02/06/darren-is-designing-the-new-site</guid>
-        
-        
-        <category>design</category>
-        
-      </item>
-    
-      <item>
-        <title>Schmidt Data for Science Course scores a hit</title>
-        <description>
-</description>
-        <pubDate>Wed, 29 Jul 2020 11:20:05 +0100</pubDate>
-        <link>/acceleratescience/2020/07/29/schmidt-data-scores-hit</link>
-        <guid isPermaLink="true">/acceleratescience/2020/07/29/schmidt-data-scores-hit</guid>
-        
-        <category>tag 1</category>
-        
-        <category>tag 2</category>
-        
-        
-        <category>Cat 1</category>
-        
-        <category>Cat 2</category>
-        
-      </item>
-    
-      <item>
-        <title>An Example post</title>
-        <description>
-</description>
-        <pubDate>Sun, 03 May 2020 11:20:05 +0100</pubDate>
-        <link>/acceleratescience/2020/05/03/an-example-post</link>
-        <guid isPermaLink="true">/acceleratescience/2020/05/03/an-example-post</guid>
+        <pubDate>Thu, 15 Apr 2021 11:20:05 +0100</pubDate>
+        <link>/accelerateweb/2021/04/15/welcome-to-accelerate</link>
+        <guid isPermaLink="true">/accelerateweb/2021/04/15/welcome-to-accelerate</guid>
         
         <category>news</category>
         
         
         <category>Machine Learning</category>
-        
-      </item>
-    
-      <item>
-        <title>A post without image</title>
-        <description>
-</description>
-        <pubDate>Sun, 03 May 2015 08:20:05 +0100</pubDate>
-        <link>/acceleratescience/2015/05/03/a-post-without-image</link>
-        <guid isPermaLink="true">/acceleratescience/2015/05/03/a-post-without-image</guid>
-        
-        <category>javascript</category>
-        
-        
-        <category>Web Design</category>
-        
-        <category>Web Development</category>
         
       </item>
     
