@@ -5,7 +5,7 @@ articles:
   - title: July Data Science for Science Residency - applications open!
     date: 14 April 2021
     authors:
-    link: <a href="https://www.cst.cam.ac.uk/news/july-data-science-residency-applications-open">Read More</a> 
+    link: https://www.cst.cam.ac.uk/news/july-data-science-residency-applications-open
     linkText: Read More
     desc:
       PhD students and postdocs across Cambridge have another chance to apply for a funded training course that is successfully equipping scientists with powerful tools to progress their research.
@@ -78,7 +78,7 @@ articles:
               <p><b>{{article.date}}</b></p>
               <p>{{article.authors}}</p>
               <p>{{article.desc}}</p>
-              <a href='{{site.baseurl}}/{{article.link}}'>{{article.linkText}}</a>
+              <a href='{{article.link}}'>{{article.linkText}}</a>
             </div>
           {% endfor %}
         </div>

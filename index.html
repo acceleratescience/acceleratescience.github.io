@@ -78,17 +78,17 @@ latest_news:
   - text: "PhD students and postdocs across Cambridge have another chance to apply for a funded training course that is successfully equipping scientists with powerful tools to progress their research."
     title: Applications open for July's Data Science Residency
     date: April 2021
-    link_to: spark-course-summary.html
+    link: spark-course-summary.html
     link_text: Read More
   - text: "An event hosted by the Accelerate Programme for Scientific Discovery will explore how AI can help advance the frontiers of science and how researchers can benefit from using AI in their work."
     title: Open event - An AI revolution in science?
     date: April 2021
-    link_to: ai-revolution-event.html
+    link: ai-revolution-event.html
     link_text: Read More
   - text: "Welcome to the Accelerate Programme! This new initiative will be advancing research at the interface of machine learning and the sciences."
     title: Accelerate website launches
     date: April 2021
-    link_to: 2021-04-15-welcome-to-accelerate.markdown
+    link: 2021-04-15-welcome-to-accelerate.markdown
     link_text: Read More
 
 ---
@@ -144,8 +144,8 @@ latest_news:
             <div class='row'>
               <div class='{{slide.buttons.class}} columns'>
                 <!--<div class='two spacing'></div>-->
-                {% for button in slide.buttons.items %}
-                  <a target="_blank" class='button {{button.class}}' href='{{button.url}}'>{{button.text}}</a>
+                {% for item in slide.buttons.items %}
+                  <a target="_blank" class='button {{item.class}}' href='{{item.url}}'>{{item.text}}</a>
                 {% endfor %}
               </div>
             </div>
