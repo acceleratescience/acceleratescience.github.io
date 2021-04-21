@@ -57,7 +57,7 @@ boxes:
     title: Engagement
     image: Engagement.svg
     text:
-      Accelerate Science is building a community of researchers committed to advancing the use of machine learning across research domains, with the aim of accelerating scientific discovery.<br/><br/><br/>
+      <br/>Accelerate Science is building a community of researchers committed to advancing the use of machine learning across research domains, with the aim of accelerating scientific discovery.<br/><br/><br/>
     link: events.html
     link_text: Discover
 milestones:
@@ -92,6 +92,15 @@ latest_news:
     link_text: Read More
 
 ---
+
+<style>
+  .box{background-color:white; padding:25px; width:30%; text-align:center; display:flex; flex-direction:column; justify-content: space-between;}
+
+@media only screen and (max-width: 680px) {
+  .box{width:100%; margin-bottom:25px;}
+}
+
+</style>
 
 <div class='advanced mod modDefaultSlider'>
   <div class='sequence' data-autostop='on' data-timeout='0'>
@@ -171,8 +180,8 @@ latest_news:
 <div class='full' style='background: #f5f5f5'>
   <div class='row'>
     <div class='large-12 columns'>
-      <div class='mod modBoxedTextSlider'>
-        <div class='boxes'>
+      <div class='mod'>
+        <div class='boxes flex between'>
           {% for box in page.boxes %}
             <div class='box'>
               <!--<i class='{{box.icon_class}}'></i>-->
@@ -267,8 +276,6 @@ latest_news:
 </div>
 
 
-
-
 <!--<div class='full parallax' style='background: #f5f5f5'>
   <div class='row'>
     {% for milestone in page.milestones %}
@@ -298,19 +305,6 @@ latest_news:
   <div class='spacing'></div>
 </div>-->
 
-<div class='full parallax' style='background-image: url({{site.baseurl}}/images/@stock/customers-bg.jpg); color: #fff;'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <div class='mod modClients' data-slides_to_show='4'>
-        <div class='clients'>
-          {% for client in page.clients %}
-            <div><img alt="" src="{{site.baseurl}}/{{client}}" /></div>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class='two spacing'></div>
 
  
 </div>

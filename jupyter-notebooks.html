@@ -1,5 +1,6 @@
 ---
 layout: default
+section_id: resources
 works:
   - image: images/QMmulti.jpg
     title: Accelerating hit acquisition in drug screening using simulated docking molecules 
@@ -42,46 +43,36 @@ works:
       <p>Machine learning for science Jupyter notebooks</p>
     </div>
   </div>
-  <div class='three spacing'></div>
 </div>
 <div class='full'>
   <div class='row'>
     <div class='mod modGallery'>
-      <div class='gallery-nav'>
+      <!--<div class='gallery-nav'>
         <ul>
           <li class='current'>
             <a data-cat='all' href='#'>All</a>
           </li>
           <li>
-            <a data-cat='accelerate-school' href='#'>Accelerate School</a>
+            <a data-cat='accelerate-school' href='#'>Workshop</a>
           </li>
           <li>
-            <a data-cat='spark' href='#'>Spark</a>
+            <a data-cat='master-class' href='#'>Masterclass</a>
           </li>
           <li>
-            <a data-cat='master-class' href='#'>Master Class</a>
-          </li>
-          <li>
-            <a data-cat='learning-workshop' href='#'>Learning Workshop</a>
+            <a data-cat='learning-workshop' href='#'>Event</a>
           </li>
         </ul>
-      </div>
+      </div>-->
       <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
         {% for work in page.works %}
           <li class='{{work.class}}'>
-            <a href='{{work.link_to}}'>
-              <!--<img alt="" src="{{site.url}}/{{site.baseurl}}/{{work.image}}" />
+            <a target='blank' href='{{work.link_to}}'>
+              <img alt="" src="{{site.baseurl}}/{{work.image}}" />
               <div class='overlay' style='background: rgba(27, 86, 234, 0.8); opacity:0.6'>
-                <div class='thumb-info'>-->
+                <div class='thumb-info'>
                   <h3>{{work.title}}</h3>
-<!--                  <p><b>{{work.date}}</b></p>-->
-                  <p>{{work.author}}</p>
-              <div  style='background: white; opacity:1; text-align:left;'>
-                <div style='display:flex; border:solid 1px #999;'>
-                  <h3 style='color:#1B56EA; margin-bottom:0; display:block; padding:25px; background-color:#ffae0d; width:25%; box-sizing: border-box;'>{{work.desc}}</h3>
-                  <p style='color:grey;  display:block; width:75%; box-sizing: border-box; padding:25px;'>{{work.desc}}</p>
-                </div>
-		  
+                  <p><b>{{work.date}}</b></p>
+                  <p>{{work.desc}}</p>
                 </div>
               </div>
             </a>
@@ -90,6 +81,9 @@ works:
       </ul>
     </div>
   </div>
+  
+  <div class='four spacing'></div>
+</div>
 
-  
-  
+
+

@@ -10,6 +10,8 @@ members:
     socials:
       - icon_class: fa fa-twitter
         url: http://twitter.com/lawrennd
+      - icon_class: fa fa-globe
+        url: https://bbc.co.uk
   - name: Jessica Montgomery
     position: Executive Director
     desc:
@@ -142,12 +144,12 @@ advisory:
       <div class='small-6 medium-3 large-3 columns'>
         <div class='mod modTeamMember style-2'>
           <div class='member'>
-            <img class="avatar" alt="" src="{{site.url}}/{{ site.baseurl}}/{{member.avatar}}" />
+            <img class="avatar" alt="" src="{{ site.baseurl}}/{{member.avatar}}" />
             <div class='overlay'>
               <ul class='socials'>
                 {% for social in member.socials %}
                   <li>
-                    <a href='{{social.url}}'>
+                    <a target='_blank' href='{{social.url}}'>
                       <i class='{{social.icon_class}}'></i>
                     </a>
                   </li>

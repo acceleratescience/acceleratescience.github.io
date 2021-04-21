@@ -1,0 +1,95 @@
+---
+layout: default
+works:
+  - image: images/QMmulti.jpg
+    title: Accelerating hit acquisition in drug screening using simulated docking molecules 
+    link_to: https://github.com/rohorne07/Accelerate-Notebook
+    class: accelerate-school
+    author: Rob Horne
+    desc: 
+  - image: images/@stock/one-page-work-4.jpg
+    title: Visualising and understanding simulations of black hole jets 
+    link_to: https://bitbucket.org/rt421/rt_dataforscience21/src/master/ 
+    class: accelerate-school
+    author: Rosie Talbot
+    desc:
+  - image: images/@stock/one-page-work-4.jpg
+    title: Understanding the public sector jobs market 
+    link_to: https://github.com/harrymich/Data_Science_Residency_Programme
+    class: accelerate-school
+    author: Harry Michalakakis
+    desc:
+  - image: images/@stock/one-page-work-4.jpg
+    title: Analysing stellar magnetic fields 
+    link_to: https://github.com/florian-lienhard/Accelerate_spark_project/blob/master/extract_b_field.ipynb 
+    class: accelerate-school
+    author: Florian Lienhard
+    desc: 
+  - image: images/@stock/one-page-work-4.jpg
+    title: Exploring the physical parameters of Fourier Transform AC Voltammetry signals  
+    link_to: https://github.com/freyjabd/Cambridge-Spark-Project/blob/main/Accelerate_science_project_FTacV.ipynb 
+    class: accelerate-school
+    author: Freyja Björk Dagbjartsdóttir
+    desc:
+---
+
+<div class='full'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      <!--<h4 style='color: #999'>We focus on</h4>-->
+      <h2>Jupyter Notebooks</h2>
+      <div class='spacing'></div>
+      <p>Machine learning for science Jupyter notebooks</p>
+    </div>
+  </div>
+  <div class='three spacing'></div>
+</div>
+<div class='full'>
+  <div class='row'>
+    <div class='mod modGallery'>
+      <div class='gallery-nav'>
+        <ul>
+          <li class='current'>
+            <a data-cat='all' href='#'>All</a>
+          </li>
+          <li>
+            <a data-cat='accelerate-school' href='#'>Accelerate School</a>
+          </li>
+          <li>
+            <a data-cat='spark' href='#'>Spark</a>
+          </li>
+          <li>
+            <a data-cat='master-class' href='#'>Master Class</a>
+          </li>
+          <li>
+            <a data-cat='learning-workshop' href='#'>Learning Workshop</a>
+          </li>
+        </ul>
+      </div>
+      <ul class='gallery large-block-grid-4 medium-block-grid-3 seperated small-block-grid-2'>
+        {% for work in page.works %}
+          <li class='{{work.class}}'>
+            <a href='{{work.link_to}}'>
+              <!--<img alt="" src="{{site.url}}/{{site.baseurl}}/{{work.image}}" />
+              <div class='overlay' style='background: rgba(27, 86, 234, 0.8); opacity:0.6'>
+                <div class='thumb-info'>-->
+                  <h3>{{work.title}}</h3>
+<!--                  <p><b>{{work.date}}</b></p>-->
+                  <p>{{work.author}}</p>
+              <div  style='background: white; opacity:1; text-align:left;'>
+                <div style='display:flex; border:solid 1px #999;'>
+                  <h3 style='color:#1B56EA; margin-bottom:0; display:block; padding:25px; background-color:#ffae0d; width:25%; box-sizing: border-box;'>{{work.desc}}</h3>
+                  <p style='color:grey;  display:block; width:75%; box-sizing: border-box; padding:25px;'>{{work.desc}}</p>
+                </div>
+		  
+                </div>
+              </div>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+  
+  
