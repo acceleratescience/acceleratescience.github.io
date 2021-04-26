@@ -133,7 +133,7 @@
       <!--<h4 style='color: #999'>We focus on</h4>-->
       <h2>Jupyter Notebooks</h2>
       <div class='spacing'></div>
-      <p>Machine learning for science Jupyter notebooks</p>
+      <p>This page presents notebooks and code created by the Accelerate team and researchers from across Cambridge who have participated in Accelerate course.</p>
     </div>
   </div>
   <div class='three spacing'></div>
@@ -167,7 +167,7 @@
               <!--<img alt="" src="//accelerateweb/images/QMmulti.jpg" />
               <div class='overlay' style='background: rgba(27, 86, 234, 0.8); opacity:0.6'>
                 <div class='thumb-info'>-->
-                  <h3>Accelerating hit acquisition in drug screening using simulated docking molecules</h3>
+                  <h3>Accelerating drug screening using simulated docking molecules</h3>
 <!--                  <p><b></b></p>-->
                   <p>Rob Horne</p>
               <div  style='background: white; opacity:1; text-align:left;'>
@@ -183,7 +183,7 @@
         
           <li class='accelerate-school'>
             <a href='https://bitbucket.org/rt421/rt_dataforscience21/src/master/'>
-              <!--<img alt="" src="//accelerateweb/images/@stock/one-page-work-4.jpg" />
+              <!--<img alt="" src="//accelerateweb/images/QMmulti.jpg" />
               <div class='overlay' style='background: rgba(27, 86, 234, 0.8); opacity:0.6'>
                 <div class='thumb-info'>-->
                   <h3>Visualising and understanding simulations of black hole jets</h3>
@@ -202,7 +202,7 @@
         
           <li class='accelerate-school'>
             <a href='https://github.com/harrymich/Data_Science_Residency_Programme'>
-              <!--<img alt="" src="//accelerateweb/images/@stock/one-page-work-4.jpg" />
+              <!--<img alt="" src="//accelerateweb/images/QMmulti.jpg" />
               <div class='overlay' style='background: rgba(27, 86, 234, 0.8); opacity:0.6'>
                 <div class='thumb-info'>-->
                   <h3>Understanding the public sector jobs market</h3>
@@ -221,7 +221,7 @@
         
           <li class='accelerate-school'>
             <a href='https://github.com/florian-lienhard/Accelerate_spark_project/blob/master/extract_b_field.ipynb'>
-              <!--<img alt="" src="//accelerateweb/images/@stock/one-page-work-4.jpg" />
+              <!--<img alt="" src="//accelerateweb/images/QMmulti.jpg" />
               <div class='overlay' style='background: rgba(27, 86, 234, 0.8); opacity:0.6'>
                 <div class='thumb-info'>-->
                   <h3>Analysing stellar magnetic fields</h3>
@@ -240,7 +240,7 @@
         
           <li class='accelerate-school'>
             <a href='https://github.com/freyjabd/Cambridge-Spark-Project/blob/main/Accelerate_science_project_FTacV.ipynb'>
-              <!--<img alt="" src="//accelerateweb/images/@stock/one-page-work-4.jpg" />
+              <!--<img alt="" src="//accelerateweb/images/QMmulti.jpg" />
               <div class='overlay' style='background: rgba(27, 86, 234, 0.8); opacity:0.6'>
                 <div class='thumb-info'>-->
                   <h3>Exploring the physical parameters of Fourier Transform AC Voltammetry signals</h3>

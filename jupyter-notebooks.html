@@ -34,6 +34,28 @@ works:
     desc:
 ---
 
+<style>
+  .modGallery ul.gallery li a .overlay .thumb-info {
+    position: relative;
+    top: 50%;
+    transform:translateY(-50%);
+    padding-left:10px; padding-right:10px;
+    /* opacity: 0; */
+    color:#333;
+}
+
+.modGallery ul.gallery li a h3 {
+    color:#333;
+
+}
+
+
+.modGallery ul.gallery li a p {
+    color:#333;
+
+}
+</style>
+
 <div class='full'>
   <div class='row'>
     <div class='large-12 columns'>
@@ -68,11 +90,10 @@ works:
           <li class='{{work.class}}'>
             <a target='blank' href='{{work.link_to}}'>
               <img alt="" src="{{site.baseurl}}/{{work.image}}" />
-              <div class='overlay' style='background: rgba(27, 86, 234, 0.8); opacity:0.2'>
+              <div class='overlay' style='background: rgba(0, 0, 0, 0); opacity:1'>  <!--rgba(27, 86, 234, 0.8);-->
                 <div class='thumb-info'>
                   <h3>{{work.title}}</h3>
-                  <p><b>{{work.date}}</b></p>
-                  <p>{{work.desc}}</p>
+                  <p><b>{{work.author}}</b></p>
                 </div>
               </div>
             </a>
