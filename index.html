@@ -3,10 +3,12 @@ layout: default
 section_id: home
 slides:
   - bg: images/slider/1.jpg
-    title:
-      text: <span style='background-color:white; padding-left:10px; padding-right:10px; color:#ffae0d; text-transform:capitalize;'>Accelerate Science</span><br/><span style='text-transform:lowercase;'>Advancing scientific discovery with machine learning</span>
-      animation: bottom-to-top
-      class: large-11 medium-11
+    title: Accelerate Science
+    content: Advancing scientific discovery with machine learning
+    invert: False
+    animation: bottom-to-top
+    class: large-11 medium-11
+    color: #ffae0d
     buttons:
       animation: bottom-to-top
       class: medium-12
@@ -15,10 +17,12 @@ slides:
           url: https://acceleratescience.github.io/latest.html
           class: boxed
   - bg: images/slider/2.jpg
-    title:
-      text: <span style='background-color:#ffae0d; padding-left:10px; padding-right:10px; color:white; text-transform:capitalize;'>Could AI accelerate your science?</span><br/><span style='color:#ffae0d;text-transform:lowercase;'>Join our  data science for science course</span>
-      animation: bottom-to-top
-      class: large-8 medium-11
+    title: Could AI accelerate your science?
+    content: Join our  data science for science course
+    invert: True
+    animation: bottom-to-top
+    class: large-8 medium-11
+    color: #ffae0d
     buttons:
       animation: bottom-to-top
       class: medium-12
@@ -27,10 +31,12 @@ slides:
           url: https://acceleratescience.github.io/spark-course-summary.html
           class: boxed
   - bg: images/headers/our-research.jpg
-    title:
-      text: <span style='background-color:#8c31ce; padding-left:10px; padding-right:10px; color:white; text-transform:capitalize;'>An AI revolution in science?</span><br/><span style='text-transform:lowercase; color:#8c31ce'>Join our next event</span>
-      animation: bottom-to-top
-      class: large-8 medium-11
+    title: An AI revolution in science?
+    content: Join our next event
+    invert: False
+    color: #8c31ce
+    animation: bottom-to-top
+    class: large-8 medium-11
     buttons:
       animation: bottom-to-top
       class: medium-12
@@ -141,10 +147,15 @@ latest_news:
               </div>
             {% endfor %}
           {% else %}
-            <div class='title {{slide.title.animation}}' style='color: rgb(255, 255, 255);'>
+            <div class='title {{slide.animation}}' style='color: rgb(255, 255, 255);'>
               <div class='row'>
-                <div class='{{slide.title.class}} columns'>
-                  <h2>{{slide.title.text}}</h2>
+                <div class='{{slide.class}} columns'>
+		  <h2>{%-if slide.invert-%}<span style='background-color:{{ slide.color }}; padding-left:10px; padding-right:10px; color:white; text-transform:capitalize;'>
+		      {%-else-%}<span style='background-color:white; padding-left:10px; padding-right:10px; color:{{ slide.color }}; text-transform:capitalize;'>
+			{%-endif-%}
+		      {{slide.title}}</span><br/>{%-if slide.invert-%}<span style='color:{{ slide.color }};text-transform:lowercase;'>{%-else-%}
+			<span style='text-transform:lowercase;'>{%-endif-%}
+                  {{slide.info}}</span></h2>
                 </div>
               </div>
             </div>
