@@ -1,0 +1,4 @@
+{%-if include.entry.name-%}{%-assign name=include.entry.name-%}{%-else-%}{%-capture name-%}
+{{ include.entry.given }}{%-if include.entry.prefix-%} {{ include.entry.prefix }}{%endif%} {{ include.entry.family }}{%-if include.entry.suffix-%} {{ include.entry.suffix }}{%-endif-%}
+{%-endcapture-%}
+{%-endif-%}

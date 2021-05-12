@@ -51,14 +51,15 @@ section_id: about
     </div>
   </div>
   <div class='row'>
-    {% for member in page.members %}{% if person.team %}
+    {% assign people = site.people | sort: 'family' %}
+    {% for person in people | sort: 'family' %}{% if person.team %}{% include extractname.html entry=person %}
       <div class='small-6 medium-3 large-3 columns'>
         <div class='mod modTeamMember style-2'>
           <div class='member'>
-            <img class="avatar" alt="" src="{{ site.baseurl}}/{{member.avatar}}" />
+            <img class="avatar" alt="" src="{{ site.baseurl}}/{{person.avatar}}" />
             <div class='overlay'>
               <ul class='socials'>
-                {% for social in member.socials %}
+                {% for social in person.socials %}
                   <li>
                     <a target='_blank' href='{{social.url}}'>
                       <i class='{{social.icon_class}}'></i>
@@ -68,13 +69,13 @@ section_id: about
               </ul>
             </div>
           </div>
-          <h3>{{member.name}}</h3>
-          <p class='position'>{{member.position}}</p>
-          <p>{{member.desc}}</p>
+          <h3>{{name}}</h3>
+          <p class='position'>{{person.position}}</p>
+          <p>{{person.desc}}</p>
           <div class='two spacing'></div>
         </div>
       </div>
-    {% endif %}{% endfor %}
+   {% endif %}{% endfor %}
   </div>
   <div class='three spacing'></div>
 </div>
@@ -87,15 +88,16 @@ section_id: about
     </div>
   </div>
   <div class='row'>
-    {% for person in site.people %}{% if person.advisory %}
+    {% assign people = site.people | sort: 'family' %}
+    {% for person in people | sort: 'family' %}{% if person.advisory %}{% include extractname.html entry=person %}
       <div class='small-6 medium-3 large-3 columns'>
         <div class='mod modTeamMember style-2'>
           <div class='member'>
-            <img class="avatar" alt="" src="{{site.baseurl}}/{{member.avatar}}" />
+            <img class="avatar" alt="" src="{{site.baseurl}}/{{person.avatar}}" />
           </div>
-          <h3>{{person.name}}</h3>
-          <p class='position'>{{member.position}}</p>
-          <!--<p>{{member.desc}}</p>-->
+          <h3>{{name}}</h3>
+          <p class='position'>{{person.position}}</p>
+          <!--<p>{{person.desc}}</p>-->
           <div class='two spacing'></div>
         </div>
       </div>
