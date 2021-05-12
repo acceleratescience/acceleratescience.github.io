@@ -1,95 +1,6 @@
 ---
 layout: default
 section_id: about
-members:
-  - name: Neil Lawrence
-    position: Professor of Machine Learning
-    desc: 
-      Neil Lawrence is the inaugural DeepMind Professor of Machine Learning at the University of Cambridge. His main interest is the interaction of machine learning with the physical world. This has inspired new research directions at the interface of machine learning and systems research, this work is funded by a Senior AI Fellowship from the Alan Turing Institute. Neil is also visiting Professor at the University of Sheffield and the co-host of Talking Machines. 
-    avatar: images/Neil.jpg
-    socials:
-      - icon_class: fa fa-twitter
-        url: http://twitter.com/lawrennd
-      - icon_class: fa fa-globe
-        url: https://inverseprobability.com
-  - name: Jessica Montgomery
-    position: Executive Director
-    desc:
-      Jessica is Executive Director of the Accelerate Programme for Scientific Discovery. She is also Director of the Data Trusts Initiative, a project tackling the actions needed to create trustworthy data governance frameworks. Her interests in AI and its consequences for science and society stem from her policy career, in which she worked with parliamentarians, leading researchers and civil society organisations to bring scientific evidence to bear on major policy issues.
-    avatar: images/Jess.jpg
-    socials:
-  - name: Carl Henrik Ek
-    position: Senior Lecturer
-    desc:
-      Carl Henrik is a senior lecturer at the University of Cambridge. His research is focused on building sound statistical models that are applicable to real world data. Most of his work to date have been on Bayesian non-parametric models which allows for principled treatment of uncertainty, easy interpretability and adaptable complexity. He is interested in the developing field of probabilistic numerics and has worked on reinforcement learning and Bayesian optimisation.
-    avatar: images/CarlHenrik.jpg
-    socials:
-      - icon_class: fa fa-twitter
-        url: http://twitter.com/carlhenrikek
-  - name: Coordinator
-    position: Accelerate Programme Coordinator
-    desc:
-      The Accelerate Programme is an interdisciplinary research team using machine learning to advance the frontiers of science. It is based in Cambridge University’s Department for Computer Science and Technology. Our Programme Coordinator supports the team's activities in research, education and learning, and events and engagement, and can help respond to queries about forthcoming Programme activities. To contact the Programme Coordinator, please email accelerate-science@cl.cam.ac.uk 
-    avatar: images/APSci_place-holder.jpg
-    socials:
-  - name: Bingqing Cheng
-    position: Departmental Early Career Academic Fellow
-    desc:
-      Bingqing's research uses computer simulations to understand and predict material properties, with a particular focus on exploiting machine-learning (ML) methods to extend the scope of atomistic simulations. She has investigated phenomena and problems including interfaces, nucleation, crystal plasticity, nuclear quantum effects, crystal defects, and thermodynamic stabilities of materials.    
-    avatar: images/Bingqing.jpg
-    socials:
-      - icon_class: fa fa-twitter
-        url: http://twitter.com/chengbingqing
-  - name: Bianca Dumitrascu
-    position: Departmental Early Career Academic Fellow
-    desc:
-      Bianca works at the intersection of machine learning and genetics. Her main research interest is understanding how local molecular rules give raise to emergent spatial patterns in the context of biological dynamical systems. To this end, she uses techniques from statistical optimization, statistical physics and domain adaptation to identify contextual phenotypes in spatial transcriptomic data and to understand the identity of single cells and their interactions in early development. She is also interested in active learning and graphical neural networks as models to study the effects and side-effects of drug cocktails.
-    avatar: images/Bianca.jpg
-    socials:
-      - icon_class: fa fa-twitter
-        url: http://twitter.com/bidumit
-  - name: Challenger Mishra
-    position: Departmental Early Career Academic Fellow
-    desc:
-     Challenger is a Theoretical Physicist working on the problem of Quantum Gravity. He is developing machine-driven approaches to problems in String Theory and related Calabi-Yau geometries, studying the vast landscape of String Theory solutions using a combination of tools and techniques from machine learning and mathematical physics. These include differential and algebraic geometry, invariant theory, symbolic regression, and equivariant architectures. He is also developing new machine learning architectures and methodologies inspired by mathematical physics. These approaches will deepen understandings of the map between String Theory models and the Standard Model of particle physics.
-    avatar: images/Challenger.jpg
-    socials:
-      - icon_class: fa fa-twitter
-        url: http://twitter.com/challenger1987
-  - name: Sarah Morgan
-    position: Departmental Early Career Academic Fellow
-    desc:
-      Sarah's research applies machine learning, network science and Natural Language Processing to better understand and predict mental health conditions. A main focus is using brain connectivity derived from MRI to predict disease trajectories for patients with schizophrenia. Sarah is also interested in using transcribed speech data to perform similar prediction problems.
-    avatar: images/SarahM.jpg
-    socials:
-      - icon_class: fa fa-twitter
-        url: http://twitter.com/sarah_morgan_uk
-
-advisory:
-  - name: Ann Copestake
-    position: Head of the Department of Computer Science and Technology
-    desc:  
-    avatar: images/Ann.jpg
-  - name: Mark Girolami
-    position: Professor of Computing and Inferential Science
-    desc:  
-    avatar: images/Mark.jpg
-  - name: Austen Lamacraft
-    position: Professor of Theoretical Physics
-    desc:  
-    avatar: images/Austen.jpg
-  - name: Neil Lawrence
-    position: DeepMind Professor of Machine Learning
-    desc:  
-    avatar: images/Neil.jpg
-  - name: Sarah Teichmann
-    position: Director of Research, Department of Physics, and Head of Cellular Genetics, Wellcome Sanger Institute
-    desc:  
-    avatar: images/SarahT.jpg
-  - name: Richard Turner
-    position: Professor of Machine Learning
-    desc:
-    avatar: images/Rich.jpg
   
 ---
 
@@ -140,14 +51,15 @@ advisory:
     </div>
   </div>
   <div class='row'>
-    {% for member in page.members %}
+    {% assign people = site.people | sort: 'family' %}
+    {% for person in people | sort: 'family' %}{% if person.team %}{% include extractname.html entry=person %}
       <div class='small-6 medium-3 large-3 columns'>
         <div class='mod modTeamMember style-2'>
           <div class='member'>
-            <img class="avatar" alt="" src="{{ site.baseurl}}/{{member.avatar}}" />
+            <img class="avatar" alt="" src="{{ site.baseurl}}/{{person.avatar}}" />
             <div class='overlay'>
               <ul class='socials'>
-                {% for social in member.socials %}
+                {% for social in person.socials %}
                   <li>
                     <a target='_blank' href='{{social.url}}'>
                       <i class='{{social.icon_class}}'></i>
@@ -157,13 +69,13 @@ advisory:
               </ul>
             </div>
           </div>
-          <h3>{{member.name}}</h3>
-          <p class='position'>{{member.position}}</p>
-          <p>{{member.desc}}</p>
+          <h3>{{name}}</h3>
+          <p class='position'>{{person.position}}</p>
+          <p>{{person.desc}}</p>
           <div class='two spacing'></div>
         </div>
       </div>
-    {% endfor %}
+   {% endif %}{% endfor %}
   </div>
   <div class='three spacing'></div>
 </div>
@@ -176,19 +88,20 @@ advisory:
     </div>
   </div>
   <div class='row'>
-    {% for member in page.advisory %}
+    {% assign people = site.people | sort: 'family' %}
+    {% for person in people | sort: 'family' %}{% if person.advisory %}{% include extractname.html entry=person %}
       <div class='small-6 medium-3 large-3 columns'>
         <div class='mod modTeamMember style-2'>
           <div class='member'>
-            <img class="avatar" alt="" src="{{site.baseurl}}/{{member.avatar}}" />
+            <img class="avatar" alt="" src="{{site.baseurl}}/{{person.avatar}}" />
           </div>
-          <h3>{{member.name}}</h3>
-          <p class='position'>{{member.position}}</p>
-          <!--<p>{{member.desc}}</p>-->
+          <h3>{{name}}</h3>
+          <p class='position'>{{person.position}}</p>
+          <!--<p>{{person.desc}}</p>-->
           <div class='two spacing'></div>
         </div>
       </div>
-    {% endfor %}
+    {% endif %}{% endfor %}
   </div>
   <div class='three spacing'></div>
 </div>
