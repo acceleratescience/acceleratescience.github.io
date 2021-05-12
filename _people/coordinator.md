@@ -1,4 +1,5 @@
 ---
+priority: 5
 name: Coordinator
 position: Accelerate Programme Coordinator
 desc:

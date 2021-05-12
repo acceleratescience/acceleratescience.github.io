@@ -1,4 +1,5 @@
 ---
+priority: 7
 given: Carl Henrik
 family: Ek
 position: Senior Lecturer
