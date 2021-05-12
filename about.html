@@ -51,7 +51,7 @@ section_id: about
     </div>
   </div>
   <div class='row'>
-    {% assign people = site.people | sort: 'family' %}
+    {% assign people = site.people | sort: 'priority' | reverse %}
     {% for person in people | sort: 'family' %}{% if person.team %}{% include extractname.html entry=person %}
       <div class='small-6 medium-3 large-3 columns'>
         <div class='mod modTeamMember style-2'>

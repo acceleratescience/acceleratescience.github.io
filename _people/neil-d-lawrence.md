@@ -1,4 +1,5 @@
 ---
+priority: 15
 given: Neil D.
 family: Lawrence
 position: Professor of Machine Learning
