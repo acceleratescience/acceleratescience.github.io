@@ -1,131 +1,17 @@
 ---
-layout: default
+layout: resources
 section_id: resources
-teaching_items:
-  - image: images/@stock/one-page-work-1.jpg
-    title: Introducing data science for science
-    link_to: spark-course-summary.html
-    link_text: Read More
-    desc: The Accelerate Programme offers PhDs and postdocs disciplines across Cambridge University the opportunity to participate in a funded 'Data for Science' training course. This structured Accelerate-Spark Data for Science Residency will equips scientists with modern practical data analysis skills using Python in a virtual instructor-led accelerated masterclass.
-  - image: images/@stock/one-page-work-2.jpg
-    title: Understanding machine learning and AI
-    link_to: https://mlatcl.github.io/mlai/ 
-    link_text: Read More
-    desc: This course - Machine Learning and Adaptive Intelligence - was originally delivered at the University of Sheffield (2011-2015), but has been updated with current material to introduce key concepts and methods in machine learning.
-  - image: images/@stock/one-page-work-3.jpg
-    title: Designing machine learning for real-world challenges
-    link_to: https://mlatcl.github.io/mlphysical/ 
-    link_text: Read More
-    desc: This course - Machine Learning and the Physical World - is focused on how to build machine learning systems that interact directly with the real world. It explores how to create models with a principled treatment of uncertainty, allowing researchers to leverage prior knowledge and provide decisions that can be interrogated.
-
-software_items:
-  - title: Machine learning for science Jupyter notebooks
-    link_to: jupyter-notebooks.html
-    link_text: Read More
-    desc: This gallery brings together Jupyter notebooks produced by participants in the Data Science for Science Residency. They contain information and code about the data science techniques that participants have used in research areas that range from genetics to astronomy.
-
-additional_items:
-  - title: Machine Learning Accelerator
-    link_to: https://mlatcl.github.io/mlaccelerate/ 
-    link_text: Read More
-    desc: 2021's Accelerate Science winter school brought together researchers at the interface of machine learning and the sciences to share insights and methods in machine learning that can support scientific discovery.
-
 ---
 
-<style>
-  .box{padding:25px; margin-bottom:25px;}
-</style>
 
-<div class='full title' style='background-image:url(images/headers/resources.jpg); min-height:250px'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <h2 style='letter-spacing: 2px;font-size: 4.28571rem; color: rgb(255, 255, 255); text-transform:capitalize'>Resources</h2>
-    </div>
-  </div>
-</div>
+<h2>Learning resources and research tools </h2>
+<div class='spacing'></div>
 
-<div class='full'>
-  <div class='row'>
-    <div class='large-12 columns'>
-        <!--<h4 style='color: #999'>We focus on</h4>-->
-        <h2>Learning resources and research tools </h2>
-      <div class='spacing'></div>
-      <p>Through a range of learning and development activities, Accelerate Science is equipping researchers with the machine learning skills and tools that will enable them to drive a new wave of scientific progress. This page brings together lectures, software and code releases, and other resources that can help researchers use machine learning to advance their science.</p>
-      <div class='spacing'></div>
-    </div>
-  </div>
-</div>
+<p>Through a range of learning and development activities,
+  Accelerate Science is equipping researchers with the machine
+  learning skills and tools that will enable them to drive a new
+  wave of scientific progress. This page brings together lectures,
+  software and code releases, and other resources that can help
+  researchers use machine learning to advance their science.</p>
+<div class='spacing'></div>
 
-
-  <div class='row'>
-    <div class='large-12 columns'>
-      <div class='spacing'></div>
-  <div class='flex between'>
-    <a class="button small" href="#teaching">Teaching and Learning</a>
-    <a class="button small" href="#software">Software &amp; Code</a>
-    <a class="button small" href="#additional">Additional Resources</a>
-  </div>
-  <div class='spacing'></div>
-</div>
-</div>
-
-<div class='full' style='background: #f5f5f5'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <h4 style='color: #999' id='teaching'>Teaching and Learning</h4>
-      <div class='spacing'></div>
-      <div class='mod'>
-        <div>
-          {% for item in page.teaching_items %}
-            <div class='box' style='background: #f9f9f9;'>
-              <h4>{{item.title}}</h4>
-              <p>{{item.desc}}</p>
-              <a href='{{item.link_to}}'>{{item.link_text}}</a>
-            </div>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class='four spacing'></div>
-</div>
-<div class='full'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <h4 style='color: #999' id='software'>Software &amp; Code</h4>
-      <div class='spacing'></div>
-      <div class='mod'>
-        <div>
-          {% for item in page.software_items %}
-            <div class='box' style='background: #f9f9f9;'>
-              <h4>{{item.title}}</h4>
-              <p>{{item.desc}}</p>
-              <a href='{{item.link_to}}'>{{item.link_text}}</a>
-            </div>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class='four spacing'></div>
-</div>
-<div class='full' style='background: #f5f5f5'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <h4 style='color: #999' id='additional'>Additional Resources</h4>
-      <div class='spacing'></div>
-      <div class='mod'>
-        <div>
-          {% for item in page.additional_items %}
-            <div class='box' style='background: #f9f9f9;'>
-              <h4>{{item.title}}</h4>
-              <p>{{item.desc}}</p>
-              <a href='{{item.link_to}}'>{{item.link_text}}</a>
-            </div>
-          {% endfor %}
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class='four spacing'></div>
-</div>
