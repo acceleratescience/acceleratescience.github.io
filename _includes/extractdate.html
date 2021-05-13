@@ -1,0 +1,23 @@
+{%-if include.entry.start-%}
+  {% assign startDay = include.entry.start | date: "%-d" %}
+  {% assign endDay = include.entry.end | date: "%-d" %}
+  {% assign startMonth = include.entry.start | date: "%-m" %}
+  {% assign endMonth = include.entry.end | date: "%-m" %}
+  {% if startMonth==endMonth %}
+    {% if startDay==endDay %}
+{%-capture date-%}
+{{ include.entry.start | date: "%-d %B %Y %H:%M" }}{%-if include.entry.end-%} - {{ include.entry.end | date: "%H:%M" }}{%-endif-%}
+{%-endcapture-%}
+    {%-else-%}
+{%-capture date-%}
+{{ include.entry.start | date: "%-d"}}{%-if include.entry.end-%} - {{ include.entry.end | date: "%-d %B %Y" }}{%-endif-%}
+{%-endcapture-%}
+    {%endif%}
+  {%else%}
+{%-capture date-%}
+{{ include.entry.start | date: "%-d %B"}}{%-if include.entry.end-%} - {{ include.entry.end | date: "%-d %B %Y" }}{%-endif-%}
+{%-endcapture-%}
+  {%endif%}
+{%-else-%}
+  {%-assign date=include.entry.date-%}
+{%-endif-%}
