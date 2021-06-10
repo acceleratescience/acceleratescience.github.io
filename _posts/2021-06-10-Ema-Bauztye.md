@@ -28,4 +28,4 @@ The Accelerate Programme and working with [Cambridge Spark](https://cambridgespa
 
 I can see these methods will change how landscape studies are conducted in archeology. Archeology traditionally looked at small datasets on one site. With machine learning, it is possible to mine legacy data and see more macro-scale analysis enabling more global studies over time. I also believe that the application of machine learning to archeology can shift the perception of the domain being purely Humanities to more interdisciplinary with ways of working with data which can lead to more innovation and could help make a stronger case for funding.
 
-Ema Bauzyte (June 2021)
+***Ema Bauzyte (June 2021)***
