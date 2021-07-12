@@ -28,6 +28,6 @@ The key benefit I gained from the Residency is that it accelerated my physics re
 
 I wrapped up my PhD a couple of months after the Residency. It was really my experience with Accelerate that encouraged me to focus on creating a new start-up in computer vision and I then moved into a role as a research engineer; something that would not have been possible without the Programme. I was meant to be shooting lasers at silicon but ended up using [Natural Language Processing](https://en.wikipedia.org/wiki/Natural_language_processing) – a technique that allows computers to interpret human language – to understand the structure of open banking language for a FinTech company. I also got involved with Cambridge Spark as a Tutor which helped me continue my learning. 
      
-Ultimately, all this experience helped me to convey my interest to secure a position at Apple’s first [AI Residency Programme](https://machinelearning.apple.com/updates/introducing-aiml-residency-program) - an incredibly competitive recruitment process - 1000 for 1 place. I can definitely point to the Accelerate course and Cambridge Spark as key factors in getting the position.
+Ultimately, all this experience helped me to convey my interest to secure a position at Apple’s first [AI Residency Programme](https://machinelearning.apple.com/updates/introducing-aiml-residency-program). I can definitely point to the Accelerate course and Cambridge Spark as key factors in getting the position.
 
 ***Jesse Allardice (July 2021)***
