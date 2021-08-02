@@ -9,7 +9,7 @@ tags:
 author: Andreas Schachner, Department of Applied Mathematics and Theoretical Physics, University of Cambridge
 images:
 preview:
-  - images/andreasschachner.jpg
+  - images/andreasschachner.JPG
 excerpt:
    The past century has seen the most spectacular discoveries and theoretical developments in fundamental physics, but despite this success many questions of fundamental physics remain unanswered. In my PhD, I am focusing on string theory and its implications for our understanding of nature.To study string theories and interpret the physics it produces, we already use a heavy machinery of mathematical tools. Data science and machine learning offer a new route to interrogating how the predictions arising from string theories map onto the world around us.
 ---
