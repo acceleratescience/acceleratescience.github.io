@@ -9,20 +9,20 @@ tags:
 author: Emanuele Osimo, Chain Florey Clinical Fellow, Imperial College London, and Visiting Researcher, University of Cambridge
 images:
 preview:
-  - images/emanueleosimo.JPG
+  - images/emanueleosimo.jpg
 excerpt:
    I'm interested in finding out how mental and physical health are interlinked. I study this in serious mental illness, especially in schizophrenia. My long-term aim is understanding how to improve the treatments offered to patients, and help increase their quality of life. In order to do so, we need to disentangle different factors that contribute to a patient’s overall health. Data science and machine learning can help us understand the complex links between mental illness, physical health, and the genetic basis for conditions like schizophrenia.
 ---
 
-I'm interested in finding out how mental and physical health are interlinked. I study this in serious mental illness, especially in schizophrenia. My long-term aim is understanding how to improve the treatments offered to patients, and help increase their quality of life. In order to do so, we need to disentangle different factors that contribute to a patient’s overall health. 
+I'm interested in finding out how mental and physical health are interlinked. [I study this](https://www.imperial.ac.uk/people/e.osimo) in serious mental illness, especially in schizophrenia. My long-term aim is understanding how to improve the treatments offered to patients, and help increase their quality of life. In order to do so, we need to disentangle different factors that contribute to a patient’s overall health. 
 
 We know that the overall health of people can be affected by:
-•	Life events, including past trauma and stress (for example, migrations, bereavement, infections, etc);
-•	The person's lifestyle;
-•	The person’s socio-economic status, with connected chances and choices;
-•	Genetic factors that make that individual more susceptible to mental or physical illness;
-•	The presence of any mental or physical illness;
-•	The secondary effects of having any illness. These might include side-effects from medications – for example, some medications cause high cholesterol or weight gain – or other secondary effects arising from patients taking less exercise, socialising less, and so on.
+* Life events, including past trauma and stress (for example, migrations, bereavement, infections, etc);
+* The person's lifestyle;
+* The person’s socio-economic status, with connected chances and choices;
+* Genetic factors that make that individual more susceptible to mental or physical illness;
+* The presence of any mental or physical illness;
+* The secondary effects of having any illness. These might include side-effects from medications – for example, some medications cause high cholesterol or weight gain – or other secondary effects arising from patients taking less exercise, socialising less, and so on.
 
 It isn’t the case that everyone with schizophrenia suffers from poor physical health, but we do see connections between mental illness and conditions like hypertension, diabetes, and the [metabolic syndrome](https://www.nhs.uk/conditions/metabolic-syndrome/) (a constellation of connected issues, including usually high blood pressure, high body weight, pre- or fully blown diabetes and other fat-related changes). My work focuses on trying to tease apart some of these different influences on a patient’s health.
 
