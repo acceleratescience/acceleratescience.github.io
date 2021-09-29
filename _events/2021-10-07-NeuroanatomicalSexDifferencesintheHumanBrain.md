@@ -1,6 +1,6 @@
 ---
 title: Neuroanatomical Sex Differences in the Human Brain - Maps, Mechanisms and Meanings
-image: images/QMmulti.jpg
+image: images/jesse-orrico-rmWtVQN5RzU-unsplash.jpg
 start: 2021-10-07 15:00:00Z
 end: 2021-10-07 16:00:00Z
 link_to: https://talks.cam.ac.uk/show/index/128590
