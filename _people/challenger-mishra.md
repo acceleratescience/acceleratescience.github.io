@@ -9,4 +9,5 @@ socials:
 - icon_class: fa fa-twitter
   url: http://twitter.com/challenger1987
 team: True
+priority: 4
 ---
