@@ -90,7 +90,7 @@ section_id: about
   </div>
   <div class='row'>
     {% assign people = site.people | sort: 'family' %}
-    {% for person in people | sort: 'family' %}{% if person.advisory %}{% include extractname.html entry=person %}
+    {% for person in people %}{% if person.advisory %}{% include extractname.html entry=person %}
       <div class='small-6 medium-3 large-3 columns'>
         <div class='mod modTeamMember style-2'>
           <div class='member'>
