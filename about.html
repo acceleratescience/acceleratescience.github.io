@@ -52,7 +52,14 @@ section_id: about
   </div>
   <div class='row'>
     {% assign people = site.people | sort: 'family' | sort: 'priority' | reverse %}
+    {% assign count = 0 %}
     {% for person in people %}{% if person.team %}{% include extractname.html entry=person %}
+      {% assign count = count | plus: 1 %}
+      {% if count > 5 %}
+      {% assign count = 0 %}
+  </div>
+  <div class = 'row'>
+      {% endif %}
       <div class='small-6 medium-3 large-3 columns'>
         <div class='mod modTeamMember style-2'>
           <div class='member'>
