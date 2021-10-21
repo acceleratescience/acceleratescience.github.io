@@ -51,18 +51,16 @@ section_id: about
     </div>
   </div>
   <div class='row'>
-     <div class='small-6 medium-3 large-3 columns'>
-     <div class='small-6 medium-3 large-3 columns'>
-     <div class='small-6 medium-3 large-3 columns'>
-     <div class='small-6 medium-3 large-3 columns'>
     {% assign people = site.people | sort: 'family' | sort: 'priority' | reverse %}
     {% assign count = 0 %}
     {% for person in people %}{% if person.team %}{% include extractname.html entry=person %}
       {% assign count = count | plus: 1 %}
       {% if count > 4 %}<!-- add in row here --> 
       {% assign count = 0 %}
+  </div>
+  <div class='row'>
       {% endif %}
-     
+     <div class='small-6 medium-3 large-3 columns'>
         <div class='mod modTeamMember style-2'>
           <div class='member'>
             <img class="avatar" alt="" src="{{ site.baseurl}}/{%if person.avatar and person.avatar != "" %}{{person.avatar}}{% else %}images/APSci_place-holder.jpg{%endif%}" />
