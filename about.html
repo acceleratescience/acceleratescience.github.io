@@ -56,7 +56,7 @@ section_id: about
     {% for person in people %}{% if person.team %}{% include extractname.html entry=person %}
       {% assign count = count | plus: 1 %}
       {% if count > 4 %}<!-- add in row here --> 
-      {% assign count = 0 %}
+      {% assign count = 1 %}
   </div>
   <div class='row'>
       {% endif %}
