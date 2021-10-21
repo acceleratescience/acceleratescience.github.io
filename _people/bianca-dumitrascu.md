@@ -9,4 +9,5 @@ socials:
 - icon_class: fa fa-twitter
   url: http://twitter.com/bidumit
 team: True
+priority: 4
 ---
