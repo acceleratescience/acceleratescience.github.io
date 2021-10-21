@@ -9,4 +9,5 @@ socials:
 - icon_class: fa fa-twitter
   url: http://twitter.com/sarah_morgan_uk
 team: True
+priority: 4
 ---
