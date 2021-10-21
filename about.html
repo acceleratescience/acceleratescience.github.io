@@ -77,8 +77,8 @@ section_id: about
             </div>
           </div>
           <h3>{{name}}</h3>{% if person.position %}
-          <p class='position'>{{person.position}}{%endif%}{% if person.department %}
-          <br>{{person.department}}{%endif%}</p>{%if person.desc%}
+          <p class='position'>{{person.position}}{% if person.department %}
+          <br>{{person.department}}{%endif%}</p>{%endif%}{%if person.desc%}
           <p>{{person.desc}}</p>{%endif%}
           <div class='two spacing'></div>
         </div>
@@ -103,9 +103,9 @@ section_id: about
           <div class='member'>
             <img class="avatar" alt="" src="{{site.baseurl}}/{{person.avatar}}" />
           </div>
-          <h3>{{name}}</h3>
-          <p class='position'>{{person.position}}{%endif%}{% if person.department %}
-          <br>{{person.department}}{%endif%}</p>
+          <h3>{{name}}</h3>{% if person.position %}
+          <p class='position'>{{person.position}}{% if person.department %}
+          <br>{{person.department}}{%endif%}</p>{%endif%}
           <!--<p>{{person.desc}}</p>-->
           <div class='two spacing'></div>
         </div>
