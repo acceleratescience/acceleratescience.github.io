@@ -35,7 +35,7 @@ There is an opportunity today to develop AI technologies along a similar pathway
 
 This was our first Symposium, and we’d like to thank everyone who contributed to discussions. We hope it marks the start of a continuing discussion across Cambridge about the potential of AI in science, and how the research community can harness this potential. We'll be posting videos and graphic outputs from the event soon; check out our [event page](https://acceleratescience.github.io/annual-symposium-2021.html) for details.
 
-<img src="unworkshop_2021_challenges_in_science_and_maths.jpg"
+<img src="unworkshop_2021_challenges_in_science_and_maths.jpeg"
      alt="Challenges in science and maths"
      style="float: left; margin-right: 10px;" />
 
