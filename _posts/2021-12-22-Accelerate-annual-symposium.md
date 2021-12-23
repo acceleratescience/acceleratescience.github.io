@@ -9,7 +9,7 @@ tags:
 author: Jess Montgomery, University of Cambridge
 images:
 preview:
-  - images/emanueleosimo.jpg
+  - images/michal-czyz-ALM7RNZuDH8-unsplash-2.jpg
 excerpt:
    On 19 November, Accelerate brought together researchers from across Cambridge to share perspectives on how AI is supporting their work. This post summarises some of the key points from discussions.
 ---
