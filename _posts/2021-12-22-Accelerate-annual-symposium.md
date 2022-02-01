@@ -41,5 +41,7 @@ Here is a graphic summary of the event:
 ![Event summary](Symposium_Summary.png)
 
 
+
+Here is another summary of the event:
 <img src="images/Symposium_Summary.png" alt="Graphic event summary" style="height: 200px; width:200px;"/>
 
