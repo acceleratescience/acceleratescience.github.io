@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  How can we... Use AI to enable doctors to build their own models with clinical data?
-date:   2022-02-02 10:00:00
+date:   2022-02-01 10:00:00
 categories:
   - Accelerate-Spark data science residency
 tags:
