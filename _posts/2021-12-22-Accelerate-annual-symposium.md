@@ -38,10 +38,10 @@ There is an opportunity today to develop AI technologies along a similar pathway
 This was our first Symposium, and we’d like to thank everyone who contributed to discussions. We hope it marks the start of a continuing discussion across Cambridge about the potential of AI in science, and how the research community can harness this potential. We'll be posting videos and graphic outputs from the event soon; check out our [event page](https://acceleratescience.github.io/annual-symposium-2021.html) for updates.
 
 Here is a graphic summary of the event:
-![Event summary](Symposium_Summary.png)
+![Event summary]({{ site.baseurl }}/images/Symposium_Summary.png)
 
 
 
 Here is another summary of the event:
-<img src="images/Symposium_Summary.png" alt="Graphic event summary" style="height: 200px; width:200px;"/>
+<img src="{{ site.baseurl }}/images/Symposium_Summary.png" alt="Graphic event summary" style="height: 200px; width:200px;"/>
 
