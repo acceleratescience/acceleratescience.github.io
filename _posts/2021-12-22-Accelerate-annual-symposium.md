@@ -49,3 +49,6 @@ Our unworkshop on machine learning and the physical world:
 Our unworkshop on challenges in science and maths:
 ![Unworkshop summary - science and maths]({{ site.baseurl }}/images/Accelerate_UnWk_Maths_Sci.png)
 
+Our fireside chat about AlphaFold:
+![Workshop summary - AlphaFold]({{ site.baseurl }}/images/Accelerate_Fireside_Chat_AlphaFold.png)
+
