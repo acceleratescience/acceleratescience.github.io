@@ -35,13 +35,17 @@ This interdisciplinary approach harks back to the origins of the Cambridge Compu
 
 There is an opportunity today to develop AI technologies along a similar pathway – from supporting data analysis to driving new types of theory. But the pace of change in AI’s capabilities – and in demand for AI across disciplines – is creating a disconnect between AI researchers and domain researchers. Accelerate is trying to bridge this gap, by building links between those developing and those using AI technologies, and by empowering researchers to deploy AI in their science. This will need new approaches to research and education to accelerate adoption of AI; but fundamentally it will require a renewed wave of interdisciplinary collaboration that creates shared understandings of the potential of AI and fosters new ideas across domains.
 
-This was our first Symposium, and we’d like to thank everyone who contributed to discussions. We hope it marks the start of a continuing discussion across Cambridge about the potential of AI in science, and how the research community can harness this potential. We'll be posting videos and graphic outputs from the event soon; check out our [event page](https://acceleratescience.github.io/annual-symposium-2021.html) for updates.
+This was our first Symposium, and we’d like to thank everyone who contributed to discussions. We hope it marks the start of a continuing discussion across Cambridge about the potential of AI in science, and how the research community can harness this potential. Check out our [event page](https://acceleratescience.github.io/annual-symposium-2021.html) for the event video.
 
 Here is a graphic summary of the event:
 ![Event summary]({{ site.baseurl }}/images/Symposium_Summary.png)
 
+Our unworkshop on sustainability:
+![Unworkshop summary - sustainability]({{ site.baseurl }}/images/Accelerate_UnWk_Sus_Design.png)
 
+Our unworkshop on machine learning and the physical world:
+![Unworkshop summary - physical world]({{ site.baseurl }}/images/Accelerate_UnWk_Physical_World.png)
 
-Here is another summary of the event:
-<img src="{{ site.baseurl }}/images/Symposium_Summary.png" alt="Graphic event summary" style="height: 200px; width:200px;"/>
+Our unworkshop on challenges in science and maths:
+![Unworkshop summary - science and maths]({{ site.baseurl }}/images/Accelerate_UnWk_Maths_Sci.png)
 
