@@ -35,9 +35,9 @@ Alzheimer lesion quantification is another application of the technology. With o
 
 I was keen to learn Python as part of the Accelerate Programme for Scientific Discovery while I was a researcher mulling over how to commercialise my research. While I don’t need to use the software while heading up VRi, because we have two dedicated data scientist and machine learning experts on my team, the knowledge I gained from the course is still incredibly useful. It would be harder to understand how they are using machine learning or speak the same language as technical team members, without the information I learned on the programme. Maybe I could have reached where I am today without it, but it would probably have taken longer.
 
-***Daniel Esteban-Ferrer (March 2022)***
-
-
 **Looking to the future**
 
 For now, our technology is largely used by researchers for blue sky science, but we plan to start working on real use cases that will more directly benefit society. One application we’re developing is the automatic measurement of the different magnitudes of blood vessels, which could help doctors prepare faster for vascular surgery. This is still work in progress but it could save at least one to two hours of tedious, repetitive work for vascular surgeons every day. We plan to have our first commercial application (for research use only) in less than one year. We hope to obtain CE and FDA certifications within the next two years, which would unlock the market to international healthcare systems.
+
+
+***Daniel Esteban-Ferrer (March 2022)***
