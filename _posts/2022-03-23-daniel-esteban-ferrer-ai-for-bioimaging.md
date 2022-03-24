@@ -37,7 +37,7 @@ I was keen to learn Python as part of the Accelerate Programme for Scientific Di
 
 **Looking to the future**
 
-For now, our technology is largely used by researchers for blue sky science, but we plan to start working on real use cases that will more directly benefit society. One application we’re developing is the automatic measurement of the different magnitudes of blood vessels, which could help doctors prepare faster for vascular surgery. This is still work in progress but it could save at least one to two hours of tedious, repetitive work for vascular surgeons every day. We plan to have our first commercial application (for research use only) in less than one year. We hope to obtain CE and FDA certifications within the next two years, which would unlock the market to international healthcare systems.
+For now, our technology is largely used by researchers for blue sky science, but we plan to start working on real use cases that will more directly benefit society. One application we’re developing is the automatic measurement of the different magnitudes of blood vessels, which could help doctors prepare faster for vascular surgery. This is still work in progress but it could save at least one to two hours of tedious, repetitive work for vascular surgeons every day. We plan to have our first commercial application (for research use only) in less than one year. We hope to obtain CE and FDA certifications within the next two years, which would unlock the market to international healthcare systems. And finally, we are looking for external funding, a Chief Medical Officer, and we are always open to hire the best talent in Data Science,  Machine Learning for bioimaging and Computer Vision.
 
 
 ***Daniel Esteban-Ferrer (March 2022)***
