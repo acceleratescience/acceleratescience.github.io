@@ -4,7 +4,7 @@ backend:
 
 local_backend: true
 
-media_folder: 'assets/uploads'
+media_folder: 'assets/images'
 
 collections:
   # General Website Settings
@@ -28,7 +28,7 @@ collections:
               - {label: Link Text, name: link_text, hint: Provide the text for the URL link, widget: string}
               - {label: Icon Class, name: icon_class, hint: Select the icon class, widget: 'select', options: ["fa fa-star-half-empty", "fa fa-image", "fa fa-dot-circle-o"]}
               - {label: Text, name: text, hint: Provide some descriptive text for the box item, widget: text}
-§            
+            
       # Website Settings
       - label: 'Website Settings'
         name: 'site'
