@@ -459,16 +459,20 @@ collections:
       - label: 'Layout'
         name: 'layout'
         widget: 'hidden'
-        default: 'blog-single'
+        default: 'post'
       - label: 'Title'
         name: 'title'
         widget: 'string'
       - label: 'Excerpt'
         name: 'excerpt'
         widget: 'text'
+      - label: "Author"
+        name: "author"
+        widget: "string"
       - label: 'Featured Image'
-        name: 'featured_image'
+        name: 'preview'
         widget: 'image'
+        required: false
       - label: 'Body'
         name: 'body'
         widget: 'markdown'
@@ -526,8 +530,10 @@ collections:
         widget: 'string'
       - label: 'Event Date'
         name: 'event_date'
-        widget: 'date'
-        date_format: "DD.MM.YYYY"
+        widget: 'datetime'
+        date_format: "YYYY-MM-DD"
+        time_format: false
+        format: "YYYY-MM-DD"
       - label: 'Excerpt'
         name: 'excerpt'
         widget: 'text'
@@ -720,6 +726,12 @@ collections:
       - label: 'Excerpt'
         name: 'excerpt'
         widget: 'text'
+      - label: 'Date of Publication'
+        name: 'date'
+        widget: 'datetime'
+        format: "YYYY-MM-DD"
+        date_format: "YYYY-MM-DD"
+        time_format: false
       - label: 'Featured Image'
         name: 'featured_image'
         widget: 'image'
