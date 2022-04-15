@@ -22,10 +22,173 @@ collections:
             name: items
             widget: list
             fields:
-              - {label: Title, name: title, widget: string}
-              - {label: Image, name: image, widget: image}
-              - {label: Link, name: link, hint: Provide the URL for the box to link to, widget: string}
-              - {label: Link Text, name: link_text, hint: Provide the text for the URL link, widget: string}
-              - {label: Icon Class, name: icon_class, hint: Select the icon class, widget: 'select', options: ["fa fa-star-half-empty", "fa fa-image", "fa fa-dot-circle-o"]}
-              - {label: Text, name: text, hint: Provide some descriptive text for the box item, widget: text}
+            - {label: Title, name: title, widget: string}
+            - {label: Image, name: image, widget: image}
+            - {label: Link, name: link, hint: Provide the URL for the box to link to, widget: string}
+            - {label: Link Text, name: link_text, hint: Provide the text for the URL link, widget: string}
+            - {label: Icon Class, name: icon_class, hint: Select the icon class, widget: 'select', options: ["fa fa-star-half-empty", "fa fa-image", "fa fa-dot-circle-o"]}
+            - {label: Text, name: text, hint: Provide some descriptive text for the box item, widget: text}
             
+      # Website Settings
+      - label: 'Website Settings'
+        name: 'site'
+        file: '_data/site.yml'
+        editor:
+          preview: false
+        fields:
+          # Site Logo
+          - label: 'Site Logo'
+            name: 'site_logo'
+            widget: 'image'
+          - label: 'Site Logo Dark'
+            name: 'site_logo_dark'
+            widget: 'image'
+          # Contact Details
+          - label: 'Contact Details'
+            name: 'contact_details'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Address'
+                name: 'address'
+                widget: 'markdown'
+              - label: 'Tel'
+                name: 'tel'
+                widget: 'string'
+              - label: 'Fax'
+                name: 'fax'
+                widget: 'string'
+              - label: 'Email'
+                name: 'email'
+                widget: 'string'
+          # Social Details
+          - label: 'Social Details'
+            name: 'social_details'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Twitter'
+                name: 'twitter_link'
+                widget: 'string'
+              - label: 'Facebook'
+                name: 'facebook_link'
+                widget: 'string'
+              - label: 'Instagram'
+                name: 'instagram_link'
+                widget: 'string'
+          # Footer Settings
+          - label: 'Footer Images'
+            name: 'footer_images'
+            collapsed: true
+            widget: 'list'
+            required: false
+            fields: 
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+      # Navigation Menus
+      - label: 'Navigation Menus'
+        name: 'navigation_menus'
+        file: '_data/nav.yml'
+        editor:
+          preview: false
+        fields:
+          # Main Nav
+          - label: 'Main Nav'
+            name: 'main_nav'
+            collapsed: true
+            minimize_collapsed: true
+            widget: 'list'
+            required: false
+            fields: 
+              - label: 'Label'
+                name: 'label'
+                widget: 'string'
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+              - label: 'Submenu Item'
+                name: 'submenu_item'
+                collapsed: true
+                minimize_collapsed: true
+                widget: 'list'
+                required: false
+                fields: 
+                  - label: 'Label'
+                    name: 'label'
+                    widget: 'string'
+                  - label: 'Link'
+                    name: 'link'
+                    widget: 'string'
+          # Footer Nav
+          - label: 'Footer Nav'
+            name: 'footer_nav'
+            collapsed: true
+            minimize_collapsed: true
+            widget: 'list'
+            required: false
+            fields: 
+              - label: 'Label'
+                name: 'label'
+                widget: 'string'
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+              - label: 'Submenu Item'
+                name: 'submenu_item'
+                collapsed: true
+                minimize_collapsed: true
+                widget: 'list'
+                required: false
+                fields: 
+                  - label: 'Label'
+                    name: 'label'
+                    widget: 'string'
+                  - label: 'Link'
+                    name: 'link'
+                    widget: 'string'
+          # Top Nav
+          - label: 'Top Bar'
+            name: 'top_bar'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+              - label: 'Top Bar Nav'
+                name: 'top_bar_nav'
+                collapsed: true
+                minimize_collapsed: true
+                widget: 'list'
+                required: false
+                fields: 
+                  - label: 'Label'
+                    name: 'label'
+                    widget: 'string'
+                  - label: 'Link'
+                    name: 'link'
+                    widget: 'string'
+
+  # Pages
+  - name: 'pages'
+    label: 'Pages'
+    files:
+      # Homepage
+      - label: 'Homepage'
+        name: 'homepage'
+        file: '_data/homepage.yml'
+        editor:
+          preview: false
+        fields:
+          # Hero Section
+          - label: 'Hero'
+            name: 'hero'
+            collapsed: true
+            widget: 'object'
