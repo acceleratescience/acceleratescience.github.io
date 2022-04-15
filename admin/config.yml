@@ -1,0 +1,994 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+
+local_backend: true
+
+media_folder: 'assets/uploads'
+
+collections:
+  # General Website Settings
+  - name: 'website-settings'
+    label: 'Website Settings'
+    files:
+      # Box settings
+      - label: "Box Settings"
+        name: boxes
+        file: "_data/boxes.yml"
+        editor:
+          preview: false
+    fields:
+      - label: Box Items
+        name: items
+        widget: list
+        fields:
+          - {label: Title, name: title, widget: string}
+          - {label: Image, name: image, widget: image}
+          - {label: Link, name: link, hint: Provide the URL for the box to link to, widget: string}
+          - {label: Link Text, name: link_text, hint: Provide the text for the URL link, widget: string}
+          - {label: Icon Class, name: icon_class, hint: Select the icon class, widget: 'select', options: ["fa fa-star-half-empty", "fa fa-image", "fa fa-dot-circle-o"}
+          - {label: Text, name: text, hint: Provide some descriptive text for the box item, widget: text}
+            
+      # Website Settings
+      - label: 'Website Settings'
+        name: 'site'
+        file: '_data/site.yml'
+        editor:
+          preview: false
+        fields:
+          # Site Logo
+          - label: 'Site Logo'
+            name: 'site_logo'
+            widget: 'image'
+          - label: 'Site Logo Dark'
+            name: 'site_logo_dark'
+            widget: 'image'
+          # Contact Details
+          - label: 'Contact Details'
+            name: 'contact_details'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Address'
+                name: 'address'
+                widget: 'markdown'
+              - label: 'Tel'
+                name: 'tel'
+                widget: 'string'
+              - label: 'Fax'
+                name: 'fax'
+                widget: 'string'
+              - label: 'Email'
+                name: 'email'
+                widget: 'string'
+          # Social Details
+          - label: 'Social Details'
+            name: 'social_details'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Twitter'
+                name: 'twitter_link'
+                widget: 'string'
+              - label: 'Facebook'
+                name: 'facebook_link'
+                widget: 'string'
+              - label: 'Instagram'
+                name: 'instagram_link'
+                widget: 'string'
+          # Footer Settings
+          - label: 'Footer Images'
+            name: 'footer_images'
+            collapsed: true
+            widget: 'list'
+            required: false
+            fields: 
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+      # Navigation Menus
+      - label: 'Navigation Menus'
+        name: 'navigation_menus'
+        file: '_data/nav.yml'
+        editor:
+          preview: false
+        fields:
+          # Main Nav
+          - label: 'Main Nav'
+            name: 'main_nav'
+            collapsed: true
+            minimize_collapsed: true
+            widget: 'list'
+            required: false
+            fields: 
+              - label: 'Label'
+                name: 'label'
+                widget: 'string'
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+              - label: 'Submenu Item'
+                name: 'submenu_item'
+                collapsed: true
+                minimize_collapsed: true
+                widget: 'list'
+                required: false
+                fields: 
+                  - label: 'Label'
+                    name: 'label'
+                    widget: 'string'
+                  - label: 'Link'
+                    name: 'link'
+                    widget: 'string'
+          # Footer Nav
+          - label: 'Footer Nav'
+            name: 'footer_nav'
+            collapsed: true
+            minimize_collapsed: true
+            widget: 'list'
+            required: false
+            fields: 
+              - label: 'Label'
+                name: 'label'
+                widget: 'string'
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+              - label: 'Submenu Item'
+                name: 'submenu_item'
+                collapsed: true
+                minimize_collapsed: true
+                widget: 'list'
+                required: false
+                fields: 
+                  - label: 'Label'
+                    name: 'label'
+                    widget: 'string'
+                  - label: 'Link'
+                    name: 'link'
+                    widget: 'string'
+          # Top Nav
+          - label: 'Top Bar'
+            name: 'top_bar'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+              - label: 'Top Bar Nav'
+                name: 'top_bar_nav'
+                collapsed: true
+                minimize_collapsed: true
+                widget: 'list'
+                required: false
+                fields: 
+                  - label: 'Label'
+                    name: 'label'
+                    widget: 'string'
+                  - label: 'Link'
+                    name: 'link'
+                    widget: 'string'
+
+  # Pages
+  - name: 'pages'
+    label: 'Pages'
+    files:
+      # Homepage
+      - label: 'Homepage'
+        name: 'homepage'
+        file: '_data/homepage.yml'
+        editor:
+          preview: false
+        fields:
+          # Hero Section
+          - label: 'Hero'
+            name: 'hero'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+          # About Section
+          - label: 'About'
+            name: 'about'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+              - label: 'Heading'
+                name: 'heading'
+                widget: 'string'
+              - label: 'Content'
+                name: 'content'
+                widget: 'text'
+              - label: 'Link Label'
+                name: 'link_label'
+                widget: 'string'
+              - label: 'Link URL'
+                name: 'link_url'
+                widget: 'string'
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
+          # Research Section
+          - label: 'Research'
+            name: 'research'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+              - label: 'Heading'
+                name: 'heading'
+                widget: 'string'
+              - label: 'Content'
+                name: 'content'
+                widget: 'text'
+              - label: 'Link Label'
+                name: 'link_label'
+                widget: 'string'
+              - label: 'Link URL'
+                name: 'link_url'
+                widget: 'string'
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
+          # Partners
+          - label: 'Partners'
+            name: 'partners'
+            collapsed: true
+            minimize_collapsed: true
+            widget: 'list'
+            fields: 
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+      # About
+      - label: 'About'
+        name: 'about'
+        file: '_data/about.yml'
+        editor:
+          preview: false
+        fields:
+          # Hero Section
+          - label: 'Hero'
+            name: 'hero'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+          # Content
+          - label: 'Body'
+            name: 'body'
+            widget: 'markdown'
+          # Partners
+          - label: 'Partners'
+            name: 'partners'
+            collapsed: true
+            minimize_collapsed: true
+            widget: 'list'
+            fields: 
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+          # Grid
+          - label: 'Grid'
+            name: 'grid'
+            collapsed: true
+            minimize_collapsed: true
+            widget: 'list'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+              - label: 'Description'
+                name: 'description'
+                widget: 'string'
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
+      # Contact
+      - label: 'Contact'
+        name: 'contact'
+        file: '_data/contact.yml'
+        editor:
+          preview: false
+        fields:
+          # Hero Section
+          - label: 'Hero'
+            name: 'hero'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+          # Contact Details
+          - label: 'Contact Details'
+            name: 'contact_details'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
+      # Resources
+      - label: 'Resources'
+        name: 'resources'
+        file: '_data/resources.yml'
+        editor:
+          preview: false
+        fields:
+          # Hero Section
+          - label: 'Hero'
+            name: 'hero'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+          # Resources Section
+          - label: 'Resources'
+            name: 'resources'
+            collapsed: true
+            minimize_collapsed: true
+            widget: 'list'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+              - label: 'Category'
+                name: 'category'
+                widget: 'select'
+                options: ["Policy", "Teaching", "Software"]
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+              - label: 'Icon'
+                name: 'icon'
+                widget: 'image'
+      # Assessor App
+      - label: 'Assessor App'
+        name: 'assessor_app'
+        file: '_data/assessor_app.yml'
+        editor:
+          preview: false
+        fields:
+          # Hero Section
+          - label: 'Hero'
+            name: 'hero'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+          # Content Section
+          - label: 'Content'
+            name: 'content'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Body'
+                name: 'body'
+                widget: 'markdown'
+      # Privacy Policy
+      - label: 'Privacy Policy'
+        name: 'privacy_policy'
+        file: '_data/privacy_policy.yml'
+        editor:
+          preview: false
+        fields:
+          # Hero Section
+          - label: 'Hero'
+            name: 'hero'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+          # Content Section
+          - label: 'Content'
+            name: 'content'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Body'
+                name: 'body'
+                widget: 'markdown'
+      # Terms of Service
+      - label: 'Terms of Service'
+        name: 'terms_of_service'
+        file: '_data/terms_of_service.yml'
+        editor:
+          preview: false
+        fields:
+          # Hero Section
+          - label: 'Hero'
+            name: 'hero'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+          # Content Section
+          - label: 'Content'
+            name: 'content'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Body'
+                name: 'body'
+                widget: 'markdown'
+
+
+  # Blog Collection
+  - label: 'Blog'
+    name: 'Blog'
+    folder: '_posts'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - label: 'Layout'
+        name: 'layout'
+        widget: 'hidden'
+        default: 'blog-single'
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Excerpt'
+        name: 'excerpt'
+        widget: 'text'
+      - label: 'Featured Image'
+        name: 'featured_image'
+        widget: 'image'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+
+  # News Collection
+  - label: 'News'
+    name: 'News'
+    folder: '_news'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - label: 'Layout'
+        name: 'layout'
+        widget: 'hidden'
+        default: 'news-single'
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Excerpt'
+        name: 'excerpt'
+        widget: 'text'
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        multiple: true
+        options:
+          - { label: "AI Deployment and System Design", value: "ai-deployment-and-system-design" }
+          - { label: "AI for Research and Innovation", value: "ai-for-research-and-innovation" }
+          - { label: "AI Policy and Data Governance", value: "ai-policy-and-data-governance" }
+          - { label: "Machine Learning Theory and Methods", value: "machine-learning-theory-and-methods" }
+      - label: 'Featured Image'
+        name: 'featured_image'
+        widget: 'image'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+
+  # Events Collection
+  - label: 'Events'
+    name: 'events'
+    folder: '_events'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - label: 'Layout'
+        name: 'layout'
+        widget: 'hidden'
+        default: 'event-single'
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Event Date'
+        name: 'event_date'
+        widget: 'date'
+        date_format: "DD.MM.YYYY"
+      - label: 'Excerpt'
+        name: 'excerpt'
+        widget: 'text'
+      - label: 'Featured Image'
+        name: 'featured_image'
+        widget: 'image'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+  
+  # People Collection
+  - label: 'People'
+    name: 'people'
+    folder: '_people/'
+    create: true
+    slug: '{{given}}-{{family}}'
+    identifier_field: crsid
+    editor:
+      preview: false
+    fields:
+    - label: 'Layout'
+      name: 'layout'
+      widget: 'hidden'
+      default: 'person'
+    - label: Given Name
+      hint: "Include initials, e.g. Neil D."
+      name: given
+      widget: string
+    - label: Preferred Name
+      hint: "If you don't normally use your full given name (e.g. you are known as Nick not Nicholas)"
+      name: preferred
+      required: false
+      widget: string
+    - label: Family Name
+      name: family
+      widget: string
+    - label: Prefix
+      hint: Prefix of name (e.g. de, von, van)
+      name: prefix
+      required: false
+      widget: string
+    - label: Suffix
+      hint: "Suffix of name (e.g. III or Jr)."
+      name: suffix
+      required: false
+      widget: string
+    - label: "Cambridge crsid"
+      hint: "E.g. ads21. If a ml@cl member doesn't have a crsid create a dummy one starting with five x's, e.g. xxxxx01."
+      name: 'crsid'
+      widget: 'string'
+    - label: Student
+      name: student
+      widget: "boolean"
+      required: false
+    - name: start
+      label: "Date of start in ml@cl"
+      hint: "Provide the day that the individual started in the ml@cl group."
+      widget: 'datetime'
+      format: "YYYY-MM-DD"
+      date_format: "YYYY-MM-DD"
+      time_format: false
+    - name: end
+      label: "Date of finish in ml@cl"
+      hint: "Provide the day that the individual finished in the ml@cl group."
+      widget: 'datetime'
+      format: "YYYY-MM-DD"
+      date_format: "YYYY-MM-DD"
+      time_format: false
+      default: ""
+      required: false
+    - label: "Personal Homepage"
+      name: website
+      hint: "URL of the individual's personal homepage."
+      widget: "string"
+      required: false
+    - label: "ORCID number"
+      name: orcid
+      hint: "Open Researcher and Contributor ID number (see https://orcid.org)"
+      widget: "string"
+      required: false
+    - label: 'Description'
+      name: 'description'
+      widget: 'text'
+    - label: 'Image'
+      hint: "Please provide a portrait of the person."
+      name: 'image'
+      widget: 'image'
+    - label: 'GitHub ID'
+      name: 'github'
+      widget: 'string'
+      required: false
+    - label: 'LinkedIn ID'
+      name: 'linkedin'
+      widget: 'string'
+      required: false
+    - label: 'Twitter'
+      name: 'twitter'
+      widget: 'string'
+      required: false
+    - label: 'Facebook'
+      name: 'facebook'
+      widget: 'string'
+      required: false
+    - label: 'Email'
+      name: 'email'
+      widget: 'string'
+      required: false
+    - label: 'Biography'
+      name: 'biography'
+      widget: 'markdown'
+      required: false
+    - label: 'Related Publications'
+      name: 'publications'
+      widget: 'relation'
+      collection: 'Publications'
+      search_fields: ["title"]
+      value_field: "{{slug}}"
+      display_fields: ["title"]
+      multiple: true
+      required: false
+    - label: 'Body'
+      name: 'body'
+      widget: 'markdown'
+      required: false
+
+  # Research Collection
+  - label: 'Research'
+    name: 'research'
+    folder: '_research/'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - label: 'Layout'
+        name: 'layout'
+        widget: 'hidden'
+        default: 'research-single'
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Excerpt'
+        name: 'excerpt'
+        widget: 'text'
+      - label: 'Featured Image'
+        name: 'featured_image'
+        widget: 'image'
+      - label: 'Overview Short'
+        name: 'overview_short'
+        widget: 'markdown'
+      - label: 'Overview Long'
+        name: 'overview_long'
+        widget: 'markdown'
+        required: false
+      - label: 'Related Projects'
+        name: 'projects'
+        widget: 'relation'
+        collection: 'projects'
+        search_fields: ["title"]
+        value_field: "{{slug}}"
+        display_fields: ["title"]
+        multiple: true
+        required: false
+      - label: 'Related People'
+        name: 'people'
+        widget: 'relation'
+        collection: 'people'
+        search_fields: ["title"]
+        value_field: "{{slug}}"
+        display_fields: ["title"]
+        multiple: true
+        required: false
+
+  # Project Collection
+  - label: 'Projects'
+    name: 'projects'
+    folder: '_projects/'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - label: 'Layout'
+        name: 'layout'
+        widget: 'hidden'
+        default: 'project-single'
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Excerpt'
+        name: 'excerpt'
+        widget: 'text'
+      - label: 'Featured Image'
+        name: 'featured_image'
+        widget: 'image'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+      - label: 'Project Funders'
+        name: 'project_funders'
+        collapsed: true
+        minimize_collapsed: true
+        required: false
+        widget: 'list'
+        fields: 
+          - label: 'Image'
+            name: 'image'
+            widget: 'image'
+          - label: 'Link'
+            name: 'link'
+            widget: 'string'
+      - label: 'Related People'
+        name: 'people'
+        widget: 'relation'
+        collection: 'people'
+        search_fields: ["given", "family"]
+        value_field: "{{slug}}"
+        display_fields: ["given", "family"]
+        multiple: true
+        required: false
+      - label: 'Related Publications'
+        name: 'publications'
+        widget: 'relation'
+        collection: 'Publications'
+        search_fields: ["title"]
+        value_field: "{{slug}}"
+        display_fields: ["title"]
+        multiple: true
+        required: false
+
+  # Publications Collection
+  - label: 'Publications'
+    name: 'Publications'
+    folder: '_publications'
+    create: true
+    slug: '{{published}}-{{title | slug}}'
+    editor:
+      preview: false
+    fields:
+      - label: 'Layout'
+        name: 'layout'
+        widget: "select"
+        options: ["article", "inproceedings", "incollection", "techreport", "misc", "book", "proceedings"]
+        hint: "For journal papers use 'article', for conference papers use 'inproceedings', for book chapters use 'incollection', for arXiv, SSRN and other tech reports use 'techreport', for books use 'book', for proceedings use 'proceedings' for others use 'misc'."
+        default: "article"
+      - label: 'Title'
+        name: 'title'
+        hint: "Title of the paper as published. Please capitalise the title."
+        widget: 'string'
+      - label: 'Abstract'
+        name: 'abstract'
+        widget: 'markdown'
+        hint: "Abstract of the paper as publishied, or for books provide a synopsis."
+      - label: 'Date of Publication'
+        name: 'published'
+        widget: 'datetime'
+        format: "YYYY-MM-DD"
+        date_format: "YYYY-MM-DD"
+        time_format: false
+      - label: "Authors"
+        name: author
+        widget: 'list'
+        allow_add: true
+        fields:
+        - label: Family Name
+          name: family
+          widget: string
+          required: false
+        - label: Given Name
+          hint: "Include initials, e.g. Neil D."
+          name: given
+          widget: string
+          required: false
+        - label: Prefix
+          hint: "e.g. de, von, van"
+          name: prefix
+          required: false
+          widget: string
+        - label: Suffix
+          name: suffix
+          widget: string
+          required: false
+        - label: 'Person Page'
+          hint: "Use this field if the author is a member of ml@cl"
+          name: 'person_page'
+          widget: 'relation'
+          collection: 'people'
+          search_fields: ["given", "family"]
+          value_field: "{{slug}}"
+          display_fields: ["given", "family"]
+          multiple: false
+          required: false          
+        - label: Consortium
+          name: consortium
+          hint: "Some papers are written by a consortium of authors. If that's the case for this paper use this field to fill in the consortium."
+          widget: "object"
+          required: false
+          fields:
+          - name: name
+            label: Name
+            hint: Provide the name of the consortium.
+            widget: string
+            required: false
+          - name: url
+            label: Link
+            hint: Provide a URL link to the consortium.
+            widget: string
+            required: false
+      - label: "Journal"
+        name: journal
+        hint: "The name of the journal where the paper was published (if it is an article)."
+        widget: string
+        required: false
+      - label: "Volume"
+        name: volume
+        hint: "The volume number that the paper appears in."
+        widget: string
+        required: false
+      - label: "Number"
+        name: number
+        hint: "The issue number that the paper appears in."
+        widget: string
+        required: false
+      - label: "Collection/Proceedings Name"
+        name: container-title
+        hint: "The name of the collection or proceedings in which the paper appears."
+        widget: string
+        required: false
+      - label: "Pages"
+        name: pages
+        hint: "The pages the paper is published on (if in numbers, provide as firstpage--lastpage)."
+        widget: string
+        required: false
+      - label: "Publisher"
+        name: publisher
+        hint: "The name of the paper publisher (e.g. Springer)."
+        widget: string
+        required: false
+      - label: "Address"
+        name: address
+        hint: "The address of the publisher (e.g. NY, USA)."
+        required: false
+      - label: "Paper's Publisher Website"
+        hint: "Provide the full URL to the paper on the website of the publisher"
+        name: "website"
+        widget: "string"
+        required: false
+      - label: "HTML Version of Paper"
+        hint: "Provide the full URL to the HTML version."
+        name: "html"
+        widget: "string"
+        required: false
+      - label: "PDF Version of Paper"
+        hint: Provide the full URL to the PDF version.
+        name: "pdf"
+        widget: "string"
+        required: false
+      - label: "Link to Software"
+        hint: "If there's code for the paper available somewhere provide the URL to that code."
+        name: "software"
+        widget: "string"
+        required: false
+      - label: "DOI"
+        hint: "If there's a DOI (see http://doi.org) for the paper provide it here (just the id, not the URL)."
+        name: "doi"
+        widget: "string"
+        required: false
+      - label: "Open Review ID"
+        hint: "If there's an Open Review version of the paper provide the id number only (not the URL)."
+        name: "openreview"
+        widget: "string"
+        required: false
+      - label: "arXiv ID"
+        hint: "If there's an arxiv version of the paper provide the id number only (not the URL)."
+        name: "arxiv"
+        widget: "string"
+        required: false
+      - label: "SSRN Number"
+        hint: "If there's an SSRN version of the paper provide the id number only (not the URL)."
+        name: "ssrn"
+        widget: "string"
+        required: false
+      - label: 'Featured Image'
+        name: 'featured_image'
+        hint: "Select an image from the paper to represent the work."
+        widget: 'image'
+        required: false
+      - label: "Editors"
+        name: editor
+        widget: 'list'
+        hint: "Provide the list of editors of the paper (if applicable)."
+        allow_add: true
+        fields:
+        - label: Family Name
+          name: family
+          widget: string
+          required: false
+        - label: Given Name
+          hint: "Include initials, e.g. Neil D."
+          name: given
+          widget: string
+          required: false
+        - label: Prefix
+          hint: "e.g. de, von, van"
+          name: prefix
+          required: false
+          widget: string
+        - label: Suffix
+          name: suffix
+          widget: string
+          required: false
+        - label: 'Person Page'
+          hint: "Use this field if the editor is a member of ml@cl"
+          name: 'person_page'
+          widget: 'relation'
+          collection: 'people'
+          search_fields: ["given", "family"]
+          value_field: "{{slug}}"
+          display_fields: ["given", "family"]
+          multiple: false
+          required: false          
+        - label: Consortium
+          name: consortium
+          hint: "Some works may be edited by a consortium of editors. If that's the case for this paper use this field to fill in the consortium details."
+          widget: "object"
+          required: false
+          fields:
+          - name: name
+            label: Name
+            hint: Provide the name of the consortium.
+            widget: string
+            required: false
+          - name: url
+            label: Link
+            hint: Provide a URL link to the consortium.
+            widget: string
+            required: false
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+        required: false
+  
+  # Opportunities Collection
+  - label: 'Opportunities'
+    name: 'opportunities'
+    folder: '_opportunities/'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - label: 'Layout'
+        name: 'layout'
+        widget: 'hidden'
+        default: 'opportunities-single'
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Excerpt'
+        name: 'excerpt'
+        widget: 'text'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'    
