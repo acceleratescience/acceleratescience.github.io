@@ -22,12 +22,12 @@ collections:
             name: items
             widget: list
             fields:
-            - {label: Title, name: title, widget: string}
-            - {label: Image, name: image, widget: image}
-            - {label: Link, name: link, hint: Provide the URL for the box to link to, widget: string}
-            - {label: Link Text, name: link_text, hint: Provide the text for the URL link, widget: string}
-            - {label: Icon Class, name: icon_class, hint: Select the icon class, widget: 'select', options: ["fa fa-star-half-empty", "fa fa-image", "fa fa-dot-circle-o"]}
-            - {label: Text, name: text, hint: Provide some descriptive text for the box item, widget: text}
+              - {label: Title, name: title, widget: string}
+              - {label: Image, name: image, widget: image}
+              - {label: Link, name: link, hint: Provide the URL for the box to link to, widget: string}
+              - {label: Link Text, name: link_text, hint: Provide the text for the URL link, widget: string}
+              - {label: Icon Class, name: icon_class, hint: Select the icon class, widget: 'select', options: ["fa fa-star-half-empty", "fa fa-image", "fa fa-dot-circle-o"]}
+              - {label: Text, name: text, hint: Provide some descriptive text for the box item, widget: text}
             
       # Website Settings
       - label: 'Website Settings'
@@ -176,19 +176,3 @@ collections:
                     name: 'link'
                     widget: 'string'
 
-  # Pages
-  - name: 'pages'
-    label: 'Pages'
-    files:
-      # Homepage
-      - label: 'Homepage'
-        name: 'homepage'
-        file: '_data/homepage.yml'
-        editor:
-          preview: false
-        fields:
-          # Hero Section
-          - label: 'Hero'
-            name: 'hero'
-            collapsed: true
-            widget: 'object'
