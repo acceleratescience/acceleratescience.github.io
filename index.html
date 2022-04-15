@@ -2,7 +2,7 @@
 layout: default
 section_id: home
 slides:
-  - bg: images/slider/1.jpg
+  - bg: assets/images/slider/1.jpg
     title: Accelerate Science
     info: Advancing scientific discovery with machine learning
     invert: False
@@ -16,7 +16,7 @@ slides:
         - text: Read More
           url: https://acceleratescience.github.io/latest.html
           class: boxed
-  - bg: images/slider/2.jpg
+  - bg: assets/images/slider/2.jpg
     title: Could AI accelerate your science?
     info: Join our  data science for science course
     invert: True
@@ -30,7 +30,7 @@ slides:
         - text: Read More
           url: https://acceleratescience.github.io/spark-course-summary.html
           class: boxed
-  - bg: images/headers/our-research.jpg
+  - bg: assets/images/headers/our-research.jpg
     title: An AI revolution in science?
     info: Join our next event
     invert: True
@@ -134,7 +134,7 @@ latest_news:
         {% endif %}
 
         <li class='frame {{class}}'>
-          <div class='bg' style='background-image: url({{site.baseurl}}/{{slide.bg}});'></div>
+          <div class='bg' style='background-image: url({{site.url}}{{site.baseurl}}/{{slide.bg}});'></div>
           {% if slide.infos %}
             {% for info in slide.infos %}
               <div class='info{{forloop.index}} {{info.animation}}'>
@@ -196,10 +196,10 @@ latest_news:
           {% for box in page.boxes %}
             <div class='box'>
               <!--<i class='{{box.icon_class}}'></i>-->
-              <img style='max-width:50px; display:block; margin:0 auto; margin-bottom:25px;' src='{{site.baseurl}}/images/{{box.image}}'/>
+              <img style='max-width:50px; display:block; margin:0 auto; margin-bottom:25px;' src='{{site.url}}{{site.baseurl}}/assets/images/{{box.image}}'/>
               <h4>{{box.title}}</h4>
               <p>{{box.text}}</p>
-              <a class="button small" href="{{site.baseurl}}/{{box.link}}">{{box.link_text}}</a>
+              <a class="button small" href="{{site.url}}{{site.baseurl}}/{{box.link}}">{{box.link_text}}</a>
             </div>
           {% endfor %}
         </div>
