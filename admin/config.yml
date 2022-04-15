@@ -176,3 +176,300 @@ collections:
                     name: 'link'
                     widget: 'string'
 
+  # Pages
+  - name: 'pages'
+    label: 'Pages'
+    files:
+      # Homepage
+      - label: 'Homepage'
+        name: 'homepage'
+        file: '_data/homepage.yml'
+        editor:
+          preview: false
+        fields:
+          # Hero Section
+          - label: 'Hero'
+            name: 'hero'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+          # About Section
+          - label: 'About'
+            name: 'about'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+              - label: 'Heading'
+                name: 'heading'
+                widget: 'string'
+              - label: 'Content'
+                name: 'content'
+                widget: 'text'
+              - label: 'Link Label'
+                name: 'link_label'
+                widget: 'string'
+              - label: 'Link URL'
+                name: 'link_url'
+                widget: 'string'
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
+          # Research Section
+          - label: 'Research'
+            name: 'research'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+              - label: 'Heading'
+                name: 'heading'
+                widget: 'string'
+              - label: 'Content'
+                name: 'content'
+                widget: 'text'
+              - label: 'Link Label'
+                name: 'link_label'
+                widget: 'string'
+              - label: 'Link URL'
+                name: 'link_url'
+                widget: 'string'
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
+          # Partners
+          - label: 'Partners'
+            name: 'partners'
+            collapsed: true
+            minimize_collapsed: true
+            widget: 'list'
+            fields: 
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+      # About
+      - label: 'About'
+        name: 'about'
+        file: '_data/about.yml'
+        editor:
+          preview: false
+        fields:
+          # Hero Section
+          - label: 'Hero'
+            name: 'hero'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+          # Content
+          - label: 'Body'
+            name: 'body'
+            widget: 'markdown'
+          # Partners
+          - label: 'Partners'
+            name: 'partners'
+            collapsed: true
+            minimize_collapsed: true
+            widget: 'list'
+            fields: 
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+          # Grid
+          - label: 'Grid'
+            name: 'grid'
+            collapsed: true
+            minimize_collapsed: true
+            widget: 'list'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+              - label: 'Description'
+                name: 'description'
+                widget: 'string'
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
+      # Contact
+      - label: 'Contact'
+        name: 'contact'
+        file: '_data/contact.yml'
+        editor:
+          preview: false
+        fields:
+          # Hero Section
+          - label: 'Hero'
+            name: 'hero'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+          # Contact Details
+          - label: 'Contact Details'
+            name: 'contact_details'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
+      # Resources
+      - label: 'Resources'
+        name: 'resources'
+        file: '_data/resources.yml'
+        editor:
+          preview: false
+        fields:
+          # Hero Section
+          - label: 'Hero'
+            name: 'hero'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+          # Resources Section
+          - label: 'Resources'
+            name: 'resources'
+            collapsed: true
+            minimize_collapsed: true
+            widget: 'list'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+              - label: 'Category'
+                name: 'category'
+                widget: 'select'
+                options: ["Policy", "Teaching", "Software"]
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+              - label: 'Icon'
+                name: 'icon'
+                widget: 'image'
+      # Assessor App
+      - label: 'Assessor App'
+        name: 'assessor_app'
+        file: '_data/assessor_app.yml'
+        editor:
+          preview: false
+        fields:
+          # Hero Section
+          - label: 'Hero'
+            name: 'hero'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+          # Content Section
+          - label: 'Content'
+            name: 'content'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Body'
+                name: 'body'
+                widget: 'markdown'
+      # Privacy Policy
+      - label: 'Privacy Policy'
+        name: 'privacy_policy'
+        file: '_data/privacy_policy.yml'
+        editor:
+          preview: false
+        fields:
+          # Hero Section
+          - label: 'Hero'
+            name: 'hero'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+          # Content Section
+          - label: 'Content'
+            name: 'content'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Body'
+                name: 'body'
+                widget: 'markdown'
+      # Terms of Service
+      - label: 'Terms of Service'
+        name: 'terms_of_service'
+        file: '_data/terms_of_service.yml'
+        editor:
+          preview: false
+        fields:
+          # Hero Section
+          - label: 'Hero'
+            name: 'hero'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+          # Content Section
+          - label: 'Content'
+            name: 'content'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Body'
+                name: 'body'
+                widget: 'markdown'
+
+
+  # Blog Collection
+  - label: 'Blog'
+    name: 'Blog'
+    folder: '_posts'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - label: 'Layout'
+        name: 'layout'
+        widget: 'hidden'
+        default: 'blog-single'
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Excerpt'
+        name: 'excerpt'
+        widget: 'text'
+      - label: 'Featured Image'
+        name: 'featured_image'
+        widget: 'image'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+
