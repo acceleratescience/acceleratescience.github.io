@@ -1,19 +1,21 @@
 ---
 layout: post
-title:  The frontiers, opportunities and challenges of AI for science – Accelerate’s 2021 Symposium
-date:   2021-12-22 10:00:00
-categories:
-  - Accelerate-Spark data science residency
-tags:
-  - news
-author: Jess Montgomery, University of Cambridge
-images:
+excerpt: On 19 November, Accelerate brought together researchers from across
+  Cambridge to share perspectives on how AI is supporting their work. This post
+  summarises some of the key points from discussions.
 preview:
   - images/michal-czyz-ALM7RNZuDH8-unsplash-2.jpg
-excerpt:
-   On 19 November, Accelerate brought together researchers from across Cambridge to share perspectives on how AI is supporting their work. This post summarises some of the key points from discussions.
+featured_image: /assets/images/unworkshop_2021_challenges_in_science_and_maths-original.jpg
+author: Jess Montgomery, University of Cambridge
+date: 2021-12-22 10:00:00
+title: The frontiers, opportunities and challenges of AI for science –
+  Accelerate’s 2021 Symposium
+images: null
+tags:
+  - news
+categories:
+  - Accelerate-Spark data science residency
 ---
-
 *On 19 November, Accelerate brought together researchers from across Cambridge to share perspectives on how AI is supporting their work. This post summarises some of the key points from discussions.*
 
 Researchers today have access to more and larger datasets than ever before. This data comes from large-scale scientific studies, from the digital mediation of daily activities, and from new approaches to simulation that generate synthetic datasets. Amidst this sea of data, the challenge is to make these vast datasets [‘drinkable’](http://inverseprobability.com/publications/data-readiness-levels.html). To make this data manageable, researchers need new tools that can interrogate a greater range of data types from a wider range of data sources, extracting insights in support of scientific progress.
@@ -23,6 +25,7 @@ In this context, there has been great enthusiasm for the use of machine learning
 One of the highest profile successes in the use of AI for science in the last year has come from [DeepMind’s AlphaFold project](https://deepmind.com/blog/article/alphafold-a-solution-to-a-50-year-old-grand-challenge-in-biology), which uses AI to advance scientific understandings of protein folding. In a fireside chat with Neil Lawrence, Pushmeet Kohli (Head of AI for Science, DeepMind) explained the importance of multidisciplinary collaborations in achieving its success. Protein shape and function are linked, and the ability to predict the shape of a protein would make an important contribution to efforts to understand and treat a range of diseases. Understanding how proteins fold is a long-standing scientific problem that research groups have been working on for many years. This previous research means that researchers already know the physical laws that determine how proteins fold, but even with this knowledge there is a huge number of different ways that a protein could fold before reaching its final configuration. The question for researchers is how to explore all those different configurations and predict the right one. Central to AlphaFold’s success is the combination of pre-existing knowledge about the physics of protein-folding with data-driven approaches. By internalising knowledge about the physical world, AlphaFold can leverage insights form data to predict protein structures more accurately. Combining physical and data-driven insights in this way requires interdisciplinary collaboration. 
 
 Such collaboration was on display across the Symposium’s unworkshops: 
+
 * In a session on sustainability, we heard how AI can be used to support the design of complex building structures with a lower environmental footprint, the creation of novel biomaterials that can be used in sustainable construction, and the development of more effective policy interventions to encourage low-carbon behaviours. 
 * In a discussion about the interaction between machine learning and the physical world, we heard about applications of AI to analyse climate data, agricultural data, clinical data, and biochemical data, with a focus on the challenges that affect practitioners across a range of disciplines and sectors. Steering AI-enabled analysis using insights from domain experts is central to the success of these projects; such insights help define relevant research questions and interrogate the outputs from AI systems. In the process, AI experts play an important role in guiding expectations about what AI can (and can’t) do, and in creating mechanisms for testing and validating the effectiveness of AI systems. 
 * An unworkshop on challenges for AI in science and maths explored how different disciplines are leveraging data types to enable research – from string theory to computational biology. While coming from different disciplinary perspectives, researchers often have shared challenges in dealing with highly multidimensional data, and in integrating data from across different scales or data sources. 
@@ -38,17 +41,16 @@ There is an opportunity today to develop AI technologies along a similar pathway
 This was our first Symposium, and we’d like to thank everyone who contributed to discussions. We hope it marks the start of a continuing discussion across Cambridge about the potential of AI in science, and how the research community can harness this potential. Check out our [event page](https://acceleratescience.github.io/annual-symposium-2021.html) for the event video.
 
 Here is a graphic summary of the event:
-![Event summary]({{ site.baseurl }}/images/Symposium_Summary.png)
+!\[Event summary]({{site.url}}{{ site.baseurl }}{{site.data.images.directory}}/Symposium_Summary.png)
 
 Our unworkshop on sustainability:
-![Unworkshop summary - sustainability]({{ site.baseurl }}/images/Accelerate_UnWk_Sus_Design.png)
+!\[Unworkshop summary - sustainability]({{site.url}}{{ site.baseurl }}{{site.data.images.directory}}/Accelerate_UnWk_Sus_Design.png)
 
 Our unworkshop on machine learning and the physical world:
-![Unworkshop summary - physical world]({{ site.baseurl }}/images/Accelerate_UnWk_Physical_World.png)
+!\[Unworkshop summary - physical world]({{site.url}}{{ site.baseurl }}{{site.data.images.directory}}/Accelerate_UnWk_Physical_World.png)
 
 Our unworkshop on challenges in science and maths:
-![Unworkshop summary - science and maths]({{ site.baseurl }}/images/Accelerate_UnWk_Maths_Sci.png)
+!\[Unworkshop summary - science and maths]({{site.url}}{{ site.baseurl }}{{site.data.images.directory}}/Accelerate_UnWk_Maths_Sci.png)
 
 Our fireside chat about AlphaFold:
-![Workshop summary - AlphaFold]({{ site.baseurl }}/images/Accelerate_Fireside_Chat_AlphaFold.png)
-
+!\[Workshop summary - AlphaFold]({{site.url}}{{ site.baseurl }}{{site.data.images.directory}}/Accelerate_Fireside_Chat_AlphaFold.png)
