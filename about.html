@@ -1,161 +1,20 @@
 ---
-layout: default
+layout: about
 section_id: about
-  
 ---
 
-<style>
-  .modTeamMember{min-height:500px; margin-bottom:25px;}
-
-  [class*="column"] + [class*="column"]:last-child {
-    float: left;
-}
-</style>
-
-<div class='full'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <h4 style='color: #999'>Learn more</h4>
-      <h2>About Us</h2>
-      <div class='spacing'></div>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='medium-8 columns'>
      
-     
-      <p>Artificial intelligence (AI) has the potential to become an engine for scientific discovery across disciplines – from predicting the impact of climate change, to using genetic data to create new healthcare treatments, and from finding new astronomical phenomena to identifying new materials here on Earth. 
-      </p>
-      <p>
-        The Accelerate Programme for Scientific Discovery will advance the frontiers of science through the application of AI.
-      </p>  
-      <p>
-        Supported by a donation from <a href='https://schmidtfutures.com/' target='_blank'>Schmidt Futures</a>, a philanthropic initiative founded by Eric and Wendy Schmidt, the Accelerate Programme will provide young researchers with specialised training in AI techniques, equipping them with the skills they need to use machine learning and AI to power their research.
-      </p>  
-      <p>
-        By pursuing an ambitious research agenda that applies machine learning to the scientific challenges of the 21st century, the Programme will generate insights that accelerate scientific progress and create AI tools that are capable of delivering benefits for science and society.
-      </p>     
-    </div>
-    <div class='medium-4 columns'>
-      <img class="fadeinright" width="500" height="336" alt="" src="images/@stock/schmidt-futures-support.jpg" />
-    </div>
-  </div>
- 
-</div>
-
-<div class='full'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <h3>Our team</h3>
-      <div class='spacing'></div>
-    </div>
-  </div>
-  <div class='row'>
-    {% assign people = site.people | sort: 'family' | sort: 'priority' | reverse %}
-    {% assign count = 0 %}
-    {% for person in people %}{% if person.team %}{% include extractname.html entry=person %}
-      {% assign count = count | plus: 1 %}
-      {% if count > 4 %}<!-- add in row here --> 
-      {% assign count = 1 %}
-  </div>
-  <div class='row'>
-      {% endif %}
-     <div class='small-6 medium-3 large-3 columns'>
-        <div class='mod modTeamMember style-2'>
-          <div class='member'>
-            <img class="avatar" alt="" src="{{ site.baseurl}}/{%if person.avatar and person.avatar != "" %}{{person.avatar}}{% else %}images/APSci_place-holder.jpg{%endif%}" />
-            <div class='overlay'>
-              <ul class='socials'>
-                {% for social in person.socials %}
-                  <li>
-                    <a target='_blank' href='{{social.url}}'>
-                      <i class='{{social.icon_class}}'></i>
-                    </a>
-                  </li>
-                {% endfor %}
-              </ul>
-            </div>
-          </div>
-          <h3>{{name}}</h3>{% if person.position %}
-          <p class='position'>{{person.position}}{% if person.department %}
-          <br>{{person.department}}{%endif%}</p>{%endif%}{%if person.desc%}
-          <p>{{person.desc}}</p>{%endif%}
-          <div class='two spacing'></div>
-        </div>
-      </div>
-   {% endif %}{% endfor %}
-  </div>
-  <div class='three spacing'></div>
-</div>
-
-<div class='full'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <h3>Advisory Group</h3>
-      <div class='spacing'></div>
-    </div>
-  </div>
-  <div class='row'>
-    {% assign count = 0 %}
-    {% assign people = site.people | sort: 'family' %}
-    {% for person in people %}{% if person.advisory %}{% include extractname.html entry=person %}
-      {% assign count = count | plus: 1 %}
-      {% if count > 4 %}<!-- add in row here --> 
-      {% assign count = 1 %}
-  </div>
-  <div class='row'>
-      {% endif %}
-    <div class='small-6 medium-3 large-3 columns'>
-        <div class='mod modTeamMember style-2'>
-          <div class='member'>
-            <img class="avatar" alt="" src="{{site.baseurl}}/{{person.avatar}}" />
-          </div>
-          <h3>{{name}}</h3>{% if person.position %}
-          <p class='position'>{{person.position}}{% if person.department %}
-          <br>{{person.department}}{%endif%}</p>{%endif%}
-          <!--<p>{{person.desc}}</p>-->
-          <div class='two spacing'></div>
-        </div>
-      </div>
-    {% endif %}{% endfor %}
-  </div>
-  <div class='three spacing'></div>
-</div>
-
-<!--<div class='row'>
-  <div class='large-12 columns'>
-    <h3>Advisory Group</h3>
-    <div class='spacing'></div>
-    <ul class='shortcode-list'>
-      <li>
-        <i class='fa fa-check'></i>
-        Ann Copestake, Head of the Department of Computer Science and Technology
-      </li>
-      <li>
-        <i class='fa fa-check'></i>
-        Mark Girolami, Professor of Computing and Inferential Science
-      </li>
-      <li>
-        <i class='fa fa-check'></i>
-        Austen Lamacraft, Professor of Theoretical Physics
-      </li>
-      <li>
-        <i class='fa fa-check'></i>
-        Neil Lawrence, DeepMind Professor of Machine Learning
-      </li>
-      <li>
-        <i class='fa fa-check'></i>
-        Richard Turner, Reader in Machine Learning
-      </li>
-      <li>
-        <i class='fa fa-check'></i>
-        Sarah Teichman, Director of Research, Department of Physics, and Head of Cellular Genetics, Wellcome Sanger Institute
-      </li>
-    </ul>
-    <div class='three spacing'></div>
-  </div>
-</div>-->
-
+<p>Artificial intelligence (AI) has the potential to become an engine for scientific discovery across disciplines – from predicting the impact of climate change, to using genetic data to create new healthcare treatments, and from finding new astronomical phenomena to identifying new materials here on Earth. 
+</p>
+<p>
+  The Accelerate Programme for Scientific Discovery will advance the frontiers of science through the application of AI.
+</p>  
+<p>
+  Supported by a donation from <a href='https://schmidtfutures.com/' target='_blank'>Schmidt Futures</a>, a philanthropic initiative founded by Eric and Wendy Schmidt, the Accelerate Programme will provide young researchers with specialised training in AI techniques, equipping them with the skills they need to use machine learning and AI to power their research.
+</p>  
+<p>
+  By pursuing an ambitious research agenda that applies machine learning to the scientific challenges of the 21st century, the Programme will generate insights that accelerate scientific progress and create AI tools that are capable of delivering benefits for science and society.
+</p>     
 
 
 

@@ -1,6 +1,6 @@
 ---
 title: Making connections - brains and other complex systems
-image: images/QMmulti.jpg
+image: QMmulti.jpg
 start: 2021-05-20 15:00:00Z
 end: 2021-05-20 16:00:00Z
 link_to: https://talks.cam.ac.uk/show/index/128590

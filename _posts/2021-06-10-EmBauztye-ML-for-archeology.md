@@ -9,7 +9,7 @@ tags:
 author: Ema Bauzyte, Department of Archeology, University of Cambridge
 images:
 preview:
-  - images/emabauzyte.jpg
+  - emabauzyte.jpg
 excerpt:
   The composition of metals found at archeological sites can tell us a lot about the communities that lived in an area. In my research, I analyse metals found at archeological sites in Cyprus to investigate what metals were used by whom, and to understand how craftspeople in these communities worked.
 ---

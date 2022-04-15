@@ -1,5 +1,5 @@
 ---
-image: images/QMmulti.jpg
+image: QMmulti.jpg
 title: "Through the eyes of a descriptor: Constructing complete, invertible, descriptions of atomic environments"
 start: 2021-06-14 16:30
 end: 2021-06-14 17:00

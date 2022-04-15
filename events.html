@@ -7,7 +7,7 @@ section_id: events
   .box{margin-bottom:50px;}
 </style>
 
-<div class='full title' style='background-image:url({{site.baseurl}}/images/headers/event.jpg); min-height:250px'>
+<div class='full title' style='background-image:url({{site.baseurl}}{{site.data.images.directory}}/headers/event.jpg); min-height:250px'>
   <div class='row'>
     <div class='large-12 columns'>
       <h2 style='letter-spacing: 2px;font-size: 4.28571rem; color: rgb(255, 255, 255); text-transform:capitalize'>Events</h2>
@@ -31,7 +31,7 @@ section_id: events
             <div class='box'>
               <div class='row'>
                 <div class='large-3 columns'>
-                  <img src="{{site.baseurl}}/{{event.image}}"/>
+                  <img src="{{site.url}}{{site.baseurl}}{{site.data.images.directory}}{{event.image}}"/>
                 </div>
                 <div class='large-9 columns'>
                   <h4>{{event.title}}</h4>
@@ -53,12 +53,12 @@ section_id: events
   <div class='row'>
     <div class='large-6 columns'>
       <p class='centered-text'>
-        <a class='button' href='{{site.baseurl}}/past-events.html'>Past Events</a>
+        <a class='button' href='{{site.url}}{{site.baseurl}}/past-events.html'>Past Events</a>
       </p>
     </div>
     <div class='large-6 columns'>
       <p class='centered-text'>
-        <a class='button' href='{{site.baseurl}}/get-involved.html'>Subscribe</a>
+        <a class='button' href='{{site.url}}{{site.baseurl}}/get-involved.html'>Subscribe</a>
       </p>
     </div>
   </div>
