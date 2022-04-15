@@ -48,12 +48,18 @@ collections:
               - {label: Colour, name: colour, widget: 'select', options: ["#ffae0d", "#8c31ce"]}
               - label: Buttons,
                 name: buttons
-                widget: 'list'
-                allow_add: True
+                widget: 'object'
                 fields:
-                  - {label: Link, name: link, hint: Provide the URL for the button to link to, widget: string}
-                  - {label: Link Text, name: link_text, hint: Provide the text for the URL link, widget: string}
-                  - {label: Class, name: class, default: boxed, widget: "hidden"}
+                  - {label: Animation, name: animation, widget: 'select', options: ["bottom-to-top", "top-to-bottom"]}
+                  - {label: Class, name: class, widget: 'select', options: ["medium-12"]}
+                  - label: Items
+                    name: items
+                    widget: "list"
+                    allow_add: True
+                    fields:
+                      - {label: Link, name: link, hint: Provide the URL for the button to link to, widget: string}
+                      - {label: Link Text, name: link_text, hint: Provide the text for the URL link, widget: string}
+                      - {label: Class, name: class, default: boxed, widget: "hidden"}
             
       # Website Settings
       - label: 'Website Settings'
