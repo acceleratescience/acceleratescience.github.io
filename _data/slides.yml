@@ -10,8 +10,8 @@ items:
       animation: bottom-to-top
       class: medium-12
       items:
-        - text: Read More
-          url: https://acceleratescience.github.io/latest.html
+        - link_text: Read More
+          link: https://acceleratescience.github.io/latest.html
           class: boxed
   - bg: slider/2.jpg
     title: Could AI accelerate your science?
@@ -24,8 +24,8 @@ items:
       animation: bottom-to-top
       class: medium-12
       items:
-        - text: Read More
-          url: https://acceleratescience.github.io/spark-course-summary.html
+        - link_text: Read More
+          link: https://acceleratescience.github.io/spark-course-summary.html
           class: boxed
   - bg: headers/our-research.jpg
     title: An AI revolution in science?
@@ -38,6 +38,6 @@ items:
       animation: bottom-to-top
       class: medium-12
       items:
-        - text: Read More
-          url: https://acceleratescience.github.io/events.html
+        - link_text: Read More
+          link: https://acceleratescience.github.io/events.html
           class: boxed
