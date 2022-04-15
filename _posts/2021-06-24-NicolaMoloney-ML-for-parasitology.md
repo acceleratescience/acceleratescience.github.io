@@ -9,7 +9,7 @@ tags:
 author: Nicola Moloney, Department of Biochemistry, University of Cambridge
 images:
 preview:
-  - images/nicolamoloney.jpg
+  - nicolamoloney.jpg
 excerpt:
   Understanding the proteome – the set of proteins that a cell produces – is crucial in understanding how a cell works, and (in the case of a disease-causing organism) developing effective treatments. One important way to understand the proteome is to study where proteins are found within a cell - known as spatial proteomics. Spatial proteomics can use machine learning methods with quantitative proteomic data to determine where proteins are localised within a cell.
 ---
