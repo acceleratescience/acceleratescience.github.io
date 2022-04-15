@@ -45,7 +45,7 @@ collections:
               - {label: Invert Colour, name: invert, widget: boolean}
               - {label: Animation, name: animation, widget: 'select', options: ["bottom-to-top", "top-to-bottom"]}
               - {label: Class, name: class, widget: 'select', options: ["large-11 medium-11", "large-8 medium-11"]}
-              - {label: Colour, name: colour, widget: 'select', options: ["#ffae0d", "#8c31ce"]}
+              - {label: Colour, name: color, widget: 'select', options: ["#ffae0d", "#8c31ce"]}
               - label: Buttons,
                 name: buttons
                 widget: 'object'
