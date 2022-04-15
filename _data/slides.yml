@@ -1,5 +1,5 @@
 items:
-  - bg: slider/1.jpg
+  - image: slider/1.jpg
     title: Accelerate Science
     info: Advancing scientific discovery with machine learning
     invert: False
@@ -13,7 +13,7 @@ items:
         - link_text: Read More
           link: https://acceleratescience.github.io/latest.html
           class: boxed
-  - bg: slider/2.jpg
+  - image: slider/2.jpg
     title: Could AI accelerate your science?
     info: Join our  data science for science course
     invert: True
@@ -27,7 +27,7 @@ items:
         - link_text: Read More
           link: https://acceleratescience.github.io/spark-course-summary.html
           class: boxed
-  - bg: headers/our-research.jpg
+  - image: headers/our-research.jpg
     title: An AI revolution in science?
     info: Join our next event
     invert: True

@@ -40,7 +40,7 @@ collections:
             widget: list
             fields:
               - {label: Title, name: title, widget: string}
-              - {label: Background Image, name: bg, widget: image}
+              - {label: Background Image, name: image, widget: image}
               - {label: Info, name: info, widget: string}
               - {label: Invert Colour, name: invert, widget: boolean}
               - {label: Animation, name: animation, widget: 'select', options: ["bottom-to-top", "top-to-bottom"]}
