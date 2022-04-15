@@ -28,6 +28,32 @@ collections:
               - {label: Link Text, name: link_text, hint: Provide the text for the URL link, widget: string}
               - {label: Icon Class, name: icon_class, hint: Select the icon class, widget: 'select', options: ["fa fa-star-half-empty", "fa fa-image", "fa fa-dot-circle-o"]}
               - {label: Text, name: text, hint: Provide some descriptive text for the box item, widget: markdown}
+      # Box settings
+      - label: "Slide Settings"
+        name: slides
+        file: "_data/slides.yml"
+        editor:
+          preview: false
+        fields:
+          - label: Slide Items
+            name: items
+            widget: list
+            fields:
+              - {label: Title, name: title, widget: string}
+              - {label: Background Image, name: bg, widget: image}
+              - {label: Info, name: info, widget: string}
+              - {label: Invert Colour, name: invert, widget: boolean}
+              - {label: Animation, name: animation, widget: 'select', options: ["bottom-to-top", "top-to-bottom"]}
+              - {label: Class, name: class, widget: 'select', options: ["large-11 medium-11", "large-8 medium-11"]}
+              - {label: Colour, name: colour, widget: 'select', options: ["#ffae0d", "#8c31ce"]}
+              - label: Buttons,
+                name: buttons
+                widget: 'list'
+                allow_add: True
+                fields:
+                  - {label: Link, name: link, hint: Provide the URL for the button to link to, widget: string}
+                  - {label: Link Text, name: link_text, hint: Provide the text for the URL link, widget: string}
+                  - {label: Class, name: class, default: boxed, widget: "hidden"}
             
       # Website Settings
       - label: 'Website Settings'
