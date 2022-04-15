@@ -1,0 +1,23 @@
+items:
+  - icon_class: fa fa-star-half-empty
+    title: Research
+    image: research 1.svg
+    text:
+      Accelerate Science pursues research that applies machine learning to the scientific challenges of the 21st century, generating insights that accelerate scientific progress and creating AI tools that are capable of delivering benefits for science and society.
+    link: research.html
+    link_text: Discover
+  - icon_class: fa fa-image
+    title: Education and training
+    image: Education and training 2.svg
+    text:
+      Accelerate Science is creating learning and development opportunities that help equip researchers with the machine learning skills and tools they need to drive a new wave of scientific progress.<br/><br/>
+    link: get-involved.html
+    link_text: Discover
+  - icon_class: fa fa-dot-circle-o
+    title: Engagement
+    image: Engagement.svg
+    text:
+      <br/>Accelerate Science is building a community of researchers committed to advancing the use of machine learning across research domains, with the aim of accelerating scientific discovery.<br/><br/><br/>
+    link: events.html
+    link_text: Discover
+

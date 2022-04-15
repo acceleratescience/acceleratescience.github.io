@@ -1,0 +1,16 @@
+items:
+  - text: "On 13 July, Professor Neil Lawrence will give a keynote at the University of Tuebingen's Annual Conference on Machine Learning in Science about how to design machine learning systems for real-world challenges. Find out more about our upcoming events here."
+    title: Machine learning and the physical world
+    date: July 2021
+    link: https://acceleratescience.github.io/events.html
+    link_text: Read More
+  - text: "Read more about how graduates from our Data Science for Science Residency are using machine learning in their research"
+    title: How can AI revolutionise your science?
+    date: July 2021
+    link: https://acceleratescience.github.io/blog/
+    link_text: Read More
+  - text: "Welcome to the Accelerate Programme! This new initiative will be advancing research at the interface of machine learning and the sciences."
+    title: Accelerate website launches
+    date: April 2021
+    link: https://acceleratescience.github.io/blog/
+    link_text: Welcome!
