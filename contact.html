@@ -40,16 +40,11 @@ section_id: contact
     <div class='medium-4 columns'>
       <div class='contact-details'>
         <h4>Find Us:</h4>
-        <p>Department of Computer Science and Technology<br/>
-          William Gates Building<br/>
-          15 J J Thomson Avenue<br/>
-          Cambridge<br/>
-          CB3 0FD
-          </p>
+	{{ site.data.site.contact_details.address | markdownify }}
         <h4><a href='https://www.cst.cam.ac.uk/directions' target='_blank'>Directions</a></h4>
         <p></p>
         <h4>Our Email:</h4>
-        <p>accelerate-science@cst.cam.ac.uk</p>
+        <p><a href='mailto:{{ site.data.site.contact_details.email }}'>{{ site.data.site.contact_details.email }}</a></p>
       </div>
     </div>
   </div>
