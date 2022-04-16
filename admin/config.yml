@@ -70,11 +70,12 @@ collections:
         fields:
           # Site Logo
           - label: 'Site Logo'
-            name: 'site_logo'
+            name: 'logo'
             widget: 'image'
           - label: 'Site Logo Dark'
-            name: 'site_logo_dark'
+            name: 'logo_dark'
             widget: 'image'
+            required: false
           # Contact Details
           - label: 'Contact Details'
             name: 'contact_details'
@@ -102,11 +103,16 @@ collections:
               - label: 'Twitter'
                 name: 'twitter_link'
                 widget: 'string'
+              - label: 'Youtube'
+                name: 'youtube_link'
+                widget: 'string'
               - label: 'Facebook'
                 name: 'facebook_link'
+                required: false
                 widget: 'string'
               - label: 'Instagram'
                 name: 'instagram_link'
+                required: false
                 widget: 'string'
           # Footer Settings
           - label: 'Footer Images'
@@ -118,9 +124,11 @@ collections:
               - label: 'Image'
                 name: 'image'
                 widget: 'image'
+                required: false
               - label: 'Link'
                 name: 'link'
                 widget: 'string'
+                required: false
       # Navigation Menus
       - label: 'Navigation Menus'
         name: 'navigation_menus'
@@ -142,6 +150,10 @@ collections:
               - label: 'Link'
                 name: 'link'
                 widget: 'string'
+              - label: 'Section ID'
+                name: 'section_id'
+                required: false
+                widget: 'string'
               - label: 'Submenu Item'
                 name: 'submenu_item'
                 collapsed: true
@@ -152,9 +164,11 @@ collections:
                   - label: 'Label'
                     name: 'label'
                     widget: 'string'
+                    required: false
                   - label: 'Link'
                     name: 'link'
                     widget: 'string'
+                    required: false
           # Footer Nav
           - label: 'Footer Nav'
             name: 'footer_nav'
@@ -179,9 +193,11 @@ collections:
                   - label: 'Label'
                     name: 'label'
                     widget: 'string'
+                    required: false
                   - label: 'Link'
                     name: 'link'
                     widget: 'string'
+                    required: false
           # Top Nav
           - label: 'Top Bar'
             name: 'top_bar'
@@ -207,201 +223,48 @@ collections:
                   - label: 'Link'
                     name: 'link'
                     widget: 'string'
-
   # Pages
   - name: 'pages'
     label: 'Pages'
     files:
       # Homepage
-      - label: 'Homepage'
-        name: 'homepage'
-        file: '_data/homepage.yml'
+      - label: 'Jupyter Notebooks'
+        name: 'jupyter_notebooks'
+        file: '_data/jupyter_notebooks.yml'
         editor:
           preview: false
         fields:
           # Hero Section
-          - label: 'Hero'
-            name: 'hero'
-            collapsed: true
-            widget: 'object'
-            fields:
-              - label: 'Title'
-                name: 'title'
-                widget: 'string'
-          # About Section
-          - label: 'About'
-            name: 'about'
-            collapsed: true
-            widget: 'object'
-            fields:
-              - label: 'Title'
-                name: 'title'
-                widget: 'string'
-              - label: 'Heading'
-                name: 'heading'
-                widget: 'string'
-              - label: 'Content'
-                name: 'content'
-                widget: 'text'
-              - label: 'Link Label'
-                name: 'link_label'
-                widget: 'string'
-              - label: 'Link URL'
-                name: 'link_url'
-                widget: 'string'
-              - label: 'Image'
-                name: 'image'
-                widget: 'image'
-          # Research Section
-          - label: 'Research'
-            name: 'research'
-            collapsed: true
-            widget: 'object'
-            fields:
-              - label: 'Title'
-                name: 'title'
-                widget: 'string'
-              - label: 'Heading'
-                name: 'heading'
-                widget: 'string'
-              - label: 'Content'
-                name: 'content'
-                widget: 'text'
-              - label: 'Link Label'
-                name: 'link_label'
-                widget: 'string'
-              - label: 'Link URL'
-                name: 'link_url'
-                widget: 'string'
-              - label: 'Image'
-                name: 'image'
-                widget: 'image'
-          # Partners
-          - label: 'Partners'
-            name: 'partners'
-            collapsed: true
-            minimize_collapsed: true
-            widget: 'list'
-            fields: 
-              - label: 'Image'
-                name: 'image'
-                widget: 'image'
-              - label: 'Link'
-                name: 'link'
-                widget: 'string'
-      # About
-      - label: 'About'
-        name: 'about'
-        file: '_data/about.yml'
-        editor:
-          preview: false
-        fields:
-          # Hero Section
-          - label: 'Hero'
-            name: 'hero'
-            collapsed: true
-            widget: 'object'
-            fields:
-              - label: 'Title'
-                name: 'title'
-                widget: 'string'
-          # Content
-          - label: 'Body'
-            name: 'body'
-            widget: 'markdown'
-          # Partners
-          - label: 'Partners'
-            name: 'partners'
-            collapsed: true
-            minimize_collapsed: true
-            widget: 'list'
-            fields: 
-              - label: 'Image'
-                name: 'image'
-                widget: 'image'
-              - label: 'Link'
-                name: 'link'
-                widget: 'string'
-          # Grid
-          - label: 'Grid'
-            name: 'grid'
-            collapsed: true
-            minimize_collapsed: true
+          - label: 'Notebooks'
+            name: 'items'
+            collapsed: false
             widget: 'list'
             fields:
               - label: 'Title'
                 name: 'title'
                 widget: 'string'
-              - label: 'Description'
-                name: 'description'
+              - label: 'Author'
+                name: 'author'
                 widget: 'string'
-              - label: 'Link'
-                name: 'link'
-                widget: 'string'
-              - label: 'Image'
-                name: 'image'
-                widget: 'image'
-      # Contact
-      - label: 'Contact'
-        name: 'contact'
-        file: '_data/contact.yml'
-        editor:
-          preview: false
-        fields:
-          # Hero Section
-          - label: 'Hero'
-            name: 'hero'
-            collapsed: true
-            widget: 'object'
-            fields:
-              - label: 'Title'
-                name: 'title'
-                widget: 'string'
-          # Contact Details
-          - label: 'Contact Details'
-            name: 'contact_details'
-            collapsed: true
-            widget: 'object'
-            fields:
-              - label: 'Image'
-                name: 'image'
-                widget: 'image'
-      # Resources
-      - label: 'Resources'
-        name: 'resources'
-        file: '_data/resources.yml'
-        editor:
-          preview: false
-        fields:
-          # Hero Section
-          - label: 'Hero'
-            name: 'hero'
-            collapsed: true
-            widget: 'object'
-            fields:
-              - label: 'Title'
-                name: 'title'
-                widget: 'string'
-          # Resources Section
-          - label: 'Resources'
-            name: 'resources'
-            collapsed: true
-            minimize_collapsed: true
-            widget: 'list'
-            fields:
-              - label: 'Title'
-                name: 'title'
-                widget: 'string'
-              - label: 'Category'
-                name: 'category'
-                widget: 'select'
-                options: ["Policy", "Teaching", "Software"]
-              - label: 'Link'
-                name: 'link'
-                widget: 'string'
-              - label: 'Icon'
-                name: 'icon'
-                widget: 'image'
+              - label: "Image"
+                name: "image"
+                widget: "image"
+              - label: "Excerpt"
+                name: "excerpt"
+                widget: "markdown"
+                required: false
+              - label: "Link to Notebook"
+                name: "link"
+                widget: "string"
+              - label: "Class"
+                name: "class"
+                widget: "select"
+                options: ["accelerate-school"]
+                
+  # Pages
+  - name: 'pages'
+    label: 'Pages'
+    files:
       # Assessor App
       - label: 'Assessor App'
         name: 'assessor_app'
@@ -479,6 +342,34 @@ collections:
                 widget: 'markdown'
 
 
+  # Resources Collection
+  - label: 'Resources'
+    name: 'resources'
+    folder: '_resources'
+    create: true
+    editor:
+      preview: false
+    fields:
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: "Excerpt"
+        name: "excerpt"
+        widget: "markdown"
+      - label: 'Category'
+        name: 'category'
+        widget: 'select'
+        options: ["Teaching", "Software", "Additional"]
+      - label: 'Link'
+        name: 'link'
+        widget: 'string'
+      - label: 'Link Label'
+        name: 'label'
+        widget: 'string'
+      - label: 'Icon'
+        name: 'icon'
+        widget: 'image'
+                
   # Blog Collection
   - label: 'Blog'
     name: 'Blog'

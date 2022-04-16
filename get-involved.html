@@ -58,7 +58,7 @@ opps:
               <h3>Contact us</h3>
       <p>Accelerate Science is building a community of researchers working at the interface of AI and the sciences. As we build this community, we’d like to keep in touch! Contact us to find out more about our work and forthcoming activities.</p>
       <h4>Our Email:</h4>
-      <a href='mailto:accelerate-science@cst.cam.ac.uk'>accelerate-science@cst.cam.ac.uk</a>
+      <a href='mailto:{{ site.data.site.contact_details.email }}'>{{ site.data.site.contact_details.email }}</a>
       <!--<div class='form'>
         <div class='row'>
           <form id='contact_form' method='POST'>
@@ -85,12 +85,7 @@ opps:
     <div class='medium-4 columns'>
       <div class='contact-details'>
         <h4>Find Us:</h4>
-        <p>Department of Computer Science and Technology<br/>
-          William Gates Building<br/>
-          15 J J Thomson Avenue<br/>
-          Cambridge<br/>
-          CB3 0FD
-          </p>
+	{{ site.data.site.contact_details.address | markdownify }}
         <!--<h4><a href='https://www.cst.cam.ac.uk/directions' target='_blank'>Directions</a></h4>-->
         <p></p>
        

@@ -1,0 +1,31 @@
+items:
+  - image: QMmulti.jpg
+    title: Accelerating drug screening using simulated docking molecules 
+    link: https://github.com/rohorne07/Accelerate-Notebook
+    class: accelerate-school
+    author: Rob Horne
+    excerpt: 
+  - image: QMmulti.jpg
+    title: Visualising and understanding simulations of black hole jets 
+    link: https://bitbucket.org/rt421/rt_dataforscience21/src/master/ 
+    class: accelerate-school
+    author: Rosie Talbot
+    excerpt:
+  - image: QMmulti.jpg
+    title: Understanding the public sector jobs market 
+    link: https://github.com/harrymich/Data_Science_Residency_Programme
+    class: accelerate-school
+    author: Harry Michalakakis
+    excerpt:
+  - image: QMmulti.jpg
+    title: Analysing stellar magnetic fields 
+    link: https://github.com/florian-lienhard/Accelerate_spark_project/blob/master/extract_b_field.ipynb 
+    class: accelerate-school
+    author: Florian Lienhard
+    excerpt: 
+  - image: QMmulti.jpg
+    title: Exploring the physical parameters of Fourier Transform AC Voltammetry signals  
+    link: https://github.com/freyjabd/Cambridge-Spark-Project/blob/main/Accelerate_science_project_FTacV.ipynb 
+    class: accelerate-school
+    author: Freyja Björk Dagbjartsdóttir
+    excerpt:
