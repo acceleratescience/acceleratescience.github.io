@@ -261,35 +261,6 @@ collections:
                 widget: "select"
                 options: ["accelerate-school"]
                 
-  # Pages
-  - name: 'pages'
-    label: 'Pages'
-    files:
-      # Assessor App
-      - label: 'Assessor App'
-        name: 'assessor_app'
-        file: '_data/assessor_app.yml'
-        editor:
-          preview: false
-        fields:
-          # Hero Section
-          - label: 'Hero'
-            name: 'hero'
-            collapsed: true
-            widget: 'object'
-            fields:
-              - label: 'Title'
-                name: 'title'
-                widget: 'string'
-          # Content Section
-          - label: 'Content'
-            name: 'content'
-            collapsed: true
-            widget: 'object'
-            fields:
-              - label: 'Body'
-                name: 'body'
-                widget: 'markdown'
       # Privacy Policy
       - label: 'Privacy Policy'
         name: 'privacy_policy'
