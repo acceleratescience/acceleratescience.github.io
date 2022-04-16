@@ -58,7 +58,7 @@ section_id: resources
         {% for work in site.data.jupyter_notebooks.items %}
           <li class='{{work.class}}'>
             <a target='blank' href='{{work.link}}'>
-              <img alt="" src="{{site.url}}{{site.baseurl}}{{site.data.images.directory}}/{{work.image}}" />
+              <img alt="" src="{{site.url}}/{{site.baseurl}}/{{site.data.images.directory}}/{{work.image}}" />
               <div class='overlay' style='background: rgba(0, 0, 0, 0); opacity:1'>  <!--rgba(27, 86, 234, 0.8);-->
                 <div class='thumb-info'>
                   <h3>{{work.title}}</h3>

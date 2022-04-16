@@ -41,16 +41,16 @@ There is an opportunity today to develop AI technologies along a similar pathway
 This was our first Symposium, and we’d like to thank everyone who contributed to discussions. We hope it marks the start of a continuing discussion across Cambridge about the potential of AI in science, and how the research community can harness this potential. Check out our [event page](https://acceleratescience.github.io/annual-symposium-2021.html) for the event video.
 
 Here is a graphic summary of the event:
-!\[Event summary]({{site.url}}{{ site.baseurl }}{{site.data.images.directory}}/Symposium_Summary.png)
+!\[Event summary]({{site.url}}/{{ site.baseurl }}/{{site.data.images.directory}}/Symposium_Summary.png)
 
 Our unworkshop on sustainability:
-!\[Unworkshop summary - sustainability]({{site.url}}{{ site.baseurl }}{{site.data.images.directory}}/Accelerate_UnWk_Sus_Design.png)
+!\[Unworkshop summary - sustainability]({{site.url}}/{{ site.baseurl }}/{{site.data.images.directory}}/Accelerate_UnWk_Sus_Design.png)
 
 Our unworkshop on machine learning and the physical world:
-!\[Unworkshop summary - physical world]({{site.url}}{{ site.baseurl }}{{site.data.images.directory}}/Accelerate_UnWk_Physical_World.png)
+!\[Unworkshop summary - physical world]({{site.url}}/{{ site.baseurl }}/{{site.data.images.directory}}/Accelerate_UnWk_Physical_World.png)
 
 Our unworkshop on challenges in science and maths:
-!\[Unworkshop summary - science and maths]({{site.url}}{{ site.baseurl }}{{site.data.images.directory}}/Accelerate_UnWk_Maths_Sci.png)
+!\[Unworkshop summary - science and maths]({{site.url}}/{{ site.baseurl }}/{{site.data.images.directory}}/Accelerate_UnWk_Maths_Sci.png)
 
 Our fireside chat about AlphaFold:
-!\[Workshop summary - AlphaFold]({{site.url}}{{ site.baseurl }}{{site.data.images.directory}}/Accelerate_Fireside_Chat_AlphaFold.png)
+!\[Workshop summary - AlphaFold]({{site.url}}/{{ site.baseurl }}/{{site.data.images.directory}}/Accelerate_Fireside_Chat_AlphaFold.png)
