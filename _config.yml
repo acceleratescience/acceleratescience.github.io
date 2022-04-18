@@ -20,6 +20,7 @@ collections:
   people:
     output: true
   publications:
+    permalink: /publications/:title:output_ext
     output: true
   resources:
     output: true
@@ -33,3 +34,15 @@ plugins:
 - jekyll-paginate-v2
 
 remote_theme: acceleratescience/jekyll-theme
+
+ghub:
+  edit: true
+  repository: acceleratescience.github.io
+
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    ris: true
+    apa: true
+  comments: false
