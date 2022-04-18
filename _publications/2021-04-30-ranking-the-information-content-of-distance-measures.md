@@ -1,4 +1,5 @@
 ---
+layout: techreport
 title: Ranking the Information Content of Distance Measures
 abstract: |
   Real-world data typically contain a large number of features that
@@ -17,19 +18,21 @@ abstract: |
   epidemic and to find compact yet informative representations of
   atomic structures, but its potential applications are wide ranging
   in many branches of science.
+description: Researchers can assess the similarity of different data points by
+  creating measures of distance between them. This paper assesses the amount of
+  information contained in different distance measures.
+published: 2021-04-30
 author:
-- family: Glielmo
-  given: Aldo
-- family: Zeni
-  given: Claudio
-- family: Cheng
-  given: Bingqing
-- family: Csanyi
-  given: Gabor
-- family: Laio
-  given: Alessandro
+  - family: Glielmo
+    given: Aldo
+  - family: Zeni
+    given: Claudio
+  - family: Cheng
+    given: Bingqing
+  - family: Csanyi
+    given: Gabor
+  - family: Laio
+    given: Alessandro
 doi: 10.48550/ARXIV.2104.15079
 arxiv: 2104.15079
-description: Researchers can assess the similarity of different data points by creating measures of distance between them. This paper assesses the amount of information contained in different distance measures. 
-published: 2021-04-30
 ---
