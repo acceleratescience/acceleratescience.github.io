@@ -3,7 +3,7 @@
     authors: Sebenius, I., Campbell, A., Morgan, S.E., Bullmore, E. and Liò, P. (2021) Multimodal Graph Coarsening for Interpretable, MRI-Based Brain Graph Neural Network. IEEE 31st International Workshop on Machine Learning for Signal Processing (MLSP) (2021)
     link_to: https://ieeexplore.ieee.org/document/9690626
     class: machine-learning
-    desc: This work applies graph neural networks to the study of MRI-based brain scans. It presents a model that classifies brain images from patients with schizophrenia and healthy control subjects, demonstrating that the use of multi-modal data can increase the accuracy of results. 
+    desc: 
   - image: images/@stock/one-page-work-1.jpg
     title: Gaussian Process Latent Variable Flows for Massively Missing Data 
     authors: Lalchand, V., Ravuri, A. and Lawrence, ND. (2021) Gaussian Process Latent Variable Flows for Massively Missing Data. AABI (2021)

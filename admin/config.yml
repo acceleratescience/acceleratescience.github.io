@@ -275,6 +275,86 @@ collections:
     label: 'Pages'
     files:
       # Homepage
+      - label: 'Homepage'
+        name: 'homepage'
+        file: '_data/homepage.yml'
+        editor:
+          preview: false
+        fields:
+          # Hero Section
+          - label: 'Index'
+            name: 'index'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+              - label: 'Content'
+                name: 'content'
+                widget: 'markdown'
+          # About Section
+          - label: 'About'
+            name: 'about'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+              - label: 'Heading'
+                name: 'heading'
+                widget: 'string'
+              - label: 'Content'
+                name: 'content'
+                widget: 'markdown'
+              - label: 'Link Label'
+                name: 'label'
+                widget: 'string'
+              - label: 'Link URL'
+                name: 'link'
+                widget: 'string'
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
+          # Research Section
+          - label: 'Research'
+            name: 'research'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+              - label: 'Heading'
+                name: 'heading'
+                widget: 'string'
+              - label: 'Content'
+                name: 'content'
+                widget: 'markdown'
+              - label: 'Link Label'
+                name: 'labell'
+                widget: 'string'
+              - label: 'Link URL'
+                name: 'link'
+                widget: 'string'
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
+          # Partners
+          - label: 'Partners'
+            name: 'partners'
+            collapsed: true
+            minimize_collapsed: true
+            widget: 'list'
+            fields: 
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+      # Jupyter Notebooks
       - label: 'Jupyter Notebooks'
         name: 'jupyter_notebooks'
         file: '_data/jupyter_notebooks.yml'

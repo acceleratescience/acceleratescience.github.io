@@ -19,6 +19,8 @@ collections:
     output: true
   people:
     output: true
+  publications:
+    output: true
   resources:
     output: true
   events:
