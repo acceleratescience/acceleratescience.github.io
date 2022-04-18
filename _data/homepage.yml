@@ -1,0 +1,117 @@
+index:
+  title: Machine learning systems for real-world challenges
+  content: "Amidst growing excitement about AI, a gap has emerged between our
+    aspirations for AI and our ability to deploy these technologies to tackle
+    real-world challenges. ML@CL aims to bridge this gap through innovations in
+    modelling, systems and software engineering for machine learning deployment;
+    the application of AI for scientific discovery; and the development of
+    policy frameworks for trustworthy and beneficial AI."
+about:
+  title: About Us
+  heading: 
+  content: "Artificial intelligence (AI) has the potential to become an engine for scientific discovery across disciplines – from predicting the impact of climate change, to using genetic data to create new healthcare treatments, and from finding new astronomical phenomena to identifying new materials here on Earth. 
+
+The Accelerate Programme for Scientific Discovery will advance the frontiers of science through the application of AI.
+
+Supported by a donation from [Schmidt Futures](https://schmidtfutures.com), a philanthropic initiative founded by Eric and Wendy Schmidt, the Accelerate Programme will provide young researchers with specialised training in AI techniques, equipping them with the skills they need to use machine learning and AI to power their research.
+
+  By pursuing an ambitious research agenda that applies machine learning to the scientific challenges of the 21st century, the Programme will generate insights that accelerate scientific progress and create AI tools that are capable of delivering benefits for science and society."
+  image: schmidt-futures-support.jpg
+  label: Read more
+  link: /about/
+research:
+  title: Research
+  heading: Our work addresses the full pipeline of AI system development, from
+    data acquisition, through model development to system deployment.
+  content: We work closely with practitioners, domain experts and policymakers to
+    understand and respond to the real-world challenges associated with AI
+    deployment. Our research spans the fundamentals of machine learning methods,
+    statistical emulation and uncertainty quantification, real-time inference
+    and decision-making, systems design, the application of AI in science and
+    industry, data stewardship, and AI policymaking. Find out more about current
+    projects on our Research pages.
+  image: /assets/images/ryoji-iwata-ibavuzsjjto-unsplash.jpg
+  link_label: Our Research
+  link_url: /research/
+partners:
+  - logo: the-university-of-cambridge.jpg
+    link: https://www.cam.ac.uk/
+    name: University of Cambridge
+  - link: https://www.turing.ac.uk/
+    logo: alan-turing-institute.png
+    name: The Alan Turing Institute
+  - logo: schmidt-futures.png
+    link: https://www.schmidtfutures.com/
+    name: Schmidt Futures
+  - logo: pjmf.png
+    link: https://www.mcgovern.org/
+    name: Patrick J. McGovern Foundation
+  - logo: wellcome-trust-alt.png
+    link: https://wellcome.org/
+    name: The Wellcome Trust
+slides:
+  - featured_image: slider/1.jpg
+    title: Accelerate Science
+    info: Advancing scientific discovery with machine learning
+    invert: False
+    animation: bottom-to-top
+    class: large-11 medium-11
+    color: "#ffae0d"
+    buttons:
+      animation: bottom-to-top
+      class: medium-12
+      items:
+        - label: Read More
+          link: https://acceleratescience.github.io/latest.html
+          class: boxed
+  - featured_image: slider/2.jpg
+    title: Could AI accelerate your science?
+    info: Join our  data science for science course
+    invert: True
+    animation: bottom-to-top
+    class: large-8 medium-11
+    color: "#ffae0d"
+    buttons:
+      animation: bottom-to-top
+      class: medium-12
+      items:
+        - label: Read More
+          link: https://acceleratescience.github.io/spark-course-summary.html
+          class: boxed
+  - featured_image: headers/our-research.jpg
+    title: An AI revolution in science?
+    info: Join our next event
+    invert: True
+    color: "#8c31ce"
+    animation: bottom-to-top
+    class: large-8 medium-11
+    buttons:
+      animation: bottom-to-top
+      class: medium-12
+      items:
+        - label: Read More
+          link: https://acceleratescience.github.io/events.html
+          class: boxed
+boxes:
+  - icon_class: fa fa-star-half-empty
+    title: Research
+    featured_image: research 1.svg
+    text:
+      Accelerate Science pursues research that applies machine learning to the scientific challenges of the 21st century, generating insights that accelerate scientific progress and creating AI tools that are capable of delivering benefits for science and society.
+    link: research.html
+    label: Discover
+  - icon_class: fa fa-image
+    title: Education and training
+    featured_image: Education and training 2.svg
+    text:
+      Accelerate Science is creating learning and development opportunities that help equip researchers with the machine learning skills and tools they need to drive a new wave of scientific progress.<br/><br/>
+    link: get-involved.html
+    label: Discover
+  - icon_class: fa fa-dot-circle-o
+    title: Engagement
+    featured_image: Engagement.svg
+    text:
+      <br/>Accelerate Science is building a community of researchers committed to advancing the use of machine learning across research domains, with the aim of accelerating scientific discovery.<br/><br/><br/>
+    link: events.html
+    label: Discover
+

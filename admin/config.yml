@@ -11,6 +11,21 @@ collections:
   - name: 'website-settings'
     label: 'Website Settings'
     files:
+      # Image settings
+      - label: "Image Settings"
+        name: images
+        file: "_data/images.yml"
+        editor:
+          preview: false
+        fields:
+          - label: Image directory
+            name: directory
+            widget: string
+            hint: The directory where images are stored.
+          - label: Person placeholder
+            name: person_placeholder
+            widget: image
+            hint: "A place-holder image for a person if they don't have one provided."
       # Box settings
       - label: "Box Settings"
         name: boxes
@@ -25,10 +40,10 @@ collections:
               - {label: Title, name: title, widget: string}
               - {label: Image, name: image, widget: image}
               - {label: Link, name: link, hint: Provide the URL for the box to link to, widget: string}
-              - {label: Link Text, name: link_text, hint: Provide the text for the URL link, widget: string}
+              - {label: Link Text, name: label, hint: Provide the text for the URL link, widget: string}
               - {label: Icon Class, name: icon_class, hint: Select the icon class, widget: 'select', options: ["fa fa-star-half-empty", "fa fa-image", "fa fa-dot-circle-o"]}
               - {label: Text, name: text, hint: Provide some descriptive text for the box item, widget: markdown}
-      # Box settings
+      # Slide settings
       - label: "Slide Settings"
         name: slides
         file: "_data/slides.yml"
@@ -58,7 +73,7 @@ collections:
                     allow_add: True
                     fields:
                       - {label: Link, name: link, hint: Provide the URL for the button to link to, widget: string}
-                      - {label: Link Text, name: link_text, hint: Provide the text for the URL link, widget: string}
+                      - {label: Link Text, name: label, hint: Provide the text for the URL link, widget: string}
                       - {label: Class, name: class, default: boxed, widget: "hidden"}
             
       # Website Settings
@@ -515,6 +530,7 @@ collections:
       hint: "Please provide a portrait of the person."
       name: 'image'
       widget: 'image'
+      required: false
     - label: 'GitHub ID'
       name: 'github'
       widget: 'string'
