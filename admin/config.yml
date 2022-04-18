@@ -816,7 +816,11 @@ collections:
       - label: 'Abstract'
         name: 'abstract'
         widget: 'markdown'
-        hint: "Abstract of the paper as publishied, or for books provide a synopsis."
+        hint: "Abstract of the paper as published, or for books provide a synopsis."
+      - label: 'Description'
+        name: 'description'
+        widget: 'markdown'
+        hint: "Short description in lay-terms of the publication."
       - label: 'Date of Publication'
         name: 'published'
         widget: 'datetime'
