@@ -1,20 +1,20 @@
 logo: apsci-logo-blue.png
-logo_dark: 
+logo_dark: null
 contact_details:
   tel: +44 (0)1223 334088
   fax: +44 (0)1223 334089
   email: accelerate-science@cst.cam.ac.uk
   address: |-
     Department of Computer Science and Technology  \
-          William Gates Building  \
-          15 J J Thomson Avenue  \
-          Cambridge  \
-          CB3 0FD
+    William Gates Building  \
+    15 J J Thomson Avenue  \
+    Cambridge  \
+    CB3 0FD
 social_details:
   twitter_link: https://twitter.com/AccelerateSci
   youtube_link: https://youtube.com/ProfNeilLawrence
-  facebook_link: 
-  instagram_link: 
+  facebook_link: null
+  instagram_link: null
 footer_images:
   - image: cambridge-university.png
     link: https://www.cam.ac.uk/
