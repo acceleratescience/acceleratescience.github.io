@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Liquid water contains the building blocks of diverse ice phases
+title: Liquid Water Contains the Building Blocks of Diverse Ice Phases
 abstract: Water molecules can arrange into a liquid with complex hydrogen-bond
   networks and at least 17 experimentally confirmed ice phases with enormous
   structural diversity. It remains a puzzle how or whether this multitude of
