@@ -239,6 +239,39 @@ collections:
                     name: 'link'
                     widget: 'string'
   # Pages
+  - name: 'teams'
+    label: 'Teams'
+    files:
+      # Accelerate team members
+      - label: 'Accelerate Team'
+        name: 'members'
+        file: '_data/teams.yml'
+        editor:
+          preview: false
+        fields:
+          - label: 'Accelerate Team'
+            name: 'members'
+            widget: 'relation'
+            collection: 'people'
+            search_fields: ["given", "family"]
+            value_field: "{{slug}}"
+            display_fields: ["given", "title"]
+            options_length: 999
+            multiple: true
+            required: false
+          # Accelerate Advisory Group
+          - label: 'Advisory Group'
+            name: 'advisory_group'
+            widget: 'relation'
+            collection: 'people'
+            search_fields: ["given", "family"]
+            value_field: "{{slug}}"
+            display_fields: ["given", "title"]
+            options_length: 999
+            multiple: true
+            required: false
+          
+  # Pages
   - name: 'pages'
     label: 'Pages'
     files:
@@ -605,15 +638,17 @@ collections:
         search_fields: ["title"]
         value_field: "{{slug}}"
         display_fields: ["title"]
+        options_length: 999
         multiple: true
         required: false
       - label: 'Related People'
         name: 'people'
         widget: 'relation'
         collection: 'people'
-        search_fields: ["title"]
+        search_fields: ["given", "family"]
         value_field: "{{slug}}"
-        display_fields: ["title"]
+        display_fields: ["given", "title"]
+        options_length: 999
         multiple: true
         required: false
 
