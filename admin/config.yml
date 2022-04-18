@@ -243,7 +243,7 @@ collections:
     label: 'Teams'
     files:
       # Accelerate team members
-      - label: 'Accelerate Team'
+      - label: 'Accelerate Teams'
         name: 'members'
         file: '_data/teams.yml'
         editor:
@@ -259,6 +259,13 @@ collections:
             options_length: 999
             multiple: true
             required: false
+      # Accelerate team members
+      - label: 'Advisory Group'
+        name: 'advisory_group'
+        file: '_data/teams.yml'
+        editor:
+          preview: false
+        fields:
           - label: 'Advisory Group'
             name: 'advisory_group'
             widget: 'relation'
