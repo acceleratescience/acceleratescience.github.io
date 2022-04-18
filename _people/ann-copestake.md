@@ -2,7 +2,6 @@
 given: Ann
 family: Copestake
 position: Head of the Department of Computer Science and Technology
-desc:
-avatar: Ann.jpg
+image: ann-copestake.jpg
 advisory: True
 ---
