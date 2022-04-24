@@ -9,7 +9,7 @@ pagination:
   <div class='big mod modBlogPost no_bg'>
     <div class='images'>
       {% for image in post.images %}
-        <div class='image'><img alt="" src="{{site.url}}/{{site.baseurl}}/{{site.data.images.directory}}/{{image}}" /></div>
+        <div class='image'><img alt="" src="{{site.data.images.directory | prepend: relative_url }}/{{image}}" /></div>
       {% endfor %}
     </div>
     <div class='content'>

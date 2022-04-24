@@ -9,7 +9,7 @@ tags:
 author: Diana Robinson, University of Cambridge
 images:
 preview:
-  - images/dianarobinson.jpg
+  - dianarobinson.jpg
 excerpt:
    Having the full institutional history of patient data to draw upon in decision making is one advantage of AI that clinicians are keen to embrace. AI-enabled data analysis could help clinicians pursue more effective treatments for issues such as post-operative bleeding, but AI tools will need to be fit for clinical practice.
 ---
