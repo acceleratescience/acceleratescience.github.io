@@ -27,12 +27,6 @@ collections:
   events:
     output: true
 
-plugins:
-- jekyll-feed
-- jekyll-seo-tag
-- jekyll-remote-theme
-- jekyll-paginate-v2
-
 remote_theme: acceleratescience/jekyll-theme
 
 ghub:
@@ -46,3 +40,18 @@ display:
     ris: true
     apa: true
   comments: false
+
+pagination:
+  enabled: true
+  per_page: 4
+  permalink: "blog/page:num"
+  title_suffix: " - page :num"
+  limit: 0
+  sort_field: "date"
+  sort_reverse: true
+
+plugins:
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+- jekyll-paginate-v2
