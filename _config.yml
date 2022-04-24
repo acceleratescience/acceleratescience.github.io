@@ -41,17 +41,20 @@ display:
     apa: true
   comments: false
 
-pagination:
-  enabled: true
-  per_page: 4
-  permalink: "blog/page:num"
-  title_suffix: " - page :num"
-  limit: 0
-  sort_field: "date"
-  sort_reverse: true
+paginate: 4
+paginate_path: "blog/page:num"
+# for paginate-v2 (not supported by github pages)
+# pagination:
+#   enabled: true
+#   per_page: 4
+#   permalink: "blog/page:num"
+#   title_suffix: " - page :num"
+#   limit: 0
+#   sort_field: "date"
+#   sort_reverse: true
 
 plugins:
 - jekyll-feed
 - jekyll-seo-tag
 - jekyll-remote-theme
-- jekyll-paginate-v2
+- jekyll-paginate
