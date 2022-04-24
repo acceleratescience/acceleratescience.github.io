@@ -1,5 +1,6 @@
 backend:
-  name: git-gateway
+  name: github # git-gateway
+  repo: acceleratescience/acceleratescience.github.io
   branch: main # Branch to update (optional; defaults to master)
 
 local_backend: true
