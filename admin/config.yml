@@ -282,7 +282,6 @@ collections:
         editor:
           preview: false
         fields:
-          # Hero Section
           - label: 'Index'
             name: 'index'
             collapsed: true
@@ -294,9 +293,15 @@ collections:
               - label: 'Content'
                 name: 'content'
                 widget: 'markdown'
-          # About Section
-          - label: 'About'
-            name: 'about'
+      # About Section
+      - label: 'About Page'
+        name: 'about'
+        file: '_data/homepage.yml'
+        editor:
+          preview: false
+        fields:
+          - label: 'About Us'
+            name: about
             collapsed: true
             widget: 'object'
             fields:
@@ -342,19 +347,25 @@ collections:
               - label: 'Image'
                 name: 'image'
                 widget: 'image'
-          # Partners
-          - label: 'Partners'
-            name: 'partners'
-            collapsed: true
-            minimize_collapsed: true
-            widget: 'list'
-            fields: 
-              - label: 'Image'
-                name: 'image'
-                widget: 'image'
-              - label: 'Link'
-                name: 'link'
-                widget: 'string'
+     # Partners
+     - label: 'Partners'
+       name: 'partners'
+       file: '_data/homepage.yml'
+       editor:
+         preview: false
+      fields:
+        - label: 'Our partners'
+          name: 'partners'
+          collapsed: true
+          minimize_collapsed: true
+          widget: 'list'
+          fields: 
+            - label: 'Image'
+              name: 'image'
+              widget: 'image'
+            - label: 'Link'
+              name: 'link'
+              widget: 'string'
       # Jupyter Notebooks
       - label: 'Jupyter Notebooks'
         name: 'jupyter_notebooks'
