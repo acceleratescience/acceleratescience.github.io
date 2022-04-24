@@ -1,15 +1,13 @@
 ---
 layout: blog
 section_id: blog
-pagination:
-  enabled: true
 ---
 
 {% for post in paginator.posts %}
   <div class='big mod modBlogPost no_bg'>
     <div class='images'>
       {% for image in post.images %}
-        <div class='image'><img alt="" src="{{site.data.images.directory | prepend: relative_url }}/{{image}}" /></div>
+        <div class='image'><img alt="" src="{{site.data.images.directory | relative_url }}/{{image}}" /></div>
       {% endfor %}
     </div>
     <div class='content'>
