@@ -9,7 +9,7 @@ tags:
 author: Jesse Allardice, (formerly) Department of Physics, University of Cambridge
 images:
 preview:
-  - images/jesseallardice.jpg
+  - jesseallardice.jpg
 excerpt:
    Solar photovoltaic technologies are vital for sustainable renewable energy. If we’re to make photovoltaics as effective as possible, we need advanced nanomaterials that optimally harvest the Sun’s electromagnetic spectrum. To design these materials, we need better understandings of the quantum dynamics and photo-physics at play. Machine learning can help develop these understandings by analysing high-dimensional datasets to reveal novel physics.
 ---

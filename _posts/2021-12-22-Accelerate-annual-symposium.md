@@ -4,7 +4,7 @@ excerpt: On 19 November, Accelerate brought together researchers from across
   Cambridge to share perspectives on how AI is supporting their work. This post
   summarises some of the key points from discussions.
 preview:
-  - images/michal-czyz-ALM7RNZuDH8-unsplash-2.jpg
+  - michal-czyz-ALM7RNZuDH8-unsplash-2.jpg
 featured_image: /assets/images/unworkshop_2021_challenges_in_science_and_maths-original.jpg
 author: Jess Montgomery, University of Cambridge
 date: 2021-12-22 10:00:00

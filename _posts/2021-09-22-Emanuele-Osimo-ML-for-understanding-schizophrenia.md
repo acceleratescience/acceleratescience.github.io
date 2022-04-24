@@ -9,7 +9,7 @@ tags:
 author: Emanuele Osimo, Chain Florey Clinical Fellow, Imperial College London, and Visiting Researcher, University of Cambridge
 images:
 preview:
-  - images/emanueleosimo.jpg
+  - emanueleosimo.jpg
 excerpt:
    I'm interested in finding out how mental and physical health are interlinked. I study this in serious mental illness, especially in schizophrenia. My long-term aim is understanding how to improve the treatments offered to patients, and help increase their quality of life. In order to do so, we need to disentangle different factors that contribute to a patient’s overall health. Data science and machine learning can help us understand the complex links between mental illness, physical health, and the genetic basis for conditions like schizophrenia.
 ---
