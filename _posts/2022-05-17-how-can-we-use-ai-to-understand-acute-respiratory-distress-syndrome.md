@@ -50,3 +50,7 @@ My research in ARDS continues and now also incorporates COVID, so I’m applying
 The ultimate goal is phenotyping – working out the exact underlying physical processes and biology of patients – so that intensive care clinicians will be able to work out the best trajectory for individuals based on features detected from simple blood tests that could measure genes or proteins in the blood.
 
 While this may be around 20 years away, my research is part of a growing body of work that will help doctors treat ARDS more effectively, and hopefully end 50 years of limited progress in this area of intensive care medicine.
+
+
+
+***Dr Romit Samanta, NIHR Clinical Lecturer in Intensive Care Medicine, University of Cambridge (May 2022)***
