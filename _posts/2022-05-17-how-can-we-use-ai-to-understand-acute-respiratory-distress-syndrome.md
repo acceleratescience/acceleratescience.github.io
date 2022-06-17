@@ -29,9 +29,7 @@ Using machine learning has led to insights into patient outcomes, and some of t
 
 These endotypes were derived from analysis of data collected by three UK-based studies. I used a combination of automated clustering methods and network analysis tools to integrate blood biomarkers and gene expression data and define distinct endotypes of ARDS.
 
-We identified three endotypes of the syndrome in an observational study of severe influenza (MOSAIC). We named one ‘endothelial leak’ that was characterised by a network of genes associated with SLIT-ROBO signalling, which is essential maintaining pulmonary endothelial integrity. Failure of this mechanism has been shown to cause alveolar oedema - when fluid accumulates in the air sacs of the lungs – in mice, when studying sepsis and influenza infection. 
-
-The patients with the endothelial leak had other clinical characteristics consistent with having leaky blood vessels, and almost half of them required mechanical ventilation. Surprisingly, despite the greater need for mechanical ventilation, the outcomes of these patients were similar to those of patients with the less severe endotype that we found, of whom one in five required mechanical ventilation.
+In patients with influenza, we found that for some patients ARDS was characterised by processes associated with leaky blood vessels in the their lungs, whilst others showed activation of different parts of the immune system. What surprised us was how patients who appeared critically unwell and needed a ventilator had different outcomes if they were associated with different endotypes. 
 
 Identifying the biological reasons why some patient groups that do well and some do not is important, as it could allow doctors to give targeted drugs to patients that have everything to gain from a particular intervention, while avoiding using them for patients whom they might make sicker. It could also lead to drugs that target specific biological mechanisms. While this is a long way from being validated, seeing that such personalised medicine may be on the horizon is exciting.
 
