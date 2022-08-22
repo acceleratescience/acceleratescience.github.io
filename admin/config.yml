@@ -1,0 +1,238 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+local_backend: true
+
+media_folder: 'assets/uploads'
+
+collections:
+
+  # General Website Settings
+  - name: 'website-settings'
+    label: 'Website Settings'
+    files:
+      # Website Settings
+      - label: 'Website Settings'
+        name: 'site'
+        file: '_data/site.yml'
+        editor:
+          preview: false
+        fields:
+          # Site Logo
+          - label: 'Site Logo'
+            name: 'site_logo'
+            widget: 'image'
+          # Contact Details
+          - label: 'Contact Details'
+            name: 'contact_details'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Address'
+                name: 'address'
+                widget: 'markdown'
+              - label: 'Tel'
+                name: 'tel'
+                widget: 'string'
+              - label: 'Fax'
+                name: 'fax'
+                widget: 'string'
+              - label: 'Email'
+                name: 'email'
+                widget: 'string'
+          # Social Details
+          - label: 'Social Details'
+            name: 'social_details'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Twitter'
+                name: 'twitter_link'
+                widget: 'string'
+              - label: 'Facebook'
+                name: 'facebook_link'
+                widget: 'string'
+              - label: 'Instagram'
+                name: 'instagram_link'
+                widget: 'string'
+          # Footer Settings
+          - label: 'Footer Images'
+            name: 'footer_images'
+            collapsed: true
+            widget: 'list'
+            required: false
+            fields: 
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+      # Navigation Menus
+      - label: 'Navigation Menus'
+        name: 'navigation_menus'
+        file: '_data/nav.yml'
+        editor:
+          preview: false
+        fields:
+          # Main Nav
+          - label: 'Main Nav'
+            name: 'main_nav'
+            collapsed: true
+            minimize_collapsed: true
+            widget: 'list'
+            required: false
+            fields: 
+              - label: 'Label'
+                name: 'label'
+                widget: 'string'
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+              - label: 'Submenu Item'
+                name: 'submenu_item'
+                collapsed: true
+                minimize_collapsed: true
+                widget: 'list'
+                required: false
+                fields: 
+                  - label: 'Label'
+                    name: 'label'
+                    widget: 'string'
+                  - label: 'Link'
+                    name: 'link'
+                    widget: 'string'
+          # Footer Nav
+          - label: 'Footer Nav'
+            name: 'footer_nav'
+            collapsed: true
+            minimize_collapsed: true
+            widget: 'list'
+            required: false
+            fields: 
+              - label: 'Label'
+                name: 'label'
+                widget: 'string'
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+              - label: 'Submenu Item'
+                name: 'submenu_item'
+                collapsed: true
+                minimize_collapsed: true
+                widget: 'list'
+                required: false
+                fields: 
+                  - label: 'Label'
+                    name: 'label'
+                    widget: 'string'
+                  - label: 'Link'
+                    name: 'link'
+                    widget: 'string'
+          # Top Nav
+          - label: 'Top Bar'
+            name: 'top_bar'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+              - label: 'Top Bar Nav'
+                name: 'top_bar_nav'
+                collapsed: true
+                minimize_collapsed: true
+                widget: 'list'
+                required: false
+                fields: 
+                  - label: 'Label'
+                    name: 'label'
+                    widget: 'string'
+                  - label: 'Link'
+                    name: 'link'
+                    widget: 'string'
+
+  # Pages
+  - name: 'pages'
+    label: 'Pages'
+    files:
+      # Homepage
+      - label: 'Homepage'
+        name: 'homepage'
+        file: '_data/homepage.yml'
+        editor:
+          preview: false
+        fields:
+          - label: 'Hero'
+            name: 'hero'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+
+  # Blog Collection
+  - name: 'blog'
+    label: 'Blog'
+    folder: '_posts'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - label: 'Layout'
+        name: 'layout'
+        widget: 'hidden'
+        default: 'blog-single'
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Excerpt'
+        name: 'excerpt'
+        widget: 'text'
+      - label: 'Featured Image'
+        name: 'featured_image'
+        widget: 'image'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+
+  # News Collection
+  - name: 'news'
+    label: 'News'
+    folder: '_news'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - label: 'Layout'
+        name: 'layout'
+        widget: 'hidden'
+        default: 'news-single'
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Excerpt'
+        name: 'excerpt'
+        widget: 'text'
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        multiple: true
+        options:
+          - { label: "News Category 1", value: "news-category-1" }
+          - { label: "News Category 2", value: "news-category-2" }
+          - { label: "News Category 3", value: "news-category-3" }
+          - { label: "News Category 4", value: "news-category-4" }
+      - label: 'Featured Image'
+        name: 'featured_image'
+        widget: 'image'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'

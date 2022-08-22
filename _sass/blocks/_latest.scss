@@ -1,0 +1,36 @@
+.block__latest {
+    padding: 10rem 0 5rem 0;
+
+    .latest__upper {
+        margin-bottom: 5rem;
+
+        .latest__insights {
+            margin-top: 5rem;
+
+            &-more {
+                margin-top: 5rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                .button {
+                    margin: 0 1rem;
+                }
+
+                span {
+                    width: auto;
+                    height: 1px;
+                    flex: 1;
+                    background-color: $regular-grey;
+                }
+            }
+        }
+    }
+
+    .latest__lower {
+
+        .section-heading {
+            margin-bottom: 6rem;
+        }
+    }
+}

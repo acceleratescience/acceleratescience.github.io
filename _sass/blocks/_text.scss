@@ -1,0 +1,34 @@
+.block__text {
+    margin: 10rem 0;
+
+    .section-heading {
+        width: 50%;
+        max-width: 560px;
+        margin-bottom: 4rem;
+    }
+
+    &.block__text--dual-column {
+
+        .container {
+            max-width: 1160px;
+        }
+
+        .text__content {
+            column-count: 2;
+            column-gap: 4rem;
+        }
+    }
+
+    .text__content {
+
+        p {
+            margin-top: 0;
+            line-height: 3.2rem;
+            color: $darkest-grey;
+
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,109 @@
+// Custom Form Styles
+
+[type=color], [type=date], [type=datetime-local], [type=datetime], [type=email], [type=month], [type=number], [type=password], [type=search], [type=tel], [type=text], [type=time], [type=url], [type=week], select {
+    height:$input-height;
+    width:100%;
+    background: $light-grey;
+	font-weight: 300;
+	margin-bottom: 2rem;
+	border: none;
+    padding: 1rem;
+
+    &:hover {
+        border-color:darken($input-border-color, 20%);
+    }
+
+    &:focus {
+        border-color:$input-focus-border-color;
+        color:$input-focus-color;
+        outline:none;
+    }
+}
+
+textarea {
+    width: 100%;
+    background: $light-grey;
+	font-weight: 300;
+    padding: 1rem;
+	border: none;
+}
+
+.gform_wrapper {
+	width: 100%;
+
+	#gform_1 {
+		@include bp(tablet) {
+			display: flex;
+			justify-content: space-between;
+			flex-wrap: wrap;
+		}
+
+		.gform_body {
+			@include bp(tablet) {
+				width: calc(90% - 2rem);
+			}
+
+		}
+
+		.gform_footer {
+			@include bp(tablet) {
+				width: calc(10% - 2rem);
+				margin-top: 3rem;
+			}
+		}
+	}
+
+    ul {
+        display: flex;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        flex-wrap: wrap;
+
+        li {
+            display: inline-block;
+            margin-bottom: .625em;
+			width: 100%;
+            padding: 0;
+
+            &:before {
+                display: none;
+            }
+
+			&.hidden_label label {
+				display: none;
+			}
+
+			&.one-third {
+				@include bp(tablet) {
+					width: calc(33.333% - 2rem);
+					margin-right: 3rem;
+
+					&:nth-child(3n) {
+						margin-right: 0;
+					}
+				}
+			}
+
+			&.half-width {
+				@include bp(tablet) {
+			        width: calc(50% - 2rem);
+			        margin-right: 4rem;
+
+			        &:nth-child(even) {
+			            margin-right: 0;
+			        }
+			    }
+			}
+
+			&.full-width {
+				display: inline-block;
+				width: 100%;
+			}
+        }
+    }
+}
+
+.gform_body {
+    margin-top: 2.5em;
+}

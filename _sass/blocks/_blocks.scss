@@ -1,0 +1,94 @@
+.block {
+
+    // Block Margin Options
+    &.margin-top {
+        margin-top: 5rem;
+
+        @include bp(tablet) {
+            margin-top: 10rem;
+        }
+    }
+
+    &.margin-bottom {
+        margin-bottom: 5rem;
+
+        @include bp(tablet) {
+            margin-bottom: 10rem;
+        }
+    }
+
+    &.reduce-margin-top {
+        margin-top: 2.5rem;
+
+        @include bp(tablet) {
+            margin-top: 5rem;
+        }
+    }
+
+    &.reduce-margin-bottom {
+        margin-bottom: 2.5rem;
+
+        @include bp(tablet) {
+            margin-bottom: 5rem;
+        }
+    }
+
+    // Block Padding Options
+    &.padding-top {
+        padding-top: 5rem;
+
+        @include bp(tablet) {
+            padding-top: 10rem;
+        }
+    }
+
+    &.padding-bottom {
+        padding-bottom: 5rem;
+
+        @include bp(tablet) {
+            padding-bottom: 10rem;
+        }
+    }
+
+    &.reduce-padding-top {
+        padding-top: 2.5rem;
+
+        @include bp(tablet) {
+            padding-top: 5rem;
+        }
+    }
+
+    &.reduce-padding-bottom {
+        padding-bottom: 2.5rem;
+
+        @include bp(tablet) {
+            padding-bottom: 5rem;
+        }
+    }
+}
+
+.block__404 {
+    width: 100%;
+    height: calc(100vh - 54px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+        margin-bottom: 2rem;
+        font-size: 6.2rem;
+        line-height: 7.2rem;
+        color: $primary-blue;
+    }
+
+    p {
+        font-size: 2.2rem;
+        line-height: 2.8rem;
+        color: $primary-blue;
+    }
+
+    .button {
+        margin-top: 2rem;
+    }
+}

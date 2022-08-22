@@ -1,0 +1,187 @@
+---
+layout: page
+title: Home
+---
+
+<section id="hero" class="block block__hero block__hero--large">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.3/dat.gui.min.js"></script>
+    <script src="https://mrdoob.github.io/stats.js/build/stats.min.js"></script>
+
+    <canvas id="c"></canvas>
+
+    <div class="container">
+        <div class="hero__head row row--justified row--middle">
+            <a href="{{site.baseurl}}" class="brand">
+                <img class="brand" src="{{ site.data.site.site_logo }}" alt="Logo">
+            </a>
+            {% include menu-trigger.html %}
+            {% include nav-primary.html %}
+        </div>
+
+        <div class="hero__content">
+            <h1>{{ site.data.homepage.hero.title }}</h1>
+            <p>{{ site.data.homepage.hero.content }}</p>
+            <a href="{{ site.data.homepage.hero.link }}" class="button button--white">Read More</a>
+        </div>
+    </div>
+</section>
+
+<section class="block block__latest">
+    <div class="container">
+        <div class="latest__upper row row--justified">
+            <h2 class="section-heading">Latest Insights</h2>
+            <a class="button button--large" href="#">Show All</a>
+            <div class="latest__insights column-m-12-nest">
+                <div class="post__grid">
+                    <a class="post__post" href="#">
+                        <div class="post__post-thumbnail">
+                            <img alt="" src="./assets/images/placeholder.jpg">
+                        </div>
+                        <div class="post__post-content">
+                            <h4>INSIGHT CATEGORY</h4>
+                            <h3>Policies for places as well as people</h3>
+                            <p class="date">20th July, 2022</p>
+                            <span class="button">Read More</span>
+                        </div>
+                    </a>
+
+                    <a class="post__post" href="#">
+                        <div class="post__post-thumbnail">
+                            <img alt="" src="./assets/images/placeholder.jpg">
+                        </div>
+                        <div class="post__post-content">
+                            <h4>INSIGHT CATEGORY</h4>
+                            <h3>Accelerating pre-CoP27 Paris Agreement compliance</h3>
+                            <p class="date">20th July, 2022</p>
+                            <span class="button">Read More</span>
+                        </div>
+                    </a>
+
+                    <a class="post__post" href="#">
+                        <div class="post__post-thumbnail">
+                            <img alt="" src="./assets/images/placeholder.jpg">
+                        </div>
+                        <div class="post__post-content">
+                            <h4>INSIGHT CATEGORY</h4>
+                            <h3>How much is a dataset worth?</h3>
+                            <p class="date">20th July, 2022</p>
+                            <span class="button">Read More</span>
+                        </div>
+                    </a>
+
+                    <a class="post__post" href="#">
+                        <div class="post__post-thumbnail">
+                            <img alt="" src="./assets/images/placeholder.jpg">
+                        </div>
+                        <div class="post__post-content">
+                            <h4>INSIGHT CATEGORY</h4>
+                            <h3>Biodiversity loss may push developing world closer to default</h3>
+                            <p class="date">20th July, 2022</p>
+                            <span class="button">Read More</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="latest__insights-more">
+                    <span></span>
+                    <a class="button button--large" href="#">
+                        Show More
+                        <img src="./assets/images/plus.svg">
+                    </a>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="latest__lower row row--justified">
+            <div class="latest__news column-m-12-nest column-t-8">
+                <h2 class="section-heading">Latest News</h2>
+                <div class="post__grid post__grid--col2">
+                    <a class="post__post" href="#">
+                        <div class="post__post-thumbnail">
+                            <img alt="" src="./assets/images/placeholder.jpg">
+                        </div>
+                        <div class="post__post-content">
+                            <h4>NEWS CATEGORY</h4>
+                            <h3>News heading goes in here</h3>
+                            <p class="date">20th July, 2022</p>
+                            <p class="excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis justo nec leo dapibus, eu ultricies lectus dictum. Pellentesque sit amet blandit ex.</p>
+                            <span class="button">Read More</span>
+                        </div>
+                    </a>
+
+                    <a class="post__post" href="#">
+                        <div class="post__post-thumbnail">
+                            <img alt="" src="./assets/images/placeholder.jpg">
+                        </div>
+                        <div class="post__post-content">
+                            <h4>NEWS CATEGORY</h4>
+                            <h3>News heading goes in here</h3>
+                            <p class="date">20th July, 2022</p>
+                            <p class="excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis justo nec leo dapibus, eu ultricies lectus dictum. Pellentesque sit amet blandit ex.</p>
+                            <span class="button">Read More</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="latest__tweets column-m-12-nest column-t-4">
+                <h2 class="section-heading">Latest Tweets</h2>
+                <!-- Twitter Embed -->
+                <a class="twitter-timeline" data-height="500" href="https://twitter.com/AccelerateSci?ref_src=twsrc%5Etfw">Tweets by AccelerateSci</a>
+                <script async charset="utf-8" src="https://platform.twitter.com/widgets.js"></script>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="block block__accordions">
+    <div class="container">
+        <div class="row row--justified">
+            <div class="accordions__selectors column-m-12-nest column-t-4-nest">
+                <button class="active" data-accordion="what-we-do">
+                    <img src="./assets/uploads/what-we-do.png">
+                    What we do
+                </button>
+                <button data-accordion-id="research">
+                    <img src="./assets/uploads/research.png">
+                    Research
+                </button>
+                <button data-accordion-id="education-training">
+                    <img src="./assets/uploads/education-and-training.png">
+                    Education & Training
+                </button>
+                <button data-accordion-id="engagement">
+                    <img src="./assets/uploads/engagement.png">
+                    Engagement
+                </button>
+            </div>
+            <div class="accordions__window column-m-12-nest column-t-6-nest">
+                <div class="accordions__accordion active" data-accordion-content="what-we-do">
+                    <h3>Amidst growing excitement about AI, a gap has emerged between our aspirations for AI and our ability to deploy these technologies to tackle real-world challenges.
+                    </h3>
+                    <p>ML@CL aims to bridge this gap through innovations in modelling, systems and software engineering for machine learning deployment; the application of AI for scientific discovery; and the development of policy frameworks for trustworthy and beneficial AI.</p>
+                    <a class="button" href="#">Read More</a>
+                </div>
+
+                <div class="accordions__accordion" data-accordion-content="research">
+                    <h3>Amidst growing excitement about AI, a gap has emerged between our aspirations for AI and our ability to deploy these technologies to tackle real-world challenges.
+                    </h3>
+                    <p>ML@CL aims to bridge this gap through innovations in modelling, systems and software engineering for machine learning deployment; the application of AI for scientific discovery; and the development of policy frameworks for trustworthy and beneficial AI.</p>
+                    <a class="button" href="#">Read More</a>
+                </div>
+
+                <div class="accordions__accordion" data-accordion-content="education-training">
+                    <h3>Amidst growing excitement about AI, a gap has emerged between our aspirations for AI and our ability to deploy these technologies to tackle real-world challenges.
+                    </h3>
+                    <p>ML@CL aims to bridge this gap through innovations in modelling, systems and software engineering for machine learning deployment; the application of AI for scientific discovery; and the development of policy frameworks for trustworthy and beneficial AI.</p>
+                    <a class="button" href="#">Read More</a>
+                </div>
+
+                <div class="accordions__accordion" data-accordion-content="engagement">
+                    <h3>Amidst growing excitement about AI, a gap has emerged between our aspirations for AI and our ability to deploy these technologies to tackle real-world challenges.
+                    </h3>
+                    <p>ML@CL aims to bridge this gap through innovations in modelling, systems and software engineering for machine learning deployment; the application of AI for scientific discovery; and the development of policy frameworks for trustworthy and beneficial AI.</p>
+                    <a class="button" href="#">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

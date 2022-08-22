@@ -1,0 +1,98 @@
+---
+layout: page
+title: Blog
+published: false
+pagination: 
+    enabled: true
+    collection: 'posts'
+    indexpage: 'blog'
+---
+
+<section class="block block__hero block__hero--small">
+    <div class="container">
+        <!-- Top Row | Logo & Menu -->
+        <div class="row">
+            <div class="hero__item hero__item--bottom-left">
+                {% include nav-primary.html %}
+            </div>
+            <div class="column">
+                <span class="hero__dot hero__dot--top-left"></span>
+                <span class="hero__dot hero__dot--top-right"></span>
+                <span class="hero__dot hero__dot--bottom-left"></span>
+                <span class="hero__dot hero__dot--bottom-right"></span>
+                <a href="{{site.url}}" class="hero__item hero__item--top-left">
+                    <img class="brand" src="{{ site.data.site.site_logo }}" alt="Logo">
+                </a>
+                <div class="hero__item hero__item--bottom-left">
+                    <h1 class="hero__title">{{ page.title }}</h1>
+                </div>
+            </div>
+            <div class="column">
+                <span class="hero__dot hero__dot--top-right"></span>
+                <span class="hero__dot hero__dot--bottom-right"></span>
+            </div>
+            <div class="column no-mobile">
+                <span class="hero__dot hero__dot--top-right"></span>
+                <span class="hero__dot hero__dot--bottom-right"></span>
+            </div>
+            <div class="column no-mobile">
+                <span class="hero__dot hero__dot--top-right"></span>
+                <span class="hero__dot hero__dot--bottom-right"></span>
+            </div>
+            <div class="column no-mobile">
+                <span class="hero__dot hero__dot--top-right"></span>
+                <span class="hero__dot hero__dot--bottom-right"></span>
+            </div>
+            <div class="column">
+                <span class="hero__dot hero__dot--top-right"></span>
+                <span class="hero__dot hero__dot--bottom-right"></span>
+                <div class="hero__item hero__item--top-right">
+                    {% include menu-trigger.html %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="block block__news-events">
+    <div class="container">
+        {% for post in paginator.posts %}
+            <a class="news-events__post row row--justified" href="{{ post.url }}">
+                <div class="news-events__post-image column-m-12-nest column-t-4-nest">
+                    <img src="{{ post.featured_image }}" alt="">
+                    <p class="post-date">{{ post.date | date: "%-d %B %Y" }}</p>
+                </div>
+                <div class="news-events__post-content column-m-12-nest column-t-8-nest">
+                    <div>
+                        <h3>{{ post.title}}</h3>
+                        <p>{{ post.excerpt }}</p>
+                    </div>
+                    <div class="button">
+                        Read More
+                        <span class="dot dot--top-left"></span>
+                        <span class="dot dot--top-right"></span>
+                        <span class="dot dot--bottom-left"></span>
+                        <span class="dot dot--bottom-right"></span>
+                    </div>
+                </div>
+            </a>
+        {% endfor %}
+    </div>
+</section>
+{% if paginator.total_pages > 1 %}
+    <section class="block block__pagination block__pagination--simple">
+        <div class="container">
+            <ul>
+                {% if paginator.previous_page %}
+                    <li>
+                        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Previous</a>
+                    </li>
+                {% endif %}
+                {% if paginator.next_page %}
+                    <li>
+                        <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next</a>
+                    </li>
+                {% endif %}
+            </ul>
+        </div>
+    </section>
+{% endif %}

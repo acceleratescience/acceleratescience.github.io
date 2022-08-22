@@ -1,0 +1,48 @@
+<div class="offcanvas">
+    <div class="mobile-menu-exit"></div>
+    <nav class="nav-mobile">
+        <ul>
+            {% for item in site.data.nav.main_nav %}
+                <li>
+                    <a href="{{ item.link }}">{{ item.label }}</a>
+                    {% if item.submenu_item != nil %}
+                        <svg height="12px" version="1.1" viewbox="0 0 20 12" width="20px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                            <g fill-rule="evenodd" fill="none" id="Page-1" stroke-width="1" stroke="none">
+                                <g fill="#FFFFFF" id="Home-Concept-v1.0-b" transform="translate(-1583.000000, -759.000000)">
+                                    <g id="Down" transform="translate(1583.000000, 759.000000)">
+                                        <rect height="4" id="Rectangle" width="4" x="8" y="8"></rect>
+                                        <rect height="4" id="Rectangle" width="4" x="4" y="4"></rect>
+                                        <rect height="4" id="Rectangle" width="4" x="0" y="0"></rect>
+                                        <rect height="4" id="Rectangle" width="4" x="12" y="4"></rect>
+                                        <rect height="4" id="Rectangle" width="4" x="16" y="0"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                        <div class="submenu">
+                            <div class="back">
+                                <svg height="12px" version="1.1" viewbox="0 0 20 12" width="20px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+                                    <g fill-rule="evenodd" fill="none" id="Page-1" stroke-width="1" stroke="none">
+                                        <g fill="#FFFFFF" id="Home-Concept-v1.0-b" transform="translate(-1583.000000, -759.000000)">
+                                            <g id="Down" transform="translate(1583.000000, 759.000000)">
+                                                <rect height="4" id="Rectangle" width="4" x="8" y="8"></rect>
+                                                <rect height="4" id="Rectangle" width="4" x="4" y="4"></rect>
+                                                <rect height="4" id="Rectangle" width="4" x="0" y="0"></rect>
+                                                <rect height="4" id="Rectangle" width="4" x="12" y="4"></rect>
+                                                <rect height="4" id="Rectangle" width="4" x="16" y="0"></rect>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                                <p>Back</p>
+                            </div>
+                            {% for item in item.submenu_item. %}
+                                <a href="{{ item.link }}">{{ item.label }}</a>
+                            {% endfor %}
+                        </div>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
+    </nav>
+</div>

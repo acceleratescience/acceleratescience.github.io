@@ -1,0 +1,19 @@
+site_logo: /assets/uploads/logo.png
+contact_details:
+  tel: +44 (0)1223 334088
+  fax: +44 (0)1223 334089
+  email: contact@mlatcl.cam.ac.uk
+  address: |-
+    Tennis Court Road,  \
+    Cambridge,  \
+    CB2 1QN,  \
+    UK
+social_details:
+  twitter_link: https://twitter.com/
+  facebook_link: https://facebook.com/
+  instagram_link: https://instagram.com/
+footer_images:
+  - image: /assets/uploads/ml-cl.svg
+    link: "#"
+  - image: /assets/uploads/cambridge-university.png
+    link: https://www.cam.ac.uk/
