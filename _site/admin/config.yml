@@ -246,3 +246,48 @@ collections:
       - label: 'Body'
         name: 'body'
         widget: 'markdown'
+
+  # Research Collection
+  - name: 'research'
+    label: 'Research'
+    folder: '_research'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+
+  # Projects Collection
+  - name: 'projects'
+    label: 'Projects'
+    folder: '_projects'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+
+  # Resources Collection
+  - name: 'resources'
+    label: 'Resources'
+    folder: '_resources'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+
+  # Team Collection
+  - name: 'team'
+    label: 'Team'
+    folder: '_team'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+
+  # Opportunities Collection
+  - name: 'opportunities'
+    label: 'Opportunities'
+    folder: '_opportunities'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
