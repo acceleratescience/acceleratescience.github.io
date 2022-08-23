@@ -255,6 +255,14 @@ collections:
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
+    fields:
+      - label: 'Layout'
+        name: 'layout'
+        widget: 'hidden'
+        default: 'research-single'
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
 
   # Projects Collection
   - name: 'projects'
@@ -264,6 +272,14 @@ collections:
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
+    fields:
+      - label: 'Layout'
+        name: 'layout'
+        widget: 'hidden'
+        default: 'projects-single'
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
 
   # Resources Collection
   - name: 'resources'
@@ -273,6 +289,14 @@ collections:
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
       preview: false
+    fields:
+      - label: 'Layout'
+        name: 'layout'
+        widget: 'hidden'
+        default: 'resources-single'
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
 
   # Team Collection
   - name: 'team'
@@ -282,6 +306,14 @@ collections:
     slug: '{{slug}}'
     editor:
       preview: false
+    fields:
+      - label: 'Layout'
+        name: 'layout'
+        widget: 'hidden'
+        default: 'team-single'
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
 
   # Opportunities Collection
   - name: 'opportunities'
@@ -291,3 +323,11 @@ collections:
     slug: '{{slug}}'
     editor:
       preview: false
+    fields:
+      - label: 'Layout'
+        name: 'layout'
+        widget: 'hidden'
+        default: 'opportunities-single'
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
