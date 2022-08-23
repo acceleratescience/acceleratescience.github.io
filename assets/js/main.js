@@ -329,7 +329,6 @@ function resizeCanvas(canvas) {
                     }
                 });
 
-
                 // Container Float (Floating Container)
                 function containerFloat() {
                     var containerSize = 1440;

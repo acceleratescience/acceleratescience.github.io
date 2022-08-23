@@ -1,6 +1,6 @@
 ---
 layout: news-single
-title: Example News 1
+title: Example News 6
 excerpt: This is a test
 category:
   - news-category-1

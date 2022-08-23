@@ -48,7 +48,7 @@ sass:
 # Pagination
 pagination:
   enabled: true
-  per_page: 5
+  per_page: 8
   permalink: '/page/:num/'
   title: ':title'
   limit: 0

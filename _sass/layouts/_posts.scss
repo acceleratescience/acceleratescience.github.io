@@ -1,6 +1,75 @@
-// Posts
+// Generic Latest Block
+.block__posts {
+	margin: 9rem 0;
+
+	.posts__featured {
+		margin-bottom: 5rem;
+		padding-bottom: 8rem;
+		border-bottom: 1px solid $regular-grey;
+	}
+
+	.posts__filter {
+		margin-bottom: 4rem;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		div {
+			display: flex;
+			align-items: center;
+
+			h5 {
+				margin: 0 2.5rem 0 0;
+				font-size: 1.6rem;
+				line-height: 2.1rem;
+				color: $dark-green;
+			}
+
+			input,
+			select {
+				width: 360px;
+				height: 50px;
+				margin: 0;
+				padding: 1rem 2rem;
+				background-color: transparent;
+				border: 1px solid $regular-grey;
+				font-size: 1.6rem;
+				line-height: 2.1rem;
+				color: $darkest-grey;
+
+				&::placeholder,
+				option {
+					font-size: 1.6rem;
+					line-height: 2.1rem;
+					color: $darkest-grey;
+				}
+			}
+		}
+	}
+
+	.posts__load-more {
+		margin-top: 5rem;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		.button {
+			margin: 0 1rem;
+			border: none;
+		}
+
+		span {
+			width: auto;
+			height: 1px;
+			flex: 1;
+			background-color: $regular-grey;
+		}
+	}
+}
+
+// Posts Grid
 .post__grid {
-	margin: 0 -2rem;
+	margin: 0 -2rem -4rem -2rem;
 	display: flex;
 	flex-wrap: wrap;
 
@@ -12,9 +81,10 @@
 	}
 }
 
+// Post Grid Item
 .post__post {
 	width: calc(25% - 4rem);
-	margin: 0 2rem;
+	margin: 0 2rem 4rem 2rem;
 	text-decoration: none;
 
 	&-thumbnail {
@@ -68,9 +138,110 @@
 			margin-top: 2rem;
 		}
 	}
+
+	&.post__post--featured {
+		width: 100%;
+		margin: 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		.post__post-thumbnail {
+			width: 50%;
+			margin: 0;
+
+			&::before {
+				display: none;
+			}
+
+			img {
+				width: 100%;
+				height: auto;
+				max-height: 440px;
+				position: relative;
+				top: unset;
+				left: unset;
+				display: block;
+			}
+		}
+
+		.post__post-content {
+			width: 50%;
+			padding: 5rem 10rem;
+		}
+	}
 }
 
-// Resources
+// Post Single Content
+.block__post-single {
+	margin: 7.5rem 0 10rem 0;
+
+	article {
+
+		header.post-single__header {
+			margin-bottom: 8rem;
+
+			.post-single__header-back {
+				margin-bottom: 9rem;
+				display: flex;
+				align-items: center;
+				font-size: 2rem;
+				line-height: 2.6rem;
+				text-decoration: none;
+
+				svg {
+					transform: rotate(90deg);
+				}
+
+				p {
+					margin: 0 0 0 1.5rem;
+					font-size: 2rem;
+					line-height: 2.6rem;
+					color: $primary-blue;
+				}
+			}
+
+			.post-single__header-heading {
+				padding-bottom: 10rem;
+				border-bottom: 5px solid $green;
+
+				h1 {
+					margin-bottom: 0;
+					font-size: 4.8rem;
+					line-height: 6.8rem;
+					color: $primary-blue;
+				}
+			}
+
+			.post-single__header-socials {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				justify-content: flex-start;
+
+				a {
+					margin-bottom: 2.5rem;
+					text-decoration: none;
+
+					&:last-of-type {
+						margin-bottom: 0;
+					}
+
+					svg,
+					img {
+						width: 60px;
+						height: 60px;
+						display: block;
+					}
+				}
+			}
+		}
+
+		body.post-single__body {}
+	}
+}
+
+// Resources Grid
 .resources__grid {
 	margin: 0 -2rem -4rem -2rem;
 	display: flex;

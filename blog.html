@@ -1,98 +1,79 @@
 ---
 layout: page
 title: Blog
-published: false
-pagination: 
-    enabled: true
-    collection: 'posts'
-    indexpage: 'blog'
 ---
 
-<section class="block block__hero block__hero--small">
+<section class="block block__hero">
     <div class="container">
-        <!-- Top Row | Logo & Menu -->
-        <div class="row">
-            <div class="hero__item hero__item--bottom-left">
-                {% include nav-primary.html %}
-            </div>
-            <div class="column">
-                <span class="hero__dot hero__dot--top-left"></span>
-                <span class="hero__dot hero__dot--top-right"></span>
-                <span class="hero__dot hero__dot--bottom-left"></span>
-                <span class="hero__dot hero__dot--bottom-right"></span>
-                <a href="{{site.url}}" class="hero__item hero__item--top-left">
-                    <img class="brand" src="{{ site.data.site.site_logo }}" alt="Logo">
-                </a>
-                <div class="hero__item hero__item--bottom-left">
-                    <h1 class="hero__title">{{ page.title }}</h1>
-                </div>
-            </div>
-            <div class="column">
-                <span class="hero__dot hero__dot--top-right"></span>
-                <span class="hero__dot hero__dot--bottom-right"></span>
-            </div>
-            <div class="column no-mobile">
-                <span class="hero__dot hero__dot--top-right"></span>
-                <span class="hero__dot hero__dot--bottom-right"></span>
-            </div>
-            <div class="column no-mobile">
-                <span class="hero__dot hero__dot--top-right"></span>
-                <span class="hero__dot hero__dot--bottom-right"></span>
-            </div>
-            <div class="column no-mobile">
-                <span class="hero__dot hero__dot--top-right"></span>
-                <span class="hero__dot hero__dot--bottom-right"></span>
-            </div>
-            <div class="column">
-                <span class="hero__dot hero__dot--top-right"></span>
-                <span class="hero__dot hero__dot--bottom-right"></span>
-                <div class="hero__item hero__item--top-right">
-                    {% include menu-trigger.html %}
-                </div>
-            </div>
+        <div class="hero__head row row--justified row--middle">
+            <a href="{{site.baseurl}}" class="brand">
+                <img class="brand" src="{{ site.data.site.site_logo }}" alt="Logo">
+            </a>
+            {% include menu-trigger.html %}
+            {% include nav-primary.html %}
+        </div>
+
+        <div class="hero__content">
+            <h1 class="no-margin">Software Engineering</h1>
         </div>
     </div>
 </section>
-<section class="block block__news-events">
+
+<section class="block block__posts">
     <div class="container">
-        {% for post in paginator.posts %}
-            <a class="news-events__post row row--justified" href="{{ post.url }}">
-                <div class="news-events__post-image column-m-12-nest column-t-4-nest">
-                    <img src="{{ post.featured_image }}" alt="">
-                    <p class="post-date">{{ post.date | date: "%-d %B %Y" }}</p>
+        <div class="posts__featured">
+            <a class="post__post post__post--featured" href="#">
+                <div class="post__post-thumbnail">
+                    <img alt="" src="../assets/images/placeholder.jpg">
                 </div>
-                <div class="news-events__post-content column-m-12-nest column-t-8-nest">
-                    <div>
-                        <h3>{{ post.title}}</h3>
-                        <p>{{ post.excerpt }}</p>
-                    </div>
-                    <div class="button">
-                        Read More
-                        <span class="dot dot--top-left"></span>
-                        <span class="dot dot--top-right"></span>
-                        <span class="dot dot--bottom-left"></span>
-                        <span class="dot dot--bottom-right"></span>
-                    </div>
+                <div class="post__post-content">
+                    <h4>NEWS CATEGORY</h4>
+                    <h3>News heading goes in here</h3>
+                    <p class="date">20th July, 2022</p>
+                    <p class="excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis justo nec leo dapibus, eu ultricies lectus dictum. Pellentesque sit amet blandit ex.</p>
+                    <span class="button">Read More</span>
                 </div>
             </a>
-        {% endfor %}
+        </div>
+
+        <div class="posts__filter">
+            <div>
+                <h5>Search</h5>
+                <input placeholder="Search query goes in here" type="text">
+            </div>
+            <div>
+                <h5>Filter by category</h5>
+                <select id="" name="">
+                    <option value="category-1">Category 1</option>
+                    <option value="category-2">Category 2</option>
+                    <option value="category-3">Category 3</option>
+                    <option value="category-4">Category 4</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="posts__grid post__grid">
+            {% for post in site.posts %}
+                <a class="post__post" href="{{ item.url }}">
+                    <div class="post__post-thumbnail">
+                        <img src="{{ item.featured_image }}">
+                    </div>
+                    <div class="post__post-content">
+                        <h4>{{ item.category | replace: "-", " " }}</h4>
+                        <h3>{{ item.title}}</h3>
+                        <p class="date">{{ item.date | date: "%-d %B %Y" }}</p>
+                        <span class="button">Read More</span>
+                    </div>
+                </a>
+            {% endfor %}
+        </div>
+        <div class="posts__load-more">
+            <span></span>
+            <a class="button button--large" href="#">
+                Show More
+                <img src="../assets/images/plus.svg">
+            </a>
+            <span></span>
+        </div>
     </div>
 </section>
-{% if paginator.total_pages > 1 %}
-    <section class="block block__pagination block__pagination--simple">
-        <div class="container">
-            <ul>
-                {% if paginator.previous_page %}
-                    <li>
-                        <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Previous</a>
-                    </li>
-                {% endif %}
-                {% if paginator.next_page %}
-                    <li>
-                        <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next</a>
-                    </li>
-                {% endif %}
-            </ul>
-        </div>
-    </section>
-{% endif %}

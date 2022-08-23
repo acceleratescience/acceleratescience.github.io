@@ -855,11 +855,31 @@ APP STYLES
 
 .search article { text-align: left; }
 
-.post__grid { margin: 0 -2rem; display: flex; flex-wrap: wrap; }
+.block__posts { margin: 9rem 0; }
+
+.block__posts .posts__featured { margin-bottom: 5rem; padding-bottom: 8rem; border-bottom: 1px solid #CCCCCC; }
+
+.block__posts .posts__filter { margin-bottom: 4rem; display: flex; justify-content: space-between; align-items: center; }
+
+.block__posts .posts__filter div { display: flex; align-items: center; }
+
+.block__posts .posts__filter div h5 { margin: 0 2.5rem 0 0; font-size: 1.6rem; line-height: 2.1rem; color: #17483D; }
+
+.block__posts .posts__filter div input, .block__posts .posts__filter div select { width: 360px; height: 50px; margin: 0; padding: 1rem 2rem; background-color: transparent; border: 1px solid #CCCCCC; font-size: 1.6rem; line-height: 2.1rem; color: #6A6A6A; }
+
+.block__posts .posts__filter div input::placeholder, .block__posts .posts__filter div input option, .block__posts .posts__filter div select::placeholder, .block__posts .posts__filter div select option { font-size: 1.6rem; line-height: 2.1rem; color: #6A6A6A; }
+
+.block__posts .posts__load-more { margin-top: 5rem; display: flex; justify-content: center; align-items: center; }
+
+.block__posts .posts__load-more .button { margin: 0 1rem; border: none; }
+
+.block__posts .posts__load-more span { width: auto; height: 1px; flex: 1; background-color: #CCCCCC; }
+
+.post__grid { margin: 0 -2rem -4rem -2rem; display: flex; flex-wrap: wrap; }
 
 .post__grid.post__grid--col2 .post__post { width: calc(50% - 4rem); }
 
-.post__post { width: calc(25% - 4rem); margin: 0 2rem; text-decoration: none; }
+.post__post { width: calc(25% - 4rem); margin: 0 2rem 4rem 2rem; text-decoration: none; }
 
 .post__post-thumbnail { width: 100%; height: auto; margin-bottom: 3rem; position: relative; border-radius: 12px; overflow: hidden; }
 
@@ -876,6 +896,38 @@ APP STYLES
 .post__post-content .date { margin: 0 0 1rem 0; font-size: 1.6rem; line-height: 2.1rem; }
 
 .post__post-content .button { margin-top: 2rem; }
+
+.post__post.post__post--featured { width: 100%; margin: 0; display: flex; justify-content: space-between; align-items: center; }
+
+.post__post.post__post--featured .post__post-thumbnail { width: 50%; margin: 0; }
+
+.post__post.post__post--featured .post__post-thumbnail::before { display: none; }
+
+.post__post.post__post--featured .post__post-thumbnail img { width: 100%; height: auto; max-height: 440px; position: relative; top: unset; left: unset; display: block; }
+
+.post__post.post__post--featured .post__post-content { width: 50%; padding: 5rem 10rem; }
+
+.block__post-single { margin: 7.5rem 0 10rem 0; }
+
+.block__post-single article header.post-single__header { margin-bottom: 8rem; }
+
+.block__post-single article header.post-single__header .post-single__header-back { margin-bottom: 9rem; display: flex; align-items: center; font-size: 2rem; line-height: 2.6rem; text-decoration: none; }
+
+.block__post-single article header.post-single__header .post-single__header-back svg { transform: rotate(90deg); }
+
+.block__post-single article header.post-single__header .post-single__header-back p { margin: 0 0 0 1.5rem; font-size: 2rem; line-height: 2.6rem; color: #031927; }
+
+.block__post-single article header.post-single__header .post-single__header-heading { padding-bottom: 10rem; border-bottom: 5px solid #67C62A; }
+
+.block__post-single article header.post-single__header .post-single__header-heading h1 { margin-bottom: 0; font-size: 4.8rem; line-height: 6.8rem; color: #031927; }
+
+.block__post-single article header.post-single__header .post-single__header-socials { display: flex; flex-direction: column; align-items: center; justify-content: flex-start; }
+
+.block__post-single article header.post-single__header .post-single__header-socials a { margin-bottom: 2.5rem; text-decoration: none; }
+
+.block__post-single article header.post-single__header .post-single__header-socials a:last-of-type { margin-bottom: 0; }
+
+.block__post-single article header.post-single__header .post-single__header-socials a svg, .block__post-single article header.post-single__header .post-single__header-socials a img { width: 60px; height: 60px; display: block; }
 
 .resources__grid { margin: 0 -2rem -4rem -2rem; display: flex; flex-wrap: wrap; }
 
@@ -1017,9 +1069,9 @@ APP STYLES
 
 .block__hero .hero__content { max-width: 800px; }
 
-.block__hero .hero__content h1 { max-width: 720px; margin-bottom: 2rem; font-size: 3.8rem; line-height: 5rem; letter-spacing: 0.32px; color: #ffffff; }
+.block__hero .hero__content h1, .block__hero .hero__content h2 { max-width: 720px; margin-bottom: 2rem; font-size: 3.8rem; line-height: 5rem; letter-spacing: 0.32px; color: #ffffff; }
 
-.block__hero .hero__content h1.no-margin { margin-bottom: 0; }
+.block__hero .hero__content h1.no-margin, .block__hero .hero__content h2.no-margin { margin-bottom: 0; }
 
 .block__hero .hero__content p { margin-top: 0; font-size: 2.2rem; line-height: 2.9rem; color: #ffffff; }
 
