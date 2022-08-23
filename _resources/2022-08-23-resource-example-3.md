@@ -1,4 +1,5 @@
 ---
 layout: resources-single
-title: Resource Example 3
+title: Understanding mental health with data science
+category: additional-resources
 ---
