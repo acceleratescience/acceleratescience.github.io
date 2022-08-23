@@ -196,6 +196,15 @@ collections:
       - label: 'Excerpt'
         name: 'excerpt'
         widget: 'text'
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        multiple: true
+        options:
+          - { label: "Blog Category 1", value: "blog-category-1" }
+          - { label: "Blog Category 2", value: "blog-category-2" }
+          - { label: "Blog Category 3", value: "blog-category-3" }
+          - { label: "Blog Category 4", value: "blog-category-4" }
       - label: 'Featured Image'
         name: 'featured_image'
         widget: 'image'

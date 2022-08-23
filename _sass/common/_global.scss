@@ -42,6 +42,22 @@ main {
 	margin-top: 54px;
 }
 
+.divider {
+	width: 100%;
+	height: 1px;
+	padding: 0;
+	background-color: $regular-grey;
+	display: block;
+
+	&.divider--top {
+		margin-bottom: 7.5rem;
+	}
+
+	&.divider--bottom {
+		margin-top: 7.5rem;
+	}
+}
+
 .offcanvas {
 	width: 100%;
 	height: calc(100vh - 54px);
