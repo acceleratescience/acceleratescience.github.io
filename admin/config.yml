@@ -263,6 +263,37 @@ collections:
       - label: 'Title'
         name: 'title'
         widget: 'string'
+      - label: 'Excerpt'
+        name: 'excerpt'
+        widget: 'text'
+      - label: 'Featured Image'
+        name: 'featured_image'
+        widget: 'image'
+      - label: 'Overview Short'
+        name: 'overview_short'
+        widget: 'markdown'
+      - label: 'Overview Long'
+        name: 'overview_long'
+        widget: 'markdown'
+        required: false
+      - label: 'Related Projects'
+        name: 'projects'
+        widget: 'relation'
+        collection: 'projects'
+        search_fields: ["title"]
+        value_field: "{{slug}}"
+        display_fields: ["title"]
+        multiple: true
+        required: false
+      - label: 'Related People'
+        name: 'people'
+        widget: 'relation'
+        collection: 'people'
+        search_fields: ["title"]
+        value_field: "{{slug}}"
+        display_fields: ["title"]
+        multiple: true
+        required: false
 
   # Projects Collection
   - name: 'projects'
@@ -280,6 +311,46 @@ collections:
       - label: 'Title'
         name: 'title'
         widget: 'string'
+      - label: 'Excerpt'
+        name: 'excerpt'
+        widget: 'text'
+      - label: 'Featured Image'
+        name: 'featured_image'
+        widget: 'image'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+      - label: 'Project Funders'
+        name: 'project_funders'
+        collapsed: true
+        minimize_collapsed: true
+        required: false
+        widget: 'list'
+        fields: 
+          - label: 'Image'
+            name: 'image'
+            widget: 'image'
+          - label: 'Link'
+            name: 'link'
+            widget: 'string'
+      - label: 'Related People'
+        name: 'people'
+        widget: 'relation'
+        collection: 'people'
+        search_fields: ["title"]
+        value_field: "{{slug}}"
+        display_fields: ["title"]
+        multiple: true
+        required: false
+      - label: 'Related Publications'
+        name: 'publications'
+        widget: 'relation'
+        collection: 'Publications'
+        search_fields: ["title"]
+        value_field: "{{slug}}"
+        display_fields: ["title"]
+        multiple: true
+        required: false
 
   # Resources Collection
   - name: 'resources'
@@ -297,6 +368,14 @@ collections:
       - label: 'Title'
         name: 'title'
         widget: 'string'
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        multiple: false
+        options:
+          - { label: "Teaching & Learning", value: "teaching-learning" }
+          - { label: "Software & Code", value: "software-code" }
+          - { label: "Additional Resources", value: "additional-resources" }
 
   # Team Collection
   - name: 'team'
@@ -314,6 +393,41 @@ collections:
       - label: 'Title'
         name: 'title'
         widget: 'string'
+      - label: 'Description'
+        name: 'description'
+        widget: 'text'
+      - label: 'Featured Image'
+        name: 'featured_image'
+        widget: 'image'
+      - label: 'LinkedIn'
+        name: 'linkedin'
+        widget: 'string'
+        required: false
+      - label: 'Twitter'
+        name: 'twitter'
+        widget: 'string'
+        required: false
+      - label: 'Facebook'
+        name: 'facebook'
+        widget: 'string'
+        required: false
+      - label: 'Email'
+        name: 'email'
+        widget: 'string'
+        required: false
+      - label: 'Biography'
+        name: 'biography'
+        widget: 'markdown'
+        required: false
+      - label: 'Related Publications'
+        name: 'publications'
+        widget: 'relation'
+        collection: 'Publications'
+        search_fields: ["title"]
+        value_field: "{{slug}}"
+        display_fields: ["title"]
+        multiple: true
+        required: false
 
   # Opportunities Collection
   - name: 'opportunities'
@@ -331,3 +445,9 @@ collections:
       - label: 'Title'
         name: 'title'
         widget: 'string'
+      - label: 'Excerpt'
+        name: 'excerpt'
+        widget: 'text'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'   
