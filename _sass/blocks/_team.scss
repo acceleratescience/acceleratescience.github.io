@@ -1,86 +1,42 @@
 .block__team {
-    margin: 10rem 0 4rem 0;
+    margin: 4rem 0;
+
+    @include bp(tablet) {
+        margin: 10rem 0 4rem 0;
+    }
 
     .team__tabs {
-        margin-bottom: 8rem;
+        margin-bottom: 4rem;
         display: flex;
         flex-wrap: wrap;
         border-bottom: 1px solid $regular-grey;
 
+        @include bp(tablet) {
+            margin-bottom: 8rem;
+        }
+
         button {
-            min-width: 260px;
             margin-right: 2px;
-            padding: 2rem;
+            padding: 1rem;
             background-color: $regular-grey;
             border-top: 1px solid $regular-grey;
             border-right: 1px solid $regular-grey;
             border-left: 1px solid $regular-grey;
             border-bottom: none;
-            border-top-left-radius: 12px;
-            border-top-right-radius: 12px;
+            font-size: 1.4rem;
             cursor: pointer;
+
+            @include bp(tablet) {
+                min-width: 260px;
+                margin-right: 2px;
+                padding: 2rem;
+                border-top-left-radius: 12px;
+                border-top-right-radius: 12px;
+                font-size: 1.8rem;
+            }
 
             &.active {
                 background-color: $lightest;
-            }
-        }
-    }
-
-    .team__window {
-
-        .team__team {
-            margin: 0 -2rem;
-            display: flex;
-            flex-wrap: wrap;
-
-            &-member {
-                width: calc(33.33% - 4rem);
-                margin: 0 2rem 6rem 2rem;
-                display: flex;
-                justify-content: space-between;
-                align-items: flex-start;
-
-                &-image {
-                    width: calc(50% - 2rem);
-                    position: relative;
-
-                    &::before {
-                        content: "";
-                        padding-top: 100%;
-                        display: block;
-                    }
-
-                    img {
-                        width: 100%;
-                        height: 100%;
-                        position: absolute;
-                        top: 0;
-                        left: 0;
-                        display: block;
-                        object-fit: cover;
-                        border-radius: 50%;
-                    }
-                }
-
-                &-details {
-                    width: calc(50% - 2rem);
-
-                    h3 {
-                        margin-bottom: 1rem;
-                        font-size: 2.4rem;
-                        line-height: 2.8rem;
-                    }
-
-                    p {
-                        margin: 0;
-                        font-size: 1.6rem;
-                    }
-
-                    a {
-                        margin-top: 4rem;
-                        font-size: 1.6rem;
-                    }
-                }
             }
         }
     }

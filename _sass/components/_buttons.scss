@@ -4,13 +4,18 @@
     padding-bottom: 8px;
     position: relative;
     display: inline-block;
-    font-size: 1.8rem;
-    line-height: 2.6rem;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
     color: $darkest;
     text-decoration: none;
     text-transform: uppercase;
     overflow: hidden;
     cursor: pointer;
+
+    @include bp(tablet) {
+        font-size: 1.8rem;
+        line-height: 2.6rem;
+    }
 
     &::after {
         content: "";
@@ -59,6 +64,35 @@
             height: auto;
             max-height: 30px;
             margin-left: 2rem;
+        }
+    }
+
+    &.button--back {
+        margin-bottom: 4rem;
+        display: flex;
+        align-items: center;
+        font-size: 2rem;
+        line-height: 2.6rem;
+        text-decoration: none;
+        text-transform: none;
+
+        @include bp(tablet) {
+            margin-bottom: 8rem;
+        }
+
+        &::after {
+            display: none;
+        }
+
+        svg {
+            transform: rotate(90deg);
+        }
+
+        p {
+            margin: 0 0 0 1.5rem;
+            font-size: 2rem;
+            line-height: 2.6rem;
+            color: $primary-blue;
         }
     }
 }

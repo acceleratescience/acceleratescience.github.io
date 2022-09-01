@@ -1,10 +1,17 @@
 .block__text {
-    margin: 10rem 0;
+    margin: 4rem 0;
+
+    @include bp(tablet) {
+        margin: 10rem 0;
+    }
 
     .section-heading {
-        width: 50%;
-        max-width: 560px;
         margin-bottom: 4rem;
+
+        @include bp(tablet) {
+            width: 50%;
+            max-width: 560px;
+        }
     }
 
     &.block__text--dual-column {
@@ -14,8 +21,15 @@
         }
 
         .text__content {
-            column-count: 2;
-            column-gap: 4rem;
+
+            @include bp(tablet) {
+                column-count: 2;
+                column-gap: 2rem;
+            }
+
+            @include bp(desktop) {
+                column-gap: 4rem;
+            }
         }
     }
 
@@ -23,8 +37,11 @@
 
         p {
             margin-top: 0;
-            line-height: 3.2rem;
             color: $darkest-grey;
+
+            @include bp(tablet) {
+                line-height: 3.2rem;
+            }
 
             &:last-of-type {
                 margin-bottom: 0;

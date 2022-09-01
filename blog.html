@@ -1,6 +1,10 @@
 ---
 layout: page
 title: Blog
+pagination:
+    enabled: true
+    collection: 'blog'
+    indexpage: 'blog'
 ---
 
 <section class="block block__hero">
@@ -14,7 +18,7 @@ title: Blog
         </div>
 
         <div class="hero__content">
-            <h1 class="no-margin">Software Engineering</h1>
+            <h1 class="no-margin">Blog</h1>
         </div>
     </div>
 </section>
@@ -22,26 +26,30 @@ title: Blog
 <section class="block block__posts">
     <div class="container">
         <div class="posts__featured">
-            <a class="post__post post__post--featured" href="#">
-                <div class="post__post-thumbnail">
-                    <img alt="" src="../assets/images/placeholder.jpg">
-                </div>
-                <div class="post__post-content">
-                    <h4>NEWS CATEGORY</h4>
-                    <h3>News heading goes in here</h3>
-                    <p class="date">20th July, 2022</p>
-                    <p class="excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis justo nec leo dapibus, eu ultricies lectus dictum. Pellentesque sit amet blandit ex.</p>
-                    <span class="button">Read More</span>
-                </div>
-            </a>
+            {% for post in site.posts limit:1 %}
+                <a class="post__post post__post--featured" href="{{ post.url }}">
+                    <div class="post__post-thumbnail">
+                        <img src="{{ post.featured_image }}">
+                    </div>
+                    <div class="post__post-content">
+                        <h4>{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</h4>
+                        <h3>{{ post.title}}</h3>
+                        <p class="date">{{ post.date | date: "%-d %B %Y" }}</p>
+                        <p class="excerpt">{{ post.excerpt }}</p>
+                        <span class="button">Read More</span>
+                    </div>
+                </a>
+            {% endfor %}
         </div>
 
         <div class="posts__filter">
             <div>
+                <!-- Update -->
                 <h5>Search</h5>
                 <input placeholder="Search query goes in here" type="text">
             </div>
             <div>
+                <!-- Update -->
                 <h5>Filter by category</h5>
                 <select id="" name="">
                     <option value="category-1">Category 1</option>
@@ -52,28 +60,69 @@ title: Blog
             </div>
         </div>
 
-        <div class="posts__grid post__grid">
-            {% for post in site.posts %}
-                <a class="post__post" href="{{ item.url }}">
+        {% if paginator.page %}
+            {% assign offset = paginator.page | minus:1 | times:paginator.per_page %}
+            {% assign currentPage = paginator.page %}
+        {% else %}
+            {% assign offset = 0 %}
+            {% assign currentPage = 1 %}
+        {% endif %}
+
+        <li>
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Previous</a>
+        </li>
+        <li>
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next</a>
+        </li>
+
+        <div id="blogContainer" class="posts__grid post__grid postContainer" data-page="{{ currentPage }}" data-totalpages="{{ paginator.total_pages }}">
+            {% for post in site.posts limit:8 offset:offset %}
+                <a class="post__post post__post--standard" href="{{ post.url }}">
                     <div class="post__post-thumbnail">
-                        <img src="{{ item.featured_image }}">
+                        <img src="{{ post.featured_image }}">
                     </div>
                     <div class="post__post-content">
-                        <h4>{{ item.category | replace: "-", " " }}</h4>
-                        <h3>{{ item.title}}</h3>
-                        <p class="date">{{ item.date | date: "%-d %B %Y" }}</p>
+                        <h4>{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</h4>
+                        <h3>{{ post.title}}</h3>
+                        <p class="date">{{ post.date | date: "%-d %B %Y" }}</p>
                         <span class="button">Read More</span>
                     </div>
                 </a>
             {% endfor %}
         </div>
-        <div class="posts__load-more">
-            <span></span>
-            <a class="button button--large" href="#">
-                Show More
-                <img src="../assets/images/plus.svg">
-            </a>
-            <span></span>
-        </div>
+
+        {% assign postCount = site.posts | size %}
+        {% assign postsCovered = 8 | plus:offset %}
+        {% if postsCovered < postCount %}
+            <div class="posts__load-more">
+                <span></span>
+                <button class="button button--large loadMore">
+                    Show More
+                    <img src="../assets/images/plus.svg">
+                </button>
+                <span></span>
+            </div>
+        {% endif %}
+
+        <script>
+            $(".loadMore").click(loadMorePosts);
+
+            function loadMorePosts() {
+                var _this = this;
+                var $blogContainer = $("#blogContainer");
+                var nextPage = parseInt($blogContainer.attr("data-page")) + 1;
+                var totalPages = parseInt($blogContainer.attr("data-totalPages"));
+                $(this).addClass("loading");
+                $.get("/page/" + nextPage + "/blog.html", function (data) {
+                    var htmlData = $.parseHTML(data);
+                    var $articles = $(htmlData).find(".post__post--standard");
+                    $blogContainer.append($articles);
+                    if ($blogContainer.attr("data-totalPages") == nextPage) {
+                        $(".loadMore").closest(".posts__load-more").remove();
+                    }
+                    $(_this).removeClass("loading");
+                });
+            }
+        </script>
     </div>
 </section>

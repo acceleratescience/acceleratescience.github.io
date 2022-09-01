@@ -1,33 +1,65 @@
+/*
+*
+* Posts
+*
+*/
+
 // Generic Latest Block
 .block__posts {
-	margin: 9rem 0;
+	margin: 4rem 0;
+
+	@include bp(tablet) {
+		margin: 9rem 0;
+	}
 
 	.posts__featured {
-		margin-bottom: 5rem;
-		padding-bottom: 8rem;
+		margin-bottom: 3rem;
+		padding-bottom: 1rem;
 		border-bottom: 1px solid $regular-grey;
+
+		@include bp(tablet) {
+			margin-bottom: 5rem;
+			padding-bottom: 8rem;
+		}
 	}
 
 	.posts__filter {
-		margin-bottom: 4rem;
+		margin-bottom: 2rem;
 		display: flex;
-		justify-content: space-between;
-		align-items: center;
+		flex-direction: column;
+
+		@include bp(tablet) {
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+			flex-wrap: wrap;
+		}
 
 		div {
+			margin-bottom: 2rem;
 			display: flex;
 			align-items: center;
+			justify-content: space-between;
+
+			@include bp(tablet) {
+				justify-content: flex-start;
+			}
 
 			h5 {
-				margin: 0 2.5rem 0 0;
+				margin: 0 2rem 0 0;
 				font-size: 1.6rem;
 				line-height: 2.1rem;
 				color: $dark-green;
+
+				@include bp(tablet) {
+					margin: 0 2.5rem 0 0;
+				}
 			}
 
 			input,
 			select {
-				width: 360px;
+				width: 75%;
+				min-width: 75%;
 				height: 50px;
 				margin: 0;
 				padding: 1rem 2rem;
@@ -36,6 +68,12 @@
 				font-size: 1.6rem;
 				line-height: 2.1rem;
 				color: $darkest-grey;
+
+				@include bp(tablet) {
+					width: 360px;
+					min-width: 360px;
+					height: 50px;
+				}
 
 				&::placeholder,
 				option {
@@ -48,10 +86,14 @@
 	}
 
 	.posts__load-more {
-		margin-top: 5rem;
+		margin-top: 3rem;
 		display: flex;
 		justify-content: center;
 		align-items: center;
+
+		@include bp(tablet) {
+			margin-top: 5rem;
+		}
 
 		.button {
 			margin: 0 1rem;
@@ -69,31 +111,62 @@
 
 // Posts Grid
 .post__grid {
-	margin: 0 -2rem -4rem -2rem;
+	margin: 0;
 	display: flex;
 	flex-wrap: wrap;
+
+	@include bp(tablet) {
+		margin: 0 -2rem -4rem -2rem;
+	}
 
 	&.post__grid--col2 {
 
 		.post__post {
-			width: calc(50% - 4rem);
+
+			@include bp(tablet) {
+				width: calc(50% - 4rem);
+			}
+		}
+	}
+
+	&.post__grid--col3 {
+
+		.post__post {
+
+			@include bp(tablet) {
+				width: calc(33% - 4rem);
+			}
 		}
 	}
 }
 
 // Post Grid Item
 .post__post {
-	width: calc(25% - 4rem);
-	margin: 0 2rem 4rem 2rem;
+	width: 100%;
+	margin: 0 0 2rem 0;
 	text-decoration: none;
+
+	@include bp(tablet) {
+		width: calc(50% - 4rem);
+		margin: 0 2rem 4rem 2rem;
+	}
+
+	@include bp(desktop) {
+		width: calc(25% - 4rem);
+	}
+
 
 	&-thumbnail {
 		width: 100%;
 		height: auto;
-		margin-bottom: 3rem;
+		margin-bottom: 2rem;
 		position: relative;
 		border-radius: 12px;
 		overflow: hidden;
+
+		@include bp(tablet) {
+			margin-bottom: 3rem;
+		}
 
 		&::before {
 			content: "";
@@ -116,22 +189,39 @@
 		padding: 0 2rem;
 
 		h4 {
-			margin-bottom: 2rem;
+			margin-bottom: 1rem;
 			font-size: 1.2rem;
 			line-height: 1.6rem;
 			text-transform: uppercase;
+
+			@include bp(tablet) {
+				margin-bottom: 2rem;
+			}
 		}
 
 		h3 {
 			margin-bottom: 1rem;
-			font-size: 2.4rem;
-			line-height: 3.1rem;
+			font-size: 2.2rem;
+			line-height: 3rem;
+
+			@include bp(tablet) {
+				font-size: 2.4rem;
+				line-height: 3.1rem;
+			}
 		}
 
 		.date {
 			margin: 0 0 1rem 0;
 			font-size: 1.6rem;
 			line-height: 2.1rem;
+		}
+
+		.excerpt {
+			margin-top: 0;
+
+			&:last-of-type {
+				margin-bottom: 0;
+			}
 		}
 
 		.button {
@@ -145,10 +235,15 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
+		flex-wrap: wrap;
 
 		.post__post-thumbnail {
-			width: 50%;
+			width: 100%;
 			margin: 0;
+
+			@include bp(tablet) {
+				width: 50%;
+			}
 
 			&::before {
 				display: none;
@@ -166,65 +261,82 @@
 		}
 
 		.post__post-content {
-			width: 50%;
-			padding: 5rem 10rem;
+			width: 100%;
+			padding: 2rem;
+
+			@include bp(tablet) {
+				width: 50%;
+				padding: 5rem 10rem;
+			}
 		}
 	}
 }
 
 // Post Single Content
 .block__post-single {
-	margin: 7.5rem 0 10rem 0;
+	margin: 4rem 0;
+
+	@include bp(tablet) {
+		margin: 7.5rem 0 10rem 0;
+	}
 
 	article {
 
 		header.post-single__header {
-			margin-bottom: 8rem;
+			margin-bottom: 4rem;
 
-			.post-single__header-back {
-				margin-bottom: 9rem;
-				display: flex;
-				align-items: center;
-				font-size: 2rem;
-				line-height: 2.6rem;
-				text-decoration: none;
-
-				svg {
-					transform: rotate(90deg);
-				}
-
-				p {
-					margin: 0 0 0 1.5rem;
-					font-size: 2rem;
-					line-height: 2.6rem;
-					color: $primary-blue;
-				}
+			@include bp(tablet) {
+				margin-bottom: 8rem;
 			}
 
 			.post-single__header-heading {
-				padding-bottom: 10rem;
+				padding-bottom: 4rem;
 				border-bottom: 5px solid $green;
+
+				@include bp(tablet) {
+					padding-bottom: 10rem;
+				}
 
 				h1 {
 					margin-bottom: 0;
-					font-size: 4.8rem;
-					line-height: 6.8rem;
+					font-size: 3.2rem;
+					line-height: 4rem;
 					color: $primary-blue;
+
+					@include bp(tablet) {
+						font-size: 4.8rem;
+						line-height: 6.8rem;
+					}
 				}
 			}
 
 			.post-single__header-socials {
+				padding: 4rem 0 0 0;
 				display: flex;
-				flex-direction: column;
-				align-items: center;
-				justify-content: flex-start;
+				flex-direction: row;
+
+				@include bp(tablet) {
+					padding: 0;
+					flex-direction: column;
+					align-items: center;
+					justify-content: flex-start;
+				}
 
 				a {
-					margin-bottom: 2.5rem;
+					margin-right: 2rem;
 					text-decoration: none;
 
+					@include bp(tablet) {
+						margin-right: 0;
+						margin-bottom: 2.5rem;
+					}
+
 					&:last-of-type {
-						margin-bottom: 0;
+						margin-right: 0;
+
+						@include bp(tablet) {
+							margin-bottom: 0;
+						}
 					}
 
 					svg,
@@ -241,17 +353,45 @@
 	}
 }
 
+
+
+/*
+*
+* Projects
+*
+*/
+
+// Projects List
+.projects__list {}
+
+
+
+
+
+
+/*
+*
+* Resources
+*
+*/
+
 // Resources Grid
 .resources__grid {
-	margin: 0 -2rem -4rem -2rem;
+	margin: 0;
 	display: flex;
 	flex-wrap: wrap;
+
+	@include bp(tablet) {
+		margin: 0 -2rem -4rem -2rem;
+	}
 }
 
+// Resources Item
 .resources__resource {
-	width: calc(33.33% - 4rem);
-	min-height: 270px;
-	margin: 0 2rem 4rem 2rem;
+	width: 100%;
+	min-height: 200px;
+	margin: 0 0 2rem 0;
+	padding: 3rem;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
@@ -259,7 +399,13 @@
 	border: 2px solid $blue;
 	border-radius: 12px;
 	text-decoration: none;
-	padding: 5rem 4rem;
+
+	@include bp(tablet) {
+		width: calc(33.33% - 4rem);
+		min-height: 270px;
+		margin: 0 2rem 4rem 2rem;
+		padding: 5rem 4rem;
+	}
 
 	&.resources__resource--yellow {
 		border-color: $yellow;
@@ -270,11 +416,180 @@
 	}
 
 	h3 {
-		margin-bottom: 4rem;
-		font-size: 2.4rem;
+		margin-bottom: 3rem;
+		font-size: 2.2rem;
+
+		@include bp(tablet) {
+			margin-bottom: 4rem;
+			font-size: 2.4rem;
+		}
 	}
 
 	.button {
 		font-size: 1.6rem;
+	}
+}
+
+
+
+
+
+/*
+*
+* Papers
+*
+*/
+
+.papers__grid {
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+
+	@include bp(tablet) {
+		margin: 0 -2rem;
+	}
+
+	.papers__item {
+		width: 100%;
+		margin: 0 0 2rem 0;
+		padding: 3rem;
+		text-decoration: none;
+		border: 1px solid $regular-grey;
+		border-radius: 12px;
+
+		@include bp(tablet) {
+			width: calc(33.33% - 4rem);
+			margin: 0 2rem 4rem 2rem;
+			padding: 4rem 3rem;
+		}
+
+		h3 {
+			margin: 0;
+			font-size: 2rem;
+
+			@include bp(tablet) {
+				font-size: 2.2rem;
+			}
+		}
+
+		.date,
+		.author,
+		.reference {
+			margin: 1.5rem 0 0 0;
+			font-size: 1.6rem;
+			line-height: 2.6rem;
+		}
+
+		.date {
+			text-transform: uppercase;
+		}
+
+		.button {
+			margin-top: 4rem;
+
+			@include bp(tablet) {
+				margin-top: 5rem;
+			}
+		}
+	}
+}
+
+
+
+
+/*
+*
+* Team
+*
+*/
+
+.team__grid {
+	margin: 0;
+	display: flex;
+	flex-wrap: wrap;
+
+	@include bp(tablet) {
+		margin: 0 -2rem;
+	}
+
+	&.inactive {
+		display: none;
+	}
+
+	.team__member {
+		width: 100%;
+		margin: 0 0 3rem 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: flex-start;
+
+		@include bp(tablet) {
+			width: calc(33.33% - 4rem);
+			margin: 0 2rem 6rem 2rem;
+		}
+
+		&-image {
+			width: calc(40% - 1rem);
+			position: relative;
+
+			@include bp(tablet) {
+				width: calc(50% - 2rem);
+			}
+
+			&::before {
+				content: "";
+				padding-top: 100%;
+				display: block;
+			}
+
+			img {
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+				display: block;
+				object-fit: cover;
+				border-radius: 50%;
+			}
+		}
+
+		&-details {
+			width: calc(60% - 1rem);
+
+			@include bp(tablet) {
+				width: calc(50% - 2rem);
+			}
+
+			h3 {
+				margin-bottom: 1rem;
+				font-size: 2.2rem;
+				line-height: 2.6rem;
+
+				@include bp(tablet) {
+					font-size: 2.4rem;
+					line-height: 2.8rem;
+				}
+			}
+
+			p {
+				margin: 0;
+				font-size: 1.4rem;
+
+				@include bp(tablet) {
+					font-size: 1.6rem;
+				}
+			}
+
+			a {
+				margin-top: 2rem;
+				font-size: 1.4rem;
+
+				@include bp(tablet) {
+					margin-top: 4rem;
+					font-size: 1.6rem;
+				}
+			}
+		}
 	}
 }

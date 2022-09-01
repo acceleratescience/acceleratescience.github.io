@@ -1,7 +1,15 @@
 .block__related-resources {
-    margin: 6.5rem 0 18rem 0;
+    margin: 4rem 0;
+
+    @include bp(tablet) {
+        margin: 6.5rem 0 18rem 0;
+    }
 
     .section-heading {
-        margin-bottom: 7.5rem;
+        margin-bottom: 4rem;
+
+        @include bp(tablet) {
+            margin-bottom: 7rem;
+        }
     }
 }

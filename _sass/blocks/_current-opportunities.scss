@@ -1,26 +1,43 @@
 .block__current-opportunities {
-    margin: 10rem 0;
+    margin: 4rem 0;
+
+    @include bp(tablet) {
+        margin: 10rem 0;
+    }
 
     @include bp(desktop-xl) {
         margin: 14rem 0;
     }
 
     .section-heading {
-        margin-bottom: 9rem;
+        margin-bottom: 4rem;
         font-size: 3.2rem;
         line-height: 4.2rem;
         letter-spacing: 0.27px;
+
+        @include bp(tablet) {
+            margin-bottom: 9rem;
+        }
     }
 
     .current-opportunities__list {
-        margin: 0;
+        margin: 0 0 4rem 0;
         padding: 0;
         list-style: none;
 
+        @include bp(tablet) {
+            margin: 0;
+        }
+
         .current-opportunities__listing {
-            margin-bottom: 4rem;
-            padding-bottom: 3rem;
+            margin-bottom: 2rem;
+            padding-bottom: 2rem;
             border-bottom: 1px solid $regular-grey;
+
+            @include bp(tablet) {
+                margin-bottom: 4rem;
+                padding-bottom: 3rem;
+            }
 
             &:last-of-type {
                 margin-bottom: 0;

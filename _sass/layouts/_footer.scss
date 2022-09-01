@@ -146,13 +146,16 @@ footer[role="contentinfo"] {
 
 		.footer__logos {
 			display: flex;
-			flex-direction: column;
+			// justify-content: space-between;
+			// flex-direction: column;
 
 			@include bp(tablet) {
-				flex-direction: row;
+				// flex-direction: row;
+				// justify-content: flex-start;
 			}
 
 			a {
+				margin-right: 2rem;
 				margin-bottom: 2rem;
 				display: block;
 

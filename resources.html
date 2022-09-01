@@ -22,6 +22,7 @@ title: Resources
 <section class="block block__resources">
     <div class="container">
         <div class="resources__filter">
+            <!-- Update -->
             <span>Filter:</span>
             <button class="all active" data-resources-id="all">All</button>
             <button class="blue" data-resources-id="teaching-learning">Teaching & Learning</button>
@@ -29,68 +30,14 @@ title: Resources
             <button class="yellow" data-resources-id="additional-resources">Additional Resources</button>
         </div>
         <div class="resources__grid">
-            <a class="resources__resource resources__resource--blue" data-resources-value="teaching-learning" href="#">
-                <div>
-                    <h3>Understanding mental health with data science</h3>
-                </div>
-                <span class="button">Read More</span>
-            </a>
-
-            <a class="resources__resource resources__resource--green" data-resources-value="software-code" href="#">
-                <div>
-                    <h3>Understanding mental health with data science</h3>
-                </div>
-                <span class="button">Read More</span>
-            </a>
-
-            <a class="resources__resource resources__resource--green" data-resources-value="software-code" href="#">
-                <div>
-                    <h3>Understanding mental health with data science</h3>
-                </div>
-                <span class="button">Read More</span>
-            </a>
-
-            <a class="resources__resource resources__resource--yellow" data-resources-value="additional-resources" href="#">
-                <div>
-                    <h3>Understanding mental health with data science</h3>
-                </div>
-                <span class="button">Read More</span>
-            </a>
-
-            <a class="resources__resource resources__resource--blue" data-resources-value="teaching-learning" href="#">
-                <div>
-                    <h3>Understanding mental health with data science</h3>
-                </div>
-                <span class="button">Read More</span>
-            </a>
-
-            <a class="resources__resource resources__resource--blue" data-resources-value="teaching-learning" href="#">
-                <div>
-                    <h3>Understanding mental health with data science</h3>
-                </div>
-                <span class="button">Read More</span>
-            </a>
-
-            <a class="resources__resource resources__resource--blue" data-resources-value="teaching-learning" href="#">
-                <div>
-                    <h3>Understanding mental health with data science</h3>
-                </div>
-                <span class="button">Read More</span>
-            </a>
-
-            <a class="resources__resource resources__resource--yellow" data-resources-value="additional-resources" href="#">
-                <div>
-                    <h3>Understanding mental health with data science</h3>
-                </div>
-                <span class="button">Read More</span>
-            </a>
-
-            <a class="resources__resource resources__resource--yellow" data-resources-value="additional-resources" href="#">
-                <div>
-                    <h3>Understanding mental health with data science</h3>
-                </div>
-                <span class="button">Read More</span>
-            </a>
+            {% for post in site.resources %}
+                <a class="resources__resource resources__resource--blue" data-resources-value="teaching-learning" href="{{ post.url }}">
+                    <div>
+                        <h3>{{ post.title }}</h3>
+                    </div>
+                    <span class="button">Read More</span>
+                </a>
+            {% endfor %}
         </div>
     </div>
 </section>

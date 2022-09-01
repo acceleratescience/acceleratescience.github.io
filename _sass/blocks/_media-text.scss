@@ -1,9 +1,18 @@
 .block__media-text {
 
     &.block__media-text--standard {
-        margin: 10rem 0;
+        margin: 4rem 0;
+
+        @include bp(tablet) {
+            margin: 10rem 0;
+        }
 
         .media-text__media {
+            margin-bottom: 2rem;
+
+            @include bp(tablet) {
+                margin-bottom: 0;
+            }
 
             img {
                 width: 100%;
@@ -16,13 +25,19 @@
 
             h3,
             p {
-                line-height: 3.2rem;
                 color: $charcoal;
             }
 
             h3 {
-                margin-bottom: 3rem;
-                font-size: 2.4rem;
+                margin-bottom: 2rem;
+                font-size: 2.2rem;
+                line-height: 3rem;
+
+                @include bp(tablet) {
+                    margin-bottom: 3rem;
+                    font-size: 2.2rem;
+                    line-height: 3.2rem;
+                }
             }
 
             p {
@@ -30,6 +45,11 @@
 
                 &:last-of-type {
                     margin-bottom: 0;
+                }
+
+
+                @include bp(tablet) {
+                    line-height: 3.2rem;
                 }
             }
         }
@@ -42,11 +62,15 @@
             width: 100%;
             margin-left: auto;
             margin-right: auto;
-            padding: 0 0 2rem 0;
+            padding: 0 0 3rem 0;
             display: flex;
             flex-direction: column;
             justify-content: center;
             order: 2;
+
+            @include bp(tablet) {
+                padding: 0 0 2rem 0;
+            }
 
             @include bp(desktop) {
                 flex: 1;
@@ -75,9 +99,13 @@
 
             p {
                 margin-top: 0;
-                font-size: 2rem;
-                line-height: 3.2rem;
+                font-size: 1.6rem;
                 color: $charcoal;
+
+                @include bp(tablet) {
+                    font-size: 2rem;
+                    line-height: 3.2rem;
+                }
             }
 
             .button-box {
@@ -106,11 +134,18 @@
             }
 
             img {
-                width: 100%;
+                width: 100vw;
                 height: 100%;
                 max-height: 700px;
+                transform: translateX(-5vw);
                 display: block;
                 object-fit: cover;
+
+                @include bp(tablet) {
+                    width: 100%;
+                    height: 100%;
+                    transform: none;
+                }
             }
         }
 

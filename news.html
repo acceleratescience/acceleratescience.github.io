@@ -25,9 +25,8 @@ pagination:
 
 <section class="block block__posts">
     <div class="container">
-
         <div class="posts__featured">
-            {% for post in site.news limit:1 offset:offset %}
+            {% for post in site.news limit:1 %}
                 <a class="post__post post__post--featured" href="{{ post.url }}">
                     <div class="post__post-thumbnail">
                         <img src="{{ post.featured_image }}">
@@ -42,12 +41,15 @@ pagination:
                 </a>
             {% endfor %}
         </div>
+
         <div class="posts__filter">
             <div>
+                <!-- Update -->
                 <h5>Search</h5>
                 <input placeholder="Search query goes in here" type="text">
             </div>
             <div>
+                <!-- Update -->
                 <h5>Filter by category</h5>
                 <select id="" name="">
                     <option value="category-1">Category 1</option>
@@ -65,6 +67,13 @@ pagination:
             {% assign offset = 0 %}
             {% assign currentPage = 1 %}
         {% endif %}
+
+        <!-- <li>
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Previous</a>
+        </li>
+        <li>
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next</a>
+        </li> -->
 
         <div id="blogContainer" class="posts__grid post__grid postContainer" data-page="{{ currentPage }}" data-totalpages="{{ paginator.total_pages }}">
             {% for post in site.news limit:8 offset:offset %}

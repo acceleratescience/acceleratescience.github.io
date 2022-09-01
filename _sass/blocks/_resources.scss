@@ -1,12 +1,25 @@
 .block__resources {
-    margin: 0 0 13rem 0;
+    margin: 0 0 4rem 0;
+
+    @include bp(tablet) {
+        margin: 0 0 13rem 0;
+    }
 
     .resources__filter {
-        margin-bottom: 6.5rem;
-        padding: 4rem 0;
+        margin-bottom: 4rem;
+        padding: 2rem 0;
         display: flex;
+        flex-direction: column;
+        align-items: flex-start;
         flex-wrap: wrap;
         border-bottom: 1px solid $dark-cream;
+
+        @include bp(tablet) {
+            margin-bottom: 6.5rem;
+            padding: 4rem 0;
+            flex-direction: row;
+            align-items: unset;
+        }
 
         span {
             margin: 0 4rem 0 0;
@@ -18,13 +31,17 @@
         }
 
         button {
-            margin: 0 4rem 0 0;
+            margin: .5rem 0;
             padding: 0;
             position: relative;
             background-color: transparent;
             border: none;
             color: $primary-blue;
             cursor: pointer;
+
+            @include bp(tablet) {
+                margin: 0 4rem 0 0;
+            }
 
             @include bp(desktop) {
                 margin: 0 6rem 0 0;
@@ -36,8 +53,12 @@
                 height: 2px;
                 position: absolute;
                 left: 0;
-                bottom: -8px;
+                bottom: -4px;
                 display: block;
+
+                @include bp(tablet) {
+                    bottom: -8px;
+                }
             }
 
             &.active {

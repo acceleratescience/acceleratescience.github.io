@@ -36,6 +36,16 @@ collections:
     output: true
   news:
     output: true
+  research:
+    output: true
+  projects:
+    output: true
+  resources:
+    output: true
+  team:
+    output: true
+  opportunities:
+    output: true
 
 # Build settings
 theme: minima

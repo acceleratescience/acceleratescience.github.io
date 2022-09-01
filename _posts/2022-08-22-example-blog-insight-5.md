@@ -1,6 +1,6 @@
 ---
 layout: blog-single
-title: Example Blog/Insight 3
+title: Example Blog/Insight 5
 excerpt: This is an example blog/insight
 category:
   - blog-category-1

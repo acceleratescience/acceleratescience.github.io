@@ -1,0 +1,24 @@
+.block__related-people {
+    margin: 4rem 0;
+
+    @include bp(tablet) {
+        margin: 10rem 0;
+    }
+
+    .section-heading {
+        margin-bottom: 4rem;
+
+        @include bp(tablet) {
+            margin-bottom: 7rem;
+        }
+    }
+
+    .container {
+        padding-bottom: 2rem;
+        border-bottom: 1px solid $regular-grey;
+
+        @include bp(tablet) {
+            padding-bottom: 6rem;
+        }
+    }
+}

@@ -50,11 +50,19 @@ main {
 	display: block;
 
 	&.divider--top {
-		margin-bottom: 7.5rem;
+		margin-bottom: 4rem;
+
+		@include bp(tablet) {
+			margin-bottom: 7.5rem;
+		}
 	}
 
 	&.divider--bottom {
-		margin-top: 7.5rem;
+		margin-top: 4rem;
+
+		@include bp(tablet) {
+			margin-top: 7.5rem;
+		}
 	}
 }
 
