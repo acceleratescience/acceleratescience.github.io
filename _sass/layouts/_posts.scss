@@ -8,7 +8,7 @@
 .block__posts {
 	margin: 4rem 0;
 
-	@include bp(tablet) {
+	@include bp(desktop) {
 		margin: 9rem 0;
 	}
 
@@ -18,6 +18,11 @@
 		border-bottom: 1px solid $regular-grey;
 
 		@include bp(tablet) {
+			margin-bottom: 4rem;
+			padding-bottom: 4rem;
+		}
+
+		@include bp(desktop) {
 			margin-bottom: 5rem;
 			padding-bottom: 8rem;
 		}
@@ -28,7 +33,7 @@
 		display: flex;
 		flex-direction: column;
 
-		@include bp(tablet) {
+		@include bp(desktop) {
 			flex-direction: row;
 			justify-content: space-between;
 			align-items: center;
@@ -41,7 +46,7 @@
 			align-items: center;
 			justify-content: space-between;
 
-			@include bp(tablet) {
+			@include bp(desktop) {
 				justify-content: flex-start;
 			}
 
@@ -51,7 +56,7 @@
 				line-height: 2.1rem;
 				color: $dark-green;
 
-				@include bp(tablet) {
+				@include bp(desktop) {
 					margin: 0 2.5rem 0 0;
 				}
 			}
@@ -69,7 +74,7 @@
 				line-height: 2.1rem;
 				color: $darkest-grey;
 
-				@include bp(tablet) {
+				@include bp(desktop) {
 					width: 360px;
 					min-width: 360px;
 					height: 50px;
@@ -116,6 +121,10 @@
 	flex-wrap: wrap;
 
 	@include bp(tablet) {
+		margin: 0 -1rem -2rem -1rem;
+	}
+
+	@include bp(desktop) {
 		margin: 0 -2rem -4rem -2rem;
 	}
 
@@ -124,6 +133,10 @@
 		.post__post {
 
 			@include bp(tablet) {
+				width: calc(50% - 2rem);
+			}
+
+			@include bp(desktop) {
 				width: calc(50% - 4rem);
 			}
 		}
@@ -134,6 +147,10 @@
 		.post__post {
 
 			@include bp(tablet) {
+				width: calc(33% - 2rem);
+			}
+
+			@include bp(desktop) {
 				width: calc(33% - 4rem);
 			}
 		}
@@ -147,12 +164,13 @@
 	text-decoration: none;
 
 	@include bp(tablet) {
-		width: calc(50% - 4rem);
-		margin: 0 2rem 4rem 2rem;
+		width: calc(50% - 2rem);
+		margin: 0 1rem 2rem 1rem;
 	}
 
 	@include bp(desktop) {
 		width: calc(25% - 4rem);
+		margin: 0 2rem 4rem 2rem;
 	}
 
 
@@ -164,7 +182,7 @@
 		border-radius: 12px;
 		overflow: hidden;
 
-		@include bp(tablet) {
+		@include bp(desktop) {
 			margin-bottom: 3rem;
 		}
 
@@ -194,7 +212,7 @@
 			line-height: 1.6rem;
 			text-transform: uppercase;
 
-			@include bp(tablet) {
+			@include bp(desktop) {
 				margin-bottom: 2rem;
 			}
 		}
@@ -204,7 +222,7 @@
 			font-size: 2.2rem;
 			line-height: 3rem;
 
-			@include bp(tablet) {
+			@include bp(desktop) {
 				font-size: 2.4rem;
 				line-height: 3.1rem;
 			}
@@ -266,6 +284,10 @@
 
 			@include bp(tablet) {
 				width: 50%;
+				padding: 4rem;
+			}
+
+			@include bp(desktop) {
 				padding: 5rem 10rem;
 			}
 		}
@@ -276,7 +298,7 @@
 .block__post-single {
 	margin: 4rem 0;
 
-	@include bp(tablet) {
+	@include bp(desktop) {
 		margin: 7.5rem 0 10rem 0;
 	}
 
@@ -285,7 +307,7 @@
 		header.post-single__header {
 			margin-bottom: 4rem;
 
-			@include bp(tablet) {
+			@include bp(desktop) {
 				margin-bottom: 8rem;
 			}
 
@@ -293,7 +315,7 @@
 				padding-bottom: 4rem;
 				border-bottom: 5px solid $green;
 
-				@include bp(tablet) {
+				@include bp(desktop) {
 					padding-bottom: 10rem;
 				}
 
@@ -304,6 +326,11 @@
 					color: $primary-blue;
 
 					@include bp(tablet) {
+						font-size: 4.4rem;
+						line-height: 5.2rem;
+					}
+
+					@include bp(desktop) {
 						font-size: 4.8rem;
 						line-height: 6.8rem;
 					}
@@ -382,6 +409,10 @@
 	flex-wrap: wrap;
 
 	@include bp(tablet) {
+		margin: 0 -1rem -2rem -1rem;
+	}
+
+	@include bp(desktop) {
 		margin: 0 -2rem -4rem -2rem;
 	}
 }
@@ -401,8 +432,14 @@
 	text-decoration: none;
 
 	@include bp(tablet) {
-		width: calc(33.33% - 4rem);
+		width: calc(33.33% - 2rem);
 		min-height: 270px;
+		margin: 0 1rem 2rem 1rem;
+		padding: 3rem;
+	}
+
+	@include bp(desktop) {
+		width: calc(33.33% - 4rem);
 		margin: 0 2rem 4rem 2rem;
 		padding: 5rem 4rem;
 	}
@@ -445,7 +482,7 @@
 	display: flex;
 	flex-wrap: wrap;
 
-	@include bp(tablet) {
+	@include bp(desktop) {
 		margin: 0 -2rem;
 	}
 
@@ -457,7 +494,13 @@
 		border: 1px solid $regular-grey;
 		border-radius: 12px;
 
-		@include bp(tablet) {
+		// @include bp(tablet) {
+		// 	width: calc(33.33% - 2rem);
+		// 	margin: 0 1rem 2rem 1rem;
+		// 	padding: 4rem 3rem;
+		// }
+
+		@include bp(desktop) {
 			width: calc(33.33% - 4rem);
 			margin: 0 2rem 4rem 2rem;
 			padding: 4rem 3rem;
@@ -526,6 +569,11 @@
 		@include bp(tablet) {
 			width: calc(33.33% - 4rem);
 			margin: 0 2rem 6rem 2rem;
+			flex-wrap: wrap;
+		}
+
+		@include bp(desktop) {
+			flex-wrap: nowrap;
 		}
 
 		&-image {
@@ -533,7 +581,13 @@
 			position: relative;
 
 			@include bp(tablet) {
+				width: 100%;
+				margin-bottom: 2rem;
+			}
+
+			@include bp(desktop) {
 				width: calc(50% - 2rem);
+				margin-bottom: 0;
 			}
 
 			&::before {
@@ -558,6 +612,10 @@
 			width: calc(60% - 1rem);
 
 			@include bp(tablet) {
+				width: 100%;
+			}
+
+			@include bp(desktop) {
 				width: calc(50% - 2rem);
 			}
 

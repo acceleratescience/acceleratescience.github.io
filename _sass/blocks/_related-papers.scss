@@ -1,7 +1,7 @@
 .block__related-papers {
     margin: 4rem 0;
 
-    @include bp(tablet) {
+    @include bp(desktop) {
         margin: 10rem 0;
     }
 
@@ -12,7 +12,7 @@
     .section-heading {
         margin-bottom: 4rem;
 
-        @include bp(tablet) {
+        @include bp(desktop) {
             margin-bottom: 7rem;
         }
     }

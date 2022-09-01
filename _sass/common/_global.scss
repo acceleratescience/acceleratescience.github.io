@@ -52,7 +52,7 @@ main {
 	&.divider--top {
 		margin-bottom: 4rem;
 
-		@include bp(tablet) {
+		@include bp(desktop) {
 			margin-bottom: 7.5rem;
 		}
 	}
@@ -60,7 +60,7 @@ main {
 	&.divider--bottom {
 		margin-top: 4rem;
 
-		@include bp(tablet) {
+		@include bp(desktop) {
 			margin-top: 7.5rem;
 		}
 	}

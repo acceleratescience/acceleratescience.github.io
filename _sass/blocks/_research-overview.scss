@@ -1,7 +1,7 @@
 .block__research-overview {
     margin: 4rem 0;
 
-    @include bp(tablet) {
+    @include bp(desktop) {
         margin: 10rem 0;
     }
 
@@ -9,7 +9,7 @@
         padding-bottom: 4rem;
         border-bottom: 1px solid $regular-grey;
 
-        @include bp(tablet) {
+        @include bp(desktop) {
             padding-bottom: 10rem;
         }
     }

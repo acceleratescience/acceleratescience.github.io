@@ -1,7 +1,7 @@
 .block__current-opportunities {
     margin: 4rem 0;
 
-    @include bp(tablet) {
+    @include bp(desktop) {
         margin: 10rem 0;
     }
 
@@ -15,7 +15,7 @@
         line-height: 4.2rem;
         letter-spacing: 0.27px;
 
-        @include bp(tablet) {
+        @include bp(desktop) {
             margin-bottom: 9rem;
         }
     }
@@ -74,6 +74,14 @@
         padding: 4rem 3rem;
         background-color: $light-grey;
         border-radius: 12px;
+
+        @include bp(tablet) {
+            padding: 3rem 2rem;
+        }
+
+        @include bp(desktop) {
+            padding: 4rem 3rem;
+        }
 
         @include bp(desktop-xl) {
             padding: 6rem 3.5rem;

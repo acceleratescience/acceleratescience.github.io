@@ -1,7 +1,7 @@
 .block__text {
     margin: 4rem 0;
 
-    @include bp(tablet) {
+    @include bp(desktop) {
         margin: 10rem 0;
     }
 

@@ -11,7 +11,7 @@
         flex-wrap: wrap;
         border-bottom: 1px solid $regular-grey;
 
-        @include bp(tablet) {
+        @include bp(desktop) {
             margin-bottom: 8rem;
         }
 
@@ -27,9 +27,14 @@
             cursor: pointer;
 
             @include bp(tablet) {
+                padding: 2rem;
+                font-size: 1.8rem;
+            }
+
+            @include bp(desktop) {
                 min-width: 260px;
                 margin-right: 2px;
-                padding: 2rem;
+
                 border-top-left-radius: 12px;
                 border-top-right-radius: 12px;
                 font-size: 1.8rem;

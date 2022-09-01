@@ -1,7 +1,7 @@
 .block__resources {
     margin: 0 0 4rem 0;
 
-    @include bp(tablet) {
+    @include bp(desktop) {
         margin: 0 0 13rem 0;
     }
 
@@ -14,7 +14,7 @@
         flex-wrap: wrap;
         border-bottom: 1px solid $dark-cream;
 
-        @include bp(tablet) {
+        @include bp(desktop) {
             margin-bottom: 6.5rem;
             padding: 4rem 0;
             flex-direction: row;
@@ -39,10 +39,6 @@
             color: $primary-blue;
             cursor: pointer;
 
-            @include bp(tablet) {
-                margin: 0 4rem 0 0;
-            }
-
             @include bp(desktop) {
                 margin: 0 6rem 0 0;
             }
@@ -56,7 +52,7 @@
                 bottom: -4px;
                 display: block;
 
-                @include bp(tablet) {
+                @include bp(desktop) {
                     bottom: -8px;
                 }
             }
