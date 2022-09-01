@@ -475,6 +475,17 @@ function resizeCanvas(canvas) {
                  *
                  */
 
+                // Accordions
+                $('.accordions__selectors button').click(function () {
+                    var id = $(this).data('accordion-id');
+                    $(this).siblings('button').removeClass('active');
+                    $(this).addClass('active');
+
+                    var accordion = $(this).closest('.block__accordions').find('.accordions__accordion[data-accordion-content="' + id + '"]')
+                    $(this).closest('.block__accordions').find('.accordions__accordion').removeClass('active');
+                    $(accordion).addClass('active');
+                });
+
                 // Tabs
                 $('.tabs__selector').click(function () {
                     var id = $(this).data('id');
