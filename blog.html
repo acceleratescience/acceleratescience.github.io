@@ -3,7 +3,7 @@ layout: page
 title: Blog
 pagination:
     enabled: true
-    collection: 'blog'
+    collection: 'posts'
     indexpage: 'blog'
 ---
 
@@ -67,13 +67,6 @@ pagination:
             {% assign offset = 0 %}
             {% assign currentPage = 1 %}
         {% endif %}
-
-        <li>
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Previous</a>
-        </li>
-        <li>
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Next</a>
-        </li>
 
         <div id="blogContainer" class="posts__grid post__grid postContainer" data-page="{{ currentPage }}" data-totalpages="{{ paginator.total_pages }}">
             {% for post in site.posts limit:8 offset:offset %}
