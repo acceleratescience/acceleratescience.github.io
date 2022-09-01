@@ -100,31 +100,19 @@ pagination:
             <div class="latest__news column-m-12-nest column-t-8">
                 <h2 class="section-heading">Latest News</h2>
                 <div class="post__grid post__grid--col2">
-                    <a class="post__post" href="#">
-                        <div class="post__post-thumbnail">
-                            <img alt="" src="./assets/images/placeholder.jpg">
-                        </div>
-                        <div class="post__post-content">
-                            <h4>NEWS CATEGORY</h4>
-                            <h3>News heading goes in here</h3>
-                            <p class="date">20th July, 2022</p>
-                            <p class="excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis justo nec leo dapibus, eu ultricies lectus dictum. Pellentesque sit amet blandit ex.</p>
-                            <span class="button">Read More</span>
-                        </div>
-                    </a>
-
-                    <a class="post__post" href="#">
-                        <div class="post__post-thumbnail">
-                            <img alt="" src="./assets/images/placeholder.jpg">
-                        </div>
-                        <div class="post__post-content">
-                            <h4>NEWS CATEGORY</h4>
-                            <h3>News heading goes in here</h3>
-                            <p class="date">20th July, 2022</p>
-                            <p class="excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisis justo nec leo dapibus, eu ultricies lectus dictum. Pellentesque sit amet blandit ex.</p>
-                            <span class="button">Read More</span>
-                        </div>
-                    </a>
+                    {% for post in site.news limit:2 %}
+                        <a class="post__post post__post--standard" href="{{ post.url }}">
+                            <div class="post__post-thumbnail">
+                                <img src="{{ post.featured_image }}">
+                            </div>
+                            <div class="post__post-content">
+                                <h4>{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</h4>
+                                <h3>{{ post.title}}</h3>
+                                <p class="date">{{ post.date | date: "%-d %B %Y" }}</p>
+                                <span class="button">Read More</span>
+                            </div>
+                        </a>
+                    {% endfor %}
                 </div>
             </div>
             <div class="latest__tweets column-m-12-nest column-t-4">
