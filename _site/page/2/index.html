@@ -115,7 +115,31 @@
 
 
             <div class="latest__insights column-m-12-nest">
-                <div id="blogContainer" class="posts__grid post__grid postContainer" data-page="2" data-totalpages="2">
+                <div id="blogContainer" class="posts__grid post__grid postContainer" data-page="2" data-totalpages="3">
+                    
+                        <a class="post__post post__post--standard" href="/blog-category-1/2022/08/22/example-blog-insight-17.html">
+                            <div class="post__post-thumbnail">
+                                <img src="/assets/uploads/schmidt-futures-donation.png">
+                            </div>
+                            <div class="post__post-content">
+                                <h4>blog category 1</h4>
+                                <h3>Example Blog/Insight 17</h3>
+                                <p class="date">22 August 2022</p>
+                                <span class="button">Read More</span>
+                            </div>
+                        </a>
+                    
+                        <a class="post__post post__post--standard" href="/blog-category-1/2022/08/22/example-blog-insight-16.html">
+                            <div class="post__post-thumbnail">
+                                <img src="/assets/uploads/schmidt-futures-donation.png">
+                            </div>
+                            <div class="post__post-content">
+                                <h4>blog category 1</h4>
+                                <h3>Example Blog/Insight 16</h3>
+                                <p class="date">22 August 2022</p>
+                                <span class="button">Read More</span>
+                            </div>
+                        </a>
                     
                         <a class="post__post post__post--standard" href="/blog-category-1/2022/08/22/example-blog-insight-15.html">
                             <div class="post__post-thumbnail">
@@ -189,22 +213,19 @@
                             </div>
                         </a>
                     
-                        <a class="post__post post__post--standard" href="/blog-category-1/2022/08/22/example-blog-insight-1.html">
-                            <div class="post__post-thumbnail">
-                                <img src="/assets/uploads/schmidt-futures-donation.png">
-                            </div>
-                            <div class="post__post-content">
-                                <h4>blog category 1</h4>
-                                <h3>Example Blog/Insight 1</h3>
-                                <p class="date">22 August 2022</p>
-                                <span class="button">Read More</span>
-                            </div>
-                        </a>
-                    
                 </div>
 
                 
                 
+                
+                    <div class="posts__load-more">
+                        <span></span>
+                        <button class="button button--large loadMore">
+                            Show More
+                            <img src="../assets/images/plus.svg">
+                        </button>
+                        <span></span>
+                    </div>
                 
 
                 <script>
@@ -215,7 +236,9 @@
                         var $blogContainer = $("#blogContainer");
                         var nextPage = parseInt($blogContainer.attr("data-page")) + 1;
                         var totalPages = parseInt($blogContainer.attr("data-totalPages"));
+                        $("#blogContainer").attr('data-page', nextPage);
                         $(this).addClass("loading");
+
                         $.get("/page/" + nextPage + "/blog.html", function (data) {
                             var htmlData = $.parseHTML(data);
                             var $articles = $(htmlData).find(".post__post--standard");

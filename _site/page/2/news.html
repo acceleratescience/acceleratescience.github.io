@@ -235,6 +235,15 @@
         
         
         
+            <div class="posts__load-more">
+                <span></span>
+                <button class="button button--large loadMore">
+                    Show More
+                    <img src="../assets/images/plus.svg">
+                </button>
+                <span></span>
+            </div>
+        
 
         <script>
             $(".loadMore").click(loadMorePosts);
@@ -244,6 +253,7 @@
                 var $blogContainer = $("#blogContainer");
                 var nextPage = parseInt($blogContainer.attr("data-page")) + 1;
                 var totalPages = parseInt($blogContainer.attr("data-totalPages"));
+                $("#blogContainer").attr('data-page', nextPage);
                 $(this).addClass("loading");
 
                 $.get("/page/" + nextPage + "/news.html", function (data) {

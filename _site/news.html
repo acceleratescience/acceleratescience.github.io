@@ -265,6 +265,7 @@
                 var $blogContainer = $("#blogContainer");
                 var nextPage = parseInt($blogContainer.attr("data-page")) + 1;
                 var totalPages = parseInt($blogContainer.attr("data-totalPages"));
+                $("#blogContainer").attr('data-page', nextPage);
                 $(this).addClass("loading");
 
                 $.get("/page/" + nextPage + "/news.html", function (data) {

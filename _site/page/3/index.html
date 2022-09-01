@@ -11,7 +11,7 @@
         <script type="text/javascript" src="/assets/js/jquery-3.6.0.min.js"></script>
     </head>
 
-    <body class="layout-page  blog">
+    <body class="layout-page  home">
         <header role="banner">
     <div class="nav-topbar-upper">
         <div class="container">
@@ -34,7 +34,12 @@
     </div>
 </header>
         <main class="main">
-            <section class="block block__hero">
+            <section class="block block__hero block__hero--large" id="hero">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.3/dat.gui.min.js"></script>
+    <script src="https://mrdoob.github.io/stats.js/build/stats.min.js"></script>
+
+    <canvas id="c"></canvas>
+
     <div class="container">
         <div class="hero__head row row--justified row--middle">
             <a href="" class="brand">
@@ -93,185 +98,158 @@
         </div>
 
         <div class="hero__content">
-            <h1 class="no-margin">Blog</h1>
+            <h1>Advancing scientific discovery with machine learning</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ipsum urna, sollicitudin non sagittis ac, maximus non metus. Vestibulum semper, augue quis scelerisque sagittis, lacus augue tristique nunc, a porttitor felis sapien ut massa.</p>
+            <a href="/" class="button button--white">Read More</a>
         </div>
     </div>
 </section>
 
-<section class="block block__posts">
+<section class="block block__latest">
     <div class="container">
-        <div class="posts__featured">
-            
-                <a class="post__post post__post--featured" href="/blog-category-1/2022/08/22/example-blog-insight-9.html">
-                    <div class="post__post-thumbnail">
-                        <img src="/assets/uploads/schmidt-futures-donation.png">
-                    </div>
-                    <div class="post__post-content">
-                        <h4>blog category 1</h4>
-                        <h3>Example Blog/Insight 9</h3>
-                        <p class="date">22 August 2022</p>
-                        <p class="excerpt">This is an example blog/insight</p>
-                        <span class="button">Read More</span>
-                    </div>
-                </a>
-            
-        </div>
+        <div class="latest__upper row row--justified">
+            <h2 class="section-heading">Latest Insights</h2>
+            <a class="button button--large" href="/blog/">Show All</a>
 
-        <div class="posts__filter">
-            <div>
-                <!-- Update -->
-                <h5>Search</h5>
-                <input placeholder="Search query goes in here" type="text">
-            </div>
-            <div>
-                <!-- Update -->
-                <h5>Filter by category</h5>
-                <select id="" name="">
-                    <option value="category-1">Category 1</option>
-                    <option value="category-2">Category 2</option>
-                    <option value="category-3">Category 3</option>
-                    <option value="category-4">Category 4</option>
-                </select>
-            </div>
-        </div>
+            
 
-        
 
-        <div id="blogContainer" class="posts__grid post__grid postContainer" data-page="1" data-totalpages="3">
-            
-                <a class="post__post post__post--standard" href="/blog-category-1/2022/08/22/example-blog-insight-9.html">
-                    <div class="post__post-thumbnail">
-                        <img src="/assets/uploads/schmidt-futures-donation.png">
-                    </div>
-                    <div class="post__post-content">
-                        <h4>blog category 1</h4>
-                        <h3>Example Blog/Insight 9</h3>
-                        <p class="date">22 August 2022</p>
-                        <span class="button">Read More</span>
-                    </div>
-                </a>
-            
-                <a class="post__post post__post--standard" href="/blog-category-1/2022/08/22/example-blog-insight-8.html">
-                    <div class="post__post-thumbnail">
-                        <img src="/assets/uploads/schmidt-futures-donation.png">
-                    </div>
-                    <div class="post__post-content">
-                        <h4>blog category 1</h4>
-                        <h3>Example Blog/Insight 8</h3>
-                        <p class="date">22 August 2022</p>
-                        <span class="button">Read More</span>
-                    </div>
-                </a>
-            
-                <a class="post__post post__post--standard" href="/blog-category-1/2022/08/22/example-blog-insight-7.html">
-                    <div class="post__post-thumbnail">
-                        <img src="/assets/uploads/schmidt-futures-donation.png">
-                    </div>
-                    <div class="post__post-content">
-                        <h4>blog category 1</h4>
-                        <h3>Example Blog/Insight 7</h3>
-                        <p class="date">22 August 2022</p>
-                        <span class="button">Read More</span>
-                    </div>
-                </a>
-            
-                <a class="post__post post__post--standard" href="/blog-category-1/2022/08/22/example-blog-insight-6.html">
-                    <div class="post__post-thumbnail">
-                        <img src="/assets/uploads/schmidt-futures-donation.png">
-                    </div>
-                    <div class="post__post-content">
-                        <h4>blog category 1</h4>
-                        <h3>Example Blog/Insight 6</h3>
-                        <p class="date">22 August 2022</p>
-                        <span class="button">Read More</span>
-                    </div>
-                </a>
-            
-                <a class="post__post post__post--standard" href="/blog-category-1/2022/08/22/example-blog-insight-5.html">
-                    <div class="post__post-thumbnail">
-                        <img src="/assets/uploads/schmidt-futures-donation.png">
-                    </div>
-                    <div class="post__post-content">
-                        <h4>blog category 1</h4>
-                        <h3>Example Blog/Insight 5</h3>
-                        <p class="date">22 August 2022</p>
-                        <span class="button">Read More</span>
-                    </div>
-                </a>
-            
-                <a class="post__post post__post--standard" href="/blog-category-1/2022/08/22/example-blog-insight-4.html">
-                    <div class="post__post-thumbnail">
-                        <img src="/assets/uploads/schmidt-futures-donation.png">
-                    </div>
-                    <div class="post__post-content">
-                        <h4>blog category 1</h4>
-                        <h3>Example Blog/Insight 4</h3>
-                        <p class="date">22 August 2022</p>
-                        <span class="button">Read More</span>
-                    </div>
-                </a>
-            
-                <a class="post__post post__post--standard" href="/blog-category-1/2022/08/22/example-blog-insight-3.html">
-                    <div class="post__post-thumbnail">
-                        <img src="/assets/uploads/schmidt-futures-donation.png">
-                    </div>
-                    <div class="post__post-content">
-                        <h4>blog category 1</h4>
-                        <h3>Example Blog/Insight 3</h3>
-                        <p class="date">22 August 2022</p>
-                        <span class="button">Read More</span>
-                    </div>
-                </a>
-            
-                <a class="post__post post__post--standard" href="/blog-category-1/2022/08/22/example-blog-insight-2.html">
-                    <div class="post__post-thumbnail">
-                        <img src="/assets/uploads/schmidt-futures-donation.png">
-                    </div>
-                    <div class="post__post-content">
-                        <h4>blog category 1</h4>
-                        <h3>Example Blog/Insight 2</h3>
-                        <p class="date">22 August 2022</p>
-                        <span class="button">Read More</span>
-                    </div>
-                </a>
-            
-        </div>
+            <div class="latest__insights column-m-12-nest">
+                <div id="blogContainer" class="posts__grid post__grid postContainer" data-page="3" data-totalpages="3">
+                    
+                        <a class="post__post post__post--standard" href="/blog-category-1/2022/08/22/example-blog-insight-1.html">
+                            <div class="post__post-thumbnail">
+                                <img src="/assets/uploads/schmidt-futures-donation.png">
+                            </div>
+                            <div class="post__post-content">
+                                <h4>blog category 1</h4>
+                                <h3>Example Blog/Insight 1</h3>
+                                <p class="date">22 August 2022</p>
+                                <span class="button">Read More</span>
+                            </div>
+                        </a>
+                    
+                </div>
 
-        
-        
-        
-            <div class="posts__load-more">
-                <span></span>
-                <button class="button button--large loadMore">
-                    Show More
-                    <img src="../assets/images/plus.svg">
-                </button>
-                <span></span>
-            </div>
-        
-
-        <script>
-            $(".loadMore").click(loadMorePosts);
-
-            function loadMorePosts() {
-                var _this = this;
-                var $blogContainer = $("#blogContainer");
-                var nextPage = parseInt($blogContainer.attr("data-page")) + 1;
-                var totalPages = parseInt($blogContainer.attr("data-totalPages"));
-                $("#blogContainer").attr('data-page', nextPage);
-                $(this).addClass("loading");
                 
-                $.get("/page/" + nextPage + "/blog.html", function (data) {
-                    var htmlData = $.parseHTML(data);
-                    var $articles = $(htmlData).find(".post__post--standard");
-                    $blogContainer.append($articles);
-                    if ($blogContainer.attr("data-totalPages") == nextPage) {
-                        $(".loadMore").closest(".posts__load-more").remove();
+                
+                
+
+                <script>
+                    $(".loadMore").click(loadMorePosts);
+
+                    function loadMorePosts() {
+                        var _this = this;
+                        var $blogContainer = $("#blogContainer");
+                        var nextPage = parseInt($blogContainer.attr("data-page")) + 1;
+                        var totalPages = parseInt($blogContainer.attr("data-totalPages"));
+                        $("#blogContainer").attr('data-page', nextPage);
+                        $(this).addClass("loading");
+
+                        $.get("/page/" + nextPage + "/blog.html", function (data) {
+                            var htmlData = $.parseHTML(data);
+                            var $articles = $(htmlData).find(".post__post--standard");
+                            $blogContainer.append($articles);
+                            if ($blogContainer.attr("data-totalPages") == nextPage) {
+                                $(".loadMore").closest(".posts__load-more").remove();
+                            }
+                            $(_this).removeClass("loading");
+                        });
                     }
-                    $(_this).removeClass("loading");
-                });
-            }
-        </script>
+                </script>
+            </div>
+        </div>
+        <div class="latest__lower row row--justified">
+            <div class="latest__news column-m-12-nest column-t-8">
+                <h2 class="section-heading">Latest News</h2>
+                <div class="post__grid post__grid--col2">
+                    
+                        <a class="post__post post__post--standard" href="/news/2022-08-22-example-news-10.html">
+                            <div class="post__post-thumbnail">
+                                <img src="/assets/uploads/schmidt-futures-donation.png">
+                            </div>
+                            <div class="post__post-content">
+                                <h4>news category 1</h4>
+                                <h3>Example News 10</h3>
+                                <p class="date">22 August 2022</p>
+                                <span class="button">Read More</span>
+                            </div>
+                        </a>
+                    
+                        <a class="post__post post__post--standard" href="/news/2022-08-22-example-news-11.html">
+                            <div class="post__post-thumbnail">
+                                <img src="/assets/uploads/schmidt-futures-donation.png">
+                            </div>
+                            <div class="post__post-content">
+                                <h4>news category 1</h4>
+                                <h3>Example News 11</h3>
+                                <p class="date">22 August 2022</p>
+                                <span class="button">Read More</span>
+                            </div>
+                        </a>
+                    
+                </div>
+            </div>
+            <div class="latest__tweets column-m-12-nest column-t-4">
+                <h2 class="section-heading">Latest Tweets</h2>
+                <a class="twitter-timeline" data-height="500" href="https://twitter.com/AccelerateSci?ref_src=twsrc%5Etfw">Tweets by AccelerateSci</a>
+                <script async charset="utf-8" src="https://platform.twitter.com/widgets.js"></script>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="block block__accordions">
+    <div class="container">
+        <div class="row row--justified">
+            <div class="accordions__selectors column-m-12-nest column-t-4-nest">
+                <button class="active" data-accordion-id="what-we-do">
+                    <img src="./assets/uploads/what-we-do.png">
+                    What we do
+                </button>
+                <button data-accordion-id="research">
+                    <img src="./assets/uploads/research.png">
+                    Research
+                </button>
+                <button data-accordion-id="education-training">
+                    <img src="./assets/uploads/education-and-training.png">
+                    Education & Training
+                </button>
+                <button data-accordion-id="engagement">
+                    <img src="./assets/uploads/engagement.png">
+                    Engagement
+                </button>
+            </div>
+            <div class="accordions__window column-m-12-nest column-t-7-nest column-d-6-nest">
+                <div class="accordions__accordion active" data-accordion-content="what-we-do">
+                    <h3>Amidst growing excitement about AI, a gap has emerged between our aspirations for AI and our ability to deploy these technologies to tackle real-world challenges.
+                    </h3>
+                    <p>ML@CL aims to bridge this gap through innovations in modelling, systems and software engineering for machine learning deployment; the application of AI for scientific discovery; and the development of policy frameworks for trustworthy and beneficial AI.</p>
+                    <a class="button" href="#">Read More</a>
+                </div>
+
+                <div class="accordions__accordion" data-accordion-content="research">
+                    <h3>Amidst growing excitement about AI, a gap has emerged between our aspirations for AI and our ability to deploy these technologies to tackle real-world challenges.
+                    </h3>
+                    <p>ML@CL aims to bridge this gap through innovations in modelling, systems and software engineering for machine learning deployment; the application of AI for scientific discovery; and the development of policy frameworks for trustworthy and beneficial AI.</p>
+                    <a class="button" href="#">Read More</a>
+                </div>
+
+                <div class="accordions__accordion" data-accordion-content="education-training">
+                    <h3>Amidst growing excitement about AI, a gap has emerged between our aspirations for AI and our ability to deploy these technologies to tackle real-world challenges.
+                    </h3>
+                    <p>ML@CL aims to bridge this gap through innovations in modelling, systems and software engineering for machine learning deployment; the application of AI for scientific discovery; and the development of policy frameworks for trustworthy and beneficial AI.</p>
+                    <a class="button" href="#">Read More</a>
+                </div>
+
+                <div class="accordions__accordion" data-accordion-content="engagement">
+                    <h3>Amidst growing excitement about AI, a gap has emerged between our aspirations for AI and our ability to deploy these technologies to tackle real-world challenges.
+                    </h3>
+                    <p>ML@CL aims to bridge this gap through innovations in modelling, systems and software engineering for machine learning deployment; the application of AI for scientific discovery; and the development of policy frameworks for trustworthy and beneficial AI.</p>
+                    <a class="button" href="#">Read More</a>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
         </main>

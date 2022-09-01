@@ -115,7 +115,7 @@
 
 
             <div class="latest__insights column-m-12-nest">
-                <div id="blogContainer" class="posts__grid post__grid postContainer" data-page="1" data-totalpages="2">
+                <div id="blogContainer" class="posts__grid post__grid postContainer" data-page="1" data-totalpages="3">
                     
                         <a class="post__post post__post--standard" href="/blog-category-1/2022/08/22/example-blog-insight-9.html">
                             <div class="post__post-thumbnail">
@@ -236,7 +236,9 @@
                         var $blogContainer = $("#blogContainer");
                         var nextPage = parseInt($blogContainer.attr("data-page")) + 1;
                         var totalPages = parseInt($blogContainer.attr("data-totalPages"));
+                        $("#blogContainer").attr('data-page', nextPage);
                         $(this).addClass("loading");
+
                         $.get("/page/" + nextPage + "/blog.html", function (data) {
                             var htmlData = $.parseHTML(data);
                             var $articles = $(htmlData).find(".post__post--standard");
