@@ -89,29 +89,6 @@
 			}
 		}
 	}
-
-	.posts__load-more {
-		margin-top: 3rem;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-
-		@include bp(tablet) {
-			margin-top: 5rem;
-		}
-
-		.button {
-			margin: 0 1rem;
-			border: none;
-		}
-
-		span {
-			width: auto;
-			height: 1px;
-			flex: 1;
-			background-color: $regular-grey;
-		}
-	}
 }
 
 // Posts Grid
@@ -154,6 +131,30 @@
 				width: calc(33% - 4rem);
 			}
 		}
+	}
+}
+
+// Posts Load More
+.posts__load-more {
+	margin-top: 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	@include bp(tablet) {
+		margin-top: 5rem;
+	}
+
+	.button {
+		margin: 0 1rem;
+		border: none;
+	}
+
+	span {
+		width: auto;
+		height: 1px;
+		flex: 1;
+		background-color: $regular-grey;
 	}
 }
 
