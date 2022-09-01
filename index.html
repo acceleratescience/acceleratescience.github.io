@@ -33,7 +33,7 @@ pagination:
     <div class="container">
         <div class="latest__upper row row--justified">
             <h2 class="section-heading">Latest Insights</h2>
-            <a class="button button--large" href="#">Show All</a>
+            <a class="button button--large" href="/blog/">Show All</a>
 
             {% if paginator.page %}
                 {% assign offset = paginator.page | minus:1 | times:paginator.per_page %}
