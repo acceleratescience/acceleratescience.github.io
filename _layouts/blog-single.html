@@ -35,30 +35,36 @@
                 <article>
                     <header class="post-single__header">
                         <div class="row row--justified">
-                            <a href="{{site.url}}/news/" class="post-single__header-back">
-                                <svg width="20px" height="12px" viewBox="0 0 20 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                        <g id="Home-Concept-v1.0-b" transform="translate(-1583.000000, -759.000000)" fill="#DB3900">
-                                            <g id="Down" transform="translate(1583.000000, 759.000000)">
-                                                <rect id="Rectangle" x="8" y="8" width="4" height="4"></rect>
-                                                <rect id="Rectangle" x="4" y="4" width="4" height="4"></rect>
-                                                <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
-                                                <rect id="Rectangle" x="12" y="4" width="4" height="4"></rect>
-                                                <rect id="Rectangle" x="16" y="0" width="4" height="4"></rect>
+                            <div class="column-m-12-nest column-d-1"></div>
+                            <div class="column-m-12-nest column-d-8">
+                                <a href="{{site.url}}/blog/" class="button button--back">
+                                    <svg width="20px" height="12px" viewBox="0 0 20 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g id="Home-Concept-v1.0-b" transform="translate(-1583.000000, -759.000000)" fill="#DB3900">
+                                                <g id="Down" transform="translate(1583.000000, 759.000000)">
+                                                    <rect id="Rectangle" x="8" y="8" width="4" height="4"></rect>
+                                                    <rect id="Rectangle" x="4" y="4" width="4" height="4"></rect>
+                                                    <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                                                    <rect id="Rectangle" x="12" y="4" width="4" height="4"></rect>
+                                                    <rect id="Rectangle" x="16" y="0" width="4" height="4"></rect>
+                                                </g>
                                             </g>
                                         </g>
-                                    </g>
-                                </svg>
-                                <p>Back to blog</p>
-                            </a>
+                                    </svg>
+                                    <p>Back to blog</p>
+                                </a>
+                            </div>
+                            <div class="column-m-12-nest column-d-2"></div>
+                            <div class="column-m-12-nest column-d-1"></div>
                         </div>
 
                         <div class="row row--justified">
-                            <div class="post-single__header-heading column-m-12-nest column-t-9">
+                            <div class="column-m-12-nest column-d-1"></div>
+                            <div class="post-single__header-heading column-m-12-nest column-t-10 column-d-8">
                                 <h1>{{page.title}}</h1>
                             </div>
 
-                            <div class="post-single__header-socials column-m-12-nest column-t-3">
+                            <div class="post-single__header-socials column-m-12-nest column-t-2">
                                 <a href="#" target="_blank">
                                     <svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                                         <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -98,14 +104,18 @@
                                     </svg>
                                 </a>
                             </div>
+                            <div class="column-m-12-nest column-d-1"></div>
                         </div>
                     </header>
 
                     <body class="post-single__body">
                         <div class="row row--justified">
-                            <div class="column-m-12-nest column-t-9">
+                            <div class="column-m-12-nest column-d-1"></div>
+                            <div class="column-m-12-nest column-t-10 column-d-8">
                                 {{ content }}
                             </div>
+                            <div class="column-m-12-nest column-t-2"></div>
+                            <div class="column-m-12-nest column-d-1"></div>
                         </div>
                     </body>
                 </article>
@@ -119,14 +129,14 @@
                 <div class="post__grid">
 
                     {% assign count_check = false %}
-                    {% for item in site.blog limit:3 %}
+                    {% for item in site.posts limit:3 %}
                     {% if post.url != page.url %}
                     {% assign count_check = true %}
                     {% endif %}
                     {% endfor %}
 
                     {% if count_check == false %}
-                    {% for item in site.blog limit:3 %}
+                    {% for item in site.posts limit:3 %}
                     <a class="post__post" href="{{ item.url }}">
                         <div class="post__post-thumbnail">
                             <img src="{{ item.featured_image }}">
@@ -140,7 +150,7 @@
                     </a>
                     {% endfor %}
                     {% else %}
-                    {% for item in site.blog limit:4 %}
+                    {% for item in site.posts limit:4 %}
                     {% if item.url != page.url %}
                     <a class="post__post" href="{{ item.url }}">
                         <div class="post__post-thumbnail">
