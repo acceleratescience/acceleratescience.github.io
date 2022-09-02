@@ -18,3 +18,31 @@ title: Team
         </div>
     </div>
 </section>
+
+<section class="block block__team">
+    <div class="container">
+        <div class="team__tabs">
+            <button class="active" data-team-id="main">Our Team</button>
+            <button data-team-id="advisory-group">Advisory Group</button>
+            <button data-team-id="alumni">Alumni</button>
+        </div>
+
+        <div class="team__grid" data-team-content="main">
+            {% for item in site.team %}
+                <a href="{{ item.url }}" class="team__member">
+                    <div class="team__member-image">
+                        <img src="{{item.featured_image}}" alt="Image of {{item.title}}">
+                    </div>
+                    <div class="team__member-details">
+                        <h3>{{ item.title }}</h3>
+                        <p>{{ item.description }}</p>
+                        <span class="button">Read Bio</span>
+                    </div>
+                </a>
+            {% endfor %}
+        </div>
+
+        <div class="team__grid inactive" data-team-content="advisory-group"></div>
+        <div class="team__grid inactive" data-team-content="alumni"></div>
+    </div>
+</section>

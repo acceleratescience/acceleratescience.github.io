@@ -68,20 +68,23 @@ main {
 
 .offcanvas {
 	width: 100%;
-	height: calc(100vh - 54px);
-	padding: 1rem 2rem;
+	height: calc(100vh - 160px);
+	padding: 2rem;
 	position: fixed;
-	top: 54px;
+	// top: 54px;
+	bottom: 0;
 	left: 0;
 	display: none;
-	background-color: $primary-blue;
+	background-color: $blue;
 	opacity: 0;
 	visibility: hidden;
 	overflow-x: hidden;
 	overflow-y: scroll;
 
 	.mobile-menu-active & {
-		display: block;
+		display: flex;
+		justify-content: center;
+		align-items: center;
 		opacity: 1;
 		visibility: visible;
 		z-index: 99;
@@ -99,34 +102,34 @@ main {
 		visibility: hidden;
 	}
 
-	.mobile-menu-exit {
-		width: 40px;
-		height: 40px;
-		margin: 0 0 2rem auto;
-		position: relative;
-		display: block;
-		cursor: pointer;
+	// .mobile-menu-exit {
+	// 	width: 40px;
+	// 	height: 40px;
+	// 	margin: 0 0 2rem auto;
+	// 	position: relative;
+	// 	display: block;
+	// 	cursor: pointer;
 
-		&::before,
-		&::after {
-			content: "";
-			width: 100%;
-			height: 2px;
-			display: block;
-			position: absolute;
-			top: 50%;
-			left: 50%;
-			background-color: $lightest;
-		}
+	// 	&::before,
+	// 	&::after {
+	// 		content: "";
+	// 		width: 100%;
+	// 		height: 2px;
+	// 		display: block;
+	// 		position: absolute;
+	// 		top: 50%;
+	// 		left: 50%;
+	// 		background-color: $lightest;
+	// 	}
 
-		&::before {
-			transform: translate(-50%, -50%) rotate(-45deg);
-		}
+	// 	&::before {
+	// 		transform: translate(-50%, -50%) rotate(-45deg);
+	// 	}
 
-		&::after {
-			transform: translate(-50%, -50%) rotate(45deg);
-		}
-	}
+	// 	&::after {
+	// 		transform: translate(-50%, -50%) rotate(45deg);
+	// 	}
+	// }
 }
 
 .overlay {

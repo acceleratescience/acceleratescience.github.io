@@ -187,29 +187,24 @@ nav.nav-primary {
 
 nav.nav-mobile {
 	position: relative;
+	transform: translateY(-60px);
 
 	ul {
 		margin: 0;
 		padding: 0;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 		list-style: none;
 
 		li {
 			margin-bottom: 2rem;
-			padding-bottom: 2rem;
-			display: flex;
-			justify-content: space-between;
-			border-bottom: 1px solid $darkest-grey;
+			text-align: center;
 
 			&:last-child {
 				margin-bottom: 0;
-				padding-bottom: 0;
 				border-bottom: none;
-			}
-
-			&.open {
-				.submenu {
-					transform: translateX(0);
-				}
 			}
 
 			a {
@@ -217,57 +212,7 @@ nav.nav-mobile {
 				line-height: 2rem;
 				color: $lightest;
 				text-decoration: none;
-			}
-
-			svg {
-				width: 20px;
-				height: auto;
-				display: block;
-				transform: rotate(-90deg);
-				cursor: pointer;
-			}
-
-			.submenu {
-				width: 100%;
-				height: 100%;
-				position: absolute;
-				top: 0;
-				left: 0;
-				display: flex;
-				flex-direction: column;
-				background-color: $primary-blue;
-				transform: translateX(110%);
-				transition: 400ms;
-				overflow-x: hidden;
-				overflow-y: scroll;
-
-				a {
-					margin-bottom: 2rem;
-					padding-bottom: 2rem;
-					border-bottom: 1px solid $darkest-grey;
-				}
-
-				.back {
-					margin-bottom: 2rem;
-					padding-bottom: 2rem;
-					display: flex;
-					border-bottom: 1px solid $darkest-grey;
-
-					svg {
-						width: 20px;
-						height: auto;
-						margin-right: 2rem;
-						display: block;
-						transform: rotate(90deg);
-					}
-
-					p {
-						margin: 0;
-						font-size: 2.3rem;
-						line-height: 2rem;
-						color: $lightest;
-					}
-				}
+				text-align: center;
 			}
 		}
 	}
@@ -280,33 +225,43 @@ nav.nav-mobile {
 	align-items: center;
 	cursor: pointer;
 
-	&.menu-trigger--alt {
-
-		p {
-			color: $primary-blue;
-		}
-
-		.menu-trigger__dots .dot {
-			background-color: $orange;
-		}
-	}
-
 	&.menu-open {
 
-		.hidden-on-open {
-			opacity: 0;
-			visibility: hidden;
+		.menu-trigger__button {
+
+			span {
+				background: 0 !important;
+
+				&::before {
+					transform: rotate(45deg);
+				}
+
+				&::after {
+					transform: rotate(-45deg);
+					width: 100%;
+				}
+
+				&::before,
+				&::after {
+					top: 0;
+					background-color: $lightest;
+				}
+
+				&,
+				&::before,
+				&::after {
+					transition: 300ms background $cubic 200ms, 300ms top $cubic, 300ms transform $cubic 300ms;
+				}
+			}
 		}
 	}
 
 	p {
 		margin: 0 1rem 0 0;
 		display: block;
-		font-size: 1.4rem;
-		font-weight: 700;
-		line-height: 2rem;
-		letter-spacing: 2.2px;
-		text-transform: uppercase;
+		font-size: 2rem;
+		line-height: 2.6rem;
+		letter-spacing: 0.17px;
 		color: $lightest;
 
 		@include bp(tablet) {
@@ -314,67 +269,69 @@ nav.nav-mobile {
 		}
 	}
 
-	.menu-trigger__dots {
-		width: 27px;
-		height: 27px;
+	.menu-trigger__button {
+		width: 30px;
+		height: 20px;
+		order: 2;
 		position: relative;
+		display: block;
+		transition: 600ms $cubic;
+		cursor: pointer;
+		background: transparent;
+		border: none;
 
-		.dot {
-			width: 4px;
-			height: 4px;
-			position: absolute;
-			display: block;
-			background-color: $lightest;
-			transition: 400ms;
+		span {
 
-			&-top-left {
-				top: 0;
-				left: 0;
-			}
-
-			&-top-middle {
-				top: 0;
-				left: 50%;
-				transform: translateX(-50%);
-			}
-
-			&-top-right {
-				top: 0;
-				right: 0;
-			}
-
-			&-middle-left {
+			&,
+			&::before,
+			&::after {
+				content: '';
+				width: 100%;
+				height: 2px;
+				margin: auto;
+				position: absolute;
 				top: 50%;
 				left: 0;
-				transform: translateY(-50%);
+				background: $lightest;
+				transition: 300ms background $cubic, 300ms top $cubic 200ms, 200ms transform $cubic;
 			}
 
-			&-middle-middle {
-				top: 50%;
-				left: 50%;
-				transform: translateX(-50%) translateY(-50%);
+			&::before {
+				top: -10px;
 			}
 
-			&-middle-right {
-				top: 50%;
-				right: 0;
-				transform: translateY(-50%);
+			&::after {
+				top: 10px;
 			}
 
-			&-bottom-left {
-				bottom: 0;
-				left: 0;
+			&::before,
+			&::after {
+				transform: rotate(0deg);
 			}
 
-			&-bottom-middle {
-				bottom: 0;
-				left: 50%;
-				transform: translateX(-50%);
-			}
+			&.mobile-menu-active {
+				background: 0 !important;
 
-			&-bottom-right {
-				bottom: 0;
-				right: 0;
+				&::before {
+					transform: rotate(45deg);
+				}
+
+				&::after {
+					transform: rotate(-45deg);
+					width: 100%;
+				}
+
+				&::before,
+				&::after {
+					top: 0;
+					background-color: $lightest;
+				}
+
+				&,
+				&::before,
+				&::after {
+					transition: 300ms background $cubic 200ms, 300ms top $cubic, 300ms transform $cubic 300ms;
+				}
 			}
 		}
 	}
