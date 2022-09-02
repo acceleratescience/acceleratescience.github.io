@@ -35,6 +35,12 @@
 
     .text__content {
 
+        p,
+        li,
+        a {
+            font-family: $global-font-family-alt;
+        }
+
         p {
             margin-top: 0;
             color: $darkest-grey;

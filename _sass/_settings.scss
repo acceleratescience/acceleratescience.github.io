@@ -1,6 +1,6 @@
 // Global settings
 $global-width:1440px;
-$global-font-family: "Lato",
+$global-font-family: "DM Sans",
 "HelveticaNeue-Light",
 "Helvetica Neue Light",
 "Helvetica Neue",
@@ -8,7 +8,7 @@ Helvetica,
 Arial,
 "Lucida Grande",
 sans-serif;
-$global-font-family-alt: "Space Grotesk",
+$global-font-family-alt: "Lato",
 "HelveticaNeue-Light",
 "Helvetica Neue Light",
 "Helvetica Neue",
@@ -31,8 +31,9 @@ $primary-blue: #031927;
 $secondary-blue: #133348;
 $tertiary-blue: #081D2B;
 $dark-blue: #556787;
-$blue: #1B56EA;
+$blue: #0000FF;
 $yellow: #FFAE0D;
+$light-yellow: #F7B93E;
 $orange: #DB3900;
 $green: #67C62A;
 $dark-green: #17483D;
@@ -73,13 +74,9 @@ Helvetica,
 Arial,
 "Lucida Grande",
 sans-serif;
-$header-font-family-alternate: "Space Mono",
-"HelveticaNeue-Light",
-"Helvetica Neue Light",
-"Helvetica Neue",
-Helvetica,
-Arial,
-"Lucida Grande",
+$header-font-family-secondary: 'Space Mono',
+monospace;
+$header-font-family-tertiary: 'Space Grotesk',
 sans-serif;
 $header-line-height:1.2;
 $header-bottom-margin:rem-calc(30);

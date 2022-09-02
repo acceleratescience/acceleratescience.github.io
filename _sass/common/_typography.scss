@@ -87,10 +87,11 @@ a {
     position: relative;
     display: flex;
     align-items: center;
-    font-family: $header-font-family-alternate;
+    font-family: $header-font-family;
     font-size: 2.6rem;
     font-weight: normal;
     line-height: 3.4rem;
+    color: $darkest;
 
     @include bp(tablet) {
         margin-bottom: 2.5rem;
@@ -107,6 +108,7 @@ a {
     }
 
     &.section-heading--alt {
+        font-family: $header-font-family-secondary;
         font-size: 1.6rem;
         line-height: 2.4rem;
         text-transform: uppercase;
@@ -121,7 +123,7 @@ a {
             bottom: unset;
             display: inline-block;
             background-color: transparent;
-            font-family: $header-font-family-alternate;
+            font-family: $header-font-family-secondary;
             font-size: 1.6rem;
             font-weight: normal;
             line-height: 2.4rem;

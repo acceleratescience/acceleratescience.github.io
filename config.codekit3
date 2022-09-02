@@ -137,12 +137,12 @@
       "oAP" : "\/_layouts\/page.html",
       "oF" : 0
     },
-    "\/_layouts\/people-single.html" : {
+    "\/_layouts\/team-single.html" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/_layouts\/people-single.html",
+      "oAP" : "\/_layouts\/team-single.html",
       "oF" : 0
     },
     "\/_layouts\/post-single.html" : {

@@ -504,6 +504,17 @@ function resizeCanvas(canvas) {
                     $(this).closest('.dropdown').toggleClass('open');
                 });
 
+                // Team
+                $('.team__tabs button').click(function () {
+                    var id = $(this).data('team-id');
+                    $(this).siblings('button').removeClass('active');
+                    $(this).addClass('active');
+
+                    var team = $(this).closest('.block__team').find('.team__grid[data-team-content="' + id + '"]')
+                    $(this).closest('.block__team').find('.team__grid').addClass('inactive');
+                    $(team).removeClass('inactive');
+                });
+
 
                 /*
                  *
