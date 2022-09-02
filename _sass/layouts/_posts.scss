@@ -566,6 +566,7 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: flex-start;
+		text-decoration: none;
 
 		@include bp(tablet) {
 			width: calc(33.33% - 4rem);
@@ -640,7 +641,7 @@
 				}
 			}
 
-			a {
+			.button {
 				margin-top: 2rem;
 				font-size: 1.4rem;
 

@@ -1,0 +1,101 @@
+.block__team-profile {
+    padding: 5rem 0;
+
+    @include bp(desktop) {
+        padding: 10rem 0;
+    }
+
+    .team-profile__biography {
+        padding: 2rem;
+        background-color: $lightest;
+
+        @include bp(tablet) {
+            padding: 3rem;
+        }
+
+        @include bp(desktop) {
+            padding: 5rem;
+        }
+
+        p,
+        a,
+        li {
+            margin-top: 0;
+            margin-bottom: 2rem;
+            font-size: 1.6rem;
+            line-height: 2.8rem;
+            color: $primary-blue;
+
+            @include bp(tablet) {
+                margin-bottom: 4rem;
+                font-size: 2rem;
+                line-height: 3.2rem;
+            }
+        }
+    }
+
+    .team-profile__contact {
+        padding: 2rem 0 0 0;
+
+        @include bp(tablet) {
+            padding: 3rem 0;
+        }
+
+        @include bp(desktop) {
+            padding: 5rem 0;
+        }
+
+        .section-heading {
+            margin-bottom: 2rem;
+
+            @include bp(desktop) {
+                margin-bottom: 4rem;
+            }
+        }
+
+        &-socials {
+            margin: 0 0 2rem 0;
+            display: flex;
+            flex-wrap: wrap;
+
+            @include bp(desktop) {
+                margin: 0 0 4rem 0;
+            }
+            
+            a {
+                margin-right: 2rem;
+                display: block;
+
+                @include bp(tablet) {
+                    margin-right: 4rem;
+                }
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                svg {
+                    width: auto;
+                    height: 20px;
+                    display: block;
+
+                    @include bp(tablet) {
+                        height: 29px;
+                    }
+                }
+            }
+        }
+
+        a {
+            font-size: 1.8rem;
+            line-height: 2.5rem;
+            color: $primary-blue;
+            text-decoration: none;
+
+            @include bp(desktop) {
+                font-size: 2.4rem;
+                line-height: 3.1rem;
+            }
+        }
+    }
+}

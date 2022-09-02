@@ -6,7 +6,7 @@ title: About Us
 <section class="block block__hero">
     <div class="container">
         <div class="hero__head row row--justified row--middle">
-            <a href="{{site.baseurl}}" class="brand">
+            <a href="{{site.url}}" class="brand">
                 <img class="brand" src="{{ site.data.site.site_logo }}" alt="Logo">
             </a>
             {% include menu-trigger.html %}
@@ -42,6 +42,19 @@ title: About Us
         </div>
 
         <div class="team__grid" data-team-content="main">
+            {% for item in site.team %}
+                <a href="{{ item.url }}" class="team__member">
+                    <div class="team__member-image">
+                        <img src="{{item.featured_image}}" alt="Image of {{item.title}}">
+                    </div>
+                    <div class="team__member-details">
+                        <h3>{{ item.title }}</h3>
+                        <p>{{ item.description }}</p>
+                        <span class="button">Read Bio</span>
+                    </div>
+                </a>
+            {% endfor %}
+
             <div class="team__member">
                 <div class="team__member-image">
                     <img src="../assets/uploads/neil-lawrence.jpeg">
