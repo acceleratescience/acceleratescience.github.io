@@ -1,21 +1,16 @@
 nav.nav-primary {
 	width: 100%;
-	position: relative;
-	top: -4px;
+	position: absolute;
+	bottom: -25px;
+	left: 0;
 	transform: translateY(100%);
 	display: none;
 	justify-content: space-between;
+	background-color: $blue;
 	opacity: 0;
 	visibility: hidden;
 	z-index: -1;
 	transition: 400ms;
-
-	width: 100%;
-	position: absolute;
-	bottom: 0;
-	left: 0;
-	transform: translateY(100%);
-	background-color: $blue;
 
 	@include bp(tablet) {
 		display: flex;
@@ -30,28 +25,6 @@ nav.nav-primary {
 		}
 	}
 
-	&.nav-primary--alt {
-
-		span {
-			background-color: $orange;
-		}
-
-		ul li {
-
-			a {
-				color: $orange;
-			}
-
-			.submenu {
-				background-color: $light-grey;
-
-				a {
-					color: $orange;
-				}
-			}
-		}
-	}
-
 	span {
 		flex: 1;
 		max-width: 180px;
@@ -60,6 +33,7 @@ nav.nav-primary {
 		position: relative;
 		display: none;
 		background-color: $lightest;
+		transform: translateY(20px);
 
 		@include bp(desktop) {
 			flex: none;
@@ -70,31 +44,17 @@ nav.nav-primary {
 
 	// Top Level
 	ul {
-		margin: 0 -1.5rem -1rem 0;
+		margin: 0;
 		padding: 0;
 		display: flex;
 		justify-content: flex-end;
 		flex-wrap: wrap;
 		list-style-type: none;
 
-		@include bp(tablet) {
-			margin: 0 -3rem -1rem 0;
-		}
-
-		@include bp(desktop) {
-			margin: 0 -4rem -1rem 0;
-		}
-
-		@include bp(desktop-xl) {
-			margin: 0 -7rem -1rem 0;
-		}
-
 		li {
 			margin-right: 1.5rem;
-			margin-bottom: 1rem;
 			position: relative;
 			display: inline-block;
-			transform: translateY(-50%);
 			z-index: 10;
 
 			@include bp(tablet) {
@@ -105,8 +65,8 @@ nav.nav-primary {
 				margin-right: 5rem;
 			}
 
-			@include bp(desktop-xl) {
-				margin-right: 7rem;
+			&:last-of-type {
+				margin-right: 0;
 			}
 
 			&:hover {

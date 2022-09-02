@@ -269,6 +269,14 @@
 
     .hero__content {
         max-width: 800px;
+        opacity: 1;
+        visibility: visible;
+        transition: 400ms $cubic;
+
+        .mobile-menu-active & {
+            opacity: 0;
+            visibility: hidden;
+        }
 
         h1,
         h2 {
