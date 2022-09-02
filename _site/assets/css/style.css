@@ -902,6 +902,8 @@ APP STYLES
 
 @media (min-width: 1200px) { .post__post { width: calc(25% - 4rem); margin: 0 2rem 4rem 2rem; } }
 
+.post__post.hidden { display: none; }
+
 .post__post-thumbnail { width: 100%; height: auto; margin-bottom: 2rem; position: relative; border-radius: 12px; overflow: hidden; }
 
 @media (min-width: 1200px) { .post__post-thumbnail { margin-bottom: 3rem; } }

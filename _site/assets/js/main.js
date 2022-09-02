@@ -515,6 +515,17 @@ function resizeCanvas(canvas) {
                     $(team).removeClass('inactive');
                 });
 
+                // News Filter
+                $('.news-category-filter').on('change', function () {
+                    var category = this.value;
+
+                    if (category == "*") {
+                        $(this).closest('.block__posts').find('.post__post').removeClass('hidden');
+                    } else {
+                        $(this).closest('.block__posts').find('.post__post').addClass('hidden');
+                        $(this).closest('.block__posts').find('.post__post[data-category="' + category + '"]').removeClass('hidden');
+                    };
+                });
 
                 /*
                  *

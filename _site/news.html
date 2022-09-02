@@ -94,18 +94,18 @@
     <div class="container">
         <div class="posts__featured">
             
-                <a class="post__post post__post--featured" href="/news/2022-08-22-example-news-10.html">
-                    <div class="post__post-thumbnail">
-                        <img src="/assets/uploads/schmidt-futures-donation.png">
-                    </div>
-                    <div class="post__post-content">
-                        <h4>news category 1</h4>
-                        <h3>Example News 10</h3>
-                        <p class="date">22 August 2022</p>
-                        <p class="excerpt">This is a test</p>
-                        <span class="button">Read More</span>
-                    </div>
-                </a>
+            <a class="post__post post__post--featured" href="/news/2022-08-22-example-news-10.html">
+                <div class="post__post-thumbnail">
+                    <img src="/assets/uploads/schmidt-futures-donation.png">
+                </div>
+                <div class="post__post-content">
+                    <h4>news category 3</h4>
+                    <h3>Example News 10</h3>
+                    <p class="date">22 August 2022</p>
+                    <p class="excerpt">This is a test</p>
+                    <span class="button">Read More</span>
+                </div>
+            </a>
             
         </div>
 
@@ -118,135 +118,129 @@
             <div>
                 <!-- Update -->
                 <h5>Filter by category</h5>
-                <select id="" name="">
-                    <option value="category-1">Category 1</option>
-                    <option value="category-2">Category 2</option>
-                    <option value="category-3">Category 3</option>
-                    <option value="category-4">Category 4</option>
+                <select class="news-category-filter" name="">
+                    <option value="*">All</option>
+                    <option value="news-category-1">Category 1</option>
+                    <option value="news-category-2">Category 2</option>
+                    <option value="news-category-3">Category 3</option>
+                    <option value="news-category-4">Category 4</option>
                 </select>
             </div>
         </div>
 
         
 
-        <!-- <li>
-            <a href="">Previous</a>
-        </li>
-        <li>
-            <a href="/page/2/news.html">Next</a>
-        </li> -->
-
-        <div id="blogContainer" class="posts__grid post__grid postContainer" data-page="1" data-totalpages="2">
+        <div id="blogContainer" class="posts__grid post__grid postContainer" data-page="1" data-totalpages="">
             
-                <a class="post__post post__post--standard" href="/news/2022-08-22-example-news-10.html">
-                    <div class="post__post-thumbnail">
-                        <img src="/assets/uploads/schmidt-futures-donation.png">
-                    </div>
-                    <div class="post__post-content">
-                        <h4>news category 1</h4>
-                        <h3>Example News 10</h3>
-                        <p class="date">22 August 2022</p>
-                        <span class="button">Read More</span>
-                    </div>
-                </a>
+            <a class="post__post post__post--standard" data-category="news-category-3" href="/news/2022-08-22-example-news-10.html">
+                <div class="post__post-thumbnail">
+                    <img src="/assets/uploads/schmidt-futures-donation.png">
+                </div>
+                <div class="post__post-content">
+                    <h4>news category 3</h4>
+                    <h3>Example News 10</h3>
+                    <p class="date">22 August 2022</p>
+                    <span class="button">Read More</span>
+                </div>
+            </a>
             
-                <a class="post__post post__post--standard" href="/news/2022-08-22-example-news-11.html">
-                    <div class="post__post-thumbnail">
-                        <img src="/assets/uploads/schmidt-futures-donation.png">
-                    </div>
-                    <div class="post__post-content">
-                        <h4>news category 1</h4>
-                        <h3>Example News 11</h3>
-                        <p class="date">22 August 2022</p>
-                        <span class="button">Read More</span>
-                    </div>
-                </a>
+            <a class="post__post post__post--standard" data-category="news-category-3" href="/news/2022-08-22-example-news-11.html">
+                <div class="post__post-thumbnail">
+                    <img src="/assets/uploads/schmidt-futures-donation.png">
+                </div>
+                <div class="post__post-content">
+                    <h4>news category 3</h4>
+                    <h3>Example News 11</h3>
+                    <p class="date">22 August 2022</p>
+                    <span class="button">Read More</span>
+                </div>
+            </a>
             
-                <a class="post__post post__post--standard" href="/news/2022-08-22-example-news-12.html">
-                    <div class="post__post-thumbnail">
-                        <img src="/assets/uploads/schmidt-futures-donation.png">
-                    </div>
-                    <div class="post__post-content">
-                        <h4>news category 1</h4>
-                        <h3>Example News 12</h3>
-                        <p class="date">22 August 2022</p>
-                        <span class="button">Read More</span>
-                    </div>
-                </a>
+            <a class="post__post post__post--standard" data-category="news-category-1" href="/news/2022-08-22-example-news-12.html">
+                <div class="post__post-thumbnail">
+                    <img src="/assets/uploads/schmidt-futures-donation.png">
+                </div>
+                <div class="post__post-content">
+                    <h4>news category 1</h4>
+                    <h3>Example News 12</h3>
+                    <p class="date">22 August 2022</p>
+                    <span class="button">Read More</span>
+                </div>
+            </a>
             
-                <a class="post__post post__post--standard" href="/news/2022-08-22-example-news-13.html">
-                    <div class="post__post-thumbnail">
-                        <img src="/assets/uploads/schmidt-futures-donation.png">
-                    </div>
-                    <div class="post__post-content">
-                        <h4>news category 1</h4>
-                        <h3>Example News 13</h3>
-                        <p class="date">22 August 2022</p>
-                        <span class="button">Read More</span>
-                    </div>
-                </a>
+            <a class="post__post post__post--standard" data-category="news-category-1" href="/news/2022-08-22-example-news-13.html">
+                <div class="post__post-thumbnail">
+                    <img src="/assets/uploads/schmidt-futures-donation.png">
+                </div>
+                <div class="post__post-content">
+                    <h4>news category 1</h4>
+                    <h3>Example News 13</h3>
+                    <p class="date">22 August 2022</p>
+                    <span class="button">Read More</span>
+                </div>
+            </a>
             
-                <a class="post__post post__post--standard" href="/news/2022-08-22-example-news-14.html">
-                    <div class="post__post-thumbnail">
-                        <img src="/assets/uploads/schmidt-futures-donation.png">
-                    </div>
-                    <div class="post__post-content">
-                        <h4>news category 1</h4>
-                        <h3>Example News 14</h3>
-                        <p class="date">22 August 2022</p>
-                        <span class="button">Read More</span>
-                    </div>
-                </a>
+            <a class="post__post post__post--standard" data-category="news-category-4" href="/news/2022-08-22-example-news-14.html">
+                <div class="post__post-thumbnail">
+                    <img src="/assets/uploads/schmidt-futures-donation.png">
+                </div>
+                <div class="post__post-content">
+                    <h4>news category 4</h4>
+                    <h3>Example News 14</h3>
+                    <p class="date">22 August 2022</p>
+                    <span class="button">Read More</span>
+                </div>
+            </a>
             
-                <a class="post__post post__post--standard" href="/news/2022-08-22-example-news-15.html">
-                    <div class="post__post-thumbnail">
-                        <img src="/assets/uploads/schmidt-futures-donation.png">
-                    </div>
-                    <div class="post__post-content">
-                        <h4>news category 1</h4>
-                        <h3>Example News 15</h3>
-                        <p class="date">22 August 2022</p>
-                        <span class="button">Read More</span>
-                    </div>
-                </a>
+            <a class="post__post post__post--standard" data-category="news-category-1" href="/news/2022-08-22-example-news-15.html">
+                <div class="post__post-thumbnail">
+                    <img src="/assets/uploads/schmidt-futures-donation.png">
+                </div>
+                <div class="post__post-content">
+                    <h4>news category 1</h4>
+                    <h3>Example News 15</h3>
+                    <p class="date">22 August 2022</p>
+                    <span class="button">Read More</span>
+                </div>
+            </a>
             
-                <a class="post__post post__post--standard" href="/news/2022-08-22-example-news-2.html">
-                    <div class="post__post-thumbnail">
-                        <img src="/assets/uploads/schmidt-futures-donation.png">
-                    </div>
-                    <div class="post__post-content">
-                        <h4>news category 1</h4>
-                        <h3>Example News 2</h3>
-                        <p class="date">22 August 2022</p>
-                        <span class="button">Read More</span>
-                    </div>
-                </a>
+            <a class="post__post post__post--standard" data-category="news-category-1" href="/news/2022-08-22-example-news-2.html">
+                <div class="post__post-thumbnail">
+                    <img src="/assets/uploads/schmidt-futures-donation.png">
+                </div>
+                <div class="post__post-content">
+                    <h4>news category 1</h4>
+                    <h3>Example News 2</h3>
+                    <p class="date">22 August 2022</p>
+                    <span class="button">Read More</span>
+                </div>
+            </a>
             
-                <a class="post__post post__post--standard" href="/news/2022-08-22-example-news-3.html">
-                    <div class="post__post-thumbnail">
-                        <img src="/assets/uploads/schmidt-futures-donation.png">
-                    </div>
-                    <div class="post__post-content">
-                        <h4>news category 1</h4>
-                        <h3>Example News 3</h3>
-                        <p class="date">22 August 2022</p>
-                        <span class="button">Read More</span>
-                    </div>
-                </a>
+            <a class="post__post post__post--standard" data-category="news-category-2" href="/news/2022-08-22-example-news-3.html">
+                <div class="post__post-thumbnail">
+                    <img src="/assets/uploads/schmidt-futures-donation.png">
+                </div>
+                <div class="post__post-content">
+                    <h4>news category 2</h4>
+                    <h3>Example News 3</h3>
+                    <p class="date">22 August 2022</p>
+                    <span class="button">Read More</span>
+                </div>
+            </a>
             
         </div>
 
         
         
         
-            <div class="posts__load-more">
-                <span></span>
-                <button class="button button--large loadMore">
-                    Show More
-                    <img src="../assets/images/plus.svg">
-                </button>
-                <span></span>
-            </div>
+        <div class="posts__load-more">
+            <span></span>
+            <button class="button button--large loadMore">
+                Show More
+                <img src="../assets/images/plus.svg">
+            </button>
+            <span></span>
+        </div>
         
 
         <script>
@@ -259,7 +253,6 @@
                 var totalPages = parseInt($blogContainer.attr("data-totalPages"));
                 $("#blogContainer").attr('data-page', nextPage);
                 $(this).addClass("loading");
-
                 $.get("/page/" + nextPage + "/news.html", function (data) {
                     var htmlData = $.parseHTML(data);
                     var $articles = $(htmlData).find(".post__post--standard");
