@@ -1,6 +1,7 @@
 ---
 layout: team-single
 title: Andrei Paleyes
+group: alumni
 description: PhD Student, Cambridge University
 featured_image: /assets/uploads/andrei.jpg
 linkedin: "#"
