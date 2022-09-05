@@ -130,51 +130,21 @@ pagination:
     <div class="container">
         <div class="row row--justified">
             <div class="accordions__selectors column-m-12-nest column-t-4-nest">
-                <button class="active" data-accordion-id="what-we-do">
-                    <img src="./assets/uploads/what-we-do.png">
-                    What we do
-                </button>
-                <button data-accordion-id="research">
-                    <img src="./assets/uploads/research.png">
-                    Research
-                </button>
-                <button data-accordion-id="education-training">
-                    <img src="./assets/uploads/education-and-training.png">
-                    Education & Training
-                </button>
-                <button data-accordion-id="engagement">
-                    <img src="./assets/uploads/engagement.png">
-                    Engagement
-                </button>
+                {% for item in site.data.homepage.accordions.accordion_tabs %}
+                    <button class="{% if forloop.index == 1 %} active {% endif %}" data-accordion-id="{{ item.heading | replace: " ", "-" }}">
+                        <!-- Update -->
+                        <img src="./assets/uploads/what-we-do.png">
+                        {{ item.heading }}
+                    </button>
+                {% endfor %}
             </div>
             <div class="accordions__window column-m-12-nest column-t-7-nest column-d-6-nest">
-                <div class="accordions__accordion active" data-accordion-content="what-we-do">
-                    <h3>Amidst growing excitement about AI, a gap has emerged between our aspirations for AI and our ability to deploy these technologies to tackle real-world challenges.
-                    </h3>
-                    <p>ML@CL aims to bridge this gap through innovations in modelling, systems and software engineering for machine learning deployment; the application of AI for scientific discovery; and the development of policy frameworks for trustworthy and beneficial AI.</p>
-                    <a class="button" href="#">Read More</a>
-                </div>
-
-                <div class="accordions__accordion" data-accordion-content="research">
-                    <h3>Amidst growing excitement about AI, a gap has emerged between our aspirations for AI and our ability to deploy these technologies to tackle real-world challenges.
-                    </h3>
-                    <p>ML@CL aims to bridge this gap through innovations in modelling, systems and software engineering for machine learning deployment; the application of AI for scientific discovery; and the development of policy frameworks for trustworthy and beneficial AI.</p>
-                    <a class="button" href="#">Read More</a>
-                </div>
-
-                <div class="accordions__accordion" data-accordion-content="education-training">
-                    <h3>Amidst growing excitement about AI, a gap has emerged between our aspirations for AI and our ability to deploy these technologies to tackle real-world challenges.
-                    </h3>
-                    <p>ML@CL aims to bridge this gap through innovations in modelling, systems and software engineering for machine learning deployment; the application of AI for scientific discovery; and the development of policy frameworks for trustworthy and beneficial AI.</p>
-                    <a class="button" href="#">Read More</a>
-                </div>
-
-                <div class="accordions__accordion" data-accordion-content="engagement">
-                    <h3>Amidst growing excitement about AI, a gap has emerged between our aspirations for AI and our ability to deploy these technologies to tackle real-world challenges.
-                    </h3>
-                    <p>ML@CL aims to bridge this gap through innovations in modelling, systems and software engineering for machine learning deployment; the application of AI for scientific discovery; and the development of policy frameworks for trustworthy and beneficial AI.</p>
-                    <a class="button" href="#">Read More</a>
-                </div>
+                {% for item in site.data.homepage.accordions.accordion_tabs %}
+                    <div class="accordions__accordion {% if forloop.index == 1 %} active {% endif %}" data-accordion-content="{{ item.heading | replace: " ", "-" }}">
+                        {{ item.content | markdownify }}
+                        <a class="button" href="{{ item.link }}">Read More</a>
+                    </div>
+                {% endfor %}
             </div>
         </div>
     </div>
