@@ -1,7 +1,7 @@
 hero:
   title: About us
-  content: temp
-  link: temp
+  content: ""
+  link: ""
 image_text:
   content: The Accelerate Programme for Scientific Discovery will advance the
     frontiers of science through the application of AI. Supported by a donation
@@ -19,4 +19,4 @@ image_text:
     and from finding new astronomical phenomena to identifying new materials
     here on Earth. "
   image: /assets/uploads/schmidt-futures-donation.png
-  link: temp
+  link: ""
