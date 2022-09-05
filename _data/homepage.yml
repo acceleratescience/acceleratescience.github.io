@@ -16,6 +16,7 @@ accordions:
 
         ML@CL aims to bridge this gap through innovations in modelling, systems and software engineering for machine learning deployment; the application of AI for scientific discovery; and the development of policy frameworks for trustworthy and beneficial AI.
       link: /about/
+      icon: /assets/uploads/what-we-do.png
     - content: >-
         ### Amidst growing excitement about AI, a gap has emerged between our
         aspirations for AI and our ability to deploy these technologies to
@@ -25,6 +26,7 @@ accordions:
         ML@CL aims to bridge this gap through innovations in modelling, systems and software engineering for machine learning deployment; the application of AI for scientific discovery; and the development of policy frameworks for trustworthy and beneficial AI.
       heading: Research
       link: /research/
+      icon: /assets/uploads/research.png
     - content: >-
         ### Amidst growing excitement about AI, a gap has emerged between our
         aspirations for AI and our ability to deploy these technologies to
@@ -34,6 +36,7 @@ accordions:
         ML@CL aims to bridge this gap through innovations in modelling, systems and software engineering for machine learning deployment; the application of AI for scientific discovery; and the development of policy frameworks for trustworthy and beneficial AI.
       heading: Education & Training
       link: /about/
+      icon: /assets/uploads/education-and-training.png
     - content: >-
         ### Amidst growing excitement about AI, a gap has emerged between our
         aspirations for AI and our ability to deploy these technologies to
@@ -43,3 +46,4 @@ accordions:
         ML@CL aims to bridge this gap through innovations in modelling, systems and software engineering for machine learning deployment; the application of AI for scientific discovery; and the development of policy frameworks for trustworthy and beneficial AI.
       heading: Engagement
       link: /resources/
+      icon: /assets/uploads/engagement.png
