@@ -1,6 +1,7 @@
 ---
 layout: team-single
 title: Aditya Ravuri
+group: main
 description: PhD Student, Cambridge University
 featured_image: /assets/uploads/aditya_ravuri.jpg
 biography: Aditya is interested in probabilistic machine learning, specifically
