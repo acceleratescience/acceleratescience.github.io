@@ -176,12 +176,15 @@ collections:
               - label: 'Title'
                 name: 'title'
                 widget: 'string'
+                required: false
               - label: 'Content'
                 name: 'content'
                 widget: 'text'
+                required: false
               - label: 'Link'
                 name: 'link'
                 widget: 'string'
+                required: false
           - label: 'Accordions'
             name: 'accordions' 
             collapsed: true
@@ -194,12 +197,15 @@ collections:
                   - label: 'Icon'
                     name: 'icon'
                     widget: 'image'
+                    required: false
                   - label: 'Heading'
                     name: 'heading'
                     widget: 'string'
+                    required: false
                   - label: 'Content'
                     name: 'content'
                     widget: 'markdown'
+                    required: false
                   - label: 'Link'
                     name: 'link'
                     widget: 'string'
@@ -219,12 +225,15 @@ collections:
               - label: 'Title'
                 name: 'title'
                 widget: 'string'
+                required: false
               - label: 'Content'
                 name: 'content'
                 widget: 'text'
+                required: false
               - label: 'Link'
                 name: 'link'
                 widget: 'string'
+                required: false
           - label: 'Image Text'
             name: 'image_text'
             collapsed: true
@@ -233,15 +242,19 @@ collections:
               - label: 'Image'
                 name: 'image'
                 widget: 'image'
+                required: false
               - label: 'Heading'
                 name: 'heading'
                 widget: 'string'
+                required: false
               - label: 'Content'
                 name: 'content'
                 widget: 'text'
+                required: false
               - label: 'Link'
                 name: 'link'
                 widget: 'string'
+                required: false
       # Software Engineering
       - label: 'Software Engineering'
         name: 'software_engineering'
@@ -257,12 +270,15 @@ collections:
               - label: 'Title'
                 name: 'title'
                 widget: 'string'
+                required: false
               - label: 'Content'
                 name: 'content'
                 widget: 'text'
+                required: false
               - label: 'Link'
                 name: 'link'
                 widget: 'string'
+                required: false
           - label: 'Text (Dual Column)'
             name: 'text'
             collapsed: true
@@ -271,12 +287,15 @@ collections:
               - label: 'Heading'
                 name: 'heading'
                 widget: 'string'
+                required: false
               - label: 'Content'
                 name: 'content'
                 widget: 'text'
+                required: false
               - label: 'Link'
                 name: 'link'
                 widget: 'string'
+                required: false
           - label: 'Image Text'
             name: 'image_text'
             collapsed: true
@@ -285,15 +304,19 @@ collections:
               - label: 'Image'
                 name: 'image'
                 widget: 'image'
+                required: false
               - label: 'Heading'
                 name: 'heading'
                 widget: 'string'
+                required: false
               - label: 'Content'
                 name: 'content'
                 widget: 'text'
+                required: false
               - label: 'Link'
                 name: 'link'
                 widget: 'string'
+                required: false
           - label: 'Image Text (Flipped)'
             name: 'image_text_flipped'
             collapsed: true
@@ -302,15 +325,19 @@ collections:
               - label: 'Image'
                 name: 'image'
                 widget: 'image'
+                required: false
               - label: 'Heading'
                 name: 'heading'
                 widget: 'string'
+                required: false
               - label: 'Content'
                 name: 'content'
                 widget: 'text'
+                required: false
               - label: 'Link'
                 name: 'link'
-                widget: 'string'  
+                widget: 'string'
+                required: false
                 
   # Collection Archive Pages
   - label: 'Collection Pages'
