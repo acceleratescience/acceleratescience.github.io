@@ -200,6 +200,7 @@ collections:
                   - label: 'Link'
                     name: 'link'
                     widget: 'string'
+                    required: false
       # About Us
       - label: 'About Us'
         name: 'about_us'
