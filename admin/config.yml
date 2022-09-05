@@ -710,6 +710,14 @@ collections:
       - label: 'Title'
         name: 'title'
         widget: 'string'
+      - label: "Group"
+        name: "group"
+        widget: "select"
+        options:
+          - { label: "Main", value: "main" }
+          - { label: "Advisory Group", value: "advisory-group" }
+          - { label: "Alumni", value: "alumni" }
+        required: false
       - label: 'Description'
         name: 'description'
         widget: 'text'
