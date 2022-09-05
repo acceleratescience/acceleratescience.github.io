@@ -1,4 +1,45 @@
 hero:
   title: Advancing scientific discovery with machine learning
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ipsum urna, sollicitudin non sagittis ac, maximus non metus. Vestibulum semper, augue quis scelerisque sagittis, lacus augue tristique nunc, a porttitor felis sapien ut massa.
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ipsum
+    urna, sollicitudin non sagittis ac, maximus non metus. Vestibulum semper,
+    augue quis scelerisque sagittis, lacus augue tristique nunc, a porttitor
+    felis sapien ut massa.
   link: /
+accordions:
+  accordion_tabs:
+    - heading: What we do
+      content: >-
+        ### Amidst growing excitement about AI, a gap has emerged between our
+        aspirations for AI and our ability to deploy these technologies to
+        tackle real-world challenges.
+
+
+        ML@CL aims to bridge this gap through innovations in modelling, systems and software engineering for machine learning deployment; the application of AI for scientific discovery; and the development of policy frameworks for trustworthy and beneficial AI.
+      link: /about/
+    - content: >-
+        ### Amidst growing excitement about AI, a gap has emerged between our
+        aspirations for AI and our ability to deploy these technologies to
+        tackle real-world challenges.
+
+
+        ML@CL aims to bridge this gap through innovations in modelling, systems and software engineering for machine learning deployment; the application of AI for scientific discovery; and the development of policy frameworks for trustworthy and beneficial AI.
+      heading: Research
+      link: /research/
+    - content: >-
+        ### Amidst growing excitement about AI, a gap has emerged between our
+        aspirations for AI and our ability to deploy these technologies to
+        tackle real-world challenges.
+
+
+        ML@CL aims to bridge this gap through innovations in modelling, systems and software engineering for machine learning deployment; the application of AI for scientific discovery; and the development of policy frameworks for trustworthy and beneficial AI.
+      heading: Education & Training
+      link: /about/
+    - content: >-
+        ### Amidst growing excitement about AI, a gap has emerged between our
+        aspirations for AI and our ability to deploy these technologies to
+        tackle real-world challenges.
+
+
+        ML@CL aims to bridge this gap through innovations in modelling, systems and software engineering for machine learning deployment; the application of AI for scientific discovery; and the development of policy frameworks for trustworthy and beneficial AI.
+      heading: Engagement
+      link: /resources/
