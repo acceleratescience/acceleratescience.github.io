@@ -187,15 +187,19 @@ collections:
             collapsed: true
             widget: 'object'
             fields:
-              - label: 'Accordion Heading'
-                name: 'heading'
-                widget: 'string'
-              - label: 'Content'
-                name: 'content'
-                widget: 'markdown'
-              - label: 'Link'
-                name: 'link'
-                widget: 'string'
+              - label: "Accordion Tabs"
+                name: "accordion_tabs"
+                widget: "list"
+                fields:
+                  - label: 'Accordion Heading'
+                    name: 'heading'
+                    widget: 'string'
+                  - label: 'Content'
+                    name: 'content'
+                    widget: 'markdown'
+                  - label: 'Link'
+                    name: 'link'
+                    widget: 'string'
       # About Us
       - label: 'About Us'
         name: 'about_us'
