@@ -191,7 +191,10 @@ collections:
                 name: "accordion_tabs"
                 widget: "list"
                 fields:
-                  - label: 'Accordion Heading'
+                  - label: 'Icon'
+                    name: 'icon'
+                    widget: 'image'
+                  - label: 'Heading'
                     name: 'heading'
                     widget: 'string'
                   - label: 'Content'
