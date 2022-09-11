@@ -527,6 +527,19 @@ function resizeCanvas(canvas) {
                     };
                 });
 
+                // News Load More Alt
+                $('.loadMore--alt').click(function () {
+                    if ($(this).hasClass('open')) {
+                        $(this).removeClass('open');
+
+                        $(this).closest('.latest__insights').find('.post__post.visible').removeClass('visible').addClass('hidden');
+                    } else {
+                        $(this).addClass('open');
+
+                        $(this).closest('.latest__insights').find('.post__post.hidden').removeClass('hidden').addClass('visible');
+                    };
+                });
+
                 /*
                  *
                  * Sliders

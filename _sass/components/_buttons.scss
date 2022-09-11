@@ -96,4 +96,43 @@
             color: $primary-blue;
         }
     }
+
+    &.loadMore--alt {
+        position: relative;
+        overflow: hidden;
+
+        &.open {
+            .button-text--inactive {
+                transform: translateY(-200%);
+                opacity: 0;
+            }
+
+            .button-text--active {
+                transform: translateY(-50%);
+                opacity: 1;
+            }
+        }
+
+        .button-text {
+            margin: 0;
+            position: relative;
+            font-size: 2rem;
+            line-height: 2rem;
+            text-transform: capitalize;
+            transition: 400ms $cubic;
+
+            &--inactive {
+                transform: translateY(0%);
+                opacity: 1;
+            }
+
+            &--active {
+                position: absolute;
+                top: 50%;
+                left: 3rem;
+                transform: translateY(250%);
+                opacity: 0;
+            }
+        }
+    }
 }

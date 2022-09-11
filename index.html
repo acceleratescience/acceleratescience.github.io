@@ -1,9 +1,6 @@
 ---
 layout: page
 title: Home
-pagination:
-    enabled: true
-    collection: 'posts'
 ---
 
 <section class="block block__hero block__hero--large" id="hero">
@@ -23,13 +20,13 @@ pagination:
 
         <div class="hero__content">
             {% if site.data.homepage.hero.title %}
-                <h1>{{ site.data.homepage.hero.title }}</h1>
+            <h1>{{ site.data.homepage.hero.title }}</h1>
             {% endif %}
             {% if site.data.homepage.hero.content %}
-                <p>{{ site.data.homepage.hero.content }}</p>
+            <p>{{ site.data.homepage.hero.content }}</p>
             {% endif %}
             {% if site.data.homepage.hero.link %}
-                <a href="{{ site.data.homepage.hero.link }}" class="button button--white">Read More</a>
+            <a href="{{ site.data.homepage.hero.link }}" class="button button--white">Read More</a>
             {% endif %}
         </div>
     </div>
@@ -41,85 +38,56 @@ pagination:
             <h2 class="section-heading">Latest Insights</h2>
             <a class="button button--large" href="/blog/">Show All</a>
 
-            {% if paginator.page %}
-                {% assign offset = paginator.page | minus:1 | times:paginator.per_page %}
-                {% assign currentPage = paginator.page %}
-            {% else %}
-                {% assign offset = 0 %}
-                {% assign currentPage = 1 %}
-            {% endif %}
-
-
             <div class="latest__insights column-m-12-nest">
-                <div id="blogContainer" class="posts__grid post__grid postContainer" data-page="{{ currentPage }}" data-totalpages="{{ paginator.total_pages }}">
-                    {% for post in site.posts limit:8 offset:offset %}
-                        <a class="post__post post__post--standard" href="{{ post.url }}">
-                            <div class="post__post-thumbnail">
-                                <img src="{{ post.featured_image }}">
-                            </div>
-                            <div class="post__post-content">
-                                <h4>{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</h4>
-                                <h3>{{ post.title}}</h3>
-                                <p class="date">{{ post.date | date: "%-d %B %Y" }}</p>
-                                <span class="button">Read More</span>
-                            </div>
-                        </a>
+                <div class="posts__grid post__grid">
+                    {% for post in site.posts limit:8 %}
+                    {% capture _ %}
+                    {% increment my_counter %}
+                    {% endcapture %}
+                    <a class="post__post post__post--standard {% if my_counter > 4 %}hidden{% endif %}" href="{{ post.url }}">
+                        <div class="post__post-thumbnail">
+                            <img src="{{ post.featured_image }}">
+                        </div>
+                        <div class="post__post-content">
+                            <h4>{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</h4>
+                            <h3>{{ post.title}}</h3>
+                            <p class="date">{{ post.date | date: "%-d %B %Y" }}</p>
+                            <span class="button">Read More</span>
+                        </div>
+                    </a>
                     {% endfor %}
                 </div>
 
-                {% assign postCount = site.posts | size %}
-                {% assign postsCovered = 8 | plus:offset %}
-                {% if postsCovered < postCount %}
-                    <div class="posts__load-more">
-                        <span></span>
-                        <button class="button button--large loadMore">
-                            Show More
-                            <img src="../assets/images/plus.svg">
-                        </button>
-                        <span></span>
-                    </div>
-                {% endif %}
-
-                <script>
-                    $(".loadMore").click(loadMorePosts);
-
-                    function loadMorePosts() {
-                        var _this = this;
-                        var $blogContainer = $("#blogContainer");
-                        var nextPage = parseInt($blogContainer.attr("data-page")) + 1;
-                        var totalPages = parseInt($blogContainer.attr("data-totalPages"));
-                        $("#blogContainer").attr('data-page', nextPage);
-                        $(this).addClass("loading");
-
-                        $.get("/page/" + nextPage + "/blog.html", function (data) {
-                            var htmlData = $.parseHTML(data);
-                            var $articles = $(htmlData).find(".post__post--standard");
-                            $blogContainer.append($articles);
-                            if ($blogContainer.attr("data-totalPages") == nextPage) {
-                                $(".loadMore").closest(".posts__load-more").remove();
-                            }
-                            $(_this).removeClass("loading");
-                        });
-                    }
-                </script>
+                <div class="posts__load-more">
+                    <span></span>
+                    <button class="button button--large loadMore--alt">
+                        <p class="button-text button-text--inactive">Show More</p>
+                        <p class="button-text button-text--active">Show Less</p>
+                        <img src="../assets/images/plus.svg">
+                    </button>
+                    <span></span>
+                </div>
             </div>
         </div>
         <div class="latest__lower row row--justified">
             <div class="latest__news column-m-12-nest column-t-8">
-                <h2 class="section-heading">Latest News</h2>
+                <div class="row row--justified">
+                    <h2 class="section-heading">Latest News</h2>
+                    <a class="button button--large" href="/news/">Show All</a>
+                </div>
                 <div class="post__grid post__grid--col2">
                     {% for post in site.news limit:2 %}
-                        <a class="post__post post__post--standard" href="{{ post.url }}">
-                            <div class="post__post-thumbnail">
-                                <img src="{{ post.featured_image }}">
-                            </div>
-                            <div class="post__post-content">
-                                <h4>{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</h4>
-                                <h3>{{ post.title}}</h3>
-                                <p class="date">{{ post.date | date: "%-d %B %Y" }}</p>
-                                <span class="button">Read More</span>
-                            </div>
-                        </a>
+                    <a class="post__post post__post--standard" href="{{ post.url }}">
+                        <div class="post__post-thumbnail">
+                            <img src="{{ post.featured_image }}">
+                        </div>
+                        <div class="post__post-content">
+                            <h4>{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</h4>
+                            <h3>{{ post.title}}</h3>
+                            <p class="date">{{ post.date | date: "%-d %B %Y" }}</p>
+                            <span class="button">Read More</span>
+                        </div>
+                    </a>
                     {% endfor %}
                 </div>
             </div>
@@ -137,18 +105,18 @@ pagination:
         <div class="row row--justified">
             <div class="accordions__selectors column-m-12-nest column-t-4-nest">
                 {% for item in site.data.homepage.accordions.accordion_tabs %}
-                    <button class="{% if forloop.index == 1 %} active {% endif %}" data-accordion-id="{{ item.heading | replace: " ", "-" }}">
-                        <img src="{{ site.url }}{{ item.icon }}">
-                        {{ item.heading }}
-                    </button>
+                <button class="{% if forloop.index == 1 %} active {% endif %}" data-accordion-id="{{ item.heading | replace: " ", "-" }}">
+                    <img src="{{ site.url }}{{ item.icon }}">
+                    {{ item.heading }}
+                </button>
                 {% endfor %}
             </div>
             <div class="accordions__window column-m-12-nest column-t-7-nest column-d-6-nest">
                 {% for item in site.data.homepage.accordions.accordion_tabs %}
-                    <div class="accordions__accordion {% if forloop.index == 1 %} active {% endif %}" data-accordion-content="{{ item.heading | replace: " ", "-" }}">
-                        {{ item.content | markdownify }}
-                        <a class="button" href="{{ item.link }}">Read More</a>
-                    </div>
+                <div class="accordions__accordion {% if forloop.index == 1 %} active {% endif %}" data-accordion-content="{{ item.heading | replace: " ", "-" }}">
+                    {{ item.content | markdownify }}
+                    <a class="button" href="{{ item.link }}">Read More</a>
+                </div>
                 {% endfor %}
             </div>
         </div>
