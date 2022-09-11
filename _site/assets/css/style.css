@@ -260,6 +260,20 @@ main { margin-top: 54px; }
 
 @media (min-width: 768px) { .overlay { display: block; position: absolute; background: rgba(53, 53, 53, 0.3); top: 0; right: 0; bottom: 0; left: 0; width: 100%; height: 100%; z-index: 1; } }
 
+.contact__form { padding: 4rem 3rem; background-color: #F5F5F5; border-radius: 12px; }
+
+@media (min-width: 768px) { .contact__form { padding: 3rem 2rem; } }
+
+@media (min-width: 1200px) { .contact__form { padding: 4rem 3rem; } }
+
+@media (min-width: 1600px) { .contact__form { padding: 6rem 3.5rem; } }
+
+.contact__form input, .contact__form textarea { background-color: #ffffff; font-size: 1.6rem; line-height: 2.2rem; color: #2A2A2A; border-radius: 4px; }
+
+.contact__form input::placeholder, .contact__form textarea::placeholder { font-size: 1.6rem; line-height: 2.2rem; color: #2A2A2A; }
+
+.contact__form .button { margin-top: 2rem; padding: 0 0 8px 0; border: none; background-color: transparent; }
+
 .embed { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; }
 
 .embed iframe, .embed object, .embed video, .embed embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
@@ -1549,6 +1563,8 @@ APP STYLES
 .block__current-opportunities .current-opportunities__contact .current-opportunities__contact-email { margin-top: 4rem; align-items: center; }
 
 .block__current-opportunities .current-opportunities__contact .current-opportunities__contact-email a { display: block; }
+
+.block__current-opportunities .contact__form { margin-top: 3rem; }
 
 .block__related-posts { margin: 4rem 0; }
 

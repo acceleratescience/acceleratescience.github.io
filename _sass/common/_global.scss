@@ -149,6 +149,46 @@ main {
 	}
 }
 
+.contact__form {
+	padding: 4rem 3rem;
+	background-color: $light-grey;
+	border-radius: 12px;
+
+	@include bp(tablet) {
+		padding: 3rem 2rem;
+	}
+
+	@include bp(desktop) {
+		padding: 4rem 3rem;
+	}
+
+	@include bp(desktop-xl) {
+		padding: 6rem 3.5rem;
+	}
+
+	input,
+	textarea {
+		background-color: $lightest;
+		font-size: 1.6rem;
+		line-height: 2.2rem;
+		color: $charcoal;
+		border-radius: 4px;
+
+		&::placeholder {
+			font-size: 1.6rem;
+			line-height: 2.2rem;
+			color: $charcoal;
+		}
+	}
+
+	.button {
+		margin-top: 2rem;
+		padding: 0 0 8px 0;
+		border: none;
+		background-color: transparent;
+	}
+}
+
 .embed {
 	position: relative;
 	padding-bottom: 56.25%;
