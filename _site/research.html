@@ -92,62 +92,72 @@
 
 <section class="block block__posts">
     <div class="container">
-        <div class="posts__grid post__grid post__grid--col3">
-            <a class="post__post post__post--standard" href="#">
-                <div class="post__post-thumbnail">
-                    <img src="../assets/images/placeholder.jpg">
-                </div>
-                <div class="post__post-content">
-                    <h4>Mental Health</h4>
-                    <h3>Understanding mental health with data science</h3>
-                    <span class="button">Read More</span>
-                </div>
-            </a>
 
-            <a class="post__post post__post--standard" href="#">
-                <div class="post__post-thumbnail">
-                    <img src="../assets/images/placeholder.jpg">
-                </div>
-                <div class="post__post-content">
-                    <h4>Human Development</h4>
-                    <h3>Building an atlas of human development</h3>
-                    <span class="button">Read More</span>
-                </div>
-            </a>
+        
 
-            <a class="post__post post__post--standard" href="#">
-                <div class="post__post-thumbnail">
-                    <img src="../assets/images/placeholder.jpg">
-                </div>
-                <div class="post__post-content">
-                    <h4>Complex Systems</h4>
-                    <h3>Analysing complex systems</h3>
-                    <span class="button">Read More</span>
-                </div>
-            </a>
-
-            <a class="post__post post__post--standard" href="#">
-                <div class="post__post-thumbnail">
-                    <img src="../assets/images/placeholder.jpg">
-                </div>
-                <div class="post__post-content">
-                    <h4>Biological Systems</h4>
-                    <h3>Exploring the dynamics of biological systems</h3>
-                    <span class="button">Read More</span>
-                </div>
-            </a>
-
-            <a class="post__post post__post--standard" href="#">
-                <div class="post__post-thumbnail">
-                    <img src="../assets/images/placeholder.jpg">
-                </div>
-                <div class="post__post-content">
-                    <h4>Theoretical Physics</h4>
-                    <h3>Understanding String Theory using big data</h3>
-                    <span class="button">Read More</span>
-                </div>
-            </a>
+        <div id="blogContainer" class="posts__grid post__grid post__grid--col3 postContainer" data-page="1" data-totalpages="1">
+            
+                <a class="post__post post__post--standard" href="/research/2022-08-23-research-example-1.html">
+                    <div class="post__post-thumbnail">
+                        <img src="">
+                    </div>
+                    <div class="post__post-content">
+                        <h4></h4>
+                        <h3>Research Example 1</h3>
+                        <span class="button">Read More</span>
+                    </div>
+                </a>
+            
+                <a class="post__post post__post--standard" href="/research/2022-08-23-research-example-2.html">
+                    <div class="post__post-thumbnail">
+                        <img src="">
+                    </div>
+                    <div class="post__post-content">
+                        <h4></h4>
+                        <h3>Research Example 2</h3>
+                        <span class="button">Read More</span>
+                    </div>
+                </a>
+            
+                <a class="post__post post__post--standard" href="/research/2022-08-23-research-example-3.html">
+                    <div class="post__post-thumbnail">
+                        <img src="">
+                    </div>
+                    <div class="post__post-content">
+                        <h4></h4>
+                        <h3>Research Example 3</h3>
+                        <span class="button">Read More</span>
+                    </div>
+                </a>
+            
         </div>
+
+        
+        
+        
+
+        <script>
+            $(".loadMore").click(loadMorePosts);
+
+            function loadMorePosts() {
+                var _this = this;
+                var $blogContainer = $("#blogContainer");
+                var nextPage = parseInt($blogContainer.attr("data-page")) + 1;
+                var totalPages = parseInt($blogContainer.attr("data-totalPages"));
+                $("#blogContainer").attr('data-page', nextPage);
+                $(this).addClass("loading");
+                $.get("/page/" + nextPage + "/research.html", function (data) {
+                    var htmlData = $.parseHTML(data);
+                    var $articles = $(htmlData).find(".post__post--standard");
+                    $blogContainer.append($articles);
+                    if ($blogContainer.attr("data-totalPages") == nextPage) {
+                        $(".loadMore").closest(".posts__load-more").remove();
+                    }
+                    $(_this).removeClass("loading");
+                });
+            }
+        </script>
+
     </div>
 </section>
         </main>
