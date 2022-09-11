@@ -9,8 +9,8 @@ main_nav:
     link: /events/
   - label: Resources
     link: /resources/
-  - label: Contact Us
-    link: /contact-us/
+  - label: Get Involved
+    link: /get-involved/
 footer_nav:
   - label: About Us
     link: /about/
