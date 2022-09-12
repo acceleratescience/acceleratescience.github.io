@@ -431,7 +431,7 @@
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: flex-start;
-	border: 2px solid $blue;
+	border: 2px solid $darkest;
 	border-radius: 12px;
 	text-decoration: none;
 
@@ -448,11 +448,22 @@
 		padding: 5rem 4rem;
 	}
 
-	&.resources__resource--yellow {
+	&.inactive {
+		display: none;
+	}
+
+	&.resources__resource--blue,
+	&.resources__resource--teaching-learning {
+		border-color: $blue;
+	}
+
+	&.resources__resource--yellow,
+	&.resources__resource--additional-resources {
 		border-color: $yellow;
 	}
 
-	&.resources__resource--green {
+	&.resources__resource--green,
+	&.resources__resource--software-code {
 		border-color: $green;
 	}
 

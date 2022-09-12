@@ -540,6 +540,20 @@ function resizeCanvas(canvas) {
                     };
                 });
 
+                // Resources Filter
+                $('.resources__filter button').click(function () {
+                    var id = $(this).data('resources-id');
+                    $(this).siblings('button').removeClass('active');
+                    $(this).addClass('active');
+
+                    if (id == "all") {
+                        $(this).closest('.block__resources').find('.resources__grid .resources__resource').removeClass('inactive');
+                    } else {
+                        $(this).closest('.block__resources').find('.resources__grid .resources__resource').addClass('inactive');
+                        $(this).closest('.block__resources').find('.resources__grid .resources__resource[data-resources-value="' + id + '"]').removeClass('inactive');
+                    };
+                });
+
                 /*
                  *
                  * Sliders

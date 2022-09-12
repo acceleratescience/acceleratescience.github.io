@@ -1020,15 +1020,19 @@ APP STYLES
 
 @media (min-width: 1200px) { .resources__grid { margin: 0 -2rem -4rem -2rem; } }
 
-.resources__resource { width: 100%; min-height: 200px; margin: 0 0 2rem 0; padding: 3rem; display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start; border: 2px solid #0000FF; border-radius: 12px; text-decoration: none; }
+.resources__resource { width: 100%; min-height: 200px; margin: 0 0 2rem 0; padding: 3rem; display: flex; flex-direction: column; justify-content: space-between; align-items: flex-start; border: 2px solid #040404; border-radius: 12px; text-decoration: none; }
 
 @media (min-width: 768px) { .resources__resource { width: calc(33.33% - 2rem); min-height: 270px; margin: 0 1rem 2rem 1rem; padding: 3rem; } }
 
 @media (min-width: 1200px) { .resources__resource { width: calc(33.33% - 4rem); margin: 0 2rem 4rem 2rem; padding: 5rem 4rem; } }
 
-.resources__resource.resources__resource--yellow { border-color: #FFAE0D; }
+.resources__resource.inactive { display: none; }
 
-.resources__resource.resources__resource--green { border-color: #67C62A; }
+.resources__resource.resources__resource--blue, .resources__resource.resources__resource--teaching-learning { border-color: #0000FF; }
+
+.resources__resource.resources__resource--yellow, .resources__resource.resources__resource--additional-resources { border-color: #FFAE0D; }
+
+.resources__resource.resources__resource--green, .resources__resource.resources__resource--software-code { border-color: #67C62A; }
 
 .resources__resource h3 { margin-bottom: 3rem; font-size: 2.2rem; }
 
