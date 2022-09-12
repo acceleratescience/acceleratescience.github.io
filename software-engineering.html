@@ -3,6 +3,24 @@ layout: page
 title: Software Engineering
 ---
 
+{% assign hero_title = site.data.software-engineering.hero.title %}
+{% assign hero_content = site.data.software-engineering.hero.content %}
+{% assign hero_link = site.data.software-engineering.hero.link %}
+
+{% assign text_heading = site.data.software-engineering.text.heading %}
+{% assign text_content = site.data.software-engineering.text.content %}
+{% assign text_link = site.data.software-engineering.text.link %}
+
+{% assign image_text_image = site.data.software-engineering.image_text.image %}
+{% assign image_text_heading = site.data.software-engineering.image_text.heading %}
+{% assign image_text_content = site.data.software-engineering.image_text.content %}
+{% assign image_text_link = site.data.software-engineering.image_text.link %}
+
+{% assign image_text_flipped_image = site.data.software-engineering.image_text_flipped.image %}
+{% assign image_text_flipped_heading = site.data.software-engineering.image_text_flipped.heading %}
+{% assign image_text_flipped_content = site.data.software-engineering.image_text_flipped.content %}
+{% assign image_text_flipped_link = site.data.software-engineering.image_text_flipped.link %}
+
 <section class="block block__hero">
     <div class="container">
         <div class="hero__head row row--justified row--middle">
@@ -14,18 +32,31 @@ title: Software Engineering
         </div>
 
         <div class="hero__content">
-            <h1 class="no-margin">Software Engineering</h1>
+            {% if hero_title.size >= 1 %}
+                <h1 class="no-margin">{{ hero_title }}</h1>
+            {% endif %}
+
+            {% if hero_content.size >= 1 %}
+                <p>{{ hero_content }}</p>
+            {% endif %}
+
+            {% if hero_link.size >= 1 %}
+                <a href="{{ hero_link }}" class="button button--white">Read More</a>
+            {% endif %}
         </div>
     </div>
 </section>
 
 <section class="block block__text block__text--dual-column">
     <div class="container">
-        <h2 class="section-heading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at fermentum urna.</h2>
-        <div class="text__content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at fermentum urna. Sed congue nisl sed ultricies gravida. Curabitur fringilla nulla vitae orci laoreet, at dictum justo ultricies. Donec imperdiet, magna vitae bibendum faucibus, elit mi elementum nibh, eget fermentum tortor nibh vel diam. Vivamus eu maximus tellus. Pellentesque eu ex nisl.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at fermentum urna. Sed congue nisl sed ultricies gravida. Curabitur fringilla nulla vitae orci laoreet, at dictum justo ultricies. Donec imperdiet, magna vitae bibendum faucibus, elit mi elementum nibh, eget fermentum tortor nibh vel diam. Vivamus eu maximus tellus. Pellentesque eu ex nisl.</p>
-        </div>
+        {% if text_heading.size >= 1 %}
+            <h2 class="section-heading">{{ text_heading }}</h2>
+        {% endif %}
+        {% if text_content.size >= 1 %}
+            <div class="text__content">
+                {{ text_content | markdownify }}
+            </div>
+        {% endif %}
     </div>
 </section>
 
@@ -33,12 +64,20 @@ title: Software Engineering
     <div class="container container--float container--float-right">
         <div class="row row--justified">
             <div class="media-text__media">
-                <img src="../assets/images/placeholder.jpg">
+                {% if image_text_image.size >= 1 %}
+                    <img src="{{ image_text_image }}">
+                {% endif %}
             </div>
             <div class="media-text__content">
-                <h2 class="section-heading">Machine Learning Clinic</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis enim ac arcu cursus, malesuada tincidunt nulla hendrerit. Quisque eu gravida massa.</p>
-                <a class="button" href="#">Read More</a>
+                {% if image_text_heading.size >= 1 %}
+                    <h2 class="section-heading">{{ image_text_heading }}</h>
+                {% endif %}
+                {% if image_text_content.size >= 1 %}
+                    <p>{{ image_text_content }}</p>
+                {% endif %}
+                {% if image_text_link.size >= 1 %}
+                    <a href="{{ image_text_link }}" class="button">Read More</a>
+                {% endif %}
             </div>
         </div>
     </div>
@@ -48,12 +87,20 @@ title: Software Engineering
     <div class="container container--float container--float-left">
         <div class="row row--justified">
             <div class="media-text__content">
-                <h2 class="section-heading">Data Engineering School</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis enim ac arcu cursus, malesuada tincidunt nulla hendrerit. Quisque eu gravida massa.</p>
-                <a class="button" href="#">Read More</a>
+                {% if image_text_flipped_heading.size >= 1 %}
+                    <h2 class="section-heading">{{ image_text_flipped_heading }}</h>
+                {% endif %}
+                {% if image_text_flipped_content.size >= 1 %}
+                    <p>{{ image_text_flipped_content }}</p>
+                {% endif %}
+                {% if image_text_flipped_link.size >= 1 %}
+                    <a href="{{ image_text_flipped_link }}" class="button">Read More</a>
+                {% endif %}
             </div>
             <div class="media-text__media">
-                <img src="../assets/images/placeholder.jpg">
+                {% if image_text_flipped_image.size >= 1 %}
+                    <img src="{{ image_text_flipped_image }}">
+                {% endif %}
             </div>
         </div>
     </div>
