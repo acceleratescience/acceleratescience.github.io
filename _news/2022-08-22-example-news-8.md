@@ -3,7 +3,7 @@ layout: news-single
 title: Example News 8
 excerpt: This is a test
 category:
-  - news-category-1
+  - ai-deployment-and-system-design
 featured_image: /assets/uploads/schmidt-futures-donation.png
 ---
 This is a test

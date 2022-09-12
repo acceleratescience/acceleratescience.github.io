@@ -550,13 +550,13 @@ collections:
         widget: 'text'
       - label: "Category"
         name: "category"
-        widget: "select"
+        widget: 'relation'
+        collection: 'research'
+        search_fields: ["title"]
+        value_field: "{{slug}}"
+        display_fields: ["title"]
+        options_length: 999
         multiple: true
-        options:
-          - { label: "News Category 1", value: "news-category-1" }
-          - { label: "News Category 2", value: "news-category-2" }
-          - { label: "News Category 3", value: "news-category-3" }
-          - { label: "News Category 4", value: "news-category-4" }
       - label: 'Featured Image'
         name: 'featured_image'
         widget: 'image'

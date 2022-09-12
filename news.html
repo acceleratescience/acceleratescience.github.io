@@ -49,14 +49,12 @@ pagination:
                 <input placeholder="Search query goes in here" type="text">
             </div>
             <div>
-                <!-- Update -->
                 <h5>Filter by category</h5>
                 <select class="news-category-filter" name="">
                     <option value="*">All</option>
-                    <option value="news-category-1">Category 1</option>
-                    <option value="news-category-2">Category 2</option>
-                    <option value="news-category-3">Category 3</option>
-                    <option value="news-category-4">Category 4</option>
+                    {% for post in site.research limit:8 offset:offset %}
+                        <option value="{{ post.title | replace: " ", "-" | replace: "[", "" | replace: "]", "" | replace: '"', "" | downcase }}">{{ post.title }}</option>
+                    {% endfor %}
                 </select>
             </div>
         </div>
@@ -71,7 +69,7 @@ pagination:
 
         <div id="blogContainer" class="posts__grid post__grid postContainer" data-page="{{ currentPage }}" data-totalpages="{{ paginator.total_pages }}">
             {% for post in site.news limit:8 offset:offset %}
-                <a class="post__post post__post--standard" data-category="{{ post.category }}" href="{{ post.url }}">
+                <a class="post__post post__post--standard" data-category="{{ post.category[0] }}" href="{{ post.url }}">
                     <div class="post__post-thumbnail">
                         <img src="{{ post.featured_image }}">
                     </div>
