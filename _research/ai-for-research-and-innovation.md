@@ -10,7 +10,7 @@ excerpt: By analysing complex datasets and uncovering previously unknown
   practice at the interface of data science and other disciplines. Activities in
   this theme advance research, training, and engagement at the interface of AI
   and the sciences.
-featured_image: mert-kahveci-bqsfx5-zuji-unsplash.jpg
+featured_image: /assets/uploads/mert-kahveci-bqsfx5-zuji-unsplash.jpg
 overview_short: By analysing complex datasets and uncovering previously unknown
   patterns, machine learning has the potential to accelerate scientific
   discovery across the sciences – from healthcare to climate science,
