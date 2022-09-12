@@ -11,7 +11,8 @@ dl {
 
 // List items
 li {
-    font-size: 2rem;
+    font-size: 1.8rem;
+    color: $charcoal;
 }
 
 // Unordered lists
@@ -22,29 +23,30 @@ ul {
 
 // Ordered lists
 ol {
-	position: relative;
+    position: relative;
     margin-left: $list-side-margin;
-	counter-reset: counter;
-	list-style: none;
+    counter-reset: counter;
+    list-style: none;
 
-	li {
-		counter-increment: counter;
-		margin-bottom: 1rem;
+    li {
+        counter-increment: counter;
+        margin-bottom: 1rem;
 
-		&:before {
-			position: absolute;
-			left: 1rem;
-			display: inline-block;
-			content: counter(counter)".";
-			font-size: 2rem;
-			color: $primary;
-			font-weight: bold;
-		}
-	}
+        &:before {
+            position: absolute;
+            left: 1rem;
+            display: inline-block;
+            content: counter(counter)".";
+            font-size: 1.8rem;
+            color: $charcoal;
+            font-weight: bold;
+        }
+    }
 }
 
 // Nested unordered/ordered lists
-ul, ol {
+ul,
+ol {
     & & {
         margin-left: $list-nested-side-margin;
         margin-bottom: 0;

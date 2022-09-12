@@ -607,7 +607,7 @@ textarea { width: 100%; background: #F5F5F5; font-weight: 300; padding: 1rem; bo
 
 ul, ol, dl { margin-bottom: 1.2rem; list-style-position: outside; line-height: 1.6; }
 
-li { font-size: 2rem; }
+li { font-size: 1.8rem; color: #2A2A2A; }
 
 ul { margin-left: 1.25rem; list-style-type: disc; }
 
@@ -615,7 +615,7 @@ ol { position: relative; margin-left: 1.25rem; counter-reset: counter; list-styl
 
 ol li { counter-increment: counter; margin-bottom: 1rem; }
 
-ol li:before { position: absolute; left: 1rem; display: inline-block; content: counter(counter) "."; font-size: 2rem; color: #101827; font-weight: bold; }
+ol li:before { position: absolute; left: 1rem; display: inline-block; content: counter(counter) "."; font-size: 1.8rem; color: #2A2A2A; font-weight: bold; }
 
 ul ul, ul ol, ol ul, ol ol { margin-left: 1.25rem; margin-bottom: 0; }
 
