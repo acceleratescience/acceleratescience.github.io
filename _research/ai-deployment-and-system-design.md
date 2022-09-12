@@ -10,7 +10,8 @@ excerpt: A gap is emerging between our aspirations for the benefits of AI and
   applications, from innovations in statistical emulation to software
   engineering for machine learning deployment.
 featured_image: /assets/uploads/giuseppe-famiani-cffazycnbfg-unsplash.jpg
-overview_short: While excitement about the potential of artificial intelligence
+overview_short: >-
+  While excitement about the potential of artificial intelligence
   (AI) technologies continues to build, a gap is emerging between our
   aspirations for the benefits of AI and our ability to deploy these
   technologies to tackle real-world challenges. Achieving the full potential of

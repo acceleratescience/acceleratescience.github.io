@@ -11,7 +11,8 @@ excerpt: By analysing complex datasets and uncovering previously unknown
   this theme advance research, training, and engagement at the interface of AI
   and the sciences.
 featured_image: /assets/uploads/mert-kahveci-bqsfx5-zuji-unsplash.jpg
-overview_short: By analysing complex datasets and uncovering previously unknown
+overview_short: >-
+  By analysing complex datasets and uncovering previously unknown
   patterns, machine learning has the potential to accelerate scientific
   discovery across the sciences – from healthcare to climate science,
   fundamental physics to conservation, and more. Realising this potential
