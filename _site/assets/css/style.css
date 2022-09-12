@@ -1326,7 +1326,9 @@ APP STYLES
 
 .block__media-text.block__media-text--large .media-text__media img { width: 100vw; height: 100%; max-height: 700px; transform: translateX(-5vw); display: block; object-fit: cover; }
 
-@media (min-width: 1200px) { .block__media-text.block__media-text--large .media-text__media img { width: 100%; height: 100%; transform: none; } }
+@media (min-width: 1200px) { .block__media-text.block__media-text--large .media-text__media img { width: 100%; height: 100%; min-height: 500px; transform: none; } }
+
+@media (min-width: 1600px) { .block__media-text.block__media-text--large .media-text__media img { min-height: 630px; } }
 
 .block__media-text.block__media-text--large.block__media-text--flipped .media-text__content { margin-left: 0; margin-right: 0; }
 

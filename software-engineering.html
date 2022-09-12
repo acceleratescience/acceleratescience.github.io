@@ -70,7 +70,7 @@ title: Software Engineering
             </div>
             <div class="media-text__content">
                 {% if image_text_heading.size >= 1 %}
-                    <h2 class="section-heading">{{ image_text_heading }}</h>
+                    <h2 class="section-heading">{{ image_text_heading }}</h2>
                 {% endif %}
                 {% if image_text_content.size >= 1 %}
                     <p>{{ image_text_content }}</p>
@@ -88,7 +88,7 @@ title: Software Engineering
         <div class="row row--justified">
             <div class="media-text__content">
                 {% if image_text_flipped_heading.size >= 1 %}
-                    <h2 class="section-heading">{{ image_text_flipped_heading }}</h>
+                    <h2 class="section-heading">{{ image_text_flipped_heading }}</h2>
                 {% endif %}
                 {% if image_text_flipped_content.size >= 1 %}
                     <p>{{ image_text_flipped_content }}</p>
@@ -109,54 +109,20 @@ title: Software Engineering
 <section class="block block__related-posts">
     <div class="container">
         <h2 class="section-heading">Related Content</h2>
-        <div class="post__grid">
-            <a class="post__post" href="#">
-                <div class="post__post-thumbnail">
-                    <img alt="" src="../assets/images/placeholder.jpg">
-                </div>
-                <div class="post__post-content">
-                    <h4>INSIGHT CATEGORY</h4>
-                    <h3>Policies for places as well as people</h3>
-                    <p class="date">20th July, 2022</p>
-                    <span class="button">Read More</span>
-                </div>
-            </a>
-
-            <a class="post__post" href="#">
-                <div class="post__post-thumbnail">
-                    <img alt="" src="../assets/images/placeholder.jpg">
-                </div>
-                <div class="post__post-content">
-                    <h4>INSIGHT CATEGORY</h4>
-                    <h3>Accelerating pre-CoP27 Paris Agreement compliance</h3>
-                    <p class="date">20th July, 2022</p>
-                    <span class="button">Read More</span>
-                </div>
-            </a>
-
-            <a class="post__post" href="#">
-                <div class="post__post-thumbnail">
-                    <img alt="" src="../assets/images/placeholder.jpg">
-                </div>
-                <div class="post__post-content">
-                    <h4>INSIGHT CATEGORY</h4>
-                    <h3>How much is a dataset worth?</h3>
-                    <p class="date">20th July, 2022</p>
-                    <span class="button">Read More</span>
-                </div>
-            </a>
-
-            <a class="post__post" href="#">
-                <div class="post__post-thumbnail">
-                    <img alt="" src="../assets/images/placeholder.jpg">
-                </div>
-                <div class="post__post-content">
-                    <h4>INSIGHT CATEGORY</h4>
-                    <h3>Biodiversity loss may push developing world closer to default</h3>
-                    <p class="date">20th July, 2022</p>
-                    <span class="button">Read More</span>
-                </div>
-            </a>
+        <div class="posts__grid post__grid">
+            {% for post in site.posts limit:4 %}
+                <a class="post__post post__post--standard" href="{{ post.url }}">
+                    <div class="post__post-thumbnail">
+                        <img src="{{ post.featured_image }}">
+                    </div>
+                    <div class="post__post-content">
+                        <h4>{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</h4>
+                        <h3>{{ post.title}}</h3>
+                        <p class="date">{{ post.date | date: "%-d %B %Y" }}</p>
+                        <span class="button">Read More</span>
+                    </div>
+                </a>
+            {% endfor %}
         </div>
         <span class="divider divider--bottom"></span>
     </div>
@@ -166,26 +132,14 @@ title: Software Engineering
     <div class="container">
         <h2 class="section-heading">Related Resources</h2>
         <div class="resources__grid">
-            <a class="resources__resource resources__resource--blue" href="#">
-                <div>
-                    <h3>Understanding mental health with data science</h3>
-                </div>
-                <span class="button">Read More</span>
-            </a>
-
-            <a class="resources__resource resources__resource--green" href="#">
-                <div>
-                    <h3>Understanding mental health with data science</h3>
-                </div>
-                <span class="button">Read More</span>
-            </a>
-
-            <a class="resources__resource resources__resource--green" href="#">
-                <div>
-                    <h3>Understanding mental health with data science</h3>
-                </div>
-                <span class="button">Read More</span>
-            </a>
+            {% for post in site.resources %}
+                <a class="resources__resource resources__resource--{{ post.category }}" data-resources-value="{{ post.category }}" href="{{ post.url }}">
+                    <div>
+                        <h3>{{ post.title }}</h3>
+                    </div>
+                    <span class="button">Read More</span>
+                </a>
+            {% endfor %}
         </div>
     </div>
 </section>

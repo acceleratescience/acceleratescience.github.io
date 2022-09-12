@@ -1,7 +1,9 @@
 ---
 layout: research-single
 title: Understanding mental health with data science
-excerpt: Temp
+excerpt: Led by Dr Sarah Morgan, this group applies data science approaches to
+  better understand mental health conditions, including machine learning,
+  network science and NLP methods.
 featured_image: /assets/uploads/shamin-haky-uhx-ghppcdg-unsplash.jpg
 overview_short: >-
   ### Led by Dr Sarah Morgan, this group applies data science approaches to
@@ -13,5 +15,4 @@ overview_short: >-
 
 
   The group is also interested in using other data modalities to study mental health, with projects investigating the potential of transcribed speech data to predict risk for psychotic disorders and mapping transcribed speech excerpts as networks.
-overview_long: Temp
 ---
