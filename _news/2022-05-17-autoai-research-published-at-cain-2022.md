@@ -5,7 +5,7 @@ excerpt: The AutoAI team will present new research on flow-based programming in
   the context of machine learning deployment at the first International
   Conference on AI Engineering.
 category:
-  - ai-deployment-and-system-design
+  - ai-deployment-and-systems-design
 featured_image: /assets/uploads/alina-grubnyak-ziqkhi7417a-unsplash.jpg
 ---
 
