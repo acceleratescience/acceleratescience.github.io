@@ -46,6 +46,8 @@ collections:
     output: true
   opportunities:
     output: true
+  events:
+    output: true
 
 # Build settings
 theme: minima

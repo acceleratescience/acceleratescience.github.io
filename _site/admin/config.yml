@@ -771,4 +771,34 @@ collections:
         widget: 'text'
       - label: 'Body'
         name: 'body'
-        widget: 'markdown'   
+        widget: 'markdown'
+        
+  # Events Collection
+  - label: 'Events'
+    name: 'events'
+    folder: '_events'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - label: 'Layout'
+        name: 'layout'
+        widget: 'hidden'
+        default: 'event-single'
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Event Date'
+        name: 'event_date'
+        widget: 'date'
+        date_format: "DD.MM.YYYY"
+      - label: 'Excerpt'
+        name: 'excerpt'
+        widget: 'text'
+      - label: 'Featured Image'
+        name: 'featured_image'
+        widget: 'image'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'

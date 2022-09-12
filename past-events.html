@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Events
+title: Past Events
 ---
 
 <section class="block block__hero">
@@ -14,8 +14,8 @@ title: Events
         </div>
 
         <div class="hero__content">
-            <h1 class="no-margin">Events</h1>
-            <a class="button button--white" href="/past-events/">View past events</a>
+            <h1 class="no-margin">Past Events</h1>
+            <a class="button button--white" href="/events.html/">View upcoming events</a>
         </div>
     </div>
 </section>
@@ -28,7 +28,7 @@ title: Events
         <div class="posts__grid post__grid">
             {% for post in events %}
                 {% assign eventDate = post.event_date | date: '%Y%m%d' %}
-                {% if todayDate <= eventDate %}
+                {% if todayDate > eventDate %}
                     <a class="post__post post__post--standard" href="{{ post.url }}">
                         <div class="post__post-thumbnail">
                             <img src="{{ post.image }}">
