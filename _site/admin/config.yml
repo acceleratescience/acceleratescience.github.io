@@ -338,6 +338,74 @@ collections:
                 name: 'link'
                 widget: 'string'
                 required: false
+      # Privacy Policy
+      - label: 'Privacy Policy'
+        name: 'privacy_policy'
+        file: '_data/privacy_policy.yml'
+        editor:
+          preview: false
+        fields:
+          # Hero Section
+          - label: 'Hero'
+            name: 'hero'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+                required: false
+              - label: 'Content'
+                name: 'content'
+                widget: 'text'
+                required: false
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+                required: false
+          # Content Section
+          - label: 'Content'
+            name: 'content'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Body'
+                name: 'body'
+                widget: 'markdown'
+      # Terms of Service
+      - label: 'Terms of Service'
+        name: 'terms_of_service'
+        file: '_data/terms_of_service.yml'
+        editor:
+          preview: false
+        fields:
+          # Hero Section
+          - label: 'Hero'
+            name: 'hero'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+                required: false
+              - label: 'Content'
+                name: 'content'
+                widget: 'text'
+                required: false
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+                required: false
+          # Content Section
+          - label: 'Content'
+            name: 'content'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Body'
+                name: 'body'
+                widget: 'markdown'
                 
   # Collection Archive Pages
   - label: 'Collection Pages'

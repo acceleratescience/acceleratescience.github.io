@@ -3,11 +3,10 @@ layout: page
 title: Privacy Policy
 ---
 
-{% assign hero_title = site.data.privacy_policy.hero.title %}
-{% assign hero_content = site.data.privacy_policy.hero.content %}
-{% assign hero_link = site.data.privacy_policy.hero.link %}
-
-{% assign privacy_policy = site.data.privacy_policy.content.body %}
+{% assign hero_title = site.data.terms_of_service.hero.title %}
+{% assign hero_content = site.data.terms_of_service.hero.content %}
+{% assign hero_link = site.data.terms_of_service.hero.link %}
+{% assign terms_of_service = site.data.terms_of_service.content.body %}
 
 <section class="block block__hero">
     <div class="container">
@@ -37,6 +36,6 @@ title: Privacy Policy
 
 <section class="block block__text">
     <div class="container">
-        {{ privacy_policy | markdownify }}
+        {{ terms_of_service | markdownify }}
     </div>
 </section>

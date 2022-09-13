@@ -64,45 +64,32 @@
             </div>
         </section>
 
+        {% if page.people != nil %}
         <section class="block block__related-people">
             <div class="container">
                 <h2 class="section-heading">Related People</h2>
                 <div class="team__grid">
+                    {% for item in page.people %}
+                    {% assign people_slug = item %}
+                    {% for item in site.team %}
+                    {% if item.slug == people_slug %}
                     <div class="team__member">
                         <div class="team__member-image">
-                            <img src="../../assets/uploads/neil-lawrence.jpeg">
+                            <img src="{{item.image}}" alt="Image of {{item.title}}">
                         </div>
                         <div class="team__member-details">
-                            <h3>Neil D. Lawrence</h3>
-                            <p>The Deepmind Professor of Machine Learning</p>
+                            <h3>{{ item.title }}</h3>
+                            <p>{{ item.description }}</p>
                             <a class="button" href="#">Read Bio</a>
                         </div>
                     </div>
-
-                    <div class="team__member">
-                        <div class="team__member-image">
-                            <img src="../../assets/uploads/neil-lawrence.jpeg">
-                        </div>
-                        <div class="team__member-details">
-                            <h3>Neil D. Lawrence</h3>
-                            <p>The Deepmind Professor of Machine Learning</p>
-                            <a class="button" href="#">Read Bio</a>
-                        </div>
-                    </div>
-
-                    <div class="team__member">
-                        <div class="team__member-image">
-                            <img src="../../assets/uploads/neil-lawrence.jpeg">
-                        </div>
-                        <div class="team__member-details">
-                            <h3>Neil D. Lawrence</h3>
-                            <p>The Deepmind Professor of Machine Learning</p>
-                            <a class="button" href="#">Read Bio</a>
-                        </div>
-                    </div>
+                    {% endif %}
+                    {% endfor %}
+                    {% endfor %}
                 </div>
             </div>
         </section>
+        {% endif %}
 
         <section class="block block__related-papers">
             <div class="container">
