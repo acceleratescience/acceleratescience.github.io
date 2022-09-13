@@ -695,6 +695,16 @@ collections:
       - label: 'Excerpt'
         name: 'excerpt'
         widget: 'text'
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        multiple: true
+        options:
+          - { label: "Mental Health", value: "mental-health" }
+          - { label: "Human Development", value: "human-development" }
+          - { label: "Complex Systems", value: "complex-systems" }
+          - { label: "Biological Systems", value: "biological-systems" }
+          - { label: "Theoretical Physics", value: "theoretical-physics" }
       - label: 'Featured Image'
         name: 'featured_image'
         widget: 'image'
