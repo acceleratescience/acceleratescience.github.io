@@ -16,8 +16,10 @@ footer_nav:
     link: /about/
   - label: Research
     link: /research/
-  - label: News & Events
+  - label: News
     link: /news/
+  - label: Events
+    link: /events/
   - label: Software Engineering
     link: /software-engineering/
   - label: Resources
