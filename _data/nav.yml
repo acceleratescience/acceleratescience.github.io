@@ -1,6 +1,8 @@
 main_nav:
   - label: About
     link: /about/
+  - label: Projects
+    link: /projects/
   - label: Research
     link: /research/
   - label: News
@@ -14,6 +16,8 @@ main_nav:
 footer_nav:
   - label: About Us
     link: /about/
+  - label: Projects
+    link: /projects/
   - label: Research
     link: /research/
   - label: News
