@@ -681,7 +681,7 @@ nav.nav-primary { width: 100%; position: absolute; bottom: -25px; left: 0; trans
 
 @media (min-width: 768px) { .mobile-menu-active nav.nav-primary { opacity: 1; visibility: visible; z-index: 1; } }
 
-nav.nav-primary span { flex: 1; max-width: 180px; height: 4px; margin-right: 5rem; position: relative; display: none; background-color: #ffffff; transform: translateY(20px); }
+nav.nav-primary span { flex: 1; max-width: 180px; height: 4px; margin-right: 4rem; position: relative; display: none; background-color: #ffffff; transform: translateY(20px); }
 
 @media (min-width: 1200px) { nav.nav-primary span { flex: none; width: 180px; display: block; } }
 
@@ -691,7 +691,7 @@ nav.nav-primary ul li { margin-right: 1.5rem; position: relative; display: inlin
 
 @media (min-width: 768px) { nav.nav-primary ul li { margin-right: 3rem; } }
 
-@media (min-width: 1200px) { nav.nav-primary ul li { margin-right: 5rem; } }
+@media (min-width: 1200px) { nav.nav-primary ul li { margin-right: 4rem; } }
 
 nav.nav-primary ul li:last-of-type { margin-right: 0; }
 
@@ -701,7 +701,7 @@ nav.nav-primary ul li a { font-size: 1.8rem; line-height: 2rem; color: #ffffff; 
 
 @media (min-width: 768px) { nav.nav-primary ul li a { font-size: 2.4rem; line-height: 2.6rem; } }
 
-@media (min-width: 1200px) { nav.nav-primary ul li a { font-size: 3rem; line-height: 3.9rem; } }
+@media (min-width: 1200px) { nav.nav-primary ul li a { font-size: 2.8rem; line-height: 3.7rem; } }
 
 nav.nav-primary ul li .submenu { width: 300px; padding-top: 6rem; position: absolute; left: -2rem; bottom: 0; transform: translateY(100%); display: flex; flex-direction: column; opacity: 0; visibility: hidden; transition: 400ms; padding-left: 2rem; padding-right: 2rem; padding-bottom: 2rem; background-color: #031927; }
 

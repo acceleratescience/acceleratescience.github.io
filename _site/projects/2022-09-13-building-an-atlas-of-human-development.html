@@ -34,7 +34,12 @@
     </div>
 </header>
     <main class="main">
-        <section class="block block__hero">
+        <section class="block block__hero block__hero--medium" id="hero">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.3/dat.gui.min.js"></script>
+            <script src="https://mrdoob.github.io/stats.js/build/stats.min.js"></script>
+
+            <canvas id="c"></canvas>
+
             <div class="container">
                 <div class="hero__head row row--justified row--middle">
                     <a href="http://localhost:4000" class="brand">
@@ -52,6 +57,11 @@
         
             <li>
                 <a href="/about/">About</a>
+                
+            </li>
+        
+            <li>
+                <a href="/projects/">Projects</a>
                 
             </li>
         
@@ -85,9 +95,83 @@
                 </div>
 
                 <div class="hero__content">
-                    <h2>Projects</h2>
+                    <a href="http://localhost:4000/projects/" class="button button--back">
+                        <svg width="20px" height="12px" viewBox="0 0 20 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="Home-Concept-v1.0-b" transform="translate(-1583.000000, -759.000000)" fill="#DB3900">
+                                    <g id="Down" transform="translate(1583.000000, 759.000000)">
+                                        <rect id="Rectangle" x="8" y="8" width="4" height="4"></rect>
+                                        <rect id="Rectangle" x="4" y="4" width="4" height="4"></rect>
+                                        <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                                        <rect id="Rectangle" x="12" y="4" width="4" height="4"></rect>
+                                        <rect id="Rectangle" x="16" y="0" width="4" height="4"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                        <p>Back to projects</p>
+                    </a>
+                    <h1>Building an atlas of human development</h1>
                 </div>
             </div>
+        </section>
+
+        <section class="block block__research-overview">
+            <div class="container">
+                <div class="row row--justified">
+                    <div class="research-overview__heading column-m-12-nest column-t-3">
+                        <h2 class="section-heading">Project Overview</h2>
+                    </div>
+                    <div class="research-overview__content column-m-12-nest column-t-8">
+                        <p>This is temp body content</p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        
+
+        <section class="block block__related-papers">
+            <div class="container">
+                <h2 class="section-heading">Related Papers</h2>
+                <div class="papers__grid">
+                    <a href="#" class="papers__item">
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lectus ipsum, hendrerit sed velit et, facilisis scelerisque nibh. Sed maximus nibh id rhoncus maximus.</h3>
+                        <p class="date">20th July, 2022</p>
+                        <p class="author">Author name 1, Author name 2</p>
+                        <p class="reference">Curr Opin Cell Biol (2020 ) 52:145–153. DOI: 10.1016/ j.ceb.2018.03.009.</p>
+                        <span class="button">Read Paper</span>
+                    </a>
+
+                    <a href="#" class="papers__item">
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lectus ipsum, hendrerit sed velit et, facilisis scelerisque nibh. Sed maximus nibh id rhoncus maximus.</h3>
+                        <p class="date">20th July, 2022</p>
+                        <p class="author">Author name 1, Author name 2</p>
+                        <p class="reference">Curr Opin Cell Biol (2020 ) 52:145–153. DOI: 10.1016/ j.ceb.2018.03.009.</p>
+                        <span class="button">Read Paper</span>
+                    </a>
+
+                    <a href="#" class="papers__item">
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lectus ipsum, hendrerit sed velit et, facilisis scelerisque nibh. Sed maximus nibh id rhoncus maximus.</h3>
+                        <p class="date">20th July, 2022</p>
+                        <p class="author">Author name 1, Author name 2</p>
+                        <p class="reference">Curr Opin Cell Biol (2020 ) 52:145–153. DOI: 10.1016/ j.ceb.2018.03.009.</p>
+                        <span class="button">Read Paper</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="block block__related-projects">
+            <a href="#" class="related-projects__project related-projects__project--prev">
+                <p>Prev Project</p>
+                <h2>Understanding mental health with data science</h2>
+            </a>
+            <a href="#" class="related-projects__project related-projects__project--next">
+                <p>Next Project</p>
+                <h2>Understanding mental health with data science</h2>
+            </a>
         </section>
     </main>
     <footer role="contentinfo">
@@ -101,6 +185,11 @@
                         
                             <li>
                                 <a href="/about/">About Us</a>
+                                
+                            </li>
+                        
+                            <li>
+                                <a href="/projects/">Projects</a>
                                 
                             </li>
                         
@@ -231,6 +320,10 @@ UK</p>
             
             <li>
                 <a href="/about/">About</a>
+            </li>
+            
+            <li>
+                <a href="/projects/">Projects</a>
             </li>
             
             <li>

@@ -29,7 +29,7 @@ nav.nav-primary {
 		flex: 1;
 		max-width: 180px;
 		height: 4px;
-		margin-right: 5rem;
+		margin-right: 4rem;
 		position: relative;
 		display: none;
 		background-color: $lightest;
@@ -62,7 +62,7 @@ nav.nav-primary {
 			}
 
 			@include bp(desktop) {
-				margin-right: 5rem;
+				margin-right: 4rem;
 			}
 
 			&:last-of-type {
@@ -90,8 +90,8 @@ nav.nav-primary {
 				}
 
 				@include bp(desktop) {
-					font-size: 3rem;
-					line-height: 3.9rem;
+					font-size: 2.8rem;
+					line-height: 3.7rem;
 				}
 			}
 
