@@ -711,19 +711,6 @@ collections:
       - label: 'Body'
         name: 'body'
         widget: 'markdown'
-      - label: 'Project Funders'
-        name: 'project_funders'
-        collapsed: true
-        minimize_collapsed: true
-        required: false
-        widget: 'list'
-        fields: 
-          - label: 'Image'
-            name: 'image'
-            widget: 'image'
-          - label: 'Link'
-            name: 'link'
-            widget: 'string'
       - label: 'Related People'
         name: 'people'
         widget: 'relation'
@@ -733,10 +720,10 @@ collections:
         display_fields: ["title"]
         multiple: true
         required: false
-      - label: 'Related Publications'
-        name: 'publications'
+      - label: 'Related Papers'
+        name: 'papers'
         widget: 'relation'
-        collection: 'Publications'
+        collection: 'papers'
         search_fields: ["title"]
         value_field: "{{slug}}"
         display_fields: ["title"]
