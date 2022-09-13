@@ -1,8 +1,8 @@
 ---
-layout: team-single
+layout: people
 title: Isaac Sebenius
 description: PhD Student, Cambridge University
-featured_image: /assets/uploads/isaac.jpg
+image: /assets/uploads/isaac.jpg
 biography: Isaac is interested in developing new computational methods that
   leverage biological knowledge to address open questions related to mental
   health and psychiatric disorders. In particular, Isaac’s work seeks to

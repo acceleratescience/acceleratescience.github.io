@@ -1,8 +1,8 @@
 ---
-layout: team-single
+layout: people
 title: Francisco Vargas
 description: PhD Student, Cambridge University
-featured_image: /assets/uploads/francisco.png
+image: /assets/uploads/francisco.png
 biography: Francisco is a PhD student in the Computer Laboratory. He is
   Interested in the duality between optimisation and sampling with a focus on
   applications. In particular,  exploring stochastic control based methodologies

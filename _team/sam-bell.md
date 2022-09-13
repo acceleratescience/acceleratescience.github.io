@@ -1,8 +1,8 @@
 ---
-layout: team-single
+layout: people
 title: Sam Bell
 description: PhD Student, Cambridge University
-featured_image: /assets/uploads/samuel_bell.jpg
+image: /assets/uploads/samuel_bell.jpg
 biography: >-
   Sam applies the principles and methods of psychology to understanding neural
   network behaviour.

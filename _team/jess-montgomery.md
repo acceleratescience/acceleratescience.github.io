@@ -1,8 +1,8 @@
 ---
-layout: team-single
+layout: people
 title: Jess Montgomery
 description: Executive Director, Accelerate Science
-featured_image: /assets/uploads/jess-montgomery.jpeg
+image: /assets/uploads/jess-montgomery.jpeg
 linkedin: "#"
 twitter: "#"
 facebook: "#"

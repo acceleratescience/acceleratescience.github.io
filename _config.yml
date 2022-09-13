@@ -42,6 +42,8 @@ collections:
     output: true
   resources:
     output: true
+  publications:
+    output: true
   team:
     output: true
   opportunities:

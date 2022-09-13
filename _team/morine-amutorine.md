@@ -1,8 +1,8 @@
 ---
-layout: team-single
+layout: people
 title: Morine Amutorine
 description: Data Science Africa Fellow
-featured_image: /assets/uploads/morine-amutorine.jpeg
+image: /assets/uploads/morine-amutorine.jpeg
 linkedin: "#"
 twitter: "#"
 facebook: "#"

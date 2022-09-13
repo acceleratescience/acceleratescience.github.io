@@ -1,9 +1,9 @@
 ---
-layout: team-single
+layout: people
 title: Bianca Dumitrascu
 description: Departmental Early Career Academic Fellow, Accelerate Programme,
   Cambridge University
-featured_image: /assets/uploads/photobd.jpg
+image: /assets/uploads/photobd.jpg
 twitter: https://twitter.com/bidumit
 biography: Bianca works at the intersection of machine learning and genetics.
   Her main research interest is understanding how local molecular rules give

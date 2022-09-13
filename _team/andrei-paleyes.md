@@ -1,9 +1,9 @@
 ---
-layout: team-single
+layout: people
 title: Andrei Paleyes
 group: alumni
 description: PhD Student, Cambridge University
-featured_image: /assets/uploads/andrei.jpg
+image: /assets/uploads/andrei.jpg
 linkedin: "#"
 twitter: "#"
 facebook: "#"

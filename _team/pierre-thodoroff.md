@@ -1,8 +1,8 @@
 ---
-layout: team-single
+layout: people
 title: Pierre Thodoroff
 description: PhD Student, Cambridge University
-featured_image: /assets/uploads/pierre-thodoroff.jpeg
+image: /assets/uploads/pierre-thodoroff.jpeg
 linkedin: "#"
 twitter: "#"
 facebook: "#"

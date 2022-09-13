@@ -1,8 +1,8 @@
 ---
-layout: team-single
+layout: people
 title: Diana Robinson
 description: PhD Student, Cambridge University
-featured_image: /assets/uploads/diana.jpg
+image: /assets/uploads/diana.jpg
 biography: >-
   Diana Robinson is a PhD candidate in computer science at the University of
   Cambridge, specialising in human-computer interaction. Her focus is on

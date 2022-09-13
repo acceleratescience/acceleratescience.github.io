@@ -1,9 +1,9 @@
 ---
-layout: team-single
+layout: people
 title: Challenger Mishra
 description: Departmental Early Career Academic Fellow, Accelerate Programme,
   Cambridge University
-featured_image: /assets/uploads/challenger.jpg
+image: /assets/uploads/challenger.jpg
 twitter: https://twitter.com/challenger1987
 biography: Challenger is developing machine-driven approaches to problems in
   String Theory and related Calabi-Yau geometries, studying the vast landscape

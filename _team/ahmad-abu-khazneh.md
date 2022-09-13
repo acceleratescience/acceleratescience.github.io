@@ -1,9 +1,9 @@
 ---
-layout: team-single
+layout: people
 title: Ahmad Abu-Khazneh
 group: advisory-group
 description: Senior Machine Learning Engineer, Accelerate Programme
-featured_image: /assets/uploads/vladislav-nikonov-quzpqh5vno4-unsplash.jpg
+image: /assets/uploads/vladislav-nikonov-quzpqh5vno4-unsplash.jpg
 biography: Ahmad is interested in developing tools that help scientists in
   various disciplines utilise machine learning in their research. This is
   inspired by his cross-disciplinary academic and industrial background

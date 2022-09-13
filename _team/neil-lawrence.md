@@ -1,8 +1,8 @@
 ---
-layout: team-single
+layout: people
 title: Neil Lawrence
 description: DeepMind Professor of Machine Learning, Cambridge University
-featured_image: /assets/uploads/neil-lawrence.jpeg
+image: /assets/uploads/neil-lawrence.jpeg
 linkedin: "#"
 twitter: www.twitter/com/lawrennnd
 facebook: "#"

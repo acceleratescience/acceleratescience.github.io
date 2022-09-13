@@ -1,8 +1,8 @@
 ---
-layout: team-single
+layout: people
 title: Markus Kaiser
 description: Research Associate, Cambridge University; Research Scientist, Siemens AG
-featured_image: /assets/uploads/markus-kaiser.jpeg
+image: /assets/uploads/markus-kaiser.jpeg
 linkedin: "#"
 twitter: "#"
 facebook: "#"

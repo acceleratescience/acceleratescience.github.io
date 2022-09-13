@@ -1,8 +1,8 @@
 ---
-layout: team-single
+layout: people
 title: Eric Meissner
 description: PhD student, Cambridge University
-featured_image: /assets/uploads/eric-meissner.jpeg
+image: /assets/uploads/eric-meissner.jpeg
 linkedin: "#"
 twitter: "#"
 facebook: "#"

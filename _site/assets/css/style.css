@@ -1406,25 +1406,15 @@ APP STYLES
 
 @media (min-width: 1200px) { .block__team-profile { padding: 10rem 0; } }
 
-.block__team-profile .team-profile__biography { padding: 2rem; background-color: #ffffff; }
-
-@media (min-width: 768px) { .block__team-profile .team-profile__biography { padding: 3rem; } }
-
-@media (min-width: 1200px) { .block__team-profile .team-profile__biography { padding: 5rem; } }
+.block__team-profile .team-profile__biography { padding: 0; background-color: #ffffff; }
 
 .block__team-profile .team-profile__biography p, .block__team-profile .team-profile__biography a, .block__team-profile .team-profile__biography li { margin-top: 0; margin-bottom: 2rem; font-size: 1.6rem; line-height: 2.8rem; color: #031927; }
 
 @media (min-width: 768px) { .block__team-profile .team-profile__biography p, .block__team-profile .team-profile__biography a, .block__team-profile .team-profile__biography li { margin-bottom: 4rem; font-size: 2rem; line-height: 3.2rem; } }
 
-.block__team-profile .team-profile__contact { padding: 2rem 0 0 0; }
+.block__team-profile .team-profile__contact { margin-top: 2rem; padding: 0; }
 
-@media (min-width: 768px) { .block__team-profile .team-profile__contact { padding: 3rem 0; } }
-
-@media (min-width: 1200px) { .block__team-profile .team-profile__contact { padding: 5rem 0; } }
-
-.block__team-profile .team-profile__contact .section-heading { margin-bottom: 2rem; }
-
-@media (min-width: 1200px) { .block__team-profile .team-profile__contact .section-heading { margin-bottom: 4rem; } }
+@media (min-width: 768px) { .block__team-profile .team-profile__contact { margin-top: 0; } }
 
 .block__team-profile .team-profile__contact-socials { margin: 0 0 2rem 0; display: flex; flex-wrap: wrap; }
 

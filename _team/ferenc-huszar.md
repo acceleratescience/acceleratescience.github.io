@@ -1,8 +1,8 @@
 ---
-layout: team-single
+layout: people
 title: Ferenc Huszar
 description: Senior Lecturer, Cambridge University
-featured_image: /assets/uploads/ferenc.jpg
+image: /assets/uploads/ferenc.jpg
 twitter: https://twitter.com/fhuszar
 biography: "Ferenc finished my PhD in Machine Learning at the Cambridge
   University Engineering Department in 2013. At that time he worked on Bayesian

@@ -1,8 +1,8 @@
 ---
-layout: team-single
+layout: people
 title: Carl Henrik Ek
 description: Senior Lecturer, Cambridge University
-featured_image: /assets/uploads/carl-henrik-ek.jpg
+image: /assets/uploads/carl-henrik-ek.jpg
 twitter: https://twitter.com/carlhenrikek
 biography: >-
   Carl Henrik is a Senior Lecturer in Machine learning in the Department of

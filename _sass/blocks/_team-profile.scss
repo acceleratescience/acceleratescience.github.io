@@ -6,16 +6,17 @@
     }
 
     .team-profile__biography {
-        padding: 2rem;
+        padding: 0;
+        // padding: 0 2rem;
         background-color: $lightest;
 
-        @include bp(tablet) {
-            padding: 3rem;
-        }
+        // @include bp(tablet) {
+        //     padding: 0 3rem;
+        // }
 
-        @include bp(desktop) {
-            padding: 5rem;
-        }
+        // @include bp(desktop) {
+        //     padding: 0 5rem;
+        // }
 
         p,
         a,
@@ -35,23 +36,29 @@
     }
 
     .team-profile__contact {
-        padding: 2rem 0 0 0;
+        margin-top: 2rem;
+        padding: 0;
+        // padding: 2rem 0 0 0;
 
         @include bp(tablet) {
-            padding: 3rem 0;
+            margin-top: 0;
         }
 
-        @include bp(desktop) {
-            padding: 5rem 0;
-        }
+        // @include bp(tablet) {
+        //     padding: 3rem 0;
+        // }
 
-        .section-heading {
-            margin-bottom: 2rem;
+        // @include bp(desktop) {
+        //     padding: 5rem 0;
+        // }
 
-            @include bp(desktop) {
-                margin-bottom: 4rem;
-            }
-        }
+        // .section-heading {
+        //     margin-bottom: 2rem;
+
+        //     @include bp(desktop) {
+        //         margin-bottom: 4rem;
+        //     }
+        // }
 
         &-socials {
             margin: 0 0 2rem 0;
@@ -61,7 +68,7 @@
             @include bp(desktop) {
                 margin: 0 0 4rem 0;
             }
-            
+
             a {
                 margin-right: 2rem;
                 display: block;
