@@ -35,6 +35,14 @@
             position: absolute;
             top: 0;
             left: 0;
+            opacity: 1;
+            visibility: visible;
+            transition: 400ms $cubic;
+
+            .mobile-menu-active & {
+                opacity: 0;
+                visibility: hidden;
+            }
         }
 
         .stamp {
