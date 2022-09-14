@@ -411,7 +411,7 @@ collections:
   - label: 'Collection Pages'
     name: 'collection_pages'
     files:
-      # Blog/Insights News
+      # Blog
       - label: 'Blog (Insights)'
         name: 'blog'
         file: '_data/blog.yml'
@@ -436,27 +436,6 @@ collections:
       - label: 'News'
         name: 'news'
         file: '_data/news.yml'
-        editor:
-          preview: false
-        fields:
-          - label: 'Hero'
-            name: 'hero'
-            collapsed: true
-            widget: 'object'
-            fields:
-              - label: 'Title'
-                name: 'title'
-                widget: 'string'
-              - label: 'Content'
-                name: 'content'
-                widget: 'text'
-              - label: 'Link'
-                name: 'link'
-                widget: 'string'
-      # Research
-      - label: 'Research'
-        name: 'research'
-        file: '_data/research.yml'
         editor:
           preview: false
         fields:
@@ -631,50 +610,6 @@ collections:
       - label: 'Body'
         name: 'body'
         widget: 'markdown'
-
-  # Research Collection
-  - name: 'research'
-    label: 'Research'
-    folder: '_research'
-    create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
-    fields:
-      - label: 'Layout'
-        name: 'layout'
-        widget: 'hidden'
-        default: 'research-single'
-      - label: 'Title'
-        name: 'title'
-        widget: 'string'
-      - label: 'Excerpt'
-        name: 'excerpt'
-        widget: 'text'
-      - label: 'Featured Image'
-        name: 'featured_image'
-        widget: 'image'
-      - label: 'Overview'
-        name: 'overview_short'
-        widget: 'markdown'
-      - label: 'Related Projects'
-        name: 'projects'
-        widget: 'relation'
-        collection: 'projects'
-        search_fields: ["title"]
-        value_field: "{{slug}}"
-        display_fields: ["title"]
-        multiple: true
-        required: false
-      - label: 'Related People'
-        name: 'people'
-        widget: 'relation'
-        collection: 'team'
-        search_fields: ["title"]
-        value_field: "{{slug}}"
-        display_fields: ["title"]
-        multiple: true
-        required: false
 
   # Projects Collection
   - name: 'projects'

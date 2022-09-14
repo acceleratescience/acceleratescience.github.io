@@ -36,8 +36,6 @@ collections:
     output: true
   news:
     output: true
-  research:
-    output: true
   projects:
     output: true
   resources:
