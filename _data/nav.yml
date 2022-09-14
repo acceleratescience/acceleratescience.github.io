@@ -7,12 +7,13 @@ main_nav:
     link: /publications/
   - label: Resources
     link: /resources/
-  - label: Blog
-    link: /blog/
   - label: News
     link: /news/
-  - label: Events
-    link: /events/
+    submenu_item:
+      - label: Blog
+        link: /blog/
+      - label: Events
+        link: /events/
   - label: Software Engineering
     link: /software-engineering/
   - label: Get Involved
