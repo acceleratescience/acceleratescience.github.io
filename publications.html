@@ -33,17 +33,30 @@ pagination:
             {% assign currentPage = 1 %}
         {% endif %}
 
-        <div id="blogContainer" class="posts__grid post__grid post__grid--col3 postContainer" data-page="{{ currentPage }}" data-totalpages="{{ paginator.total_pages }}">
+        <div id="blogContainer" class="posts__list post__list postContainer" data-page="{{ currentPage }}" data-totalpages="{{ paginator.total_pages }}">
             {% for post in site.publications limit:8 offset:offset %}
-                <a class="post__post post__post--standard" href="{{ post.url }}">
-                    <div class="post__post-thumbnail">
-                        <img src="{{ post.featured_image }}">
-                    </div>
+                <a class="post__post post__post--publication" href="{{ post.url }}">
                     <div class="post__post-content">
-                        <h4>{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</h4>
                         <h3>{{ post.title}}</h3>
-                        <span class="button">Read More</span>
+                        <h4>{{ post.published | replace: "-", "/" }}</h4>
+                        <div class="authors">
+                            {% for author in post.author %}
+                                <p>
+                                    {{author.given}}
+                                    {{author.family}},
+                                </p>
+                            {% endfor %}
+                        </div>
+                        <p class="journal">
+                            {{post.journal}}
+                            ({{post.year}})
+                            {{post.pages}}
+                        </p>
+                        <p class="doi">
+                            DOI:{{post.doi}}
+                        </p>
                     </div>
+                    <span class="button">Read Paper</span>
                 </a>
             {% endfor %}
         </div>
@@ -73,7 +86,7 @@ pagination:
                 $(this).addClass("loading");
                 $.get("/page/" + nextPage + "/publications.html", function (data) {
                     var htmlData = $.parseHTML(data);
-                    var $articles = $(htmlData).find(".post__post--standard");
+                    var $articles = $(htmlData).find(".post__post--publication");
                     $blogContainer.append($articles);
                     if ($blogContainer.attr("data-totalPages") == nextPage) {
                         $(".loadMore").closest(".posts__load-more").remove();

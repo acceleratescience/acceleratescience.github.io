@@ -1,5 +1,5 @@
 ---
-layout: paper-single
+layout: publication-single
 title: Ranking the Information Content of Distance Measures
 abstract: |
   Real-world data typically contain a large number of features that

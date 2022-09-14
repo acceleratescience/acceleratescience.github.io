@@ -1,5 +1,5 @@
 ---
-layout: paper-single
+layout: publication-single
 title: Quantum-Mechanical Exploration of the Phase Diagram of Water
 abstract: The set of known stable phases of water may not be complete, and some
   of the phase boundaries between them are fuzzy. Starting from liquid water and

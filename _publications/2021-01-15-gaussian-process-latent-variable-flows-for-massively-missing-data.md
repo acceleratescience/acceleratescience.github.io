@@ -1,5 +1,5 @@
 ---
-layout: paper-single
+layout: publication-single
 title: Gaussian Process Latent Variable Flows for Massively Missing Data
 abstract: Gaussian process latent variable models (GPLVM) are used to perform
   nonlinear and probabilistic dimensionality reduction. They extend Gaussian

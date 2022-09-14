@@ -1,5 +1,5 @@
 ---
-layout: paper-single
+layout: publication-single
 title: "Deep learning for Bioimage Analysis in Developmental Biology"
 abstract: "Deep learning has transformed the way large and complex image datasets can be processed, reshaping what is possible in bioimage analysis. As the complexity and size of bioimage data continues to grow, this new analysis paradigm is becoming increasingly ubiquitous. In this Review, we begin by introducing the concepts needed for beginners to understand deep learning. We then review how deep learning has impacted bioimage analysis and explore the open-source resources available to integrate it into a research project. Finally, we discuss the future of deep learning applied to cell and developmental biology. We analyze how state-of-the-art methodologies have the potential to transform our understanding of biological systems through new image-based analysis and modelling that integrate multimodal inputs in space and time."
 description: This review introduces key concepts in deep learning and its application to bio-image analysis, exploring how researchers can integrate these techniques into their work.

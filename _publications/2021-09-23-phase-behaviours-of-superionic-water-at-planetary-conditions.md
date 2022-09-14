@@ -1,5 +1,5 @@
 ---
-layout: paper-single
+layout: publication-single
 title: Phase Behaviours of Superionic Water at Planetary Conditions
 abstract: Most water in the Universe may be superionic, and its thermodynamic
   and transport properties are crucial for planetary science but difficult to

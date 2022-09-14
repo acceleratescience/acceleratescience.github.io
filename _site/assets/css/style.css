@@ -966,6 +966,18 @@ APP STYLES
 
 @media (min-width: 1200px) { .post__post.post__post--featured .post__post-content { padding: 5rem 10rem; } }
 
+.post__post--publication { width: 100%; margin: 0 0 4rem 0; padding-bottom: 4rem; display: flex; justify-content: space-between; align-items: flex-start; border-bottom: 1px solid #CCCCCC; }
+
+.post__post--publication .post__post-content { margin-right: 4rem; padding: 0; }
+
+.post__post--publication .post__post-content h4 { font-size: 1.4rem; line-height: 2rem; }
+
+.post__post--publication .post__post-content .authors p { margin: 0; display: inline-block; }
+
+.post__post--publication .post__post-content .journal { margin: 1.5rem 0 0 0; font-size: 1.6rem; line-height: 1.6rem; color: #2A2A2A; }
+
+.post__post--publication .post__post-content .doi { margin: 1.5rem 0 0 0; font-size: 1.6rem; line-height: 2.6rem; color: #2A2A2A; }
+
 .block__post-single { margin: 4rem 0; }
 
 @media (min-width: 1200px) { .block__post-single { margin: 7.5rem 0 10rem 0; } }

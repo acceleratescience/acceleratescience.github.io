@@ -1,5 +1,5 @@
 ---
-layout: paper-single
+layout: publication-single
 title: Solving Schrödinger Bridges via Maximum Likelihood
 abstract: >
   The Schrödinger bridge problem (SBP) finds the most likely stochastic
