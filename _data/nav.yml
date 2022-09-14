@@ -4,6 +4,8 @@ main_nav:
     submenu_item:
       - label: Team
         link: /team/
+      - label: Get Involved
+        link: /get-involved/
   - label: Projects
     link: /projects/
     submenu_item:
@@ -20,7 +22,7 @@ main_nav:
         link: /events/
   - label: Software Engineering
     link: /software-engineering/
-  - label: Get Involved
+  - label: Contact
     link: /get-involved/
 footer_nav:
   - label: About Us
