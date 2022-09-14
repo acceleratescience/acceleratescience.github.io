@@ -96,48 +96,27 @@ nav.nav-primary {
 			}
 
 			.submenu {
-				width: 300px;
-				padding-top: 6rem;
+				padding-top: 1.5rem;
+				padding-left: 2rem;
+				padding-right: 2rem;
+				padding-bottom: 2rem;
 				position: absolute;
 				left: -2rem;
 				bottom: 0;
 				transform: translateY(100%);
 				display: flex;
 				flex-direction: column;
+				background-color: $blue;
 				opacity: 0;
 				visibility: hidden;
 				transition: 400ms;
 
-				// Temp
-				padding-left: 2rem;
-				padding-right: 2rem;
-				padding-bottom: 2rem;
-				background-color: $primary-blue;
-
-				@include bp(desktop) {
-					padding-top: 8.5rem;
-				}
-
 				a {
+					margin: 0 0 1.5rem 0;
 					display: block;
-					font-size: 1.8rem;
-					line-height: 2rem;
-					color: $lightest;
-					text-decoration: none;
 
 					&:last-child {
 						margin-bottom: 0;
-					}
-
-					@include bp(tablet) {
-						font-size: 2.4rem;
-						line-height: 2.6rem;
-					}
-
-					@include bp(desktop) {
-						margin-bottom: 6rem;
-						font-size: 2.4rem;
-						line-height: 3.1rem;
 					}
 				}
 			}

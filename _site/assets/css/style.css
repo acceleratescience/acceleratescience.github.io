@@ -703,17 +703,11 @@ nav.nav-primary ul li a { font-size: 1.8rem; line-height: 2rem; color: #ffffff; 
 
 @media (min-width: 1200px) { nav.nav-primary ul li a { font-size: 2.8rem; line-height: 3.7rem; } }
 
-nav.nav-primary ul li .submenu { width: 300px; padding-top: 6rem; position: absolute; left: -2rem; bottom: 0; transform: translateY(100%); display: flex; flex-direction: column; opacity: 0; visibility: hidden; transition: 400ms; padding-left: 2rem; padding-right: 2rem; padding-bottom: 2rem; background-color: #031927; }
+nav.nav-primary ul li .submenu { padding-top: 1.5rem; padding-left: 2rem; padding-right: 2rem; padding-bottom: 2rem; position: absolute; left: -2rem; bottom: 0; transform: translateY(100%); display: flex; flex-direction: column; background-color: #0000FF; opacity: 0; visibility: hidden; transition: 400ms; }
 
-@media (min-width: 1200px) { nav.nav-primary ul li .submenu { padding-top: 8.5rem; } }
-
-nav.nav-primary ul li .submenu a { display: block; font-size: 1.8rem; line-height: 2rem; color: #ffffff; text-decoration: none; }
+nav.nav-primary ul li .submenu a { margin: 0 0 1.5rem 0; display: block; }
 
 nav.nav-primary ul li .submenu a:last-child { margin-bottom: 0; }
-
-@media (min-width: 768px) { nav.nav-primary ul li .submenu a { font-size: 2.4rem; line-height: 2.6rem; } }
-
-@media (min-width: 1200px) { nav.nav-primary ul li .submenu a { margin-bottom: 6rem; font-size: 2.4rem; line-height: 3.1rem; } }
 
 nav.nav-mobile { position: relative; transform: translateY(-60px); }
 
