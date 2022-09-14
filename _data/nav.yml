@@ -1,6 +1,9 @@
 main_nav:
   - label: About
     link: /about/
+    submenu_item:
+      - label: Team
+        link: /team/
   - label: Projects
     link: /projects/
     submenu_item:
