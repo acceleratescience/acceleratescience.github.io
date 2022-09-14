@@ -703,7 +703,7 @@ nav.nav-primary ul li a { font-size: 1.8rem; line-height: 2rem; color: #ffffff; 
 
 @media (min-width: 1200px) { nav.nav-primary ul li a { font-size: 2.8rem; line-height: 3.7rem; } }
 
-nav.nav-primary ul li .submenu { padding-top: 1.5rem; padding-left: 2rem; padding-right: 2rem; padding-bottom: 2rem; position: absolute; left: -2rem; bottom: 0; transform: translateY(100%); display: flex; flex-direction: column; background-color: #0000FF; opacity: 0; visibility: hidden; transition: 400ms; }
+nav.nav-primary ul li .submenu { padding-top: 1.5rem; padding-left: 2rem; padding-right: 2rem; padding-bottom: 2rem; position: absolute; left: -2rem; bottom: 0; transform: translateY(100%); display: flex; flex-direction: column; opacity: 0; visibility: hidden; transition: 400ms; }
 
 nav.nav-primary ul li .submenu a { margin: 0 0 1.5rem 0; display: block; }
 
