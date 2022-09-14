@@ -23,4 +23,6 @@ doi: 10.1038/s41467-021-21453-4
 openreview:
 html: https://www.nature.com/articles/s41467-021-21453-4
 website: https://www.nature.com/articles/s41467-021-21453-4
+pdf:
+software:
 ---

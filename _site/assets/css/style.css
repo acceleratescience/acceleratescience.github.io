@@ -1466,6 +1466,28 @@ APP STYLES
 
 .block__research-overview .research-overview__content p:first-of-type { margin-top: 0; }
 
+.block__publication { margin: 4rem 0; }
+
+@media (min-width: 1200px) { .block__publication { margin: 10rem 0; } }
+
+.block__publication .publication__details { margin-bottom: 2rem; }
+
+@media (min-width: 768px) { .block__publication .publication__details { margin-bottom: 4rem; } }
+
+.block__publication .publication__details p { margin: 0; }
+
+.block__publication .publication__links { margin-bottom: 2rem; }
+
+@media (min-width: 768px) { .block__publication .publication__links { margin-bottom: 0; } }
+
+.block__publication .publication__content h3 { margin-bottom: 3rem; font-size: 2rem; font-weight: 700; letter-spacing: 0.17px; color: #2A2A2A; }
+
+@media (min-width: 768px) { .block__publication .publication__content h3 { font-size: 2.4rem; } }
+
+.block__publication .publication__content p { letter-spacing: 0.17px; color: #2A2A2A; }
+
+.block__publication .publication__content p:first-of-type { margin-top: 0; }
+
 .block__projects { margin: 10rem 0; }
 
 .block__resources { margin: 0 0 4rem 0; }

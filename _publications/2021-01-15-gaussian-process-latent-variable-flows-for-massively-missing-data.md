@@ -38,4 +38,6 @@ doi:
 openreview: zaMwvOjsyym
 html:
 website:
+pdf:
+software:
 ---

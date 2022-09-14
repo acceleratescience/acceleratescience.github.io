@@ -51,14 +51,32 @@
             </div>
         </section>
 
-        <section class="block block__research-overview">
+        <section class="block block__publication">
             <div class="container">
                 <div class="row row--justified">
-                    <div class="research-overview__heading column-m-12-nest column-t-3">
-                        <h2 class="section-heading">Project Overview</h2>
+                    <div class="column-m-12-nest column-t-3">
+                        <div class="publication__details">
+                            <h2 class="section-heading">Paper Details</h2>
+                            <p><strong>Journal:</strong> {{ page.journal }}</p>
+                            <p><strong>Published:</strong> {{ page.published | replace: "-", "/" }}</p>
+                            <p><strong>Volume:</strong> {{ page.volume }}</p>
+                            <p><strong>Number:</strong> {{ page.number }}</p>
+                            <p><strong>DOI:</strong> {{ page.doi }}</p>
+                            <p><strong>Openreview:</strong> {{ page.openreview }}</p>
+                        </div>
+                        <div class="publications__links">
+                            <h2 class="section-heading">Paper Links</h2>
+                            <a href="{{ page.html }}" target="_blank" rel="noreferrer">HTML</a>
+                            <a href="{{ page.website }}" target="_blank" rel="noreferrer">Website</a>
+                            <a href="{{ page.pdf }}" target="_blank" rel="noreferrer">PDF</a>
+                            <a href="{{ page.softwae }}" target="_blank" rel="noreferrer">Software</a>
+                        </div>
                     </div>
-                    <div class="research-overview__content column-m-12-nest column-t-8">
-                        {{ page.description | markdownify }}
+                    <div class="column-m-12-nest column-t-8">
+                        <div class="publication__content">
+                            {{ page.description | markdownify }}
+                            {{ page.abstract | markdownify }}
+                        </div>
                     </div>
                 </div>
             </div>
