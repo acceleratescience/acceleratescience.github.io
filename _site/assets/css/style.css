@@ -968,7 +968,9 @@ APP STYLES
 
 .post__post--publication { width: 100%; margin: 0 0 4rem 0; padding-bottom: 4rem; display: flex; justify-content: space-between; align-items: flex-start; border-bottom: 1px solid #CCCCCC; }
 
-.post__post--publication .post__post-content { margin-right: 4rem; padding: 0; }
+.post__post--publication:last-child { border-bottom: none; }
+
+.post__post--publication .post__post-content { max-width: 75%; margin: 0; padding: 0; }
 
 .post__post--publication .post__post-content h4 { font-size: 1.4rem; line-height: 2rem; }
 

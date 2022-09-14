@@ -306,8 +306,13 @@
 		align-items: flex-start;
 		border-bottom: 1px solid $regular-grey;
 
+		&:last-child {
+			border-bottom: none;
+		}
+
 		.post__post-content {
-			margin-right: 4rem;
+			max-width: 75%;
+			margin: 0;
 			padding: 0;
 
 			h3 {}
