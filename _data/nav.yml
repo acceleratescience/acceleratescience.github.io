@@ -3,10 +3,11 @@ main_nav:
     link: /about/
   - label: Projects
     link: /projects/
-  - label: Publications
-    link: /publications/
-  - label: Resources
-    link: /resources/
+    submenu_item:
+      - label: Publications
+        link: /publications/
+      - label: Resources
+        link: /resources/
   - label: News
     link: /news/
     submenu_item:
