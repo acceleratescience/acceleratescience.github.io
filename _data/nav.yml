@@ -3,8 +3,6 @@ main_nav:
     link: /about/
   - label: Projects
     link: /projects/
-  - label: Research
-    link: /research/
   - label: News
     link: /news/
   - label: Events
