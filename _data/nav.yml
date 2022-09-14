@@ -3,12 +3,18 @@ main_nav:
     link: /about/
   - label: Projects
     link: /projects/
+  - label: Publications
+    link: /publications/
+  - label: Resources
+    link: /resources/
+  - label: Blog
+    link: /blog/
   - label: News
     link: /news/
   - label: Events
     link: /events/
-  - label: Resources
-    link: /resources/
+  - label: Software Engineering
+    link: /software-engineering/
   - label: Get Involved
     link: /get-involved/
 footer_nav:
