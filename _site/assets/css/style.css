@@ -697,7 +697,7 @@ nav.nav-primary ul li:last-of-type { margin-right: 0; }
 
 nav.nav-primary ul li:hover .submenu { opacity: 1; visibility: visible; }
 
-nav.nav-primary ul li a { font-size: 1.8rem; line-height: 2rem; color: #ffffff; text-decoration: none; }
+nav.nav-primary ul li a { font-size: 1.8rem; line-height: 2rem; color: #ffffff; text-decoration: none; white-space: nowrap; }
 
 @media (min-width: 768px) { nav.nav-primary ul li a { font-size: 2.4rem; line-height: 2.6rem; } }
 
