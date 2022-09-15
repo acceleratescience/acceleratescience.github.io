@@ -1,9 +1,7 @@
 ---
-layout: people
-title: Ahmad Abu-Khazneh
-group: advisory-group
-description: Senior Machine Learning Engineer, Accelerate Programme
-image: /assets/uploads/vladislav-nikonov-quzpqh5vno4-unsplash.jpg
+layout: person
+given: Ahmad
+family: Abu-Khazneh
 biography: Ahmad is interested in developing tools that help scientists in
   various disciplines utilise machine learning in their research. This is
   inspired by his cross-disciplinary academic and industrial background
@@ -11,4 +9,22 @@ biography: Ahmad is interested in developing tools that help scientists in
   Imperial College London he worked on using Natural Language Processing
   techniques to enhance assistive devices used by people with Motor Neurone
   Disease.
+image: /assets/uploads/
+email:
+url:
+website:
+twitter:
+github:
+linkedin:
+scholar:
+crsid: aa2382
+orcid:
+start:
+end:
+institution: Cambridge University
+department:
+position: Senior Machine Learning Engineer, Accelerate Programme
+team:
+supervisor:
+publications:
 ---

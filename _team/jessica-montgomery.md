@@ -1,17 +1,7 @@
 ---
-layout: people
-given: Jess
+layout: person
+given: given: Jess
 family: Montgomery
-website: 
-orcid: 
-scholar: 
-twitter: 
-github: 
-crsid: jkm40
-start: 2020-09-14
-position: Executive Director, Accelerate Science
-institution: Cambridge University
-image: /assets/uploads/jessica-montgomery.jpg
 biography: Jess is Executive Director of the Accelerate Programme for Scientific
   Discovery, and Director of the Data Trusts Initiative. She has a range of
   collaborations in areas where AI is being used to tackle real-world
@@ -21,6 +11,23 @@ biography: Jess is Executive Director of the Accelerate Programme for Scientific
   consequences for science and society stem from her policy career, in which she
   worked with senior parliamentarians, leading researchers and civil society
   organisations to bring scientific evidence to bear on major policy issues.
+image: /assets/uploads/jessica-montgomery.jpg
+email:
+url:
+website:
+twitter:
+github:
+linkedin:
+scholar:
+crsid: jkm40
+orcid:
+start: 2020-09-14
+end:
+institution: Cambridge University
+department:
+position: Executive Director, Accelerate Science
+team:
+supervisor:
 publications:
   - creating-a-european-ai-powerhouse-a-strategic-research-agenda-from-the-european-learning-and-intelligent-systems-excellence-elise-consortium
   - data-trusts-from-theory-to-practice-working-paper-1
@@ -30,5 +37,3 @@ publications:
   - democratising-the-digital-revolution-the-role-of-data-governance
   - from-research-data-ethics-principles-to-practice-data-trusts-as-a-governance-tool
 ---
-
-Jess Montgomery is Executive Director of the Accelerate Programme for Scientific Discovery, a new initiative developing artificial intelligence tools and collaborations to advance research. Her interests in AI and its consequences for science and society stem from her policy career, in which she worked with parliamentarians, leading researchers and civil society organisations to bring scientific evidence to bear on major policy issues.

@@ -1,16 +1,7 @@
 ---
-start: 2019-10-01
-layout: people
-family: Lawrence
+layout: person
 given: Neil D.
-crsid: ndl21
-position: The DeepMind Professor of Machine Learning
-institution: Cambridge University
-image: /assets/uploads/neil-d-lawrence.jpg
-github: lawrennd
-scholar: r3SJcvoAAAAJ
-linkedin: neil-lawrence-129a22127
-twitter: lawrennd
+family: Lawrence
 biography: Neil Lawrence is the inaugural DeepMind Professor of Machine Learning
   at the University of Cambridge. He has been working on machine learning models
   for over 20 years. He recently returned to academia after three years as
@@ -21,6 +12,23 @@ biography: Neil Lawrence is the inaugural DeepMind Professor of Machine Learning
   the interface of machine learning and systems research, this work is funded by
   a Senior AI Fellowship from the Alan Turing Institute. Neil is also visiting
   Professor at the University of Sheffield and the co-host of Talking Machines.
+image: /assets/uploads/neil-d-lawrence.jpg
+email:
+url:
+website: http://inverseprobability.com
+twitter: lawrennd
+github: lawrennd
+linkedin: neil-lawrence-129a22127
+scholar: r3SJcvoAAAAJ
+crsid: ndl21
+orcid: 0000-0001-9258-1030
+start: 2019-10-01
+end:
+institution: Cambridge University
+department:
+position: The DeepMind Professor of Machine Learning
+team:
+supervisor:
 publications:
   - differentially-private-regression-and-classificaiton-with-sparse-gaussian-processes
   - bottom-up-data-trusts-disturbing-the-one-size-fits-all-approach-to-data-governance
@@ -31,9 +39,4 @@ publications:
   - creating-a-european-ai-powerhouse-a-strategic-research-agenda-from-the-european-learning-and-intelligent-systems-excellence-elise-consortium
   - solving-schroedinger-bridges-via-maximum-likelihood
   - multi-view-learning-as-a-nonparametric-nonlinear-inter-battery-factor-analysis
-website: http://inverseprobability.com
-orcid: 0000-0001-9258-1030
 ---
-
-I am the inaugural DeepMind Professor of Machine Learning in the Department of Computer Science and Technology. I'm also a Senior AI Fellow at the Alan Turing Institute and a Visiting Professor at the University of Sheffield.
-

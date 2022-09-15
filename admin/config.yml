@@ -926,45 +926,92 @@ collections:
       - label: 'Layout'
         name: 'layout'
         widget: 'hidden'
-        default: 'people'
-      - label: 'Title'
-        name: 'title'
+        default: 'person'
+      - label: 'Given Name'
+        name: 'given'
         widget: 'string'
-      - label: "Group"
-        name: "group"
-        widget: "select"
-        options:
-          - { label: "Main", value: "main" }
-          - { label: "Advisory Group", value: "advisory-group" }
-          - { label: "Alumni", value: "alumni" }
         required: false
-      - label: 'Description'
-        name: 'description'
+      - label: 'Family Name'
+        name: 'family'
+        widget: 'string'
+        required: false
+      - label: 'Biography'
+        name: 'biography'
         widget: 'text'
-      - label: 'Featured Image'
-        name: 'featured_image'
+        required: false
+      - label: 'Image'
+        name: 'image'
         widget: 'image'
-      - label: 'LinkedIn'
-        name: 'linkedin'
+        required: false
+      - label: 'Email'
+        name: 'email'
+        widget: 'string'
+        required: false
+      - label: 'URL'
+        name: 'url'
+        widget: 'string'
+        required: false
+      - label: 'Website'
+        name: 'website'
         widget: 'string'
         required: false
       - label: 'Twitter'
         name: 'twitter'
         widget: 'string'
         required: false
-      - label: 'Facebook'
-        name: 'facebook'
+      - label: 'Github'
+        name: 'github'
         widget: 'string'
         required: false
-      - label: 'Email'
-        name: 'email'
+      - label: 'LinkedIn'
+        name: 'linkedin'
         widget: 'string'
         required: false
-      - label: 'Biography'
-        name: 'biography'
-        widget: 'markdown'
+      - label: 'Scholar'
+        name: 'scholar'
+        widget: 'string'
         required: false
-      - label: 'Related Publications'
+      - label: 'CRSID'
+        name: 'crsid'
+        widget: 'string'
+        required: false
+      - label: 'ORCID'
+        name: 'orcid'
+        widget: 'string'
+        required: false
+      - label: 'Start Date'
+        name: 'start'
+        widget: 'string'
+        required: false
+      - label: 'End Date'
+        name: 'end'
+        widget: 'string'
+        required: false
+      - label: 'Institution'
+        name: 'institution'
+        widget: 'string'
+        required: false
+      - label: 'Department'
+        name: 'department'
+        widget: 'string'
+        required: false
+      - label: 'Position'
+        name: 'position'
+        widget: 'string'
+        required: false
+      - label: "Team"
+        name: "team"
+        widget: "select"
+        options:
+          - { label: "Main", value: "main" }
+          - { label: "Advisory Group", value: "advisory-group" }
+          - { label: "Alumni", value: "alumni" }
+        required: false
+      - label: 'Supervisor'
+        name: 'supervisor'
+        widget: 'string'
+        required: false
+      - label: 'Publications'
         name: 'publications'
         widget: 'relation'
         collection: 'Publications'
