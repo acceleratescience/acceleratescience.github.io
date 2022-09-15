@@ -29,7 +29,7 @@ title: Team
 
         <div class="team__grid" data-team-content="main">
             {% for item in site.team %}
-                {% if item.group == "main" %}
+                {% if item.group == "main" or item.group == null %}
                     <a href="{{ item.url }}" class="team__member">
                         <div class="team__member-image">
                             {% assign team_image = item.image %}

@@ -1,6 +1,6 @@
 ---
 layout: person
-given: given: Jess
+given: Jess
 family: Montgomery
 biography: Jess is Executive Director of the Accelerate Programme for Scientific
   Discovery, and Director of the Data Trusts Initiative. She has a range of

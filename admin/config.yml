@@ -1002,6 +1002,7 @@ collections:
       - label: "Team"
         name: "team"
         widget: "select"
+        default: main
         options:
           - { label: "Main", value: "main" }
           - { label: "Advisory Group", value: "advisory-group" }
