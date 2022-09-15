@@ -159,7 +159,7 @@
 
                     {% for post in site.publications %}
                     {% for author in post.author %}
-                    {% assign authorname = author.given | append: ' ' | append: author.family  %}
+                    {% assign authorname = author.name %}
                     {% if fullname == authorname %}
                     <a href="{{ post.url }}" class="papers__item">
                         <h3>{{ post.title}}</h3>
@@ -167,8 +167,7 @@
                         <div class="authors">
                             {% for author in post.author %}
                             <p>
-                                {{author.given}}
-                                {{author.family}},
+                                {{author.name}}
                             </p>
                             {% endfor %}
                         </div>

@@ -33,22 +33,18 @@ title: Team
                     <a href="{{ item.url }}" class="team__member">
                         <div class="team__member-image">
                             {% assign person_image = item.image %}
-                            {% assign person_given = item.given %}
-                            {% assign person_family = item.family %}
+                            {% assign person_name = item.name %}
                             {% assign person_institution = item.institution %}
                             {% assign person_position = item.position %}
 
                             {% if person_image.size >= 1 %}
-                                <img src="{{ person_image }}" alt="Image of {{ person_given }} {{ person_family }}">
+                                <img src="{{ person_image }}" alt="Image of {{ person_name }}">
                             {% else %}
                                 <img src="{{site.baseurl}}/assets/images/placeholder.jpg">
                             {% endif %}
                         </div>
                         <div class="team__member-details">
-                            <h3>
-                                {{ person_given }}
-                                {{ person_family }}
-                            </h3>
+                            <h3>{{ person_name }}</h3>
                             {% if person_institution.size >= 1 %}
                                 <p>{{ person_institution }}</p>
                             {% endif %}
@@ -68,22 +64,18 @@ title: Team
                     <a href="{{ item.url }}" class="team__member">
                         <div class="team__member-image">
                             {% assign person_image = item.image %}
-                            {% assign person_given = item.given %}
-                            {% assign person_family = item.family %}
+                            {% assign person_name = item.name %}
                             {% assign person_institution = item.institution %}
                             {% assign person_position = item.position %}
 
                             {% if person_image.size >= 1 %}
-                                <img src="{{ person_image }}" alt="Image of {{ person_given }} {{ person_family }}">
+                                <img src="{{ person_image }}" alt="Image of {{ person_name }}">
                             {% else %}
                                 <img src="{{site.baseurl}}/assets/images/placeholder.jpg">
                             {% endif %}
                         </div>
                         <div class="team__member-details">
-                            <h3>
-                                {{ person_given }}
-                                {{ person_family }}
-                            </h3>
+                            <h3>{{ person_name }}</h3>
                             {% if person_institution.size >= 1 %}
                                 <p>{{ person_institution }}</p>
                             {% endif %}
@@ -102,22 +94,18 @@ title: Team
                     <a href="{{ item.url }}" class="team__member">
                         <div class="team__member-image">
                             {% assign person_image = item.image %}
-                            {% assign person_given = item.given %}
-                            {% assign person_family = item.family %}
+                            {% assign person_name = item.name %}
                             {% assign person_institution = item.institution %}
                             {% assign person_position = item.position %}
 
                             {% if person_image.size >= 1 %}
-                                <img src="{{ person_image }}" alt="Image of {{ person_given }} {{ person_family }}">
+                                <img src="{{ person_image }}" alt="Image of {{ person_name }}">
                             {% else %}
                                 <img src="{{site.baseurl}}/assets/images/placeholder.jpg">
                             {% endif %}
                         </div>
                         <div class="team__member-details">
-                            <h3>
-                                {{ person_given }}
-                                {{ person_family }}
-                            </h3>
+                            <h3>{{ person_name }}</h3>
                             {% if person_institution.size >= 1 %}
                                 <p>{{ person_institution }}</p>
                             {% endif %}

@@ -101,10 +101,7 @@
                         <h4>{{ post.published | replace: "-", "/" }}</h4>
                         <div class="authors">
                             {% for author in post.author %}
-                            <p>
-                                {{author.given}}
-                                {{author.family}},
-                            </p>
+                            <p>{{author.name}},</p>
                             {% endfor %}
                         </div>
                         <p class="journal">

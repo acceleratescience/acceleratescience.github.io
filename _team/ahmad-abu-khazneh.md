@@ -1,7 +1,6 @@
 ---
 layout: person
-given: Ahmad
-family: Abu-Khazneh
+name: Ahmad Abu-Khazneh
 biography: Ahmad is interested in developing tools that help scientists in
   various disciplines utilise machine learning in their research. This is
   inspired by his cross-disciplinary academic and industrial background

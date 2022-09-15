@@ -1,7 +1,6 @@
 ---
 layout: person
-given: Bianca
-family: Dumitrascu
+name: Bianca Dumitrascu
 biography: Bianca works at the intersection of machine learning and genetics.
   Her main research interest is understanding how local molecular rules give
   raise to emergent spatial patterns in the context of biological dynamical

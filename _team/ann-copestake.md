@@ -1,7 +1,6 @@
 ---
 layout: person
-given: Ann
-family: Copestake
+name: Ann Copestake
 biography:
 image: /assets/uploads/ann-copestake.jpg
 email:

@@ -1,7 +1,6 @@
 ---
 layout: person
-given: Sarah
-family: Teichmann
+name: Sarah Teichmann
 biography:
 image: /assets/uploads/sarah-teichmann.jpg
 email:

@@ -1,7 +1,6 @@
 ---
 layout: person
-given: Challenger
-family: Mishra
+name: Challenger Mishra
 biography: Challenger is developing machine-driven approaches to problems in
   String Theory and related Calabi-Yau geometries, studying the vast landscape
   of String Theory solutions using a combination of tools and techniques from

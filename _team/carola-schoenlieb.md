@@ -1,7 +1,6 @@
 ---
 layout: person
-given: Carola-Bibiane
-family: Schönlieb
+name: Carola-Bibiane Schönlieb
 biography:
 image: /assets/uploads/carola-schoenlieb.png
 email:

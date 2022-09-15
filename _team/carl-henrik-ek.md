@@ -1,7 +1,6 @@
 ---
 layout: person
-given: Carl Henrik
-family: Ek
+name: Carl Henrik Ek
 biography: |
   Carl Henrik is a Senior Lecturer in Machine learning in the Department of
   Computer Science and Technology at the University of Cambridge. Learning is

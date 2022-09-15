@@ -1,7 +1,6 @@
 ---
 layout: person
-given: Mark
-family: Girolami
+name: Mark Girolami
 biography:
 image: /assets/uploads/mark-girolami.jpg
 email:

@@ -1,7 +1,6 @@
 ---
 layout: person
-given: Austen
-family: Lamacraft
+name: Austen Lamacraft
 biography:
 image: /assets/uploads/austen-lamacraft.jpg
 email:

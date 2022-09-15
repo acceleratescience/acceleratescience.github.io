@@ -1,7 +1,6 @@
 ---
 layout: person
-given: Richard
-family: Turner
+name: Richard Turner
 biography:
 image: /assets/uploads/richard-turner.jpg
 email:

@@ -1,7 +1,6 @@
 ---
 layout: person
-given: Sarah
-family: Morgan
+name: Sarah Morgan
 biography: Sarah's research applies machine learning, network science and
   Natural Language Processing to better understand and predict mental health
   conditions. A main focus is using brain connectivity derived from MRI to

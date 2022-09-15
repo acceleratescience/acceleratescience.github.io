@@ -1,7 +1,6 @@
 ---
 layout: person
-given: Jess
-family: Montgomery
+name: Jess Montgomery
 biography: Jess is Executive Director of the Accelerate Programme for Scientific
   Discovery, and Director of the Data Trusts Initiative. She has a range of
   collaborations in areas where AI is being used to tackle real-world

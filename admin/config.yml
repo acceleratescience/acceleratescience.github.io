@@ -701,10 +701,8 @@ collections:
     fields:
       - label: 'Layout'
         name: 'layout'
-        widget: "select"
-        options: ["article", "inproceedings", "incollection", "techreport", "misc", "book", "proceedings"]
-        hint: "For journal papers use 'article', for conference papers use 'inproceedings', for book chapters use 'incollection', for arXiv, SSRN and other tech reports use 'techreport', for books use 'book', for proceedings use 'proceedings' for others use 'misc'."
-        default: "article"
+        widget: 'hidden'
+        default: 'publication-single'
       - label: 'Title'
         name: 'title'
         hint: "Title of the paper as published. Please capitalise the title."
@@ -719,6 +717,12 @@ collections:
         format: "YYYY-MM-DD"
         date_format: "YYYY-MM-DD"
         time_format: false
+      - label: 'Featured Image'
+        name: 'featured_image'
+        hint: "Select an image from the paper to represent the work."
+        widget: 'image'
+        required: false
+
       - label: "Authors"
         name: author
         widget: 'list'
@@ -779,7 +783,60 @@ collections:
             display_fields: ["given", "family"]
             options_length: 999
             multiple: true
-            required: false          
+            required: false
+      - label: "Editors"
+        name: editor
+        widget: 'list'
+        hint: "Provide the list of editors of the paper (if applicable)."
+        allow_add: true
+        fields:
+        - label: Family Name
+          name: family
+          widget: string
+          required: false
+        - label: Given Name
+          hint: "Include initials, e.g. Neil D."
+          name: given
+          widget: string
+          required: false
+        - label: Prefix
+          hint: "e.g. de, von, van"
+          name: prefix
+          required: false
+          widget: string
+        - label: Suffix
+          name: suffix
+          widget: string
+          required: false
+        - label: 'Person Page'
+          hint: "Use this field if the editor is a member of ml@cl"
+          name: 'person_page'
+          widget: 'relation'
+          collection: 'people'
+          search_fields: ["given", "family"]
+          value_field: "{{slug}}"
+          display_fields: ["given", "family"]
+          multiple: false
+          required: false          
+        - label: Consortium
+          name: consortium
+          hint: "Some works may be edited by a consortium of editors. If that's the case for this paper use this field to fill in the consortium details."
+          widget: "object"
+          required: false
+          fields:
+          - name: name
+            label: Name
+            hint: Provide the name of the consortium.
+            widget: string
+            required: false
+          - name: url
+            label: Link
+            hint: Provide a URL link to the consortium.
+            widget: string
+            required: false
+      
+      
+      
       - label: "Journal"
         name: journal
         hint: "The name of the journal where the paper was published (if it is an article)."
@@ -854,61 +911,6 @@ collections:
         name: "ssrn"
         widget: "string"
         required: false
-      - label: 'Featured Image'
-        name: 'featured_image'
-        hint: "Select an image from the paper to represent the work."
-        widget: 'image'
-        required: false
-      - label: "Editors"
-        name: editor
-        widget: 'list'
-        hint: "Provide the list of editors of the paper (if applicable)."
-        allow_add: true
-        fields:
-        - label: Family Name
-          name: family
-          widget: string
-          required: false
-        - label: Given Name
-          hint: "Include initials, e.g. Neil D."
-          name: given
-          widget: string
-          required: false
-        - label: Prefix
-          hint: "e.g. de, von, van"
-          name: prefix
-          required: false
-          widget: string
-        - label: Suffix
-          name: suffix
-          widget: string
-          required: false
-        - label: 'Person Page'
-          hint: "Use this field if the editor is a member of ml@cl"
-          name: 'person_page'
-          widget: 'relation'
-          collection: 'people'
-          search_fields: ["given", "family"]
-          value_field: "{{slug}}"
-          display_fields: ["given", "family"]
-          multiple: false
-          required: false          
-        - label: Consortium
-          name: consortium
-          hint: "Some works may be edited by a consortium of editors. If that's the case for this paper use this field to fill in the consortium details."
-          widget: "object"
-          required: false
-          fields:
-          - name: name
-            label: Name
-            hint: Provide the name of the consortium.
-            widget: string
-            required: false
-          - name: url
-            label: Link
-            hint: Provide a URL link to the consortium.
-            widget: string
-            required: false
       - label: 'Body'
         name: 'body'
         widget: 'markdown'
@@ -920,6 +922,7 @@ collections:
     folder: '_team'
     create: true
     slug: '{{slug}}'
+    identifier_field: 'name'
     editor:
       preview: false
     fields:
@@ -927,12 +930,18 @@ collections:
         name: 'layout'
         widget: 'hidden'
         default: 'person'
-      - label: 'Given Name'
-        name: 'given'
+      - label: 'Name'
+        name: 'name'
         widget: 'string'
-      - label: 'Family Name'
-        name: 'family'
-        widget: 'string'
+      - label: Prefix
+        hint: "e.g. de, von, van"
+        name: prefix
+        required: false
+        widget: string
+      - label: Suffix
+        name: suffix
+        widget: string
+        required: false
       - label: 'Biography'
         name: 'biography'
         widget: 'text'
@@ -1009,15 +1018,6 @@ collections:
       - label: 'Supervisor'
         name: 'supervisor'
         widget: 'string'
-        required: false
-      - label: 'Publications'
-        name: 'publications'
-        widget: 'relation'
-        collection: 'Publications'
-        search_fields: ["title"]
-        value_field: "{{slug}}"
-        display_fields: ["title"]
-        multiple: true
         required: false
 
   # Opportunities Collection

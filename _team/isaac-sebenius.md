@@ -1,7 +1,6 @@
 ---
 layout: person
-given: Isaac
-family: Sebenius
+name: Isaac Sebenius
 biography: |
   Isaac is interested in developing new computational methods that
   leverage biological knowledge to address open questions related to mental

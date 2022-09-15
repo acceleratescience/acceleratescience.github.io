@@ -1,7 +1,6 @@
 ---
 layout: person
-given: Neil D.
-family: Lawrence
+name: Neil D. Lawrence
 biography: Neil Lawrence is the inaugural DeepMind Professor of Machine Learning
   at the University of Cambridge. He has been working on machine learning models
   for over 20 years. He recently returned to academia after three years as
@@ -29,14 +28,4 @@ department:
 position: The DeepMind Professor of Machine Learning
 team:
 supervisor:
-publications:
-  - differentially-private-regression-and-classificaiton-with-sparse-gaussian-processes
-  - bottom-up-data-trusts-disturbing-the-one-size-fits-all-approach-to-data-governance
-  - empirical-bayes-transductive-meta-learning-with-synthetic-gradients
-  - challenges-in-machine-learning-deployment
-  - decision-making-with-uncertainty
-  - gaussian-process-latent-variable-flows-for-massively-missing-data
-  - creating-a-european-ai-powerhouse-a-strategic-research-agenda-from-the-european-learning-and-intelligent-systems-excellence-elise-consortium
-  - solving-schroedinger-bridges-via-maximum-likelihood
-  - multi-view-learning-as-a-nonparametric-nonlinear-inter-battery-factor-analysis
 ---

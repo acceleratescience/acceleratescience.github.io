@@ -1,7 +1,6 @@
 ---
 layout: person
-given: Justin
-family: Tan
+name: Justin Tan
 biography: Justin's research lies at the intersection of geometry and machine
   learning, searching for interesting structure in geometries which feature in
   string theory and other areas of mathematical physics. Previously he worked in
