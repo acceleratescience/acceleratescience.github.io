@@ -930,11 +930,9 @@ collections:
       - label: 'Given Name'
         name: 'given'
         widget: 'string'
-        required: false
       - label: 'Family Name'
         name: 'family'
         widget: 'string'
-        required: false
       - label: 'Biography'
         name: 'biography'
         widget: 'text'
