@@ -91,33 +91,33 @@
         </section>
         {% endif %}
 
-        <section class="block block__related-papers">
+        <section class="block block__related-publications">
             <div class="container">
                 <h2 class="section-heading">Related Papers</h2>
                 <div class="papers__grid">
-                    <a href="#" class="papers__item">
-                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lectus ipsum, hendrerit sed velit et, facilisis scelerisque nibh. Sed maximus nibh id rhoncus maximus.</h3>
-                        <p class="date">20th July, 2022</p>
-                        <p class="author">Author name 1, Author name 2</p>
-                        <p class="reference">Curr Opin Cell Biol (2020 ) 52:145–153. DOI: 10.1016/ j.ceb.2018.03.009.</p>
+                    {% for post in site.publications limit:3 %}
+                    <a href="{{ post.url }}" class="papers__item">
+                        <h3>{{ post.title}}</h3>
+                        <h4>{{ post.published | replace: "-", "/" }}</h4>
+                        <div class="authors">
+                            {% for author in post.author %}
+                            <p>
+                                {{author.given}}
+                                {{author.family}},
+                            </p>
+                            {% endfor %}
+                        </div>
+                        <p class="journal">
+                            {{post.journal}}
+                            ({{post.year}})
+                            {{post.pages}}
+                        </p>
+                        <p class="doi">
+                            DOI:{{post.doi}}
+                        </p>
                         <span class="button">Read Paper</span>
                     </a>
-
-                    <a href="#" class="papers__item">
-                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lectus ipsum, hendrerit sed velit et, facilisis scelerisque nibh. Sed maximus nibh id rhoncus maximus.</h3>
-                        <p class="date">20th July, 2022</p>
-                        <p class="author">Author name 1, Author name 2</p>
-                        <p class="reference">Curr Opin Cell Biol (2020 ) 52:145–153. DOI: 10.1016/ j.ceb.2018.03.009.</p>
-                        <span class="button">Read Paper</span>
-                    </a>
-
-                    <a href="#" class="papers__item">
-                        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus lectus ipsum, hendrerit sed velit et, facilisis scelerisque nibh. Sed maximus nibh id rhoncus maximus.</h3>
-                        <p class="date">20th July, 2022</p>
-                        <p class="author">Author name 1, Author name 2</p>
-                        <p class="reference">Curr Opin Cell Biol (2020 ) 52:145–153. DOI: 10.1016/ j.ceb.2018.03.009.</p>
-                        <span class="button">Read Paper</span>
-                    </a>
+                    {% endfor %}
                 </div>
             </div>
         </section>

@@ -1065,9 +1065,13 @@ APP STYLES
 
 @media (min-width: 768px) { .papers__grid .papers__item h3 { font-size: 2.2rem; } }
 
-.papers__grid .papers__item .date, .papers__grid .papers__item .author, .papers__grid .papers__item .reference { margin: 1.5rem 0 0 0; font-size: 1.6rem; line-height: 2.6rem; }
+.papers__grid .papers__item h4 { margin: 0; text-transform: uppercase; }
 
-.papers__grid .papers__item .date { text-transform: uppercase; }
+.papers__grid .papers__item .authors { margin-top: 2rem; }
+
+.papers__grid .papers__item .authors p { margin: 0; display: inline-block; }
+
+.papers__grid .papers__item h4, .papers__grid .papers__item p { margin: 1.5rem 0 0 0; font-size: 1.6rem; line-height: 2.6rem; }
 
 .papers__grid .papers__item .button { margin-top: 4rem; }
 
@@ -1412,9 +1416,9 @@ APP STYLES
 
 @media (min-width: 768px) { .block__latest .latest__lower .latest__news { margin-bottom: 0; } }
 
-.block__team-profile { padding: 5rem 0; }
+.block__team-profile { margin: 4rem 0; }
 
-@media (min-width: 1200px) { .block__team-profile { padding: 10rem 0; } }
+@media (min-width: 1200px) { .block__team-profile { margin: 10rem 0; } }
 
 .block__team-profile .team-profile__biography { padding: 0; background-color: #ffffff; }
 
@@ -1422,27 +1426,33 @@ APP STYLES
 
 @media (min-width: 768px) { .block__team-profile .team-profile__biography p, .block__team-profile .team-profile__biography a, .block__team-profile .team-profile__biography li { margin-bottom: 4rem; font-size: 2rem; line-height: 3.2rem; } }
 
+.block__team-profile .team-profile__image { margin-bottom: 2rem; position: relative; overflow: hidden; }
+
+.block__team-profile .team-profile__image::before { content: ""; padding-top: 100%; display: block; }
+
+.block__team-profile .team-profile__image img { width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block; object-fit: cover; border-radius: 50%; }
+
+.block__team-profile .team-profile__profile { margin-bottom: 2rem; }
+
+@media (min-width: 1200px) { .block__team-profile .team-profile__profile { margin-bottom: 4rem; } }
+
+.block__team-profile .team-profile__profile p { margin: 0; }
+
 .block__team-profile .team-profile__contact { margin-top: 2rem; padding: 0; }
 
 @media (min-width: 768px) { .block__team-profile .team-profile__contact { margin-top: 0; } }
 
-.block__team-profile .team-profile__contact-socials { margin: 0 0 2rem 0; display: flex; flex-wrap: wrap; }
+.block__team-profile .team-profile__contact a { font-size: 1.8rem; text-decoration: none; }
 
-@media (min-width: 1200px) { .block__team-profile .team-profile__contact-socials { margin: 0 0 4rem 0; } }
+.block__team-profile .team-profile__contact-socials { margin: 2rem 0 0 0; display: flex; flex-wrap: wrap; }
 
 .block__team-profile .team-profile__contact-socials a { margin-right: 2rem; display: block; }
-
-@media (min-width: 768px) { .block__team-profile .team-profile__contact-socials a { margin-right: 4rem; } }
 
 .block__team-profile .team-profile__contact-socials a:last-child { margin-right: 0; }
 
 .block__team-profile .team-profile__contact-socials a svg { width: auto; height: 20px; display: block; }
 
-@media (min-width: 768px) { .block__team-profile .team-profile__contact-socials a svg { height: 29px; } }
-
-.block__team-profile .team-profile__contact a { font-size: 1.8rem; line-height: 2.5rem; color: #031927; text-decoration: none; }
-
-@media (min-width: 1200px) { .block__team-profile .team-profile__contact a { font-size: 2.4rem; line-height: 3.1rem; } }
+@media (min-width: 768px) { .block__team-profile .team-profile__contact-socials a svg { height: 25px; } }
 
 .block__research { margin: 10rem 0; }
 
@@ -1622,15 +1632,15 @@ APP STYLES
 
 @media (min-width: 1200px) { .block__related-people .container { padding-bottom: 6rem; } }
 
-.block__related-papers { margin: 4rem 0; }
+.block__related-publications { margin: 4rem 0; }
 
-@media (min-width: 1200px) { .block__related-papers { margin: 10rem 0; } }
+@media (min-width: 1200px) { .block__related-publications { margin: 10rem 0; } }
 
-@media (min-width: 1600px) { .block__related-papers { margin: 10rem 0 16rem 0; } }
+@media (min-width: 1600px) { .block__related-publications { margin: 10rem 0 16rem 0; } }
 
-.block__related-papers .section-heading { margin-bottom: 4rem; }
+.block__related-publications .section-heading { margin-bottom: 4rem; }
 
-@media (min-width: 1200px) { .block__related-papers .section-heading { margin-bottom: 7rem; } }
+@media (min-width: 1200px) { .block__related-publications .section-heading { margin-bottom: 7rem; } }
 
 .block__related-projects { margin: 4rem 0 0 0; display: flex; }
 

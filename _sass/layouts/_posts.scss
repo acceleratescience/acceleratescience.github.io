@@ -558,12 +558,6 @@
 		border: 1px solid $regular-grey;
 		border-radius: 12px;
 
-		// @include bp(tablet) {
-		// 	width: calc(33.33% - 2rem);
-		// 	margin: 0 1rem 2rem 1rem;
-		// 	padding: 4rem 3rem;
-		// }
-
 		@include bp(desktop) {
 			width: calc(33.33% - 4rem);
 			margin: 0 2rem 4rem 2rem;
@@ -579,16 +573,25 @@
 			}
 		}
 
-		.date,
-		.author,
-		.reference {
+		h4 {
+			margin: 0;
+			text-transform: uppercase;
+		}
+
+		.authors {
+			margin-top: 2rem;
+
+			p {
+				margin: 0;
+				display: inline-block;
+			}
+		}
+
+		h4,
+		p {
 			margin: 1.5rem 0 0 0;
 			font-size: 1.6rem;
 			line-height: 2.6rem;
-		}
-
-		.date {
-			text-transform: uppercase;
 		}
 
 		.button {
