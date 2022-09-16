@@ -1,0 +1,9 @@
+---
+image: QMmulti.jpg
+title: "Ranking the information content of distance measures through the information imbalance"
+start: 2021-06-28 16:30
+end: 2021-06-28 17:30
+link_to: https://talks.cam.ac.uk/talk/index/161194
+class: spark
+desc: Dr Aldo Glielmo (International School for Advanced Studies) will explore novel approaches to the construction of optimally informative descriptors of physical systems.
+---
