@@ -35,19 +35,27 @@
                     <h2 class="section-heading section-heading--alt">Contact Us</h2>
 
                     <div class="footer__contact-details">
+                        {% if site.data.site.contact_details.address != nil %}
+                            <div>
+                                {{ site.data.site.contact_details.address | markdownify }}
+                            </div>
+                        {% endif %}
                         <div>
-                            {{ site.data.site.contact_details.address | markdownify }}
-                        </div>
-                        <div>
-                            <a href="tel:{{ site.data.site.contact_details.tel }}">Tel:
-                                {{ site.data.site.contact_details.tel }}
-                            </a>
-                            <a href="tel:{{ site.data.site.contact_details.fax }}">Fax:
-                                {{ site.data.site.contact_details.fax }}
-                            </a>
-                            <a href="mailto:{{ site.data.site.contact_details.email }}">Contact:
-                                {{ site.data.site.contact_details.email }}
-                            </a>
+                            {% if site.data.site.contact_details.tel != nil %}
+                                <a href="tel:{{ site.data.site.contact_details.tel }}">Tel:
+                                    {{ site.data.site.contact_details.tel }}
+                                </a>
+                            {% endif %}
+                            {% if site.data.site.contact_details.fax != nil %}
+                                <a href="tel:{{ site.data.site.contact_details.fax }}">Fax:
+                                    {{ site.data.site.contact_details.fax }}
+                                </a>
+                            {% endif %}
+                            {% if site.data.site.contact_details.email != nil %}
+                                <a href="mailto:{{ site.data.site.contact_details.email }}">Contact:
+                                    {{ site.data.site.contact_details.email }}
+                                </a>
+                            {% endif %}
                         </div>
                     </div>
                 </div>
@@ -55,15 +63,23 @@
                     <h2 class="section-heading section-heading--alt">Social</h2>
 
                     <div class="footer__socials-links">
-                        <a href="{{site.data.site.social_details.twitter_link}}">
-                            <img src="{{site.baseurl}}/{{site.twitter_svg}}" alt="Twitter Logo">
-                        </a>
-                        <a href="{{site.data.site.social_details.facebook_link}}">
-                            <img src="{{site.baseurl}}/{{site.facebook_svg}}" alt="Facebook Logo">
-                        </a>
-                        <a href="{{site.data.site.social_details.instagram_link}}">
-                            <img src="{{site.baseurl}}/{{site.instagram_svg}}" alt="Instagram Link">
-                        </a>
+                        {% if site.data.site.social_details.twitter_link != nil %}
+                            <a href="{{site.data.site.social_details.twitter_link}}">
+                                <img src="{{site.baseurl}}/{{site.twitter_svg}}" alt="Twitter Logo">
+                            </a>
+                        {% endif %}
+
+                        {% if site.data.site.social_details.facebook_link != nil %}
+                            <a href="{{site.data.site.social_details.facebook_link}}">
+                                <img src="{{site.baseurl}}/{{site.facebook_svg}}" alt="Facebook Logo">
+                            </a>
+                        {% endif %}
+
+                        {% if site.data.site.social_details.instagram_link != nil %}
+                            <a href="{{site.data.site.social_details.instagram_link}}">
+                                <img src="{{site.baseurl}}/{{site.instagram_svg}}" alt="Instagram Link">
+                            </a>
+                        {% endif %}
                     </div>
                 </div>
             </div>
