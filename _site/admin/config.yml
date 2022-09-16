@@ -33,15 +33,19 @@ collections:
               - label: 'Address'
                 name: 'address'
                 widget: 'markdown'
+                required: false
               - label: 'Tel'
                 name: 'tel'
                 widget: 'string'
+                required: false
               - label: 'Fax'
                 name: 'fax'
                 widget: 'string'
+                required: false
               - label: 'Email'
                 name: 'email'
                 widget: 'string'
+                required: false
           # Social Details
           - label: 'Social Details'
             name: 'social_details'
