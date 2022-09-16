@@ -41,17 +41,40 @@ pagination:
                         <h4>{{ post.published | replace: "-", "/" }}</h4>
                         <div class="authors">
                             {% for author in post.authors.internal_authors %}
-                                <p>{{author}},</p>
+                                {% assign authorName = author %}
+                                {% for person in site.team %}
+                                    {% if person.slug == authorName %}
+                                        <p>
+                                            {{ person.name }},
+                                        </p>
+                                    {% endif %}
+                                {% endfor %}
+                            {% endfor %}
+                            {% for author in post.authors.external_authors %}
+                                <p>
+                                    {{author.given}}
+                                    {{author.family}},
+                                </p>
+                            {% endfor %}
+                            {% for author in post.authors.consortium_authors %}
+                                <p>{{author.name}},</p>
                             {% endfor %}
                         </div>
-                        <p class="journal">
-                            {{post.details.journal}}
-                            ({{post.published}})
-                            {{post.details.pages}}
-                        </p>
-                        <p class="doi">
-                            DOI:{{post.doi}}
-                        </p>
+                        {% if post.details.journal != nil or post.published != nil or post.details.pages != nil %}
+                            <p class="journal">
+                                {{post.details.journal}}
+                                {% if post.published != nil %}
+                                    ({{post.published | slice: 0, 4 }})
+                                {% endif %}
+                                {{post.details.pages}}
+                            </p>
+                        {% endif %}
+                        {% if post.details.doi != nil %}
+                            <p class="doi">
+                                DOI:
+                                {{post.details.doi}}
+                            </p>
+                        {% endif %}
                     </div>
                     <span class="button">Read Paper</span>
                 </a>
