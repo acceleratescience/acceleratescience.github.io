@@ -44,17 +44,13 @@ title: Get Involved
                     <div class="current-opportunities__contact-address">
                         <img src="../assets/images/address.svg">
                         <div>
-                            <p>Department of Computer Science and Technology</p>
-                            <p>William Gates Building</p>
-                            <p>15 J J Thomson Avenue</p>
-                            <p>Cambridge</p>
-                            <p>CB3 0FD</p>
+                            {{ site.data.site.contact_details.address | markdownify }}
                         </div>
                     </div>
                     <div class="current-opportunities__contact-email">
                         <img src="../assets/images/email.svg">
                         <div>
-                            <a href="mailto:accelerate-science@cst.cam.ac.uk">accelerate-science@cst.cam.ac.uk</a>
+                            <a href="mailto:{{ site.data.site.contact_details.email }}">{{ site.data.site.contact_details.email }}</a>
                         </div>
                     </div>
                 </div>
