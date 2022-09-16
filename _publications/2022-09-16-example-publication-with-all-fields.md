@@ -7,7 +7,7 @@ published: 2022-09-16
 featured_image: /assets/uploads/alina-grubnyak-ziqkhi7417a-unsplash.jpg
 authors:
   internal_authors:
-    - aditya-ravuri
+    - test-person
   external_authors:
     - family: Famil
       given: Given
