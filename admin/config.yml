@@ -746,6 +746,7 @@ collections:
           - label: "External Authors"
             name: "external_authors"
             widget: "list"
+            required: false
             fields:
               - label: Family Name
                 name: family
@@ -768,6 +769,7 @@ collections:
           - label: "Consortium Authors"
             name: "consortium_authors"
             widget: "list"
+            required: false
             fields:
               - name: name
                 label: Name
@@ -799,6 +801,7 @@ collections:
           - label: "External Editors"
             name: "external_editors"
             widget: "list"
+            required: false
             fields:
               - label: Family Name
                 name: family
@@ -821,6 +824,7 @@ collections:
           - label: "Consortium Editors"
             name: "consortium_editors"
             widget: "list"
+            required: false
             fields:
               - name: name
                 label: Name
