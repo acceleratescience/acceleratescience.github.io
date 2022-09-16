@@ -2,12 +2,13 @@ site_logo: /assets/uploads/logo.png
 contact_details:
   tel: +44 (0)1223 334088
   fax: +44 (0)1223 334089
-  email: contact@mlatcl.cam.ac.uk
+  email: accelerate-science@cst.cam.ac.uk
   address: |-
-    Tennis Court Road,  \
-    Cambridge,  \
-    CB2 1QN,  \
-    UK
+    Department of Computer Science and Technology\
+    William Gates Building\
+    15 J J Thomson Avenue\
+    Cambridge\
+    CB3 0FD
 social_details:
   twitter_link: https://twitter.com/
   facebook_link: https://facebook.com/
