@@ -1,5 +1,6 @@
 ---
-image: QMmulti.jpg
+layout: event-single
+image: /assets/uploads/QMmulti.jpg
 title: "Ranking the information content of distance measures through the information imbalance"
 start: 2021-06-28 16:30
 end: 2021-06-28 17:30

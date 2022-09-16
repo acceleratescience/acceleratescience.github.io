@@ -1,6 +1,7 @@
 ---
+layout: event-single
 title: Chromatin contact networks - towards a structure-function relationship in epigenomics
-image: images/jesse-orrico-rmWtVQN5RzU-unsplash.jpg
+image: /assets/uploads/jesse-orrico-rmWtVQN5RzU-unsplash.jpg
 start: 2022-02-03 15:00:00Z
 end: 2021-02-03 16:00:00Z
 link_to: http://talks.cam.ac.uk/talk/index/169094

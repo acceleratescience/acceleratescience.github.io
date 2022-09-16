@@ -1,6 +1,7 @@
 ---
+layout: event-single
 title: Multiscale network neuroscience - linking cells, networks and symptoms in brain disease
-image: images/jesse-orrico-rmWtVQN5RzU-unsplash.jpg
+image: /assets/uploads/jesse-orrico-rmWtVQN5RzU-unsplash.jpg
 start: 2021-11-04 15:00:00Z
 end: 2021-11-04 16:00:00Z
 link_to: https://talks.cam.ac.uk/talk/index/162817

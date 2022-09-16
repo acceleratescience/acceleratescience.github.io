@@ -1,5 +1,6 @@
 ---
-image: images/QMmulti.jpg
+layout: event-single
+image: /assets/uploads/QMmulti.jpg
 title: "Quantifying Brain Dynamics and Structure Across Scales"
 start: 2021-07-15 10:00
 end: 2021-07-15 11:00

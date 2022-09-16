@@ -1,6 +1,7 @@
 ---
+layout: event-single
 title: Making connections - brains and other complex systems
-image: images/jesse-orrico-rmWtVQN5RzU-unsplash.jpg
+image: /assets/uploads/jesse-orrico-rmWtVQN5RzU-unsplash.jpg
 start: 2021-12-02 15:00:00Z
 end: 2021-12-02 16:00:00Z
 link_to: http://talks.cam.ac.uk/talk/index/162823

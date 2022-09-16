@@ -1,5 +1,6 @@
 ---
-image: images/QMmulti.jpg
+layout: event-single
+image: /assets/uploads/QMmulti.jpg
 title: Accelerate-Spark Data Science for Science Residency
 start: 2021-07-19
 end: 2021-08-20

@@ -1,5 +1,6 @@
 ---
-image: images/QMmulti.jpg
+layout: event-single
+image: /assets/uploads/QMmulti.jpg
 title: "The turbulent brain: Discovering the homogeneous, isotropic functional core organisation of the brain"
 start: 2021-07-01 15:00
 end: 2021-07-01 16:00

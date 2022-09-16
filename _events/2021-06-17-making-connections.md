@@ -1,6 +1,7 @@
 ---
+layout: event-single
 title: Making connections - brains and other complex systems
-image: images/QMmulti.jpg
+image: /assets/uploads/QMmulti.jpg
 start: 2021-06-17 15:00
 end: 2021-06-17 16:00
 link_to: https://talks.cam.ac.uk/show/index/128590

@@ -1,5 +1,6 @@
 ---
-image: images/michal-czyz-ALM7RNZuDH8-unsplash-2.jpg
+layout: event-single
+image: /assets/uploads/michal-czyz-ALM7RNZuDH8-unsplash-2.jpg
 title: Accelerate Science Annual Symposium
 start: 2021-11-19 13:00
 end: 2021-11-19 16:00
