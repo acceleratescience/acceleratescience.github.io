@@ -710,7 +710,11 @@ collections:
       - label: 'Abstract'
         name: 'abstract'
         widget: 'markdown'
-        hint: "Abstract of the paper as publishied, or for books provide a synopsis."
+        hint: "Abstract of the paper as published, or for books provide a synopsis."
+      - label: 'Description'
+        name: 'description'
+        widget: 'markdown'
+        required: false
       - label: 'Date of Publication'
         name: 'published'
         widget: 'datetime'
@@ -727,21 +731,18 @@ collections:
         name: 'authors'
         widget: 'object'
         collapsed: true
+        required: false
         fields:
-          - label: "Internal Authors"
-            name: "internal_authors"
-            widget: "list"
-            fields:
-              - label: 'Author Page'
-                name: 'author_page'
-                widget: 'relation'
-                collection: 'team'
-                search_fields: ["name"]
-                value_field: "{{slug}}"
-                display_fields: ["name"]
-                options_length: 999
-                multiple: true
-                required: false
+          - label: 'Internal Authors'
+            name: 'internal_authors'
+            widget: 'relation'
+            collection: 'team'
+            search_fields: ["name"]
+            value_field: "{{slug}}"
+            display_fields: ["name"]
+            options_length: 999
+            multiple: true
+            required: false
           - label: "External Authors"
             name: "external_authors"
             widget: "list"
@@ -783,21 +784,18 @@ collections:
         name: 'editors'
         widget: 'object'
         collapsed: true
+        required: false
         fields:
-          - label: "Internal Editors"
-            name: "internal_editors"
-            widget: "list"
-            fields:
-              - label: 'Author Page'
-                name: 'author_page'
-                widget: 'relation'
-                collection: 'team'
-                search_fields: ["name"]
-                value_field: "{{slug}}"
-                display_fields: ["name"]
-                options_length: 999
-                multiple: true
-                required: false
+          - label: 'Internal Editors'
+            name: 'internal_editors'
+            widget: 'relation'
+            collection: 'team'
+            search_fields: ["name"]
+            value_field: "{{slug}}"
+            display_fields: ["name"]
+            options_length: 999
+            multiple: true
+            required: false
           - label: "External Editors"
             name: "external_editors"
             widget: "list"

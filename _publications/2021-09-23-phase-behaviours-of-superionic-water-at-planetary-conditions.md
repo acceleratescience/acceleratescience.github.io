@@ -14,28 +14,39 @@ abstract: Most water in the Universe may be superionic, and its thermodynamic
   existing—albeit scarce—experimental observations, help resolve the fractions
   of insulating ice, different superionic phases and liquid water inside ice
   giants.
-description: Understanding the thermodynamic and transport properties of water
-  is crucial for planetary science. This paper uses machine learning to
-  characterise the phase behaviours of water at extreme conditions.
+description: Understanding the thermodynamic and transport properties of water is crucial for planetary science. This paper uses machine learning to characterise the phase behaviours of water at extreme conditions.
 published: 2021-09-23
-author:
-  - family: Cheng
-    given: Bingqing
-  - family: Bethkenhagen
-    given: Mandy
-  - family: Pickard
-    given: Chris J.
-  - family: Hamel
-    given: Sebastien
-journal: Nature Physics
-year: 2021
-volume:
-number:
-pages: 1228--1232
-doi: 10.1038/s41567-021-01334-9
-openreview:
-html:
-website:
-pdf:
-software:
+featured_image:
+authors:
+  internal_authors:
+  external_authors:
+    - family: Cheng
+      given: Bingqing
+    - family: Bethkenhagen
+      given: Mandy
+    - family: Pickard
+      given: Chris J.
+    - family: Hamel
+      given: Sebastien
+  consortium_authors:
+editors:
+  internal_editors:
+  external_editors:
+  consortium_editors:
+details:
+  openreview:
+  pages: 1228--1232
+  software:
+  number:
+  html:
+  container-title:
+  pdf:
+  arxiv:
+  address:
+  journal: Nature Physics
+  volume:
+  website:
+  ssrn:
+  publisher:
+  doi: 10.1038/s41567-021-01334-9
 ---

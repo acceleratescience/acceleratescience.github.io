@@ -17,24 +17,37 @@ description: This paper investigates the structural similarities between liquid
   water and a comprehensive set of 54 simulated ice phases. Its findings shed
   light on the phase behaviour of water.
 published: 2020-11-13
-author:
-  - family: Monserrat
-    given: Bartomeu
-  - family: Brandenburg
-    given: Jan Gerit
-  - family: Engel
-    given: Edgar A.
-  - family: Cheng
-    given: Bingqing
-journal: Nature Communications
-year:
-volume: 11
-number: 5757
-pages: 2041-1723
-doi: 10.1038/s41467-020-19606-y
-openreview:
-html:
-website:
-pdf:
-software:
+featured_image:
+authors:
+  internal_authors:
+  external_authors:
+    - family: Monserrat
+      given: Bartomeu
+    - family: Brandenburg
+      given: Jan Gerit
+    - family: Engel
+      given: Edgar A.
+    - family: Cheng
+      given: Bingqing
+  consortium_authors:
+editors:
+  internal_editors:
+  external_editors:
+  consortium_editors:
+details:
+  openreview:
+  pages: 2041-1723
+  software:
+  number: 5757
+  html:
+  container-title:
+  pdf:
+  arxiv:
+  address:
+  journal: Nature Communications
+  volume: 11
+  website:
+  ssrn:
+  publisher:
+  doi: 10.1038/s41467-020-19606-y
 ---

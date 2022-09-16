@@ -22,26 +22,39 @@ description: Researchers can assess the similarity of different data points by
   creating measures of distance between them. This paper assesses the amount of
   information contained in different distance measures.
 published: 2021-04-30
-author:
-  - family: Glielmo
-    given: Aldo
-  - family: Zeni
-    given: Claudio
-  - family: Cheng
-    given: Bingqing
-  - family: Csanyi
-    given: Gabor
-  - family: Laio
-    given: Alessandro
-journal:
-year:
-volume:
-number:
-pages:
-doi: 10.48550/ARXIV.2104.15079
-openreview:
-html:
-website:
-pdf:
-software:
+featured_image:
+authors:
+  internal_authors:
+  external_authors:
+    - family: Glielmo
+      given: Aldo
+    - family: Zeni
+      given: Claudio
+    - family: Cheng
+      given: Bingqing
+    - family: Csanyi
+      given: Gabor
+    - family: Laio
+      given: Alessandro
+  consortium_authors:
+editors:
+  internal_editors:
+  external_editors:
+  consortium_editors:
+details:
+  openreview:
+  pages:
+  software:
+  number:
+  html:
+  container-title:
+  pdf:
+  arxiv:
+  address:
+  journal:
+  volume:
+  website:
+  ssrn:
+  publisher:
+  doi: 10.48550/ARXIV.2104.15079
 ---

@@ -19,25 +19,32 @@ abstract: Gaussian process latent variable models (GPLVM) are used to perform
   focus on massively missing data settings.
 description: Gaussian process latent variable models (GPLVM) are used to perform nonlinear and   probabilistic dimensionality reduction. This work develops a flexible model class, called Gaussian     process latent variable flows (GPLVF), and evaluates its performance in massively missing data settings.
 published: 2021-01-15
-author:
-  - given: Vidhi
-    family: Lalchand
-    person_page: vidhi-lalchand
-  - given: Aditya
-    family: Ravuri
-    person_page: aditya-ravuri
-  - given: Neil D.
-    family: Lawrence
-    person_page: neil-d-lawrence
-journal:
-year: 2021
-volume:
-number:
-pages:
-doi:
-openreview: zaMwvOjsyym
-html:
-website:
-pdf:
-software:
+featured_image:
+authors:
+  internal_authors:
+    - vidhi-lalchand
+    - aditya-ravuri
+    - neil-d-lawrence
+  external_authors:
+  consortium_authors:
+editors:
+  internal_editors:
+  external_editors:
+  consortium_editors:
+details:
+  openreview: zaMwvOjsyym
+  pages:
+  software:
+  number:
+  html:
+  container-title:
+  pdf:
+  arxiv:
+  address:
+  journal:
+  volume:
+  website:
+  ssrn:
+  publisher:
+  doi:
 ---

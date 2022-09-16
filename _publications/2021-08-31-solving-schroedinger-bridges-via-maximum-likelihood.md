@@ -17,27 +17,34 @@ abstract: >
   simulations and experiments.
 description: The Schrödinger bridge problem was proposed in the 1930s by Erwin Scrödinger. It involves two probability distributions at a start time an end time. They are related by a dynamic process. Deciding the form of that dynamic process given these distributions is a challenging problem. In this work we provide a maximum likelihood approach to solving it.
 published: 2021-08-31
-author:
-  - family: Vargas
-    given: Francisco
-    person_page: francisco-vargas
-  - family: Thodoroff
-    given: Pierre
-    person_page: pierre-thodoroff
-  - family: Lamacraft
-    given: Austen
-  - family: Lawrence
-    given: Neil D.
-    person_page: neil-d-lawrence
-journal: Entropy
-year: 2021
-volume: 23
-number: 9
-pages: 1134
-doi: 10.3390/e23091134
-openreview:
-html: https://www.mdpi.com/1099-4300/23/9/1134
-website:
-pdf: https://www.mdpi.com/1099-4300/23/9/1134/pdf
-software: https://github.com/franciscovargas/GP_Sinkhorn
+featured_image:
+authors:
+  internal_authors:
+    - francisco-vargas
+    - pierre-thodoroff
+    - neil-d-lawrence
+  external_authors:
+    - family: Lamacraft
+      given: Austen
+  consortium_authors:
+editors:
+  internal_editors:
+  external_editors:
+  consortium_editors:
+details:
+  openreview:
+  pages: 1134
+  software: https://github.com/franciscovargas/GP_Sinkhorn
+  number: 9
+  html: https://www.mdpi.com/1099-4300/23/9/1134
+  container-title:
+  pdf: https://www.mdpi.com/1099-4300/23/9/1134/pdf
+  arxiv:
+  address:
+  journal: Entropy
+  volume: 23
+  website:
+  ssrn:
+  publisher:
+  doi: 10.3390/e23091134
 ---

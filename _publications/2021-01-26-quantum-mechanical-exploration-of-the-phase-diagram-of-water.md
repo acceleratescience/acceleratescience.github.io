@@ -23,20 +23,33 @@ description: This paper analyses the phase diagram of water at three hybrid
   principles and provides a thermodynamic way of testing the limits of
   quantum-mechanical calculations.
 published: 2021-01-26
-author:
-  - family: Reinhardt
-    given: Aleks
-  - family: Cheng
-    given: Bingqing
-journal: Nature Communications
-year:
-volume: 12
-number: 588
-pages:
-doi: 10.1038/s41467-020-20821-w
-openreview:
-html:
-website:
-pdf:
-software:
+featured_image:
+authors:
+  internal_authors:
+  external_authors:
+    - family: Reinhardt
+      given: Aleks
+    - family: Cheng
+      given: Bingqing
+  consortium_authors:
+editors:
+  internal_editors:
+  external_editors:
+  consortium_editors:
+details:
+  openreview:
+  pages:
+  software:
+  number: 588
+  html:
+  container-title:
+  pdf:
+  arxiv:
+  address:
+  journal: Nature Communications
+  volume: 12
+  website:
+  ssrn:
+  publisher:
+  doi: 10.1038/s41467-020-20821-w
 ---
