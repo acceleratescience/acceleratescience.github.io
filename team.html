@@ -34,6 +34,8 @@ title: Team
                         <div class="team__member-image">
                             {% assign person_image = item.image %}
                             {% assign person_name = item.name %}
+                            {% assign person_prefix = item.prefix %}
+                            {% assign person_suffix = item.suffix %}
                             {% assign person_institution = item.institution %}
                             {% assign person_position = item.position %}
 
@@ -44,7 +46,11 @@ title: Team
                             {% endif %}
                         </div>
                         <div class="team__member-details">
-                            <h3>{{ person_name }}</h3>
+                            <h3>
+                                {{ person_prefix }}
+                                {{ person_name }}
+                                {{ person_suffix }}
+                            </h3>
                             {% if person_institution.size >= 1 %}
                                 <p>{{ person_institution }}</p>
                             {% endif %}

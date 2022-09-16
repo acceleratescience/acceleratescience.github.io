@@ -41,7 +41,7 @@
                         </svg>
                         <p>Back to team</p>
                     </a>
-                    <h1>{{ page.given }} {{ page.family }}</h1>
+                    <h1>{{ page.prefix }} {{ page.name }} {{ page.suffix }}</h1>
                 </div>
             </div>
         </section>
@@ -60,7 +60,7 @@
                     <div class="column-m-12 column-t-5 column-d-3">
                         <div class="team-profile__image">
                             {% if page.image != nil %}
-                            <img src="{{ page.image }}" alt="Image of {{ person_given }} {{ person_family }}">
+                            <img src="{{ page.image }}" alt="Image of {{ page.prefix }} {{ page.name }} {{ page.suffix }}">
                             {% else %}
                             <img src="{{site.baseurl}}/assets/images/placeholder.jpg">
                             {% endif %}
@@ -155,30 +155,47 @@
             <div class="container">
                 <h2 class="section-heading">Related Papers</h2>
                 <div class="papers__grid">
-                    {% assign fullname = page.given | append: ' ' | append: page.family  %}
-
                     {% for post in site.publications %}
-                    {% for author in post.author %}
-                    {% assign authorname = author.name %}
-                    {% if fullname == authorname %}
+                    {% for item in post.authors.internal_authors %}
+                    {% if page.slug == item %}
                     <a href="{{ post.url }}" class="papers__item">
                         <h3>{{ post.title}}</h3>
                         <h4>{{ post.published | replace: "-", "/" }}</h4>
                         <div class="authors">
-                            {% for author in post.author %}
+                            {% for author in post.authors.internal_authors %}
+                            {% assign authorName = author %}
+                            {% for person in site.team %}
+                            {% if person.slug == authorName %}
                             <p>
-                                {{author.name}}
+                                {{ person.name }},
+                            </p>
+                            {% endif %}
+                            {% endfor %}
+                            {% endfor %}
+                            {% for author in post.authors.external_authors %}
+                            <p>
+                                {{author.given}}
+                                {{author.family}},
                             </p>
                             {% endfor %}
+                            {% for author in post.authors.consortium_authors %}
+                            <p>{{author.name}},</p>
+                            {% endfor %}
                         </div>
+                        {% if post.details.journal != nil or post.published != nil or post.details.pages != nil %}
                         <p class="journal">
-                            {{post.journal}}
-                            ({{post.year}})
-                            {{post.pages}}
+                            {{post.details.journal}}
+                            {% if post.published != nil %}
+                            ({{post.published | slice: 0, 4 }})
+                            {% endif %}
+                            {{post.details.pages}}
                         </p>
+                        {% endif %}
+                        {% if post.details.doi != nil %}
                         <p class="doi">
-                            DOI: {{post.doi}}
+                            DOI: {{post.details.doi}}
                         </p>
+                        {% endif %}
                         <span class="button">Read Paper</span>
                     </a>
                     {% endif %}
