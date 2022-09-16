@@ -6,7 +6,8 @@ description: This is a description
 published: 2022-09-16
 featured_image: /assets/uploads/alina-grubnyak-ziqkhi7417a-unsplash.jpg
 authors:
-  internal_authors: []
+  internal_authors:
+    - aditya-ravuri
   external_authors:
     - family: Famil
       given: Given
