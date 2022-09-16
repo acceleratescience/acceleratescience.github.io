@@ -5,7 +5,9 @@ abstract: T﻿his is an abstract
 published: 2022-09-16
 featured_image: /assets/uploads/alina-grubnyak-ziqkhi7417a-unsplash.jpg
 authors:
-  internal_authors: []
+  internal_authors:
+    - author_page:
+        - aditya-ravuri
   external_authors:
     - family: Famil
       given: Given
@@ -23,6 +25,9 @@ editors:
   consortium_editors:
     - name: Consortium
       url: https://google.co.uk
+  internal_editors:
+    - author_page:
+        - austen-lamacraft
 details:
   openreview: OpenReviewID
   pages: 10-20
