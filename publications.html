@@ -40,14 +40,14 @@ pagination:
                         <h3>{{ post.title}}</h3>
                         <h4>{{ post.published | replace: "-", "/" }}</h4>
                         <div class="authors">
-                            {% for author in post.author %}
-                                <p>{{author.name}},</p>
+                            {% for author in post.authors.internal_authors %}
+                                <p>{{author}},</p>
                             {% endfor %}
                         </div>
                         <p class="journal">
-                            {{post.journal}}
-                            ({{post.year}})
-                            {{post.pages}}
+                            {{post.details.journal}}
+                            ({{post.published}})
+                            {{post.details.pages}}
                         </p>
                         <p class="doi">
                             DOI:{{post.doi}}

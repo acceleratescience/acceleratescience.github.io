@@ -738,7 +738,7 @@ collections:
             widget: 'relation'
             collection: 'team'
             search_fields: ["name"]
-            value_field: "{{slug}}"
+            value_field: "name"
             display_fields: ["name"]
             options_length: 999
             multiple: true
