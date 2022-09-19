@@ -618,18 +618,26 @@ collections:
       - label: 'Excerpt'
         name: 'excerpt'
         widget: 'text'
-      - label: "Category"
-        name: "category"
-        widget: 'relation'
-        collection: 'research'
-        search_fields: ["title"]
-        value_field: "{{slug}}"
-        display_fields: ["title"]
-        options_length: 999
-        multiple: true
-      - label: 'Featured Image'
-        name: 'featured_image'
+        required: false
+      - label: 'Author/s'
+        name: 'author'
+        widget: 'string'
+        required: false
+      - label: "Publish Date"
+        name: "date"
+        widget: "datetime"
+        default: ""
+        date_format: "DD/MM/YYYY" # e.g. 24.12.2021
+        time_format: "HH:mm" # e.g. 21:07
+        format: "LLL"
+        picker_utc: false
+      - label: 'Image'
+        name: 'image_image'
         widget: 'image'
+      - label: 'External Link'
+        name: 'link'
+        widget: 'string'
+        required: false
       - label: 'Body'
         name: 'body'
         widget: 'markdown'
