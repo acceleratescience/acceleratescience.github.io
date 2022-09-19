@@ -1004,6 +1004,8 @@ APP STYLES
 
 .block__post-single article header.post-single__header .post-single__header-heading .categories h5, .block__post-single article header.post-single__header .post-single__header-heading .categories p, .block__post-single article header.post-single__header .post-single__header-heading .tags h5, .block__post-single article header.post-single__header .post-single__header-heading .tags p { margin: 0; display: inline-block; font-size: 1.8rem; line-height: 1.5; }
 
+.block__post-single article header.post-single__header .post-single__header-heading .button { margin-top: 4rem; }
+
 .block__post-single article header.post-single__header .post-single__header-socials { padding: 4rem 0 0 0; display: flex; flex-direction: row; }
 
 @media (min-width: 768px) { .block__post-single article header.post-single__header .post-single__header-socials { padding: 0; flex-direction: column; align-items: center; justify-content: flex-start; } }

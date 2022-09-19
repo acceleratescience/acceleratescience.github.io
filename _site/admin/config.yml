@@ -686,10 +686,10 @@ collections:
         display_fields: ["title"]
         multiple: true
         required: false
-      - label: 'Related Papers'
-        name: 'papers'
+      - label: 'Related Publications'
+        name: 'publications'
         widget: 'relation'
-        collection: 'papers'
+        collection: 'publications'
         search_fields: ["title"]
         value_field: "{{slug}}"
         display_fields: ["title"]
