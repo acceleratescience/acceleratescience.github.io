@@ -687,7 +687,7 @@ collections:
         multiple: true
         required: false
       - label: 'Related Publications'
-        name: 'publications'
+        name: 'Publications'
         widget: 'relation'
         collection: 'publications'
         search_fields: ["title"]
