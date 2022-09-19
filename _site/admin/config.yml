@@ -687,9 +687,9 @@ collections:
         multiple: true
         required: false
       - label: 'Related Publications'
-        name: 'Publications'
+        name: 'publications'
         widget: 'relation'
-        collection: 'publications'
+        collection: 'Publications'
         search_fields: ["title"]
         value_field: "{{slug}}"
         display_fields: ["title"]
