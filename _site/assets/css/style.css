@@ -998,6 +998,12 @@ APP STYLES
 
 @media (min-width: 1200px) { .block__post-single article header.post-single__header .post-single__header-heading h1 { font-size: 4.8rem; line-height: 6.8rem; } }
 
+.block__post-single article header.post-single__header .post-single__header-heading p { margin: 0; }
+
+.block__post-single article header.post-single__header .post-single__header-heading .categories { margin-top: 1rem; }
+
+.block__post-single article header.post-single__header .post-single__header-heading .categories h5, .block__post-single article header.post-single__header .post-single__header-heading .categories p, .block__post-single article header.post-single__header .post-single__header-heading .tags h5, .block__post-single article header.post-single__header .post-single__header-heading .tags p { margin: 0; display: inline-block; font-size: 1.8rem; line-height: 1.5; }
+
 .block__post-single article header.post-single__header .post-single__header-socials { padding: 4rem 0 0 0; display: flex; flex-direction: row; }
 
 @media (min-width: 768px) { .block__post-single article header.post-single__header .post-single__header-socials { padding: 0; flex-direction: column; align-items: center; justify-content: flex-start; } }

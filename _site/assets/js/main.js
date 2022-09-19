@@ -527,6 +527,18 @@ function resizeCanvas(canvas) {
                     };
                 });
 
+                // Blog Filter
+                $('.blog-category-filter').on('change', function () {
+                    var category = this.value;
+
+                    if (category == "*") {
+                        $(this).closest('.block__posts').find('.post__post').removeClass('hidden');
+                    } else {
+                        $(this).closest('.block__posts').find('.post__post').addClass('hidden');
+                        $(this).closest('.block__posts').find('.post__post[data-category="' + category + '"]').removeClass('hidden');
+                    };
+                });
+
                 // News Load More Alt
                 $('.loadMore--alt').click(function () {
                     if ($(this).hasClass('open')) {

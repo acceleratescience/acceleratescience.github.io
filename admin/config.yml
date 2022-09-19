@@ -564,17 +564,36 @@ collections:
       - label: 'Excerpt'
         name: 'excerpt'
         widget: 'text'
+        required: false
+      - label: 'Author/s'
+        name: 'author'
+        widget: 'string'
+        required: false
+      - label: "Publish Date"
+        name: "date"
+        widget: "datetime"
+        default: ""
+        date_format: "DD/MM/YYYY" # e.g. 24.12.2021
+        time_format: "HH:mm" # e.g. 21:07
+        format: "LLL"
+        picker_utc: false
       - label: "Category"
-        name: "category"
+        name: "categories"
         widget: "select"
         multiple: true
         options:
-          - { label: "Blog Category 1", value: "blog-category-1" }
-          - { label: "Blog Category 2", value: "blog-category-2" }
-          - { label: "Blog Category 3", value: "blog-category-3" }
-          - { label: "Blog Category 4", value: "blog-category-4" }
-      - label: 'Featured Image'
-        name: 'featured_image'
+          - { label: "Machine Learning", value: "machine-learning" }
+          - { label: "Accelerate-Spark Data Science Residency", value: "accelerate-spark-data-science-residency" }
+        required: false
+      - label: "Tags"
+        name: "tags"
+        widget: "select"
+        multiple: true
+        options:
+          - { label: "News", value: "news" }
+        required: false
+      - label: 'Image'
+        name: 'image_image'
         widget: 'image'
       - label: 'Body'
         name: 'body'

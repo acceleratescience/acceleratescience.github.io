@@ -388,6 +388,26 @@
 						line-height: 6.8rem;
 					}
 				}
+
+				p {
+					margin: 0;
+				}
+
+				.categories {
+					margin-top: 1rem;
+				}
+
+				.categories,
+				.tags {
+
+					h5,
+					p {
+						margin: 0;
+						display: inline-block;
+						font-size: 1.8rem;
+						line-height: 1.5;
+					}
+				}
 			}
 
 			.post-single__header-socials {
