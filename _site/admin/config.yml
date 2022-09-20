@@ -681,9 +681,10 @@ collections:
         name: 'people'
         widget: 'relation'
         collection: 'team'
-        search_fields: ["title"]
-        value_field: "{{slug}}"
-        display_fields: ["title"]
+        search_fields: ["name"]
+        value_field: "name"
+        display_fields: ["name"]
+        options_length: 999
         multiple: true
         required: false
       - label: 'Related Publications'
