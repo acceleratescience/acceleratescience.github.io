@@ -741,7 +741,7 @@ collections:
     name: 'Publications'
     folder: '_publications'
     create: true
-    slug: '{{published}}-{{title | slug}}'
+    slug: '{{published}}-{slug}}'
     editor:
       preview: false
     fields:

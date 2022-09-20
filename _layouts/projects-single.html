@@ -100,7 +100,10 @@
                             {% assign publication_slug = item %}
 
                             {% for item in site.publications %}
-                                {% if item.slug == publication_slug %}
+
+                                {% assign slug = item.published | append: '-' | append: item.slug %}
+
+                                {% if slug == publication_slug %}
                                     <a href="{{ item.url }}" class="papers__item">
                                         <h3>{{ item.title}}</h3>
                                         <h4>{{ item.published | replace: "-", "/" }}</h4>
@@ -152,6 +155,7 @@
         {% if page.resources != nil %}
             <section class="block block__resources">
                 <div class="container">
+                    <h2 class="section-heading">Resources</h2>
                     <div class="resources__grid">
                         {% for item in page.resources %}
                             {% assign resource_slug = item %}
