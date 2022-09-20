@@ -9,6 +9,10 @@ excerpt: Complex systems are all around us, from social networks to
 category:
   - complex-systems
 featured_image: /assets/uploads/andres-urena-39mvkfrm3ta-unsplash.jpg
+people:
+  - Aditya Ravuri
+  - Austen Lamacraft
+  - Sarah Morgan
 publications:
   - 2020-11-13-liquid-water-contains-the-building-blocks-of-diverse-ice-phases
   - 2021-01-15-gaussian-process-latent-variable-flows-for-massively-missing-data
