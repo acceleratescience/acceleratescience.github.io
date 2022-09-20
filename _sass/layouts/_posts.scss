@@ -578,6 +578,8 @@
 		width: 100%;
 		margin: 0 0 2rem 0;
 		padding: 3rem;
+		display: flex;
+		flex-direction: column;
 		text-decoration: none;
 		border: 1px solid $regular-grey;
 		border-radius: 12px;
@@ -586,6 +588,10 @@
 			width: calc(33.33% - 4rem);
 			margin: 0 2rem 4rem 2rem;
 			padding: 4rem 3rem;
+		}
+
+		div {
+			flex: 1;
 		}
 
 		h3 {

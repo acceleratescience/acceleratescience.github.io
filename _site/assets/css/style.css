@@ -1065,9 +1065,11 @@ APP STYLES
 
 @media (min-width: 1200px) { .papers__grid { margin: 0 -2rem; } }
 
-.papers__grid .papers__item { width: 100%; margin: 0 0 2rem 0; padding: 3rem; text-decoration: none; border: 1px solid #CCCCCC; border-radius: 12px; }
+.papers__grid .papers__item { width: 100%; margin: 0 0 2rem 0; padding: 3rem; display: flex; flex-direction: column; text-decoration: none; border: 1px solid #CCCCCC; border-radius: 12px; }
 
 @media (min-width: 1200px) { .papers__grid .papers__item { width: calc(33.33% - 4rem); margin: 0 2rem 4rem 2rem; padding: 4rem 3rem; } }
+
+.papers__grid .papers__item div { flex: 1; }
 
 .papers__grid .papers__item h3 { margin: 0; font-size: 2rem; }
 
