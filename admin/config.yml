@@ -695,6 +695,15 @@ collections:
         display_fields: ["title"]
         multiple: true
         required: false
+      - label: 'Resources'
+        name: 'resources'
+        widget: 'relation'
+        collection: 'resources'
+        search_fields: ["title"]
+        value_field: "{{slug}}"
+        display_fields: ["title"]
+        multiple: true
+        required: false
 
   # Resources Collection
   - name: 'resources'
@@ -720,6 +729,12 @@ collections:
           - { label: "Teaching & Learning", value: "teaching-learning" }
           - { label: "Software & Code", value: "software-code" }
           - { label: "Additional Resources", value: "additional-resources" }
+      - label: 'Excerpt'
+        name: 'excerpt'
+        widget: 'text'
+      - label: 'Link'
+        name: 'link'
+        widget: 'string'
 
   # Publications Collection
   - label: 'Publications'

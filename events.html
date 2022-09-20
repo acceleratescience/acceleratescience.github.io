@@ -43,7 +43,11 @@ title: Events
                     {% if currentDate <= eventEndDate %}
                         <a class="post__post post__post--standard" href="{{ post.url }}">
                             <div class="post__post-thumbnail">
+                                {% if post.image != nil %}
                                 <img src="{{ post.image }}">
+                                {% else %}
+                                <img src="{{site.baseurl}}/assets/images/placeholder.jpg">
+                                {% endif; %}
                             </div>
                             <div class="post__post-content">
                                 <h3>{{ post.title}}</h3>

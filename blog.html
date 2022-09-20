@@ -29,7 +29,11 @@ pagination:
             {% for post in site.posts limit:1 %}
                 <a class="post__post post__post--featured" href="{{ post.url }}">
                     <div class="post__post-thumbnail">
+                        {% if post.image != nil %}
                         <img src="{{ post.image }}">
+                        {% else %}
+                        <img src="{{site.baseurl}}/assets/images/placeholder.jpg">
+                        {% endif; %}
                     </div>
                     <div class="post__post-content">
                         <h4>{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</h4>
@@ -70,7 +74,11 @@ pagination:
             {% for post in site.posts limit:8 offset:offset %}
                 <a class="post__post post__post--standard" data-category="{{ post.categories[0] | replace: " ", "-" | replace: "[", "" | replace: "]", "" | replace: '"', "" | downcase }}" href="{{ post.url }}">
                     <div class="post__post-thumbnail">
+                        {% if post.image != nil %}
                         <img src="{{ post.image }}">
+                        {% else %}
+                        <img src="{{site.baseurl}}/assets/images/placeholder.jpg">
+                        {% endif; %}
                     </div>
                     <div class="post__post-content">
                         <h4>{{ post.categories | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</h4>

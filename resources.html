@@ -30,12 +30,22 @@ title: Resources
         </div>
         <div class="resources__grid">
             {% for post in site.resources %}
-                <a class="resources__resource resources__resource--{{ post.category }}" data-resources-value="{{ post.category }}" href="{{ post.url }}">
-                    <div>
-                        <h3>{{ post.title }}</h3>
-                    </div>
-                    <span class="button">Read More</span>
-                </a>
+                {% if post.link != nil %}
+                    <a class="resources__resource resources__resource--{{ post.category }}" data-resources-value="{{ post.category }}" href="{{ post.link }}" rel="noreferrer" target="_blank">
+                        <div>
+                            <h3>{{ post.title }}</h3>
+                            {{ post.excerpt | markdownify }}
+                        </div>
+                        <span class="button">Read More</span>
+                    </a>
+                {% else %}
+                    <span class="resources__resource resources__resource--{{ post.category }}" data-resources-value="{{ post.category }}">
+                        <div>
+                            <h3>{{ post.title }}</h3>
+                            {{ post.excerpt | markdownify }}
+                        </div>
+                    </span>
+                {% endif %}
             {% endfor %}
         </div>
     </div>

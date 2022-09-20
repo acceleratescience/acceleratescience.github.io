@@ -143,6 +143,33 @@
             </section>
         {% endif %}
 
+        {% if page.resources != nil %}
+            <section class="block block__resources">
+                <div class="container">
+                    <div class="resources__grid">
+                        {% for post in page.resources %}
+                            {% if post.link != nil %}
+                                <a class="resources__resource resources__resource--{{ post.category }}" data-resources-value="{{ post.category }}" href="{{ post.link }}" rel="noreferrer" target="_blank">
+                                    <div>
+                                        <h3>{{ post.title }}</h3>
+                                        {{ post.excerpt | markdownify }}
+                                    </div>
+                                    <span class="button">Read More</span>
+                                </a>
+                            {% else %}
+                                <span class="resources__resource resources__resource--{{ post.category }}" data-resources-value="{{ post.category }}">
+                                    <div>
+                                        <h3>{{ post.title }}</h3>
+                                        {{ post.excerpt | markdownify }}
+                                    </div>
+                                </span>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </section>
+        {% endif %}
+
 
         {% capture the_collection %}{{page.collection}}{% endcapture %}
         {% if page.collection %}
