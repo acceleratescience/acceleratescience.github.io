@@ -34,7 +34,347 @@
     </div>
 </header>
         <main class="main">
+            <section class="block block__hero block__hero--large" id="hero">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.3/dat.gui.min.js"></script>
+    <script src="https://mrdoob.github.io/stats.js/build/stats.min.js"></script>
+
+    <canvas id="c"></canvas>
+
+    <div class="container">
+        <div class="hero__head row row--justified row--middle">
+            <a href="http://localhost:4000" class="brand">
+                <img class="brand" src="/assets/uploads/logo.png" alt="Logo">
+            </a>
+            <div class="menu-trigger">
+    <p>Menu</p>
+    <div class="menu-trigger__button">
+        <span></span>
+    </div>
+</div>
+            <nav class="nav-primary">
+    <span></span>
+    <ul>
+        
+            <li>
+                <a href="/about/">About</a>
+                
+                    <div class="submenu">
+                        
+                            <a href="/team/">Team</a>
+                        
+                            <a href="/get-involved/">Get Involved</a>
+                        
+                    </div>
+                
+            </li>
+        
+            <li>
+                <a href="/projects/">Projects</a>
+                
+                    <div class="submenu">
+                        
+                            <a href="/publications/">Publications</a>
+                        
+                            <a href="/resources/">Resources</a>
+                        
+                    </div>
+                
+            </li>
+        
+            <li>
+                <a href="/news/">News</a>
+                
+                    <div class="submenu">
+                        
+                            <a href="/blog/">Blog</a>
+                        
+                            <a href="/events/">Events</a>
+                        
+                    </div>
+                
+            </li>
+        
+            <li>
+                <a href="/software-engineering/">Software Engineering</a>
+                
+            </li>
+        
+            <li>
+                <a href="/get-involved/">Contact</a>
+                
+            </li>
+        
+    </ul>
+</nav>
+        </div>
+
+        <div class="hero__content">
             
+                <h1>Advancing scientific discovery with machine learning</h1>
+            
+            
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ipsum urna, sollicitudin non sagittis ac, maximus non metus. Vestibulum semper, augue quis scelerisque sagittis, lacus augue tristique nunc, a porttitor felis sapien ut massa.</p>
+            
+            
+                <a href="/" class="button button--white">Read More</a>
+            
+        </div>
+    </div>
+</section>
+
+<section class="block block__latest">
+    <div class="container">
+        <div class="latest__upper row row--justified">
+            <h2 class="section-heading">Latest Insights</h2>
+            <a class="button button--large" href="/blog/">Show All</a>
+
+            <div class="latest__insights column-m-12-nest">
+                <div class="posts__grid post__grid">
+                    
+                        
+                        <a class="post__post post__post--standard " href="/2022/05/17/how-can-we-use-ai-to-understand-acute-respiratory-distress-syndrome.html">
+                            <div class="post__post-thumbnail">
+                                
+                                    <img src="/assets/uploads/romit-headshot.jpg">
+                                
+                            </div>
+                            <div class="post__post-content">
+                                <h4></h4>
+                                <h3>How can we...use AI to understand acute respiratory distress syndrome?</h3>
+                                <p class="date">17 May 2022</p>
+                                <span class="button">Read More</span>
+                            </div>
+                        </a>
+                    
+                        
+                        <a class="post__post post__post--standard " href="/accelerate-spark%20data%20science%20residency/2022/03/23/daniel-esteban-ferrer-ai-for-bioimaging.html">
+                            <div class="post__post-thumbnail">
+                                
+                                    <img src="/assets/uploads/ct-scan.jpg">
+                                
+                            </div>
+                            <div class="post__post-content">
+                                <h4></h4>
+                                <h3>How can we…use AI to take bio-imaging to the next dimension?</h3>
+                                <p class="date">23 March 2022</p>
+                                <span class="button">Read More</span>
+                            </div>
+                        </a>
+                    
+                        
+                        <a class="post__post post__post--standard " href="/accelerate-spark%20data%20science%20residency/2022/02/01/enabling-doctors-to-build-their-own-models.html">
+                            <div class="post__post-thumbnail">
+                                
+                                    <img src="/assets/uploads/dianarobinson.jpg">
+                                
+                            </div>
+                            <div class="post__post-content">
+                                <h4></h4>
+                                <h3>How can we... Use AI to enable doctors to build their own models with clinical data?</h3>
+                                <p class="date">1 February 2022</p>
+                                <span class="button">Read More</span>
+                            </div>
+                        </a>
+                    
+                        
+                        <a class="post__post post__post--standard " href="/accelerate-spark%20data%20science%20residency/2021/12/22/Accelerate-annual-symposium.html">
+                            <div class="post__post-thumbnail">
+                                
+                                    <img src="/assets/uploads/michal-czyz-ALM7RNZuDH8-unsplash-2.jpg">
+                                
+                            </div>
+                            <div class="post__post-content">
+                                <h4></h4>
+                                <h3>The frontiers, opportunities and challenges of AI for science – Accelerate’s 2021 Symposium</h3>
+                                <p class="date">22 December 2021</p>
+                                <span class="button">Read More</span>
+                            </div>
+                        </a>
+                    
+                        
+                        <a class="post__post post__post--standard hidden" href="/accelerate-spark%20data%20science%20residency/2021/09/22/Emanuele-Osimo-ML-for-understanding-schizophrenia.html">
+                            <div class="post__post-thumbnail">
+                                
+                                    <img src="/assets/uploads/emanueleosimo.jpg">
+                                
+                            </div>
+                            <div class="post__post-content">
+                                <h4></h4>
+                                <h3>How can we … better understand the links between mental and physical health with machine learning?</h3>
+                                <p class="date">22 September 2021</p>
+                                <span class="button">Read More</span>
+                            </div>
+                        </a>
+                    
+                        
+                        <a class="post__post post__post--standard hidden" href="/accelerate-spark%20data%20science%20residency/2021/07/08/Andreas-Schachner-ML-for-string-theory.html">
+                            <div class="post__post-thumbnail">
+                                
+                                    <img src="/assets/uploads/andreasschachner.JPG">
+                                
+                            </div>
+                            <div class="post__post-content">
+                                <h4></h4>
+                                <h3>How can we…use data science to inform fundamental physics?</h3>
+                                <p class="date">8 July 2021</p>
+                                <span class="button">Read More</span>
+                            </div>
+                        </a>
+                    
+                        
+                        <a class="post__post post__post--standard hidden" href="/accelerate-spark%20data%20science%20residency/2021/07/08/JesseAllardice-ML-for-solar-tech.html">
+                            <div class="post__post-thumbnail">
+                                
+                                    <img src="/assets/uploads/jesseallardice.jpg">
+                                
+                            </div>
+                            <div class="post__post-content">
+                                <h4></h4>
+                                <h3>How can we…create next-generation solar technologies using machine learning?</h3>
+                                <p class="date">8 July 2021</p>
+                                <span class="button">Read More</span>
+                            </div>
+                        </a>
+                    
+                        
+                        <a class="post__post post__post--standard hidden" href="/accelerate-spark%20data%20science%20residency/2021/06/24/NicolaMoloney-ML-for-parasitology.html">
+                            <div class="post__post-thumbnail">
+                                
+                                    <img src="/assets/uploads/nicolamoloney.jpg">
+                                
+                            </div>
+                            <div class="post__post-content">
+                                <h4></h4>
+                                <h3>How can we…expedite data curation for understanding the cell biology of parasites?</h3>
+                                <p class="date">24 June 2021</p>
+                                <span class="button">Read More</span>
+                            </div>
+                        </a>
+                    
+                </div>
+
+                <div class="posts__load-more">
+                    <span></span>
+                    <button class="button button--large loadMore--alt">
+                        <p class="button-text button-text--inactive">Show More</p>
+                        <p class="button-text button-text--active">Show Less</p>
+                        <img src="../assets/images/plus.svg">
+                    </button>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+        <div class="latest__lower row row--justified">
+            <div class="latest__news column-m-12-nest column-t-8">
+                <div class="row row--justified">
+                    <h2 class="section-heading">Latest News</h2>
+                    <a class="button button--large" href="/news/">Show All</a>
+                </div>
+                <div class="post__grid post__grid--col2">
+                    
+                        <a class="post__post post__post--standard" href="/news/2020-06-22-new-programme-to-accelerate-ai-research-capability-at-cambridge.html">
+                            <div class="post__post-thumbnail">
+                                
+                                <img src="/assets/images/placeholder.jpg">
+                                
+                            </div>
+                            <div class="post__post-content">
+                                <h4></h4>
+                                <h3>New programme to accelerate AI research capability at Cambridge</h3>
+                                <p class="date">22 June 2020</p>
+                                <span class="button">Read More</span>
+                            </div>
+                        </a>
+                    
+                        <a class="post__post post__post--standard" href="/news/2020-06-30-schmidt-data-for-science-residency-programme.html">
+                            <div class="post__post-thumbnail">
+                                
+                                <img src="/assets/images/placeholder.jpg">
+                                
+                            </div>
+                            <div class="post__post-content">
+                                <h4></h4>
+                                <h3>Schmidt Data for Science Residency Programme</h3>
+                                <p class="date">30 June 2020</p>
+                                <span class="button">Read More</span>
+                            </div>
+                        </a>
+                    
+                </div>
+            </div>
+            <div class="latest__tweets column-m-12-nest column-t-4">
+                <h2 class="section-heading">Latest Tweets</h2>
+                <a class="twitter-timeline" data-height="500" href="https://twitter.com/AccelerateSci?ref_src=twsrc%5Etfw">Tweets by AccelerateSci</a>
+                <script async charset="utf-8" src="https://platform.twitter.com/widgets.js"></script>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="block block__accordions">
+    <div class="container">
+        <div class="row row--justified">
+            <div class="accordions__selectors column-m-12-nest column-t-4-nest">
+                
+                    <button class=" active " data-accordion-id="What-we-do">
+                        <img src="http://localhost:4000/assets/uploads/what-we-do.png">
+                        What we do
+                    </button>
+                
+                    <button class="" data-accordion-id="Research">
+                        <img src="http://localhost:4000/assets/uploads/research.png">
+                        Research
+                    </button>
+                
+                    <button class="" data-accordion-id="Education-&-Training">
+                        <img src="http://localhost:4000/assets/uploads/education-and-training.png">
+                        Education & Training
+                    </button>
+                
+                    <button class="" data-accordion-id="Engagement">
+                        <img src="http://localhost:4000/assets/uploads/engagement.png">
+                        Engagement
+                    </button>
+                
+            </div>
+            <div class="accordions__window column-m-12-nest column-t-7-nest column-d-6-nest">
+                
+                    <div class="accordions__accordion  active " data-accordion-content="What-we-do">
+                        <h3 id="amidst-growing-excitement-about-ai-a-gap-has-emerged-between-our-aspirations-for-ai-and-our-ability-to-deploy-these-technologies-to-tackle-real-world-challenges">Amidst growing excitement about AI, a gap has emerged between our aspirations for AI and our ability to deploy these technologies to tackle real-world challenges.</h3>
+
+<p>ML@CL aims to bridge this gap through innovations in modelling, systems and software engineering for machine learning deployment; the application of AI for scientific discovery; and the development of policy frameworks for trustworthy and beneficial AI.</p>
+
+                        <a class="button" href="/about/">Read More</a>
+                    </div>
+                
+                    <div class="accordions__accordion " data-accordion-content="Research">
+                        <h3 id="amidst-growing-excitement-about-ai-a-gap-has-emerged-between-our-aspirations-for-ai-and-our-ability-to-deploy-these-technologies-to-tackle-real-world-challenges">Amidst growing excitement about AI, a gap has emerged between our aspirations for AI and our ability to deploy these technologies to tackle real-world challenges.</h3>
+
+<p>ML@CL aims to bridge this gap through innovations in modelling, systems and software engineering for machine learning deployment; the application of AI for scientific discovery; and the development of policy frameworks for trustworthy and beneficial AI.</p>
+
+                        <a class="button" href="/research/">Read More</a>
+                    </div>
+                
+                    <div class="accordions__accordion " data-accordion-content="Education-&-Training">
+                        <h3 id="amidst-growing-excitement-about-ai-a-gap-has-emerged-between-our-aspirations-for-ai-and-our-ability-to-deploy-these-technologies-to-tackle-real-world-challenges">Amidst growing excitement about AI, a gap has emerged between our aspirations for AI and our ability to deploy these technologies to tackle real-world challenges.</h3>
+
+<p>ML@CL aims to bridge this gap through innovations in modelling, systems and software engineering for machine learning deployment; the application of AI for scientific discovery; and the development of policy frameworks for trustworthy and beneficial AI.</p>
+
+                        <a class="button" href="/about/">Read More</a>
+                    </div>
+                
+                    <div class="accordions__accordion " data-accordion-content="Engagement">
+                        <h3 id="amidst-growing-excitement-about-ai-a-gap-has-emerged-between-our-aspirations-for-ai-and-our-ability-to-deploy-these-technologies-to-tackle-real-world-challenges">Amidst growing excitement about AI, a gap has emerged between our aspirations for AI and our ability to deploy these technologies to tackle real-world challenges.</h3>
+
+<p>ML@CL aims to bridge this gap through innovations in modelling, systems and software engineering for machine learning deployment; the application of AI for scientific discovery; and the development of policy frameworks for trustworthy and beneficial AI.</p>
+
+                        <a class="button" href="/resources/">Read More</a>
+                    </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
         </main>
         <footer role="contentinfo">
     <div class="footer__upper">
