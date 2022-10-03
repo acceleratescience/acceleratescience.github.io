@@ -19,7 +19,7 @@ text:
 
     Data Engineering for Science School: In December 2022, Accelerate is offering researchers at Cambridge University the opportunity to join an intensive 5-day Winter School on data science for science. 
 image_text:
-  link: /about/
+  link: /machine-learning-clinic/
   heading: Machine Learning Clinic
   content: Welcome to the Accelerate Science Machine Learning Engineering Clinic!
     This new initiative seeks to support Cambridge University researchers using
@@ -31,5 +31,5 @@ image_text_flipped:
     science and elsewhere. How can scientists build the data pipelines they need
     to accelerate their research with AI?
   heading: Data Engineering School
-  link: /resources/
+  link: /data-engineering-school/
   image: /assets/uploads/shamin-haky-uhx-ghppcdg-unsplash.jpg
