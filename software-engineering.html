@@ -113,7 +113,7 @@ title: Software Engineering
             {% for post in site.posts limit:4 %}
                 <a class="post__post post__post--standard" href="{{ post.url }}">
                     <div class="post__post-thumbnail">
-                        <img src="{{ post.featured_image }}">
+                        <img src="{{ post.image }}">
                     </div>
                     <div class="post__post-content">
                         <h4>{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</h4>
