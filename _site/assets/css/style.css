@@ -1324,7 +1324,7 @@ APP STYLES
 
 .block__media-text.block__media-text--large { background-color: #F5F5F5; }
 
-.block__media-text.block__media-text--large .media-text__content { width: 100%; margin-left: auto; margin-right: auto; padding: 0 0 3rem 0; display: flex; flex-direction: column; justify-content: center; order: 2; }
+.block__media-text.block__media-text--large .media-text__content { width: 100%; margin-left: auto; margin-right: auto; padding: 0 0 3rem 0; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; order: 2; }
 
 @media (min-width: 768px) { .block__media-text.block__media-text--large .media-text__content { padding: 0 0 4rem 0; } }
 
@@ -1373,6 +1373,14 @@ APP STYLES
 @media (min-width: 768px) { .block__text.block__text--dual-column .text__content { column-count: 2; column-gap: 2rem; } }
 
 @media (min-width: 1200px) { .block__text.block__text--dual-column .text__content { column-gap: 4rem; } }
+
+.block__text .text__content h3 { margin-bottom: 2.5rem; }
+
+.block__text .text__content h4 { margin-bottom: 2rem; }
+
+.block__text .text__content h5 { margin-bottom: 1.8rem; }
+
+.block__text .text__content h6 { margin-bottom: 1.5rem; }
 
 .block__text .text__content p, .block__text .text__content li, .block__text .text__content a { font-family: "Lato", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 
