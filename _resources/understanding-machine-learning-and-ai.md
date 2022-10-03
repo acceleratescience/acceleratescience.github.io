@@ -1,0 +1,10 @@
+---
+layout: resources-single
+title: Understanding Machine Learning and AI
+category: teaching-learning
+excerpt: This course - Machine Learning and Adaptive Intelligence - was
+  originally delivered at the University of Sheffield (2011-2015), but has been
+  updated with current material to introduce key concepts and methods in machine
+  learning.
+link: https://mlatcl.github.io/mlai/
+---
