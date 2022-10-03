@@ -1,0 +1,48 @@
+.block__team {
+    margin: 4rem 0;
+
+    @include bp(tablet) {
+        margin: 10rem 0 4rem 0;
+    }
+
+    .team__tabs {
+        margin-bottom: 4rem;
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: 1px solid $regular-grey;
+
+        @include bp(desktop) {
+            margin-bottom: 8rem;
+        }
+
+        button {
+            margin-right: 2px;
+            padding: 1rem;
+            background-color: $regular-grey;
+            border-top: 1px solid $regular-grey;
+            border-right: 1px solid $regular-grey;
+            border-left: 1px solid $regular-grey;
+            border-bottom: none;
+            font-size: 1.4rem;
+            cursor: pointer;
+
+            @include bp(tablet) {
+                padding: 2rem;
+                font-size: 1.8rem;
+            }
+
+            @include bp(desktop) {
+                min-width: 260px;
+                margin-right: 2px;
+
+                border-top-left-radius: 12px;
+                border-top-right-radius: 12px;
+                font-size: 1.8rem;
+            }
+
+            &.active {
+                background-color: $lightest;
+            }
+        }
+    }
+}

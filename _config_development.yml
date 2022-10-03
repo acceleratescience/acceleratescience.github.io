@@ -50,7 +50,7 @@ collections:
     output: true
 
 # Build settings
-remote_theme: aarontlp/accelerate-theme@master
+theme: minima
 plugins:
   - jekyll-feed
   - jekyll-remote-theme

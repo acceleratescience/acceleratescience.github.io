@@ -1,0 +1,19 @@
+.block__related-publications {
+    margin: 4rem 0;
+
+    @include bp(desktop) {
+        margin: 10rem 0;
+    }
+
+    @include bp(desktop-xl) {
+        margin: 10rem 0 16rem 0;
+    }
+
+    .section-heading {
+        margin-bottom: 4rem;
+
+        @include bp(desktop) {
+            margin-bottom: 5rem;
+        }
+    }
+}

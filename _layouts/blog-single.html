@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>Accelerate</title>
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/style.css">
+    <script type="text/javascript" src="{{site.baseurl}}/assets/js/jquery-3.6.0.min.js"></script>
+</head>
+
+<body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">
+    {% include site-header.html %}
+    <main class="main">
+        <section class="block block__hero">
+            <div class="container">
+                <div class="hero__head row row--justified row--middle">
+                    <a href="{{site.url}}" class="brand">
+                        <img class="brand" src="{{ site.data.site.site_logo }}" alt="Logo">
+                    </a>
+                    {% include menu-trigger.html %}
+                    {% include nav-primary.html %}
+                </div>
+
+                <div class="hero__content">
+                    <h2>Blog</h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="block block__post-single">
+            <div class="container">
+                <article>
+                    <header class="post-single__header">
+                        <div class="row row--justified">
+                            <div class="column-m-12-nest column-d-1"></div>
+                            <div class="column-m-12-nest column-d-8">
+                                <a href="{{site.url}}/blog/" class="button button--back">
+                                    <svg width="20px" height="12px" viewBox="0 0 20 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g id="Home-Concept-v1.0-b" transform="translate(-1583.000000, -759.000000)" fill="#DB3900">
+                                                <g id="Down" transform="translate(1583.000000, 759.000000)">
+                                                    <rect id="Rectangle" x="8" y="8" width="4" height="4"></rect>
+                                                    <rect id="Rectangle" x="4" y="4" width="4" height="4"></rect>
+                                                    <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                                                    <rect id="Rectangle" x="12" y="4" width="4" height="4"></rect>
+                                                    <rect id="Rectangle" x="16" y="0" width="4" height="4"></rect>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                    <p>Back to blog</p>
+                                </a>
+                            </div>
+                            <div class="column-m-12-nest column-d-2"></div>
+                            <div class="column-m-12-nest column-d-1"></div>
+                        </div>
+
+                        <div class="row row--justified">
+                            <div class="column-m-12-nest column-d-1"></div>
+                            <div class="post-single__header-heading column-m-12-nest column-t-10 column-d-8">
+                                <h1>{{page.title}}</h1>
+                                {% if page.author != nil %}
+                                <p>{{ page.author }}</p>
+                                {% endif %}
+                                {% if page.date != nil %}
+                                <p>{{ page.date | date: '%d %B %Y' }}</p>
+                                {% endif %}
+
+                                {% if page.categories != nil %}
+                                <div class="categories">
+                                    {% for item in page.categories %}
+                                    <h5>Categories:</h5>
+                                    <p>{{ item | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" | capitalize }}</p>
+                                    {% endfor %}
+                                </div>
+                                {% endif %}
+                                {% if page.tags != nil %}
+                                <div class="tags">
+                                    {% for item in page.tags %}
+                                    <h5>Tags:</h5>
+                                    <p>{{ item | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" | capitalize }}</p>
+                                    {% endfor %}
+                                </div>
+                                {% endif %}
+                            </div>
+
+                            <div class="post-single__header-socials column-m-12-nest column-t-2">
+                                <a href="https://twitter.com/intent/tweet?url={{ site.url }}{{ page.url }}" target="_blank">
+                                    <svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g id="Artboard" fill-rule="nonzero">
+                                                <g id="social-tw-round">
+                                                    <circle id="Oval" fill="#FFAE0D" cx="30" cy="30" r="30"></circle>
+                                                    <path d="M41.3365714,24.2457143 C40.4777143,24.6271429 39.5545714,24.8834286 38.5877143,24.9991429 C39.5751429,24.4085714 40.3354286,23.4691429 40.692,22.3505714 C39.7688571,22.9 38.7437143,23.2977143 37.6517143,23.5128571 C36.7765714,22.582 35.532,22 34.158,22 C31.5128571,22 29.37,24.1445714 29.37,26.7862857 C29.37,27.1617143 29.4128571,27.5277143 29.4942857,27.8765714 C25.5162857,27.6785714 21.9891429,25.7705714 19.6268571,22.8742857 C19.2154286,23.5822857 18.9788571,24.4042857 18.9788571,25.2828571 C18.9788571,26.944 19.824,28.408 21.108,29.2668571 C20.3228571,29.242 19.5848571,29.026 18.9402857,28.6677143 C18.9394286,28.6874286 18.9394286,28.7097143 18.9394286,28.7277143 C18.9394286,31.048 20.5894286,32.9834286 22.7802857,33.424 C22.3782857,33.5328571 21.954,33.5868571 21.5185714,33.5868571 C21.21,33.5868571 20.91,33.5577143 20.6177143,33.4985714 C21.2271429,35.404 22.9945714,36.7848571 25.0894286,36.8251429 C23.4514286,38.1074286 21.3874286,38.8762857 19.1425714,38.8762857 C18.756,38.8762857 18.3745714,38.8565714 18,38.812 C20.1188571,40.1662857 22.6354286,40.9625714 25.3388571,40.9625714 C34.1425714,40.9625714 38.9597143,33.6648571 38.9597143,27.3382857 C38.9597143,27.1308571 38.9562857,26.926 38.9468571,26.7194286 C39.8837143,26.0491429 40.6954286,25.2057143 41.3365714,24.2457143 Z" id="Path" fill="#000000"></path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </a>
+
+                                <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" target="_blank">
+                                    <svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g id="social-fb-round" fill-rule="nonzero">
+                                                <circle id="Oval" fill="#FFAE0D" cx="30" cy="30" r="30"></circle>
+                                                <path d="M27.5307143,40.3807143 L27.5307143,30.8171429 L25,30.8171429 L25,27.3742857 L27.5307143,27.3742857 C27.5307143,27.3742857 27.5307143,25.9621429 27.5307143,24.4335714 C27.5307143,22.1235714 29.0221429,20 32.4642857,20 C33.8585714,20 34.89,20.1342857 34.89,20.1342857 L34.8092857,23.3485714 C34.8092857,23.3485714 33.7585714,23.3385714 32.6121429,23.3385714 C31.3735714,23.3385714 31.1728571,23.9121429 31.1728571,24.8607143 C31.1728571,25.6128571 31.1728571,23.2592857 31.1728571,27.375 L34.9078571,27.375 L34.7442857,30.8178571 L31.1714286,30.8178571 L31.1714286,40.3814286 L27.5307143,40.3807143 L27.5307143,40.3807143 Z" id="Path" fill="#000000"></path>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="column-m-12-nest column-d-1"></div>
+                        </div>
+                    </header>
+
+                    <body class="post-single__body">
+                        <div class="row row--justified">
+                            <div class="column-m-12-nest column-d-1"></div>
+                            <div class="column-m-12-nest column-t-10 column-d-8">
+                                {{ content }}
+                            </div>
+                            <div class="column-m-12-nest column-t-2"></div>
+                            <div class="column-m-12-nest column-d-1"></div>
+                        </div>
+                    </body>
+                </article>
+            </div>
+        </section>
+
+        <section class="block block__related-posts">
+            <div class="container">
+                <span class="divider divider--top"></span>
+                <h2 class="section-heading">Related News</h2>
+                <div class="post__grid">
+
+                    {% assign count_check = false %}
+                    {% for item in site.posts limit:4 %}
+                        {% if item.url == page.url %}
+                            {% assign count_check = true %}
+                        {% endif %}
+                    {% endfor %}
+
+                    {% if count_check == false %}
+                        {% for item in site.posts limit:4 %}
+                            <a class="post__post" href="{{ item.url }}">
+                                <div class="post__post-thumbnail">
+                                    <img src="{{ item.image }}">
+                                </div>
+                                <div class="post__post-content">
+                                    <h4>{{ item.categories | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</h4>
+                                    <h3>{{ item.title}}</h3>
+                                    <p class="date">{{ item.date | date: "%-d %B %Y" }}</p>
+                                    <span class="button">Read More</span>
+                                </div>
+                            </a>
+                        {% endfor %}
+                    {% else %}
+                        {% for item in site.posts limit:5 %}
+                            {% if item.url != page.url %}
+                                <a class="post__post" href="{{ item.url }}">
+                                    <div class="post__post-thumbnail">
+                                        <img src="{{ item.image }}">
+                                    </div>
+                                    <div class="post__post-content">
+                                        <h4>{{ item.categories | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</h4>
+                                        <h3>{{ item.title}}</h3>
+                                        <p class="date">{{ item.date | date: "%-d %B %Y" }}</p>
+                                        <span class="button">Read More</span>
+                                    </div>
+                                </a>
+                            {% endif%}
+                        {% endfor %}
+                    {% endif %}
+                </div>
+            </div>
+        </section>
+    </main>
+    {% include site-footer.html %}
+    <script type="text/javascript" src="{{site.baseurl}}/assets/js/main.js"></script>
+</body>
+
+</html>

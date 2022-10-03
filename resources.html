@@ -1,0 +1,52 @@
+---
+layout: page
+title: Resources
+---
+
+<section class="block block__hero">
+    <div class="container">
+        <div class="hero__head row row--justified row--middle">
+            <a href="{{site.url}}" class="brand">
+                <img class="brand" src="{{ site.data.site.site_logo }}" alt="Logo">
+            </a>
+            {% include menu-trigger.html %}
+            {% include nav-primary.html %}
+        </div>
+
+        <div class="hero__content">
+            <h1 class="no-margin">Resources</h1>
+        </div>
+    </div>
+</section>
+
+<section class="block block__resources">
+    <div class="container">
+        <div class="resources__filter">
+            <span>Filter:</span>
+            <button class="all active" data-resources-id="all">All</button>
+            <button class="blue" data-resources-id="teaching-learning">Teaching & Learning</button>
+            <button class="green" data-resources-id="software-code">Software & Code</button>
+            <button class="yellow" data-resources-id="additional-resources">Additional Resources</button>
+        </div>
+        <div class="resources__grid">
+            {% for post in site.resources %}
+                {% if post.link != nil %}
+                    <a class="resources__resource resources__resource--{{ post.category }}" data-resources-value="{{ post.category }}" href="{{ post.link }}" rel="noreferrer" target="_blank">
+                        <div>
+                            <h3>{{ post.title }}</h3>
+                            {{ post.excerpt | markdownify }}
+                        </div>
+                        <span class="button">Read More</span>
+                    </a>
+                {% else %}
+                    <span class="resources__resource resources__resource--{{ post.category }}" data-resources-value="{{ post.category }}">
+                        <div>
+                            <h3>{{ post.title }}</h3>
+                            {{ post.excerpt | markdownify }}
+                        </div>
+                    </span>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>

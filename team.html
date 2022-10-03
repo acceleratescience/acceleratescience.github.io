@@ -1,0 +1,128 @@
+---
+layout: page
+title: Team
+---
+
+<section class="block block__hero">
+    <div class="container">
+        <div class="hero__head row row--justified row--middle">
+            <a href="{{site.url}}" class="brand">
+                <img class="brand" src="{{ site.data.site.site_logo }}" alt="Logo">
+            </a>
+            {% include menu-trigger.html %}
+            {% include nav-primary.html %}
+        </div>
+
+        <div class="hero__content">
+            <h1 class="no-margin">Team</h1>
+        </div>
+    </div>
+</section>
+
+<section class="block block__team">
+    <div class="container">
+        <div class="team__tabs">
+            <button class="active" data-team-id="main">Our Team</button>
+            <button data-team-id="advisory-group">Advisory Group</button>
+            <button data-team-id="alumni">Alumni</button>
+        </div>
+
+        <div class="team__grid" data-team-content="main">
+            {% for item in site.team %}
+                {% if item.group == "main" or item.group == null %}
+                    <a href="{{ item.url }}" class="team__member">
+                        <div class="team__member-image">
+                            {% assign person_image = item.image %}
+                            {% assign person_name = item.name %}
+                            {% assign person_prefix = item.prefix %}
+                            {% assign person_suffix = item.suffix %}
+                            {% assign person_institution = item.institution %}
+                            {% assign person_position = item.position %}
+
+                            {% if person_image.size >= 1 %}
+                                <img src="{{ person_image }}" alt="Image of {{ person_name }}">
+                            {% else %}
+                                <img src="{{site.baseurl}}/assets/images/placeholder.jpg">
+                            {% endif %}
+                        </div>
+                        <div class="team__member-details">
+                            <h3>
+                                {{ person_prefix }}
+                                {{ person_name }}
+                                {{ person_suffix }}
+                            </h3>
+                            {% if person_institution.size >= 1 %}
+                                <p>{{ person_institution }}</p>
+                            {% endif %}
+                            {% if person_position.size >= 1 %}
+                                <p>{{ person_position }}</p>
+                            {% endif %}
+                            <span class="button">Read Bio</span>
+                        </div>
+                    </a>
+                {% endif %}
+            {% endfor %}
+        </div>
+
+        <div class="team__grid inactive" data-team-content="advisory-group">
+            {% for item in site.team %}
+                {% if item.group == "advisory-group" %}
+                    <a href="{{ item.url }}" class="team__member">
+                        <div class="team__member-image">
+                            {% assign person_image = item.image %}
+                            {% assign person_name = item.name %}
+                            {% assign person_institution = item.institution %}
+                            {% assign person_position = item.position %}
+
+                            {% if person_image.size >= 1 %}
+                                <img src="{{ person_image }}" alt="Image of {{ person_name }}">
+                            {% else %}
+                                <img src="{{site.baseurl}}/assets/images/placeholder.jpg">
+                            {% endif %}
+                        </div>
+                        <div class="team__member-details">
+                            <h3>{{ person_name }}</h3>
+                            {% if person_institution.size >= 1 %}
+                                <p>{{ person_institution }}</p>
+                            {% endif %}
+                            {% if person_position.size >= 1 %}
+                                <p>{{ person_position }}</p>
+                            {% endif %}
+                            <span class="button">Read Bio</span>
+                        </div>
+                    </a>
+                {% endif %}
+            {% endfor %}
+        </div>
+        <div class="team__grid inactive" data-team-content="alumni">
+            {% for item in site.team %}
+                {% if item.group == "alumni" %}
+                    <a href="{{ item.url }}" class="team__member">
+                        <div class="team__member-image">
+                            {% assign person_image = item.image %}
+                            {% assign person_name = item.name %}
+                            {% assign person_institution = item.institution %}
+                            {% assign person_position = item.position %}
+
+                            {% if person_image.size >= 1 %}
+                                <img src="{{ person_image }}" alt="Image of {{ person_name }}">
+                            {% else %}
+                                <img src="{{site.baseurl}}/assets/images/placeholder.jpg">
+                            {% endif %}
+                        </div>
+                        <div class="team__member-details">
+                            <h3>{{ person_name }}</h3>
+                            {% if person_institution.size >= 1 %}
+                                <p>{{ person_institution }}</p>
+                            {% endif %}
+                            {% if person_position.size >= 1 %}
+                                <p>{{ person_position }}</p>
+                            {% endif %}
+                            <span class="button">Read Bio</span>
+                        </div>
+                    </a>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>

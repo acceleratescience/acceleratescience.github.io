@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>Accelerate</title>
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/style.css">
+    <script type="text/javascript" src="{{site.baseurl}}/assets/js/jquery-3.6.0.min.js"></script>
+</head>
+
+<body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">
+    {% include site-header.html %}
+    <main class="main">
+        <section class="block block__hero">
+            <div class="container">
+                <div class="hero__head row row--justified row--middle">
+                    <a href="{{site.url}}" class="brand">
+                        <img class="brand" src="{{ site.data.site.site_logo }}" alt="Logo">
+                    </a>
+                    {% include menu-trigger.html %}
+                    {% include nav-primary.html %}
+                </div>
+
+                <div class="hero__content">
+                    <a href="{{site.url}}/team/" class="button button--back">
+                        <svg width="20px" height="12px" viewBox="0 0 20 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="Home-Concept-v1.0-b" transform="translate(-1583.000000, -759.000000)" fill="#DB3900">
+                                    <g id="Down" transform="translate(1583.000000, 759.000000)">
+                                        <rect id="Rectangle" x="8" y="8" width="4" height="4"></rect>
+                                        <rect id="Rectangle" x="4" y="4" width="4" height="4"></rect>
+                                        <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                                        <rect id="Rectangle" x="12" y="4" width="4" height="4"></rect>
+                                        <rect id="Rectangle" x="16" y="0" width="4" height="4"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                        <p>Back to team</p>
+                    </a>
+                    <h1>{{ page.prefix }} {{ page.name }} {{ page.suffix }}</h1>
+                </div>
+            </div>
+        </section>
+
+        <section class="block block__team-profile">
+            <div class="container">
+                <div class="row row--justified">
+                    <div class="column-m-12 column-t-7 column-d-8">
+                        <div class="team-profile__biography">
+                            <h2 class="section-heading">Biography</h2>
+                            {{ page.biography | markdownify }}
+                            {{ page.content | markdownify }}
+                        </div>
+                    </div>
+
+                    <div class="column-m-12 column-t-5 column-d-3">
+                        <div class="team-profile__image">
+                            {% if page.image != nil %}
+                            <img src="{{ page.image }}" alt="Image of {{ page.prefix }} {{ page.name }} {{ page.suffix }}">
+                            {% else %}
+                            <img src="{{site.baseurl}}/assets/images/placeholder.jpg">
+                            {% endif %}
+                        </div>
+                        <div class="team-profile__profile">
+                            {% if page.institution != nil %}
+                            <p><strong>Institution:</strong> {{ page.institution }}</p>
+                            {% endif %}
+                            {% if page.department != nil %}
+                            <p><strong>Department:</strong> {{ page.department }}</p>
+                            {% endif %}
+                            {% if page.position != nil %}
+                            <p><strong>Position:</strong> {{ page.position }}</p>
+                            {% endif %}
+                            {% if page.team != nil %}
+                            <p><strong>Team:</strong> {{ page.team }}</p>
+                            {% endif %}
+                            {% if page.supervisor != nil %}
+                            <p><strong>Supervisor:</strong> {{ page.supervisor }}</p>
+                            {% endif %}
+                            {% if page.start != nil %}
+                            <p><strong>Start Date:</strong> {{ page.start }}</p>
+                            {% endif %}
+                            {% if page.end != nil %}
+                            <p><strong>End Date:</strong> {{ page.end }}</p>
+                            {% endif %}
+                            {% if page.scholar != nil %}
+                            <p><strong>Scholar:</strong> {{ page.scholar }}</p>
+                            {% endif %}
+                            {% if page.crsid != nil %}
+                            <p><strong>CRSID:</strong> {{ page.crsid }}</p>
+                            {% endif %}
+                            {% if page.orcid != nil %}
+                            <p><strong>ORCID:</strong> {{ page.orcid }}</p>
+                            {% endif %}
+                        </div>
+                        {% if page.email != nil or page.website != nil or page.twitter != nil or page.github != nil or page.linkedin != nil %}
+                        <div class="team-profile__contact">
+                            <h2 class="section-heading">Contact</h2>
+                            {% if page.email != nil %}
+                            <a href="mailto:{{ page.email }}">{{ page.email }}</a>
+                            {% endif %}
+                            {% if page.website != nil %}
+                            <a href="{{ page.website }}" target="_blank" rel="noreferrer">{{ page.website }}</a>
+                            {% endif %}
+
+                            <div class="team-profile__contact-socials">
+                                {% if page.github != nil %}
+                                <a href="{{page.github}}" target="_blank" rel="noreferrer">
+                                    <svg height="512px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g>
+                                            <path fill-rule="evenodd" clip-rule="evenodd" fill="#0000FF" d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z" />
+                                        </g>
+                                    </svg>
+                                </a>
+                                {% endif %}
+                                {% if page.linkedin != nil %}
+                                <a href="{{page.linkedin}}" target="_blank" rel="noreferrer">
+                                    <svg width="21px" height="21px" viewBox="0 0 10 10" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g id="social-li-dark" fill="#0000FF" fill-rule="nonzero">
+                                                <path d="M2.14285714,10 L0,10 L0,3 L2.14285714,3 L2.14285714,10 Z M10,10 L7.85714286,10 L7.85714286,6.2606 C7.85714286,5.2862 7.50285714,4.8011 6.80071429,4.8011 C6.24428571,4.8011 5.89142857,5.0727 5.71428571,5.6166 C5.71428571,6.5 5.71428571,10 5.71428571,10 L3.57142857,10 C3.57142857,10 3.6,3.7 3.57142857,3 L5.26285714,3 L5.39357143,4.4 L5.43785714,4.4 C5.87714286,3.7 6.57928571,3.2254 7.54214286,3.2254 C8.27428571,3.2254 8.86642857,3.4249 9.31857143,3.9261 C9.77357143,4.428 10,5.1014 10,6.0471 L10,10 Z" id="Shape"></path>
+                                                <circle id="Oval" cx="1" cy="1" r="1"></circle>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </a>
+                                {% endif %}
+                                {% if page.twitter != nil %}
+                                <a href="{{page.twitter}}" target="_blank" rel="noreferrer">
+                                    <svg width="26px" height="21px" viewBox="0 0 10 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                        <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g id="social-tw-dark" transform="translate(-7.000000, -8.000000)">
+                                                <g id="Play"></g>
+                                                <g id="Path" transform="translate(7.000000, 8.000000)" fill="#0000FF" fill-rule="nonzero">
+                                                    <path d="M9.86178571,1.21954286 C9.50392858,1.37211428 9.11928571,1.47462857 8.71642858,1.52091428 C9.12785713,1.28468572 9.44464288,0.908914284 9.59321429,0.461485716 C9.20857142,0.681257144 8.78142858,0.840342856 8.32642858,0.9264 C7.96178571,0.554057144 7.44321429,0.321257143 6.87071429,0.321257143 C5.76857142,0.321257143 4.87571429,1.17908572 4.87571429,2.23577143 C4.87571429,2.38594286 4.89357142,2.53234286 4.9275,2.67188572 C3.27,2.59268572 1.80035714,1.82948572 0.816071429,0.670971428 C0.644642858,0.954171428 0.546071429,1.28297143 0.546071429,1.6344 C0.546071429,2.29885714 0.898214288,2.88445714 1.43321429,3.228 C1.10607143,3.21805714 0.798571429,3.13165714 0.53,2.98834286 C0.529642858,2.99622857 0.529642858,3.00514286 0.529642858,3.01234286 C0.529642858,3.94045714 1.21714286,4.71462856 2.13,4.89085716 C1.9625,4.9344 1.78571429,4.956 1.60428571,4.956 C1.47571429,4.956 1.35071429,4.94434284 1.22892857,4.92068572 C1.48285714,5.68285716 2.21928571,6.2352 3.09214286,6.25131428 C2.40964286,6.76422856 1.54964286,7.07177144 0.614285713,7.07177144 C0.453214288,7.07177144 0.294285714,7.06388572 0.138214286,7.04605716 C1.02107143,7.58777144 2.06964286,7.90628572 3.19607143,7.90628572 C6.86428571,7.90628572 8.87142858,4.9872 8.87142858,2.45657143 C8.87142858,2.3736 8.87,2.29165714 8.86607142,2.20902857 C9.25642858,1.94091428 9.59464288,1.60354286 9.86178571,1.21954286 Z"></path>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                </a>
+                                {% endif %}
+                            </div>
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        {% for post in site.publications %}
+        {% for item in post.authors.internal_authors %}
+        {% if page.slug == item %}
+            {% assign relatedPublications = true %}
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+
+        {% if relatedPublications == true %}
+            <section class="block block__related-publications">
+                <div class="container">
+                    <h2 class="section-heading">Related Papers</h2>
+                    <div class="papers__grid">
+                        {% for post in site.publications %}
+                        {% for item in post.authors.internal_authors %}
+                        {% if page.slug == item %}
+                        <a href="{{ post.url }}" class="papers__item">
+                            <div>
+                                <h3>{{ post.title}}</h3>
+                                <h4>{{ post.published | replace: "-", "/" }}</h4>
+                                <div class="authors">
+                                    {% for author in post.authors.internal_authors %}
+                                    {% assign authorName = author %}
+                                    {% for person in site.team %}
+                                    {% if person.slug == authorName %}
+                                    <p>
+                                        {{ person.name }},
+                                    </p>
+                                    {% endif %}
+                                    {% endfor %}
+                                    {% endfor %}
+                                    {% for author in post.authors.external_authors %}
+                                    <p>
+                                        {{author.given}}
+                                        {{author.family}},
+                                    </p>
+                                    {% endfor %}
+                                    {% for author in post.authors.consortium_authors %}
+                                    <p>{{author.name}},</p>
+                                    {% endfor %}
+                                </div>
+                                {% if post.details.journal != nil or post.published != nil or post.details.pages != nil %}
+                                <p class="journal">
+                                    {{post.details.journal}}
+                                    {% if post.published != nil %}
+                                    ({{post.published | slice: 0, 4 }})
+                                    {% endif %}
+                                    {{post.details.pages}}
+                                </p>
+                                {% endif %}
+                                {% if post.details.doi != nil %}
+                                <p class="doi">
+                                    DOI: {{post.details.doi}}
+                                </p>
+                                {% endif %}
+                            </div>
+                            <span class="button">Read Paper</span>
+                        </a>
+                        {% endif %}
+                        {% endfor %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </section>
+        {% endif %}
+    </main>
+    {% include site-footer.html %}
+    <script type="text/javascript" src="{{site.baseurl}}/assets/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,145 @@
+---
+layout: page
+title: Software Engineering
+---
+
+{% assign hero_title = site.data.software-engineering.hero.title %}
+{% assign hero_content = site.data.software-engineering.hero.content %}
+{% assign hero_link = site.data.software-engineering.hero.link %}
+
+{% assign text_heading = site.data.software-engineering.text.heading %}
+{% assign text_content = site.data.software-engineering.text.content %}
+{% assign text_link = site.data.software-engineering.text.link %}
+
+{% assign image_text_image = site.data.software-engineering.image_text.image %}
+{% assign image_text_heading = site.data.software-engineering.image_text.heading %}
+{% assign image_text_content = site.data.software-engineering.image_text.content %}
+{% assign image_text_link = site.data.software-engineering.image_text.link %}
+
+{% assign image_text_flipped_image = site.data.software-engineering.image_text_flipped.image %}
+{% assign image_text_flipped_heading = site.data.software-engineering.image_text_flipped.heading %}
+{% assign image_text_flipped_content = site.data.software-engineering.image_text_flipped.content %}
+{% assign image_text_flipped_link = site.data.software-engineering.image_text_flipped.link %}
+
+<section class="block block__hero">
+    <div class="container">
+        <div class="hero__head row row--justified row--middle">
+            <a href="{{site.url}}" class="brand">
+                <img class="brand" src="{{ site.data.site.site_logo }}" alt="Logo">
+            </a>
+            {% include menu-trigger.html %}
+            {% include nav-primary.html %}
+        </div>
+
+        <div class="hero__content">
+            {% if hero_title.size >= 1 %}
+                <h1 class="no-margin">{{ hero_title }}</h1>
+            {% endif %}
+
+            {% if hero_content.size >= 1 %}
+                <p>{{ hero_content }}</p>
+            {% endif %}
+
+            {% if hero_link.size >= 1 %}
+                <a href="{{ hero_link }}" class="button button--white">Read More</a>
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+<section class="block block__text block__text--dual-column">
+    <div class="container">
+        {% if text_heading.size >= 1 %}
+            <h2 class="section-heading">{{ text_heading }}</h2>
+        {% endif %}
+        {% if text_content.size >= 1 %}
+            <div class="text__content">
+                {{ text_content | markdownify }}
+            </div>
+        {% endif %}
+    </div>
+</section>
+
+<section class="block block__media-text block__media-text--large">
+    <div class="container container--float container--float-right">
+        <div class="row row--justified">
+            <div class="media-text__media">
+                {% if image_text_image.size >= 1 %}
+                    <img src="{{ image_text_image }}">
+                {% endif %}
+            </div>
+            <div class="media-text__content">
+                {% if image_text_heading.size >= 1 %}
+                    <h2 class="section-heading">{{ image_text_heading }}</h2>
+                {% endif %}
+                {% if image_text_content.size >= 1 %}
+                    <p>{{ image_text_content }}</p>
+                {% endif %}
+                {% if image_text_link.size >= 1 %}
+                    <a href="{{ image_text_link }}" class="button">Read More</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="block block__media-text block__media-text--large block__media-text--flipped">
+    <div class="container container--float container--float-left">
+        <div class="row row--justified">
+            <div class="media-text__content">
+                {% if image_text_flipped_heading.size >= 1 %}
+                    <h2 class="section-heading">{{ image_text_flipped_heading }}</h2>
+                {% endif %}
+                {% if image_text_flipped_content.size >= 1 %}
+                    <p>{{ image_text_flipped_content }}</p>
+                {% endif %}
+                {% if image_text_flipped_link.size >= 1 %}
+                    <a href="{{ image_text_flipped_link }}" class="button">Read More</a>
+                {% endif %}
+            </div>
+            <div class="media-text__media">
+                {% if image_text_flipped_image.size >= 1 %}
+                    <img src="{{ image_text_flipped_image }}">
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="block block__related-posts">
+    <div class="container">
+        <h2 class="section-heading">Related Content</h2>
+        <div class="posts__grid post__grid">
+            {% for post in site.posts limit:4 %}
+                <a class="post__post post__post--standard" href="{{ post.url }}">
+                    <div class="post__post-thumbnail">
+                        <img src="{{ post.featured_image }}">
+                    </div>
+                    <div class="post__post-content">
+                        <h4>{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</h4>
+                        <h3>{{ post.title}}</h3>
+                        <p class="date">{{ post.date | date: "%-d %B %Y" }}</p>
+                        <span class="button">Read More</span>
+                    </div>
+                </a>
+            {% endfor %}
+        </div>
+        <span class="divider divider--bottom"></span>
+    </div>
+</section>
+
+<section class="block block__related-resources">
+    <div class="container">
+        <h2 class="section-heading">Related Resources</h2>
+        <div class="resources__grid">
+            {% for post in site.resources %}
+                <a class="resources__resource resources__resource--{{ post.category }}" data-resources-value="{{ post.category }}" href="{{ post.url }}">
+                    <div>
+                        <h3>{{ post.title }}</h3>
+                    </div>
+                    <span class="button">Read More</span>
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+</section>

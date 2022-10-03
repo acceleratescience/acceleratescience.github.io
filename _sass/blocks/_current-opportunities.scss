@@ -1,0 +1,142 @@
+.block__current-opportunities {
+    margin: 4rem 0;
+
+    @include bp(desktop) {
+        margin: 10rem 0;
+    }
+
+    @include bp(desktop-xl) {
+        margin: 14rem 0;
+    }
+
+    .section-heading {
+        margin-bottom: 4rem;
+        font-size: 3.2rem;
+        line-height: 4.2rem;
+        letter-spacing: 0.27px;
+
+        @include bp(desktop) {
+            margin-bottom: 9rem;
+        }
+    }
+
+    .current-opportunities__list {
+        margin: 0 0 4rem 0;
+        padding: 0;
+        list-style: none;
+
+        @include bp(tablet) {
+            margin: 0;
+        }
+
+        .current-opportunities__listing {
+            margin-bottom: 2rem;
+            padding-bottom: 2rem;
+            border-bottom: 1px solid $regular-grey;
+
+            @include bp(tablet) {
+                margin-bottom: 4rem;
+                padding-bottom: 3rem;
+            }
+
+            &:last-of-type {
+                margin-bottom: 0;
+                padding-bottom: 0;
+                border-bottom: none;
+            }
+
+            h3 {
+                margin-bottom: 2rem;
+                font-size: 2.4rem;
+                line-height: 3.1rem;
+                letter-spacing: 0.2px;
+                color: $charcoal;
+            }
+
+            p {
+                margin-top: 0;
+                font-size: 1.6rem;
+                line-height: 2.5rem;
+                color: $charcoal;
+
+                &:last-of-type {
+                    margin-bottom: 0;
+                }
+            }
+
+            .button {
+                margin-top: 2rem;
+            }
+        }
+    }
+
+    .current-opportunities__contact {
+        padding: 4rem 3rem;
+        background-color: $light-grey;
+        border-radius: 12px;
+
+        @include bp(tablet) {
+            padding: 3rem 2rem;
+        }
+
+        @include bp(desktop) {
+            padding: 4rem 3rem;
+        }
+
+        @include bp(desktop-xl) {
+            padding: 6rem 3.5rem;
+        }
+
+        .current-opportunities__contact-address,
+        .current-opportunities__contact-email {
+            display: flex;
+            align-items: flex-start;
+
+            img {
+                width: 30px;
+                height: auto;
+                margin-right: 2rem;
+                display: block;
+                transform: translateY(2px);
+
+                @include bp(desktop-xl) {
+                    width: 40px;
+                    margin-right: 3rem;
+                }
+            }
+
+            p,
+            a {
+                font-size: 1.6rem;
+                line-height: 2.2rem;
+                color: $charcoal;
+
+                @include bp(desktop-xl) {
+                    font-size: 1.8rem;
+                    line-height: 2.8rem;
+                }
+            }
+
+            p {
+                margin: 0;
+            }
+
+            a {
+                text-decoration: none;
+            }
+        }
+
+        .current-opportunities__contact-email {
+            margin-top: 4rem;
+            align-items: center;
+
+            a {
+                display: block;
+            }
+        }
+    }
+
+    .contact__form {
+        margin-top: 3rem;
+    }
+}

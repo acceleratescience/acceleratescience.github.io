@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
+    <title>Accelerate</title>
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/style.css">
+    <script type="text/javascript" src="{{site.baseurl}}/assets/js/jquery-3.6.0.min.js"></script>
+</head>
+
+<body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">
+    {% include site-header.html %}
+    <main class="main">
+        <section class="block block__hero block__hero--medium" id="hero">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.3/dat.gui.min.js"></script>
+            <script src="https://mrdoob.github.io/stats.js/build/stats.min.js"></script>
+
+            <canvas id="c"></canvas>
+
+            <div class="container">
+                <div class="hero__head row row--justified row--middle">
+                    <a href="{{site.url}}" class="brand">
+                        <img class="brand" src="{{ site.data.site.site_logo }}" alt="Logo">
+                    </a>
+                    {% include menu-trigger.html %}
+                    {% include nav-primary.html %}
+                </div>
+
+                <div class="hero__content">
+                    <a href="{{site.url}}/projects/" class="button button--back">
+                        <svg width="20px" height="12px" viewBox="0 0 20 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                <g id="Home-Concept-v1.0-b" transform="translate(-1583.000000, -759.000000)" fill="#DB3900">
+                                    <g id="Down" transform="translate(1583.000000, 759.000000)">
+                                        <rect id="Rectangle" x="8" y="8" width="4" height="4"></rect>
+                                        <rect id="Rectangle" x="4" y="4" width="4" height="4"></rect>
+                                        <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                                        <rect id="Rectangle" x="12" y="4" width="4" height="4"></rect>
+                                        <rect id="Rectangle" x="16" y="0" width="4" height="4"></rect>
+                                    </g>
+                                </g>
+                            </g>
+                        </svg>
+                        <p>Back to projects</p>
+                    </a>
+                    <h1>{{ page.title }}</h1>
+                </div>
+            </div>
+        </section>
+
+        <section class="block block__research-overview">
+            <div class="container">
+                <div class="row row--justified">
+                    <div class="research-overview__heading column-m-12-nest column-t-3">
+                        <h2 class="section-heading">Project Overview</h2>
+                    </div>
+                    <div class="research-overview__content column-m-12-nest column-t-8">
+                        {{ page.content | markdownify }}
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        {% if page.people != nil %}
+            <section class="block block__related-people">
+                <div class="container">
+                    <h2 class="section-heading">Related People</h2>
+                    <div class="team__grid">
+                        {% for item in page.people %}
+                            {% assign people_slug = item %}
+
+
+                            {% for item in site.team %}
+                                {% if item.title == people_slug %}
+                                    {% assign person_image = item.image %}
+                                    {% assign person_name = item.name %}
+                                    {% assign person_institution = item.institution %}
+                                    {% assign person_position = item.position %}
+
+                                    <div class="team__member">
+                                        <div class="team__member-image">
+                                            {% if person_image.size >= 1 %}
+                                            <img src="{{ person_image }}" alt="Image of {{ person_name }}">
+                                            {% else %}
+                                            <img src="{{site.baseurl}}/assets/images/placeholder.jpg">
+                                            {% endif %}
+                                        </div>
+                                        <div class="team__member-details">
+                                            <h3>{{ person_name }}</h3>
+                                            {% if person_institution.size >= 1 %}
+                                                <p>{{ person_institution }}</p>
+                                            {% endif %}
+                                            {% if person_position.size >= 1 %}
+                                                <p>{{ person_position }}</p>
+                                            {% endif %}
+                                            <a class="button" href="{{ item.url }}">Read Bio</a>
+                                        </div>
+                                    </div>
+                                {% endif %}
+                            {% endfor %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </section>
+        {% endif %}
+
+        {% if page.publications != nil %}
+            <section class="block block__related-publications">
+                <div class="container">
+                    <h2 class="section-heading">Related Papers</h2>
+                    <div class="papers__grid">
+                        {% for item in page.publications %}
+                            {% assign publication_slug = item %}
+
+                            {% for item in site.publications %}
+
+                                {% assign slug = item.published | append: '-' | append: item.slug %}
+
+                                {% if slug == publication_slug %}
+                                    <a href="{{ item.url }}" class="papers__item">
+                                        <div>
+                                            <h3>{{ item.title}}</h3>
+                                            <h4>{{ item.published | replace: "-", "/" }}</h4>
+                                            <div class="authors">
+                                                {% for author in item.authors.internal_authors %}
+                                                {% assign authorName = author %}
+                                                {% for person in site.team %}
+                                                {% if person.slug == authorName %}
+                                                <p>
+                                                    {{ person.name }},
+                                                </p>
+                                                {% endif %}
+                                                {% endfor %}
+                                                {% endfor %}
+                                                {% for author in item.authors.external_authors %}
+                                                <p>
+                                                    {{author.given}}
+                                                    {{author.family}},
+                                                </p>
+                                                {% endfor %}
+                                                {% for author in item.authors.consortium_authors %}
+                                                <p>{{author.name}},</p>
+                                                {% endfor %}
+                                            </div>
+                                            {% if item.details.journal != nil or item.published != nil or item.details.pages != nil %}
+                                            <p class="journal">
+                                                {{item.details.journal}}
+                                                {% if item.published != nil %}
+                                                ({{item.published | slice: 0, 4 }})
+                                                {% endif %}
+                                                {{item.details.pages}}
+                                            </p>
+                                            {% endif %}
+                                            {% if item.details.doi != nil %}
+                                            <p class="doi">
+                                                DOI: {{item.details.doi}}
+                                            </p>
+                                            {% endif %}
+                                        </div>
+                                        <span class="button">Read Paper</span>
+                                    </a>
+                                {% endif %}
+                            {% endfor %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </section>
+        {% endif %}
+
+        {% if page.resources != nil %}
+            <section class="block block__resources">
+                <div class="container">
+                    <h2 class="section-heading">Resources</h2>
+                    <div class="resources__grid">
+                        {% for item in page.resources %}
+                            {% assign resource_slug = item %}
+
+                            {% for item in site.resources %}
+                                {% if item.slug == resource_slug %}
+                                    {% if item.link != nil %}
+                                        <a class="resources__resource resources__resource--{{ item.category }}" data-resources-value="{{ item.category }}" href="{{ item.link }}" rel="noreferrer" target="_blank">
+                                            <div>
+                                                <h3>{{ item.title }}</h3>
+                                                {{ item.excerpt | markdownify }}
+                                            </div>
+                                            <span class="button">Read More</span>
+                                        </a>
+                                        {% else %}
+                                        <span class="resources__resource resources__resource--{{ item.category }}" data-resources-value="{{ item.category }}">
+                                            <div>
+                                                <h3>{{ item.title }}</h3>
+                                                {{ item.excerpt | markdownify }}
+                                            </div>
+                                        </span>
+                                    {% endif %}
+                                {% endif %}
+                            {% endfor %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </section>
+        {% endif %}
+
+
+        {% capture the_collection %}{{page.collection}}{% endcapture %}
+        {% if page.collection %}
+            {% assign  document = site[the_collection] | sort: "date" | reversed %}
+        {% endif %}
+
+        {% for links in document %}
+            {% if links.title == page.title %}
+                {% unless forloop.first %}
+                    {% assign prevurl = prev.url %}
+
+                    {% assign prevtitle = prev.title %}
+                {% endunless %}
+
+                {% unless forloop.last %}
+                    {% assign next = document[forloop.index] %}
+
+                    {% assign nexturl = next.url %}
+
+                    {% assign nexttitle = next.title %}
+                {% endunless %}
+            {% endif %}
+
+        {% assign prev = links %}
+        {% endfor %}
+
+        {% if prevurl or nexturl %}
+            <section class="block block__related-projects">
+                {% if prevurl %}
+                    <a href="{{prevurl}}" class="related-projects__project related-projects__project--prev">
+                        <p>Prev Project</p>
+                        <h2>{{prevtitle}}</h2>
+                    </a>
+                {% else %}
+                    <span class="related-projects__project related-projects__project--prev">
+                    </span>
+                {% endif %}
+
+                {% if nexturl %}
+                    <a href="{{nexturl}}" class="related-projects__project related-projects__project--next">
+                        <p>Next Project</p>
+                        <h2>{{nexttitle}}</h2>
+                    </a>
+                {% else %}
+                    <span class="related-projects__project related-projects__project--next">
+                    </span>
+                {% endif %}
+            </section>
+        {% endif %}
+    </main>
+    {% include site-footer.html %}
+    <script type="text/javascript" src="{{site.baseurl}}/assets/js/main.js"></script>
+</body>
+
+</html>

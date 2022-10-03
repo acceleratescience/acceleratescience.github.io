@@ -1,0 +1,138 @@
+---
+layout: page
+title: About Us
+---
+
+{% assign hero_title = site.data.about-us.hero.title %}
+{% assign hero_content = site.data.about-us.hero.content %}
+{% assign hero_link = site.data.about-us.hero.link %}
+
+{% assign image_text_image = site.data.about-us.image_text.image %}
+{% assign image_text_heading = site.data.about-us.image_text.heading %}
+{% assign image_text_content = site.data.about-us.image_text.content %}
+{% assign image_text_link = site.data.about-us.image_text.link %}
+
+<section class="block block__hero">
+    <div class="container">
+        <div class="hero__head row row--justified row--middle">
+            <a href="{{site.url}}" class="brand">
+                <img class="brand" src="{{ site.data.site.site_logo }}" alt="Logo">
+            </a>
+            {% include menu-trigger.html %}
+            {% include nav-primary.html %}
+        </div>
+
+        <div class="hero__content">
+            {% if hero_title.size >= 1 %}
+                <h1 class="no-margin">{{ hero_title }}</h1>
+            {% endif %}
+
+            {% if hero_content.size >= 1 %}
+                <p>{{ hero_content }}</p>
+            {% endif %}
+
+            {% if hero_link.size >= 1 %}
+                <a href="{{ hero_link }}" class="button button--white">Read More</a>
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+<section class="block block__media-text block__media-text--standard">
+    <div class="container">
+        <div class="row row--justified">
+            <div class="media-text__media column-m-12-nest column-d-5">
+                {% if image_text_image.size >= 1 %}
+                    <img src="{{ image_text_image }}">
+                {% endif %}
+            </div>
+            <div class="media-text__content column-m-12-nest column-d-6">
+                {% if image_text_heading.size >= 1 %}
+                    <h3>{{ image_text_heading }}</h3>
+                {% endif %}
+                {% if image_text_content.size >= 1 %}
+                    <p>{{ image_text_content }}</p>
+                {% endif %}
+                {% if image_text_link.size >= 1 %}
+                    <a href="{{ image_text_link }}" class="button">Read More</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="block block__team">
+    <div class="container">
+        <div class="team__tabs">
+            <button class="active" data-team-id="main">Our Team</button>
+            <button data-team-id="advisory-group">Advisory Group</button>
+            <button data-team-id="alumni">Alumni</button>
+        </div>
+
+        <div class="team__grid" data-team-content="main">
+            {% for item in site.team %}
+                {% if item.group == "main" %}
+                    <a href="{{ item.url }}" class="team__member">
+                        <div class="team__member-image">
+                            {% assign team_image = item.image %}
+                            {% if team_image.size >= 1 %}
+                                <img src="{{ team_image }}" alt="Image of {{item.title}}">
+                            {% else %}
+                                <img src="{{site.baseurl}}/assets/images/placeholder.jpg">
+                            {% endif %}
+                        </div>
+                        <div class="team__member-details">
+                            <h3>{{ item.title }}</h3>
+                            <p>{{ item.description }}</p>
+                            <span class="button">Read Bio</span>
+                        </div>
+                    </a>
+                {% endif %}
+            {% endfor %}
+        </div>
+
+        <div class="team__grid inactive" data-team-content="advisory-group">
+            {% for item in site.team %}
+                {% if item.group == "advisory-group" %}
+                    <a href="{{ item.url }}" class="team__member">
+                        <div class="team__member-image">
+                            {% assign team_image = item.image %}
+                            {% if team_image.size >= 1 %}
+                                <img src="{{ team_image }}" alt="Image of {{item.title}}">
+                            {% else %}
+                                <img src="{{site.url}}/assets/images/placeholder.jpg">
+                            {% endif %}
+                        </div>
+                        <div class="team__member-details">
+                            <h3>{{ item.title }}</h3>
+                            <p>{{ item.description }}</p>
+                            <span class="button">Read Bio</span>
+                        </div>
+                    </a>
+                {% endif %}
+            {% endfor %}
+        </div>
+
+        <div class="team__grid inactive" data-team-content="alumni">
+            {% for item in site.team %}
+                {% if item.group == "alumni" %}
+                    <a href="{{ item.url }}" class="team__member">
+                        <div class="team__member-image">
+                            {% assign team_image = item.image %}
+                            {% if team_image.size >= 1 %}
+                                <img src="{{ team_image }}" alt="Image of {{item.title}}">
+                            {% else %}
+                                <img src="{{site.url}}/assets/images/placeholder.jpg">
+                            {% endif %}
+                        </div>
+                        <div class="team__member-details">
+                            <h3>{{ item.title }}</h3>
+                            <p>{{ item.description }}</p>
+                            <span class="button">Read Bio</span>
+                        </div>
+                    </a>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>

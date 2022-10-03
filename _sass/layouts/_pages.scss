@@ -1,0 +1,31 @@
+/*
+==========================================================================
+APP STYLES
+==========================================================================
+
+1.0 - General Page Styles
+
+*/
+
+.error404, .search {
+    main {
+        min-height: calc(100vh - 410px); // offset by header and footer height combined
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        article {
+            text-align: center;
+
+            header span {
+                font-size: 8rem;
+            }
+        }
+    }
+}
+
+.search {
+    article {
+        text-align: left;
+    }
+}
