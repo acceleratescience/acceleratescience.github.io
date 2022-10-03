@@ -50,9 +50,10 @@ collections:
     output: true
 
 # Build settings
-theme: minima
+remote_theme: aarontlp/accelerate-theme@master
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
   - jekyll-paginate-v2
 sass:
   sass_dir: _sass
