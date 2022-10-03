@@ -1,28 +1,35 @@
 hero:
   title: Software Engineering
+  content: ""
 text:
-  heading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at
-    fermentum urna. "
+  heading: "Machine learning has become an indispensable tool for researchers
+    across disciplines, but the software engineering knowhow required for
+    supporting researchers is in short supply. Accelerate Science will help fill
+    this gap. "
   content: >-
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at fermentum
-    urna. Sed congue nisl sed ultricies gravida. Curabitur fringilla nulla vitae
-    orci laoreet, at dictum justo ultricies. Donec imperdiet, magna vitae
-    bibendum faucibus, elit mi elementum nibh, eget fermentum tortor nibh vel
-    diam. Vivamus eu maximus tellus. Pellentesque eu ex nisl.
+    As machine learning is adopted across disciplines, scientists are faced with
+    new software challenges related to implementing and maintaining machine
+    learning models. These challenges are becoming a bottleneck to progress. In
+    response, Accelerate Science’s software engineering programme will offer
+    tailored software support to unblock these bottleneck.
 
 
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at fermentum urna. Sed congue nisl sed ultricies gravida. Curabitur fringilla nulla vitae orci laoreet, at dictum justo ultricies. Donec imperdiet, magna vitae bibendum faucibus, elit mi elementum nibh, eget fermentum tortor nibh vel diam. Vivamus eu maximus tellus. Pellentesque eu ex nisl.
+    Machine Learning Clinic: Accelerate’s Machine Learning Clinic offers expert advice to Cambridge University researchers using AI in their research, helping resolve engineering issues they might encounter when implementing machine learning methods.
+
+
+    Data Engineering for Science School: In December 2022, Accelerate is offering researchers at Cambridge University the opportunity to join an intensive 5-day Winter School on data science for science. 
 image_text:
   link: /about/
   heading: Machine Learning Clinic
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis
-    enim ac arcu cursus, malesuada tincidunt nulla hendrerit. Quisque eu gravida
-    massa.
+  content: Welcome to the Accelerate Science Machine Learning Engineering Clinic!
+    This new initiative seeks to support Cambridge University researchers using
+    AI in their research, by helping resolve engineering issues they might
+    encounter when implementing machine learning methods.
   image: /assets/uploads/alina-grubnyak-ziqkhi7417a-unsplash.jpg
 image_text_flipped:
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam mollis
-    enim ac arcu cursus, malesuada tincidunt nulla hendrerit. Quisque eu gravida
-    massa.
+  content: Well-curated and managed data is central to the effective use of AI, in
+    science and elsewhere. How can scientists build the data pipelines they need
+    to accelerate their research with AI?
   heading: Data Engineering School
   link: /resources/
   image: /assets/uploads/shamin-haky-uhx-ghppcdg-unsplash.jpg
