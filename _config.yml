@@ -53,7 +53,6 @@ collections:
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-remote-theme
   - jekyll-paginate-v2
 sass:
   sass_dir: _sass
