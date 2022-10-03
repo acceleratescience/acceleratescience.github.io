@@ -992,7 +992,7 @@ APP STYLES
 
 @media (min-width: 1200px) { .block__post-single article header.post-single__header .post-single__header-heading { padding-bottom: 10rem; } }
 
-.block__post-single article header.post-single__header .post-single__header-heading h1 { margin-bottom: 0; font-size: 3.2rem; line-height: 4rem; color: #031927; }
+.block__post-single article header.post-single__header .post-single__header-heading h1 { margin-bottom: 2rem; font-size: 3.2rem; line-height: 4rem; color: #031927; }
 
 @media (min-width: 768px) { .block__post-single article header.post-single__header .post-single__header-heading h1 { font-size: 4.4rem; line-height: 5.2rem; } }
 
