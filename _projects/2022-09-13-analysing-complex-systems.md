@@ -8,7 +8,7 @@ excerpt: Complex systems are all around us, from social networks to
   techniques that can be deployed to better understand complex systems.
 category:
   - complex-systems
-featured_image: /assets/uploads/andres-urena-39mvkfrm3ta-unsplash.jpg
+featured_image: /assets/uploads/vinicius-amnx-amano-ipemgbj9ady-unsplash.jpg
 people:
   - Aditya Ravuri
   - Austen Lamacraft
