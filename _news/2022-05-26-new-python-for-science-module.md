@@ -8,7 +8,7 @@ excerpt: Accelerate and Cambridge Spark are offering a new self-learning module
   own data analysis.
 date: 2022-05-26
 authors: null
-image_image: /assets/uploads/james-harrison-vpoexr5wmr4-unsplash.jpg
+image: /assets/uploads/james-harrison-vpoexr5wmr4-unsplash.jpg
 link: https://www.cst.cam.ac.uk/news/new-python-science-course-will-help-researchers-learn-programming-skills
 ---
 T﻿emp

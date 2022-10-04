@@ -9,7 +9,7 @@ excerpt: The Accelerate Programme in collaboration with C2D3 is offering small
   research, with a focus on interdisciplinary collaboration.
 date: 2022-07-05
 authors: null
-image_image: /assets/uploads/ameen-fahmy-_gektyibrsm-unsplash.jpg
+image: /assets/uploads/ameen-fahmy-_gektyibrsm-unsplash.jpg
 link: https://acceleratescience.github.io/research-funding.html
 ---
 ### FUNDING CALL: NEW FUNDING PROGRAMME TO HELP DEPLOY AI FOR RESEARCH AND INNOVATION

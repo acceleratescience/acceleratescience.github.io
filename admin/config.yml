@@ -632,7 +632,7 @@ collections:
         format: "LLL"
         picker_utc: false
       - label: 'Image'
-        name: 'image_image'
+        name: 'image'
         widget: 'image'
       - label: 'External Link'
         name: 'link'
