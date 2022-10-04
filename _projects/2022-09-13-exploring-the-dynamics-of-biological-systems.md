@@ -6,7 +6,7 @@ excerpt: Led by Dr Bianca Dumitrascu, this group studies how local molecular
   dynamical systems
 category:
   - biological-systems
-featured_image: /assets/uploads/andres-urena-39mvkfrm3ta-unsplash.jpg
+featured_image: /assets/uploads/national-cancer-institute-1ppyuzceg_i-unsplash.jpg
 people:
   - bianca-dumitrascu
   - katie-green
