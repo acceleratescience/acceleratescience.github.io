@@ -33,3 +33,7 @@ image_text_flipped:
   heading: Data Engineering School
   link: /data-engineering-school/
   image: /assets/uploads/shamin-haky-uhx-ghppcdg-unsplash.jpg
+resources:
+  - python-programming-for-science
+  - introducing-data-science-for-science
+  - machine-learning-for-science-jupyter-notebooks
