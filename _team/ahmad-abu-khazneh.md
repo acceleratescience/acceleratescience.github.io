@@ -1,4 +1,8 @@
 ---
+github: null
+scholar: null
+start: null
+publications: null
 layout: person
 name: Ahmad Abu-Khazneh
 biography: Ahmad is interested in developing tools that help scientists in
@@ -8,22 +12,18 @@ biography: Ahmad is interested in developing tools that help scientists in
   Imperial College London he worked on using Natural Language Processing
   techniques to enhance assistive devices used by people with Motor Neurone
   Disease.
-image:
-email:
-url:
-website:
-twitter:
-github:
-linkedin:
-scholar:
+image: null
+email: null
+url: null
+website: null
+twitter: null
+linkedin: null
 crsid: aa2382
-orcid:
-start:
-end:
+orcid: null
+end: null
 institution: Cambridge University
-department:
+department: null
 position: Senior Machine Learning Engineer, Accelerate Programme
-team:
-supervisor:
-publications:
+team: main
+supervisor: null
 ---
