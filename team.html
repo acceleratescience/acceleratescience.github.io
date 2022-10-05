@@ -29,7 +29,7 @@ title: Team
 
         <div class="team__grid" data-team-content="main">
             {% for item in site.team %}
-                {% if item.group == "main" or item.group == null %}
+                {% if item.team == "main" %}
                     <a href="{{ item.url }}" class="team__member">
                         <div class="team__member-image">
                             {% assign person_image = item.image %}
@@ -66,7 +66,7 @@ title: Team
 
         <div class="team__grid inactive" data-team-content="advisory-group">
             {% for item in site.team %}
-                {% if item.group == "advisory-group" %}
+                {% if item.team == "advisory-group" %}
                     <a href="{{ item.url }}" class="team__member">
                         <div class="team__member-image">
                             {% assign person_image = item.image %}
@@ -96,7 +96,7 @@ title: Team
         </div>
         <div class="team__grid inactive" data-team-content="alumni">
             {% for item in site.team %}
-                {% if item.group == "alumni" %}
+                {% if item.team == "alumni" %}
                     <a href="{{ item.url }}" class="team__member">
                         <div class="team__member-image">
                             {% assign person_image = item.image %}
