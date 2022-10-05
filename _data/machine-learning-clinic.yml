@@ -16,3 +16,40 @@ text_dual_column:
 
 
     For further information about how to engage with the Clinic, and what support is on offer, please read the FAQs below.
+text:
+  heading: FAQs
+  text: >-
+    #### What sort of issues can the clinic help with?
+
+
+    The clinic is designed to help with challenging software issues a scientist encounters in all phases of the research pipeline when utilising machine learning. This includes issues related to: data collection, implementing privacy and compliance controls, data pipelines, model implementation, hardware/GPU matters, deploying models on the cloud, and packaging & publishing models.
+
+
+    We define a challenging software issue as one that is difficult to find online guidance/tutorials on, or basically one that you have attempted to resolve via multiple approaches but had no success in doing so.
+
+
+    While the Clinic aims to resolve all issues logged in its database, this might not always be possible, for example if the issue proves to be outside the current skillset of the Clinic’s engineers. In those cases, we'll try to at least help researchers make progress on their issue by helping route it to other engineers in Cambridge who might be better placed in resolving it.
+
+
+
+
+    #### How long will it take to respond to my query?
+
+
+    We aim to resolve issues within two weeks of them being logged. However, this metric is highly variable and will depend on the volume and nature of issues we receive. We will notify you if the Clinic is experiencing any delays that prevents it from resolving your issue within two weeks.
+
+
+
+
+    #### Who gets to view my issue and how will the information I submit be stored or managed?
+
+
+    Issues that are logged at the clinic are stored on a spreadsheet that is shared with members of the Accelerate Science programme. We will ask for your permission to share your issue with other members of Cambridge University, for example if we think there are others who are better placed at the university to resolve your issue.
+
+
+
+
+    #### How should I acknowledge Accelerate Science’s contribution in publications or other materials if it provides useful advice on resolving my issue?
+
+
+    We hope that sometimes discussions held with the Clinic will evolve into genuine scientific collaboration, but in many cases an acknowledgement in your paper of the ML Clinic’s assistance will be fine and we’d be happy to advise on this further or provide suggested wording for acknowledgement in relation to specific projects.
