@@ -28,6 +28,6 @@ end: null
 institution: Cambridge University
 department: null
 position: Senior Research Associate, Accelerate Programme
-team: null
+team: main
 supervisor: null
 ---
