@@ -7,5 +7,4 @@ excerpt: This self-learning module introduces the fundamentals of Python, some
   researchers across disciplines, it supports learners to rapidly learn how to
   code in the context of working with real-world data. To access the module,
   register at the link.
-link: temp
 ---

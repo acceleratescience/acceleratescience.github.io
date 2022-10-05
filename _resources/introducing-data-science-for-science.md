@@ -7,5 +7,4 @@ excerpt: The Accelerate Programme offers PhDs and postdocs disciplines across
   Science' training course. This structured Accelerate-Spark Data for Science
   Residency will equips scientists with modern practical data analysis skills
   using Python in a virtual instructor-led accelerated masterclass.
-link: temp
 ---
