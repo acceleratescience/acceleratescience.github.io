@@ -1,4 +1,15 @@
 ---
+github: null
+scholar: null
+start: 2020-09-14
+publications:
+  - creating-a-european-ai-powerhouse-a-strategic-research-agenda-from-the-european-learning-and-intelligent-systems-excellence-elise-consortium
+  - data-trusts-from-theory-to-practice-working-paper-1
+  - international-perspectives-on-the-development-of-data-institutions
+  - a-research-agenda-for-data-trusts-working-paper-3
+  - data-governance-in-the-21st-century-citizen-dialogue-and-the-development-of-data-trusts
+  - democratising-the-digital-revolution-the-role-of-data-governance
+  - from-research-data-ethics-principles-to-practice-data-trusts-as-a-governance-tool
 layout: person
 name: Jess Montgomery
 biography: Jess is Executive Director of the Accelerate Programme for Scientific
@@ -11,28 +22,17 @@ biography: Jess is Executive Director of the Accelerate Programme for Scientific
   worked with senior parliamentarians, leading researchers and civil society
   organisations to bring scientific evidence to bear on major policy issues.
 image: /assets/uploads/jessica-montgomery.jpg
-email:
-url:
-website:
-twitter:
-github:
-linkedin:
-scholar:
+email: null
+url: null
+website: null
+twitter: null
+linkedin: null
 crsid: jkm40
-orcid:
-start: 2020-09-14
-end:
+orcid: null
+end: null
 institution: Cambridge University
-department:
+department: null
 position: Executive Director, Accelerate Science
-team:
-supervisor:
-publications:
-  - creating-a-european-ai-powerhouse-a-strategic-research-agenda-from-the-european-learning-and-intelligent-systems-excellence-elise-consortium
-  - data-trusts-from-theory-to-practice-working-paper-1
-  - international-perspectives-on-the-development-of-data-institutions
-  - a-research-agenda-for-data-trusts-working-paper-3
-  - data-governance-in-the-21st-century-citizen-dialogue-and-the-development-of-data-trusts
-  - democratising-the-digital-revolution-the-role-of-data-governance
-  - from-research-data-ethics-principles-to-practice-data-trusts-as-a-governance-tool
+team: main
+supervisor: null
 ---
