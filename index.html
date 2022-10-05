@@ -82,7 +82,11 @@ title: Home
                 <div class="post__grid post__grid--col2">
                     {% assign news_items = site.news | sort: 'date' | reverse %}
                     {% for post in news_items limit:2 %}
-                    <a class="post__post post__post--standard" href="{{ post.url }}">
+                    {% if post.link != nil %}
+                        <a class="post__post post__post--standard" href="{{ post.link }}" rel="noreferrer" target="_blank">
+                    {% else %}
+                        <a class="post__post post__post--standard" href="{{ post.url }}">
+                    {% endif %}
                         <div class="post__post-thumbnail">
                             {% if post.image != nil %}
                             <img src="{{ post.image }}">

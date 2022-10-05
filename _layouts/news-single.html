@@ -125,38 +125,40 @@
                         {% for item in site.news reversed %}
                             {% if item.url != page.url %}
                                 {% if item.category[0] == primary_category or item.category[1] == primary_category %}
+                                    {% if item.link != nil %}
+                                    <a class="post__post" href="{{ item.link }}" rel="noreferrer" target="_blank">
+                                    {% else %}
                                     <a class="post__post" href="{{ item.url }}">
+                                    {% endif %}
                                         <div class="post__post-thumbnail">
                                             {% if post.image != nil %}
                                                 <img src="{{ post.image }}">
                                             {% else %}
                                                 <img class="placeholder-image" src="{{site.baseurl}}/assets/images/placeholder.png">
-                                                {% endif; %}
-                                            </div>
-                                            <div class="post__post-content">
-                                                <h4>{{ item.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</h4>
-                                                <h3>{{ item.title}}</h3>
-                                                <p class="date">{{ item.date | date: "%-d %B %Y" }}</p>
-                                                <span class="button">Read More</span>
-                                            </div>
-                                        </a>
+                                            {% endif; %}
+                                        </div>
+                                        <div class="post__post-content">
+                                            <h4>{{ item.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</h4>
+                                            <h3>{{ item.title}}</h3>
+                                            <p class="date">{{ item.date | date: "%-d %B %Y" }}</p>
+                                            <span class="button">Read More</span>
+                                        </div>
+                                    </a>
 
-                                        {% assign post_counter = post_counter | plus: 1 %}
-                                        {% if post_counter == 5 %}
-                                            {% assign post_counter = 1 %}
-                                            {% break %}
-                                        {% endif %}
-
-                                        {% endif%}
+                                    {% assign post_counter = post_counter | plus: 1 %}
+                                    {% if post_counter == 5 %}
+                                        {% assign post_counter = 1 %}
+                                        {% break %}
                                     {% endif %}
-                                {% endfor %}
-                            </div>
-                        </div>
-                    </section>
-                </main>
-                {% include site-footer.html %}
-                <script type="text/javascript" src="{{site.baseurl}}/assets/js/main.js"></script>
-            </body>
-        </html</body>
+                                {% endif%}
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        {% include site-footer.html %}
+        <script type="text/javascript" src="{{site.baseurl}}/assets/js/main.js"></script>
     </body>
-</html>>
+</html>

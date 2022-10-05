@@ -729,6 +729,7 @@ collections:
       - label: 'Image'
         name: 'image'
         widget: 'image'
+        required: false
       - label: 'External Link'
         name: 'link'
         widget: 'string'
@@ -829,9 +830,15 @@ collections:
       - label: 'Excerpt'
         name: 'excerpt'
         widget: 'text'
+        required: false
       - label: 'Link'
         name: 'link'
         widget: 'string'
+        required: false
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+        required: false
 
   # Publications Collection
   - label: 'Publications'

@@ -28,7 +28,11 @@ pagination:
         <div class="posts__featured">
             {% assign news_items = site.news | sort: 'date' | reverse %}
             {% for post in news_items limit:1 %}
-                <a class="post__post post__post--featured" href="{{ post.url }}">
+                {% if post.link != nil %}
+                    <a class="post__post post__post--featured" href="{{ post.link }}" rel="noreferrer" target="_blank"></a>
+                {% else %}
+                    <a class="post__post post__post--featured" href="{{ post.url }}">
+                {% endif %}
                     <div class="post__post-thumbnail">
                         {% if post.image != nil %}
                         <img src="{{ post.image }}">
