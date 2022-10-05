@@ -10,9 +10,7 @@ category:
   - complex-systems
 featured_image: /assets/uploads/vinicius-amnx-amano-ipemgbj9ady-unsplash.jpg
 people:
-  - Aditya Ravuri
-  - Austen Lamacraft
-  - Sarah Morgan
+  - Soumya Banerjee
 publications:
   - 2020-11-13-liquid-water-contains-the-building-blocks-of-diverse-ice-phases
   - 2021-01-15-gaussian-process-latent-variable-flows-for-massively-missing-data
