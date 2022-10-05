@@ -1,26 +1,26 @@
 ---
+github: null
+scholar: null
+start: null
+publications: null
 layout: person
 name: Justin Tan
 biography: Justin's research lies at the intersection of geometry and machine
   learning, searching for interesting structure in geometries which feature in
   string theory and other areas of mathematical physics. Previously he worked in
   experimental particle physics at the Belle II experiment.
-image:
-email:
-url:
-website:
-twitter:
-github:
-linkedin:
-scholar:
+image: null
+email: null
+url: null
+website: null
+twitter: null
+linkedin: null
 crsid: jt976
-orcid:
-start:
-end:
+orcid: null
+end: null
 institution: Cambridge University
-department:
+department: null
 position: PhD Student
-team:
-supervisor:
-publications:
+team: main
+supervisor: null
 ---
