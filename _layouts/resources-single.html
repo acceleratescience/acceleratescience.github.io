@@ -134,7 +134,22 @@
                     </a>
                     {% else %}
                     <div class="link-grid__item">
+                        <div class="link-grid__item-image">
+                            {% if item.image != nil %}
+                            <img src="{{ item.image }}">
+                            {% else %}
+                            <img class="placeholder-image" src="{{site.baseurl}}/assets/images/accelerate-question-mark.jpeg">
+                            {% endif %}
+                        </div>
+                        <div class="link-grid__item-content">
+                            {% if item.heading != nil %}
+                            <h3>{{ item.heading }}</h3>
+                            {% endif %}
 
+                            {% if item.subheading != nil %}
+                            <p>{{ item.subheading }}</p>
+                            {% endif %}
+                        </div>
                     </div>
                     {% endif %}
                     {% endfor %}
