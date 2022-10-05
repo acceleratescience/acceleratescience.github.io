@@ -39,12 +39,13 @@ title: Resources
                         <span class="button">Read More</span>
                     </a>
                 {% else %}
-                    <span class="resources__resource resources__resource--{{ post.category }}" data-resources-value="{{ post.category }}">
+                    <a class="resources__resource resources__resource--{{ post.category }}" data-resources-value="{{ post.category }}" href="{{ post.url }}">
                         <div>
                             <h3>{{ post.title }}</h3>
                             {{ post.excerpt | markdownify }}
                         </div>
-                    </span>
+                        <span class="button">Read More</span>
+                    </a>
                 {% endif %}
             {% endfor %}
         </div>

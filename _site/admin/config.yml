@@ -839,6 +839,26 @@ collections:
         name: 'body'
         widget: 'markdown'
         required: false
+      - label: "Link Grid"
+        name: "link_grid"
+        widget: "list"
+        required: false
+        fields:
+          - label: Heading
+            name: heading
+            widget: string
+          - label: Subheading
+            name: subheading
+            widget: string
+            required: false
+          - label: Link
+            name: link
+            required: false
+            widget: string
+          - label: Image
+            name: image
+            widget: image
+            required: false
 
   # Publications Collection
   - label: 'Publications'
