@@ -2,9 +2,9 @@
 layout: page
 title: Blog
 pagination:
-    enabled: true
-    collection: 'posts'
-    indexpage: 'blog'
+enabled: true
+collection: 'posts'
+indexpage: 'blog'
 ---
 
 <section class="block block__hero">
@@ -26,23 +26,24 @@ pagination:
 <section class="block block__posts">
     <div class="container">
         <div class="posts__featured">
-            {% for post in site.posts limit:1 %}
-                <a class="post__post post__post--featured" href="{{ post.url }}">
-                    <div class="post__post-thumbnail">
-                        {% if post.image != nil %}
-                        <img src="{{ post.image }}">
-                        {% else %}
-                        <img src="{{site.baseurl}}/assets/images/placeholder.jpg">
-                        {% endif; %}
-                    </div>
-                    <div class="post__post-content">
-                        <h4>{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</h4>
-                        <h3>{{ post.title}}</h3>
-                        <p class="date">{{ post.date | date: "%-d %B %Y" }}</p>
-                        <p class="excerpt">{{ post.excerpt }}</p>
-                        <span class="button">Read More</span>
-                    </div>
-                </a>
+            {% assign blog_items = site.posts | sort: 'date' | reverse %}
+            {% for post in blog_items limit:1 %}
+            <a class="post__post post__post--featured" href="{{ post.url }}">
+                <div class="post__post-thumbnail">
+                    {% if post.image != nil %}
+                    <img src="{{ post.image }}">
+                    {% else %}
+                    <img class="placeholder-image" src="{{site.baseurl}}/assets/images/placeholder.png">
+                    {% endif; %}
+                </div>
+                <div class="post__post-content">
+                    <h4>{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</h4>
+                    <h3>{{ post.title}}</h3>
+                    <p class="date">{{ post.date | date: "%-d %B %Y" }}</p>
+                    <p class="excerpt">{{ post.excerpt }}</p>
+                    <span class="button">Read More</span>
+                </div>
+            </a>
             {% endfor %}
         </div>
 
@@ -63,44 +64,44 @@ pagination:
         </div>
 
         {% if paginator.page %}
-            {% assign offset = paginator.page | minus:1 | times:paginator.per_page %}
-            {% assign currentPage = paginator.page %}
+        {% assign offset = paginator.page | minus:1 | times:paginator.per_page %}
+        {% assign currentPage = paginator.page %}
         {% else %}
-            {% assign offset = 0 %}
-            {% assign currentPage = 1 %}
+        {% assign offset = 0 %}
+        {% assign currentPage = 1 %}
         {% endif %}
 
         <div id="blogContainer" class="posts__grid post__grid postContainer" data-page="{{ currentPage }}" data-totalpages="{{ paginator.total_pages }}">
             {% for post in site.posts limit:8 offset:offset %}
-                <a class="post__post post__post--standard" data-category="{{ post.categories[0] | replace: " ", "-" | replace: "[", "" | replace: "]", "" | replace: '"', "" | downcase }}" href="{{ post.url }}">
-                    <div class="post__post-thumbnail">
-                        {% if post.image != nil %}
-                        <img src="{{ post.image }}">
-                        {% else %}
-                        <img src="{{site.baseurl}}/assets/images/placeholder.jpg">
-                        {% endif; %}
-                    </div>
-                    <div class="post__post-content">
-                        <h4>{{ post.categories | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</h4>
-                        <h3>{{ post.title}}</h3>
-                        <p class="date">{{ post.date | date: "%-d %B %Y" }}</p>
-                        <span class="button">Read More</span>
-                    </div>
-                </a>
+            <a class="post__post post__post--standard" data-category="{{ post.categories[0] | replace: " ", "-" | replace: "[", "" | replace: "]", "" | replace: '"', "" | downcase }}" href="{{ post.url }}">
+                <div class="post__post-thumbnail">
+                    {% if post.image != nil %}
+                    <img src="{{ post.image }}">
+                    {% else %}
+                    <img class="placeholder-image" src="{{site.baseurl}}/assets/images/placeholder.png">
+                    {% endif; %}
+                </div>
+                <div class="post__post-content">
+                    <h4>{{ post.categories | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</h4>
+                    <h3>{{ post.title}}</h3>
+                    <p class="date">{{ post.date | date: "%-d %B %Y" }}</p>
+                    <span class="button">Read More</span>
+                </div>
+            </a>
             {% endfor %}
         </div>
 
         {% assign postCount = site.posts | size %}
         {% assign postsCovered = 8 | plus:offset %}
         {% if postsCovered < postCount %}
-            <div class="posts__load-more">
-                <span></span>
-                <button class="button button--large loadMore">
-                    Show More
-                    <img src="../assets/images/plus.svg">
-                </button>
-                <span></span>
-            </div>
+        <div class="posts__load-more">
+            <span></span>
+            <button class="button button--large loadMore">
+                Show More
+                <img src="../assets/images/plus.svg">
+            </button>
+            <span></span>
+        </div>
         {% endif %}
 
         <script>
@@ -113,7 +114,6 @@ pagination:
                 var totalPages = parseInt($blogContainer.attr("data-totalPages"));
                 $("#blogContainer").attr('data-page', nextPage);
                 $(this).addClass("loading");
-                
                 $.get("/page/" + nextPage + "/blog.html", function (data) {
                     var htmlData = $.parseHTML(data);
                     var $articles = $(htmlData).find(".post__post--standard");
@@ -122,13 +122,12 @@ pagination:
                         $(".loadMore").closest(".posts__load-more").remove();
                     }
                     $(_this).removeClass("loading");
-
                     var filterCategory = $('.blog-category-filter').val();
                     if (filterCategory == "*") {
-                    $('.block__posts').find('.post__post').removeClass('hidden');
+                        $('.block__posts').find('.post__post').removeClass('hidden');
                     } else {
-                    $('.block__posts').find('.post__post').addClass('hidden');
-                    $('.block__posts').find('.post__post[data-category="' + filterCategory + '"]').removeClass('hidden');
+                        $('.block__posts').find('.post__post').addClass('hidden');
+                        $('.block__posts').find('.post__post[data-category="' + filterCategory + '"]').removeClass('hidden');
                     };
                 });
             }

@@ -204,6 +204,10 @@
 			left: 0;
 			display: block;
 			object-fit: cover;
+
+			&.placeholder-image {
+				object-fit: contain;
+			}
 		}
 	}
 
@@ -279,6 +283,10 @@
 				top: unset;
 				left: unset;
 				display: block;
+
+				&.placeholder-image {
+					object-fit: contain;
+				}
 			}
 		}
 
@@ -703,6 +711,10 @@
 				display: block;
 				object-fit: cover;
 				border-radius: 50%;
+
+				&.placeholder-image {
+					object-fit: contain;
+				}
 			}
 		}
 

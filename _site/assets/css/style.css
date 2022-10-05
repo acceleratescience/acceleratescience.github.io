@@ -932,6 +932,8 @@ APP STYLES
 
 .post__post-thumbnail img { width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block; object-fit: cover; }
 
+.post__post-thumbnail img.placeholder-image { object-fit: contain; }
+
 .post__post-content { padding: 0 2rem; }
 
 .post__post-content h4 { margin-bottom: 1rem; font-size: 1.2rem; line-height: 1.6rem; text-transform: uppercase; }
@@ -959,6 +961,8 @@ APP STYLES
 .post__post.post__post--featured .post__post-thumbnail::before { display: none; }
 
 .post__post.post__post--featured .post__post-thumbnail img { width: 100%; height: auto; max-height: 440px; position: relative; top: unset; left: unset; display: block; }
+
+.post__post.post__post--featured .post__post-thumbnail img.placeholder-image { object-fit: contain; }
 
 .post__post.post__post--featured .post__post-content { width: 100%; padding: 2rem; }
 
@@ -1113,6 +1117,8 @@ APP STYLES
 .team__grid .team__member-image::before { content: ""; padding-top: 100%; display: block; }
 
 .team__grid .team__member-image img { width: 100%; height: 100%; position: absolute; top: 0; left: 0; display: block; object-fit: cover; border-radius: 50%; }
+
+.team__grid .team__member-image img.placeholder-image { object-fit: contain; }
 
 .team__grid .team__member-details { width: calc(60% - 1rem); }
 

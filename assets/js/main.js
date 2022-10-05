@@ -197,7 +197,7 @@ function init() {
         image.onload = function () {
             imageLoaded = true;
         };
-        image.src = "../assets/images/placeholder.jpg";
+        image.src = "../assets/images/placeholder-old.jpg";
     }
 
     animate();

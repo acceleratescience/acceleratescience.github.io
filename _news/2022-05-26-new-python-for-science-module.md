@@ -11,4 +11,3 @@ authors: null
 image: /assets/uploads/james-harrison-vpoexr5wmr4-unsplash.jpg
 link: https://www.cst.cam.ac.uk/news/new-python-science-course-will-help-researchers-learn-programming-skills
 ---
-t﻿emp

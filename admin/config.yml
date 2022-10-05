@@ -641,6 +641,7 @@ collections:
       - label: 'Body'
         name: 'body'
         widget: 'markdown'
+        required: false
 
   # Projects Collection
   - name: 'projects'

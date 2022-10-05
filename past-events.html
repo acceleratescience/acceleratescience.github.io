@@ -27,19 +27,19 @@ title: Past Events
 
         <div class="posts__grid post__grid">
             {% for post in events %}
-                {% assign eventDate = post.event_date | date: '%Y%m%d' %}
-                {% if todayDate > eventDate %}
-                    <a class="post__post post__post--standard" href="{{ post.url }}">
-                        <div class="post__post-thumbnail">
-                            <img src="{{ post.image }}">
-                        </div>
-                        <div class="post__post-content">
-                            <h3>{{ post.title}}</h3>
-                            <p class="date">{{ post.event_date | date: "%-d %B %Y" }}</p>
-                            <span class="button">Read More</span>
-                        </div>
-                    </a>
-                {% endif %}
+            {% assign eventDate = post.event_date | date: '%Y%m%d' %}
+            {% if todayDate > eventDate %}
+            <a class="post__post post__post--standard" href="{{ post.url }}">
+                <div class="post__post-thumbnail">
+                    <img src="{{ post.image }}">
+                </div>
+                <div class="post__post-content">
+                    <h3>{{ post.title}}</h3>
+                    <p class="date">{{ post.event_date | date: "%-d %B %Y" }}</p>
+                    <span class="button">Read More</span>
+                </div>
+            </a>
+            {% endif %}
             {% endfor %}
         </div>
     </div>
@@ -47,50 +47,50 @@ title: Past Events
 
 {% assign currentDate = 'now' | date: '%Y%m%d' %}
 {% for item in site.events %}
-    {% assign eventEndDate = item.end | date: '%Y%m%d' %}
-    {% if currentDate > eventEndDate %}
-        {% assign eventsCheck = true %}
-    {% endif %}
+{% assign eventEndDate = item.end | date: '%Y%m%d' %}
+{% if currentDate > eventEndDate %}
+{% assign eventsCheck = true %}
+{% endif %}
 {% endfor %}
 
 <section class="block block__posts">
     <div class="container">
 
         {% if eventsCheck == true %}
-            {% assign currentDate = 'now' | date: '%Y%m%d' %}
-            {% assign events = site.events | sort: "start" %}
-            <div class="posts__grid post__grid">
-                {% for post in events %}
-                    {% assign eventEndDate = post.end | date: '%Y%m%d' %}
+        {% assign currentDate = 'now' | date: '%Y%m%d' %}
+        {% assign events = site.events | sort: "start" %}
+        <div class="posts__grid post__grid">
+            {% for post in events %}
+            {% assign eventEndDate = post.end | date: '%Y%m%d' %}
 
-                    {% if currentDate > eventEndDate %}
-                        <a class="post__post post__post--standard" href="{{ post.url }}">
-                            <div class="post__post-thumbnail">
-                                {% if post.image != nil %}
-                                    <img src="{{ post.image }}">
-                                {% else %}
-                                    <img src="{{site.baseurl}}/assets/images/placeholder.jpg">
-                                {% endif %}
-                            </div>
-                            <div class="post__post-content">
-                                <h3>{{ post.title}}</h3>
-                                <p class="date">Starts:
-                                    {{ post.start | date: '%Y/%m/%d' }}
-                                    at
-                                    {{ post.start | date: '%H:%M' }}</p>
-                                <p class="date">Ends:
-                                    {{ post.end | date: '%Y/%m/%d' }}
-                                    at
-                                    {{ post.end | date: '%H:%M' }}</p>
-                                <span class="button">Read More</span>
-                            </div>
-                        </a>
+            {% if currentDate > eventEndDate %}
+            <a class="post__post post__post--standard" href="{{ post.url }}">
+                <div class="post__post-thumbnail">
+                    {% if post.image != nil %}
+                    <img src="{{ post.image }}">
+                    {% else %}
+                    <img class="placeholder-image" src="{{site.baseurl}}/assets/images/placeholder.png">
                     {% endif %}
-                {% endfor %}
-            </div>
+                </div>
+                <div class="post__post-content">
+                    <h3>{{ post.title}}</h3>
+                    <p class="date">Starts:
+                        {{ post.start | date: '%Y/%m/%d' }}
+                        at
+                        {{ post.start | date: '%H:%M' }}</p>
+                    <p class="date">Ends:
+                        {{ post.end | date: '%Y/%m/%d' }}
+                        at
+                        {{ post.end | date: '%H:%M' }}</p>
+                    <span class="button">Read More</span>
+                </div>
+            </a>
+            {% endif %}
+            {% endfor %}
+        </div>
 
         {% else %}
-            <h2>Apologies, there are no previous events to display.</h2>
+        <h2>Apologies, there are no previous events to display.</h2>
         {% endif %}
     </div>
 </section>

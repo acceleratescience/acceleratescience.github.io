@@ -62,7 +62,7 @@
                             {% if page.image != nil %}
                             <img src="{{ page.image }}" alt="Image of {{ page.prefix }} {{ page.name }} {{ page.suffix }}">
                             {% else %}
-                            <img src="{{site.baseurl}}/assets/images/placeholder.jpg">
+                            <img class="placeholder-image" src="{{site.baseurl}}/assets/images/placeholder.png">
                             {% endif %}
                         </div>
                         <div class="team-profile__profile">
@@ -154,67 +154,67 @@
         {% for post in site.publications %}
         {% for item in post.authors.internal_authors %}
         {% if page.slug == item %}
-            {% assign relatedPublications = true %}
+        {% assign relatedPublications = true %}
         {% endif %}
         {% endfor %}
         {% endfor %}
 
         {% if relatedPublications == true %}
-            <section class="block block__related-publications">
-                <div class="container">
-                    <h2 class="section-heading">Related Papers</h2>
-                    <div class="papers__grid">
-                        {% for post in site.publications %}
-                        {% for item in post.authors.internal_authors %}
-                        {% if page.slug == item %}
-                        <a href="{{ post.url }}" class="papers__item">
-                            <div>
-                                <h3>{{ post.title}}</h3>
-                                <h4>{{ post.published | replace: "-", "/" }}</h4>
-                                <div class="authors">
-                                    {% for author in post.authors.internal_authors %}
-                                    {% assign authorName = author %}
-                                    {% for person in site.team %}
-                                    {% if person.slug == authorName %}
-                                    <p>
-                                        {{ person.name }},
-                                    </p>
-                                    {% endif %}
-                                    {% endfor %}
-                                    {% endfor %}
-                                    {% for author in post.authors.external_authors %}
-                                    <p>
-                                        {{author.given}}
-                                        {{author.family}},
-                                    </p>
-                                    {% endfor %}
-                                    {% for author in post.authors.consortium_authors %}
-                                    <p>{{author.name}},</p>
-                                    {% endfor %}
-                                </div>
-                                {% if post.details.journal != nil or post.published != nil or post.details.pages != nil %}
-                                <p class="journal">
-                                    {{post.details.journal}}
-                                    {% if post.published != nil %}
-                                    ({{post.published | slice: 0, 4 }})
-                                    {% endif %}
-                                    {{post.details.pages}}
+        <section class="block block__related-publications">
+            <div class="container">
+                <h2 class="section-heading">Related Papers</h2>
+                <div class="papers__grid">
+                    {% for post in site.publications %}
+                    {% for item in post.authors.internal_authors %}
+                    {% if page.slug == item %}
+                    <a href="{{ post.url }}" class="papers__item">
+                        <div>
+                            <h3>{{ post.title}}</h3>
+                            <h4>{{ post.published | replace: "-", "/" }}</h4>
+                            <div class="authors">
+                                {% for author in post.authors.internal_authors %}
+                                {% assign authorName = author %}
+                                {% for person in site.team %}
+                                {% if person.slug == authorName %}
+                                <p>
+                                    {{ person.name }},
                                 </p>
                                 {% endif %}
-                                {% if post.details.doi != nil %}
-                                <p class="doi">
-                                    DOI: {{post.details.doi}}
+                                {% endfor %}
+                                {% endfor %}
+                                {% for author in post.authors.external_authors %}
+                                <p>
+                                    {{author.given}}
+                                    {{author.family}},
                                 </p>
-                                {% endif %}
+                                {% endfor %}
+                                {% for author in post.authors.consortium_authors %}
+                                <p>{{author.name}},</p>
+                                {% endfor %}
                             </div>
-                            <span class="button">Read Paper</span>
-                        </a>
-                        {% endif %}
-                        {% endfor %}
-                        {% endfor %}
-                    </div>
+                            {% if post.details.journal != nil or post.published != nil or post.details.pages != nil %}
+                            <p class="journal">
+                                {{post.details.journal}}
+                                {% if post.published != nil %}
+                                ({{post.published | slice: 0, 4 }})
+                                {% endif %}
+                                {{post.details.pages}}
+                            </p>
+                            {% endif %}
+                            {% if post.details.doi != nil %}
+                            <p class="doi">
+                                DOI: {{post.details.doi}}
+                            </p>
+                            {% endif %}
+                        </div>
+                        <span class="button">Read Paper</span>
+                    </a>
+                    {% endif %}
+                    {% endfor %}
+                    {% endfor %}
                 </div>
-            </section>
+            </div>
+        </section>
         {% endif %}
     </main>
     {% include site-footer.html %}
