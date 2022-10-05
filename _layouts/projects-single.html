@@ -70,36 +70,37 @@
                 <h2 class="section-heading">Related People</h2>
                 <div class="team__grid">
                     {% for item in page.people %}
-                    {% assign people_slug = item %}
+                        {% assign people_slug = item | downcase | replace: " ", "-" | replace: "[", "" | replace: "]", "" | replace: '"', "" | replace: '.', "" %}
 
-                    {% for item in site.team %}
-                    {% if item.title == people_slug %}
-                    {% assign person_image = item.image %}
-                    {% assign person_name = item.name %}
-                    {% assign person_institution = item.institution %}
-                    {% assign person_position = item.position %}
+                        {% for item in site.team %}
+                            {% assign item_slug = item.title | downcase | replace: " ", "-" | replace: "[", "" | replace: "]", "" | replace: '"', "" | replace: '.', "" %}
+                            {% if item_slug == people_slug %}
+                                {% assign person_image = item.image %}
+                                {% assign person_name = item.name %}
+                                {% assign person_institution = item.institution %}
+                                {% assign person_position = item.position %}
 
-                    <div class="team__member">
-                        <div class="team__member-image">
-                            {% if person_image.size >= 1 %}
-                            <img src="{{ person_image }}" alt="Image of {{ person_name }}">
-                            {% else %}
-                            <img class="placeholder-image" src="{{site.baseurl}}/assets/images/accelerate-question-mark.jpeg">
+                                <div class="team__member">
+                                    <div class="team__member-image">
+                                        {% if person_image.size >= 1 %}
+                                        <img src="{{ person_image }}" alt="Image of {{ person_name }}">
+                                        {% else %}
+                                        <img class="placeholder-image" src="{{site.baseurl}}/assets/images/accelerate-question-mark.jpeg">
+                                        {% endif %}
+                                    </div>
+                                    <div class="team__member-details">
+                                        <h3>{{ person_name }}</h3>
+                                        {% if person_institution.size >= 1 %}
+                                        <p>{{ person_institution }}</p>
+                                        {% endif %}
+                                        {% if person_position.size >= 1 %}
+                                        <p>{{ person_position }}</p>
+                                        {% endif %}
+                                        <a class="button" href="{{ item.url }}">Read Bio</a>
+                                    </div>
+                                </div>
                             {% endif %}
-                        </div>
-                        <div class="team__member-details">
-                            <h3>{{ person_name }}</h3>
-                            {% if person_institution.size >= 1 %}
-                            <p>{{ person_institution }}</p>
-                            {% endif %}
-                            {% if person_position.size >= 1 %}
-                            <p>{{ person_position }}</p>
-                            {% endif %}
-                            <a class="button" href="{{ item.url }}">Read Bio</a>
-                        </div>
-                    </div>
-                    {% endif %}
-                    {% endfor %}
+                        {% endfor %}
                     {% endfor %}
                 </div>
             </div>
