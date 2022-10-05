@@ -13,5 +13,5 @@ biography: >-
 image: /assets/uploads/marcellam_phpn3ztkg.jpeg
 institution: University of Cambridge
 position: Postdoctoral Researcher
-team: main
+team: alumni
 ---
