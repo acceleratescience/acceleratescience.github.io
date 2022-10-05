@@ -376,7 +376,7 @@ collections:
                 widget: 'string'
                 required: false
           - label: 'Text (Dual Column)'
-            name: 'text'
+            name: 'text_dual_column'
             collapsed: true
             widget: 'object'
             fields:
@@ -394,8 +394,16 @@ collections:
                 required: false
           - label: 'Text'
             name: 'text'
-            widget: 'markdown'
-            required: false
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Heading'
+                name: 'heading'
+                widget: 'string'
+              - label: 'Text'
+                name: 'text'
+                widget: 'markdown'
+                required: false
       # Data Engineering School
       - label: 'Data Engineering School'
         name: 'data_engineering_school'
@@ -421,7 +429,7 @@ collections:
                 widget: 'string'
                 required: false
           - label: 'Text (Dual Column)'
-            name: 'text'
+            name: 'text_dual_column'
             collapsed: true
             widget: 'object'
             fields:
