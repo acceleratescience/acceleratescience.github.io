@@ -1,4 +1,8 @@
 ---
+github: null
+scholar: null
+start: null
+publications: null
 layout: person
 name: Challenger Mishra
 biography: Challenger is developing machine-driven approaches to problems in
@@ -8,21 +12,17 @@ biography: Challenger is developing machine-driven approaches to problems in
   understandings of the map between String Theory models and the Standard Model
   of particle physics.
 image: /assets/uploads/challenger-mishra.jpg
-email:
-url:
-website:
+email: null
+url: null
+website: null
 twitter: challenger1987
-github:
-linkedin:
-scholar:
+linkedin: null
 crsid: cm2099
-orcid:
-start:
-end:
+orcid: null
+end: null
 institution: Cambridge University
 department: Department of Computer Science and Technology
 position: Departmental Early Career Academic Fellow, Accelerate Programme
-team:
-supervisor:
-publications:
+team: main
+supervisor: null
 ---
