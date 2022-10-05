@@ -342,6 +342,15 @@ collections:
                 name: 'link'
                 widget: 'string'
                 required: false
+          - label: 'Resources'
+            name: 'resources'
+            widget: 'relation'
+            collection: 'resources'
+            search_fields: ["title"]
+            value_field: "{{slug}}"
+            display_fields: ["title"]
+            multiple: true
+            required: false
       # Privacy Policy
       - label: 'Privacy Policy'
         name: 'privacy_policy'
