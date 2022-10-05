@@ -128,18 +128,28 @@ title: Software Engineering
     </div>
 </section>
 
-<section class="block block__related-resources">
-    <div class="container">
-        <h2 class="section-heading">Related Resources</h2>
-        <div class="resources__grid">
-            {% for post in site.resources %}
-                <a class="resources__resource resources__resource--{{ post.category }}" data-resources-value="{{ post.category }}" href="{{ post.url }}">
-                    <div>
-                        <h3>{{ post.title }}</h3>
-                    </div>
-                    <span class="button">Read More</span>
-                </a>
-            {% endfor %}
+{% if site.data.software-engineering.resources != nil %}
+    <section class="block block__related-resources">
+        <div class="container">
+            <h2 class="section-heading">Related Resources</h2>
+            <div class="resources__grid">
+                {% for item in site.data.software-engineering.resources %}
+                    {% assign resource_slug = item %}
+
+                    {% for item in site.resources %}
+                        {% if item.slug == resource_slug %}
+                            {% if item.link != nil %}
+                                <a class="resources__resource resources__resource--{{ item.category }}" data-resources-value="{{ item.category }}" href="{{ item.url }}">
+                                    <div>
+                                        <h3>{{ item.title }}</h3>
+                                    </div>
+                                    <span class="button">Read More</span>
+                                </a>
+                            {% endif %}
+                        {% endif %}
+                    {% endfor %}
+                {% endfor %}
+            </div>
         </div>
-    </div>
-</section>
+    </section>
+{% endif %}
