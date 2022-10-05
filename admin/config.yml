@@ -435,11 +435,7 @@ collections:
                 required: false
               - label: 'Content'
                 name: 'content'
-                widget: 'text'
-                required: false
-              - label: 'Link'
-                name: 'link'
-                widget: 'string'
+                widget: 'markdown'
                 required: false
       # Privacy Policy
       - label: 'Privacy Policy'
