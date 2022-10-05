@@ -1,4 +1,9 @@
 ---
+github: null
+scholar: null
+start: null
+publications:
+  - multimodal-graph-coarsening-for-interpretable-mri-based-brain-graph-neural-network
 layout: person
 name: Isaac Sebenius
 biography: |
@@ -9,22 +14,17 @@ biography: |
   learning to combine multiple types of neuroimaging-derived brain connectivity
   as well as genetic and other biological data.
 image: /assets/uploads/isaac-sebenius.jpg
-email:
-url:
-website:
-twitter:
-github:
-linkedin:
-scholar:
+email: null
+url: null
+website: null
+twitter: null
+linkedin: null
 crsid: iss31
-orcid:
-start:
-end:
+orcid: null
+end: null
 institution: Cambridge University
-department:
+department: null
 position: PhD Student
-team:
-supervisor:
-publications:
-  - multimodal-graph-coarsening-for-interpretable-mri-based-brain-graph-neural-network
+team: main
+supervisor: null
 ---
