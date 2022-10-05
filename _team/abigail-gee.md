@@ -7,5 +7,5 @@ biography: Abbie is an Academic Clinical Fellow with broad interests in clinical
   make translational discoveries that improve the lives of patients.
 institution: University of Cambridge
 position: Visiting Academic Clinical Fellow
-team: main
+team: alumni
 ---
