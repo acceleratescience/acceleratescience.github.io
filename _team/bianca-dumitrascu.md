@@ -1,4 +1,10 @@
 ---
+github: null
+scholar: null
+start: 2022-04-15
+publications:
+  - 2021-09-07-deep-learning-for-bioimage-analysis-in-developmental-biology
+  - 2021-02-19-optimal-marker-gene-selection-for-cell-type-discrimination-in-single-cell-analyses
 layout: person
 name: Bianca Dumitrascu
 biography: Bianca works at the intersection of machine learning and genetics.
@@ -11,23 +17,17 @@ biography: Bianca works at the intersection of machine learning and genetics.
   learning and graphical neural networks as models to study the effects and
   side-effects of drug cocktails.
 image: /assets/uploads/bianca-dumitrascu.jpg
-email:
-url:
-website:
+email: null
+url: null
+website: null
 twitter: bidumit
-github:
-linkedin:
-scholar:
+linkedin: null
 crsid: bmd39
-orcid:
-start: 2022-04-15
-end:
+orcid: null
+end: null
 institution: Cambridge University
-department:
+department: null
 position: Departmental Early Career Academic Fellow, Accelerate Programme
-team:
-supervisor:
-publications:
-  - 2021-09-07-deep-learning-for-bioimage-analysis-in-developmental-biology
-  - 2021-02-19-optimal-marker-gene-selection-for-cell-type-discrimination-in-single-cell-analyses
+team: main
+supervisor: null
 ---
