@@ -1,4 +1,8 @@
 ---
+github: null
+scholar: null
+start: 2021-10-04
+publications: null
 layout: person
 name: Katie Green
 biography: Katie is a PhD student and member of the AI4ER CDT and is supervised
@@ -6,21 +10,17 @@ biography: Katie is a PhD student and member of the AI4ER CDT and is supervised
   application of machine learning in ecology and how different methodologies can
   be leveraged to learn about the underlying dynamics of ecosystems.
 image: /assets/uploads/katie-green.jpg
-email:
-url:
-website:
-twitter:
-github:
-linkedin:
-scholar:
+email: null
+url: null
+website: null
+twitter: null
+linkedin: null
 crsid: kmmg2
-orcid:
-start: 2021-10-04
-end:
+orcid: null
+end: null
 institution: Cambridge University
-department:
+department: null
 position: PhD Student
-team:
-supervisor:
-publications:
+team: main
+supervisor: null
 ---
