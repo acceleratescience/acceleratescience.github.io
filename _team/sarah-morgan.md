@@ -1,4 +1,10 @@
 ---
+github: null
+scholar: null
+start: null
+publications:
+  - assessing-psychosis-risk-using-quantitative-markers-of-disorganised-speech
+  - multimodal-graph-coarsening-for-interpretable-mri-based-brain-graph-neural-network
 layout: person
 name: Sarah Morgan
 biography: Sarah's research applies machine learning, network science and
@@ -8,23 +14,17 @@ biography: Sarah's research applies machine learning, network science and
   interested in using transcribed speech data to perform similar prediction
   problems.
 image: /assets/uploads/sarah-morgan.jpg
-email:
-url:
-website:
+email: null
+url: null
+website: null
 twitter: sarah_morgan_uk
-github:
-linkedin:
-scholar:
+linkedin: null
 crsid: sem91
-orcid:
-start:
-end:
+orcid: null
+end: null
 institution: Cambridge University
-department:
+department: null
 position: Departmental Early Career Academic Fellow, Accelerate Programme
-team:
-supervisor:
-publications:
-  - assessing-psychosis-risk-using-quantitative-markers-of-disorganised-speech
-  - multimodal-graph-coarsening-for-interpretable-mri-based-brain-graph-neural-network
+team: main
+supervisor: null
 ---
