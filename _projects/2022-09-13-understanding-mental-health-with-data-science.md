@@ -8,8 +8,12 @@ category:
   - mental-health
 featured_image: /assets/uploads/david-matos-xtligpytpck-unsplash.jpg
 people:
-  - sarah-morgan
-  - isaac-sebenius
+  - Sarah Morgan
+  - Isaac Sebenius
+  - Caroline Nettekoven
+  - Abigail Gee
+  - Marcella Montagnese
+  - Rebeca Ianov-Vitanov
 ---
 ### Led by Dr Sarah Morgan, this group applies data science approaches to better understand mental health conditions, including machine learning, network science and NLP methods. 
 
