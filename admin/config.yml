@@ -351,6 +351,92 @@ collections:
             display_fields: ["title"]
             multiple: true
             required: false
+      # Machine Learning Clinic
+      - label: 'Machine Learning Clinic'
+        name: 'machine_learning_clinic'
+        file: '_data/machine-learning-clinic.yml'
+        editor:
+          preview: false
+        fields:
+          - label: 'Hero'
+            name: 'hero'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+                required: false
+              - label: 'Content'
+                name: 'content'
+                widget: 'text'
+                required: false
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+                required: false
+          - label: 'Text (Dual Column)'
+            name: 'text'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Heading'
+                name: 'heading'
+                widget: 'string'
+                required: false
+              - label: 'Content'
+                name: 'content'
+                widget: 'text'
+                required: false
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+                required: false
+          - label: 'Text'
+            name: 'text'
+            widget: 'markdown'
+            required: false
+      # Data Engineering School
+      - label: 'Data Engineering School'
+        name: 'data_engineering_school'
+        file: '_data/data-engineering-school.yml'
+        editor:
+          preview: false
+        fields:
+          - label: 'Hero'
+            name: 'hero'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+                required: false
+              - label: 'Content'
+                name: 'content'
+                widget: 'text'
+                required: false
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+                required: false
+          - label: 'Text (Dual Column)'
+            name: 'text'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Heading'
+                name: 'heading'
+                widget: 'string'
+                required: false
+              - label: 'Content'
+                name: 'content'
+                widget: 'text'
+                required: false
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+                required: false
       # Privacy Policy
       - label: 'Privacy Policy'
         name: 'privacy_policy'
