@@ -1,23 +1,23 @@
 ---
+github: null
+scholar: null
+start: null
+publications: null
 layout: person
 name: Austen Lamacraft
-biography:
+biography: null
 image: /assets/uploads/austen-lamacraft.jpg
-email:
-url:
-website:
-twitter:
-github:
-linkedin:
-scholar:
-crsid:
-orcid:
-start:
-end:
-institution:
-department:
+email: null
+url: null
+website: null
+twitter: null
+linkedin: null
+crsid: null
+orcid: null
+end: null
+institution: null
+department: null
 position: Professor of Theoretical Physics
-team:
-supervisor:
-publications:
+team: advisory-group
+supervisor: null
 ---
