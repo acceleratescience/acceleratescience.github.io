@@ -1,4 +1,4 @@
-.block__research-overview {
+.block__overview {
     margin: 4rem 0;
 
     @include bp(desktop) {
@@ -12,9 +12,18 @@
         @include bp(desktop) {
             padding-bottom: 10rem;
         }
+
+        &.no-border {
+            padding-bottom: 0;
+            border-bottom: none;
+
+            @include bp(desktop) {
+                padding-bottom: 0;
+            }
+        }
     }
 
-    .research-overview__heading {
+    .overview__heading {
         margin-bottom: 2rem;
 
         @include bp(tablet) {
@@ -22,7 +31,7 @@
         }
     }
 
-    .research-overview__content {
+    .overview__content {
 
         h3 {
             margin-bottom: 3rem;

@@ -1510,25 +1510,29 @@ APP STYLES
 
 .block__research .section-heading { margin-bottom: 6rem; }
 
-.block__research-overview { margin: 4rem 0; }
+.block__overview { margin: 4rem 0; }
 
-@media (min-width: 1200px) { .block__research-overview { margin: 10rem 0; } }
+@media (min-width: 1200px) { .block__overview { margin: 10rem 0; } }
 
-.block__research-overview .container { padding-bottom: 4rem; border-bottom: 1px solid #CCCCCC; }
+.block__overview .container { padding-bottom: 4rem; border-bottom: 1px solid #CCCCCC; }
 
-@media (min-width: 1200px) { .block__research-overview .container { padding-bottom: 10rem; } }
+@media (min-width: 1200px) { .block__overview .container { padding-bottom: 10rem; } }
 
-.block__research-overview .research-overview__heading { margin-bottom: 2rem; }
+.block__overview .container.no-border { padding-bottom: 0; border-bottom: none; }
 
-@media (min-width: 768px) { .block__research-overview .research-overview__heading { margin-bottom: 0; } }
+@media (min-width: 1200px) { .block__overview .container.no-border { padding-bottom: 0; } }
 
-.block__research-overview .research-overview__content h3 { margin-bottom: 3rem; font-size: 2rem; font-weight: 700; letter-spacing: 0.17px; color: #2A2A2A; }
+.block__overview .overview__heading { margin-bottom: 2rem; }
 
-@media (min-width: 768px) { .block__research-overview .research-overview__content h3 { font-size: 2.4rem; } }
+@media (min-width: 768px) { .block__overview .overview__heading { margin-bottom: 0; } }
 
-.block__research-overview .research-overview__content p { letter-spacing: 0.17px; color: #2A2A2A; }
+.block__overview .overview__content h3 { margin-bottom: 3rem; font-size: 2rem; font-weight: 700; letter-spacing: 0.17px; color: #2A2A2A; }
 
-.block__research-overview .research-overview__content p:first-of-type { margin-top: 0; }
+@media (min-width: 768px) { .block__overview .overview__content h3 { font-size: 2.4rem; } }
+
+.block__overview .overview__content p { letter-spacing: 0.17px; color: #2A2A2A; }
+
+.block__overview .overview__content p:first-of-type { margin-top: 0; }
 
 .block__publication { margin: 4rem 0; }
 

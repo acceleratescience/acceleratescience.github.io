@@ -28,7 +28,7 @@ title: Get Involved
                     {% for item in site.opportunities %}
                         <li class="current-opportunities__listing">
                             <h3>{{ item.title }}</h3>
-                            <p>{{ item.description }}</p>
+                            {{ item.excerpt | markdownify }}
                             <a class="button" href="{{ item.url }}">Read More</a>
                         </li>
                     {% endfor %}

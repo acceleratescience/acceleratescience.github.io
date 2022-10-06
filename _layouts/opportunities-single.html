@@ -25,7 +25,20 @@
                 </div>
 
                 <div class="hero__content">
-                    <h2>Opportunities</h2>
+                    <h1>{{ page.title }}</h1>
+                </div>
+            </div>
+        </section>
+
+        <section class="block block__overview">
+            <div class="container no-border">
+                <div class="row row--justified">
+                    <div class="overview__heading column-m-12-nest column-t-3">
+                        <h2 class="section-heading">Job Overview</h2>
+                    </div>
+                    <div class="overview__content column-m-12-nest column-t-8">
+                        {{ content | markdownify }}
+                    </div>
                 </div>
             </div>
         </section>
