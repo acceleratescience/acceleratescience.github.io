@@ -1,0 +1,112 @@
+---
+layout: page
+title: News
+---
+
+<section class="block block__hero">
+    <div class="container">
+        <div class="hero__head row row--justified row--middle">
+            <a href="{{site.url}}" class="brand">
+                <img class="brand" src="{{ site.data.site.site_logo }}" alt="Logo">
+            </a>
+            {% include menu-trigger.html %}
+            {% include nav-primary.html %}
+        </div>
+
+        <div class="hero__content">
+            <h1 class="no-margin">News</h1>
+        </div>
+    </div>
+</section>
+
+<section class="block block__posts">
+    <div class="container">
+        <div class="posts__featured">
+            {% assign news_items = site.news | sort: 'date' | reverse %}
+            {% for post in news_items limit:1 %}
+                {% if post.link != nil %}
+                    <a class="post__post post__post--featured" href="{{ post.link }}" rel="noreferrer" target="_blank"></a>
+                {% else %}
+                    <a class="post__post post__post--featured" href="{{ post.url }}">
+                {% endif %}
+                    <div class="post__post-thumbnail">
+                        {% if post.image != nil %}
+                        <img src="{{ post.image }}">
+                        {% else %}
+                        <img class="placeholder-image" src="{{site.baseurl}}/assets/images/placeholder.png">
+                        {% endif; %}
+                    </div>
+                    <div class="post__post-content">
+                        <h4>{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</h4>
+                        <h3>{{ post.title}}</h3>
+                        <p class="date">{{ post.date | date: "%-d %B %Y" }}</p>
+                        <p class="excerpt">{{ post.excerpt }}</p>
+                        <span class="button">Read More</span>
+                    </div>
+                </a>
+            {% endfor %}
+        </div>
+
+        <div class="posts__filter">
+            <div>
+                <!-- Update -->
+                <h5>Search</h5>
+                <input placeholder="Search query goes in here" type="text">
+            </div>
+        </div>
+
+
+        {% assign gridCounter = 1 %}
+        {% assign counter = 1 %}
+        
+        {% for post in site.news reversed %}
+            {% if counter == 1 %}
+                <div class="posts__grid post__grid {% if gridCounter != 1 %} inactive {% endif %}">
+            {% endif %}
+            
+            {% if post.link != nil %}
+                <a class="post__post post__post--standard" data-category="{{ post.category[0] }}" href="{{ post.link }}" rel="noreferrer" target="_blank">
+            {% else %}
+                <a class="post__post post__post--standard" data-category="{{ post.category[0] }}" href="{{ post.url }}">
+            {% endif %}
+
+            <div class="post__post-thumbnail">
+                {% if post.image != nil %}
+                <img src="{{ post.image }}">
+                {% else %}
+                <img class="placeholder-image" src="{{site.baseurl}}/assets/images/placeholder.png">
+                {% endif; %}
+            </div>
+            <div class="post__post-content">
+                <h4>{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</h4>
+                <h3>{{ post.title}}</h3>
+                <p class="date">{{ post.date | date: "%-d %B %Y" }}</p>
+                <span class="button">Read More</span>
+            </div>
+            </a>
+
+            {% if counter == 8 %}
+                </div>
+                {% assign gridCounter = gridCounter | plus: 1 %}
+                {% assign counter = 1 %}
+            {% else %}
+                {% assign counter = counter | plus: 1 %}
+            {% endif %}
+        {% endfor %}
+
+        {% if counter != 1 %}
+            </div>
+        {% endif %}
+
+        {% if gridCounter > 1 %}
+        <div class="posts__load-more">
+            <span></span>
+            <button class="button button--large loadMore">
+                Show More
+                <img src="../assets/images/plus.svg">
+            </button>
+            <span></span>
+        </div>
+        {% endif %}
+    </div>
+</section>

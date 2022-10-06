@@ -77,7 +77,7 @@ pagination:
         {% endif %}
 
         <div id="blogContainer" class="posts__grid post__grid postContainer" data-page="{{ currentPage }}" data-totalpages="{{ paginator.total_pages }}">
-            {% for post in site.news reversed limit:8 offset:offset %}
+            {% for post in site.news limit:8 offset:offset %}
             {% if post.link != nil %}
                 <a class="post__post post__post--standard" data-category="{{ post.category[0] }}" href="{{ post.link }}" rel="noreferrer" target="_blank">
             {% else %}
