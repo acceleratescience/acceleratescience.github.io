@@ -774,16 +774,62 @@ collections:
       - label: 'Body'
         name: 'body'
         widget: 'markdown'
-      - label: 'Related People'
-        name: 'people'
-        widget: 'relation'
-        collection: 'team'
-        search_fields: ["name"]
-        value_field: "name"
-        display_fields: ["name"]
-        options_length: 999
-        multiple: true
+
+      - label: "Related People"
+        name: 'authors'
+        widget: 'object'
+        collapsed: true
         required: false
+        fields:
+          - label: 'Internal'
+            name: 'internal_authors'
+            widget: 'relation'
+            collection: 'team'
+            search_fields: ["name"]
+            value_field: "name"
+            display_fields: ["name"]
+            options_length: 999
+            multiple: true
+            required: false
+          - label: "External"
+            name: "external_authors"
+            widget: "list"
+            required: false
+            fields:
+              - label: Family Name
+                name: family
+                widget: string
+                required: false
+              - label: Given Name
+                hint: "Include initials, e.g. Neil D."
+                name: given
+                widget: string
+                required: false
+              - label: Prefix
+                hint: "e.g. de, von, van"
+                name: prefix
+                required: false
+                widget: string
+              - label: Suffix
+                name: suffix
+                widget: string
+                required: false
+          - label: "Consortium"
+            name: "consortium_authors"
+            widget: "list"
+            required: false
+            fields:
+              - name: name
+                label: Name
+                hint: Provide the name of the consortium.
+                widget: string
+                required: false
+              - name: url
+                label: Link
+                hint: Provide a URL link to the consortium.
+                widget: string
+                required: false
+
       - label: 'Related Publications'
         name: 'publications'
         widget: 'relation'
@@ -793,6 +839,7 @@ collections:
         display_fields: ["title"]
         multiple: true
         required: false
+
       - label: 'Resources'
         name: 'resources'
         widget: 'relation'
