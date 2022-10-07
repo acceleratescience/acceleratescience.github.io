@@ -12,7 +12,9 @@ authors:
     - aditya-ravuri
     - neil-d-lawrence
   external_authors:
-  consortium_authors:
+    - family: Lalchand
+      given: Vidhi
+  consortium_authors: null
 ---
 ### The Human Cell Atlas programme aims to chart the properties of human cells, building a reference map of the human body that can be used to understand human health and to treat disease. 
 
