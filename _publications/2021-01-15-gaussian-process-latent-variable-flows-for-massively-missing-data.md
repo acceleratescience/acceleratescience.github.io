@@ -22,7 +22,6 @@ published: 2021-01-15
 featured_image:
 authors:
   internal_authors:
-    - vidhi-lalchand
     - aditya-ravuri
     - neil-d-lawrence
   external_authors:
