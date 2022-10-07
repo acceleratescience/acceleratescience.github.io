@@ -19,7 +19,6 @@ description: This paper investigates the structural similarities between liquid
 published: 2020-11-13
 featured_image:
 authors:
-  internal_authors:
   external_authors:
     - family: Monserrat
       given: Bartomeu
@@ -29,7 +28,6 @@ authors:
       given: Edgar A.
     - family: Cheng
       given: Bingqing
-  consortium_authors:
 editors:
   internal_editors:
   external_editors:
