@@ -17,33 +17,38 @@ abstract: Gaussian process latent variable models (GPLVM) are used to perform
   of gradients. We call this flexible model class (GPLVF). We compare this
   framework with traditional models like the Bayesian GPLVM. Our experiments
   focus on massively missing data settings.
-description: Gaussian process latent variable models (GPLVM) are used to perform nonlinear and   probabilistic dimensionality reduction. This work develops a flexible model class, called Gaussian     process latent variable flows (GPLVF), and evaluates its performance in massively missing data settings.
+description: Gaussian process latent variable models (GPLVM) are used to perform
+  nonlinear and   probabilistic dimensionality reduction. This work develops a
+  flexible model class, called Gaussian     process latent variable flows
+  (GPLVF), and evaluates its performance in massively missing data settings.
 published: 2021-01-15
-featured_image:
+featured_image: null
 authors:
   internal_authors:
     - aditya-ravuri
     - neil-d-lawrence
   external_authors:
-  consortium_authors:
+    - family: Lalchand
+      given: Vidhi
+  consortium_authors: null
 editors:
-  internal_editors:
-  external_editors:
-  consortium_editors:
+  ? internal_editors
+  ? external_editors
+  ? consortium_editors
 details:
   openreview: zaMwvOjsyym
-  pages:
-  software:
-  number:
-  html:
-  container-title:
-  pdf:
-  arxiv:
-  address:
-  journal:
-  volume:
-  website:
-  ssrn:
-  publisher:
-  doi:
+  pages: null
+  software: null
+  number: null
+  html: null
+  container-title: null
+  pdf: null
+  arxiv: null
+  address: null
+  journal: null
+  volume: null
+  website: null
+  ssrn: null
+  publisher: null
+  doi: null
 ---
