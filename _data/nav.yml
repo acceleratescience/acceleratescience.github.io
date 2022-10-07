@@ -15,11 +15,14 @@ main_nav:
         link: /resources/
   - label: News
     link: /news/
+    submenu_item: []
+  - label: Blog
+    link: /blog/
+  - label: Events
+    link: /events/
     submenu_item:
-      - label: Blog
-        link: /blog/
-      - label: Events
-        link: /events/
+      - label: Past Events
+        link: /past-events/
   - label: Software Engineering
     link: /software-engineering/
   - label: Contact
