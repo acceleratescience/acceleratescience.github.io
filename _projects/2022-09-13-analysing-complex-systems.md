@@ -11,9 +11,9 @@ category:
 featured_image: /assets/uploads/vinicius-amnx-amano-ipemgbj9ady-unsplash.jpg
 authors:
   internal_authors:
-    - soumya-banerjee
-  external_authors:
-  consortium_authors:
+    - Soumya Banerjee
+  external_authors: null
+  consortium_authors: null
 publications:
   - 2020-11-13-liquid-water-contains-the-building-blocks-of-diverse-ice-phases
   - 2021-01-15-gaussian-process-latent-variable-flows-for-massively-missing-data
