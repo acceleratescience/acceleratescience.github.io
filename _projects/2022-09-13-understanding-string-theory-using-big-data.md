@@ -6,11 +6,6 @@ excerpt: Led by Dr Challenger Mishra, this theoretical physics-focused team
 category:
   - theoretical-physics
 featured_image: /assets/uploads/fly-d-yqyqjaiypze-unsplash.jpg
-people:
-  - Challenger Mishra
-  - Justin Tan
-  - Oisin Kim
-  - Carl Henrik Ek
 authors:
   internal_authors:
     - challenger-mishra

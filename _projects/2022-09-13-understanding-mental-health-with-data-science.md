@@ -7,13 +7,6 @@ excerpt: Led by Dr Sarah Morgan, this group applies data science approaches to
 category:
   - mental-health
 featured_image: /assets/uploads/david-matos-xtligpytpck-unsplash.jpg
-people:
-  - Sarah Morgan
-  - Isaac Sebenius
-  - Caroline Nettekoven
-  - Abigail Gee
-  - Marcella Montagnese
-  - Rebeca Ianov-Vitanov
 authors:
   internal_authors:
     - sarah-morgan
