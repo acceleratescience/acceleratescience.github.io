@@ -9,8 +9,11 @@ excerpt: Complex systems are all around us, from social networks to
 category:
   - complex-systems
 featured_image: /assets/uploads/vinicius-amnx-amano-ipemgbj9ady-unsplash.jpg
-people:
-  - Soumya Banerjee
+authors:
+  internal_authors:
+    - soumya-banerjee
+  external_authors:
+  consortium_authors:
 publications:
   - 2020-11-13-liquid-water-contains-the-building-blocks-of-diverse-ice-phases
   - 2021-01-15-gaussian-process-latent-variable-flows-for-massively-missing-data

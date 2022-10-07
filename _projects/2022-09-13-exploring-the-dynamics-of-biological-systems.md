@@ -7,15 +7,18 @@ excerpt: Led by Dr Bianca Dumitrascu, this group studies how local molecular
 category:
   - biological-systems
 featured_image: /assets/uploads/national-cancer-institute-1ppyuzceg_i-unsplash.jpg
-people:
-  - Bianca Dumitrascu
-  - Ruiyang He
-  - Samuel Considine
-  - Rudolf Laine
-  - Sam Beer
-  - Lilly Wollman
-  - Ruben Weizman
-  - Louis de Benoist
-  - Katie Green
+authors:
+  internal_authors:
+    - bianca-dumitrascu
+    - ruiyang-he
+    - samuel-considine
+    - rudolf-laine
+    - sam-beer
+    - lilly-wollman
+    - ruben-weizman
+    - louis-de-benoist
+    - katie-green
+  external_authors:
+  consortium_authors:
 ---
 Led by Dr Bianca Dumitrascu, this group studies how local molecular rules give raise to emergent spatial patterns in the context of biological dynamical systems. Its focus is the use of techniques from statistical optimization, statistical physics and domain adaptation to identify contextual phenotypes in spatial transcriptomic data and to understand the identity of single cells and their interactions in early developement. Projects also explore active learning and graphical neural networks as models to study the effects and side-effects of drug cocktails.

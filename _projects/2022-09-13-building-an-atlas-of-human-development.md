@@ -7,9 +7,12 @@ excerpt: The Human Cell Atlas programme aims to chart the properties of human
 category:
   - human-development
 featured_image: /assets/uploads/anirudh-yqyaclw8o2u-unsplash.jpeg
-people:
-  - Aditya Ravuri
-  - Neil D. Lawrence
+authors:
+  internal_authors:
+    - aditya-ravuri
+    - neil-d-lawrence
+  external_authors:
+  consortium_authors:
 ---
 ### The Human Cell Atlas programme aims to chart the properties of human cells, building a reference map of the human body that can be used to understand human health and to treat disease. 
 

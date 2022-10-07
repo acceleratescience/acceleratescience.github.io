@@ -14,6 +14,16 @@ people:
   - Abigail Gee
   - Marcella Montagnese
   - Rebeca Ianov-Vitanov
+authors:
+  internal_authors:
+    - sarah-morgan
+    - isaac-sebenius
+    - caroline-nettekoven
+    - abigail-gee
+    - marcella-montagnese
+    - rebeca-ianov-vitanov
+  external_authors:
+  consortium_authors:
 ---
 ### Led by Dr Sarah Morgan, this group applies data science approaches to better understand mental health conditions, including machine learning, network science and NLP methods. 
 
