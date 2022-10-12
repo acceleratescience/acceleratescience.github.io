@@ -7,7 +7,6 @@ excerpt: The Accelerate Programme in collaboration with C2D3 is offering small
   of AI, in research or real-world contexts. Funding can support a variety of
   activities, including events, workshops, teaching, software development, or
   research, with a focus on interdisciplinary collaboration.
-date: 2022-07-05
 authors: null
 image: /assets/uploads/ameen-fahmy-_gektyibrsm-unsplash.jpg
 ---

@@ -6,7 +6,6 @@ excerpt: Accelerate and Cambridge Spark are offering a new self-learning module
   essential knowledge needed to process, manage and analyse data using Python
   and pandas, providing skills that researchers can immediately apply to their
   own data analysis.
-date: 2022-05-26
 authors: null
 image: /assets/uploads/james-harrison-vpoexr5wmr4-unsplash.jpg
 link: https://www.cst.cam.ac.uk/news/new-python-science-course-will-help-researchers-learn-programming-skills
