@@ -65,6 +65,8 @@ pagination:
   permalink: '/page/:num/'
   title: ':title'
   limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
