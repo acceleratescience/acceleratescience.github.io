@@ -1596,6 +1596,10 @@ APP STYLES
 
 @media (min-width: 768px) { .block__team { margin: 10rem 0 4rem 0; } }
 
+.block__team .section-heading { margin-bottom: 3rem; }
+
+@media (min-width: 1200px) { .block__team .section-heading { margin-bottom: 5rem; } }
+
 .block__team .team__tabs { margin-bottom: 4rem; display: flex; flex-wrap: wrap; border-bottom: 1px solid #CCCCCC; }
 
 @media (min-width: 1200px) { .block__team .team__tabs { margin-bottom: 8rem; } }
