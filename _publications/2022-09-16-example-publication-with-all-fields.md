@@ -4,7 +4,7 @@ title: Example Publication with all fields
 abstract: T﻿his is an abstract
 description: This is a description
 published: 2022-09-16
-featured_image: /assets/uploads/alina-grubnyak-ziqkhi7417a-unsplash.jpg
+image: /assets/uploads/alina-grubnyak-ziqkhi7417a-unsplash.jpg
 authors:
   internal_authors:
     - test-person

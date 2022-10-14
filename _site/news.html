@@ -148,16 +148,12 @@
 
         <div class="posts__filter">
             <div>
-                <!-- Update -->
                 <h5>Search</h5>
-                <input placeholder="Search query goes in here" type="text">
+                <form action="/search.html" method="get">
+                    <input type="text" id="search-box" name="query" placeholder="Search query goes in here">
+                </form>
             </div>
             <div>
-                <h5>Filter by category</h5>
-                <select class="news-category-filter" name="">
-                    <option value="*">All</option>
-                    
-                </select>
             </div>
         </div>
 

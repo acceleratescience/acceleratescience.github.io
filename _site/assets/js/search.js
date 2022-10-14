@@ -7,7 +7,7 @@
 
             for (var i = 0; i < results.length; i++) { // Iterate over the results
                 var item = store[results[i].ref];
-                appendString += '<a class="post__post post__post--standard" href="' + item.url + '"><div class="post__post-thumbnail"><img src=""></div><div class="post__post-content"><h3>' + item.title + '</h3><span class="button">Read More</span></div></a>';
+                appendString += '<a class="post__post post__post--standard" href="' + item.url + '"><div class="post__post-thumbnail"><img src="' + item.image + '"></div><div class="post__post-content"><h3>' + item.title + '</h3><span class="button">Read More</span></div></a>';
             }
 
             searchResults.innerHTML = appendString;
@@ -41,18 +41,14 @@
             this.field('title', {
                 boost: 10
             });
-            this.field('author');
-            this.field('category');
-            this.field('content');
+            this.field('image');
         });
 
         for (var key in window.store) { // Add the data to lunr
             idx.add({
                 'id': key,
                 'title': window.store[key].title,
-                'author': window.store[key].author,
-                'category': window.store[key].category,
-                'content': window.store[key].content
+                'image': window.store[key].image
             });
 
             var results = idx.search(searchTerm); // Get lunr to perform a search

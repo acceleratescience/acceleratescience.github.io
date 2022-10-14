@@ -6,7 +6,7 @@ excerpt: Led by Dr Sarah Morgan, this group applies data science approaches to
   network science and NLP methods.
 category:
   - mental-health
-featured_image: /assets/uploads/david-matos-xtligpytpck-unsplash.jpg
+image: /assets/uploads/david-matos-xtligpytpck-unsplash.jpg
 authors:
   internal_authors:
     - sarah-morgan

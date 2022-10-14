@@ -17,7 +17,7 @@ description: This paper investigates the structural similarities between liquid
   water and a comprehensive set of 54 simulated ice phases. Its findings shed
   light on the phase behaviour of water.
 published: 2020-11-13
-featured_image:
+image:
 authors:
   external_authors:
     - family: Monserrat

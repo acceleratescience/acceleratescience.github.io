@@ -6,7 +6,7 @@ excerpt: The Human Cell Atlas programme aims to chart the properties of human
   understand human health and to treat disease.
 category:
   - human-development
-featured_image: /assets/uploads/anirudh-yqyaclw8o2u-unsplash.jpeg
+image: /assets/uploads/anirudh-yqyaclw8o2u-unsplash.jpeg
 authors:
   internal_authors:
     - aditya-ravuri

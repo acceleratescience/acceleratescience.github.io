@@ -5,7 +5,7 @@ excerpt: Led by Dr Challenger Mishra, this theoretical physics-focused team
   works on the long-standing problem of quantising gravity
 category:
   - theoretical-physics
-featured_image: /assets/uploads/fly-d-yqyqjaiypze-unsplash.jpg
+image: /assets/uploads/fly-d-yqyqjaiypze-unsplash.jpg
 authors:
   internal_authors:
     - challenger-mishra

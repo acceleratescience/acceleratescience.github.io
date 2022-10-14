@@ -22,7 +22,7 @@ description: Gaussian process latent variable models (GPLVM) are used to perform
   flexible model class, called Gaussian     process latent variable flows
   (GPLVF), and evaluates its performance in massively missing data settings.
 published: 2021-01-15
-featured_image: null
+image: null
 authors:
   internal_authors:
     - aditya-ravuri

@@ -23,7 +23,7 @@ description: This paper analyses the phase diagram of water at three hybrid
   principles and provides a thermodynamic way of testing the limits of
   quantum-mechanical calculations.
 published: 2021-01-26
-featured_image:
+image:
 authors:
   internal_authors:
   external_authors:

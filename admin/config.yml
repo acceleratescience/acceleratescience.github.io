@@ -688,7 +688,7 @@ collections:
           - { label: "News", value: "news" }
         required: false
       - label: 'Image'
-        name: 'image_image'
+        name: 'image'
         widget: 'image'
       - label: 'Body'
         name: 'body'
@@ -761,7 +761,7 @@ collections:
           - { label: "Biological Systems", value: "biological-systems" }
           - { label: "Theoretical Physics", value: "theoretical-physics" }
       - label: 'Featured Image'
-        name: 'featured_image'
+        name: 'image'
         widget: 'image'
       - label: 'Body'
         name: 'body'
@@ -930,11 +930,6 @@ collections:
         format: "YYYY-MM-DD"
         date_format: "YYYY-MM-DD"
         time_format: false
-      - label: 'Featured Image'
-        name: 'featured_image'
-        hint: "Select an image from the paper to represent the work."
-        widget: 'image'
-        required: false
       
       - label: "Authors"
         name: 'authors'

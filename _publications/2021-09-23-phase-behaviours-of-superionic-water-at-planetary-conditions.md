@@ -16,7 +16,7 @@ abstract: Most water in the Universe may be superionic, and its thermodynamic
   giants.
 description: Understanding the thermodynamic and transport properties of water is crucial for planetary science. This paper uses machine learning to characterise the phase behaviours of water at extreme conditions.
 published: 2021-09-23
-featured_image:
+image:
 authors:
   internal_authors:
   external_authors:

@@ -5,7 +5,7 @@ excerpt: On 19 November, Accelerate brought together researchers from across
   summarises some of the key points from discussions.
 image:
   - /assets/uploads/michal-czyz-ALM7RNZuDH8-unsplash-2.jpg
-featured_image: /assets/images/unworkshop_2021_challenges_in_science_and_maths-original.jpg
+image: /assets/images/unworkshop_2021_challenges_in_science_and_maths-original.jpg
 author: Jess Montgomery, University of Cambridge
 date: 2021-12-22 10:00:00
 title: The frontiers, opportunities and challenges of AI for science –

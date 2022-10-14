@@ -22,7 +22,7 @@ description: Researchers can assess the similarity of different data points by
   creating measures of distance between them. This paper assesses the amount of
   information contained in different distance measures.
 published: 2021-04-30
-featured_image:
+image:
 authors:
   internal_authors:
   external_authors:
