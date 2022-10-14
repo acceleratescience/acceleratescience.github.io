@@ -125,9 +125,11 @@
 <section class="block block__posts">
     <div class="container">
         <div class="posts__filter">
-            <div class="search__form">
+            <div>
                 <h5>Search</h5>
-                <input id="search-box" name="query" type="text">
+                <form action="/search.html" method="get">
+                    <input id="search-box" name="query" placeholder="Search query goes in here" type="text">
+                </form>
             </div>
             <div></div>
         </div>
