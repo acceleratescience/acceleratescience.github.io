@@ -853,13 +853,11 @@ APP STYLES
 1.0 - General Page Styles
 
 */
-.error404 main, .search main { min-height: calc(100vh - 410px); display: flex; align-items: center; justify-content: center; }
+.error404 main { min-height: 100vh; display: flex; align-items: center; justify-content: center; }
 
-.error404 main article, .search main article { text-align: center; }
+.error404 main article { text-align: center; }
 
-.error404 main article header span, .search main article header span { font-size: 8rem; }
-
-.search article { text-align: left; }
+.error404 main article header span { font-size: 8rem; }
 
 /*
 *
