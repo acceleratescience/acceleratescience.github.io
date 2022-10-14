@@ -8,8 +8,8 @@
             for (var i = 0; i < results.length; i++) { // Iterate over the results
                 var item = store[results[i].ref];
                 var itemImage = item.image;
-                var itemImageUrl = itemImage.replace('[', '').replace(']', '').replace('"', '');
-                appendString = '<a class="post__post post__post--standard" href="' + item.url + '"><div class="post__post-thumbnail"><img src="' + itemImageUrl.replace('"', '') + '"></div><div class="post__post-content"><h3>' + itemImageUrl.replace('"', '') + '</h3><span class="button">Read More</span></div></a>';
+                var itemImageUrl = itemImage.replace('[', '').replace(']', '');
+                appendString = '<a class="post__post post__post--standard" href="' + item.url + '"><div class="post__post-thumbnail"><img src=' + itemImageUrl.replace('"', '') + '></div><div class="post__post-content"><h3>test: ' + itemImageUrl + '</h3><span class="button">Read More</span></div></a>';
             }
 
             searchResults.innerHTML = appendString;
