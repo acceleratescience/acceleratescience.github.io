@@ -197,7 +197,9 @@ function init() {
         image.onload = function () {
             imageLoaded = true;
         };
-        image.src = "../assets/images/placeholder-old.jpg";
+        // Photo by JJ Ying
+        // https://unsplash.com/@jjying?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText
+        image.src = "../assets/images/jj-ying-8bghKxNU1j0-unsplash.jpg";
     }
 
     animate();
