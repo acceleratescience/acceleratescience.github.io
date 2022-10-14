@@ -12,7 +12,7 @@
 
             searchResults.innerHTML = appendString;
         } else {
-            searchResults.innerHTML = '<h2>No results found</h2>';
+            searchResults.innerHTML = '<h2 class="no-results-found">No results found</h2>';
         }
     }
 
