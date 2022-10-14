@@ -338,13 +338,13 @@
                         $(".loadMore").closest(".posts__load-more").remove();
                     }
                     $(_this).removeClass("loading");
-                    var filterCategory = $('.news-category-filter').val();
-                    if (filterCategory == "*") {
-                        $('.block__posts').find('.post__post').removeClass('hidden');
-                    } else {
-                        $('.block__posts').find('.post__post').addClass('hidden');
-                        $('.block__posts').find('.post__post[data-category="' + filterCategory + '"]').removeClass('hidden');
-                    };
+                    // var filterCategory = $('.news-category-filter').val();
+                    // if (filterCategory == "*") {
+                    //     $('.block__posts').find('.post__post').removeClass('hidden');
+                    // } else {
+                    //     $('.block__posts').find('.post__post').addClass('hidden');
+                    //     $('.block__posts').find('.post__post[data-category="' + filterCategory + '"]').removeClass('hidden');
+                    // };
                 });
             }
         </script>
