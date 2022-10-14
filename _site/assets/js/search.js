@@ -9,7 +9,7 @@
                 var item = store[results[i].ref];
                 var itemImage = item.image;
                 var itemImageUrl = itemImage.replace('[', '').replace(']', '').replace(/['"]+/g, '');
-                appendString += '<a class="post__post post__post--standard" href="' + item.url + '"><div class="post__post-thumbnail"><img src="' + itemImageUrl + '"></div><div class="post__post-content"><h3>' + itemImageUrl + '</h3><span class="button">Read More</span></div></a>';
+                appendString = '<a class="post__post post__post--standard" href="' + item.url + '"><div class="post__post-thumbnail"><img src="' + itemImageUrl + '"></div><div class="post__post-content"><h3>' + itemImageUrl + '</h3><span class="button">Read More</span></div></a>';
             }
 
             searchResults.innerHTML = appendString;
