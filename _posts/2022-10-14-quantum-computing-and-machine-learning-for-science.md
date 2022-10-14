@@ -9,7 +9,7 @@ excerpt: The innate ability of quantum computers to simulate quantum mechanics
   necessarily have a scientific rendition, utilising quantum computing to
   achieve breakthroughs in scientific problems could pave a way for
   demonstrating quantum supremacy itself.
-author: Challenger Mishra and Subhuman Roy Moulik
+author: Challenger Mishra and Subhayan Roy Moulik
 date: October 14, 2022 4:56 PM
 categories:
   - machine-learning
