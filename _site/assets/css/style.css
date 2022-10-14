@@ -1600,9 +1600,9 @@ APP STYLES
 
 @media (min-width: 1200px) { .block__team .section-heading { margin-bottom: 5rem; } }
 
-.block__team .team__tabs { margin-bottom: 4rem; display: flex; flex-wrap: wrap; border-bottom: 1px solid #CCCCCC; }
+.block__team .team__tabs { margin-bottom: 3rem; display: flex; flex-wrap: wrap; border-bottom: 1px solid #CCCCCC; }
 
-@media (min-width: 1200px) { .block__team .team__tabs { margin-bottom: 8rem; } }
+@media (min-width: 1200px) { .block__team .team__tabs { margin-bottom: 5rem; } }
 
 .block__team .team__tabs button { margin-right: 2px; padding: 1rem; background-color: #CCCCCC; border-top: 1px solid #CCCCCC; border-right: 1px solid #CCCCCC; border-left: 1px solid #CCCCCC; border-bottom: none; font-size: 1.4rem; cursor: pointer; }
 
