@@ -3,6 +3,7 @@
         var searchResults = document.getElementById('search-results');
 
         if (results.length) { // Are there any results?
+            console.log(results.length);
             var appendString = '';
 
             for (var i = 0; i < results.length; i++) { // Iterate over the results
