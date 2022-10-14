@@ -35,13 +35,104 @@
 </header>
         
         <main class="main">
-            <form action="/search.html" method="get">
-    <label for="search-box">Search</label>
-    <input id="search-box" name="query" type="text">
-    <input type="submit" value="search">
-</form>
+            <section class="block block__hero">
+    <div class="container">
+        <div class="hero__head row row--justified row--middle">
+            <a href="https://roaring-rugelach-b8c77e.netlify.app" class="brand">
+                <img class="brand" src="/assets/uploads/logo.png" alt="Logo">
+            </a>
+            <div class="menu-trigger">
+    <p>Menu</p>
+    <div class="menu-trigger__button">
+        <span></span>
+    </div>
+</div>
+            <nav class="nav-primary">
+    <span></span>
+    <ul>
+        
+            <li>
+                <a href="/about/">About</a>
+                
+                    <div class="submenu">
+                        
+                            <a href="/team/">Team</a>
+                        
+                            <a href="/get-involved/">Get Involved</a>
+                        
+                    </div>
+                
+            </li>
+        
+            <li>
+                <a href="/projects/">Projects</a>
+                
+                    <div class="submenu">
+                        
+                            <a href="/publications/">Publications</a>
+                        
+                            <a href="/resources/">Resources</a>
+                        
+                    </div>
+                
+            </li>
+        
+            <li>
+                <a href="/news/">News</a>
+                
+                    <div class="submenu">
+                        
+                    </div>
+                
+            </li>
+        
+            <li>
+                <a href="/blog/">Blog</a>
+                
+            </li>
+        
+            <li>
+                <a href="/events/">Events</a>
+                
+                    <div class="submenu">
+                        
+                            <a href="/past-events/">Past Events</a>
+                        
+                    </div>
+                
+            </li>
+        
+            <li>
+                <a href="/software-engineering/">Software Engineering</a>
+                
+            </li>
+        
+            <li>
+                <a href="/get-involved/">Contact</a>
+                
+            </li>
+        
+    </ul>
+</nav>
+        </div>
 
-<ul id="search-results"></ul>
+        <div class="hero__content">
+            <h1 class="no-margin">Search</h1>
+        </div>
+    </div>
+</section>
+
+<section class="block block__search">
+    <div class="container">
+        <div class="search__form">
+            <form action="/search.html" method="get">
+                <input id="search-box" name="query" type="text">
+            </form>
+        </div>
+        <div class="posts__grid post__grid postContainer" id="search-results"></div>
+    </div>
+</section>
+
 
 <script>
   window.store = {
