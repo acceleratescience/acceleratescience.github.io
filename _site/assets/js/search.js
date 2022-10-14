@@ -9,7 +9,13 @@
             for (var i = 0; i < results.length; i++) { // Iterate over the results
                 var item = store[results[i].ref];
                 var itemImage = item.image;
-                var itemImageUrl = itemImage.replace('[', '').replace(']', '');
+                var itemImageUrl = null;
+
+                if (itemImage.length) {
+                    itemImageUrl = itemImage.replace('[', '').replace(']', '');
+                } else {
+                    itemImageUrl = "/assets/images/accelerate-question-mark.jpeg"
+                }
                 appendString += `<a class="post__post post__post--standard" href="${item.url}"><div class="post__post-thumbnail"><img src="${itemImageUrl}"></div><div class="post__post-content"><h3>${item.title}</h3><span class="button">Read More</span></div></a>`;
             };
 
