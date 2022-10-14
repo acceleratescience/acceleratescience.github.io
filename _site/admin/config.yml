@@ -507,135 +507,135 @@ collections:
                 widget: 'markdown'
                 
   # Collection Archive Pages
-  - label: 'Collection Pages'
-    name: 'collection_pages'
-    files:
-      # Blog
-      - label: 'Blog (Insights)'
-        name: 'blog'
-        file: '_data/blog.yml'
-        editor:
-          preview: false
-        fields:
-          - label: 'Hero'
-            name: 'hero'
-            collapsed: true
-            widget: 'object'
-            fields:
-              - label: 'Title'
-                name: 'title'
-                widget: 'string'
-              - label: 'Content'
-                name: 'content'
-                widget: 'text'
-              - label: 'Link'
-                name: 'link'
-                widget: 'string'
-      # News
-      - label: 'News'
-        name: 'news'
-        file: '_data/news.yml'
-        editor:
-          preview: false
-        fields:
-          - label: 'Hero'
-            name: 'hero'
-            collapsed: true
-            widget: 'object'
-            fields:
-              - label: 'Title'
-                name: 'title'
-                widget: 'string'
-              - label: 'Content'
-                name: 'content'
-                widget: 'text'
-              - label: 'Link'
-                name: 'link'
-                widget: 'string'
-      # Projects
-      - label: 'Projects'
-        name: 'projects'
-        file: '_data/projects.yml'
-        editor:
-          preview: false
-        fields:
-          - label: 'Hero'
-            name: 'hero'
-            collapsed: true
-            widget: 'object'
-            fields:
-              - label: 'Title'
-                name: 'title'
-                widget: 'string'
-              - label: 'Content'
-                name: 'content'
-                widget: 'text'
-              - label: 'Link'
-                name: 'link'
-                widget: 'string'
-      # Resources
-      - label: 'Resources'
-        name: 'resources'
-        file: '_data/resources.yml'
-        editor:
-          preview: false
-        fields:
-          - label: 'Hero'
-            name: 'hero'
-            collapsed: true
-            widget: 'object'
-            fields:
-              - label: 'Title'
-                name: 'title'
-                widget: 'string'
-              - label: 'Content'
-                name: 'content'
-                widget: 'text'
-              - label: 'Link'
-                name: 'link'
-                widget: 'string'
-      # Team
-      - label: 'Team'
-        name: 'team'
-        file: '_data/team.yml'
-        editor:
-          preview: false
-        fields:
-          - label: 'Hero'
-            name: 'hero'
-            collapsed: true
-            widget: 'object'
-            fields:
-              - label: 'Title'
-                name: 'title'
-                widget: 'string'
-              - label: 'Content'
-                name: 'content'
-                widget: 'text'
-              - label: 'Link'
-                name: 'link'
-                widget: 'string'
-      # Get Involved (Opportunities)
-      - label: 'Get Involved (Opportunities)'
-        name: 'get_involved'
-        file: '_data/get-involved.yml'
-        editor:
-          preview: false
-        fields:
-          - label: 'Hero'
-            name: 'hero'
-            collapsed: true
-            widget: 'object'
-            fields:
-              - label: 'Title'
-                name: 'title'
-                widget: 'string'
-              - label: 'Content'
-                name: 'content'
-                widget: 'text'
-              - label: 'Link'
-                name: 'link'
-                widget: 'string'
+  # - label: 'Collection Pages'
+  #   name: 'collection_pages'
+  #   files:
+  #     # Blog
+  #     - label: 'Blog (Insights)'
+  #       name: 'blog'
+  #       file: '_data/blog.yml'
+  #       editor:
+  #         preview: false
+  #       fields:
+  #         - label: 'Hero'
+  #           name: 'hero'
+  #           collapsed: true
+  #           widget: 'object'
+  #           fields:
+  #             - label: 'Title'
+  #               name: 'title'
+  #               widget: 'string'
+  #             - label: 'Content'
+  #               name: 'content'
+  #               widget: 'text'
+  #             - label: 'Link'
+  #               name: 'link'
+  #               widget: 'string'
+  #     # News
+  #     - label: 'News'
+  #       name: 'news'
+  #       file: '_data/news.yml'
+  #       editor:
+  #         preview: false
+  #       fields:
+  #         - label: 'Hero'
+  #           name: 'hero'
+  #           collapsed: true
+  #           widget: 'object'
+  #           fields:
+  #             - label: 'Title'
+  #               name: 'title'
+  #               widget: 'string'
+  #             - label: 'Content'
+  #               name: 'content'
+  #               widget: 'text'
+  #             - label: 'Link'
+  #               name: 'link'
+  #               widget: 'string'
+  #     # Projects
+  #     - label: 'Projects'
+  #       name: 'projects'
+  #       file: '_data/projects.yml'
+  #       editor:
+  #         preview: false
+  #       fields:
+  #         - label: 'Hero'
+  #           name: 'hero'
+  #           collapsed: true
+  #           widget: 'object'
+  #           fields:
+  #             - label: 'Title'
+  #               name: 'title'
+  #               widget: 'string'
+  #             - label: 'Content'
+  #               name: 'content'
+  #               widget: 'text'
+  #             - label: 'Link'
+  #               name: 'link'
+  #               widget: 'string'
+  #     # Resources
+  #     - label: 'Resources'
+  #       name: 'resources'
+  #       file: '_data/resources.yml'
+  #       editor:
+  #         preview: false
+  #       fields:
+  #         - label: 'Hero'
+  #           name: 'hero'
+  #           collapsed: true
+  #           widget: 'object'
+  #           fields:
+  #             - label: 'Title'
+  #               name: 'title'
+  #               widget: 'string'
+  #             - label: 'Content'
+  #               name: 'content'
+  #               widget: 'text'
+  #             - label: 'Link'
+  #               name: 'link'
+  #               widget: 'string'
+  #     # Team
+  #     - label: 'Team'
+  #       name: 'team'
+  #       file: '_data/team.yml'
+  #       editor:
+  #         preview: false
+  #       fields:
+  #         - label: 'Hero'
+  #           name: 'hero'
+  #           collapsed: true
+  #           widget: 'object'
+  #           fields:
+  #             - label: 'Title'
+  #               name: 'title'
+  #               widget: 'string'
+  #             - label: 'Content'
+  #               name: 'content'
+  #               widget: 'text'
+  #             - label: 'Link'
+  #               name: 'link'
+  #               widget: 'string'
+  #     # Get Involved (Opportunities)
+  #     - label: 'Get Involved (Opportunities)'
+  #       name: 'get_involved'
+  #       file: '_data/get-involved.yml'
+  #       editor:
+  #         preview: false
+  #       fields:
+  #         - label: 'Hero'
+  #           name: 'hero'
+  #           collapsed: true
+  #           widget: 'object'
+  #           fields:
+  #             - label: 'Title'
+  #               name: 'title'
+  #               widget: 'string'
+  #             - label: 'Content'
+  #               name: 'content'
+  #               widget: 'text'
+  #             - label: 'Link'
+  #               name: 'link'
+  #               widget: 'string'
       
             
 
