@@ -15,8 +15,13 @@ authors:
     - abigail-gee
     - marcella-montagnese
     - rebeca-ianov-vitanov
-  external_authors:
-  consortium_authors:
+  external_authors: null
+  consortium_authors: null
+publications:
+  - 2021-10-25-multimodal-graph-coarsening-for-interpretable-mri-based-brain-graph-neural-network
+  - 2021-12-13-assessing-psychosis-risk-using-quantitative-markers-of-disorganised-speech
+resources:
+  - netts-networks-of-transcript-semantics
 ---
 ### Led by Dr Sarah Morgan, this group applies data science approaches to better understand mental health conditions, including machine learning, network science and NLP methods. 
 
