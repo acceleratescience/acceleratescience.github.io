@@ -483,7 +483,7 @@ function resizeCanvas(canvas) {
                     let items = $(grid).find('.hidden');
 
                     let i;
-                    for (i = 1; i <= 8; i++) {
+                    for (i = 0; i <= 7; i++) {
                         $(items[i]).removeClass('hidden');
                     };
                 });
