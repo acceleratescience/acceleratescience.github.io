@@ -485,7 +485,12 @@ function resizeCanvas(canvas) {
                     if ($(items).length) {
                         let i;
                         for (i = 0; i <= 7; i++) {
-                            $(items[i]).removeClass('hidden');
+                            if (items[i] == null) {
+                                $(this).closest('.posts__load-more').remove();
+                                break;
+                            } else {
+                                $(items[i]).removeClass('hidden');
+                            }
                         };
                     } else {
                         $(this).closest('.posts__load-more').remove();
