@@ -477,6 +477,17 @@ function resizeCanvas(canvas) {
                  *
                  */
 
+                // Load More Button - Non Ajax
+                $('.loadMore--alt').click(function () {
+                    let = $(this).closest('.block__posts').find('.posts__grid');
+                    let = $(grid).find('.hidden');
+
+                    let i;
+                    for (i = 0; i < 9; ++i) {
+                        $(items[i]).removeClass('hidden');
+                    };
+                });
+
                 // Accordions
                 $('.accordions__selectors button').click(function () {
                     var id = $(this).data('accordion-id');
