@@ -479,11 +479,11 @@ function resizeCanvas(canvas) {
 
                 // Load More Button - Non Ajax
                 $('.loadMore--alt').click(function () {
-                    let = $(this).closest('.block__posts').find('.posts__grid');
-                    let = $(grid).find('.hidden');
+                    let grid = $(this).closest('.block__posts').find('.posts__grid');
+                    let items = $(grid).find('.hidden');
 
                     let i;
-                    for (i = 0; i < 9; ++i) {
+                    for (i = 1; i <= 8; i++) {
                         $(items[i]).removeClass('hidden');
                     };
                 });
