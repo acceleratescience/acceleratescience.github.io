@@ -482,9 +482,13 @@ function resizeCanvas(canvas) {
                     let grid = $(this).closest('.block__posts').find('.posts__grid');
                     let items = $(grid).find('.hidden');
 
-                    let i;
-                    for (i = 0; i <= 7; i++) {
-                        $(items[i]).removeClass('hidden');
+                    if ($(items).length) {
+                        let i;
+                        for (i = 0; i <= 7; i++) {
+                            $(items[i]).removeClass('hidden');
+                        };
+                    } else {
+                        $(this).closest('.posts__load-more').remove();
                     };
                 });
 
