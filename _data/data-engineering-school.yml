@@ -1,15 +1,143 @@
 hero:
-  title: Data Engineering School
+  title: Apply to join Accelerate Science’s 2022 ‘Data Pipelines for Science’
+    Winter School
+  content: How can researchers design and implement data pipelines for scientific
+    research? Join our Winter School on 5-7 December 2022 to learn how to
+    correctly, efficiently and robustly prepare your datasets for machine
+    learning in your scientific projects.
 text_dual_column:
   heading: Well-curated and managed data is central to the effective use of AI, in
     science and elsewhere. How can scientists build the data pipelines they need
     to accelerate their research with AI?
   content: >-
-    This course will introduce the foundational principles and methods in data
-    engineering that researchers need to make use of AI. Blending online
-    lectures and practical labs, with a focus on the principles of data science
-    and case studies of their application in science, this Winter School will
-    provide participants with hands-on experience of data science for science.
+    Machine learning is an important  tool for researchers across disciplines.
+    Scientists today have access to more data, from a greater range of sources
+    and at greater speed than ever before, and opportunities to extract insights
+    from this data using AI. But before deploying AI, researchers must have a
+    data pipeline that transforms their data into a state that is suitable for
+    the machine learning algorithms being used. 
 
 
-    Further details about content and how to apply to join the course will follow in October 2022.
+    These pipelines are important independent research outputs as they enable others to easily inspect, reproduce, refine or extend the scientist’s work. However, implementing data pipelines present numerous software challenges that might be difficult to resolve or even identify to scientists who do not have a significant expertise in software engineering concepts and practices. 
+
+
+    Such challenges include: how do I ensure the correctness of my pipeline? How do I structure my pipeline in a way that makes it easier for others to reuse and extend? How do I ensure my pipeline is robust enough to deal with different types and volumes of data? How do I document and publish my pipeline? How do I ensure my pipeline adheres to privacy and anonymisation constraints?
+
+
+    Accelerate Science’s 2022 Winter School will help scientists overcome such data pipeline challenges by equipping them with the latest best-practice software techniques. It will consist of a blend of lectures and labs, with a focus on discussing general principles and case-studies during the lectures, and a focus on hands-on exercises in Python during the labs. Participants will all asdf have the opportunity to discuss and share data pipeline issues encountered in their own research with the course instructor and cohort, and to relate it to the course content.
+
+
+    The Winter School will take place from 5-7 December at the Intel Teaching Labs at the William Gates Building. If you're a PhD student or researcher at the University of Cambridge and would like to apply to join the course, please complete the form at <https://7kuzlokgqop.typeform.com/to/S2ZdyWFx> by Monday 14 November, 17:00 (UK).
+
+
+    - - -
+
+
+
+
+    ### FAQ
+
+
+    Who is this course for?
+
+
+    Any researcher at the University of Cambridge who works with large datasets in their research and is interested in making the transition to data science-led research, but does not have significant expertise in software or data engineering.
+
+
+    How will this course help my research?
+
+
+    Any data-intensive research requires implementing data pipelines (even implicitly), and as mentioned in the course overview, this course will help researchers identify and resolve numerous design and implementation challenges that arise when using data pipelines in research. Implementing the methodology taught in this course will help ensure that all your data pipelines and data handling runs efficiently, correctly and can be shared frictionlessly with collaborators; which are beneficial to any scientific research programme.
+
+
+    What is the minimum level of programming requirement to participate in the course?
+
+
+    There are no minimum programming skills requirements to enrol for the course. However we ask participants to complete an online Python course before the school starts to ensure all enrolled students have the minimum required programming level needed for the course.
+
+
+    For further details on  how to access the free online course you can visit: https://acceleratescience.github.io/python-for-science-FAQ.html
+
+
+    Do you cover any other programming language apart from Python?
+
+
+    All the labs will be conducted in Python, however the school will also provide some supplementary lab material in R.
+
+
+    Do I need to be familiar with machine learning to participate?
+
+
+    While implementing a data pipeline is an important preparatory step for using machine learning, the focus of this course will be solely on data pipelines and thus you do not need to be familiar with machine learning to participate.
+
+
+    What topics will the course cover?
+
+
+    Monday, 5 December
+
+
+    10:30 - 11:20   Lecture 1 "Introduction to data pipelines"
+
+
+    11:30 - 13:00   Lab 1 “Automating pipelines in Python”
+
+
+    14:00 - 14:50   Lecture 2  “Implementing domain-specific data pipelines”
+
+
+    15:00 - 16:30   Lab 2 “Modularising and structuring data pipelines in Python”
+
+
+    Tuesday, 6 December
+
+
+    10:30 - 11:20    Lecture 3  "Testing and profiling data pipelines"
+
+
+    11:30 - 13:00    Lab 3 “Examples of testing and profiling data pipelines in Python”
+
+
+    14:00 - 14:50   Lecture 4 “Integrating anonymisation & privacy controls"
+
+
+    15:00 - 16:30   Lab 4 “Python anonymisation and privacy libraries”
+
+
+    Wednesday, 7 December
+
+
+    10:30 - 12:00  Lecture 5 "Publishing Data Pipelines & Course Summary"
+
+
+    12:00 - 13:00  Lab 5 “Publishing workflow”
+
+
+    13:00 - 14:30  Pizza lunch & certificate collection
+
+
+    14:30 - 16:00  Open office hour with Accelerate Science team.
+
+
+    What do I obtain on course completion?
+
+
+    Students who enrol in the course obtain a free hardcopy of the books used in the course. Students who complete the course also obtain a certificate of completion from the Accelerate Science team.
+
+
+    Who can apply to join the course? Is there a fee?
+
+
+    The course is open to all Cambridge University affiliated research staff and PhD students. The course is free.
+
+
+    How do I enrol? 
+
+
+    To apply to join the course you need to register your interest via this form::
+
+
+    <https://7kuzlokgqop.typeform.com/to/S2ZdyWFx>
+
+
+    The registration deadline is 14 November, 17:00 (UK). Participants will be informed whether they have a place on the course by 18 November.
