@@ -26,7 +26,7 @@ twitter_svg: ./assets/images/social-tw.svg/
 facebook_svg: ./assets/images/social-fb.svg/
 instagram_svg: ./assets/images/social-in.svg/
 image_root: ./assets/images/
-baseurl: "/blog" # the subpath of your site, e.g. /blog
+baseurl: "https://acceleratescience.github.io/" # the subpath of your site, e.g. /blog
 url: "https://acceleratescience.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
