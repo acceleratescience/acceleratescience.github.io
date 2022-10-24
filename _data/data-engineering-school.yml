@@ -33,24 +33,22 @@ text_dual_column:
     - - -
 
 
-
-
     ### FAQ
 
 
-    Who is this course for?
+    ***Who is this course for?***
 
 
     Any researcher at the University of Cambridge who works with large datasets in their research and is interested in making the transition to data science-led research, but does not have significant expertise in software or data engineering.
 
 
-    How will this course help my research?
+    ***How will this course help my research?***
 
 
     Any data-intensive research requires implementing data pipelines (even implicitly), and as mentioned in the course overview, this course will help researchers identify and resolve numerous design and implementation challenges that arise when using data pipelines in research. Implementing the methodology taught in this course will help ensure that all your data pipelines and data handling runs efficiently, correctly and can be shared frictionlessly with collaborators; which are beneficial to any scientific research programme.
 
 
-    What is the minimum level of programming requirement to participate in the course?
+    ***What is the minimum level of programming requirement to participate in the course?***
 
 
     There are no minimum programming skills requirements to enrol for the course. However we ask participants to complete an online Python course before the school starts to ensure all enrolled students have the minimum required programming level needed for the course.
@@ -59,19 +57,19 @@ text_dual_column:
     For further details on  how to access the free online course you can visit: https://acceleratescience.github.io/python-for-science-FAQ.html
 
 
-    Do you cover any other programming language apart from Python?
+    ***Do you cover any other programming language apart from Python?***
 
 
     All the labs will be conducted in Python, however the school will also provide some supplementary lab material in R.
 
 
-    Do I need to be familiar with machine learning to participate?
+    ***Do I need to be familiar with machine learning to participate?***
 
 
     While implementing a data pipeline is an important preparatory step for using machine learning, the focus of this course will be solely on data pipelines and thus you do not need to be familiar with machine learning to participate.
 
 
-    What topics will the course cover?
+    ***What topics will the course cover?***
 
 
     Monday, 5 December
@@ -119,19 +117,13 @@ text_dual_column:
     14:30 - 16:00  Open office hour with Accelerate Science team.
 
 
-    What do I obtain on course completion?
-
-
-    Students who enrol in the course obtain a free hardcopy of the books used in the course. Students who complete the course also obtain a certificate of completion from the Accelerate Science team.
-
-
-    Who can apply to join the course? Is there a fee?
+    ***Who can apply to join the course? Is there a fee?***
 
 
     The course is open to all Cambridge University affiliated research staff and PhD students. The course is free.
 
 
-    How do I enrol? 
+    ***How do I enrol?*** 
 
 
     To apply to join the course you need to register your interest via this form::
