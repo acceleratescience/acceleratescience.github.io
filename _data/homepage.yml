@@ -5,7 +5,7 @@ hero:
     can be deployed to advance scientific knowledge. This research is carried
     out in partnership with a community of scientists and AI specialists
     passionate about the use of AI to benefit science and society.
-  link: /
+  link:
 accordions:
   accordion_tabs:
     - heading: What we do
