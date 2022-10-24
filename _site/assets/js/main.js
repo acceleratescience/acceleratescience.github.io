@@ -497,6 +497,17 @@ function resizeCanvas(canvas) {
                     };
                 });
 
+                // Homepage News Load More Toggle
+                $('.loadMore--toggle').click(function () {
+                    if ($(this).hasClass('open')) {
+                        $(this).removeClass('open');
+                        $(this).closest('.latest__insights').find('.post__post.visible').removeClass('visible').addClass('hidden');
+                    } else {
+                        $(this).addClass('open');
+                        $(this).closest('.latest__insights').find('.post__post.hidden').removeClass('hidden').addClass('visible');
+                    };
+                });
+
                 // Accordions
                 $('.accordions__selectors button').click(function () {
                     var id = $(this).data('accordion-id');

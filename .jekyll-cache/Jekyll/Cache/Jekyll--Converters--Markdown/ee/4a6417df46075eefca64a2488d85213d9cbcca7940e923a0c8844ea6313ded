@@ -1,0 +1,66 @@
+I"�<p><strong><em>Who is this course for?</em></strong></p>
+
+<p>Any researcher at the University of Cambridge who works with large datasets in their research and is interested in making the transition to data science-led research, but does not have significant expertise in software or data engineering.</p>
+
+<p><strong><em>How will this course help my research?</em></strong></p>
+
+<p>Any data-intensive research requires implementing data pipelines (even implicitly), and as mentioned in the course overview, this course will help researchers identify and resolve numerous design and implementation challenges that arise when using data pipelines in research. Implementing the methodology taught in this course will help ensure that all your data pipelines and data handling runs efficiently, correctly and can be shared frictionlessly with collaborators; which are beneficial to any scientific research programme.</p>
+
+<p><strong><em>What is the minimum level of programming requirement to participate in the course?</em></strong></p>
+
+<p>There are no minimum programming skills requirements to enrol for the course. However we ask participants to complete an online Python course before the school starts to ensure all enrolled students have the minimum required programming level needed for the course.</p>
+
+<p>For further details on  how to access the free online course you can visit: https://acceleratescience.github.io/python-for-science-FAQ.html</p>
+
+<p><strong><em>Do you cover any other programming language apart from Python?</em></strong></p>
+
+<p>All the labs will be conducted in Python, however the school will also provide some supplementary lab material in R.</p>
+
+<p><strong><em>Do I need to be familiar with machine learning to participate?</em></strong></p>
+
+<p>While implementing a data pipeline is an important preparatory step for using machine learning, the focus of this course will be solely on data pipelines and thus you do not need to be familiar with machine learning to participate.</p>
+
+<p><strong><em>What topics will the course cover?</em></strong></p>
+
+<p>Monday, 5 December</p>
+
+<p>10:30 - 11:20   Lecture 1 “Introduction to data pipelines”</p>
+
+<p>11:30 - 13:00   Lab 1 “Automating pipelines in Python”</p>
+
+<p>14:00 - 14:50   Lecture 2  “Implementing domain-specific data pipelines”</p>
+
+<p>15:00 - 16:30   Lab 2 “Modularising and structuring data pipelines in Python”</p>
+
+<p>Tuesday, 6 December</p>
+
+<p>10:30 - 11:20    Lecture 3  “Testing and profiling data pipelines”</p>
+
+<p>11:30 - 13:00    Lab 3 “Examples of testing and profiling data pipelines in Python”</p>
+
+<p>14:00 - 14:50   Lecture 4 “Integrating anonymisation &amp; privacy controls”</p>
+
+<p>15:00 - 16:30   Lab 4 “Python anonymisation and privacy libraries”</p>
+
+<p>Wednesday, 7 December</p>
+
+<p>10:30 - 12:00  Lecture 5 “Publishing Data Pipelines &amp; Course Summary”</p>
+
+<p>12:00 - 13:00  Lab 5 “Publishing workflow”</p>
+
+<p>13:00 - 14:30  Pizza lunch &amp; certificate collection</p>
+
+<p>14:30 - 16:00  Open office hour with Accelerate Science team.</p>
+
+<p><strong><em>Who can apply to join the course? Is there a fee?</em></strong></p>
+
+<p>The course is open to all Cambridge University affiliated research staff and PhD students. The course is free.</p>
+
+<p><strong><em>How do I enrol?</em></strong> </p>
+
+<p>To apply to join the course you need to register your interest via this form::</p>
+
+<p><a href="https://7kuzlokgqop.typeform.com/to/S2ZdyWFx">https://7kuzlokgqop.typeform.com/to/S2ZdyWFx</a></p>
+
+<p>The registration deadline is 14 November, 17:00 (UK). Participants will be informed whether they have a place on the course by 18 November.</p>
+:ET
