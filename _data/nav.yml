@@ -1,56 +1,56 @@
 main_nav:
   - label: About
-    link: /about/
+    link: /about
     submenu_item:
       - label: Team
-        link: /team/
+        link: /team
       - label: Get Involved
-        link: /get-involved/
+        link: /get-involved
   - label: Projects
-    link: /projects/
+    link: /projects
     submenu_item:
       - label: Publications
-        link: /publications/
+        link: /publications
       - label: Resources
-        link: /resources/
+        link: /resources
   - label: News
-    link: /news/
+    link: /news
     submenu_item: []
   - label: Blog
-    link: /blog/
+    link: /blog
   - label: Events
-    link: /events/
+    link: /events
     submenu_item:
       - label: Past Events
-        link: /past-events/
+        link: /past-events
   - label: Software Engineering
-    link: /software-engineering/
+    link: /software-engineering
   - label: Contact
-    link: /get-involved/
+    link: /get-involved
 footer_nav:
   - label: About Us
-    link: /about/
+    link: /about
   - label: Projects
-    link: /projects/
+    link: /projects
   - label: News
-    link: /news/
+    link: /news
   - label: Events
-    link: /events/
+    link: /events
   - label: Software Engineering
-    link: /software-engineering/
+    link: /software-engineering
   - label: Resources
-    link: /resources/
+    link: /resources
   - label: Get Involved
-    link: /get-involved/
+    link: /get-involved
   - label: Privacy
-    link: /privacy-policy/
+    link: /privacy-policy
 top_bar:
   image: /assets/uploads/cambridge-university.png
-  link: https://www.cam.ac.uk/
+  link: https://www.cam.ac.uk
   top_bar_nav:
     - link: https://www.cam.ac.uk/about-the-university#study-at-cambridge
       label: Study at Cambridge
     - link: https://www.cam.ac.uk/about-the-university#about-the-university
       label: About the University
-    - link: https://www.cam.ac.uk/research/
+    - link: https://www.cam.ac.uk/research
       label: Research at Cambridge

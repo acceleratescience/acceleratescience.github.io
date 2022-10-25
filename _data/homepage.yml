@@ -16,26 +16,26 @@ accordions:
 
 
         We work at the interface of AI, science, and engineering to accelerate research and innovation. By combining research, training, and engagement activities, Accelerate Science aims to drive a step change in the use of AI for science across the University of Cambridge.
-      link: /about/
+      link: /about
       icon: /assets/uploads/what-we-do.png
     - content: Accelerate Science pursues research that applies machine learning to
         the scientific challenges of the 21st century, generating insights that
         accelerate scientific progress and creating AI tools that are capable of
         delivering benefits for science and society.
       heading: Research
-      link: /research/
+      link: /research
       icon: /assets/uploads/research.png
     - content: Through a range of learning and development activities, Accelerate
         Science is equipping early career researchers and future research
         leaders with the data science and machine learning skills that will
         enable them to drive a new wave of scientific progress.
       heading: Education & Training
-      link: /about/
+      link: /about
       icon: /assets/uploads/education-and-training.png
     - content: Through its work, Accelerate Science is building a community of
         committed researchers to promote and facilitate the use of machine
         learning techniques across research domains, with the aim of
         accelerating the process of scientific discovery.
       heading: Engagement
-      link: /resources/
+      link: /resources
       icon: /assets/uploads/engagement.png
