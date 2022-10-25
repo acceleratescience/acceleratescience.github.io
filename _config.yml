@@ -51,7 +51,6 @@ collections:
     output: true
 
 # Build settings
-markdown: kramdown
 remote_theme: aarontlp/accelerate-theme
 plugins:
   - jekyll-feed
