@@ -9,6 +9,7 @@ image: /assets/uploads/katie-light-profile-picture.jpg
 email: kcl36@cam.ac.uk
 crsid: kcl36
 start: 31-10-22
+institution: University of Cambridge
 position: Programme Manager
 team: main
 ---
