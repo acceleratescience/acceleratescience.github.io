@@ -1,6 +1,6 @@
 ---
 layout: projects-single
-title: Analysing complex systems
+title: Analysing intelligence in complex systems
 excerpt: Complex systems are all around us, from social networks to
   transportation systems, cities, economies, and financial markets. Through
   collaborations with domain experts in finance, healthcare, immunology,
@@ -14,10 +14,10 @@ authors:
     - Soumya Banerjee
   external_authors: null
   consortium_authors: null
-publications:
-  - 2020-11-13-liquid-water-contains-the-building-blocks-of-diverse-ice-phases
-  - 2021-01-15-gaussian-process-latent-variable-flows-for-massively-missing-data
+publications: []
 ---
-### Complex systems are all around us, from social networks to transportation systems, cities, economies, and financial markets. Through collaborations with domain experts in finance, healthcare, immunology, virology, and cell biology, Dr Soumya Banerjee develops computational techniques that can be deployed to better understand complex systems. This work implements new statistical and machine learning techniques for deriving insights from large amounts of data, with a focus on building interdisciplinary collaborations, in particular with experimentalists and clinicians. 
+**Led by Dr Soumya Banerjee, this project examines computing and intelligence in both natural (biological systems) and artificial (human-engineered systems), with the intention of translating insights from these systems into new algorithms for augmented intelligence.** 
 
-A current area of interest is working with clinicians and patients, engaging patient groups and the public in discussions about trust in AI. This contributes to wider interests in outreach and public dialogue.
+The core theme in this research is *Unconventional approaches to Artificial Intelligence*”. Taking inspiration from research in classical AI, cognitive psychology, neuroscience, social sciences and humanities, it will develop explainable machine learning models with applications to real-world challenges, such as healthcare. It will also explore what lessons complex systems in nature, such as immune systems or ant colonies, can offer computer science, using these systems to inspire new techniques for explainable AI. 
+
+Using these insights, the project will investigate collaboration between humans, and between humans and machines, with the aim of achieving a form of augmented or collective intelligence.
