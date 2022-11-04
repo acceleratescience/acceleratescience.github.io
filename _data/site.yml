@@ -1,7 +1,7 @@
 site_logo: /assets/uploads/logo.png
 contact_details:
-  tel:
-  fax:
+  tel: null
+  fax: null
   email: accelerate-science@cst.cam.ac.uk
   address: |-
     Department of Computer Science and Technology\
@@ -10,11 +10,11 @@ contact_details:
     Cambridge\
     CB3 0FD
 social_details:
-  twitter_link: https://twitter.com/
+  twitter_link: https://twitter.com/AccelerateSci
   facebook_link: https://facebook.com/
   instagram_link: https://instagram.com/
 footer_images:
   - image: /assets/uploads/ml-cl.svg
-    link: "https://mlatcl.github.io/"
+    link: https://mlatcl.github.io/
   - image: /assets/uploads/cambridge-university.png
     link: https://www.cam.ac.uk/
