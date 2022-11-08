@@ -8,6 +8,8 @@ excerpt: Machine learning and artificial intelligence (AI) are helping
   applications, and engaging the public with healthcare research is critical.
 author: Soumya Banerjee
 date: November 8, 2022 11:35 AM
+categories:
+  - machine-learning
 tags:
   - news
 image: /assets/uploads/soumya-banerjee.jpeg
