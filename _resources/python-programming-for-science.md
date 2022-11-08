@@ -39,7 +39,7 @@ You simply require a computer with access to the internet – you can access and
 \
 **How do I access the module?**\
 \
-Simple! All you need to do is register via this form and you will receive an email providing you with access within 7 days: [https://tinyurl.com/2p8zbdsb](https://acceleratescience.github.io/[url](https://tinyurl.com/2p8zbdsb))\
+Simple! All you need to do is register via this form and you will receive an email providing you with access within 7 days: <https://tinyurl.com/2p8zbdsb>\
 \
 **What is the Accelerate Programme for Scientific Discovery?**\
 \
