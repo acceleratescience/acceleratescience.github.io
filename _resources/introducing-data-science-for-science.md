@@ -31,7 +31,7 @@ Residents will cover 6 modules over a period of 5 weeks:
 \
 Participants should be current PhD students or researchers at the University of Cambridge and have basic programming skills (e.g. the ability to use Excel, MATLAB, R or Python). Participants should be available from 12 September to 14 October 2022 and can expect to spend 30 hours on the programme each week, including timetabled sessions and periods of independent study.\
 \
-Completion of the new [Python for Science module](https://acceleratescience.github.io/python-for-science-FAQ.html) is not a pre-requisite for this course, as participants will receive training in the use of Python. However, applicants are required to complete an assessment to demonstrate basic programming skills.\
+Completion of the new [Python for Science module](https://acceleratescience.github.io/resources/python-programming-for-science.html) is not a pre-requisite for this course, as participants will receive training in the use of Python. However, applicants are required to complete an assessment to demonstrate basic programming skills.\
 \
 **What are the entry requirements?**\
 \
