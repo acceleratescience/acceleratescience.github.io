@@ -12,7 +12,7 @@ biography: Ahmad is interested in developing tools that help scientists in
   Imperial College London he worked on using Natural Language Processing
   techniques to enhance assistive devices used by people with Motor Neurone
   Disease.
-image: null
+image: /assets/uploads/ahmad-abukhazneh.png
 email: null
 url: null
 website: null
