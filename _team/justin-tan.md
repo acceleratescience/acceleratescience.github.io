@@ -9,7 +9,7 @@ biography: Justin's research lies at the intersection of geometry and machine
   learning, searching for interesting structure in geometries which feature in
   string theory and other areas of mathematical physics. Previously he worked in
   experimental particle physics at the Belle II experiment.
-image: null
+image: /assets/uploads/justin-tan.jpg
 email: null
 url: null
 website: null
