@@ -5,10 +5,10 @@ start: null
 publications: null
 layout: person
 name: Justin Tan
-biography: Justin's research lies at the intersection of geometry and machine
+biography: "Justin's research lies at the intersection of geometry and machine
   learning, searching for interesting structure in geometries which feature in
   string theory and other areas of mathematical physics. Previously he worked in
-  experimental particle physics at the Belle II experiment.
+  experimental particle physics at the Belle II experiment. "
 image: /assets/uploads/justin-tan.jpg
 email: null
 url: null
