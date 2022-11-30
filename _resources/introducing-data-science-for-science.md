@@ -1,6 +1,6 @@
 ---
 layout: resources-single
-title: Introducing Data Science For Science
+title: Applications now open - Introducing Data Science For Science
 category: teaching-learning
 excerpt: The Accelerate Programme offers PhDs and postdocs disciplines across
   Cambridge University the opportunity to participate in a 'Data for Science'
