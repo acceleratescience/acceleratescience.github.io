@@ -2,7 +2,7 @@
 layout: blog-single
 title: How can we... use AI to unfold the mysteries of Alzheimer's?
 author: Ryan Geiser, PhD student, Yusuf Hamied Department of Chemistry
-date: November 30, 2022 10:30 AM
+date: November 30, 2022 11:39 AM
 categories:
   - accelerate-spark-data-science-residency
 image: /assets/uploads/ryan-geiser-blog.jpeg
