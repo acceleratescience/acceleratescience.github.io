@@ -13,7 +13,7 @@ The course aims to give researchers in fields outside computer science the skill
 
 From using AI to understand acute respiratory distress syndrome, take bio-imaging to the next dimension and enabling doctors to build their own models with clinical data our participants have come from a range of backgrounds to learn key skills in Machine Learning to apply to their research.
 
-Watch our short video [`here`](<<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/776619997?h=d46a4440d9&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="cambridge_spark_case_studies_v2 (1080p) (1).mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>>) where participants talk about their experiences on the programme and how it has helped them in their research. 
+Watch our short video [here](https://vimeo.com/776619997) where participants talk about their experiences on the programme and how it has helped them in their research. 
 
 **Gaining a new perspective** 
 
