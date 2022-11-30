@@ -5,7 +5,7 @@ title: "Equipping scientists with tools to accelerate their research -
 excerpt: PhD students and postdocs across Cambridge have the opportunity to
   apply for a training course that is successfully equipping scientists with
   powerful tools to progress their research.
-image: /assets/uploads/data-science-residency-febmarch-2023.jpg
+image: /assets/uploads/data-science-residency-image.jpg
 ---
 The next Data for Science Residency will run for five weeks from Monday 27 February 2023. Applications are now open and close at **5pm on Friday 13 January.** 
 
