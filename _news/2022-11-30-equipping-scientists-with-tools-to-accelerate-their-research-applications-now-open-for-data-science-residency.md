@@ -13,15 +13,13 @@ The course aims to give researchers in fields outside computer science the skill
 
 From using AI to understand acute respiratory distress syndrome, take bio-imaging to the next dimension and enabling doctors to build their own models with clinical data our participants have come from a range of backgrounds to learn key skills in Machine Learning to apply to their research.
 
-Watch our short video here where participants talk about their experiences on the programme and how it has helped them in their research. 
+Watch our short video [`here`](<<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/776619997?h=d46a4440d9&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="cambridge_spark_case_studies_v2 (1080p) (1).mp4"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>>) where participants talk about their experiences on the programme and how it has helped them in their research. 
 
 **Gaining a new perspective** 
-
 
 Ryan Geiser, a PhD student in the Yusuf Hamied Department of Chemistry says the course has assisted his research in a number of ways: “Without the knowledge that I took away from the Residency, I would have struggled to conduct any data analysis this past year. In particular, I found coding exercises through the EDUKATE.AI platform invaluable in getting comfortable with the basic skills in data analysis and machine learning. You can read more about Ryan’s research and how the course has helped him on our [blog](https://acceleratescience.github.io/accelerate-spark-data-science-residency/2022/11/30/how-can-we-use-ai-to-unfold-the-mysteries-of-alzheimers.html). 
 
 **Using Machine Learning to understand Acute Respiratory Distress Syndrome**
-
 
 Another previous participant in the Residency course is Dr Romit Samanta, NIHR Clinical Lecturer in Intensive Care Medicine. Romit works on Acute Respiratory Distress Syndrome (ARDS) and has been applying his learning from the course to understand patient outcomes. Romit says that “learning Python has enabled me to analyse a vast amount of data from ARDS and sepsis studies in the UK, as well as randomised control trials, using data science techniques to identify different subgroups of patients and understand how their biology relates to disease progression.” You can read Romit’s blog about his experiences [here](https://acceleratescience.github.io/2022/05/17/how-can-we-use-ai-to-understand-acute-respiratory-distress-syndrome.html). 
 
