@@ -3,7 +3,7 @@ layout: blog-single
 title: How can we …. use AI to help formulate greener shampoo?
 author: Aniket Chitre, PhD student,  Department of Chemical Engineering and
   Biotechnology
-date: December 12, 2022 10:00 AM
+date: December 12, 2022 10:08 AM
 categories:
   - accelerate-spark-data-science-residency
 image: /assets/uploads/aniket_formulations_landscapeimage.jpg
