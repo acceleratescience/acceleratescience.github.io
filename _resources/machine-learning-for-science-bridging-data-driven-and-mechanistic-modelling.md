@@ -1,6 +1,6 @@
 ---
 layout: resources-single
-title: "Machine learning for science: bridging data-driven and mechanistic modelling"
+title: "Machine Learning for Science: Bridging Data-Driven and Mechanistic Modelling"
 category: additional-resources
 ---
 In September 2022, the Accelerate programme convened 30 researchers from across disciplines at a Dagstuhl workshop on ‘Machine learning for science: bridging data-driven and mechanistic modelling’. Two
