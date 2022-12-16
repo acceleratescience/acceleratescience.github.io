@@ -12,5 +12,3 @@ outputs emerged from these discussions:
 A graphic output from the event summarises the main areas of discussion and you can access the interactive pdf here.
 
 This event has inspired further collaborations with partners in the US and Germany, with forthcoming papers and events taking forward discussions at the workshop. For example, an Oberwolfach workshop in 2023 will continue our dialogue about the emerging AI for science agenda.
-
-![](/assets/uploads/dagstuhl-capture-page-1.png)
