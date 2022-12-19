@@ -9,6 +9,6 @@ outputs emerged from these discussions:
 * A research agenda that identifies areas where further technology development is needed to create AI tools that can enhance scientific discovery; and
 * A roadmap for researchers, research institutions, and policymakers to deliver a new wave of progress in AI and its application for scientific discovery.
 
-A graphic output from the event summarises the main areas of discussion and you can access the interactive pdf here.
+A graphic output from the event summarises the main areas of discussion and you can access the interactive pdf [here.](assets/uploads/2022-12-15-dagstuhl-ml-for-science-final-ipdfpdf.pdf)
 
 This event has inspired further collaborations with partners in the US and Germany, with forthcoming papers and events taking forward discussions at the workshop. For example, an Oberwolfach workshop in 2023 will continue our dialogue about the emerging AI for science agenda.
