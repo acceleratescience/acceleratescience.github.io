@@ -1,10 +1,9 @@
 hero:
-  title: Apply to join Accelerate Science’s 2022 ‘Data Pipelines for Science’
-    Winter School
+  title: " Accelerate Science’s ‘Data Pipelines for Science’  School"
   content: How can researchers design and implement data pipelines for scientific
-    research? Join our Winter School on 5-7 December 2022 to learn how to
-    correctly, efficiently and robustly prepare your datasets for machine
-    learning in your scientific projects.
+    research? Our 'Data Pipelines for Science'  School will help scientists to
+    learn how to correctly, efficiently and robustly prepare your datasets for
+    machine learning in your scientific projects.
 text_dual_column:
   heading: Well-curated and managed data is central to the effective use of AI, in
     science and elsewhere. How can scientists build the data pipelines they need
@@ -24,92 +23,13 @@ text_dual_column:
     Such challenges include: how do I ensure the correctness of my pipeline? How do I structure my pipeline in a way that makes it easier for others to reuse and extend? How do I ensure my pipeline is robust enough to deal with different types and volumes of data? How do I document and publish my pipeline? How do I ensure my pipeline adheres to privacy and anonymisation constraints?
 
 
-    Accelerate Science’s 2022 Winter School will help scientists overcome such data pipeline challenges by equipping them with the latest best-practice software techniques. It will consist of a blend of lectures and labs, with a focus on discussing general principles and case-studies during the lectures, and a focus on hands-on exercises in Python during the labs. Participants will also have the opportunity to discuss and share data pipeline issues encountered in their own research with the course instructor and cohort, and to relate it to the course content.
+    Accelerate Science’s 'Data Pipelines for Science'  School helps scientists overcome such data pipeline challenges by equipping them with the latest best-practice software techniques. It consists of a blend of lectures and labs, with a focus on discussing general principles and case-studies during the lectures, and a focus on hands-on exercises in Python during the labs. Participants also have the opportunity to discuss and share data pipeline issues encountered in their own research with the course instructor and cohort, and to relate it to the course content. 
 
 
-    The Winter School will take place from 5-7 December at the Intel Teaching Labs at the William Gates Building. 
+    For a taster of topics covered in the Winter School, watch Dr Soumya Banerjee’s talk on Reproducible Research in R [here. ](https://www.youtube.com/watch?v=ZDSj-jEoaoc)
 
 
-    Registration for the 2022 Winter School is now closed. Please email accelerate-science@cst.cam.ac.uk if you would like to be added to the Accelerate Programme newsletter to be informed of future training opportunities. 
+    The 2022 Winter School took place from 5-7 December and future events are being planned for 2023. Please email accelerate-science@cst.cam.ac.uk if you would like to be added to the Accelerate Programme newsletter to be informed of future training opportunities.
 text:
-  text: >-
-    ***Who is this course for?***
-
-
-    Any researcher at the University of Cambridge who works with large datasets in their research and is interested in making the transition to data science-led research, but does not have significant expertise in software or data engineering.
-
-
-    ***How will this course help my research?***
-
-
-    Any data-intensive research requires implementing data pipelines (even implicitly), and as mentioned in the course overview, this course will help researchers identify and resolve numerous design and implementation challenges that arise when using data pipelines in research. Implementing the methodology taught in this course will help ensure that all your data pipelines and data handling runs efficiently, correctly and can be shared frictionlessly with collaborators; which are beneficial to any scientific research programme.
-
-
-    ***What is the minimum level of programming requirement to participate in the course?***
-
-
-    There are no minimum programming skills requirements to enrol for the course. However we ask participants to complete an online Python course before the school starts to ensure all enrolled students have the minimum required programming level needed for the course.
-
-
-    For further details on  how to access the free online course you can visit: <https://acceleratescience.github.io/resources/python-programming-for-science.html>
-
-
-    ***Do you cover any other programming language apart from Python?***
-
-
-    All the labs will be conducted in Python, however the school will also provide some supplementary lab material in R.
-
-
-    ***Do I need to be familiar with machine learning to participate?***
-
-
-    While implementing a data pipeline is an important preparatory step for using machine learning, the focus of this course will be solely on data pipelines and thus you do not need to be familiar with machine learning to participate.
-
-
-    ***What topics will the course cover?***
-
-
-    Monday, 5 December
-
-
-    10:30 - 11:15   Lecture 1 "Introduction to data pipelines"
-
-
-    11:35 - 13:00   Lab 1 “Automating pipelines in Python”
-
-
-    14:00 - 14:45   Lecture 2  “Implementing domain-specific data pipelines”
-
-
-    15:05 - 16:30   Lab 2 “Modularising and structuring data pipelines in Python”
-
-
-    Tuesday, 6 December
-
-
-    10:30 - 11:15    Lecture 3  "Testing and profiling data pipelines"
-
-
-    11:35 - 13:00    Lab 3 “Examples of testing and profiling data pipelines in Python”
-
-
-    14:00 - 14:45   Lecture 4 “Integrating anonymisation & privacy controls"
-
-
-    15:05 - 16:30   Lab 4 “Python anonymisation and privacy libraries”
-
-
-    Wednesday, 7 December
-
-
-    10:30 - 11:20 Lecture 5 "Publishing Data Pipelines & Course Summary"
-
-
-    11:40 - 13:00  Lab 5 “Publishing workflow”
-
-
-    13:00 - 14:30  Pizza lunch & certificate collection
-
-
-    14:30 - 16:00  Open office hour with Accelerate Science team.
-  heading: FAQs
+  text: ""
+  heading: Future course dates will be announced in 2023.
