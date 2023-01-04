@@ -9,7 +9,7 @@ excerpt: 2021's Annual Symposium convened researchers from across Cambridge to
 ---
 ### ACCELERATE SCIENCE'S 2021 ANNUAL SYMPOSIUM
 
-**Catching up? You can watch the video from this event here (link to follow), or read about what was discussed and check out graphic summaries of the event [on our blog.](https://acceleratescience.github.io//2021/12/22/Accelerate-annual-symposium)**\
+**Catching up? You can watch the video from this event [here](https://www.youtube.com/watch?v=g6lTLp65VmY), or read about what was discussed and check out graphic summaries of the event [on our blog.](https://acceleratescience.github.io/accelerate-spark-data-science-residency/2021/12/22/accelerates-2021-annual-symposium.html)**\
 \
 **How can we harness the potential of AI to accelerate scientific discovery? Find out more about the frontiers, opportunities and challenges of AI for science at Accelerate’s 2021 Annual Symposium.**\
 \
