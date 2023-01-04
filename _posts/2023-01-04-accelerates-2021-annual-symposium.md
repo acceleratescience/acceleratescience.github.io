@@ -12,7 +12,7 @@ tags:
   - news
 image: /assets/uploads/Symposium_Summary.png
 ---
-On 19 November, Accelerate brought together researchers from across Cambridge to share perspectives on how AI is supporting their work. This post summarises some of the key points from discussions.
+*On 19 November, Accelerate brought together researchers from across Cambridge to share perspectives on how AI is supporting their work. This post summarises some of the key points from discussions.*
 
 Researchers today have access to more and larger datasets than ever before. This data comes from large-scale scientific studies, from the digital mediation of daily activities, and from new approaches to simulation that generate synthetic datasets. Amidst this sea of data, the challenge is to make these vast datasets [‘drinkable’.](http://inverseprobability.com/publications/data-readiness-levels.html) To make this data manageable, researchers need new tools that can interrogate a greater range of data types from a wider range of data sources, extracting insights in support of scientific progress.
 
