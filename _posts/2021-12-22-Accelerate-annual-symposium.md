@@ -44,8 +44,8 @@ There is an opportunity today to develop AI technologies along a similar pathway
 This was our first Symposium, and we’d like to thank everyone who contributed to discussions. We hope it marks the start of a continuing discussion across Cambridge about the potential of AI in science, and how the research community can harness this potential. Check out our [event page](https://acceleratescience.github.io/resources/accelerates-2021-annual-symposium.html) for the event video.
 
 
-Here is a graphic summary of the event: ![Event summary](https://acceleratescience.github.io////Symposium_Summary.png)
-Our unworkshop on sustainability: ![Unworkshop summary - sustainability](https://acceleratescience.github.io////Accelerate_UnWk_Sus_Design.png)
-Our unworkshop on machine learning and the physical world: ![Unworkshop summary - physical world](https://acceleratescience.github.io////Accelerate_UnWk_Physical_World.png)
-Our unworkshop on challenges in science and maths: ![Unworkshop summary - science and maths](https://acceleratescience.github.io////Accelerate_UnWk_Maths_Sci.png)
-Our fireside chat about AlphaFold: ![Workshop summary - AlphaFold](https://acceleratescience.github.io////Accelerate_Fireside_Chat_AlphaFold.png)
+Here is a graphic summary of the event: 
+Our unworkshop on sustainability: 
+Our unworkshop on machine learning and the physical world: 
+Our unworkshop on challenges in science and maths: 
+Our fireside chat about AlphaFold:
