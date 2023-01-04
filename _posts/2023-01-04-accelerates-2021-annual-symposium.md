@@ -40,4 +40,4 @@ Here is a graphic summary of the event: [Event Summary](https://acceleratescienc
 Our unworkshop on sustainability:  [Unworkshop summary - sustainability](https://acceleratescience.github.io/assets/uploads/Accelerate_UnWk_Sus_Design.png) 
 Our unworkshop on machine learning and the physical world: [Unworkshop summary - physical world](https://acceleratescience.github.io/assets/uploads/Accelerate_UnWk_Physical_World.png) 
 Our unworkshop on challenges in science and maths: [Unworkshop summary - science and maths ](https://acceleratescience.github.io/assets/uploads/Accelerate_UnWk_Maths_Sci.png)
-Our fireside chat about AlphaFold: Workshop summary - AlphaFold
+Our fireside chat about AlphaFold: [Workshop summary - AlphaFold](https://acceleratescience.github.io/assets/uploads/Accelerate_Fireside_Chat_AlphaFold.png)
