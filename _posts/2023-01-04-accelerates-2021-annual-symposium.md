@@ -39,5 +39,5 @@ This was our first Symposium, and we’d like to thank everyone who contributed 
 Here is a graphic summary of the event: [Event Summary](https://acceleratescience.github.io/assets/uploads/Symposium_Summary.png)
 Our unworkshop on sustainability:  [Unworkshop summary - sustainability](https://acceleratescience.github.io/assets/uploads/Accelerate_UnWk_Sus_Design.png) 
 Our unworkshop on machine learning and the physical world: [Unworkshop summary - physical world](https://acceleratescience.github.io/assets/uploads/Accelerate_UnWk_Physical_World.png) 
-Our unworkshop on challenges in science and maths: Unworkshop summary - science and maths 
-Our fireside chat about AlphaFold: Worskhop summary - AlphaFold
+Our unworkshop on challenges in science and maths: [Unworkshop summary - science and maths ](https://acceleratescience.github.io/assets/uploads/Accelerate_UnWk_Maths_Sci.png)
+Our fireside chat about AlphaFold: Workshop summary - AlphaFold
