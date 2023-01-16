@@ -12,7 +12,7 @@ excerpt: The Accelerate Programme offers PhDs and postdocs disciplines across
 
 **PhD students and postdocs across Cambridge University can apply for this training course, which will equip them will skills in data science for science.**
 
-Aimed at helping participants apply data science tools to their own datasets and research problems, the course runs over five weeks, starting on 27 February 2023. Previous courses have attracted participants from fields including chemistry, biochemistry, physics, engineering, medicine, veterinary medicine and psychology. Applications for the next course are open until **5pm on Friday 13 January.** \
+Aimed at helping participants apply data science tools to their own datasets and research problems, the course runs over five weeks, starting on 27 February 2023. Previous courses have attracted participants from fields including chemistry, biochemistry, physics, engineering, medicine, veterinary medicine and psychology. Applications for the next course are open until **5pm on Friday 20 January.** \
 \
 **What does the course cover?**\
 \
@@ -31,7 +31,7 @@ Residents will cover 6 modules over a period of 5 weeks:
 
 **How do I apply?** 
 
-Candidates should complete the application form (at this link: <https://forms.office.com/e/EYhqCFGQqz>) by **5pm on 13 January**.  After completing the application form, candidates will be asked to complete a short programming exercise, which is intended to give a sense of their current programming abilities. This exercise will take approximately three hours to complete. Further details will be emailed to candidates on 16 January, and you will have approx. 2 weeks to complete the exercise.
+Candidates should complete the application form (at this link: <https://forms.office.com/e/EYhqCFGQqz>) by **5pm on 13 January**.  After completing the application form, candidates will be asked to complete a short programming exercise, which is intended to give a sense of their current programming abilities. This exercise will take approximately three hours to complete. Further details will be emailed to candidates in the w/c 23rd January, and you will have approx. 2 weeks to complete the exercise.
 
 Candidates should ensure their supervisors or managers are content for them to join the course before applying and should be prepared to commit to participating in course activities between 27 February and 31 March. Candidates should also confirm they have 50% funding towards the cost of the course (£1,050 + VAT), with the other 50% being funded by the Accelerate Programme. 
 
