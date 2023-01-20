@@ -35,7 +35,3 @@ Taking part in the Accelerate Spark Program helped me hone the skills I need to 
 Having completed the summer school, I’m now taking part in the Accelerate Spark Machine Learning Academy to advance my machine learning skills. In particular, the hands-on experience with the practicals and assignments is invaluable in exposure to lots of different techniques and handling datasets of different sizes and complexities. They say machine learning can be as much an art as a science and this experience is transferable knowledge to tuning the models for my own research. 
 
 I have learned a lot about lab automation as well as building hardware from scratch. A combination of the two experimental and computational fields has also resulted in some interesting side-projects along the way to having the desired workflow running. While the actual design of greener shampoo will be left back with the industrial partners as an extension of my work, I hope to have elucidated the relevant molecular descriptors to generally predict liquid formulation properties by the end of my PhD.
-
-
-
-*Aniket took part in the Accelerate-Cambridge Spark Data Science Residency, registration for the next Residency is now open closing on Friday 13 January 2023 at 5pm. Find out more about the course and register [here.](https://acceleratescience.github.io/resources/introducing-data-science-for-science.html)*
