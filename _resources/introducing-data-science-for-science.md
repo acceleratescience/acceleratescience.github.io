@@ -50,7 +50,7 @@ To produce this course, the Accelerate Programme is working with Cambridge Spark
 The course will be run via Zoom, with sessions delivered by Cambridge Spark and their community of mentors.
 
 **How much does the course cost?**
-The course costs £2,100 + VAT per participant. For this cohort, the Accelerate Programme are able to offer 50% funding towards the cost, meaning the cost will be available to participants for £1,050 + VAT.
+The course costs £2,100 + VAT per participant. For this cohort, the Accelerate Programme are able to offer 50% funding towards the cost, meaning the course will be available to participants for £1,050 + VAT.
 
 For further questions, please contact accelerate-science@cst.cam.ac.uk.
 
