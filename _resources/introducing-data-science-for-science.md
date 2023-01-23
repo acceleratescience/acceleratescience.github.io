@@ -1,6 +1,6 @@
 ---
 layout: resources-single
-title: Applications now open - Introducing Data Science For Science
+title: Introducing Data Science For Science
 category: teaching-learning
 excerpt: The Accelerate Programme offers PhDs and postdocs disciplines across
   Cambridge University the opportunity to participate in a 'Data for Science'
@@ -8,12 +8,9 @@ excerpt: The Accelerate Programme offers PhDs and postdocs disciplines across
   will equips scientists with modern practical data analysis skills using Python
   in a virtual instructor-led accelerated masterclass.
 ---
-### FEBRUARY/MARCH 2023 DATA SCIENCE FOR SCIENCE RESIDENCY - APPLICATIONS OPEN
+**PhD students and postdocs across Cambridge University can apply for this training course, which will equip them will skills in data science for science. This course is currently closed for applications, future course dates will be advertised here.** 
 
-**PhD students and postdocs across Cambridge University can apply for this training course, which will equip them will skills in data science for science.**
-
-Aimed at helping participants apply data science tools to their own datasets and research problems, the course runs over five weeks, starting on 27 February 2023. Previous courses have attracted participants from fields including chemistry, biochemistry, physics, engineering, medicine, veterinary medicine and psychology. Applications for the next course are open until **5pm on Friday 20 January.** \
-\
+Aimed at helping participants apply data science tools to their own datasets and research problems, the course runs over five weeks. Previous courses have attracted participants from fields including chemistry, biochemistry, physics, engineering, medicine, veterinary medicine and psychology. \
 **What does the course cover?**\
 \
 The course aims to give researchers in fields outside computer science the skills they need to use machine learning (ML) in their research, and help them apply data analysis to their own datasets and problems. On the course, you will: use data science techniques on your own datasets and research questions; collaborate on real-world data science challenges in teams; and contribute to a world-leading community of scientists and researchers. You can read more about how some of our recent participants has used the course to advance their work in the ‘How can I..?’ series on [Accelerate’s blog](https://acceleratescience.github.io/blog).
@@ -28,14 +25,6 @@ Residents will cover 6 modules over a period of 5 weeks:
 * Web Scraping, JSON and APIs
 * Introduction to machine learning
 * Project & presentation
-
-**How do I apply?** 
-
-Candidates should complete the application form (at this link: <https://forms.office.com/e/EYhqCFGQqz>) by **5pm on 13 January**.  After completing the application form, candidates will be asked to complete a short programming exercise, which is intended to give a sense of their current programming abilities. This exercise will take approximately three hours to complete. Further details will be emailed to candidates in the w/c 23rd January, and you will have approx. 2 weeks to complete the exercise.
-
-Candidates should ensure their supervisors or managers are content for them to join the course before applying and should be prepared to commit to participating in course activities between 27 February and 31 March. Candidates should also confirm they have 50% funding towards the cost of the course (£1,050 + VAT), with the other 50% being funded by the Accelerate Programme. 
-
-To access the application form, please log-in with your @cam.ac.uk email address. If you are a member of the University or an affiliated institution, but don’t have an @cam.ac.uk email account, please contact accelerate-science@cst.cam.ac.uk 
 
 **What are the entry requirements?**
 
@@ -54,6 +43,8 @@ The course costs £2,100 + VAT per participant. For this cohort, the Accelerate 
 
 For further questions, please contact accelerate-science@cst.cam.ac.uk.
 
-* **Date published:** 30 November 2022
+**P﻿lease note this course is currently closed for applications, future course dates will be published on this page.** 
 
-[APPLY HERE](https://forms.office.com/pages/responsepage.aspx?id=RQSlSfq9eUut41R7TzmG6SaVOxbmBOdAg9GzbnrB5IRUMzA2Uk1SVThUSlVXUTdHWEJWOFpLMjlXOC4u)
+
+
+[](https://forms.office.com/pages/responsepage.aspx?id=RQSlSfq9eUut41R7TzmG6SaVOxbmBOdAg9GzbnrB5IRUMzA2Uk1SVThUSlVXUTdHWEJWOFpLMjlXOC4u)
