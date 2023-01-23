@@ -8,9 +8,11 @@ excerpt: The Accelerate Programme offers PhDs and postdocs disciplines across
   will equips scientists with modern practical data analysis skills using Python
   in a virtual instructor-led accelerated masterclass.
 ---
-**PhD students and postdocs across Cambridge University can apply for this training course, which will equip them will skills in data science for science. This course is currently closed for applications, future course dates will be advertised here.** 
+**PhD students and postdocs across Cambridge University can apply for this training course, which will equip them will skills in data science for science. PhD students and postdocs across Cambridge University can apply for this training course, which will equip them will skills in data science for science. This course is currently closed for applications, future course dates will be advertised here.** 
 
-Aimed at helping participants apply data science tools to their own datasets and research problems, the course runs over five weeks. Previous courses have attracted participants from fields including chemistry, biochemistry, physics, engineering, medicine, veterinary medicine and psychology. \
+Aimed at helping participants apply data science tools to their own datasets and research problems, the course runs over five weeks. Previous courses have attracted participants from fields including chemistry, biochemistry, physics, engineering, medicine, veterinary medicine and psychology. 
+
+\
 **What does the course cover?**\
 \
 The course aims to give researchers in fields outside computer science the skills they need to use machine learning (ML) in their research, and help them apply data analysis to their own datasets and problems. On the course, you will: use data science techniques on your own datasets and research questions; collaborate on real-world data science challenges in teams; and contribute to a world-leading community of scientists and researchers. You can read more about how some of our recent participants has used the course to advance their work in the ‘How can I..?’ series on [Accelerate’s blog](https://acceleratescience.github.io/blog).
