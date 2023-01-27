@@ -1,6 +1,13 @@
 ---
 layout: blog-single
 title: Involving patients in decisions about health data sharing
+excerpt: NHS Digital’s General Practice Data for Planning and Research programme
+  (GPDPR) proposed to automatically collect patients’ primary care (GP) data,
+  with the intention of increasing data sharing with different partners. Its
+  launch prompted an avalanche of opt-outs, with more than a million people
+  opting out of sharing their data in a month, combining to the total of three
+  million people currently withholding access to their NHS data because of
+  concerns about how it would be managed and used.
 author: " Dr Sarah Devaney, Senior Lecturer in Healthcare Law and Regulation,
   University of Manchester"
 date: January 27, 2023 9:55 AM
