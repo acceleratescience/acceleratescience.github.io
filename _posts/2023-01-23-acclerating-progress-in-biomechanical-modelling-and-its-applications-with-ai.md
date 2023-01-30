@@ -8,7 +8,7 @@ excerpt: >-
   Over centuries, observing human movements and seeking to comprehend the underlying structure has appealed to both artists and scientists. Despite centuries of study, because of the complexity of the human musculoskeletal (MSK) system, a detailed description of how each segment moves in space is yet to be accurately produced. In most applications, a simplified biomechanical model is usually adopted instead of a detailed representation of the complex human MSK system.  
 author: Dr Vikranth H. Nagaraja, Department of Engineering Science, Institute of
   Biomedical Engineering, University of Oxford
-date: January 30, 2023 10:00 AM
+date: January 30, 2023 10:12 AM
 image: /assets/uploads/vikranth-harthikote-nagaraja.jpg
 ---
 **Motion capture and musculoskeletal modelling**
