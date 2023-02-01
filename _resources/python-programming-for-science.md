@@ -12,6 +12,8 @@ excerpt: This self-learning module introduces the fundamentals of Python, some
 
 **A new open e-learning module from Accelerate and Cambridge Spark offers training in Python programming for research challenges.**
 
+[REGISTER HERE](https://tinyurl.com/2p8zbdsb)
+
 \
 **What does the course cover?**\
 \
