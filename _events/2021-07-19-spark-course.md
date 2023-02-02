@@ -1,10 +1,11 @@
 ---
 layout: event-single
-image: /assets/uploads/QMmulti.jpg
-title: Accelerate-Spark Data Science for Science Residency
+title: Accelerate - ''Spark data science for science residency''
 start: 2021-07-19
 end: 2021-08-20
-link_to: spark-course-summary.html
+desc: ""
+image: /assets/uploads/QMmulti.jpg
 class: spark
-desc: We are offering science PhDs and postdocs across the University of Cambridge the free 'Accelerate-Spark Data for Science' training course in February to help them apply data science tools to their own datasets and research problems. 
+link_to: spark-course-summary.html
 ---
+We are offering science PhDs and postdocs across the University of Cambridge the free 'Accelerate-Spark Data for Science' training course in February to help them apply data science tools to their own datasets and research problems.
