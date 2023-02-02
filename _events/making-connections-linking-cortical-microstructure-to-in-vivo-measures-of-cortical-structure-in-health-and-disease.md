@@ -2,8 +2,8 @@
 layout: event-single
 title: Making Connections - Linking cortical microstructure to in vivo measures
   of cortical structure in health and disease - Dr. Konrad Wagstyl
-start: February 2, 2023 11:04 AM
-end: February 2, 2023 11:04 AM
+start: February 2, 2023 3:00 PM
+end: February 2, 2023 4:00 PM
 desc: ""
 image: /assets/uploads/APSci_place-holder-2.jpg
 class: Spark
