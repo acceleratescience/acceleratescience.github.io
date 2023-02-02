@@ -1,10 +1,13 @@
 ---
 layout: event-single
-title: Making connections - brains and other complex systems - Professor Aldo Faisal
-image: /assets/uploads/jesse-orrico-rmWtVQN5RzU-unsplash.jpg
+title: Making Connections - ''Brains and other complex systems'' Professor Aldo Faisal
 start: 2022-03-17 15:00:00Z
 end: 2022-03-17 16:00:00Z
-link_to: http://talks.cam.ac.uk/show/index/128590
+desc: ""
+image: /assets/uploads/jesse-orrico-rmWtVQN5RzU-unsplash.jpg
 class: spark
-desc: Professor Aldo Faisal will lead this seminar on brain networks and other complex systems. The series aims to bring together researchers from a range of fields, including systems neuroscience, psychiatry, genomics, computer science, machine learning and physics.
+link_to: http://talks.cam.ac.uk/show/index/128590
 ---
+Professor Aldo Faisal will lead this seminar on brain networks and other complex systems. The series aims to bring together researchers from a range of fields, including systems neuroscience, psychiatry, genomics, computer science, machine learning and physics.
+
+For further details please see the [Talks. cam](https://talks.cam.ac.uk/talk/index/195388) page or contact the event organisers.
