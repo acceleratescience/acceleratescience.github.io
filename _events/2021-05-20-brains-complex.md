@@ -1,6 +1,6 @@
 ---
 layout: event-single
-title: "Making Connections - Brains and Other Complex Systems - Dr Michael Gandal "
+title: "Making Connections - Brains and other complex systems - Dr Michael Gandal "
 start: 2021-05-20 15:00:00Z
 end: 2021-05-20 16:00:00Z
 desc: Dr Michael Gandal will present his work during this seminar series on
