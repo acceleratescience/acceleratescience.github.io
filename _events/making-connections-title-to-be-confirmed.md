@@ -1,6 +1,6 @@
 ---
 layout: event-single
-title: Making Connections - Title to be confirmed
+title: Making Connections - Title to be confirmed - Dr. Lucina Uddin, UCLA
 start: February 16, 2023 4:00 PM
 end: February 16, 2023 5:00 PM
 desc: Dr. Lucina Uddin, UCLA
