@@ -1,6 +1,6 @@
 ---
 layout: event-single
-title: AI-assisted mathematical discovery
+title: AI-assisted Mathematical Discovery
 start: October 28, 2022 10:00 AM
 end: October 28, 2022 10:00 AM
 desc: The London Institute, with Dr Challenger Mishra, hosts an in-person,
