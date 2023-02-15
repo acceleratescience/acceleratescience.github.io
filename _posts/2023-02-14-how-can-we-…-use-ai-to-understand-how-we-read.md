@@ -8,7 +8,7 @@ excerpt: >-
 
   I’m using machine learning to find out how as part of my PhD in cognitive neuroscience, specifically in the field of semantic cognition, which is the study of how our knowledge is represented in the brain and how we can use it according to context and task constraint. 
 author: Federica Magnabosco, PhD student, MRC Cognition and Brain Sciences Unit
-date: February 15, 2023 10:00 AM
+date: February 15, 2023 11:02 AM
 categories:
   - accelerate-spark-data-science-residency
 tags:
