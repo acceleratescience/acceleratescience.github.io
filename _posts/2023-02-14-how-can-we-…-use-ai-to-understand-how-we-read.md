@@ -42,3 +42,5 @@ In the future, I would like to use machine learning computational models to bett
 My ultimate goal is to build a detailed model that will includes all the steps, from perception, to single word comprehension and then to multiple word comprehension to shed light on how we decode the meaning of sentences and contextualise them. I plan to compare how large language models learn and how they represent sentences compared with the human brain, to pinpoint any differences.
 
 Understanding more about semantic cognition during reading could lead to beneficial applications, such as toolkits to help treat dyslexia or more intelligent chatbots that could be capable of handling complex problems or make our working lives much easier. Now there’s a novel idea.
+
+*F﻿ederica took part in our Data Science Residency in 2021, you can find details about the course [here](https://acceleratescience.github.io/resources/introducing-data-science-for-science.html). Please get in touch by emailing accelerate-science@cst.cam.ac.uk if you are interested in attending a future Residency.*
