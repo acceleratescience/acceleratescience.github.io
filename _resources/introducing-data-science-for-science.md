@@ -8,7 +8,7 @@ excerpt: The Accelerate Programme offers PhDs and postdocs disciplines across
   will equips scientists with modern practical data analysis skills using Python
   in a virtual instructor-led accelerated masterclass.
 ---
-**PhD students and postdocs across Cambridge University can apply for this training course, which will equip them will skills in data science for science. PhD students and postdocs across Cambridge University can apply for this training course, which will equip them will skills in data science for science. This course is currently closed for applications, future course dates will be advertised here.** 
+**PhD students and postdocs across Cambridge University can apply for this training course, which will equip them will skills in data science for science. This course is currently closed for applications, future course dates will be advertised here.** 
 
 Aimed at helping participants apply data science tools to their own datasets and research problems, the course runs over five weeks. Previous courses have attracted participants from fields including chemistry, biochemistry, physics, engineering, medicine, veterinary medicine and psychology. 
 
@@ -46,7 +46,5 @@ The course costs £2,100 + VAT per participant. For this cohort, the Accelerate 
 For further questions, please contact accelerate-science@cst.cam.ac.uk.
 
 **P﻿lease note this course is currently closed for applications, future course dates will be published on this page.** 
-
-
 
 [](https://forms.office.com/pages/responsepage.aspx?id=RQSlSfq9eUut41R7TzmG6SaVOxbmBOdAg9GzbnrB5IRUMzA2Uk1SVThUSlVXUTdHWEJWOFpLMjlXOC4u)
