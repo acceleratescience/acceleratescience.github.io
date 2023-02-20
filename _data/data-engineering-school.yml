@@ -33,28 +33,12 @@ text_dual_column:
     The 2022 Winter School took place from 5-7 December and registration is now open for the Spring School running from the 29th - 30th March 2023.
 text:
   text: >-
-    How can researchers design and implement data pipelines for scientific
-    research?  Our Data Pipelines for Science School will help scientists  to
-    learn how to correctly, efficiently and robustly prepare your datasets for
-    machine learning in your scientific projects.
+    
+
+    The Spring School will run from Wednesday 29th - Thursday 30th March 2023. 
 
 
-    The Data Pipeline for Science school was originally launched in Winter 2022, encouraged by positive feedback and increased demand, we are pleased to announce that Accelerate Science will run the school again as the Spring School 2023.
-
-
-    Well-curated and managed data is central to the effective use of AI, in science and elsewhere. How can scientists build the data pipelines they need to accelerate their research with AI?
-
-
-    Machine learning is an important  tool for researchers across disciplines. Scientists today have access to more data, from a greater range of sources and at greater speed than ever before, and opportunities to extract insights from this data using AI. But before deploying AI, researchers must have a data pipeline that transforms their data into a state that is suitable for the machine learning algorithms being used. 
-
-
-    These pipelines are important independent research outputs as they enable others to easily inspect, reproduce, refine or extend the scientist’s work. However, implementing data pipelines present numerous software challenges that might be difficult to resolve or even identify to scientists who do not have a significant expertise in software engineering concepts and practices. 
-
-
-    Such challenges include: how do I ensure the correctness of my pipeline? How do I structure my pipeline in a way that makes it easier for others to reuse and extend? How do I ensure my pipeline is robust enough to deal with different types and volumes of data? How do I document and publish my pipeline?
-
-
-    Accelerate Science’s Data Pipelines for Science School helps scientists overcome such data pipeline challenges by equipping them with the latest best-practice software techniques. It consists of a blend of lectures and labs, with a focus on discussing general principles and case-studies during the lectures, and a focus on hands-on exercises in Python during the labs. Participants also have the opportunity to discuss and share data pipeline issues encountered in their own research with the course instructor and cohort, and to relate it to the course content.
+    R﻿egistration is now open and will close on Friday 10th March at 5pm. Find out more in the FAQs below and get in touch with accelerate-science@cst.cam.ac.uk if you have any queries. 
 
 
     **FAQs**
