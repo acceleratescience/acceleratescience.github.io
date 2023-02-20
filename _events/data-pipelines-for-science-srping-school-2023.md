@@ -1,6 +1,6 @@
 ---
 layout: event-single
-title: Data Pipelines for Science Srping School 2023
+title: Data Pipelines for Science Spring School 2023
 start: March 29, 2023 10:30 AM
 end: March 30, 2023 4:00 PM
 image: /assets/uploads/winter-school-participants-2022-cropped.jpg
