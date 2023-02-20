@@ -8,6 +8,6 @@ In September 2022, Accelerate Science, with collaborators at the University of T
 * A research agenda that identifies areas where further technology development is needed to create AI tools that can enhance scientific discovery; and
 * A roadmap for researchers, research institutions, and policymakers to deliver a new wave of progress in AI and its application for scientific discovery.
 
-You can view a graphic summary of discussions [here](https://acceleratescience.github.io/assets/uploads/2022-12-15-dagstuhl-ml-for-science-final-ipdf.pdf).
+*A﻿I for Science: An emerging agenda*, the report outlining this emerging agenda and roadmap is available [here. ](https://acceleratescience.github.io/assets/uploads/ai-for-science-an-emerging-agenda.pdf)
 
-Further outputs from these discussions will be posted here in early 2023.
+You can view a graphic summary of discussions [here](https://acceleratescience.github.io/assets/uploads/2022-12-15-dagstuhl-ml-for-science-final-ipdf.pdf).
