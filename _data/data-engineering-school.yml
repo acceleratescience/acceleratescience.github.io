@@ -9,12 +9,13 @@ text_dual_column:
     science and elsewhere. How can scientists build the data pipelines they need
     to accelerate their research with AI?
   content: >-
-    Machine learning is an important  tool for researchers across disciplines.
-    Scientists today have access to more data, from a greater range of sources
-    and at greater speed than ever before, and opportunities to extract insights
-    from this data using AI. But before deploying AI, researchers must have a
-    data pipeline that transforms their data into a state that is suitable for
-    the machine learning algorithms being used. 
+    The Data Pipeline for Science school was originally launched in Winter 2022,
+    encouraged by positive feedback and increased demand, we are pleased to
+    announce that Accelerate Science will run the school again as the Spring
+    School 2023 from the 29th - 30th March.
+
+
+    Machine learning is an important  tool for researchers across disciplines. Scientists today have access to more data, from a greater range of sources and at greater speed than ever before, and opportunities to extract insights from this data using AI. But before deploying AI, researchers must have a data pipeline that transforms their data into a state that is suitable for the machine learning algorithms being used. 
 
 
     These pipelines are important independent research outputs as they enable others to easily inspect, reproduce, refine or extend the scientist’s work. However, implementing data pipelines present numerous software challenges that might be difficult to resolve or even identify to scientists who do not have a significant expertise in software engineering concepts and practices. 
@@ -23,13 +24,14 @@ text_dual_column:
     Such challenges include: how do I ensure the correctness of my pipeline? How do I structure my pipeline in a way that makes it easier for others to reuse and extend? How do I ensure my pipeline is robust enough to deal with different types and volumes of data? How do I document and publish my pipeline? How do I ensure my pipeline adheres to privacy and anonymisation constraints?
 
 
-    Accelerate Science’s 'Data Pipelines for Science'  School helps scientists overcome such data pipeline challenges by equipping them with the latest best-practice software techniques. It consists of a blend of lectures and labs, with a focus on discussing general principles and case-studies during the lectures, and a focus on hands-on exercises in Python during the labs. Participants also have the opportunity to discuss and share data pipeline issues encountered in their own research with the course instructor and cohort, and to relate it to the course content. 
+    Accelerate Science’s 'Data Pipelines for Science' School helps scientists overcome such data pipeline challenges by equipping them with the latest best-practice software techniques. It consists of a blend of lectures and labs, with a focus on discussing general principles and case-studies during the lectures, and a focus on hands-on exercises in Python during the labs. Participants also have the opportunity to discuss and share data pipeline issues encountered in their own research with the course instructor and cohort, and to relate it to the course content. 
 
 
     For a taster of topics covered in the Winter School, watch Dr Soumya Banerjee’s talk on Reproducible Research in R [here. ](https://www.youtube.com/watch?v=ZDSj-jEoaoc)
 
 
-    The 2022 Winter School took place from 5-7 December and future events are being planned for 2023. Please email accelerate-science@cst.cam.ac.uk if you would like to be added to the Accelerate Programme newsletter to be informed of future training opportunities.
+    The 2022 Winter School took place from 5-7 December and registration is now open for the Spring School running from the 29th - 30th March 2023.
 text:
-  text: ""
-  heading: Future course dates will be announced in 2023.
+  text: J﻿oin us for the Spring School taking place on Wednesday 29th and Thursday
+    30th March 2023.
+  heading: Spring School 2023
