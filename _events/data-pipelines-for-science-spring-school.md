@@ -15,7 +15,7 @@ image: /assets/uploads/winter-school-participants-2022-cropped.jpg
 ---
 How can researchers design and implement data pipelines for scientific research?  Our Data Pipelines for Science School will help scientists  to learn how to correctly, efficiently and robustly prepare your datasets for machine learning in your scientific projects.
 
-The Data Pipeline for Science school was originally launched in Winter 2022, encouraged by positive feedback and increased demand, we are pleased to announce that Accelerate Science will run the school again as the Spring School 2023.
+The Data Pipeline for Science school was originally launched in Winter 2022, encouraged by positive feedback and increased demand, we are pleased to announce that Accelerate Science will run the school again as the Spring School 2023 and [registration is now open.](https://forms.office.com/Pages/ResponsePage.aspx?id=RQSlSfq9eUut41R7TzmG6XbKfUN2UuhNns60AeJbitJUQlNZQjVRTzcwRERJMFU4WVVONDhTU0hETy4u)
 
 Well-curated and managed data is central to the effective use of AI, in science and elsewhere. How can scientists build the data pipelines they need to accelerate their research with AI?
 
