@@ -15,8 +15,8 @@ excerpt: Let’s imagine that there is a new technology that purports to reduce
   confounder? These are the complicated questions that causal methods seek to
   answer.
 author: Sebastian Hickman, PhD student,  AI for the study of Environmental Risks
-  CDT and Department of Chemistry
-date: February 27, 2023 11:00 AM
+  CDT and Yusuf Hamied Department of Chemistry
+date: February 27, 2023 9:55 AM
 image: /assets/uploads/sebastian-hickman.jpg
 ---
 Let’s imagine that there is a new technology that purports to reduce emissions of harmful air pollutants from power plants. If we are going to invest in this technology, need to quantify its positive impact, such as how much it reduces deaths from air pollution in nearby areas. This might seem simple. We can count the number of deaths before the technology was implemented, and then compare this to the number of deaths after it was rolled out. However, in many cases, this will not give the true causal effect of the technology, as other factors may affect deaths from air pollution. For example, what if, at the same time as implementing the technology, governments placed restrictions on air pollution emissions from cars? How do we work out the causal effect on deaths on the power plant technology, given this confounder? These are the complicated questions that causal methods seek to answer.
