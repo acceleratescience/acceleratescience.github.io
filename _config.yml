@@ -54,6 +54,7 @@ collections:
 remote_theme: aarontlp/accelerate-theme
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
   - jekyll-remote-theme
   - jekyll-paginate-v2
 sass:
