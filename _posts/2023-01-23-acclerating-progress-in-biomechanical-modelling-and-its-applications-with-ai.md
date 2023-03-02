@@ -1,6 +1,6 @@
 ---
 layout: blog-single
-title: Acclerating progress in biomechanical modelling and its applications with AI
+title: Accelerating progress in biomechanical modelling and its applications with AI
 excerpt: >-
   Motion capture and musculoskeletal modelling
 
