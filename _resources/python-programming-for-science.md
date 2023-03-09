@@ -10,7 +10,7 @@ excerpt: This self-learning module introduces the fundamentals of Python, some
 ---
 ### ACCELERATE SCIENCE WITH PYTHON AND PANDAS E-LEARNING MODULE
 
-**A new open e-learning module from Accelerate and Cambridge Spark offers training in Python programming for research challenges.**
+**An open e-learning module from Accelerate and Cambridge Spark offers training in Python programming for research challenges.**
 
 [REGISTER HERE](https://tinyurl.com/2p8zbdsb)
 
