@@ -7,10 +7,8 @@ excerpt: >-
 
 
   However, at present it is almost impossible to predict who will benefit, and who will unfortunately be harmed by these treatments. I’m using artificial intelligence (AI) and studying patient gut microbiome datasets to hopefully get one step closer to solving this problem. 
-author: Dr Ashray Gunjur PhD student, Wellcome Sanger Institute Honorary
-  Clinical Fellow, Department of Oncology, Cambridge University Hospitals NHS
-  Foundation Trust Clinical Research Training Fellow, Cancer Research UK
-  Cambridge Centre
+author: Dr Ashray Gunjur, PhD student and Honorary Clinical Fellow, University
+  of Cambridge
 date: March 20, 2023 10:00 AM
 categories:
   - accelerate-spark-data-science-residency
@@ -41,5 +39,11 @@ Cancer immunotherapy holds the potential to become more precise, more effective,
 But I think the most exciting thing about the gut microbiome is that, unlike the tumour or our own genetics, it is inherently modifiable. This could be as simple as, for example, changing one’s diets, or done more precisely, such as through live biotherapeutic products  . There is the tantalising possibility that if we understand more about whether there are specific bacteria that affect the body’s response to immune checkpoint inhibitors, we could manipulate the gut microbiomes of cancer patients to increase their chance of responding positively to the treatment. 
 
 We are still far away from this being standard-of-care. There are studies that show associations  between the gut microbiome and cancer response, but we do not yet fully understand the mechanism and fundamental biology underlying this. However, I think that in time, with more research, we will hopefully be able to harness the power of the gut microbiome to personalise individual patient’s treatments, with far more than just a ‘gut feeling’.
+
+*Dr Ashray Gunjur, PhD student, Wellcome Sanger Institute*
+
+*Honorary Clinical Fellow, Department of Oncology, Cambridge University Hospitals NHS Foundation Trust*
+
+*Clinical Research Training Fellow, Cancer Research UK Cambridge Centre*
 
 *Ashray took part in our Data Science Residency, you can find details about the course [here](https://acceleratescience.github.io/resources/introducing-data-science-for-science.html). Please get in touch by emailing accelerate-science@cst.cam.ac.uk if you are interested in attending a future Residency.*
