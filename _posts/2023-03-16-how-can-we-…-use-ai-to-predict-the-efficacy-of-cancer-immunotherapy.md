@@ -33,7 +33,7 @@ Next, we can use unsupervised machine learning approaches to look for clusters o
 
 We then use supervised machine learning to see if we can use patients' baseline microbiome compositions to predict whether or not they will respond to treatment, using skills I developed on Accelerate Programme’s [Data Science Residency](https://acceleratescience.github.io/resources/introducing-data-science-for-science.html) including Python. To do this, we split patients into training and test groups , for example by study cohort or region, and then see if predictors of response from one are generalisable to another. We’re starting to see that we can to an extent, which is quite amazing seeing as we are not studying a tumour, but a separate part of the body. Finally, we can focus on important features and particular bugs to investigate further. So, for example, we can start to hypothesize which bugs may be ‘good’ or ‘bad’ for treatment response, and why, by looking closely and interrogating what potential functions they have based on their genomes.
 
-![‘Know thyself’ – host factors influencing cancer response to immune checkpoint inhibitors, The Journal of Pathology, Volume: 257, Issue: 4, Pages: 513-525, First published: 08 April 2022, DOI: (10.1002/path.5907) ](/assets/uploads/figure-host-factors-influencing-cancer-response-to-immune-checkpoint-inhibitors.jpg "‘Know thyself’ – host factors influencing cancer response to immune checkpoint inhibitors, The Journal of Pathology, Volume: 257, Issue: 4, Pages: 513-525, First published: 08 April 2022, DOI: (10.1002/path.5907) ")
+![]()
 
 **Hope for the future**
 
