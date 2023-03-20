@@ -7,8 +7,10 @@ excerpt: >-
 
 
   However, at present it is almost impossible to predict who will benefit, and who will unfortunately be harmed by these treatments. I’m using artificial intelligence (AI) and studying patient gut microbiome datasets to hopefully get one step closer to solving this problem. 
-author: Dr Ashray Gunjur, PhD student and Honorary Clinical Fellow, Department
-  of Surgery and Wellcome Trust Sanger Institute, CRUK Cambridge Centre member
+author: Dr Ashray Gunjur PhD student, Wellcome Sanger Institute Honorary
+  Clinical Fellow, Department of Oncology, Cambridge University Hospitals NHS
+  Foundation Trust Clinical Research Training Fellow, Cancer Research UK
+  Cambridge Centre
 date: March 20, 2023 10:00 AM
 categories:
   - accelerate-spark-data-science-residency
