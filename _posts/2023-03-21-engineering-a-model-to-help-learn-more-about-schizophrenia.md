@@ -22,7 +22,7 @@ The idea for the *netts* tool stems from my work with [Sarah Morgan](https://acc
 
 ![Netts pipeline](/assets/uploads/pipeline-figure-netts.png "Netts pipeline")
 
-*Netts pipeline*
+> ***Netts* pipeline**
 
 \
 **Simplicity is never simple**
@@ -36,6 +36,10 @@ I received emails from fellow researchers who were eager to try *netts*, flaggin
 After careful investigation, Ryan pinpointed a bug in one of the underlying libraries  used by the tool and the team was able to accommodate the changes to the library to get the installation process working smoothly once more. He also fixed an issue with the model not appropriately parsing certain sentences when users tried to feed it a transcript, which caused *netts* to grind to a halt and deliver unhelpful error messages. 
 
 The clinic provided me with guidance on how to make the tool more user friendly, by decluttering and reducing the amount of noise in the tool’s user interface and making the error messages more informative to the end-user. They also helped make the tool easier to maintain and extend in the future by updating the tool's unit tests and polishing its documentation. I was really thankful to have the support of the clinic team. The time they have saved me fixing small details and improving the tool is immeasurable and allowed me the time to focus on the underlying research. 
+
+![Semantic speech networks created by netts from 6 speech transcripts](/assets/uploads/raster-plots-x-6-netts.png "Semantic speech networks created by netts from 6 speech transcripts")
+
+> **Semantic speech networks created by *netts* from 6 speech transcripts**
 
 **A technically sound future**
 
