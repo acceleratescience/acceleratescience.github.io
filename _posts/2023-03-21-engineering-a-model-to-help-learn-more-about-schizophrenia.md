@@ -11,7 +11,7 @@ excerpt: Our netts software has been successful in representing transcribed
   and streamline what I hope will be an impactful new tool for other researchers
   and one day, clinicians.
 author: " Dr Caroline Nettekoven, Postdoctoral Researcher, University of Cambridge  "
-date: March 22, 2023 10:14 AM
+date: April 30, 2023 10:14 AM
 image: /assets/uploads/pipeline-figure-netts.png
 ---
 Our *netts* software has been successful in representing transcribed speech as networks and capturing speech abnormalities in patients with schizophrenia. To make this system accessible to clinicians and other users, we need to make it simple to install. The Accelerate Programme’s [Machine Learning Engineering Clinic](https://acceleratescience.github.io/machine-learning-clinic) (MLE Clinic) gave me the opportunity to work together with Accelerate’s Senior Machine Learning Engineer [Ahmad Abu-Khazneh](https://acceleratescience.github.io/team/ahmad-abu-khazneh.html) and Machine Learning Engineer [Ryan Daniels](https://acceleratescience.github.io/team/ryan-daniels.html)  to troubleshoot technicalities and streamline what I hope will be an impactful new tool for other researchers and one day, clinicians.
