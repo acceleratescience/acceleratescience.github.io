@@ -20,7 +20,7 @@ Our *netts* software has been successful in representing transcribed speech as n
 
 The idea for the *netts* tool stems from my work with [Sarah Morgan](https://acceleratescience.github.io/team/sarah-morgan.html). Sarah is a Departmental Early Career Academic Fellow with the Accelerate Programme and her research focuses on applying AI and data science approaches to better understand development, cognition and mental health. In our joint research, we used natural  language processing (NLP) techniques to capture the semantic content of speech as a network, including speech abnormalities in patients with schizophrenia. We found some differences between the resulting semantic speech networks from healthy control subjects and psychosis patients, and then have dipped into existing NLP toolboxes and combined NLP with graph theory to come up with netts that is able to represent transcribed speech as networks. One possible application of the tool is using measures such as speech to try and predict or monitor when a patient with schizophrenia is beginning to relapse and notify a clinician who can help. We have explained  the research in more detail here. \[ADD LINK TO OTHER BLOG]
 
-![Netts pipeline](/assets/uploads/pipeline-figure-netts.png "Netts pipeline")
+![Netts pipeline](/assets/uploads/pipeline-figure-netts-resized.png "Netts pipeline")
 
 > ***Netts* pipeline**
 
