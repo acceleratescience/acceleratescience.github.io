@@ -15,7 +15,7 @@ excerpt: >-
 author: Dr Caroline Nettekoven, Postdoctoral Researcher, University of
   Cambridge  and Dr Sarah Morgan, Accelerate Science Research Fellow, University
   of Cambridge
-date: April 30, 2023 10:00 AM
+date: March 23, 2023 10:00 AM
 image: /assets/uploads/picture-for-blog-example-semantic-speech-network-generated-by-netts..png
 ---
 Schizophrenia affects approximately 1 in 300 people. That’s roughly 24 million people across the globe . The condition is characterised by significant changes in how those affected perceive reality, as well as changes in behaviour, including persistent delusions, hallucinations and disorganized thinking. These changes sometimes manifest as speech  that can be difficult to understand, for example it can sound like someone changes the subject mid-sentence.
