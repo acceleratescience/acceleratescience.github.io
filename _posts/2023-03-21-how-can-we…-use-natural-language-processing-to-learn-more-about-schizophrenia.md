@@ -26,7 +26,7 @@ For example, being able to analyse speech data in an automated way means that mu
 
 **Using speech to assess schizophrenia**
 
-In our research, we are testing the ability of natural language processing (NLP) techniques to capture speech abnormalities in patients with schizophrenia, as a first step towards these goals.  We are interested in looking at the semantic aspect of speech – how words convey meaning - because we know it is often altered in psychosis, and our latest paper details a new tool to capture the semantic content of speech as a network. We dipped into existing NLP toolboxes and combined NLP with graph theory to come up with a tool, called *netts*, that is able to represent transcribed speech as networks. Graph theory is a branch of mathematics that can help visualise data as networks of nodes connected by lines. This approach focuses on the meaning of words instead of audio features of speech, pulling out different entities and visualising the relationships between them to map information. 
+In our research, we are testing the ability of natural language processing (NLP) techniques to capture speech abnormalities in patients with schizophrenia, as a first step towards these goals.  We are interested in looking at the semantic aspect of speech – how words convey meaning - because we know it is often altered in psychosis, and [our latest paper](https://academic.oup.com/schizophreniabulletin/article/49/Supplement_2/S142/7083530) details a new tool to capture the semantic content of speech as a network. We dipped into existing NLP toolboxes and combined NLP with graph theory to come up with a tool, called *netts*, that is able to represent transcribed speech as networks. Graph theory is a branch of mathematics that can help visualise data as networks of nodes connected by lines. This approach focuses on the meaning of words instead of audio features of speech, pulling out different entities and visualising the relationships between them to map information. 
 
 To do this, we used data collected from three groups: a healthy control population, people at high risk of developing psychosis and patients with schizophrenia. Individuals were shown a picture and asked to describe it. Transcribed speech from these experiments was fed into the *netts* tool, which mapped key words or entities as ‘nodes’ and plotted the relationships between them as a network. You can see an example network from one of the speech transcripts in Figure 1.
 
@@ -45,6 +45,9 @@ The tool could make an impact elsewhere too. The networks it creates are incredi
 
 [Dr Caroline Nettekoven](https://www.caroline-nettekoven.com/) is a postdoctoral researcher, previously based at the University of Cambridge and currently based at Western University, Canada.
 
-[Dr Sarah Morgan](https://acceleratescience.github.io/team/sarah-morgan.html) is a Departmental Early Career Fellow in the Accelerate Programme, based in the Department of Computer Science and Technology
+[Dr Sarah Morgan](https://acceleratescience.github.io/team/sarah-morgan.html) is a Departmental Early Career Fellow in the Accelerate Programme, based in the Department of Computer Science and Technology.
 
-The *netts* tool is freely available as a python package [here.](https://alan-turing-institute.github.io/netts/)
+*Netts* is available as an open Python package [here](https://pypi.org/project/netts/), along with tutorials guiding through [setup](https://www.caroline-nettekoven.com/post/netts-creation/) and [analysis](https://www.caroline-nettekoven.com/post/netts-analysis/).
+Further information is available on Caroline Nettekoven’s [website.](https://www.caroline-nettekoven.com/post/netts/) 
+
+Nettekoven, C.R., Diederen, K., Giles, O., Duncan, H., Stenson, I., Olah, J., Gibbs-Dean, T., Collier, N., Vértes, P.E., Spencer, T.J., Morgan, S.E., McGuire, P. Semantic Speech Networks Linked to Formal Thought Disorder in Early Psychosis, Schizophrenia Bulletin, Volume 49, Issue Supplement_2, March 2023, Pages S142–S152, https://doi.org/10.1093/schbul/sbac056
