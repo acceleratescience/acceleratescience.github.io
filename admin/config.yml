@@ -916,7 +916,7 @@ collections:
     name: 'Publications'
     folder: '_publications'
     create: true
-    slug: '{{published}}-{slug}}'
+    slug: '{{published}}-{{slug}}'
     editor:
       preview: false
     fields:
