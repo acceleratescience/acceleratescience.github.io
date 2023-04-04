@@ -37,7 +37,7 @@ After careful investigation, Ryan pinpointed a bug in one of the underlying libr
 
 The clinic provided me with guidance on how to make the tool more user friendly, by decluttering and reducing the amount of noise in the tool’s user interface and making the error messages more informative to the end-user. They also helped make the tool easier to maintain and extend in the future by updating the tool's unit tests and polishing its documentation. I was really thankful to have the support of the clinic team. The time they have saved me fixing small details and improving the tool is immeasurable and allowed me the time to focus on the underlying research. 
 
-![Semantic speech networks created by netts from 6 speech transcripts](/assets/uploads/pipeline-figure-netts-resized.png "Semantic speech networks created by netts from 6 speech transcripts")
+![Semantic speech networks created by netts from 6 speech transcripts](/assets/uploads/raster-plots-x-6-netts-resized.png "Semantic speech networks created by netts from 6 speech transcripts")
 
 > **Semantic speech networks created by *netts* from 6 speech transcripts**
 
