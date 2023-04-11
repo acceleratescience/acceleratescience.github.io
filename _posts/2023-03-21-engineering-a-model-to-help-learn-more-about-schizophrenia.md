@@ -51,4 +51,6 @@ The improvements the MLE Clinic team made to *netts* tap into a broader trend wi
 
 *Netts is available as an open Python package [here](https://alan-turing-institute.github.io/netts/). Further information is available on Caroline Nettekoven’s [website.](https://www.caroline-nettekoven.com/post/netts/)*
 
+*Y﻿ou can watch a recording of a talk given by Dr Nettekoven and Machine Learning Engineer Ryan Daniels as part of the Discourse in Psychosis series seminar [here.](https://www.youtube.com/watch?v=TmYiSK7e5Ps)* 
+
 *The Accelerate Programme’s Machine Learning Engineering Clinic supports Cambridge University researchers using AI in their research, by helping resolve engineering issues they might encounter when implementing machine learning methods. Find out more about the clinic’s work and how to log your issue for support [here](https://acceleratescience.github.io/machine-learning-clinic).*
