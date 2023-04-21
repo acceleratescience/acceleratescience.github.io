@@ -28,6 +28,6 @@ end: null
 institution: Cambridge University
 department: null
 position: Departmental Early Career Academic Fellow, Accelerate Programme
-team: main
+team: alumni
 supervisor: null
 ---
