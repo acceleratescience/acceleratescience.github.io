@@ -17,7 +17,6 @@ To investigate this I first developed a simple Python package to perform linear 
 
 **Testing**
 
-
 I first tested GPT’s ability to generate test functions for the package using unittest. Overall, the test cases were not terrible, but before addressing the actual tests, it is important to state: the code produced by GPT did not run in its entirety. A number of tests produced errors: in testing a method to split data into training and testing sets GPT was trying to get values from a function that returned none. And then it had the nerve to tell me to change my function! However, a different error did bring to my attention a mistake in my code (I was performing a transpose operation twice), although I likely would have discovered this when writing my own test cases.
 
 There are two ways to load data in my little application: via a numpy array, or via a csv file. When testing the load functions, GPT opts to manually build an array of data, rather than randomly generating it, and the manually generated dataset is quite small. This means that when it comes time to test the function designed to split the data into training and testing sets, there really isn’t a lot of choice about how to split the data, and GPT only tests a single 50/50 split. It doesn’t test the default arguments for the split function, and it only tests the test-train split using a numpy array, and not also using an array loaded from a csv file.
@@ -25,7 +24,6 @@ There are two ways to load data in my little application: via a numpy array, or 
 Similarly, the test cases for the actual linear regression model are simply not comprehensive enough for me to feel that edge cases are covered (more details can be found in the Github repo). But overall, it’s a pretty good start, and there is always the option of zeroing in on a specific test case and asking GPT to refine it. In my interactions with GPT-4, I have been impressed at its ability to read error messages and apply changes to the guilty code. However, I have also found that if GPT cannot solve the problem after 2 or 3 errors, it becomes more likely that GPT will produce incoherent output. In particular, GPT will begin going around in circles, “correcting” its code to an earlier version that I had already established as being incorrect.
 
 **Packaging**
-
 
 I then tested GPT’s ability to publish the above package. GPT was able to provide me with a step-by-step guide that was a little ragged, but good enough to get the package onto Test PyPi. Quite frankly, I was astonished that this actually worked. GPT’s method is not perfect. It uses an older method of packaging python applications (perhaps a result of the training data cutoff of September 2021), instead of using popular industry methods such as the Poetry or Build libraries. Interestingly, if prompted to do so, GPT is capable of providing a packaging method that utilises Poetry. Despite some pedantic issues, GPT gets the job done, and is also able to respond to prompts to clarify certain aspects of the process. So if you know absolutely nothing about packaging, it at least gives you a starting point.
 
