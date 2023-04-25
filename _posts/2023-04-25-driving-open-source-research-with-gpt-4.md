@@ -9,7 +9,7 @@ excerpt: In the age of data-driven research, modern science inevitably has a
   What about the machine learning models that are used to transform data and
   make inferences that could have long-term impacts in their respective fields?
 author: Ryan Daniels, Machine Learning Engineer - Accelerate Programme
-date: April 25, 2023 2:02 PM
+date: April 25, 2023 2:00 PM
 categories:
   - machine-learning
 image: /assets/uploads/2023-04-25-driving-open-source-research-with-gpt-blog-image.png
