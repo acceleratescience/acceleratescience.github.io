@@ -1,6 +1,13 @@
 ---
 layout: blog-single
 title: Driving open source research with GPT-4
+excerpt: In the age of data-driven research, modern science inevitably has a
+  heavy computational component. Researchers are often working with terabytes of
+  data, which needs to be collected, processed, and run through their models. In
+  many cases, the research conducted leads to papers published in academic
+  journals. But what about the code that is used to process experimental data?
+  What about the machine learning models that are used to transform data and
+  make inferences that could have long-term impacts in their respective fields?
 author: Ryan Daniels, Machine Learning Engineer - Accelerate Programme
 date: April 25, 2023 2:02 PM
 categories:
