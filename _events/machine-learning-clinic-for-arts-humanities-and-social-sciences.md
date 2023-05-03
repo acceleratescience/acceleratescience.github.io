@@ -6,7 +6,7 @@ end: May 17, 2023 4:00 PM
 desc: >-
   
   Are you interested in finding out more about working with Machine Learning in your research? Or are you already deploying Machine Learning but have run into challenges you can’t solve on your own? Machine Learning Engineers from the University’s Accelerate Programme will be available to answer your questions and provide advice at a special Machine Learning Clinic in collaboration with Cambridge Digital Humanities.
-image: /assets/uploads/accelerate-cdh-clinic-consultation-session.png
+image: /assets/uploads/accelerate-cdh-clinic-consultation-session-flyer.jpg
 ---
 Are you interested in finding out more about working with Machine Learning in your research? Or are you already deploying Machine Learning but have run into challenges you can’t solve on your own? Machine Learning Engineers from the University’s Accelerate Programme will be available to answer your questions and provide advice at a special Machine Learning Clinic in collaboration with Cambridge Digital Humanities.  
 
