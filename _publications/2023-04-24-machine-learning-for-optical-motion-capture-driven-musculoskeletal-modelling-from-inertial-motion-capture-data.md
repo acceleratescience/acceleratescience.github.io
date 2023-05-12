@@ -2,7 +2,8 @@
 layout: publication-single
 title: Machine Learning for Optical Motion Capture-Driven Musculoskeletal
   Modelling from Inertial Motion Capture Data
-abstract: Marker-based Optical Motion Capture (OMC) systems and associated
+abstract: >-
+  Marker-based Optical Motion Capture (OMC) systems and associated
   musculoskeletal (MSK) modelling predictions offer non-invasively obtainable
   insights into muscle and joint loading at an in vivo level, aiding clinical
   decision-making. However, an OMC system is lab-based, expensive, and requires
@@ -29,6 +30,9 @@ abstract: Marker-based Optical Motion Capture (OMC) systems and associated
   MSK estimates for held-out test data. The findings demonstrate that mapping
   IMC inputs to OMC-driven MSK outputs using ML models could be instrumental in
   transitioning MSK modelling from ‘lab to field’.
+
+
+  <https://doi.org/10.3390/bioengineering10050510>
 published: 2023-04-24
 authors:
   internal_authors:
