@@ -1,8 +1,9 @@
 ---
 layout: publication-single
 title: Machine Learning for Musculoskeletal Modeling of Upper Extremity
-abstract: We propose a novel machine learning (ML)-driven methodology to
-  estimate biomechanical variables of interest traditionally obtained from
+abstract: >-
+  We propose a novel machine learning (ML)-driven methodology to estimate
+  biomechanical variables of interest traditionally obtained from
   upper-extremity musculoskeletal (MSK) modeling. MSK models facilitate
   personalized modeling, perform “what-if” analyses, and potentially enhance
   clinical decision-making. In certain settings, MSK models are driven by
@@ -26,6 +27,9 @@ abstract: We propose a novel machine learning (ML)-driven methodology to
   motivated a more complex ML model. Our findings suggest that an ML-based
   approach is highly viable for estimating upper-extremity biomechanical
   information solely from IMC data.
+
+
+  [d﻿oi.org/10.1109/JSEN.2022.3197461](<d﻿oi.org/10.1109/JSEN.2022.3197461>)
 published: 2022-10-01
 authors:
   internal_authors:
