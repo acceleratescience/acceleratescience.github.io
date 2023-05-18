@@ -11,8 +11,9 @@ biography: >-
    
   Before joining the Accelerate Programme, Lorenz trained as a medical microbiologist, virologist and infection epidemiologist at the Technical University of Munich (TUM, Germany). During his time at TUM, he investigated basic aspects regarding memory CD8 T cell development.
 image: /assets/uploads/lorenz-kretschmer.jpg
+institution: University of Cambridge
 department: Department of Physics
-position: Research Associate
+position: Research Associate, Accelerate Programme
 team: main
 supervisor: Sarah Teichmann
 ---
