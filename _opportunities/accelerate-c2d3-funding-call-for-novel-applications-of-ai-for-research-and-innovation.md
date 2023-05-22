@@ -105,6 +105,6 @@ Question 12: Funding request (tell us how much funding you are requesting and pr
 
 Question 13: Additional support from Accelerate or C2D3 (in this section, please advise whether you anticipate requiring any additional administrative or technical support from Accelerate or C2D3 to deliver your project, and what type of input would be helpful). 
 
-Answers to questions 6-13 should have a maximum word count of 300 words. Please note the word limits, in assessing applications we will consider the first 300 words of each response only. 
+Answers to questions 7-13 should have a maximum word count of 300 words. Please note the word limits, in assessing applications we will consider the first 300 words of each response only. 
 
 For further questions, please contact [accelerate-science@cst.cam.ac.uk.](accelerate-science@cst.cam.ac.uk)
