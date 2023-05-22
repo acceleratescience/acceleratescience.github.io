@@ -14,7 +14,7 @@ The Accelerate Programme in collaboration with C2D3 is offering small grants for
 Successfully deploying AI to tackle real-world challenges requires effective interdisciplinary collaboration. Developing these collaborations requires time and resources to bring together potential research partners, investigate the different ways of framing a challenge, and co-design potential solutions. Scaling successful interventions might require new ways of convening, innovations in training, or novel software tools. Often this work falls outside the scope of routine funding calls.
 
 Accelerate Science’s funding programme will help fill this gap, offering small grants that can be deployed flexibly to start or scale interdisciplinary collaborations in the use of AI for research and innovation.
-This call is open to researchers from across disciplines at the University of Cambridge wanting to use AI to accelerate their research, and who would benefit from a small amount of funding to kick-start their work or catalyse new collaborations. Applications are invited via the form at [this link](https://forms.office.com/Pages/ResponsePage.aspx?id=RQSlSfq9eUut41R7TzmG6SaVOxbmBOdAg9GzbnrB5IRUQlpXNUVJWTkwMk5LMzM3SzdUVjhFTTFTWi4u) by 17:00 on **Friday 8 September 2023.** For further details, check out the FAQs below, or email [accelerate-science@cst.cam.ac.uk](accelerate-science@cst.cam.ac.uk).
+This call is open to researchers from across disciplines at the University of Cambridge wanting to use AI to accelerate their research, and who would benefit from a small amount of funding to kick-start their work or catalyse new collaborations. Applications are invited via the form at [this link](https://forms.office.com/Pages/ResponsePage.aspx?id=RQSlSfq9eUut41R7TzmG6SaVOxbmBOdAg9GzbnrB5IRUQlpXNUVJWTkwMk5LMzM3SzdUVjhFTTFTWi4u) by 17:00 on **Friday 8 September 2023.** For further details, check out the FAQs below, or email accelerate-science@cst.cam.ac.uk.
 
 This is the second annual call, with 9 projects funded by the first call in 2022. Successful projects in the 2022 call included an event to explore the interface between domain and AI-enabled understandings of biological systems, a tool deploying machine learning to improve coeliac disease diagnosis, and network development activities for AI in environmental science. You can find out more about the projects funded in last year’s call [here.](https://acceleratescience.github.io/news/2022-11-16-successfully-funded-projects-to-pursue-innovative-applications-of-ai-in-research-and-real-world-contexts.html) 
 
@@ -32,7 +32,7 @@ The Accelerate Programme’s mission is to drive a step-change in research and i
 
 Applications are open to any postgraduate student or member of staff at the University of Cambridge, working in any discipline, including natural, physical, social, medical, and computer sciences, arts, humanities, and engineering. 
 
-Postgraduate students are eligible to apply to the Accelerate-C2D3 funding call and need to ensure they have the approval of their PI and home department before submitting their application. Under the University guidelines, a named PI will be required to set up the funds in your home department, please ensure they are named in your application. Any queries about eligibility can be sent to [accelerate-science@cst.cam.ac.uk](accelerate-science@cst.cam.ac.uk).
+Postgraduate students are eligible to apply to the Accelerate-C2D3 funding call and need to ensure they have the approval of their PI and home department before submitting their application. Under the University guidelines, a named PI will be required to set up the funds in your home department, please ensure they are named in your application. Any queries about eligibility can be sent to accelerate-science@cst.cam.ac.uk.
 
 **What kind of projects will be funded?**
 
@@ -50,11 +50,11 @@ Applicants should work with their Department’s grants/finance team to prepare 
 
 The focus of this programme is interdisciplinary collaboration that advances the application in research and real-world contexts. Within that remit, funding could be used for a variety of different activities, including events, workshops, conferences, teaching, software development, or research spin-up. Please note that applications for events will be capped at £15,000. We particularly encourage bids working across disciplines.
 Spending plans should be designed in line with the University’s financial policies, for example policies on travel, accommodation, and sustainability. For further information, please see the Finance Division guidance.
-If you have any questions about formulating your budget, please contact [accelerate-science@cst.cam.ac.uk](accelerate-science@cst.cam.ac.uk).
+If you have any questions about formulating your budget, please contact accelerate-science@cst.cam.ac.uk.
 
 **What support can the Accelerate Programme and C2D3 offer?**
 
-As part of developing your proposal, the Accelerate team can offer assistance in sense-checking the technical feasibility of your project. Our Machine Learning Engineering Clinic will offer informal guidance on technical aspects of the work. If you’d like to access help from the Clinic please email the team on [accelerate-mle@cst.cam.ac.uk](accelerate-mle@cst.cam.ac.uk) outlining the nature of your query. If you would like support from the clinic, please get in touch with us as early as possible to enable sufficient time for discussion before the funding deadline.
+As part of developing your proposal, the Accelerate team can offer assistance in sense-checking the technical feasibility of your project. Our Machine Learning Engineering Clinic will offer informal guidance on technical aspects of the work. If you’d like to access help from the Clinic please email the team on accelerate-mle@cst.cam.ac.uk outlining the nature of your query. If you would like support from the clinic, please get in touch with us as early as possible to enable sufficient time for discussion before the funding deadline.
 The Machine Learning Engineering team will be offering a drop in session as part of the Funding Q and A on Wednesday 21 June. 
 
 The Clinic can also help resolve software engineering issues you encounter in your machine learning projects. You can get in touch using the contact information above.
@@ -107,4 +107,4 @@ Question 13: Additional support from Accelerate or C2D3 (in this section, please
 
 Answers to questions 7-13 should have a maximum word count of 300 words. Please note the word limits, in assessing applications we will consider the first 300 words of each response only. 
 
-For further questions, please contact [accelerate-science@cst.cam.ac.uk.](accelerate-science@cst.cam.ac.uk)
+For further questions, please contact accelerate-science@cst.cam.ac.uk.
