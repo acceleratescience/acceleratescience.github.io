@@ -5,9 +5,9 @@ title: Accelerate-C2D3 Funding call for novel applications of AI for research
 excerpt: The Accelerate Programme in collaboration with C2D3 is offering small
   grants for Cambridge University researchers pursuing innovative applications
   of AI, in research or real-world contexts. Funding can support a variety of
-  activities, including research, events, workshops, teaching, software
-  development, or software development, with a focus on interdisciplinary
-  collaboration.
+  activities, including research, staff time, events, workshops, teaching,
+  software development, or software development, with a focus on
+  interdisciplinary collaboration.
 image: /assets/uploads/accelerate-c2d3-funding-call-2023.jpg
 ---
 The Accelerate Programme in collaboration with C2D3 is offering small grants for Cambridge University researchers pursuing innovative applications of AI, in research or real-world contexts. Funding can support a variety of activities, including research, events, workshops, teaching, software development, or software development, with a focus on interdisciplinary collaboration.
@@ -43,15 +43,15 @@ Proposals should be able to demonstrate a contribution to advancing the use of d
 
 The intention of this call is to support projects across disciplines. We intend to support a number of successful applications, and will offer funding of up to £25,000 . Applications for events and workshops will be capped at £15,000. 
 
-The amount of funding awarded will depend on the quality of the application and the number of applications received. We would encourage applications that cost less than the maximum set out above. If your idea costs more to deliver, it is likely better to get in touch before applying, so we can informally advise on feasibility: we have a limited budget and large funding requests will limit our ability to support other projects.
+The amount of funding awarded will depend on the quality of the application and the number of applications received. We would encourage applications that cost less than the maximum set out above. If your idea costs more to deliver, it is likely better to get in touch before applying, so we can informally advise on feasibility: we have a limited budget and large funding requests will limit our ability to support other projects. 
 
 Applicants should work with their Department’s grants/finance team to prepare the budget details for their application to ensure projects are fully costed and are in line with Departmental policies. Successful projects may be asked to submit a draft X5 before funding can be confirmed.
 
 **What can funds be used for?**
 
-The focus of this programme is interdisciplinary collaboration that advances the application in research and real-world contexts. Within that remit, funding could be used for a variety of different activities, including events, workshops, conferences, teaching, software development, or research spin-up. Please note that applications for events will be capped at £15,000. We particularly encourage bids working across disciplines.
+The focus of this programme is interdisciplinary collaboration that advances the application in research and real-world contexts. Within that remit, funding could be used for a variety of different activities, including research, staff time, events, workshops, conferences, teaching, software development, or research spin-up. Please note that applications for events will be capped at £15,000. We particularly encourage bids working across disciplines.
 Spending plans should be designed in line with the University’s financial policies, for example policies on travel, accommodation, and sustainability. For further information, please see the Finance Division guidance.
-If you have any questions about formulating your budget, please contact accelerate-science@cst.cam.ac.uk.
+If you have any questions about formulating your budget, please contact accelerate-science@cst.cam.ac.uk. 
 
 **What support can the Accelerate Programme and C2D3 offer?**
 
