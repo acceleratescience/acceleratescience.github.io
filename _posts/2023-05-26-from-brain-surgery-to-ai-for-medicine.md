@@ -11,7 +11,7 @@ excerpt: Mastering brain surgery would be enough of an achievement for most
   potential of AI to understand the brain and solve clinical problems.
 author: ""
 date: May 26, 2023 12:13 PM
-image: /assets/uploads/chao-li-headshot.jpg
+image: /assets/uploads/chao-li-headshot-updated.jpg
 ---
 Mastering brain surgery would be enough of an achievement for most people, but [Dr Chao Li](https://www.neurosurg.cam.ac.uk/research-groups/brain-tumour-imaging-lab/2988-2/dr-chao-li/) set his sights on using AI to improve the management of patients diagnosed with brain diseases. Dr Li is a Principal Research Fellow at the Department of Applied Mathematics and Theoretical Physics, and Department of Clinical Neurosciences, Group Leader of Intelligent Neuroimaging for Computational Neuroscience and Oncology at the University of Cambridge, and teaches fellow researchers how to harness the remarkable powers and potential of AI to understand the brain and solve clinical problems.
 
