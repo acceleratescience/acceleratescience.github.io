@@ -11,6 +11,9 @@ abstract: >-
   Results
 
   We introduce an enhanced version of the dsSurvival package which offers privacy enhancing survival curves for DataSHIELD. Different methods for enhancing privacy were evaluated for their effectiveness in enhancing privacy while maintaining utility. We demonstrated how our selected method could enhance privacy in different scenarios using real survival data. The details of how DataSHIELD can be used to generate survival curves can be found in the associated tutorial.
+
+
+  https://doi.org/10.1186/s13104-023-06372-5
 published: 2023-06-06
 authors:
   internal_authors:
