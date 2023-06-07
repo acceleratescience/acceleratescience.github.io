@@ -14,6 +14,9 @@ abstract: >-
 
 
   https://doi.org/10.1186/s13104-023-06372-5
+
+
+  https://github.com/neelsoumya/dsSurvival
 published: 2023-06-06
 authors:
   internal_authors:
@@ -27,4 +30,5 @@ details:
   number: "98"
   doi: 10.1186/s13104-023-06372-5
   website: https://bmcresnotes.biomedcentral.com/articles/10.1186/s13104-023-06372-5
+  software: https://github.com/neelsoumya/dsSurvival
 ---
