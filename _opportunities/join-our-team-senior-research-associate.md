@@ -1,6 +1,7 @@
 ---
 layout: opportunities-single
-title: Join our team! Senior Research Associate
+title: Join our team! Applications open for a Senior Research Associate to join
+  the Accelerate Programme.
 excerpt: We are looking for a Senior Research Associate to join the team, with a
   post that will support them in developing their research careers. The
   successful candidate will be responsible for pursuing high-quality research at
