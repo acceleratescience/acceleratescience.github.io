@@ -11,8 +11,8 @@ text_dual_column:
   content: >-
     The Data Pipeline for Science school was originally launched in Winter 2022,
     encouraged by positive feedback and increased demand, we are pleased to
-    announce that Accelerate Science will run the school again as the Spring
-    School 2023 from the 29th - 30th March.
+    announce that Accelerate Science will run the school again  from 25-26
+    September 2023.
 
 
     Machine learning is an important  tool for researchers across disciplines. Scientists today have access to more data, from a greater range of sources and at greater speed than ever before, and opportunities to extract insights from this data using AI. But before deploying AI, researchers must have a data pipeline that transforms their data into a state that is suitable for the machine learning algorithms being used. 
@@ -30,13 +30,17 @@ text_dual_column:
     For a taster of topics covered in the Winter School, watch Dr Soumya Banerjee’s talk on Reproducible Research in R [here. ](https://www.youtube.com/watch?v=ZDSj-jEoaoc)
 
 
-    The 2022 Winter School took place from 5th - 7th December and the Spring School is running from the 29th - 30th March 2023.
+    The next Data Pipelines School will take place on Monday 25 and Tuesday 26 September. Applications are now open, please complete the [application form](https://forms.office.com/Pages/ResponsePage.aspx?id=RQSlSfq9eUut41R7TzmG6SaVOxbmBOdAg9GzbnrB5IRUMFNZQ0hQSkQ4NjdETk9VTE9NNlBMNkJYNS4u) by Friday 8 September 5pm.
 text:
   text: >-
-    The Spring School will run from Wednesday 29th - Thursday 30th March 2023. 
+    The next Data Pipelines School will run  will run from Monday 25  - Tuesday
+    26 September.
 
 
-    Registration is now closed. Find out more in the FAQs below and get in touch with accelerate-science@cst.cam.ac.uk if you have any queries. 
+    Apply [here](https://forms.office.com/Pages/ResponsePage.aspx?id=RQSlSfq9eUut41R7TzmG6SaVOxbmBOdAg9GzbnrB5IRUMFNZQ0hQSkQ4NjdETk9VTE9NNlBMNkJYNS4u) by Friday 8 September 5pm. Please note that course places are limited and we prioritise candidates who express in the application form an immediate and pressing research need for learning the topics presented in the School, while also trying to maintain a balanced cohort in terms of academic background, research interests and career levels.
+
+
+    Find out more in the FAQs below and get in touch with accelerate-science@cst.cam.ac.uk if you have any queries. 
 
 
     **FAQs**
@@ -77,43 +81,13 @@ text:
     **What topics will the course cover?**
 
 
-    Day 1 Wednesday 29th March 
-
-
-    10:15 - 10:30 Registration
-
-
-    10:30 - 11:15   Lecture 1 “Introduction to data pipelines”
-
-
-    11:35 - 13:00   Lab 1 “Automating pipelines in Python”
-
-
-    14:00 - 14:45   Lecture 2  “Testing and profiling data pipelines”
-
-
-    15:05 - 16:30   Lab 2 “Examples of testing and profiling data pipelines in Python”
-
-
-    Day 2 Thursday 30th March
-
-
-    10:30 - 11:15  Lecture 3  “Publishing Data Pipelines & Course Summary”
-
-
-    11:35 - 13:00  Lab 3 “Publishing workflow”
-
-
-    13:00 - 14:30  Pizza lunch & certificate collection
-
-
-    14:30 - 16:00  Open office hour with Accelerate Science team.
+    T﻿he course will cover an introduction to data pipelines, automating pipelines in Python, testing and profiling data pipelines and publishing pipelines.
 
 
     **How do I apply?**
 
 
-    Please note registration is now closed. To apply, candidates should complete [this form](https://forms.office.com/Pages/ResponsePage.aspx?id=RQSlSfq9eUut41R7TzmG6XbKfUN2UuhNns60AeJbitJUQlNZQjVRTzcwRERJMFU4WVVONDhTU0hETy4u) by 5pm on Friday 10th of March. Candidates who are accepted will be notified by Tuesday 14th of March.
+    Please note registration is now closed. To apply, candidates should complete [this form](https://forms.office.com/Pages/ResponsePage.aspx?id=RQSlSfq9eUut41R7TzmG6SaVOxbmBOdAg9GzbnrB5IRUMFNZQ0hQSkQ4NjdETk9VTE9NNlBMNkJYNS4u) by 5pm on Friday 8 of September.
 
 
     Please note that spaces are limited. We prioritise candidates who express in the application form an immediate and pressing research need for learning the topics presented in the School, while also trying to maintain a balanced cohort in terms of academic background, research interests and career levels. For further information, please contact accelerate-science@cst.cam.ac.uk
@@ -129,4 +103,43 @@ text:
 
 
     The Spring School will take place in the [Department of Computer Science and Technology at the William Gates Building. ](https://map.cam.ac.uk/Computer+Laboratory)
-  heading: Spring School 2023
+
+
+    **W﻿hat are the timings of the course?**
+
+
+    T﻿he course runs over two days and the outline timetable is as below.
+
+
+    Day 1 Monday 25 September
+
+
+    10:15 - 10:30 Registration
+
+
+    10:30 - 11:15   Lecture 1
+
+
+    11:35 - 13:00   Lab 1 
+
+
+    14:00 - 14:45   Lecture 2  
+
+
+    15:05 - 16:30   Lab 2 
+
+
+    Day 2 Tuesday 26 September
+
+
+    10:30 - 11:15  Lecture 3 
+
+
+    11:35 - 13:00  Lab 3 
+
+
+    13:00 - 14:30  Lunch & certificate collection
+
+
+    14:30 - 16:00  Open office hour with Accelerate Science team.
+  heading: Data Pipelines School - 25 - 26 September 2023
