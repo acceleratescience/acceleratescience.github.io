@@ -1,6 +1,7 @@
 ---
 layout: opportunities-single
-title: "Join our team! Research Assistant/Research Associate in AI Interfaces "
+title: Join our team! Applications open for a Research Assistant/Research
+  Associate in AI Interfaces to join the Accelerate Programme.
 excerpt: >
   We are looking for a Research Assistant/Research Associate to join our team,
   working on a project that explores the interfaces that can facilitate
