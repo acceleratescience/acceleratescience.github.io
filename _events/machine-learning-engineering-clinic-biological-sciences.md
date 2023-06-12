@@ -13,4 +13,4 @@ image: /assets/uploads/mle-clinic-session-sbs.png
 ---
 T﻿he drop in session will be open from 10-12 and 2-4 on Friday 23 June in Seminar Room A at 17 Mill Lane.  The clinic is open to School PIs, postdocs and students to support any and all questions around using machine learning in your biological research. 
 
-D﻿rop in on the day or fill in the [form](bit.ly/42CywUE) with details of your query in advance.
+D﻿rop in on the day or fill in the [form](https://forms.office.com/Pages/ResponsePage.aspx?id=RQSlSfq9eUut41R7TzmG6en7pKp09EBBsQtSVzmKwwhUQkVQUkJURjZLRVdBVDJQSThRMks3U1FBSS4u) with details of your query in advance.
