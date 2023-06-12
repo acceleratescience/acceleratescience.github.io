@@ -20,7 +20,7 @@ A﻿pply [here](https://forms.office.com/Pages/ResponsePage.aspx?id=RQSlSfq9eUut
 \
 The course aims to give researchers in fields outside computer science the skills they need to use machine learning (ML) in their research, and help them apply data analysis to their own datasets and problems. On the course, you will: use data science techniques on your own datasets and research questions; collaborate on real-world data science challenges in teams; and contribute to a world-leading community of scientists and researchers. You can read more about how some of our recent participants has used the course to advance their work in the ‘How can I..?’ series on [Accelerate’s blog](https://acceleratescience.github.io/blog).
 
-Recent participants also share their experiences of the course in a short video available here. 
+Recent participants also share their experiences of the course in a short video available [here. ](https://www.youtube.com/watch?v=hqJfTwnRM6E&t=6s)
 
 Residents will cover 6 modules over a period of 5 weeks:
 
