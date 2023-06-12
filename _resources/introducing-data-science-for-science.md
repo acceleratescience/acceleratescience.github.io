@@ -1,12 +1,13 @@
 ---
 layout: resources-single
-title: Introducing Data Science For Science
+title: Introducing Data Science for Research
 category: teaching-learning
 excerpt: The Accelerate Programme offers PhDs and postdocs disciplines across
   Cambridge University the opportunity to participate in a 'Data for Science'
-  training course. This structured Accelerate-Spark Data for Science Residency
-  will equips scientists with modern practical data analysis skills using Python
-  in a virtual instructor-led accelerated masterclass.
+  training course. This structured Accelerate-Cambridge Spark Introducing Data
+  Science for Research will equips scientists with modern practical data
+  analysis skills using Python in a virtual instructor-led accelerated
+  masterclass.
 ---
 **PhD students and postdocs across Cambridge University can apply for this training course, which will equip them will skills in data science for science. This course is currently closed for applications, future course dates will be advertised here.** 
 
@@ -30,7 +31,7 @@ Residents will cover 6 modules over a period of 5 weeks:
 
 **What are the entry requirements?**
 
-Participants should be current PhD students or researchers at the University of Cambridge and have basic programming skills (e.g. the ability to use Excel, MATLAB, R or Python). Participants should be available from 27 February– 31 March 2023 and can expect to spend 30 hours on the programme each week, including timetabled sessions and periods of independent study.
+Participants should be current PhD students or researchers at the University of Cambridge and have basic programming skills (e.g. the ability to use Excel, MATLAB, R or Python). Participants should be available from Monday 16 October - Friday 17 November and can expect to spend 30 hours on the programme each week, including timetabled sessions and periods of independent study.
 
 Completion of the [Python for Science module](https://acceleratescience.github.io/resources/python-programming-for-science.html) is not a pre-requisite for this course, as participants will receive training in the use of Python. However, applicants are required to complete an assessment to demonstrate basic programming skills.
 
@@ -41,10 +42,10 @@ To produce this course, the Accelerate Programme is working with Cambridge Spark
 The course will be run via Zoom, with sessions delivered by Cambridge Spark and their community of mentors.
 
 **How much does the course cost?**
-The course costs £2,100 + VAT per participant. For this cohort, the Accelerate Programme are able to offer 50% funding towards the cost, meaning the course will be available to participants for £1,050 + VAT.
+The course costs £2,100 + VAT per participant. For this cohort, the Accelerate Programme are able to offer 50% funding towards the cost, meaning the course will be available to participants for £1,050 + VAT. Please note that payment arrangements must be confirmed before starting the course. 
 
-For further questions, please contact accelerate-science@cst.cam.ac.uk.
+**H﻿ow can I apply?**
 
-**P﻿lease note this course is currently closed for applications, future course dates will be published on this page.** 
+T﻿o apply, complete the [application form](https://forms.office.com/Pages/ResponsePage.aspx?id=RQSlSfq9eUut41R7TzmG6SaVOxbmBOdAg9GzbnrB5IRUNFkwUko1SDlOOTc5VzkxTDJKWUpHQk5GMC4u) by **5pm Friday 8 September.**  A short programming assessment will be sent to applicants to complete in the w/c 11 September. 
 
-[](https://forms.office.com/pages/responsepage.aspx?id=RQSlSfq9eUut41R7TzmG6SaVOxbmBOdAg9GzbnrB5IRUMzA2Uk1SVThUSlVXUTdHWEJWOFpLMjlXOC4u)
+For further questions, please contact accelerate-science@cst.cam.ac.uk.[](https://forms.office.com/pages/responsepage.aspx?id=RQSlSfq9eUut41R7TzmG6SaVOxbmBOdAg9GzbnrB5IRUMzA2Uk1SVThUSlVXUTdHWEJWOFpLMjlXOC4u)
