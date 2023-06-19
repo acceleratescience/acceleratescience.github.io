@@ -40,7 +40,7 @@ A diverse range of research exploring applications of AI to the biological quest
 
 **Where next? Moving closer to fulfilling the potential in the field** 
 
-The final session of the day explored routes for engaging with machine learning in Cambridge, including Accelerate’s [Machine Learning Engineering Clinic](https://acceleratescience.github.io/machine-learning-clinic) which offers support to researchers across the research pipeline. 
+The final session of the day explored routes for engaging with machine learning in Cambridge, including Accelerate’s [Machine Learning Engineering Clinic](https://acceleratescience.github.io/machine-learning-clinic) which offers support to researchers across the research pipeline.
 
 In addition to technical support from the clinic, [Accelerate and C2D3’s current funding call](https://acceleratescience.github.io/news/2023-05-22-accelerate-c2d3-funding-call-for-novel-applications-of-ai-for-research-and-innovation.html) provides the opportunity for researchers to receive small grants that can be deployed flexibly to start or scale interdisciplinary collaborations in the use of AI for research and innovation. Professor Elizabeth Soilleux, an awardee in the 2022 funding call, shared details of her project optimizing an algorithm that can identify coeliac disease from duodenal biopsies, with 97–99% accuracy. 
 
