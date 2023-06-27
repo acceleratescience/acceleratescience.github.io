@@ -2,7 +2,7 @@
 layout: event-single
 title: Machine Learning Clinic - Department of Politics and International Studies
 start: July 21, 2023 10:00 AM
-end: May 17, 2023 12:00 PM
+end: July 21, 2023 12:00 PM
 desc: "Are you interested in finding out more about working with Machine
   Learning in your research? Or are you already deploying Machine Learning but
   have run into challenges you can’t solve on your own? Machine Learning
