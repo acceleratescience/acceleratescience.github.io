@@ -24,6 +24,6 @@ end: null
 institution: Cambridge University
 department: null
 position: Senior Machine Learning Engineer, Accelerate Programme
-team: main
+team: alumni
 supervisor: null
 ---
