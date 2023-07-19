@@ -6,6 +6,7 @@ excerpt: >-
   produce a more detailed picture of the structural architecture of the human
   brain than was previously possible.
 
+
   Their improved roadmap of how brain regions are related, they say, might help us understand both 'normal' brain development in healthy humans and how it differs in patients with brain disorders like dementia and psychiatric illnesses like schizophrenia.
 image: /assets/uploads/david-matos-xtligpytpck-unsplash.jpg
 link: https://www.nature.com/articles/s41593-023-01376-7
