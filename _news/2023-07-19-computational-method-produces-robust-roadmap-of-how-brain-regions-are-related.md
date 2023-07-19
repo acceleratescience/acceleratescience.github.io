@@ -13,12 +13,9 @@ link: ""
 ---
 Researchers using computational methods to study MRI scans say they can produce a more detailed picture of the structural architecture of the human brain than was previously possible.
 
-
 Their improved roadmap of how brain regions are related, they say, might help us understand both 'normal' brain development in healthy humans and how it differs in patients with brain disorders like dementia and psychiatric illnesses like schizophrenia.
 
-
 In a paper published this week in [Nature Neuroscience](https://www.nature.com/articles/s41593-023-01376-7) – they add that their method of quantifying the brain's structural network also mapped closely onto brain networks derived from gene expression data.
-
 
 This could be used to help researchers identify which genes are expressed in regions of the brain affected by mental health conditions – and which genes, therefore, may be implicated in the development of these conditions.
 The work was carried out by a team of researchers from this Department and from the University's Department of Psychiatry. The team includes Accelerate Research Fellow Dr Sarah Morgan and Isaac Sebenius,  Accelerate PhD student currently studying for his PhD in Psychiatry under Dr Morgan's supervision. 
@@ -42,5 +39,7 @@ As well as building up a robust picture of structural connectivity within the br
 She is also excited about their finding that their measurements of structural similarity between regions of the brain is very strongly coupled to the measurement of gene expression similarities between regions of the brain.
 
 "We’d like to use this new method to look at psychotic disorders and see, for example, if we can predict symptoms from patterns of brain connectivity and relate those to the gene expression data – which might give us some ideas about which biological mechanisms underlie which symptoms. This method could be very useful for that.”
+
+
 
 [Robust estimation of cortical similarity networks from brain MRI](https://www.nature.com/articles/s41593-023-01376-7). Isaac Sebenius, Jakob Seidlitz, Varun Warrier, Richard A. I. Bethlehem, Aaron Alexander-Bloch, Travis T. Mallard, Rafael Romero Garcia, Edward T. Bullmore & Sarah E. Morgan. Nature Neuroscience (2023).
