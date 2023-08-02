@@ -1,10 +1,10 @@
 ---
 layout: opportunities-single
 title: Machine Learning Engineering Clinic
-excerpt: >
-  The Machine Learning Engineering Clinic seeks to support Cambridge University
-  researchers using AI in their research, by helping resolve engineering issues
-  they might encounter when implementing machine learning methods.
+excerpt: The Machine Learning Engineering Clinic seeks to support Cambridge
+  University researchers using AI in their research, by helping resolve
+  engineering issues they might encounter when implementing machine learning
+  methods.
 ---
 The Machine Learning Engineering Clinic seeks to support Cambridge University researchers using AI in their research, by helping resolve engineering issues they might encounter when implementing machine learning methods.
 
