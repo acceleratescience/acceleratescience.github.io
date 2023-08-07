@@ -14,6 +14,6 @@ image: /assets/uploads/lorenz-kretschmer.jpg
 institution: University of Cambridge
 department: Department of Physics
 position: Research Associate, Accelerate Programme
-team: main
+team: alumni
 supervisor: Sarah Teichmann
 ---
