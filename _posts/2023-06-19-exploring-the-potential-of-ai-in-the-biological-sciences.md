@@ -50,4 +50,4 @@ The depth and breadth of discussions throughout the day showed the range of biol
 
  Artist Dan Andrews recorded discussions from the day in a series of graphic captures which can be viewed [here. ](https://acceleratescience.github.io/assets/uploads/accelerate-ml-and-biology-may-2023-all-sessions.pdf)
 
-![]( "Exploring the potential of AI in the biological sciences")
+![](/assets/uploads/exploring-the-potential-of-ai-in-the-biological-sciences.png "Exploring the potential of AI in the biological sciences")
