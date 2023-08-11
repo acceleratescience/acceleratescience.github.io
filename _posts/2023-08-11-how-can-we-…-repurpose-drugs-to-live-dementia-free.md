@@ -10,7 +10,7 @@ excerpt: >-
   Scientists have long been working on finding ways to keep dementia at bay. One approach is developing new drugs. At the Merkle laboratory at the Wellcome-MRC Institute of Metabolic Science, our team is focusing on trying to repurpose drugs that are already used safely to treat humans and that target metabolic features. 
 author: "Dr Ed Harding, Research Associate,  Wellcome-MRC Institute of Metabolic
   Science "
-date: August 11, 2023 10:04 AM
+date: August 11, 2023 1:31 PM
 categories:
   - machine-learning
 tags:
