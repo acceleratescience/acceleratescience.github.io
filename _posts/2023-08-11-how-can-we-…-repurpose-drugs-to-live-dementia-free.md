@@ -2,9 +2,9 @@
 layout: blog-single
 title: How can we … repurpose drugs to live dementia free?
 excerpt: >-
-  More than half of UK adults know someone that has been diagnosed with dementia
-  , and the number of people living with the debilitating disease is expected to
-  grow rapidly in the UK and around the world.
+  More than half of UK adults know someone that has been diagnosed with
+  dementia, and the number of people living with the debilitating disease is
+  expected to grow rapidly in the UK and around the world.
 
 
   Scientists have long been working on finding ways to keep dementia at bay. One approach is developing new drugs. At the Merkle laboratory at the Wellcome-MRC Institute of Metabolic Science, our team is focusing on trying to repurpose drugs that are already used safely to treat humans and that target metabolic features. 
