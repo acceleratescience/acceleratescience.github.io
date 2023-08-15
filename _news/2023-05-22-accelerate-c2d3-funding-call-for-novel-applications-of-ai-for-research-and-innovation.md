@@ -19,8 +19,6 @@ This call is open to researchers from across disciplines at the University of Ca
 
 This is the second annual call, with 9 projects funded by the first call in 2022. Successful projects in the 2022 call included an event to explore the interface between domain and AI-enabled understandings of biological systems, a tool deploying machine learning to improve coeliac disease diagnosis, and network development activities for AI in environmental science. You can find out more about the projects funded in last year’s call [here.](https://acceleratescience.github.io/news/2022-11-16-successfully-funded-projects-to-pursue-innovative-applications-of-ai-in-research-and-real-world-contexts.html) 
 
-We will be holding a funding Q and A event on Wednesday 21 June from 2 – 3pm where we will answer your questions about the funding call and there will be an opportunity to talk to our Machine Learning Engineers about the technical aspects of your project. The session will take place in person at the Department of Computer Science and Technology at the [William Gates Building](https://map.cam.ac.uk/Computer+Laboratory) with no need to register in advance.
-
 ## [A﻿pply here](https://forms.office.com/Pages/ResponsePage.aspx?id=RQSlSfq9eUut41R7TzmG6SaVOxbmBOdAg9GzbnrB5IRUQlpXNUVJWTkwMk5LMzM3SzdUVjhFTTFTWi4u)
 
 **FAQs**
@@ -56,7 +54,6 @@ If you have any questions about formulating your budget, please contact accelera
 **What support can the Accelerate Programme and C2D3 offer?**
 
 As part of developing your proposal, the Accelerate team can offer assistance in sense-checking the technical feasibility of your project. Our Machine Learning Engineering Clinic will offer informal guidance on technical aspects of the work. If you’d like to access help from the Clinic please email the team on accelerate-mle@cst.cam.ac.uk outlining the nature of your query. If you would like support from the clinic, please get in touch with us as early as possible to enable sufficient time for discussion before the funding deadline.
-The Machine Learning Engineering team will be offering a drop in session as part of the Funding Q and A on Wednesday 21 June. 
 
 The Clinic can also help resolve software engineering issues you encounter in your machine learning projects. You can get in touch using the contact information above.
 
