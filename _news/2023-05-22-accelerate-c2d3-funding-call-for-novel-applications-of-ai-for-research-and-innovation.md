@@ -43,7 +43,7 @@ The intention of this call is to support projects across disciplines. We intend 
 
 The amount of funding awarded will depend on the quality of the application and the number of applications received. We would encourage applications that cost less than the maximum set out above. If your idea costs more to deliver, it is likely better to get in touch before applying, so we can informally advise on feasibility: we have a limited budget and large funding requests will limit our ability to support other projects. 
 
-Applicants should work with their Department’s grants/finance team to prepare the budget details for their application to ensure projects are fully costed and are in line with Departmental policies. Successful projects may be asked to submit a draft X5 before funding can be confirmed. Please note that this funding call will pay for direct costs only and does not include overheads. 
+Applicants should work with their Department’s grants/finance team to prepare the budget details for their application to ensure projects are fully costed and are in line with Departmental policies. Successful projects may be asked to submit a draft X5 before funding can be confirmed. Please note that this funding call will pay for direct costs only and does not include overheads or indirect costs. 
 
 **What can funds be used for?**
 
