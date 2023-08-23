@@ -14,9 +14,9 @@ From 11 - 16 June 2023, 40 participants with expertise in applications of machin
 
 In support of this objective, the workshop convened three discussion themes — Lessons from the application of machine learning in science; Foundational concepts and emerging methods; Machine learning for Earth and climate science.
 
-A﻿ report summarising discussions and insights form the workshop can be accessed [here](https://publications.mfo.de/bitstream/handle/mfo/4057/OWR_2023_26.pdf?sequence=1&isAllowed=y).
+A﻿ report summarising discussions and insights form the workshop can be accessed here.
 
-An interactive graphic summary of the talks is available [here](assets/uploads/oberwolfach-graphics-ipdf.pdf). 
+An interactive graphic summary of the talks is available [here](https://acceleratescience.github.io/assets/uploads/oberwolfach-graphics-ipdf.pdf). 
 
 ### Machine learning for science: bridging data-driven and mechanistic modelling
 
