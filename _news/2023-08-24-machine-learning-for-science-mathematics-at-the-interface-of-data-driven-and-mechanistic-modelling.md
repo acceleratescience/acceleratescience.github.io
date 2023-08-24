@@ -10,7 +10,7 @@ excerpt: "From 11 - 16 June 2023, 40 participants with expertise in applications
   out to consider how mathematical innovations can help produce machine learning
   tools that can be deployed in support of scientific discovery, creating new
   interfaces between physical and data-driven modelling approaches. "
-image: /assets/uploads/oberwolfach-group-photo-petra-lein-mfo-resized.jpg
+image: /assets/uploads/oberwolfach-graphic.png
 ---
 From 11 - 16 June 2023, 40 participants with expertise in applications of machine learning in the sciences took part in the workshop Machine Learning for Science: Mathematics at the Interface of Data-driven and Mechanistic Modelling, co-organised by [Neil Lawrence](https://acceleratescience.github.io/team/neil-d-lawrence.html) and [Jessica Montgomery](https://acceleratescience.github.io/team/jessica-montgomery.html) from the Accelerate Programme and Bernhard Schölkopf (University of Tübingen). It set out to consider how mathematical innovations can help produce machine learning tools that can be deployed in support of scientific discovery, creating new interfaces between physical and data-driven modelling approaches. 
 
