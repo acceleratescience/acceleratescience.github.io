@@ -3,8 +3,7 @@ layout: resources-single
 title: Strategic Research Agenda for AI for science
 category: additional-resources
 ---
-Inspired by our work with the Cambridge community and our engagement with international partners, Accelerate is developing a strategic research agenda in AI for science, which we hope will help drive further progress across
-projects and institutions. This page gives an overview of our recent workshops convened with the AI for Science community and outputs from these discussions contributing towards an emerging strategic research agenda for the field. 
+Accelerate is developing a strategic research agenda in AI for science, which we hope will help drive further progress across projects and institutions. This page gives an overview of our recent workshops convened with the AI for Science community and outputs from these discussions contributing towards an emerging strategic research agenda for the field. 
 
 ### Machine Learning for Science: Mathematics at the Interface of Data-driven and Mechanistic Modelling
 
