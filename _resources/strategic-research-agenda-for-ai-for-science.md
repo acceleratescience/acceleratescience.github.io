@@ -26,7 +26,7 @@ In September 2022, Accelerate Science, with collaborators at the University of T
 * A research agenda that identifies areas where further technology development is needed to create AI tools that can enhance scientific discovery; and
 * A roadmap for researchers, research institutions, and policymakers to deliver a new wave of progress in AI and its application for scientific discovery.
 
-*A﻿I for Science: An emerging agenda*, the report outlining this emerging agenda and roadmap is available [here](https://acceleratescience.github.io/assets/uploads/ai-for-science-an-emerging-agenda.pdf)and on arXiv: 
+*A﻿I for Science: An emerging agenda*, the report outlining this emerging agenda and roadmap is available [here](https://acceleratescience.github.io/assets/uploads/ai-for-science-an-emerging-agenda.pdf)and on arXiv:
 
 Berens, P., Cranmer, K., Lawrence, ND, von Luxburg, L., Montgomery, J. “AI for Science: An Emerging Agenda”, *arXiv* 2023 [https://doi.org/10.48550/arXiv.2303.04217 ](https://doi.org/10.48550/arXiv.2303.04217)
 
