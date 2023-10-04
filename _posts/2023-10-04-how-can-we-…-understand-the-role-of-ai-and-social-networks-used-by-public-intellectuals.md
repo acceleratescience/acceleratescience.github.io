@@ -14,7 +14,7 @@ excerpt: >-
 
   There is a widely-accepted view that the discourse has changed. Opinions and ideas certainly travel fast online and human beings are undoubtedly producing more data than before, while machine learning and recommendation algorithms have a pervasive influence over much of our lives, but we still know relatively little about the sociological impact of this communications revolution  . Indeed, it is an area of study with vast research potential.
 author: Ehab Shanti, PhD student, Department of Sociology
-date: October 4, 2023 4:41 PM
+date: October 3, 2023 4:41 PM
 categories:
   - accelerate-spark-data-science-residency
 image: /assets/uploads/ehab-shanti.png
