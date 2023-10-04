@@ -10,9 +10,6 @@ excerpt: >-
 
 
   I use data science to examine the impact of social networks on human intelligence and specifically, intellectual life. I’m especially interested in how the discourse set by a new type of intellectual sharing ideas online differs from that of academics debating ideas before the Internet. 
-
-
-  There is a widely-accepted view that the discourse has changed. Opinions and ideas certainly travel fast online and human beings are undoubtedly producing more data than before, while machine learning and recommendation algorithms have a pervasive influence over much of our lives, but we still know relatively little about the sociological impact of this communications revolution  . Indeed, it is an area of study with vast research potential.
 author: Ehab Shanti, PhD student, Department of Sociology
 date: October 3, 2023 3:36 PM
 categories:
