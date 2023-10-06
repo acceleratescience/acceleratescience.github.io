@@ -17,7 +17,7 @@ author: Ehab Shanti, PhD graduate/researcher, Department of Sociology
 date: October 3, 2023 4:41 PM
 categories:
   - accelerate-spark-data-science-residency
-image: /assets/uploads/ehab-shanti.png
+image: /assets/uploads/ehab-shanti.jpg
 ---
 When we first added friends and updated our profiles on MySpace in the early 2000s, few of us could imagine the impact social media would have, including the rise of powerful ‘influencers’ who shape popular views about everything from fashion trends to politics.
 
