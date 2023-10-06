@@ -13,7 +13,7 @@ excerpt: >-
 
 
   There is a widely-accepted view that the discourse has changed. Opinions and ideas certainly travel fast online and human beings are undoubtedly producing more data than before, while machine learning and recommendation algorithms have a pervasive influence over much of our lives, but we still know relatively little about the sociological impact of this communications revolution  . Indeed, it is an area of study with vast research potential.
-author: Ehab Shanti, PhD student, Department of Sociology
+author: Ehab Shanti, PhD graduate/researcher, Department of Sociology
 date: October 3, 2023 4:41 PM
 categories:
   - accelerate-spark-data-science-residency
@@ -40,7 +40,6 @@ Lastly, I used network science tools  such as the NetworkX library by Python to 
 \
 **Finding the unexpected in unknowns**
 
-
 The sheer complexity of the emergence of a new type of intellectual sharing ideas online necessitated an interdisciplinary approach to the research. I gained practical skills to conduct advanced digital analysis methods such as machine learning, deep learning, and NLP thanks to the Data for Science Residency and the Machine Learning Academy courses offered by the Accelerate Programme. These also provided me with a central foundation of knowledge to examine the role that AI and algorithms may play in social networks.
 
 \
@@ -54,5 +53,7 @@ I firmly believe that the complexity of social media interactions fundamentally 
 
 It’s hugely beneficial for sociologists to leave their comfort zone and acquire basic skills and knowledge about data science and machine learning. Equally, data scientists can benefit from the vast corpus of social theories that were developed over centuries of research, including empirical experiments.
 
-Data and network science research, especially when it relates to human interactions, presents profoundly complex socio-ethical, epistemological, and philosophical questions such as, what data has been created or collected by whom and for what purpose? Using which parameters, and to whose benefit? My future will work will be dedicated to exploring such questions with an interdisciplinary lens that is anchored not only social theory and empirical sociology, but does not shy away from exploring and demystifying data science and algorithmic logic.\
+Data and network science research, especially concerning human interactions, presents profoundly complex socio-ethical, epistemological, and philosophical questions such as: what data has been created or collected by whom and for what purpose? Using which parameters and to whose benefit? My future work will be dedicated to exploring such questions with an interdisciplinary lens anchored in social theory and empirical sociology whilst not shying away from exploring and demystifying data science and algorithmic logic.
+
+\
 I’m captivated by human networks and believe artificial intelligence will reveal fresh insights into the sociological implications of the communications revolution and decode what’s happening socially on social media.
