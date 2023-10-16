@@ -50,3 +50,5 @@ One of the main challenges we have to somehow overcome is that Cambridge is a pr
 Building on our work from the Accelerate and C2D3 grant, I hope to focus on making this tree mapping work useful for the local council and potentially others in the UK. It could also be applied globally with some more training data in each different biome. There’s plenty of room for growth.
 
 *Image: Citizen science tree mapping event. Bottom: Aerial photo of Cambridge (Fen Causeway) with trees automatically segmented and species labels overlaid in right hand image. The colours represent different tree species (pink = ash, purple = beech, green = alder, blue = birch, yellow = cherry and brown = willow).*
+
+*Toby was awarded funding through the Accelerate Science and the Cambridge Centre for Data Driven Discovery funding scheme in 2022, you can read more about the awarded projects [here.](https://acceleratescience.github.io/news/2022-11-16-successfully-funded-projects-to-pursue-innovative-applications-of-ai-in-research-and-real-world-contexts.html)*
