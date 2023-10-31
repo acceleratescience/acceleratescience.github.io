@@ -16,14 +16,11 @@ image: /assets/uploads/funding-call-template-2-.png
 ---
 We are delighted to announce the 11 projects funded through this years’ Accelerate Science and Cambridge Centre for Data Driven Discovery (C2D3) funding call which took place this summer.
 
-
 This year’s awardees will all explore how we can successfully deploy AI to tackle real-world and research challenges. Projects range from workshops bringing together researchers at the nexus of artificial intelligence and early cancer detection, a research and training initiative for investigative journalists to the development of a monitoring system combining computer vision and AI in neonatal intensive care. 
-
 
 Successful projects will deliver results over the coming year and we will share updates through the Accelerate Programme blog. The wide range of projects supported through this call will catalyse further discoveries to accelerate scientific progress and create AI tools that are capable of delivering benefits for science and society.
 
 The funded projects are: 
-
 
 **Machine Learning for Investigations in the Public Interest 
 Dr Anne Alexander, Director of Learning, Cambridge Digital Humanities**
@@ -53,17 +50,15 @@ Cancer survival has doubled in the past 40 years, but survival rates of some can
 **Meerkat Neonatal Monitoring – Embedded Device Development
 Alex Grafton, Research Associate, Department of Engineering**
 
-
 Meerkat, developed in a collaboration between the Departments of Engineering and Paediatrics, provides a second set of eyes for nurses caring for babies in Neonatal Intensive Care Units (NICU) with insight from machine learning technology, ensuring clinically significant events are noted and acted upon. The project will use real-world data to optimise models for edge computing on embedded devices in the NICU environment.
-
 
 **Developing robust cancer early detection systems: Navigating distribution shifts across cohorts and time
 Samantha Ip, Research Associate, Department of Public Health and Primary Care**
 
 Cancer diagnosis often occurs at later stages, resulting in poor prognoses. To address this issue, considerable effort has been invested in developing early cancer detection models. A key challenge is distribution shifts, where target distribution deviates from training data. The project team will bring together experts for a 2 day event to develop modelling approaches and mechanisms to accommodate distribution shifts.
 
-Harnessing AI to unlock natural history collections for zoonotic surveillance
-Maya Juman, PhD Student, Department of Veterinary Medicine
+**Harnessing AI to unlock natural history collections for zoonotic surveillance
+Maya Juman, PhD Student, Department of Veterinary Medicine**
 
 Zoonotic spillover, the transmission of pathogens from animals to humans, is incredibly costly in terms of human mortality and economic impact. Understanding where pathogens originate is critical to prevent spillover. The project team will develop a machine learning algorithm to study fruit bats known to host paramyxoviruses. The team will work with natural history museum collections to empirically test their model and build risk maps to inform future viral surveillance.
 
@@ -79,7 +74,6 @@ This project will use machine learning and natural language processing to predic
 
 **Embodied Artificial Intelligence and Bio-inspired Soft Robotics (Embodied AI and Bi-SoRo)
 Yue Xie, Marie Sklodowska-Curie Future Roads Fellow, Bio-Inspired Robotics Laboratory, Department of Engineering**
-
 
 The project team will host a workshop for experts from AI, robotics, bioengineering and related fields. This interdisciplinary dialogue will enable participants to gain a comprehensive understanding of the challenges and opportunities presented by AI in robotics. Leveraging the collective expertise of the participants, the project will lead to the design innovative solutions bridging the gap between AI algorithms and embodied agents.
 
