@@ -8,7 +8,7 @@ biography: Moshe Eliasof is a Postdoctoral Researcher at the University of
   Computer Science from the Technion - Israel Institute of Technology. His main
   research interests are graph neural networks, machine and deep learning, and
   inverse problems.
-image: /assets/uploads/moshe-eliasof.jpg
+image: /assets/uploads/moshe-eliasof2.jpg
 institution: University of Cambridge
 department: Department of Applied Mathematics and Theoretical Physics
 position: Research Associate
