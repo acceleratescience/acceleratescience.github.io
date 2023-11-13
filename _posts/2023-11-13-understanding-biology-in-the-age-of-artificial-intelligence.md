@@ -11,7 +11,7 @@ excerpt: >-
 
 
   Many researchers apply AI as standard practice, or to derive additional insights, with many of the AI techniques often augmenting (and sometimes replacing) experiments. However, others feel that the effective use of AI in biology requires careful consideration of the theoretical and philosophical aspects of these models and techniques. 
-author: Srijit Seal, PhD Student, Department of Chemistry
+author: Srijit Seal, PhD Student,  Yusuf Hamied Department of Chemistry
 date: November 13, 2023 9:51 AM
 image: /assets/uploads/srijit-seal-ubai-conference.jpeg
 ---
