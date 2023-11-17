@@ -13,7 +13,7 @@ biography: Sarah's research applies machine learning, network science and
   predict disease trajectories for patients with schizophrenia. Sarah is also
   interested in using transcribed speech data to perform similar prediction
   problems.
-image: /assets/uploads/sarah-morgan.jpg
+image: /assets/uploads/sarah-morgan-2023.jpg
 email: null
 url: null
 website: null
