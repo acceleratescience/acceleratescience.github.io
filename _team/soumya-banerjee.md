@@ -16,7 +16,7 @@ biography: >-
 
 
   Soumya's research uses data science for social good and answer questions about complex systems. Complex systems are all around us, from social networks to transportation systems, cities, economies and financial markets. He is also very passionate about outreach, science communication.
-image: /assets/uploads/soumya-banerjee.jpeg
+image: /assets/uploads/soumya-5294-1163-3.jpg
 email: null
 url: null
 website: null
