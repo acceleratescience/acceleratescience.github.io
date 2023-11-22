@@ -8,6 +8,7 @@ biography: Ben’s work examines the cross-section of network science,
   characterise psychiatric disorders like schizophrenia and bipolar disorder. In
   turn, it is hoped that this will lead to the development of more personalised,
   effective treatment approaches.
+image: /assets/uploads/ben-5371-1240-3.jpg
 institution: University of Cambridge
 department: Department of Computer Science and Technology
 position: PhD Student
