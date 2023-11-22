@@ -25,7 +25,7 @@ biography: >
   Product Consultant at Big Basket Bangalore, India (2020-21)
 
   Data Intelligence Engineer at Dell Technologies, Bangalore, India (2017-20)
-image: /assets/uploads/shrankhla-pandey.jpeg
+image: /assets/uploads/shrankhla-5171-1040-3.jpg
 institution: University of Cambridge
 department: Department of Computer Science and Technology
 position: PhD student
