@@ -11,7 +11,7 @@ biography: Challenger is developing machine-driven approaches to problems in
   machine learning and mathematical physics. His work seeks to deepen
   understandings of the map between String Theory models and the Standard Model
   of particle physics.
-image: /assets/uploads/challenger-mishra.jpg
+image: /assets/uploads/challenger-5558-1427-3.jpg
 email: null
 url: null
 website: null
