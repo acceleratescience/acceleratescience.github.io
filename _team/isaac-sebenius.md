@@ -13,7 +13,7 @@ biography: |
   characterize and predict the spectrum of psychotic disorders by using machine
   learning to combine multiple types of neuroimaging-derived brain connectivity
   as well as genetic and other biological data.
-image: /assets/uploads/isaac-sebenius.jpg
+image: /assets/uploads/isaac-4757-626-2.jpg
 email: null
 url: null
 website: null
