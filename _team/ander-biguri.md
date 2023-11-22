@@ -9,7 +9,7 @@ biography: Ander Biguri is a Research Associate at Department of Applied
   open-source tools for image reconstruction (github.com/CERN/TIGRE). Nowadays,
   this effort is targeted towards novel machine-learning driven methods to
   solve  tomographic reconstruction.
-image: /assets/uploads/ander-5398-1267-3.jpg
+image: /assets/uploads/ander.jpg
 institution: University of Cambridge
 department: Department of Applied Mathematics and Theoretical Physics
 position: Research Associate
