@@ -9,6 +9,7 @@ biography: Daattavya’s research interests are at the intersection of
   machine learning techniques.  Before joining Cambridge, Daattavya graduated
   with an MSc. in Mathematical and Theoretical Physics from the University of
   Oxford where his dissertation was on Calabi-Yau Manifolds and Mirror Symmetry.
+image: /assets/uploads/daattavya-5354-1223-3.jpg
 institution: University of Cambridge
 department: Department of Computer Science and Technology
 position: PhD Student
