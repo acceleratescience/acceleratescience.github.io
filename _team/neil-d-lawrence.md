@@ -11,7 +11,7 @@ biography: Neil Lawrence is the inaugural DeepMind Professor of Machine Learning
   the interface of machine learning and systems research, this work is funded by
   a Senior AI Fellowship from the Alan Turing Institute. Neil is also visiting
   Professor at the University of Sheffield and the co-host of Talking Machines.
-image: /assets/uploads/a65i4811.jpg
+image: /assets/uploads/neil-l.jpg
 email: null
 url: null
 website: http://inverseprobability.com
