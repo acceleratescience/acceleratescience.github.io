@@ -21,7 +21,7 @@ biography: Jess is Executive Director of the Accelerate Programme for Scientific
   consequences for science and society stem from her policy career, in which she
   worked with senior parliamentarians, leading researchers and civil society
   organisations to bring scientific evidence to bear on major policy issues.
-image: /assets/uploads/a65i5024.jpg
+image: /assets/uploads/jess-m.jpg
 email: null
 url: null
 website: null
