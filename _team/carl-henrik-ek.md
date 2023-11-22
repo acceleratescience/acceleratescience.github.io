@@ -25,7 +25,7 @@ biography: >
 
 
   Before joining the group in Cambridge Carl Henrik was a Senior Lecturer at the University of Bristol, prior to this he was an Assistant Professor at the Royal Institute of Technology (KTH) in Stockholm. He did my postdoctoral research at University of California at Berkeley and his PhD is from Oxford Brookes University. His undergraduate degree is a MEng degree in Vehicle Engineering from the Royal Institutie of Technology in Stockholm.
-image: /assets/uploads/carl-henrik-ek.jpg
+image: /assets/uploads/carl-5433-1302-4.jpg
 email: null
 url: null
 website: http://carlhenrik.com/
