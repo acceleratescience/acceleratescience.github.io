@@ -10,12 +10,10 @@ category:
 image: /assets/uploads/david-matos-xtligpytpck-unsplash.jpg
 authors:
   internal_authors:
-    - sarah-morgan
-    - isaac-sebenius
-    - caroline-nettekoven
-    - abigail-gee
-    - marcella-montagnese
-    - rebeca-ianov-vitanov
+    - Benjamin Chidiac
+    - Isaac Sebenius
+    - Sarah Morgan
+    - Shrankhla Pandey
   external_authors: null
   consortium_authors: null
 publications:
