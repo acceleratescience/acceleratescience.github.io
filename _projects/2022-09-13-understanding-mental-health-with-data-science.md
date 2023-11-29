@@ -19,6 +19,8 @@ authors:
 publications:
   - 2021-10-25-multimodal-graph-coarsening-for-interpretable-mri-based-brain-graph-neural-network
   - 2021-12-13-assessing-psychosis-risk-using-quantitative-markers-of-disorganised-speech
+  - 2023-03-22-semantic-speech-networks-linked-to-formal-thought-disorder-in-early-psychosis
+  - 2023-07-17-robust-estimation-of-cortical-similarity-networks-from-brain-mri
 resources:
   - netts-networks-of-transcript-semantics
 ---
