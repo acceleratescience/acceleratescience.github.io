@@ -11,6 +11,8 @@ desc: >
 As an overview the programme will cover:
 
 •            Monday 11 December - research showcase from with panel discussions, talks and poster presentations from members of our community to be followed by a dinner in Downing College Hall.
+
+
 •            Tuesday 12 December - we will host a series of workshops focussing on key areas in AI for Science, these workshops will be tailored towards early career participants
 
 Register your interest in joining by emailing: [accelerate-science@cst.cam.ac.uk](mailto:accelerate-science@cst.cam.ac.uk)
