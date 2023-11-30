@@ -7,6 +7,7 @@ desc: >
   The Accelerate Programme are hosting an AI for Science summit which will bring
   together communities from across Cambridge and other AI for Science centres
   and networks from the UK, US and Asia.
+image: /assets/uploads/downing_ai-summit.jpg
 ---
 As an overview the programme will cover:
 
