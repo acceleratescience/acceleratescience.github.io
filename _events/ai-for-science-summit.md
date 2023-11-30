@@ -1,8 +1,8 @@
 ---
 layout: event-single
 title: AI for Science Summit
-start: December 11, 2023 12:00 AM
-end: December 12, 2023 12:00 AM
+start: December 11, 2023 9:00 AM
+end: December 12, 2023 3:00 PM
 desc: >
   The Accelerate Programme are hosting an AI for Science summit which will bring
   together communities from across Cambridge and other AI for Science centres
