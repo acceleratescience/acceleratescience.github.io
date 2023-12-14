@@ -1,6 +1,6 @@
 ---
 layout: blog-single
-title: Accelerate Science Machine Learning Clinic
+title: Accelerate Science Machine Learning Engineering Clinic
 excerpt: >-
   The Accelerate Programme for Scientific Discovery aims to drive a step change
   in the use of AI for science across the University of Cambridge. To get there,
