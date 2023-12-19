@@ -1,7 +1,7 @@
 ---
 layout: person
 name: Sam Nallaperuma
-prefix: Dr
+prefix: ""
 biography: "Sam is a Senior Research Associate at the department of Computer
   Science, a fellow of Artificial Intelligence (AI) for Science and Society at
   the Accelerate Programme and a bye fellow at Murray Edwards College. Sam
