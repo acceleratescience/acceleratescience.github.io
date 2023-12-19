@@ -9,12 +9,8 @@ text_dual_column:
     science and elsewhere. How can scientists build the data pipelines they need
     to accelerate their research with AI?
   content: >-
-    The Data Pipelines for Science school was originally launched in Winter
-    2022, encouraged by positive feedback and increased demand, we are pleased
-    to announce that Accelerate Science will run the school again from 25-26
-    September 2023. Applications are now closed.  A small number of places are
-    still available, please contact accelerate-science@cst.cam.ac.uk if you
-    would like to join.
+    The Data Pipelines for Science school was originally launched in Winter 2022
+    and three cohorts have now participated in the course.
 
 
     Machine learning is an important  tool for researchers across disciplines. Scientists today have access to more data, from a greater range of sources and at greater speed than ever before, and opportunities to extract insights from this data using AI. But before deploying AI, researchers must have a data pipeline that transforms their data into a state that is suitable for the machine learning algorithms being used. 
