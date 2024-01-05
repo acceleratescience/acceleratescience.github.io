@@ -12,7 +12,7 @@ author: Joyce Nakatumba-Nabende, Head of the Makerere Artificial Intelligence
 date: January 8, 2024 10:00 AM
 categories:
   - machine-learning
-image: /assets/uploads/joyce-nabende-blog-january-2024.jpg
+image: /assets/uploads/joyce-nabende-blog-january-2024-1-.jpg
 ---
 Agriculture accounts for over 40% of Uganda’s GDP, employs 80% of the working population and makes up 85% of exports, such as delicious coffee and cocoa beans for chocolate.
 
