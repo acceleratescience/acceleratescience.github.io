@@ -9,8 +9,11 @@ excerpt: Acute respiratory distress syndrome (ARDS) affects one in 10 critical
   identify more effective treatments for patients with ARDS?
 author: Dr Romit Samanta, NIHR Clinical Lecturer in Intensive Care Medicine,
   University of Cambridge
+date: May 17, 2022 12:00 AM
 image: /assets/uploads/romit-headshot.jpg
 ---
+![](/assets/uploads/ameen-fahmy-_gektyibrsm-unsplash.jpg#left)
+
 Acute respiratory distress syndrome (ARDS) affects one in 10 critical care patients. It is a condition in which the lungs cannot provide the body’s vital organs with enough oxygen; it is often a complication of a serious illness or infection and is fairly common, but under recognised.
 
 Mortality from severe ARDS is approximately 40%. So, when treating these patients, you would see just over half of them get better. Some may be talking to you one day before needing a ventilator the next, and sadly dying a few days later, despite your best efforts. Doctors saw more people suffering from ARDS as a result of COVID-19 infection, and often it seemed like, as a doctor, everything you tried did nothing.
@@ -48,7 +51,5 @@ My research in ARDS continues and now also incorporates COVID, so I’m applying
 The ultimate goal is phenotyping – working out the exact underlying physical processes and biology of patients – so that intensive care clinicians will be able to work out the best trajectory for individuals based on features detected from simple blood tests that could measure genes or proteins in the blood.
 
 While this may be around 20 years away, my research is part of a growing body of work that will help doctors treat ARDS more effectively, and hopefully end 50 years of limited progress in this area of intensive care medicine.
-
-
 
 ***Dr Romit Samanta, NIHR Clinical Lecturer in Intensive Care Medicine, University of Cambridge (May 2022)***
