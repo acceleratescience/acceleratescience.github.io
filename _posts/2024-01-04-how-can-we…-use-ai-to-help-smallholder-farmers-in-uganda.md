@@ -9,7 +9,7 @@ excerpt: My team at the Makerere Artificial Intelligence Lab is harnessing AI
 author: Joyce Nakatumba-Nabende, Head of the Makerere Artificial Intelligence
   Lab and Senior Lecturer in the Department of Computer Science at Makerere
   University, Uganda
-date: January 8, 2024 10:00 AM
+date: January 8, 2024 9:30 AM
 categories:
   - machine-learning
 image: /assets/uploads/joyce-nabende-blog-january-2024-1-.jpg
