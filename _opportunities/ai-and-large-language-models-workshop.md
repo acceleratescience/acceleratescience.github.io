@@ -16,4 +16,4 @@ Participants will require some background knowledge for this course. We will be 
 
 T﻿he workshop is open to researchers at the University of Cambridge.
 
-Sign up to attend [here.](https://forms.office.com/Pages/ResponsePage.aspx?id=RQSlSfq9eUut41R7TzmG6SaVOxbmBOdAg9GzbnrB5IRURUlFT04yOUtJTU81U0VWRVhYMFQ2RkQxTi4u)
+**This course is currently fully booked, please complete the [sign up form](https://forms.office.com/Pages/ResponsePage.aspx?id=RQSlSfq9eUut41R7TzmG6SaVOxbmBOdAg9GzbnrB5IRURUlFT04yOUtJTU81U0VWRVhYMFQ2RkQxTi4u) if you would like to be added to the waiting list.**
