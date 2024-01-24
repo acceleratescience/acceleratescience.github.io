@@ -16,4 +16,4 @@ Ryan Daniels, Machine Learning Engineer, Accelerate Programme for Scientific Dis
 
 Details of the other speakers will be added once confirmed. Details of future talks are available [Talks@Cam](https://talks.cam.ac.uk/show/index/112540)
 
-T﻿hese seminars are open to members of the University of Cambridge. For further details, please email acceerate-science@cst.cam.ac.uk.
+T﻿hese seminars are open to members of the University of Cambridge. For further details, please email accelerate-science@cst.cam.ac.uk.
