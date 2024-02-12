@@ -12,4 +12,6 @@ Director of the Max Planck Institute for the Science of Light, Erlange, Germany
 
 Title: "Machine Learning for Quantum Computing" 
 
+A﻿bstract: Quantum computing promises substantial acceleration of certain computational tasks. However, building quantum computers is difficult, not least because of the fragility of quantum information subject to noise. Classical machine learning can help to design better quantum computing protocols. In this talk, I will sketch our insights into how reinforcement learning can discover better strategies, e.g. for quantum error correction.
+
 Details of future talks are available on Talks@Cam (https://talks.cam.ac.uk/show/index/112540)
