@@ -9,7 +9,7 @@ excerpt: Alongside the AI for Science community here in Cambridge, colleagues
   hosted an AI for Science summit bringing together over 100 researchers working
   in AI for Science across the UK, US and Asia.
 date: February 13, 2024 4:25 PM
-image: /assets/uploads/ai-for-science-summit-blog-photo2.png
+image: /assets/uploads/a65i7877.jpg
 ---
 Alongside the AI for Science community here in Cambridge, colleagues across other institutions in the network of AI programmes funded by Schmidt Futures are also drawing together communities of like-minded scientists. In December 2023, in collaboration with the Schmidt Futures funded programmes at Imperial College London and the University of Oxford, the Accelerate Programme hosted an AI for Science summit bringing together over 100 researchers working in AI for Science across the UK, US and Asia.
 
