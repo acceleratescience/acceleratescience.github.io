@@ -17,7 +17,7 @@ abstract: One of the challenges of heterotic compactification on a Calabi-Yau
   making use of explicit harmonic representatives. The excellent agreement
   between the different approaches opens the door to precision string
   phenomenology.
-published: 2024-02-15
+published: 2024-01-26
 authors:
   internal_authors:
     - Justin Tan
