@@ -60,6 +60,8 @@ plugins:
 sass:
   sass_dir: _sass
 
+future: true
+
 # Pagination
 pagination:
   enabled: true
