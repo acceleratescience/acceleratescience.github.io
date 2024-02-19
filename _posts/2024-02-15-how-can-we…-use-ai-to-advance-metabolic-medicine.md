@@ -3,7 +3,7 @@ layout: blog-single
 title: How can we… use AI to advance metabolic medicine?
 author: "Christopher Bannon, Registrar Clinical Research Associate in Metabolic
   Medicine, University of Cambridge  "
-date: February 19, 2024 10:00 AM
+date: February 19, 2024 11:30 AM
 categories:
   - accelerate-spark-data-science-residency
   - machine-learning
