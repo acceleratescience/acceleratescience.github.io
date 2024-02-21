@@ -11,7 +11,7 @@ excerpt: " A one day workshop for researchers interested in using LLMs in their
 
 We will be looking at Python code and neural networks so familiarity with Python and some knowledge of machine learning and neural networks is required. We won’t be coding during the session, but the code that expands on the concepts covered in the workshop can be found in the [large-language-models](https://github.com/acceleratescience/large-language-models) repository.
 
-| Time    |  |
+| Time    | Schedule |
 | -------- | ------- |
 | 0900 - 0930 | Registration and welcome|
 | 0930 - 1030 | Introduction to LLMs<br>- What do we know about them?<br>- How do they work?<br>- What can we use them for?    |
@@ -22,7 +22,7 @@ We will be looking at Python code and neural networks so familiarity with Python
 | 1430 - 1500 | Ethical considerations|
 | 1500 - 1530 | Break     |
 | 1530 - 1630 | What's out there?<br>- Popular models and services<br>- Open vs closed source<br>- Evaluation|
-| 1630 - 1650 | No code|
+| 1630 - 1650 | No-code options|
 | 1650 - 1700 | Closing|
 
 T﻿his course is taking place on 26 February 2024. Registration is closed. If you are interested in attending a future course, please contact us on accelerate-mle@cst.cam.ac.uk.
