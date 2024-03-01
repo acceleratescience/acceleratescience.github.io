@@ -35,7 +35,7 @@ The second part of my thesis is about predicting the synergy of unexplored drug 
 
 Using machine learning in this way could help scientists explore the possibilities of combining single drugs in a large unexplored space where there are tens of thousands of candidates. Predicting which ones are most likely to work best could really speed things up, allowing scientists to focus on the most promising combinations. The model we are building and refining is not intended to be a magical end-to-end solution but a tool to help biologists narrow down candidates effectively and help decide what could be interesting combinations.
 
-We’re focusing on providing an uncertainty estimation alongside each prediction, which will enable decision-making to be informed by the confidence level associated with the prediction.[prediction](<>)<!--\[if !supportAnnotations]-->[\[sg2]](#_msocom_2)
+We’re focusing on providing an uncertainty estimation alongside each prediction, which will enable decision-making to be informed by the confidence level associated with the prediction.[](<>)
 
 **A winning combination**
 
