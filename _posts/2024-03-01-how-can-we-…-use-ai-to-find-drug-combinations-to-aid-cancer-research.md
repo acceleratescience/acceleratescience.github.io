@@ -10,7 +10,7 @@ excerpt: >+
 
 author: "By Haoting Zhang, HDRUK-Turing Wellcome PhD Student  Department of
   Computer Science and Technology "
-date: March 4, 2024 10:00 AM
+date: March 4, 2024 10:30 AM
 image: /assets/uploads/haoting.png
 ---
 Overcoming drug resistance is one goal of cancer research[](<>)Experts are exploring whether combinations of treatments could make current drugs work better, leading to better outcomes for patients. But pinpointing potentially successful combinations – what we refer to as synergistic combinations – of drugs is far from simple.
