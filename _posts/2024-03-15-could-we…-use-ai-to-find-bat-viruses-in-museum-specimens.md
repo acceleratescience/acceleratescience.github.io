@@ -27,7 +27,6 @@ I study fruit bats and paramyxoviruses, a family of viruses that includes the hu
 
 One approach for host identification is to retrospectively sample wild animals immediately following a disease outbreak in the vicinity, but that is difficult, expensive, time-consuming, and invasive. Instead, my colleagues and I propose conducting proactive pathogen surveillance in natural history collections, where millions of specimens are already available for screening.
 
-
 This is an emerging field. There are various challenges associated with extracting viruses, bacteria, and parasites from stuffed specimens in dusty cases and pickled creatures in jars—namely limitations caused by the age and preservation type of the specimens. However, there is also great potential in this line of work, as these historical specimens provide snapshots of host-pathogen interactions across space and time. For our initial project, we are focusing on specimens with associated frozen tissue samples (typically collected within the last three decades) housed at natural history museums in Chicago and New York.
 
 **Using AI and experimenting with data**
@@ -50,5 +49,7 @@ What I like about this project conceptually is that we're using modern technolog
 Our study could open the door for proactive host identification in collections before outbreaks occur. Museum collections also offer something different from field-based sampling: a broad spatial and temporal range of host-virus associations. 
 
 I hope that one day museums can function as historical libraries of host-pathogen associations. Ideally, this project will encourage more conversations between machine learning experts, disease ecologists, museum curators, and public health stakeholders. This type of interdisciplinary and international collaboration is fundamental to outbreak prediction and prevention.
+
+*F﻿ind out more about Maya's research [here.](https://mayajuman.github.io/)*
 
 *M﻿aya's project is funded through the Accelerare-C2D3 funding call. Find out more about the call and the projects funded in 2023 [here](https://acceleratescience.github.io/news/2023-10-26-pursuing-innovative-applications-of-ai-in-research-and-real-world-contexts-%E2%80%93-announcing-our-2023-projects.html).*
