@@ -1,28 +1,20 @@
 ---
 layout: resources-single
-title: " AI and Large Language Models Workshop"
+title: " AI and Large Language Models"
 category: teaching-learning
-excerpt: " A one day workshop for researchers interested in using LLMs in their
-  research. The aim of the session will be to equip researchers with knowledge
-  of how LLMs work and how to implement them so you can use them in your own
-  research. "
+excerpt: >-
+  A collection of resources for researchers interested in using Large Language
+  Models (LLMs) in their research.
+
+
+  Accelerate has released code for working with Large Language Models in research; you can find it in our large-language-models GitHub repository. This code covers a range of ways to use and tune LLMs, including calling APIs, finetuning models, and creating more complex solutions like RAG. This code is freely available for researchers to build on in their work.
 ---
- A one day workshop for researchers interested in using LLMs in their research. The aim of the session will be to equip researchers with knowledge of how LLMs work and how to implement them so you can use them in your own research. The workshop will share insights from the LLM study group convened by Accelerate in Autumn 2023 and will draw together tips for best practice. 
+A collection of resources for researchers interested in using Large Language Models (LLMs) in their research.
 
-We will be looking at Python code and neural networks so familiarity with Python and some knowledge of machine learning and neural networks is required. We won’t be coding during the session, but the code that expands on the concepts covered in the workshop can be found in the [large-language-models](https://github.com/acceleratescience/large-language-models) repository.
+Accelerate has released code for working with Large Language Models in research; you can find it in our [large-language-models](https://github.com/acceleratescience/large-language-models) GitHub repository. This code covers a range of ways to use and tune LLMs, including calling APIs, finetuning models, and creating more complex solutions like RAG. This code is freely available for researchers to build on in their work.
 
-| Time    | Schedule |
-| -------- | ------- |
-| 0900 - 0930 | Registration and welcome|
-| 0930 - 1030 | Introduction to LLMs<br>- What do we know about them?<br>- How do they work?<br>- What can we use them for?    |
-| 1030 - 1100 | Break     |
-| 1100 - 1230 | Augmenting LLMs<br>- Finetuning<br>- Prompting<br>- Knowledge endowment    |
-| 1230 - 1330 | Lunch     |
-| 1330 - 1430 | Being efficient with LLMs<br>- Small-parameter models<br>- Quantization|
-| 1430 - 1500 | Ethical considerations|
-| 1500 - 1530 | Break     |
-| 1530 - 1630 | What's out there?<br>- Popular models and services<br>- Open vs closed source<br>- Evaluation|
-| 1630 - 1650 | No-code options|
-| 1650 - 1700 | Closing|
+These resources came out of a study group which Accelerate convened in Autumn 2023. This group drew together researchers from across the University with an interest in deploying LLMs in their research. Study group members also contributed to a panel discussion at Accelerate’s AI for Science Summit in December 2023. You can view insights captured from this discussion in graphic form here and view a recording of the session [here.](https://www.youtube.com/watch?v=qY0CVzfOrls)
 
-T﻿his course is taking place on 26 February 2024. Registration is closed. If you are interested in attending a future course, please contact us on accelerate-mle@cst.cam.ac.uk.
+Building on insights from the study group, we developed a one day in-person workshop to equip researchers with knowledge of how LLMs work and how to implement them for use in their own research. Topics covered this session include an introduction to LLMs, routes for augmentation, ethical considerations and an exploration of popular models and services.
+
+Future workshop dates will be shared on our [events page.](https://acceleratescience.github.io/events)
