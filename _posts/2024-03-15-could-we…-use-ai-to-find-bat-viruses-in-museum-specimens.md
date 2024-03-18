@@ -12,7 +12,7 @@ excerpt: >-
 
   A repository of untapped data could help shed light on the relationship between bat ecology and viral emergence. In my project, supported by the Accelerate and Cambridge Centre for Data Driven Discovery funding call, I am exploring using AI and natural history museum collections for host prediction and viral surveillance.
 author: Maya Juman, PhD student, Department of Veterinary Medicine
-date: March 18, 2024 10:00 AM
+date: March 18, 2024 9:22 AM
 categories:
   - machine-learning
 image: /assets/uploads/maya-juman-blog-image-march-2024.jpg
