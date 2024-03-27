@@ -1,6 +1,6 @@
 ---
 layout: event-single
-title: AI Clinic - Department of Materials Science & Metallurgy
+title: AI Cafe - Department of Materials Science & Metallurgy
 start: April 17, 2024 2:00 PM
 end: April 17, 2024 4:00 PM
 image: /assets/uploads/ai-clinic-materials-science.png
