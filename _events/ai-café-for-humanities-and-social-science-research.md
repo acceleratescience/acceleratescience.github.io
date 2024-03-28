@@ -18,7 +18,10 @@ The session will start with a series of short presentations on projects using AI
 **Introduction and project showcase: 12pm – 1pm**
 
 * Introducing Accelerate (Ryan Daniels / Catherine Breslin)
-* AI Researcher project lightning talks plus Q and A
+* AI Researcher project lightning talks plus Q and A from:
+
+  * Felix Steffek  (Law)
+  * Petre Breazu (Linguistics)
 
 **AI Café: 1pm – 2.30pm**
 
