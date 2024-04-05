@@ -22,6 +22,7 @@ The session will start with a series of short presentations on projects using AI
 
   * Felix Steffek  (Law)
   * Petre Breazu (Linguistics)
+  * R﻿adzim Sendyka (Department of Computer Science and Technology, Assyriology)
 
 **AI Café: 1pm – 2.30pm**
 
