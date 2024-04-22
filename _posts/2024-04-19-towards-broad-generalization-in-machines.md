@@ -21,7 +21,7 @@ author: By Soumya Banerjee, Senior Research Associate, Accelerate Programme for
   Scientific Discovery and Mikel Bober-Irizar, MPhil student in Advanced
   Computer Science
 date: April 22, 2024 10:00 AM
-image: /assets/uploads/soumyamikel-blog-image-april-2024.jpg
+image: /assets/uploads/soumyamikel-blog-image-april-2024-1-.jpg
 ---
 AI today powers everything from your phone's autocorrect to your YouTube feed. However, all these models have one thing in common: they're very good at doing things in their training dataset, and are very bad at things outside it. A particular example of this is self-driving cars, which were "nearly there" 6 years ago \[1] and have made surprisingly little progress since. The difficulty is that AI systems underperform when met with unexpected situations outside their training data (like a tree fallen on a road). To build more robust, safe and versatile AI systems, we need to build models that are more intelligent, and can perform reasoning to solve novel situations in the way that me and you effortlessly do every day. But building such intelligence is a daunting task (even defining intelligence is hard!), so where do we start? [Dr Soumya Banerjee](https://acceleratescience.github.io/team/soumya-banerjee.html), Senior Research Associate in the Accelerate Programme worked with MPhil student Mikel Bober-Irizar as part of the Unconventional Approaches to AI course on the MPhil in Advanced Computer Science. This work explored new ways machine learning systems can tackle abstraction and reasoning tasks. 
 
