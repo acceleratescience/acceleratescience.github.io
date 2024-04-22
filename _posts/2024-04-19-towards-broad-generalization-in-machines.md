@@ -21,13 +21,11 @@ author: By Soumya Banerjee, Senior Research Associate, Accelerate Programme for
   Scientific Discovery and Mikel Bober-Irizar, MPhil student in Advanced
   Computer Science
 date: April 22, 2024 10:00 AM
-image: /assets/uploads/soumya-and-mikel-blog-post.png
+image: /assets/uploads/soumyamikel-blog-image-april-2024.jpg
 ---
-AI today powers everything from your phone's autocorrect to your YouTube feed. However, all these models have one thing in common: they're very good at doing things in their training dataset, and are very bad at things outside it. A particular example of this is self-driving cars, which were "nearly there" 6 years ago \[1] and have made surprisingly little progress since. The difficulty is that AI systems underperform when met with unexpected situations outside their training data (like a tree fallen on a road). To build more robust, safe and versatile AI systems, we need to build models that are more intelligent, and can perform reasoning to solve novel situations in the way that me and you effortlessly do every day. But building such intelligence is a daunting task (even defining intelligence is hard!), so where do we start? Dr Soumya Banerjee, Senior Research Associate in the Accelerate Programme worked with MPhil student Mikel Bober-Irizar as part of the Unconventional Approaches to AI course on the MPhil in Advanced Computer Science. This work explored new ways machine learning systems can tackle abstraction and reasoning tasks. 
-
+AI today powers everything from your phone's autocorrect to your YouTube feed. However, all these models have one thing in common: they're very good at doing things in their training dataset, and are very bad at things outside it. A particular example of this is self-driving cars, which were "nearly there" 6 years ago \[1] and have made surprisingly little progress since. The difficulty is that AI systems underperform when met with unexpected situations outside their training data (like a tree fallen on a road). To build more robust, safe and versatile AI systems, we need to build models that are more intelligent, and can perform reasoning to solve novel situations in the way that me and you effortlessly do every day. But building such intelligence is a daunting task (even defining intelligence is hard!), so where do we start? [Dr Soumya Banerjee](https://acceleratescience.github.io/team/soumya-banerjee.html), Senior Research Associate in the Accelerate Programme worked with MPhil student Mikel Bober-Irizar as part of the Unconventional Approaches to AI course on the MPhil in Advanced Computer Science. This work explored new ways machine learning systems can tackle abstraction and reasoning tasks. 
 
 **A long journey to intelligence**
-
 
 In 1967, long before the advent of AI like we know it today, Mikhail Bongard published Pattern Recognition, noting how scientists such as Alan Turing have long posited the concept of a thinking machine; but while machines can be built to solve specific tasks (such as solving quadratic equations or playing chess), no progress had been made to imitate or even understand the ability of us humans to adapt to new situations. Bongard suggests that pattern recognition, the ability to decompose situations into objects and concepts, is central to the abilities of human intelligence.
 
@@ -41,7 +39,6 @@ There have been three international competitions on ARC with over $100,000 in pr
 
 **A new approach** 
 
-
 In my Masters project, I looked at two new ways that a machine-learning system could be used to solve ARC tasks.
 
 The first is a system called [DreamCoder ](https://royalsocietypublishing.org/doi/10.1098/rsta.2022.0050)(originally built by MIT), which uses neural networks to write computer programs that represent transformations, which we adapted to work on ARC tasks. By defining a programming language of potentially useful primitives (like rotation, filling in), DreamCoder is able to compose these into complex transformations. A neural network trained on "dreamed" problems looks at a task and suggests which transformations to try next, massively reducing the exponential search space. Our language, PeARL (Perceptual Abstration and Reasoning Language), allows DreamCoder to use higher-order functions and lists in its solutions.
@@ -49,7 +46,6 @@ The first is a system called [DreamCoder ](https://royalsocietypublishing.org/do
 Here's an example of a task solved by DreamCoder. It first constructs a function that says "set the background to orange", and then applies this function individually to each object in the grid, before overlaying them on their original positions. This program gives the correct output for the test example! Details of this example can be seen here.
 
 **What's next?**
-
 
 Imparting abstraction and reasoning abilities into our machine learning models remains an unsolved and elusive touchstone problem, and is likely to remain so for some time. However, we see two very different avenues can both make progress: a complex symbolic reasoning system harnessing neural networks (like DreamCoder), as well as relying on the emergent reasoning capabilities of extremely large foundation models  (we note that there is a very lively debate on whether foundation models have reasoning capabilities). When we crack this problem, it will be fascinating to see on which side we end up.
 
