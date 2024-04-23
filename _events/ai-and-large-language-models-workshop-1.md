@@ -15,6 +15,6 @@ The Accelerate Programme are planning a one day workshop for researchers at the 
 
 Participants will require some background knowledge for this course. We will be looking at Python code and neural networks so familiarity with Python and some knowledge of machine learning and neural networks is required. We won't be coding during the session, but will share code with you for you to work with after the session. 
 
-T﻿he workshop will take place at the William Gates Building. 
+T﻿he workshop will take place at the William Gates Building. Please sign up [here](https://forms.office.com/Pages/ResponsePage.aspx?id=RQSlSfq9eUut41R7TzmG6SaVOxbmBOdAg9GzbnrB5IRUQ0g2OEg3MjQ5SUo0STQ2UlpST1hZSllVWi4u) by 5pm on Wednesday 1st May. 
 
-**Registration for this workshop is currently closed, please email accelerate-mle@cst.cam.ac.uk [](https://forms.office.com/Pages/ResponsePage.aspx?id=RQSlSfq9eUut41R7TzmG6SaVOxbmBOdAg9GzbnrB5IRURUlFT04yOUtJTU81U0VWRVhYMFQ2RkQxTi4u)if you would like to be added to the waiting list.**
+**Registration for this workshop is currently closed, please email accelerate-mle@cst.cam.ac.uk** [](https://forms.office.com/Pages/ResponsePage.aspx?id=RQSlSfq9eUut41R7TzmG6SaVOxbmBOdAg9GzbnrB5IRURUlFT04yOUtJTU81U0VWRVhYMFQ2RkQxTi4u)**if you would like to be added to the waiting list.**
