@@ -1,6 +1,6 @@
 ---
 layout: event-single
-title: AI Café Christs College
+title: AI Café - Christs College
 start: May 9, 2024 2:00 PM
 end: May 9, 2024 4:00 PM
 image: /assets/uploads/ai-clinic-christs-college.jpg
