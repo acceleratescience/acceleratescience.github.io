@@ -12,7 +12,7 @@ The Accelerate Programme is planning a one day workshop on Wednesday 1 May to eq
 Participants will require some background knowledge for this course. Experience using python for 
 programming or scientific data analysis is required. You must also have a GitHub account. In addition, experience with building classes, using the command line (either Linux or MacOS), and some understanding of Git would be beneficial, but it is not required.
 
-This workshop will take place in the East Room at the West Hub. Register for the course [here](https://forms.office.com/Pages/ResponsePage.aspx?id=RQSlSfq9eUut41R7TzmG6SaVOxbmBOdAg9GzbnrB5IRUMDhCTTlKOU0zSjVIMFUxRTdEM0Y0QUpHWS4u) by Wednesday 10th of April. For further information, please contact accelerate-mle@cst.cam.ac.uk.
+This workshop will take place in the East Room at the West Hub. Register for the course [here](https://forms.office.com/Pages/ResponsePage.aspx?id=RQSlSfq9eUut41R7TzmG6SaVOxbmBOdAg9GzbnrB5IRUMDhCTTlKOU0zSjVIMFUxRTdEM0Y0QUpHWS4u) by Wednesday 10 April. For further information, please contact accelerate-mle@cst.cam.ac.uk.
 
 *I﻿mages:* 
 
