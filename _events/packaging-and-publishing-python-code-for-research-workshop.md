@@ -7,7 +7,7 @@ image: /assets/uploads/packaging-and-publishing-python-code-for-research-worksho
 ---
 *Would you like to learn how to package and share your code?*
 
-The Accelerate Programme is planning a one day workshop on Wednesday 1st May to equip researchers with knowledge of workflows and tools they can use to package and publish their code. Participants will have the opportunity for hands on experience packaging and publishing a project. 
+The Accelerate Programme is planning a one day workshop on Wednesday 1 May to equip researchers with knowledge of workflows and tools they can use to package and publish their code. Participants will have the opportunity for hands on experience packaging and publishing a project. 
 
 Participants will require some background knowledge for this course. Experience using python for 
 programming or scientific data analysis is required. You must also have a GitHub account. In addition, experience with building classes, using the command line (either Linux or MacOS), and some understanding of Git would be beneficial, but it is not required.
