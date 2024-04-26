@@ -3,7 +3,7 @@ layout: event-single
 title: AI Café - West Hub
 start: May 20, 2024 2:00 PM
 end: May 20, 2024 5:00 PM
-image: /assets/uploads/ai-cafe-west-hub.jpg
+image: /assets/uploads/ai-cafe-west-hub-1-.jpg
 ---
 Are you using AI methods in your research, or considering doing so? Would you like to meet other researchers exploring the challenges and possibilities of deploying AI in research? 
 
