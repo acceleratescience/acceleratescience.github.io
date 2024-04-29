@@ -14,14 +14,14 @@ text:
     tailored software support to unblock these bottleneck.
 
 
-    Machine Learning Clinic: Accelerate’s Machine Learning Clinic offers expert advice to Cambridge University researchers using AI in their research, helping resolve engineering issues they might encounter when implementing machine learning methods.
+    AI Clinic: Accelerate’s AI Clinic offers expert advice to Cambridge University researchers using AI in their research, helping resolve engineering issues they might encounter when implementing machine learning methods.
 image_text:
   link: /machine-learning-clinic
-  heading: Machine Learning Clinic
-  content: Welcome to the Accelerate Science Machine Learning Engineering Clinic!
-    This new initiative seeks to support Cambridge University researchers using
-    AI in their research, by helping resolve engineering issues they might
-    encounter when implementing machine learning methods.
+  heading: AI Clinic
+  content: Welcome to the Accelerate Science AI Clinic! This new initiative seeks
+    to support Cambridge University researchers using AI in their research, by
+    helping resolve engineering issues they might encounter when implementing
+    machine learning methods.
   image: /assets/uploads/alina-grubnyak-ziqkhi7417a-unsplash.jpg
 image_text_flipped:
   content: Well-curated and managed data is central to the effective use of AI, in
