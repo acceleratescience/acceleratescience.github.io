@@ -1,7 +1,7 @@
 hero:
-  title: Machine Learning Engineering Clinic
+  title: AI Clinic
 text_dual_column:
-  heading: Welcome to the Accelerate Science Machine Learning Engineering Clinic!
+  heading: Welcome to the Accelerate Science AI Clinic!
   content: >-
     This new initiative seeks to support Cambridge University researchers using
     AI in their research, by helping resolve engineering issues they might
@@ -14,7 +14,7 @@ text_dual_column:
     When you contact the Clinic, an experienced Engineer can offer advice or guidance on how to resolve your query. Simply log your issue via the Clinic's form and one of the Clinic's engineers will follow-up to arrange a meeting to either further discuss the issue if needed or to discuss a potential solution.
 
 
-    Log your issues at the ML Engineering Clinic's [form](https://forms.office.com/Pages/ResponsePage.aspx?id=RQSlSfq9eUut41R7TzmG6SaVOxbmBOdAg9GzbnrB5IRUNDhIUjNCRkI0SjFaV1Y2VDRTR1pPWTNKOS4u) and we will get back to you soon or get in touch on [accelerate-mle@cst.cam.ac.uk](mailto:accelerate-mle@cst.cam.ac.uk)
+    Log your issues at the AI Clinic's [form](https://forms.office.com/Pages/ResponsePage.aspx?id=RQSlSfq9eUut41R7TzmG6SaVOxbmBOdAg9GzbnrB5IRUNDhIUjNCRkI0SjFaV1Y2VDRTR1pPWTNKOS4u) and we will get back to you soon or get in touch on [accelerate-mle@cst.cam.ac.uk](mailto:accelerate-mle@cst.cam.ac.uk)
 
 
     For further information about how to engage with the Clinic, and what support is on offer, please read the FAQs below.
@@ -36,14 +36,10 @@ text:
     While the Clinic aims to resolve all issues logged in its database, this might not always be possible, for example if the issue proves to be outside the current skillset of the Clinic’s engineers. In those cases, we'll try to at least help researchers make progress on their issue by helping route it to other engineers in Cambridge who might be better placed in resolving it.
 
 
-
-
     #### How long will it take to respond to my query?
 
 
     We aim to resolve issues within two weeks of them being logged. However, this metric is highly variable and will depend on the volume and nature of issues we receive. We will notify you if the Clinic is experiencing any delays that prevents it from resolving your issue within two weeks.
-
-
 
 
     #### Who gets to view my issue and how will the information I submit be stored or managed?
@@ -52,9 +48,7 @@ text:
     Issues that are logged at the clinic are stored on a spreadsheet that is shared with members of the Accelerate Science programme. We will ask for your permission to share your issue with other members of Cambridge University, for example if we think there are others who are better placed at the university to resolve your issue.
 
 
-
-
     #### How should I acknowledge Accelerate Science’s contribution in publications or other materials if it provides useful advice on resolving my issue?
 
 
-    We hope that sometimes discussions held with the Clinic will evolve into genuine scientific collaboration, but in many cases an acknowledgement in your paper of the ML Clinic’s assistance will be fine and we’d be happy to advise on this further or provide suggested wording for acknowledgement in relation to specific projects.
+    We hope that sometimes discussions held with the Clinic will evolve into genuine scientific collaboration, but in many cases an acknowledgement in your paper of the AI Clinic’s assistance will be fine and we’d be happy to advise on this further or provide suggested wording for acknowledgement in relation to specific projects.
