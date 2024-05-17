@@ -1,6 +1,7 @@
 ---
 layout: opportunities-single
-title: Senior Machine Learning Engineers
+title: Join our team! Applications open for Senior Machine Learning Engineers to
+  join the Accelerate Programme
 excerpt: We are seeking experienced Senior Machine Learning Engineers (SMLE) to
   lead the development of our software culture.
 ---
