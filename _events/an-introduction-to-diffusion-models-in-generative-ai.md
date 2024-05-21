@@ -19,4 +19,4 @@ Much of the workshop content is conceptual and high-level, and by the end of the
 
 T﻿his event will take place on Thursday 20 June form 09:30 - 17:00 at the William Gates Building. \
 \
-To sign up, please complete [this form](https://forms.office.com/Pages/ResponsePage.aspx?id=RQSlSfq9eUut41R7TzmG6SaVOxbmBOdAg9GzbnrB5IRUNURBSDhOVFBUMllERTI4Vks3VVk3SVdFNi4u)by 17:00 on Wednesday 5 June. Contact accelerate-mle@cst.cam.ac.uk with any queries.
+To sign up, please complete [this form](https://forms.office.com/Pages/ResponsePage.aspx?id=RQSlSfq9eUut41R7TzmG6SaVOxbmBOdAg9GzbnrB5IRUNURBSDhOVFBUMllERTI4Vks3VVk3SVdFNi4u)by 17:00 on Wednesday 5 June. Contact  accelerate-mle@cst.cam.ac.uk with any queries.
