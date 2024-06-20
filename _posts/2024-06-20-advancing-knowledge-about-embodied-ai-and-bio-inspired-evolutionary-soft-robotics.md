@@ -12,7 +12,7 @@ author: By Yue Xie, Marie Sklodowska-Curie Future Roads Fellow, Bio-Inspired
   Robotics Laboratory, Department of Engineering
 date: June 20, 2024 10:00 AM
 tags: null
-image: /assets/uploads/yue-xie-blog-post.jpg
+image: /assets/uploads/yue-xie-blog-post-1-.jpg
 ---
 Embodied artificial intelligence (EAI) brings AI, robotics, and bioengineering together. Embodiment in artificial intelligence is foundational for the mechanical execution of tasks and to achieve a higher order of situational and adaptive intelligence. 
 
