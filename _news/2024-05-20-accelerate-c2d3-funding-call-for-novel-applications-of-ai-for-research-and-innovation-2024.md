@@ -78,7 +78,7 @@ This funding is particularly suited to activities that can be initiated in the n
 **Key dates:**
 
 * Call opens: Monday 20 May 2024
-* Funding Call Q and A session: Wednesday 5 June 2024, 1, West Hub 15:00 - 16:00
+* Funding Call Q and A session: Wednesday 5 June 2024, West Hub 15:00 - 16:00
 * Call closes: Wednesday 18 September 2024, 1 BST 17:00
 * Outcome communicated early October 2024
 * Earliest project start date: November 2024
