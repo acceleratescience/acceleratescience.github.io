@@ -10,3 +10,5 @@ Are you using LLMs in your research, or considering doing so? Would you like to 
 Join us on Monday 22 July to hear short talks from researchers using LLMs in their work, followed by the opportunity to discuss your questions with an expert.
 
 O﻿pen to all University of Cambridge researchers, no need to sign up in advance. The event is taking place in West 2 at the West Hub.
+
+I﻿f you can't make it on the day and would like support with using LLMs in your work, get in touch with our team on accelerate-mle@cst.cam.ac.uk.
