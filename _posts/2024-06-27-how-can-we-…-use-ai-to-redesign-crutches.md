@@ -10,7 +10,7 @@ excerpt: By 2050, more than one billion people will have used a mobility aid
 author: "Dr Riccardo Conci & Riccardo Ali, M.Phil in Advanced Computer Science,
   Department of Computer Science and Technology "
 date: June 27, 2024 12:55 PM
-image: /assets/uploads/how-can-we-use-ai-to-redesign-crutches.png
+image: /assets/uploads/updated-image-how-can-we-use-ai-to-redesign-crutches.png
 ---
 By 2050, more than one billion people will have used a mobility aid including crutches, which tend to be uncomfortable and can even cause secondary injuries from joint and muscle pain to skin irritation and carpal tunnel syndrome. We set out to redesign crutches used by the NHS to address problems of instability, effort and pain, using machine learning to discover more optimal geometry that can be personalised for patients.
 
