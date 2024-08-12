@@ -1,7 +1,7 @@
 backend:
   name: git-gateway
-  repo: AaronTLP/accelerate
-  branch: master # Branch to update (optional; defaults to master)
+  repo: acceleratescience/acceleratescience.github.io
+  branch: main # Branch to update (optional; defaults to master)
 
 local_backend: true
 
