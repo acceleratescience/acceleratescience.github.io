@@ -6,7 +6,7 @@ biography: Diana specialises in Human Computer Interaction, working on
   particular focus on supporting reasoning with uncertainty. Recent projects
   have included ethnography and design of clinical decision support tools for
   ICU doctors and fieldwork focused on applying data science techniques to the
-  workflow of an Assyriologist."
+  workflow of an Assyriologist.
 image: /assets/uploads/diana_robinson_photo.jpg
 institution: University of Cambridge
 position: Research Assistant
