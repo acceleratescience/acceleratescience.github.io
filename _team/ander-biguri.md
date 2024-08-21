@@ -12,7 +12,7 @@ biography: Ander Biguri is a Research Associate at Department of Applied
 image: /assets/uploads/ander.jpg
 institution: University of Cambridge
 department: Department of Applied Mathematics and Theoretical Physics
-position: Research Associate
+position: Senior Research Associate
 team: main
 supervisor: Carola-Bibiane Schönlieb
 ---
