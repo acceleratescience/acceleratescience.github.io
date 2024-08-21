@@ -123,6 +123,10 @@
                         <div class="row row--justified">
                             <div class="column-m-12-nest column-d-1"></div>
                             <div class="column-m-12-nest column-t-10 column-d-8">
+                                {% if page.teaser != nil %}
+                                    <img src="{{ page.teaser }}" alt="">
+                                {% endif; %}
+
                                 {{ content }}
                             </div>
                             <div class="column-m-12-nest column-t-2"></div>
