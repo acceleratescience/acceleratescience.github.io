@@ -20,26 +20,14 @@ title: Events
     </div>
 </section>
 
-{% assign currentDate = 'now' | date: '%Y%m%d' %}
-{% for item in site.events %}
-{% assign eventEndDate = item.end | date: '%Y%m%d' %}
-{% if currentDate <= eventEndDate %}
-{% assign eventsCheck = true %}
-{% endif %}
-{% endfor %}
-
 <section class="block block__posts">
     <div class="container">
+        {% assign events = site.events | upcoming: "start" | sort_by_date: "start" | reverse %}
 
-        {% if eventsCheck == true %}
-        {% assign currentDate = 'now' | date: '%Y%m%d' %}
-        {% assign events = site.events %}
-
+        {% if events.size > 0 %}
         <div class="posts__grid post__grid">
             {% for post in events %}
-            {% assign eventEndDate = post.end | date: '%Y%m%d' %}
 
-            {% if currentDate <= eventEndDate %}
             <a class="post__post post__post--standard" href="{{ post.url }}">
                 <div class="post__post-thumbnail">
                     {% if post.image != nil %}
@@ -61,7 +49,6 @@ title: Events
                     <span class="button">Read More</span>
                 </div>
             </a>
-            {% endif %}
             {% endfor %}
         </div>
         {% else %}

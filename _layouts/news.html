@@ -26,7 +26,9 @@ pagination:
 <section class="block block__posts">
     <div class="container">
         <div class="posts__featured">
-            {% assign news_items = site.news | sort: 'date' | reverse %}
+            {% assign today = site.time %}
+
+            {% assign news_items = site.news | where_exp: "item", "item.date <= today" | sort: 'date' | reverse %}
             {% for post in news_items limit:1 %}
                 {% if post.link != nil %}
                     <a class="post__post post__post--featured" href="{{ post.link }}" rel="noreferrer" target="_blank"></a>
@@ -63,10 +65,9 @@ pagination:
         </div>
 
         <div class="posts__grid post__grid">
-            {% assign sortedPosts = site.news | sort: 'date' | reverse %}
             {% assign counter = 1 %}
 
-            {% for post in sortedPosts %}
+            {% for post in news_items %}
                 {% if post.link != nil %}
                     <a class="post__post post__post--standard {% if counter > 8 %}hidden{% endif %}" data-category="{{ post.category[0] }}" href="{{ post.link }}" rel="noreferrer" target="_blank">
                 {% else %}

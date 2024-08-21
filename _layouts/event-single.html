@@ -65,6 +65,14 @@
                             <div class="column-m-12-nest column-d-1"></div>
                             <div class="post-single__header-heading column-m-12-nest column-t-10 column-d-8">
                                 <h1>{{page.title}}</h1>
+                                <p class="date">Starts:
+                                    {{ page.start | date: '%Y/%m/%d' }}
+                                    at
+                                    {{ page.start | date: '%H:%M' }}</p>
+                                <p class="date">Ends:
+                                    {{ page.end | date: '%Y/%m/%d' }}
+                                    at
+                                    {{ page.end | date: '%H:%M' }}</p>
                                 {{ page.desc | markdownify }}
 
                                 {% if page.link_to != nil %}

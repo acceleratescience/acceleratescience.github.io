@@ -54,7 +54,6 @@ collections:
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-remote-theme
   - jekyll-paginate-v2
 sass:
   sass_dir: _sass
