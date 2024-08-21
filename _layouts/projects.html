@@ -1,0 +1,47 @@
+---
+layout: page
+title: Projects
+pagination:
+    enabled: true
+    collection: 'projects'
+    indexpage: 'projects'
+---
+
+<section class="block block__hero">
+    <div class="container">
+        <div class="hero__head row row--justified row--middle">
+            <a href="{{site.url}}" class="brand">
+                <img class="brand" src="{{ site.data.site.site_logo }}" alt="Logo">
+            </a>
+            {% include menu-trigger.html %}
+            {% include nav-primary.html %}
+        </div>
+
+        <div class="hero__content">
+            <h1 class="no-margin">Projects</h1>
+        </div>
+    </div>
+</section>
+
+<section class="block block__posts">
+    <div class="container">
+        <div class="posts__grid post__grid post__grid--col3">
+            {% for post in site.projects %}
+            <a class="post__post post__post--standard" href="{{ post.url }}">
+                <div class="post__post-thumbnail">
+                    {% if post.image != nil %}
+                    <img src="{{ post.image }}">
+                    {% else %}
+                    <img class="placeholder-image" src="{{site.baseurl}}/assets/images/placeholder.png">
+                    {% endif; %}
+                </div>
+                <div class="post__post-content">
+                    <h4>{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</h4>
+                    <h3>{{ post.title}}</h3>
+                    <span class="button">Read More</span>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</section>

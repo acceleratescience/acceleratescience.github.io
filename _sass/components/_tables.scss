@@ -1,0 +1,49 @@
+// Custom Table Styles
+
+thead, tbody, tfoot {
+
+}
+
+thead {
+    background: $table-header-background;
+
+    th, td {
+        padding: $table-header-padding;
+        font-weight: $table-header-weight;
+    }
+}
+
+tbody {
+    background: $table-body-background;
+
+    th, td {
+        padding: $table-body-padding;
+        font-weight: $table-body-weight;
+    }
+}
+
+tfoot {
+    background: $table-footer-background;
+
+    th, td {
+        padding: $table-footer-padding;
+        font-weight: $table-footer-weight;
+    }		
+}
+
+table:not(.no-stripe) tr {
+    // If stripe is set to even, darken the even rows.
+    @if $table-striped == even {
+        &:nth-child(even) {
+        border-bottom: 0;
+        background-color: $table-striped-background;
+        }
+    }
+
+    // If stripe is set to odd, darken the odd rows.
+    @else if $table-striped == odd {
+        &:nth-child(odd) {
+        background-color: $table-striped-background;
+        }
+    }
+}

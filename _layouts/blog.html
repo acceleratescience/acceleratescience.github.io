@@ -1,0 +1,87 @@
+---
+layout: page
+title: Blog
+pagination:
+    enabled: true
+    collection: 'posts'
+    indexpage: 'blog'
+---
+
+<section class="block block__hero">
+    <div class="container">
+        <div class="hero__head row row--justified row--middle">
+            <a href="{{site.url}}" class="brand">
+                <img class="brand" src="{{ site.data.site.site_logo }}" alt="Logo">
+            </a>
+            {% include menu-trigger.html %}
+            {% include nav-primary.html %}
+        </div>
+
+        <div class="hero__content">
+            <h1 class="no-margin">Blog</h1>
+        </div>
+    </div>
+</section>
+
+<section class="block block__posts">
+    <div class="container">
+        <div class="posts__featured">
+            {% assign blog_items = site.posts | sort: 'date' | reverse %}
+            {% for post in blog_items limit:1 %}
+            <a class="post__post post__post--featured" href="{{ post.url }}">
+                <div class="post__post-thumbnail">
+                    {% if post.image != nil %}
+                    <img src="{{ post.image }}">
+                    {% else %}
+                    <img class="placeholder-image" src="{{site.baseurl}}/assets/images/placeholder.png">
+                    {% endif; %}
+                </div>
+                <div class="post__post-content">
+                    <h4>{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</h4>
+                    <h3>{{ post.title}}</h3>
+                    <p class="date">{{ post.date | date: "%-d %B %Y" }}</p>
+                    <p class="excerpt">{{ post.excerpt }}</p>
+                    <span class="button">Read More</span>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+
+        <div class="posts__filter">
+            <div>
+                <h5>Search</h5>
+                <form action="/search.html" method="get">
+                    <input type="text" id="search-box" name="query" placeholder="Search query goes in here">
+                </form>
+            </div>
+            <div>
+                <h5>Filter by category</h5>
+                <select class="blog-category-filter" name="">
+                    <option value="*">All</option>
+                    <option value="machine-learning">Machine Learning</option>
+                    <option value="accelerate-spark-data-science-residency">Accelerate-Spark Data Science Residency</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="posts__grid post__grid postContainer">
+            {% for post in site.posts %}
+            <a class="post__post post__post--standard" data-category="{{ post.categories[0] | replace: " ", "-" | replace: "[", "" | replace: "]", "" | replace: '"', "" | downcase }}" href="{{ post.url }}">
+                <div class="post__post-thumbnail">
+                    {% if post.image != nil %}
+                    <img src="{{ post.image }}">
+                    {% else %}
+                    <img class="placeholder-image" src="{{site.baseurl}}/assets/images/placeholder.png">
+                    {% endif; %}
+                </div>
+                <div class="post__post-content">
+                    <h4>{{ post.categories | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</h4>
+                    <h3>{{ post.title}}</h3>
+                    <p class="date">{{ post.date | date: "%-d %B %Y" }}</p>
+                    <span class="button">Read More</span>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+</section>

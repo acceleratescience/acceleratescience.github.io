@@ -1,0 +1,106 @@
+<footer role="contentinfo">
+    <div class="footer__upper">
+        <div class="container">
+            <div class="row row--justified">
+                <div class="footer__navigation column-m-12 column-t-4  column-d-4">
+                    <h2 class="section-heading section-heading--alt">Navigation</h2>
+
+                    <ul>
+                        {% for item in site.data.nav.footer_nav %}
+                            <li>
+                                <a href="{{ item.link }}">{{ item.label }}</a>
+                                {% if item.submenu_item != nil %}
+                                    <div class="submenu">
+                                        {% for item in item.submenu_item. %}
+                                            <a href="{{ item.link }}">{{ item.label }}</a>
+                                        {% endfor %}
+                                    </div>
+                                {% endif %}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                    <div class="cambridge-uni-quicklinks-footer" id="cambridge-uni-quicklinks-footer">
+                        <h2 class="section-heading section-heading--alt">Cambridge Uni</h2>
+
+                        <ul>
+                            {% for item in site.data.nav.top_bar.top_bar_nav %}
+                                <li>
+                                    <a href="{{ item.link }}" target="_blank" rel="noreferrer">{{ item.label }}</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer__contact column-m-12 column-t-4 column-d-6">
+                    <h2 class="section-heading section-heading--alt">Contact Us</h2>
+
+                    <div class="footer__contact-details">
+                        {% if site.data.site.contact_details.address != nil %}
+                            <div>
+                                {{ site.data.site.contact_details.address | markdownify }}
+                            </div>
+                        {% endif %}
+                        <div>
+                            {% if site.data.site.contact_details.tel != nil %}
+                                <a href="tel:{{ site.data.site.contact_details.tel }}">Tel:
+                                    {{ site.data.site.contact_details.tel }}
+                                </a>
+                            {% endif %}
+                            {% if site.data.site.contact_details.fax != nil %}
+                                <a href="tel:{{ site.data.site.contact_details.fax }}">Fax:
+                                    {{ site.data.site.contact_details.fax }}
+                                </a>
+                            {% endif %}
+                            {% if site.data.site.contact_details.email != nil %}
+                                <a href="mailto:{{ site.data.site.contact_details.email }}">Contact:
+                                    {{ site.data.site.contact_details.email }}
+                                </a>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__socials column-m-12 column-t-4 column-d-2">
+                    <h2 class="section-heading section-heading--alt">Social</h2>
+
+                    <div class="footer__socials-links">
+                        {% if site.data.site.social_details.twitter_link != nil %}
+                            <a href="{{site.data.site.social_details.twitter_link}}">
+                                <img src="{{site.baseurl}}/{{site.twitter_svg}}" alt="Twitter Logo">
+                            </a>
+                        {% endif %}
+
+                        {% if site.data.site.social_details.facebook_link != nil %}
+                            <a href="{{site.data.site.social_details.facebook_link}}">
+                                <img src="{{site.baseurl}}/{{site.facebook_svg}}" alt="Facebook Logo">
+                            </a>
+                        {% endif %}
+
+                        {% if site.data.site.social_details.instagram_link != nil %}
+                            <a href="{{site.data.site.social_details.instagram_link}}">
+                                <img src="{{site.baseurl}}/{{site.instagram_svg}}" alt="Instagram Link">
+                            </a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer__lower">
+        <div class="container">
+            <div class="row row--justified row--middle">
+                <div class="footer__logos">
+                    {% for item in site.data.site.footer_images %}
+                        <a href="{{ item.link }}">
+                            <img src="{{ item.image }}" alt="Logo">
+                        </a>
+                    {% endfor %}
+                </div>
+                <div class="footer__credits">
+                    <a href="https://www.thelonelypixel.co.uk/">Designed and built by The Lonely Pixel</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+{% include offcanvas.html %}
