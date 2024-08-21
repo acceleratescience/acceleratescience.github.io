@@ -11,7 +11,7 @@ biography: >
   that play crucial roles in deciding different cell fates.
 image: /assets/uploads/dinithi_sumanaweera.jpg
 institution: University of Cambridge
-department: Department of Physics and the Wellcome Sanger Institute
+department: Cambridge Stem Cell Institute
 position: Research Associate
 team: main
 supervisor: Sarah Teichmann
