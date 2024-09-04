@@ -14,4 +14,4 @@ We define a challenging software issue as one that is difficult to find online g
 
 No matter your level of experience with AI, we invite you to [book a session](https://www.training.cam.ac.uk/apsci/event/5382801) and talk to our team to see how we can support you to implement AI in your research.
 
-The clinic is open at any time for support so if you want to get in touch before your session or to book an earlier time, please [email](accelerate-mle@cst.cam.ac.uk).
+The clinic is open at any time for support so if you want to get in touch before your session or to book an earlier time, please email accelerate-mle@cst.cam.ac.uk.
