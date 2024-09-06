@@ -8,7 +8,7 @@ excerpt: >-
 
 
   Accelerate Science have developed a one day course for researchers interested in building knowledge of workflows and tools they can use to package and publish their code. Releasing software outputs from your research is an important step for open science and enables other researchers to utilise your code and for your work to have further impact. These materials explore the importance of sharing code in line with FAIR principles for research software. The course provides a step by step guide to publishing your code using the package Poetry and will walk though an example project.
-link: ""
+link: https://docs.science.ai.cam.ac.uk/packaging-publishing/
 ---
 A collection of resources for researchers interested in publishing and packaging python code for research.
 
