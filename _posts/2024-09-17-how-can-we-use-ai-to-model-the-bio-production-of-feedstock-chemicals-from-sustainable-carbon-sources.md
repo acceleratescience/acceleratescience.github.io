@@ -2,7 +2,7 @@
 layout: blog-single
 title: How can we use AI to model the bio-production of feedstock chemicals from
   sustainable carbon sources?
-excerpt: >
+excerpt: >-
   Most feedstock chemicals used in the chemical industry - essential components
   required to produce pharmaceuticals, fertilisers, plastics, paints, adhesives,
   coatings, electronics, cleaning products, and toiletries - are sourced from
@@ -10,7 +10,7 @@ excerpt: >
   approximately 6% of global greenhouse gas emissions 
 
 
-  Fully decarbonising the chemical industry will be difficult, if not impossible, because most chemicals inherently contain carbon atoms essential to the material’s structure. To meet the challenge of reducing the chemical industry’s reliance on fossil resources , alternative carbon sources must be explored, such as carbon dioxide. 
+  Fully decarbonising the chemical industry will be difficult, if not impossible, because most chemicals inherently contain carbon atoms essential to the material’s structure. To meet the challenge of reducing the chemical industry’s reliance on fossil resources, alternative carbon sources must be explored, such as carbon dioxide. 
 author: Marion Isabelle May Short, NanoDTC PhD student, Yusuf Hamied Department
   of Chemistry
 date: September 17, 2024 11:12 AM
