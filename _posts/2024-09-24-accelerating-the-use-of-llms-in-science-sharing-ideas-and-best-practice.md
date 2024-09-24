@@ -10,7 +10,7 @@ excerpt: >
   As part of our work to accelerate the use of machine learning in research, the Accelerate Programme for Scientific Discovery has published a suite of resources, based on an initial AI and LLM study group and workshop designed to give researchers the knowledge and tools to use LLMs with confidence
 author: Ryan Daniels & Catherine Breslin, Accelerate Programme Machine Learning
   Engineering Team
-date: September 24, 2024 11:43 AM
+date: September 24, 2024 11:40 AM
 image: /assets/uploads/llm-workshop-photo.jpg
 ---
 The technology and use cases for Large Language Models (LLMs) are advancing at a rapid pace, providing new opportunities in research. Understanding how they work and how to use this game-changing technology can be daunting. 
