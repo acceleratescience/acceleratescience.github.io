@@ -6,7 +6,7 @@ excerpt: The composition of metals found at archeological sites can tell us a
   metals found at archeological sites in Cyprus to investigate what metals were
   used by whom, and to understand how craftspeople in these communities worked.
 author: Ema Bauzyte, Department of Archeology, University of Cambridge
-date: September 17, 2024 2:44 PM
+date: June 10, 2021 2:44 PM
 categories:
   - Accelerate-Spark data science residency
 tags:
