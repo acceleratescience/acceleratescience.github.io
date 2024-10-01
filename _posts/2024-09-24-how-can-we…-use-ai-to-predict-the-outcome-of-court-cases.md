@@ -10,7 +10,7 @@ excerpt: >
   One of the most promising applications of LLMs in law is automatic information extraction from legal documents, which are rich repositories of knowledge. The benefits of this include cost efficiency - by reducing the need for extensive human labour in sifting through reams of documents - as well as speed, as they can extract useful information from a large volume of cases at a pace unattainable by human counterparts. 
 author: Professor Felix Steffek, Faculty of Law and Dr Helena Xie, Centre for
   Business Research
-date: October 1, 2024 12:30 PM
+date: October 1, 2024 1:30 PM
 image: /assets/uploads/felix-steffek-and-helena-zie-blog-post.png
 ---
 The use of Large Language Models (LLMs) offers the possibility of streamlining operations and enhancing accuracy in the legal sector, as well as democratising access to legal knowledge.
