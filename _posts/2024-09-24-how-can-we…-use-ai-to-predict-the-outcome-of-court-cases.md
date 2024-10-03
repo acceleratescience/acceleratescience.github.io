@@ -11,7 +11,7 @@ excerpt: >
 author: Professor Felix Steffek, Faculty of Law and Dr Helena Xie, Centre for
   Business Research
 date: October 1, 2024 1:24 PM
-image: /assets/uploads/felix-steffek-and-helena-zie-blog-post.png
+image: /assets/uploads/felix-steffek-and-helena-xie.png
 ---
 The use of Large Language Models (LLMs) offers the possibility of streamlining operations and enhancing accuracy in the legal sector, as well as democratising access to legal knowledge.
 
