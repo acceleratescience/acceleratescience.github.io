@@ -1,0 +1,163 @@
+---
+layout: page
+title: About Us
+description: The Accelerate Programme for Scientific Discovery will advance the frontiers of science through the application of AI. Supported by a donation from Schmidt Futures, a philanthropic initiative founded by Eric and Wendy Schmidt, the Accelerate Programme will provide young researchers with specialised training in AI techniques, equipping them with the skills they need to use machine learning and AI to power their research.
+---
+
+{% assign hero_title = site.data.about-us.hero.title %}
+{% assign hero_content = site.data.about-us.hero.content %}
+{% assign hero_link = site.data.about-us.hero.link %}
+
+{% assign image_text_image = site.data.about-us.image_text.image %}
+{% assign image_text_heading = site.data.about-us.image_text.heading %}
+{% assign image_text_content = site.data.about-us.image_text.content %}
+{% assign image_text_link = site.data.about-us.image_text.link %}
+
+<section class="block block__hero">
+    <div class="container">
+        <div class="hero__head row row--justified row--middle">
+            <a href="{{site.url}}" class="brand">
+                <img class="brand" src="{{ site.data.site.site_logo }}" alt="Logo">
+            </a>
+            {% include menu-trigger.html %}
+            {% include nav-primary.html %}
+        </div>
+
+        <div class="hero__content">
+            {% if hero_title.size >= 1 %}
+                <h1 class="no-margin">{{ hero_title }}</h1>
+            {% endif %}
+
+            {% if hero_content.size >= 1 %}
+                <p>{{ hero_content }}</p>
+            {% endif %}
+
+            {% if hero_link.size >= 1 %}
+                <a href="{{ hero_link }}" class="button button--white">Read More</a>
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+<section class="block block__media-text block__media-text--standard">
+    <div class="container">
+        <div class="row row--justified">
+            <div class="media-text__media column-m-12-nest column-d-5">
+                {% if image_text_image.size >= 1 %}
+                    <img src="{{ image_text_image }}">
+                {% endif %}
+            </div>
+            <div class="media-text__content column-m-12-nest column-d-6">
+                {% if image_text_heading.size >= 1 %}
+                    <h3>{{ image_text_heading }}</h3>
+                {% endif %}
+                {% if image_text_content.size >= 1 %}
+                    <p>{{ image_text_content }}</p>
+                {% endif %}
+                {% if image_text_link.size >= 1 %}
+                    <a href="{{ image_text_link }}" class="button">Read More</a>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="block block__team">
+    <div class="container">
+        <div class="team__tabs">
+            <button class="active" data-team-id="main">Our Team</button>
+            <button data-team-id="advisory-group">Advisory Group</button>
+            <button data-team-id="alumni">Alumni</button>
+        </div>
+
+        <div class="team__grid" data-team-content="main">
+            {% for item in site.team %}
+                {% if item.team == "main" %}
+                    <a href="{{ item.url }}" class="team__member">
+                        <div class="team__member-image">
+                            {% assign person_image = item.image %}
+                            {% assign person_name = item.name %}
+                            {% assign person_prefix = item.prefix %}
+                            {% assign person_suffix = item.suffix %}
+                            {% assign person_institution = item.institution %}
+                            {% assign person_position = item.position %}
+
+                            {% if person_image.size >= 1 %}
+                                <img src="{{ person_image }}" alt="Image of {{ person_name }}">
+                            {% else %}
+                                <img class="placeholder-image" src="{{site.baseurl}}/assets/images/accelerate-question-mark.jpeg">
+                            {% endif %}
+                        </div>
+                        <div class="team__member-details">
+                            <h3>
+                                {{ person_prefix }}
+                                {{ person_name }}
+                                {{ person_suffix }}
+                            </h3>
+                            {% if person_institution.size >= 1 %}
+                                <p>{{ person_institution }}</p>
+                            {% endif %}
+                            {% if person_position.size >= 1 %}
+                                <p>{{ person_position }}</p>
+                            {% endif %}
+                            <span class="button">Read Bio</span>
+                        </div>
+                    </a>
+                {% endif %}
+            {% endfor %}
+        </div>
+
+        <div class="team__grid inactive" data-team-content="advisory-group">
+            {% for item in site.team %}
+                {% if item.team == "advisory-group" %}
+                    <a href="{{ item.url }}" class="team__member">
+                        <div class="team__member-image">
+                            {% assign person_image = item.image %}
+                            {% assign person_name = item.name %}
+                            {% assign person_institution = item.institution %}
+                            {% assign person_position = item.position %}
+
+                            {% if person_image.size >= 1 %}
+                                <img src="{{ person_image }}" alt="Image of {{ person_name }}">
+                            {% else %}
+                                <img class="placeholder-image" src="{{site.baseurl}}/assets/images/accelerate-question-mark.jpeg">
+                            {% endif %}
+                        </div>
+                        <div class="team__member-details">
+                            <h3>{{ person_name }}</h3>
+                            {% if person_institution.size >= 1 %}
+                                <p>{{ person_institution }}</p>
+                            {% endif %}
+                            {% if person_position.size >= 1 %}
+                                <p>{{ person_position }}</p>
+                            {% endif %}
+                            <span class="button">Read Bio</span>
+                        </div>
+                    </a>
+                {% endif %}
+            {% endfor %}
+        </div>
+
+        <div class="team__grid inactive" data-team-content="alumni">
+            {% for item in site.team %}
+                {% if item.team == "alumni" %}
+                    <a href="{{ item.url }}" class="team__member">
+                        <div class="team__member-image">
+                            {% assign team_image = item.image %}
+                            {% if team_image.size >= 1 %}
+                                <img src="{{ team_image }}" alt="Image of {{item.title}}">
+                            {% else %}
+                                <img class="placeholder-image" src="{{site.baseurl}}/assets/images/accelerate-question-mark.jpeg">
+                            {% endif %}
+                        </div>
+                        <div class="team__member-details">
+                            <h3>{{ item.title }}</h3>
+                            <p>{{ item.description }}</p>
+                            <span class="button">Read Bio</span>
+                        </div>
+                    </a>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>

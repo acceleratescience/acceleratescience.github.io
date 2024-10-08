@@ -1,0 +1,93 @@
+.block__link-grid {
+    margin: 4rem 0;
+
+    @include bp(desktop) {
+        margin: 10rem 0;
+    }
+
+    .link-grid__grid {
+        margin: 0 -1rem -2rem -1rem;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .link-grid__item {
+        position: relative;
+
+        @include bp(desktop) {
+            width: calc(25% - 2rem);
+            margin: 0 1rem 2rem 1rem;
+        }
+
+        &::before {
+            content: "";
+            padding-top: 100%;
+            display: block;
+        }
+
+        &:hover {
+
+            .link-grid__item-image {
+
+                img {
+                    transform: scale(1.1);
+                }
+            }
+
+            .link-grid__item-content {
+                transform: translateY(-6px);
+            }
+        }
+
+        &-image {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            img {
+                width: 100%;
+                height: 100%;
+                display: block;
+                object-fit: cover;
+                transition: 400ms $cubic;
+
+                &.placeholder-image {
+                    object-fit: contain;
+                }
+            }
+        }
+
+        &-content {
+            width: 100%;
+            height: 100%;
+            padding: 3rem;
+            position: absolute;
+            top: 0;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: 400ms $cubic;
+
+            h3 {
+                margin-bottom: 1rem;
+                font-size: 1.8rem;
+                font-weight: 700;
+                letter-spacing: 1px;
+                text-transform: uppercase;
+                text-align: center;
+            }
+
+            p {
+                margin: 0;
+                font-size: 1.4rem;
+                font-weight: 700;
+                text-align: center;
+            }
+        }
+    }
+}

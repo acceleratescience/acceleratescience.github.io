@@ -1,0 +1,96 @@
+.block__accordions {
+    padding: 4rem 0;
+    position: relative;
+    background-color: $yellow;
+    overflow: hidden;
+
+    @include bp(desktop) {
+        padding: 10rem 0;
+    }
+
+    &::before {
+        content: "";
+        width: 70vw;
+        max-width: 850px;
+        height: 70vw;
+        max-height: 850px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transform: translate(-50%, 50%);
+        display: block;
+        background-color: $light-yellow;
+        border-radius: 50%;
+    }
+
+    .container {
+        position: relative;
+        z-index: 1;
+    }
+
+    .accordions__selectors {
+
+        button {
+            width: 100%;
+            min-height: 70px;
+            margin-bottom: 2rem;
+            padding: 1.5rem;
+            display: flex;
+            align-items: center;
+            background: transparent;
+            border: 2px solid $blue;
+            border-radius: 8px;
+            font-family: $header-font-family-tertiary;
+            font-size: 2rem;
+            line-height: 2.4rem;
+            cursor: pointer;
+
+            &.active {
+                background: $lightest;
+                border-color: $lightest;
+            }
+
+            @include bp(tablet) {
+                min-height: 90px;
+                margin-bottom: 3rem;
+                padding: 2.5rem;
+                font-size: 2.2rem;
+                line-height: 2.8rem;
+            }
+
+            img {
+                width: auto;
+                height: 30px;
+                margin-right: 2rem;
+                display: block;
+
+                @include bp(tablet) {
+                    height: 40px;
+                }
+            }
+        }
+    }
+
+    .accordions__window {
+
+        .accordions__accordion {
+            max-width: 580px;
+            display: none;
+
+            &.active {
+                display: block;
+            }
+
+            h3 {
+                margin-bottom: 2rem;
+                font-size: 2.2rem;
+                line-height: 3rem;
+
+                @include bp(tablet) {
+                    font-size: 2.6rem;
+                    line-height: 3.4rem;
+                }
+            }
+        }
+    }
+}

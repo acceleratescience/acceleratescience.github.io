@@ -1,0 +1,79 @@
+// Responsive breakpoint mixins
+@mixin bp($name) {
+  // If the key exists in the map
+  @if map-has-key($breakpoints, $name) {
+    // Prints a media query based on the value
+    @media #{inspect(map-get($breakpoints, $name))} {
+      @content;
+    }
+  }
+}
+
+// Grid
+@mixin grid ($columns, $nest: "") {
+  @if $nest == "nest" {
+    width: calc(100% / 12 * #{$columns});
+  } @else {
+    width: calc(100% / 12 * #{$columns} - 2%);
+  }
+}
+
+// Animation Mixins
+@mixin animate ($duration, $delay, $animation) {
+    animation-duration: $duration;
+    animation-delay: $delay;
+    animation-name: $animation;
+    animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+    animation-fill-mode: backwards;
+}
+
+// Vertically center element
+@mixin centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+// Border radius
+@mixin rounded($radius:4px) {
+-webkit-border-radius : $radius;
+-moz-border-radius : $radius;
+border-radius : $radius; }
+
+// Shadows
+@mixin box-shadow($shadow: -1px 1px 1px 0 rgba(0,0,0,.25)) {
+-webkit-box-shadow : $shadow;
+-moz-box-shadow : $shadow;
+box-shadow : $shadow; }
+
+@mixin inner-box-shadow($shadow: inset 3px 3px 6px rgba(0,0,0,0.15)) {
+-webkit-box-shadow : $shadow;
+-moz-box-shadow : $shadow;
+box-shadow : $shadow; }
+
+// Hide text
+@mixin hide-text {
+text-indent : 200%;
+white-space : nowrap;
+overflow : hidden;
+}
+
+// Gradients
+@mixin gradient-horizontal($start-color: #555, $end-color: #333, $start-percent: 0%, $end-percent: 100%) {
+  background-image: -webkit-linear-gradient(left, $start-color $start-percent, $end-color $end-percent); // Safari 5.1-6, Chrome 10+
+  background-image: -o-linear-gradient(left, $start-color $start-percent, $end-color $end-percent); // Opera 12
+  background-image: linear-gradient(to right, $start-color $start-percent, $end-color $end-percent); // Standard, IE10, Firefox 16+, Opera 12.10+, Safari 7+, Chrome 26+
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{ie-hex-str($start-color)}', endColorstr='#{ie-hex-str($end-color)}', GradientType=1); // IE9 and down
+}
+
+@mixin gradient-vertical($start-color: #555, $end-color: #333, $start-percent: 0%, $end-percent: 100%) {
+  background-image: -webkit-linear-gradient(top, $start-color $start-percent, $end-color $end-percent);  // Safari 5.1-6, Chrome 10+
+  background-image: -o-linear-gradient(top, $start-color $start-percent, $end-color $end-percent);  // Opera 12
+  background-image: linear-gradient(to bottom, $start-color $start-percent, $end-color $end-percent); // Standard, IE10, Firefox 16+, Opera 12.10+, Safari 7+, Chrome 26+
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#{ie-hex-str($start-color)}', endColorstr='#{ie-hex-str($end-color)}', GradientType=0); // IE9 and down
+}

@@ -1,0 +1,91 @@
+---
+layout: page
+title: Projects-backup
+pagination:
+    enabled: true
+    collection: 'projects'
+    indexpage: 'projects'
+---
+
+<section class="block block__hero">
+    <div class="container">
+        <div class="hero__head row row--justified row--middle">
+            <a href="{{site.url}}" class="brand">
+                <img class="brand" src="{{ site.data.site.site_logo }}" alt="Logo">
+            </a>
+            {% include menu-trigger.html %}
+            {% include nav-primary.html %}
+        </div>
+
+        <div class="hero__content">
+            <h1 class="no-margin">Projects</h1>
+        </div>
+    </div>
+</section>
+
+<section class="block block__posts">
+    <div class="container">
+        {% if paginator.page %}
+        {% assign offset = paginator.page | minus:1 | times:paginator.per_page %}
+        {% assign currentPage = paginator.page %}
+        {% else %}
+        {% assign offset = 0 %}
+        {% assign currentPage = 1 %}
+        {% endif %}
+
+        <div id="blogContainer" class="posts__grid post__grid post__grid--col3 postContainer" data-page="{{ currentPage }}" data-totalpages="{{ paginator.total_pages }}">
+            {% for post in site.projects limit:8 offset:offset %}
+            <a class="post__post post__post--standard" href="{{ post.url }}">
+                <div class="post__post-thumbnail">
+                    {% if post.image != nil %}
+                    <img src="{{ post.image }}">
+                    {% else %}
+                    <img class="placeholder-image" src="{{site.baseurl}}/assets/images/placeholder.png">
+                    {% endif; %}
+                </div>
+                <div class="post__post-content">
+                    <h4>{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</h4>
+                    <h3>{{ post.title}}</h3>
+                    <span class="button">Read More</span>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+
+        {% assign postCount = site.projects | size %}
+        {% assign postsCovered = 8 | plus:offset %}
+        {% if postsCovered < postCount %}
+        <div class="posts__load-more">
+            <span></span>
+            <button class="button button--large loadMore">
+                Show More
+                <img src="../assets/images/plus.svg">
+            </button>
+            <span></span>
+        </div>
+        {% endif %}
+
+        <script>
+            $(".loadMore").click(loadMorePosts);
+
+            function loadMorePosts() {
+                var _this = this;
+                var $blogContainer = $("#blogContainer");
+                var nextPage = parseInt($blogContainer.attr("data-page")) + 1;
+                var totalPages = parseInt($blogContainer.attr("data-totalPages"));
+                $("#blogContainer").attr('data-page', nextPage);
+                $(this).addClass("loading");
+                $.get("/page/" + nextPage + "/projects.html", function (data) {
+                    var htmlData = $.parseHTML(data);
+                    var $articles = $(htmlData).find(".post__post--standard");
+                    $blogContainer.append($articles);
+                    if ($blogContainer.attr("data-totalPages") == nextPage) {
+                        $(".loadMore").closest(".posts__load-more").remove();
+                    }
+                    $(_this).removeClass("loading");
+                });
+            }
+        </script>
+
+    </div>
+</section>

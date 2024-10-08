@@ -1,0 +1,134 @@
+// Global settings
+$global-width:1440px;
+$global-font-family: "DM Sans",
+"HelveticaNeue-Light",
+"Helvetica Neue Light",
+"Helvetica Neue",
+Helvetica,
+Arial,
+"Lucida Grande",
+sans-serif;
+$global-font-family-alt: "Lato",
+"HelveticaNeue-Light",
+"Helvetica Neue Light",
+"Helvetica Neue",
+Helvetica,
+Arial,
+"Lucida Grande",
+sans-serif;
+$global-font-size: 1.8rem;
+$text-color: #000000;
+$global-margin: 2rem;
+$global-padding: 2rem;
+$global-left: 1rem;
+$global-weight-normal: 400;
+$global-weight-bold: 700;
+$image-path: '../../assets/images/';
+
+// Colour Scheme
+$primary: #101827;
+$primary-blue: #031927;
+$secondary-blue: #133348;
+$tertiary-blue: #081D2B;
+$dark-blue: #556787;
+$blue: #0000FF;
+$yellow: #FFAE0D;
+$light-yellow: #F7B93E;
+$orange: #DB3900;
+$green: #67C62A;
+$dark-green: #17483D;
+$cream: #D0D2C6;
+$charcoal: #2A2A2A;
+$light-cream: #F4F5F0;
+$dark-cream: #CED0C8;
+$regular-grey: #CCCCCC;
+$light-grey: #F5F5F5;
+$medium-grey: #D8D8D8;
+$dark-grey: #979797;
+$darkest-grey: #6A6A6A;
+$dark: #353535;
+$darker: #2E2C2C;
+$darkest: #040404;
+$light: #eaeaea;
+$lighter: #f2f2f2;
+$lightest: #ffffff;
+
+// Typography settings
+$baseline: 1.5;
+$scale: 1.614;
+
+// Set our base h1 font size then use the golden ratio to calculate the rest
+
+$h1: 4.8rem;
+$h2: 4.2rem;
+$h3: 3.8rem;
+$h4: 3.2rem;
+$h5: 2.8rem;
+$h6: 2.4rem;
+
+$header-font-family: "DM Sans",
+"HelveticaNeue-Light",
+"Helvetica Neue Light",
+"Helvetica Neue",
+Helvetica,
+Arial,
+"Lucida Grande",
+sans-serif;
+$header-font-family-secondary: 'Space Mono',
+monospace;
+$header-font-family-tertiary: 'Space Grotesk',
+sans-serif;
+$header-line-height:1.2;
+$header-bottom-margin:rem-calc(30);
+$paragraph-line-height:1.6;
+$paragraph-margin-bottom:1.2rem;
+$list-lineheight: $paragraph-line-height;
+$list-margin-bottom: $paragraph-margin-bottom;
+$list-style-type: disc;
+$list-style-position: outside;
+$list-side-margin: 1.25rem;
+$list-nested-side-margin: 1.25rem;
+$defnlist-margin-bottom: 1rem;
+$defnlist-term-weight: $global-weight-bold;
+$defnlist-term-margin-bottom: 0.3rem;
+$blockquote-color: $dark-grey;
+$blockquote-padding: rem-calc(9 20 0 19);
+$blockquote-border: 1px solid $medium-grey;
+$cite-font-size: rem-calc(13);
+$cite-color: $dark-grey;
+$cite-pseudo-content: '\2014 \0020';
+$abbr-underline: 1px dotted $dark;
+
+// inputs
+$input-height:50px;
+$input-border-color:$lightest;
+$input-focus-color:$primary;
+$input-focus-border-color:$primary;
+
+// tables
+$table-striped: even;
+$table-striped-background: $lightest;
+$table-header-background: #eeeeee;
+$table-header-padding: 1rem;
+$table-header-weight: $global-weight-bold;
+$table-body-background: #ffffff;
+$table-body-padding: 1rem;
+$table-body-weight: $global-weight-normal;
+$table-footer-background: #eeeeee;
+$table-footer-padding: 1rem;
+$table-footer-weight: $global-weight-normal;
+
+// Grid
+$breakpoints: ('mobile': (max-width: 640px),
+  'tablet' : (min-width: 768px),
+  'phablet' : (min-width: 960px),
+  'desktop' : (min-width: 1200px),
+  'desktop-xl' : (min-width: 1600px),
+);
+
+// We use these to make sure border radius matches unless we want it different.
+$global-radius: 4px;
+$global-rounded: 1000px;
+
+// Animations
+$cubic: cubic-bezier(0.645, 0.045, 0.355, 1);
