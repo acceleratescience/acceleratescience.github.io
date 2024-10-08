@@ -1,16 +1,18 @@
 ---
 layout: blog-single
-title:  How can we…understand the crafts of ancient communities using machine learning?
-date:   2021-06-10 16:49:00
+title: How can we…understand the crafts of ancient communities using machine learning?
+excerpt: The composition of metals found at archeological sites can tell us a
+  lot about the communities that lived in an area. In my research, I analyse
+  metals found at archeological sites in Cyprus to investigate what metals were
+  used by whom, and to understand how craftspeople in these communities worked.
+author: Ema Bauzyte, Department of Archeology, University of Cambridge
+date: June 10, 2021 2:44 PM
 categories:
   - Accelerate-Spark data science residency
 tags:
   - news
-author: Ema Bauzyte, Department of Archeology, University of Cambridge
 image:
   - /assets/uploads/emabauzyte.jpg
-excerpt:
-  The composition of metals found at archeological sites can tell us a lot about the communities that lived in an area. In my research, I analyse metals found at archeological sites in Cyprus to investigate what metals were used by whom, and to understand how craftspeople in these communities worked.
 ---
 
 *In this new blog series, members of the Cambridge AI for science community tell us about how their participation in the Accelerate-Spark data science for science residency has contributed to their research. In this first post, [Ema Bauzyte from the Department of Archeology](https://www.arch.cam.ac.uk/staff/dr-ema-bauzyte) tells us about her work.*
