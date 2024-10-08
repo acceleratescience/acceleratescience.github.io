@@ -58,8 +58,9 @@ pagination:
                 <h5>Filter by category</h5>
                 <select class="blog-category-filter" name="">
                     <option value="*">All</option>
-                    <option value="machine-learning">Machine Learning</option>
-                    <option value="accelerate-spark-data-science-residency">Accelerate-Spark Data Science Residency</option>
+                    {% for cat in site.data.categories.blog %}
+                        <option value="{{ cat.slug }}">{{ cat.title }}</option>
+                    {% endfor %}
                 </select>
             </div>
         </div>
