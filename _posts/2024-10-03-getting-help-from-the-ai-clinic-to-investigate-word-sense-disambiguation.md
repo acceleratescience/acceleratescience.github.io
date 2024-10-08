@@ -12,7 +12,7 @@ excerpt: >
   Changes in language can be difficult to analyse, but my approach uses Large Language Models (LLMs) to identify how words are used, drawing upon data from conversations between real people, and therefore taking a step away from introspective thinking about words. 
 author: Nina Haket, PhD student in the Department of Theoretical and Applied
   Linguistics
-date: October 8, 2024 10:00 AM
+date: October 8, 2024 10:18 AM
 teaser: /assets/uploads/nina-haket-figure-1-and-2-word-sense-disambiguation.jpg
 image: /assets/uploads/nina-haket-blog.png
 ---
