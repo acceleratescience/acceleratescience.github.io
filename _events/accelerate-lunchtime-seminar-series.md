@@ -7,9 +7,10 @@ desc: ""
 image: /assets/uploads/lunchtime-seminar-series_oct-general_24.jpg
 link_to: https://talks.cam.ac.uk/show/index/191074
 ---
-Room FW11, Willam Gates Building (Department of Computer Science and Technology).
+* Room FW11, Willam Gates Building (Department of Computer Science and Technology).
+* Pizza lunch will be provided, **registration is required via this [form](https://forms.office.com/Pages/DesignPageV2.aspx?subpage=design&token=78665653bfaf4d1a9058d225dd14dcdc&id=RQSlSfq9eUut41R7TzmG6SCH_8-s-LhNq5ASf8etR39UOEkyNUZaQ09NQkcyQlJROEZNUzBJUDlEWi4u&analysis=false&topview=Preview)**
 
-Pizza lunch will be provided, **registration is required via this [form](https://forms.office.com/Pages/DesignPageV2.aspx?subpage=design&token=78665653bfaf4d1a9058d225dd14dcdc&id=RQSlSfq9eUut41R7TzmG6SCH_8-s-LhNq5ASf8etR39UOEkyNUZaQ09NQkcyQlJROEZNUzBJUDlEWi4u&analysis=false&topview=Preview)**
+
 
 **Namshik Han, Head of Computational Research & AI, Milner Therapeutics Institute, University of Cambridge**
 
