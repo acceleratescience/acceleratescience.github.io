@@ -12,6 +12,7 @@
     text-transform: uppercase;
     overflow: hidden;
     cursor: pointer;
+    border: none;
 
     @include bp(tablet) {
         font-size: 1.8rem;
