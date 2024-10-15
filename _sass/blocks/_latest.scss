@@ -1,0 +1,38 @@
+.block__latest {
+    padding: 4rem 0;
+
+    @include bp(tablet) {
+        padding: 10rem 0 5rem 0;
+    }
+
+    .latest__upper {
+        margin-bottom: 7.5rem;
+
+        .latest__insights {
+            margin-top: 5rem;
+
+            .posts__load-more {
+                margin-top: 7.5rem;
+            }
+        }
+    }
+
+    .latest__lower {
+
+        .section-heading {
+            margin-bottom: 4rem;
+
+            @include bp(tablet) {
+                margin-bottom: 6rem;
+            }
+        }
+
+        .latest__news {
+            margin-bottom: 2rem;
+
+            @include bp(tablet) {
+                margin-bottom: 0;
+            }
+        }
+    }
+}

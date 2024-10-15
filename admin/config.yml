@@ -14,6 +14,20 @@ collections:
     label: 'Website Settings'
     files:
       # Website Settings
+      - label: 'Categories'
+        name: 'categories'
+        file: '_data/categories.yml'
+        fields:
+          - label: 'Blog'
+            name: 'blog'
+            widget: 'list'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+              - label: 'Slug'
+                name: 'slug'
+                widget: 'string'
       - label: 'Website Settings'
         name: 'site'
         file: '_data/site.yml'
@@ -686,11 +700,13 @@ collections:
         picker_utc: false
       - label: "Category"
         name: "categories"
-        widget: "select"
+        widget: "relation"
+        collection: 'website-settings'
+        file: categories
+        search_fields: ["blog.*.title"]
+        value_field: "blog.*.slug"
+        display_fields: ["blog.*.title"]
         multiple: true
-        options:
-          - { label: "Machine Learning", value: "machine-learning" }
-          - { label: "Accelerate-Spark Data Science Residency", value: "accelerate-spark-data-science-residency" }
         required: false
       - label: "Tags"
         name: "tags"
@@ -698,6 +714,10 @@ collections:
         multiple: true
         options:
           - { label: "News", value: "news" }
+        required: false
+      - label: 'Teaser Image'
+        name: 'teaser'
+        widget: 'image'
         required: false
       - label: 'Image'
         name: 'image'
@@ -730,6 +750,14 @@ collections:
         name: 'author'
         widget: 'string'
         required: false
+      - label: "Publish Date"
+        name: "date"
+        widget: "datetime"
+        default: ""
+        date_format: "DD/MM/YYYY" # e.g. 24.12.2021
+        time_format: "HH:mm" # e.g. 21:07
+        format: "LLL"
+        picker_utc: false
       - label: 'Image'
         name: 'image'
         widget: 'image'

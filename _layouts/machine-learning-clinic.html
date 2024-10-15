@@ -1,0 +1,66 @@
+---
+layout: page
+title: Machine Learning Clinic
+---
+
+{% assign hero_title = site.data.machine-learning-clinic.hero.title %}
+{% assign hero_content = site.data.machine-learning-clinic.hero.content %}
+{% assign hero_link = site.data.machine-learning-clinic.hero.link %}
+
+{% assign text_dual_column_heading = site.data.machine-learning-clinic.text_dual_column.heading %}
+{% assign text_dual_column_content = site.data.machine-learning-clinic.text_dual_column.content %}
+
+{% assign text_heading = site.data.machine-learning-clinic.text.heading %}
+{% assign text_text = site.data.machine-learning-clinic.text.text %}
+
+<section class="block block__hero">
+    <div class="container">
+        <div class="hero__head row row--justified row--middle">
+            <a href="{{site.url}}" class="brand">
+                <img class="brand" src="{{ site.data.site.site_logo }}" alt="Logo">
+            </a>
+            {% include menu-trigger.html %}
+            {% include nav-primary.html %}
+        </div>
+
+        <div class="hero__content">
+            {% if hero_title.size >= 1 %}
+                <h1 class="no-margin">{{ hero_title }}</h1>
+            {% endif %}
+
+            {% if hero_content.size >= 1 %}
+                <p>{{ hero_content }}</p>
+            {% endif %}
+
+            {% if hero_link.size >= 1 %}
+                <a href="{{ hero_link }}" class="button button--white">Read More</a>
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+<section class="block block__text block__text--dual-column">
+    <div class="container">
+        {% if text_dual_column_heading.size >= 1 %}
+            <h2 class="section-heading">{{ text_dual_column_heading }}</h2>
+        {% endif %}
+        {% if text_dual_column_content.size >= 1 %}
+            <div class="text__content">
+                {{ text_dual_column_content | markdownify }}
+            </div>
+        {% endif %}
+    </div>
+</section>
+
+<section class="block block__text">
+    <div class="container">
+        {% if text_heading.size >= 1 %}
+            <h2 class="section-heading">{{ text_heading }}</h2>
+        {% endif %}
+        {% if text_text.size >= 1 %}
+            <div class="text__content">
+                {{ text_text | markdownify }}
+            </div>
+        {% endif %}
+    </div>
+</section>

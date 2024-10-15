@@ -1,0 +1,110 @@
+header[role="banner"] {
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+
+    &.header--small {
+
+        .nav-topbar-upper {
+            padding: 1rem 0;
+        }
+
+        .nav-topbar-lower {
+            padding: 1rem 0;
+            background-color: $darker;
+
+            @include bp(desktop-xl) {
+                padding: 2rem 0;
+            }
+        }
+    }
+
+    .nav-topbar-upper {
+        padding: 1.5rem 0;
+        background-color: $darkest;
+        transition: 400ms;
+        will-change: padding;
+
+        @include bp(desktop-xl) {
+            padding: 2rem 0;
+        }
+
+        .university-of-cambridge img {
+            width: 120px;
+            height: auto;
+            display: block;
+
+            @include bp(desktop-xl) {
+                width: 180px;
+            }
+        }
+
+        .cambridge-uni-quicklinks-footer {
+            display: block;
+            font-size: 1.2rem;
+            line-height: normal;
+            font-weight: 700;
+            text-decoration: none;
+            color: $lightest;
+
+            @include bp(tablet) {
+                display: none;
+            }
+        }
+
+        .cambridge-uni-quicklinks {
+            display: none;
+
+            @include bp(tablet) {
+                display: block;
+            }
+
+            a {
+                display: inline-block;
+                font-size: 1.2rem;
+                line-height: normal;
+                font-weight: 700;
+                color: $lightest;
+                text-decoration: none;
+
+                &::after {
+                    content: "|";
+                    margin-left: 1rem;
+                    margin-right: 1rem;
+                    display: inline-block;
+                    color: $lightest;
+                }
+
+                &:last-child {
+                    &::after {
+                        content: "";
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .nav-topbar-lower {
+        padding: 2rem 0;
+        transition: 400ms;
+        will-change: padding-top;
+
+        @include bp(desktop-xl) {
+            padding: 3rem 0 2rem 0;
+        }
+
+        .brand img {
+            width: 160px;
+            height: auto;
+            display: block;
+
+            @include bp(desktop-xl) {
+                width: 210px;
+            }
+        }
+    }
+}

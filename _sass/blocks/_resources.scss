@@ -1,0 +1,97 @@
+.block__resources {
+    margin: 0 0 4rem 0;
+
+    @include bp(desktop) {
+        margin: 0 0 13rem 0;
+    }
+
+    .section-heading {
+        margin-bottom: 4rem;
+
+        @include bp(desktop) {
+            margin-bottom: 5rem;
+        }
+    }
+
+    .resources__filter {
+        margin-bottom: 4rem;
+        padding: 2rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        border-bottom: 1px solid $dark-cream;
+
+        @include bp(desktop) {
+            margin-bottom: 6.5rem;
+            padding: 4rem 0;
+            flex-direction: row;
+            align-items: unset;
+        }
+
+        span {
+            margin: 0 4rem 0 0;
+            font-weight: 700;
+
+            @include bp(desktop) {
+                margin: 0 6rem 0 0;
+            }
+        }
+
+        button {
+            margin: .5rem 0;
+            padding: 0;
+            position: relative;
+            background-color: transparent;
+            border: none;
+            color: $primary-blue;
+            cursor: pointer;
+
+            @include bp(desktop) {
+                margin: 0 6rem 0 0;
+            }
+
+            &::after {
+                content: "";
+                width: 100%;
+                height: 2px;
+                position: absolute;
+                left: 0;
+                bottom: -4px;
+                display: block;
+
+                @include bp(desktop) {
+                    bottom: -8px;
+                }
+            }
+
+            &.active {
+                font-weight: 700;
+            }
+
+            &.all {
+                &::after {
+                    display: none;
+                }
+            }
+
+            &.blue {
+                &::after {
+                    background-color: $blue;
+                }
+            }
+
+            &.green {
+                &::after {
+                    background-color: $green;
+                }
+            }
+
+            &.yellow {
+                &::after {
+                    background-color: $yellow;
+                }
+            }
+        }
+    }
+}

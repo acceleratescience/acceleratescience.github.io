@@ -1,0 +1,80 @@
+---
+layout: page
+title: Get Involved
+---
+
+<section class="block block__hero">
+    <div class="container">
+        <div class="hero__head row row--justified row--middle">
+            <a href="{{site.url}}" class="brand">
+                <img class="brand" src="{{ site.data.site.site_logo }}" alt="Logo">
+            </a>
+            {% include menu-trigger.html %}
+            {% include nav-primary.html %}
+        </div>
+
+        <div class="hero__content">
+            <h1 class="no-margin">Get Involved</h1>
+        </div>
+    </div>
+</section>
+
+<section class="block block__current-opportunities">
+    <div class="container">
+        <div class="row row--justified">
+            <div class="column-m-12-nest column-t-6 column-d-7">
+                <h3 class="section-heading">Join our mailing list</h3>
+                <p>Sign up to the Accelerate Programme for Scientific Discovery’s mailing list to be notified of upcoming courses and opportunities.</p>
+
+                <form
+                    action=https://github.us7.list-manage.com/subscribe/post?u=e1ae062e9b0862bb1f003bc9d&amp;id=4c08e137c3&amp;f_id=004740e4f0
+                    method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                
+                        <div class="mc-field-group"><label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input
+                                type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value=""></div>
+                        <div class="mc-field-group"><label for="mce-FNAME">First Name </label><input type="text" name="FNAME"
+                                class=" text" id="mce-FNAME" value=""></div>
+                        <div class="mc-field-group"><label for="mce-LNAME">Last Name </label><input type="text" name="LNAME"
+                                class=" text" id="mce-LNAME" value=""></div>
+                        <div class="mc-field-group"><label for="mce-MMERGE3">Department/Institute </label><input type="text"
+                                name="MMERGE3" class=" text" id="mce-MMERGE3" value=""></div>
+                        <div class="mc-field-group"><label for="mce-MMERGE4">Current status (e.g. PhD student, postdoc) </label><input
+                                type="text" name="MMERGE4" class=" text" id="mce-MMERGE4" value=""></div>
+                
+                        <input type="hidden" name="tags" value="8979769">
+                
+                        <div aria-hidden="true" style="position: absolute; left: -5000px;"><input type="text" name="b_e1ae062e9b0862bb1f003bc9d_4c08e137c3" tabindex="-1" value=""></div>
+                        <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button button--large" value="Subscribe">
+                </form>
+
+                <h2 class="section-heading">Current Opportunities</h2>
+                <ul class="current-opportunities__list">
+                    {% for item in site.opportunities %}
+                        <li class="current-opportunities__listing">
+                            <h3>{{ item.title }}</h3>
+                            {{ item.excerpt | markdownify }}
+                            <a class="button" href="{{ item.url }}">Read More</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </div>
+            <div class="column-m-12-nest column-t-5 column-d-4">
+                <h2 class="section-heading">Get In Touch</h2>
+                <div class="current-opportunities__contact">
+                    <div class="current-opportunities__contact-address">
+                        <img src="../assets/images/address.svg">
+                        <div>
+                            {{ site.data.site.contact_details.address | markdownify }}
+                        </div>
+                    </div>
+                    <div class="current-opportunities__contact-email">
+                        <img src="../assets/images/email.svg">
+                        <div>
+                            <a href="mailto:{{ site.data.site.contact_details.email }}">{{ site.data.site.contact_details.email }}</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

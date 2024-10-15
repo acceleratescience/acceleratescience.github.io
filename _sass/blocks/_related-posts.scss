@@ -1,0 +1,15 @@
+.block__related-posts {
+    margin: 4rem 0;
+
+    @include bp(desktop) {
+        margin: 13rem 0 6.5rem 0;
+    }
+
+    .section-heading {
+        margin-bottom: 4rem;
+
+        @include bp(desktop) {
+            margin-bottom: 7.5rem;
+        }
+    }
+}
