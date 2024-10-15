@@ -12,6 +12,23 @@
 		margin: 9rem 0;
 	}
 
+	.publications-filter {
+		display: flex;
+		align-items: center;
+		position: sticky;
+		top: 60px;
+		padding: 30px 0 0;
+		background: $lightest;
+		margin-bottom: 80px;
+		border-bottom: 1px solid $regular-grey;
+		z-index: 1;
+
+		label,
+		select {
+			width: 50%;
+		}
+	}
+
 	.posts__featured {
 		margin-bottom: 3rem;
 		padding-bottom: 1rem;

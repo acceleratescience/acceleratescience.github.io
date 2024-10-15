@@ -274,6 +274,25 @@ function resizeCanvas(canvas) {
                         };
                     };
                 });
+                
+                if (document.getElementById("year-filter")) {
+                    function filterByYear() {
+                        var selectedYear = document.getElementById("year-filter").value;
+                        var posts = document.querySelectorAll(".post__post--publication");
+            
+                        posts.forEach(function(post) {
+                            var postYear = post.getAttribute("data-year");
+                            if (selectedYear === "" || postYear === selectedYear) {
+                                post.style.display = "block";
+                            } else {
+                                post.style.display = "none";
+                            }
+                        });
+                    }
+            
+                    // Attach the filterByYear function to the select element
+                    document.getElementById("year-filter").addEventListener("change", filterByYear);
+                }
 
                 // Mobile Trigger to open Mobile Menu
                 $('.menu-trigger').click(function () {
