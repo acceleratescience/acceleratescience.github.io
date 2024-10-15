@@ -73,14 +73,14 @@ layout: page
             </div>
         </div>
         <div class="latest__lower row row--justified">
-            <div class="latest__news column-m-12-nest column-t-8">
+            <div class="latest__news column-m-12-nest column-t-12">
                 <div class="row row--justified">
                     <h2 class="section-heading">Latest News</h2>
                     <a class="button button--large" href="/news">Show All</a>
                 </div>
-                <div class="post__grid post__grid--col2">
+                <div class="post__grid post__grid--col3">
                     {% assign news_items = site.news | sort: 'date' | reverse %}
-                    {% for post in news_items limit:2 %}
+                    {% for post in news_items limit:3 %}
                     {% if post.link != nil %}
                     <a class="post__post post__post--standard" href="{{ post.link }}" rel="noreferrer" target="_blank">
                         {% else %}
@@ -102,11 +102,6 @@ layout: page
                         </a>
                         {% endfor %}
                 </div>
-            </div>
-            <div class="latest__tweets column-m-12-nest column-t-4">
-                <h2 class="section-heading">Latest Tweets</h2>
-                <a class="twitter-timeline" data-height="500" href="https://twitter.com/AccelerateSci?ref_src=twsrc%5Etfw">Tweets by AccelerateSci</a>
-                <script async charset="utf-8" src="https://platform.twitter.com/widgets.js"></script>
             </div>
         </div>
     </div>
