@@ -9,6 +9,6 @@ biography: Ryan is a machine learning engineer and is interested in driving
 image: /assets/uploads/ryan-daniels3.jpg
 institution: University of Cambridge
 department: Department of Computer Science and Technology
-position: Machine Learning Engineer, Accelerate Programme
+position: Senior Machine Learning Engineer, Accelerate Programme
 team: main
 ---
