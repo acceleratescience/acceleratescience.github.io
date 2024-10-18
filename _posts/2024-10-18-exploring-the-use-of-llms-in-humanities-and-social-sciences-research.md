@@ -14,7 +14,7 @@ excerpt: "The rapid advancement of Large Language Models (LLMs) such as
   issues."
 author: Petre Breazu, Senior Research Associate, Department of Theoretical and
   Applied Linguistics
-date: October 18, 2024 12:38 PM
+date: October 18, 2024 12:30 PM
 image: /assets/uploads/petre-breazu-profile.png
 ---
 The rapid advancement of Large Language Models (LLMs) such as ChatGPT-4 is revolutionising research across various disciplines, including the humanities and social sciences. Over the next five years, my research project at the Department of Theoretical and Applied Linguistics will explore the diverse applications of LLMs within these fields. My interdisciplinary project will focus on three key areas: critical analysis of AI-generated narratives in the media sector, enhancing qualitative research methodologies, and improving online hate speech detection. By combining AI technology with the expertise of humanities and social sciences researchers, we aim to uncover new insights, improve research efficiency, and address pressing social issues.
