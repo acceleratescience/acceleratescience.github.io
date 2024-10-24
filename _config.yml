@@ -51,11 +51,9 @@ collections:
     output: true
 
 # Build settings
-remote_theme: aarontlp/accelerate-theme
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-remote-theme
   - jekyll-paginate-v2
 sass:
   sass_dir: _sass
@@ -69,6 +67,9 @@ pagination:
   limit: 0
   sort_field: 'date'
   sort_reverse: true
+
+include:
+  - _redirects
 
 # Exclude from processing.
 # The following items will not be processed, by default.

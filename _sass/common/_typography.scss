@@ -1,0 +1,202 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: $header-font-family;
+    line-height: $header-line-height;
+    margin-bottom: $baseline;
+    margin-top: 0;
+    font-weight: 400;
+    color: $primary-blue;
+}
+
+h5,
+h6 {
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: $h1 / 1.5;
+
+    @include bp(tablet) {
+        font-size: $h1;
+    }
+}
+
+h2 {
+    font-size: $h2 / 1.2;
+
+    @include bp(tablet) {
+        font-size: $h2;
+    }
+}
+
+h3 {
+    font-size: $h3 / 1.2;
+
+    @include bp(tablet) {
+        font-size: $h3;
+    }
+}
+
+h4 {
+    font-size: $h4 / 1.2;
+
+    @include bp(tablet) {
+        font-size: $h4;
+    }
+}
+
+h5 {
+    font-size: $h5;
+}
+
+h6 {
+    font-size: $h6;
+}
+
+p {
+    color: $text-color;
+    font-family: $global-font-family;
+    font-weight: $global-weight-normal;
+    line-height: $baseline;
+    margin-bottom: $baseline;
+}
+
+a {
+    line-height: inherit;
+    color: $text-color;
+
+    &:active {
+        color: $text-color;
+    }
+
+    &:focus {
+        color: $text-color;
+    }
+
+    &:hover {
+        color: darken($text-color, 10%);
+    }
+}
+
+.section-heading {
+    margin-bottom: 1.5rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-family: $header-font-family;
+    font-size: 2.6rem;
+    font-weight: normal;
+    line-height: 3.4rem;
+    color: $darkest;
+
+    @include bp(tablet) {
+        margin-bottom: 2.5rem;
+    }
+
+    &::after {
+        content: "";
+        width: 55px;
+        height: 2px;
+        position: absolute;
+        left: 0;
+        bottom: -8px;
+        background-color: $blue;
+    }
+
+    &.section-heading--alt {
+        font-family: $header-font-family-secondary;
+        font-size: 1.6rem;
+        line-height: 2.4rem;
+        text-transform: uppercase;
+
+        &::after {
+            content: "/";
+            width: auto;
+            height: auto;
+            margin-left: 1rem;
+            position: relative;
+            left: unset;
+            bottom: unset;
+            display: inline-block;
+            background-color: transparent;
+            font-family: $header-font-family-secondary;
+            font-size: 1.6rem;
+            font-weight: normal;
+            line-height: 2.4rem;
+            text-transform: uppercase;
+            color: $blue;
+        }
+    }
+}
+
+// Blockquotes
+blockquote {
+    position: relative;
+    margin: 0 0 4rem;
+    padding: 1rem 4rem;
+    border-left: 8px solid $primary;
+    font-size: 2.8rem;
+
+    &:before {
+        position: absolute;
+        top: -3rem;
+        left: 1rem;
+        content: "“";
+        font-family: georgia, serif;
+        font-weight: bold;
+        color: #f5f5f5;
+        font-size: 15rem;
+        z-index: 0;
+    }
+
+    p {
+        font-size: 2.4rem !important;
+        font-weight: 700;
+        color: $text-color;
+        line-height: 3rem;
+        position: relative;
+        z-index: 1;
+    }
+}
+
+// Citations
+cite {
+    display: block;
+    font-size: $cite-font-size;
+    color: $cite-color;
+
+    &:before {
+        content: $cite-pseudo-content;
+    }
+}
+
+// Abbreviations
+abbr {
+    border-bottom: $abbr-underline;
+    color: $darkest;
+    cursor: help;
+}
+
+strong {
+    font-weight: 700;
+}
+
+// Figures
+figure {
+    margin: 0;
+}
+
+// Horizontal rule
+hr {
+    max-width: 100%;
+    height: 0;
+    margin: $global-margin;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid $light-grey;
+    border-left: 0;
+}

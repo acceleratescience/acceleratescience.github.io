@@ -1,0 +1,17 @@
+<nav class="nav-primary">
+    <span></span>
+    <ul>
+        {% for item in site.data.nav.main_nav %}
+            <li>
+                <a href="{{ item.link }}">{{ item.label }}</a>
+                {% if item.submenu_item != nil %}
+                    <div class="submenu">
+                        {% for item in item.submenu_item. %}
+                            <a href="{{ item.link }}">{{ item.label }}</a>
+                        {% endfor %}
+                    </div>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+</nav>

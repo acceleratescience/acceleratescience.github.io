@@ -1,0 +1,82 @@
+---
+layout: page
+title: Publications
+pagination:
+    enabled: true
+    collection: 'publications'
+    indexpage: 'publications'
+---
+
+<section class="block block__hero">
+    <div class="container">
+        <div class="hero__head row row--justified row--middle">
+            <a href="{{site.url}}" class="brand">
+                <img class="brand" src="{{ site.data.site.site_logo }}" alt="Logo">
+            </a>
+            {% include menu-trigger.html %}
+            {% include nav-primary.html %}
+        </div>
+
+        <div class="hero__content">
+            <h1 class="no-margin">Publications</h1>
+        </div>
+    </div> 
+</section>
+
+<section class="block block__posts">
+    <div class="container">
+
+        <!-- Year Filter Dropdown -->
+        <div class="publications-filter">
+            <label for="year-filter">Filter publications by Year:</label>
+            <select id="year-filter" onchange="filterByYear()">
+                <option value="">All Years</option>
+                {% assign years = site.publications | map: 'published' | sort %}
+                {% assign unique_years = "" %}
+                {% for year in years %}
+                    {% assign year_only = year | slice: 0, 4 %}
+                    {% unless unique_years contains year_only %}
+                        <option value="{{ year_only }}">{{ year_only }}</option>
+                        {% assign unique_years = unique_years | append: year_only | append: "," %}
+                    {% endunless %}
+                {% endfor %}
+            </select>
+        </div>
+  
+        <div class="posts__list post__list" id="publications-list">
+            {% assign items = site.publications | reverse %}
+            {% for post in items %}
+                <a class="post__post post__post--publication" href="{{ post.url }}" data-year="{{ post.published | slice: 0, 4 }}">
+                    <div class="post__post-content">
+                        <h3>{{ post.title }}</h3>
+                        <h4>{{ post.published | replace: "-", "/" }}</h4>
+                        <div class="authors">
+                            {% for author in post.authors.internal_authors %}
+                                {% assign authorName = author %}
+                                {% for person in site.team %}
+                                    {% if person.slug == authorName or person.name == authorName %}
+                                        <p>{{ person.name }},</p>
+                                    {% endif %}
+                                {% endfor %}
+                            {% endfor %}
+                            {% for author in post.authors.external_authors %}
+                                <p>{{ author.given }} {{ author.family }},</p>
+                            {% endfor %}
+                            {% for author in post.authors.consortium_authors %}
+                                <p>{{ author.name }},</p>
+                            {% endfor %}
+                        </div>
+                        {% if post.details.journal != nil or post.published != nil or post.details.pages != nil %}
+                            <p class="journal">{{ post.details.journal }} ({{ post.published | slice: 0, 4 }}) {{ post.details.pages }}</p>
+                        {% endif %}
+                        {% if post.details.doi != nil %}
+                            <p class="doi">DOI: {{ post.details.doi }}</p>
+                        {% endif %}
+                    </div>
+                    <span class="button">Read Paper</span>
+                </a>
+            {% endfor %}
+        </div>
+
+    </div>
+</section>

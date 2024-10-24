@@ -1,0 +1,41 @@
+---
+layout: page
+title: Privacy Policy
+---
+
+{% assign hero_title = site.data.terms_of_service.hero.title %}
+{% assign hero_content = site.data.terms_of_service.hero.content %}
+{% assign hero_link = site.data.terms_of_service.hero.link %}
+{% assign terms_of_service = site.data.terms_of_service.content.body %}
+
+<section class="block block__hero">
+    <div class="container">
+        <div class="hero__head row row--justified row--middle">
+            <a href="{{site.url}}" class="brand">
+                <img class="brand" src="{{ site.data.site.site_logo }}" alt="Logo">
+            </a>
+            {% include menu-trigger.html %}
+            {% include nav-primary.html %}
+        </div>
+
+        <div class="hero__content">
+            {% if hero_title.size >= 1 %}
+                <h1 class="no-margin">{{ hero_title }}</h1>
+            {% endif %}
+
+            {% if hero_content.size >= 1 %}
+                <p>{{ hero_content }}</p>
+            {% endif %}
+
+            {% if hero_link.size >= 1 %}
+                <a href="{{ hero_link }}" class="button button--white">Read More</a>
+            {% endif %}
+        </div>
+    </div>
+</section>
+
+<section class="block block__text">
+    <div class="container">
+        {{ terms_of_service | markdownify }}
+    </div>
+</section>

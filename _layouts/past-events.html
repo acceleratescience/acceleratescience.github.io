@@ -1,0 +1,49 @@
+---
+layout: page
+title: Past Events
+---
+
+<section class="block block__hero">
+    <div class="container">
+        <div class="hero__head row row--justified row--middle">
+            <a href="{{site.url}}" class="brand">
+                <img class="brand" src="{{ site.data.site.site_logo }}" alt="Logo">
+            </a>
+            {% include menu-trigger.html %}
+            {% include nav-primary.html %}
+        </div>
+
+        <div class="hero__content">
+            <h1 class="no-margin">Past Events</h1>
+            <a class="button button--white" href="/events.html">View upcoming events</a>
+        </div>
+    </div>
+</section>
+
+<section class="block block__posts">
+    <div class="container">
+        {% assign filtered_events = site.events | past: "end" | sort_by_date: "start" | reverse %}
+
+        <div class="posts__grid post__grid">
+            {% for post in filtered_events %}
+                <a class="post__post post__post--standard" href="{{ post.url }}">
+                    <div class="post__post-thumbnail">
+                        <img src="{{ post.image }}">
+                    </div>
+                    <div class="post__post-content">
+                        <h3>{{ post.title }}</h3>
+                                <p class="date">Starts:
+                                    {{ post.start | date: '%Y/%m/%d' }}
+                                    at
+                                    {{ post.start | date: '%H:%M' }}</p>
+                                <p class="date">Ends:
+                                    {{ post.end | date: '%Y/%m/%d' }}
+                                    at
+                                    {{ post.end | date: '%H:%M' }}</p>
+                        <span class="button">Read More</span>
+                    </div>
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+</section>
