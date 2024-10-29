@@ -45,7 +45,7 @@ The Academy will take place over the course of a year, during which participants
 
 This learning pathway is designed for people already comfortable with Python and data processing in Pandas. The course covers advanced material and topics and so is suitable for those with a working knowledge of machine learning methods. 
 
-The course is open to PhD students and research staff who will be members of the University of Cabridge for the duration of the course (January 2025 – January 2026).
+The course is open to PhD students and research staff who will be members of the University of Cambridge for the duration of the course (January 2025 – January 2026).
 
 *When will this take place?*
 
