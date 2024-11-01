@@ -11,14 +11,15 @@ On Monday 25 and Tuesday 26 November  the Accelerate Programme for Scientific Di
 Confirmed speakers and panellists include:
 
 * Professor Anil Madhavapeddy, University of Cambridge
-  Professor Ciira Maina, Dedan Kimathi University of Technology, Kenya
-  Professor Erik Melén, Karolinska Institute
-  Professor Stephen Roberts, University of Oxford
-  Professor Anna Scaife, University of Manchester
-  Professor Carola Schonlieb, University of Cambridge
-  Dr Heloise Stevance, University of Oxford
-  Professor Max Welling, University of Amsterdam
-  Professor Sophia Yaliraki, Imperial College London
+* Professor Miles Cranmer, University of Cambridge 
+* Professor Ciira Maina, Dedan Kimathi University of Technology, Kenya
+* Professor Erik Melén, Karolinska Institute
+* Professor Stephen Roberts, University of Oxford
+* Professor Anna Scaife, University of Manchester
+* Professor Carola Schonlieb, University of Cambridge
+* Dr Heloise Stevance, University of Oxford
+* Professor Max Welling, University of Amsterdam
+* Professor Sophia Yaliraki, Imperial College London
 
 The meeting will be held in person at Magdalene College, Cambridge and available online for those joining remotely. 
 
