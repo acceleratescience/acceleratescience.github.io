@@ -18,7 +18,7 @@ authors:
     - Sam Nallaperuma
     - Timo Hromadka
     - "Haochen Liu "
-    - Hongyu Zhou
+    - "Kevin Monteiro "
 ---
 Digital twins have been disruptive in many sectors with their capabilities to simulate complex scenarios in a fast, low-cost manner compared to physical mock-ups. It is predicted that digital twins will be dominant in the health care sector with their potential in assisting early diagnosis and personalised treatment recommendation. This project aims to develop digital twin models for the human brain enriched with the foundations of neuroscience, psychiatry, and network science as well as learning from real world data in the context of sleep disorders. 
 
