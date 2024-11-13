@@ -4,7 +4,7 @@ title: AI Clinic
 excerpt: The AI Clinic seeks to support Cambridge University researchers using
   AI in their research, by helping resolve engineering issues they might
   encounter when implementing machine learning methods.
-permalink: /opporunities/ai-clinic/
+permalink: /opportunities/ai-clinic/
 ---
 The AI Clinic seeks to support Cambridge University researchers using AI in their research, by helping resolve engineering issues they might encounter when implementing machine learning methods. 
 
