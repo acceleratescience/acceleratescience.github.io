@@ -22,9 +22,10 @@ title: Events
 
 <section class="block block__posts">
     <div class="container">
-        {% assign events = site.events | upcoming: "start" | sort_by_date: "start" | reverse %}
+        {% assign events = site.events | upcoming: "start" | sort_by_date: "start" %}
 
         {% if events.size > 0 %}
+
         <div class="posts__grid post__grid">
             {% for post in events %}
 
