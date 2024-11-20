@@ -31,3 +31,5 @@ Conference dinner from 19:00
 Tuesday 26 November 10:00 - 15:00
 
 R﻿egister to attend [here. ](https://forms.office.com/Pages/ResponsePage.aspx?id=RQSlSfq9eUut41R7TzmG6SaVOxbmBOdAg9GzbnrB5IRUOU83MVQ0ODBFTTlOUTJDNTNPWUlQSkw1Vy4u)
+
+D﻿etails of the programme can be found [here.](science.ai.cam.ac.uk/assets/uploads/ai-for-science-summit-programme-25-26-november-2024.pdf)
