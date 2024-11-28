@@ -21,15 +21,11 @@ Stroke is a leading cause of adult death and disability in the UK and worldwide.
 
 Working with Professor James Rudd and Professor Carola Schönlieb at CMIH, I co-lead a team of researchers developing machine learning methodology to predict response to treatments based on brain scans alongside information such as age, stroke severity and pre-existing illnesses. Improving the accuracy of decision making is important for effective resource allocation and informing discussions between clinicians and families or carers. Expediting the decision-making process will also help reduce disparities in treatment provision across different areas and diverse patient groups.
 
-
 Computers can be trained to identify patterns in large sets of information using machine learning (ML). Our project applies these tools on brain scans and clinical information extracted from electronic health records to improve prediction of how an individual patient will respond to treatment. We are currently developing this approach in a group of nearly 700 stroke patients who received thrombolysis or thrombectomy for stroke at Addenbrooke’s hospital.
-
 
 **A data-driven approach**
 
-
 Our project integrates brain scans and clinical data extracted from electronic health records linking with the Cardiovascular eHospital Research Database [(eCamCVD)](https://www.hra.nhs.uk/planning-and-improving-research/application-summaries/research-summaries/cardiovascular-ehospital-research-database-ecamcvd-v1/). 
-
 
 A key aim of the project was to streamline data retrieval and establish workflows to allow further analysis and application of ML models. The Accelerate - C2D3 funding made this step possible by enabling us to hire a dedicated research associate to work on the project and establish the data pipeline central to our work.  Furthermore, the imaging data was standardised and refined to enable application of machine learning models which we are currently exploring. 
 
@@ -45,4 +41,4 @@ We will also test our approach in a different group of patients across East Angl
 
 An artificial intelligence-derived decision support tool to predict outcomes from early stroke treatments patients would help clinicians and could be used to give individual patients and their families a better idea of outcomes, so we can provide the best and targeted care from the start.
 
-*T﻿his project was funded though the 2023 Accelerate-C2D3 funding call for novel applications of Ai for research and innovation. You can read more about other funded projects [here.](https://science.ai.cam.ac.uk/news/2023-10-26-pursuing-innovative-applications-of-ai-in-research-and-real-world-contexts-%E2%80%93-announcing-our-2023-projects.html)*
+*T﻿his project was funded though the 2023 Accelerate-C2D3 funding call for novel applications of AI for research and innovation. You can read more about other funded projects [here.](https://science.ai.cam.ac.uk/news/2023-10-26-pursuing-innovative-applications-of-ai-in-research-and-real-world-contexts-%E2%80%93-announcing-our-2023-projects.html)*
