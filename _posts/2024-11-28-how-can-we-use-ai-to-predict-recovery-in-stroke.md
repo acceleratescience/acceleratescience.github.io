@@ -15,7 +15,7 @@ author: Dr. Smriti Agarwal, Consultant Neurologist, Department of Stroke
   Heart & Lung Research Institute (HLRI)/Cambridge Mathematics of Information in
   Healthcare (CMIH) Hub, University of Cambridge
 date: November 28, 2024 11:48 AM
-image: /assets/uploads/profile-photo-sa.jpg
+image: /assets/uploads/profile-photo-sa-2.jpg
 ---
 Stroke is a leading cause of adult death and disability in the UK and worldwide. Over 80% of strokes are due to blood clots in the arteries supplying the brain. Treatments to open up blocked arteries, by an injection of a clot-busting drug (thrombolysis) or a procedure to remove clots (thrombectomy) soon after a stroke, have transformed what we can offer to patients.  However, despite effective treatments, 1 in 4 patients in clinical trials recover poorly from their stroke.  Predicting an outcome for an individual patient relies on a number of factors, including severity of stroke and what their brain looks like on a scan.  
 
