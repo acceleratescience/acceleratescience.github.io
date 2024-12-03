@@ -13,6 +13,6 @@ image: /assets/uploads/dinithi_sumanaweera.jpg
 institution: University of Cambridge
 department: Cambridge Stem Cell Institute
 position: Research Associate
-team: main
+team: alumni
 supervisor: Sarah Teichmann
 ---
