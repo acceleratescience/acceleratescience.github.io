@@ -12,7 +12,7 @@ excerpt: >-
 author: Eleanor Wolmark, Programme Manager of the Mark Foundation Institute for
   Integrated Cancer Medicine at the CRUK Cambridge Centre
 date: December 5, 2024 9:58 AM
-image: /assets/uploads/ellie-wolmark-blog-1-.jpg
+image: /assets/uploads/ellie-wolmark-blog-2-.jpg
 ---
 About half of us will be diagnosed with some form of cancer in our lifetime . Currently, patient data is held in different silos and between different institutions, making it difficult for researchers and clinicians to learn more about cancers and treat them.
 
