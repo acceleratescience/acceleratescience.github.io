@@ -4,9 +4,8 @@ title: Exploring Novel Applications of AI for Research and Innovation –
   announcing our 2024 funded projects
 excerpt: >-
   We are delighted to announce the 13 projects funded through this years’
-  Accelerate Science and [Cambridge Centre for Data Driven Discovery
-  (C2D3)](https://www.c2d3.cam.ac.uk/) funding call.
-
+  Accelerate Science and Cambridge Centre for Data Driven Discovery (C2D3)
+  funding call.
 
 
   This year’s call took place over the summer and received over 100 applications from teams across the University. Successfully deploying AI to tackle real-world challenges requires effective interdisciplinary collaboration, supported by time and resources to bring together potential research partners, develop new AI tools and software toolkits, and develop new skills or networks. Recognising that this work often falls outside the scope of routine funding calls, the Accelerate and C2D3 funding programme aims to help to fill this gap by offering small grants that can be deployed flexibly.
