@@ -96,8 +96,10 @@ Ovarian cancer is the most lethal gynaecologic malignancy, with less than half o
 *AI-powered Demand Forecasting for Enhanced Healthcare Resource Allocation in the NHS*
 
 
-*Feryal Erhun, Professor of Operations and Technology Management, Judge Business School
-Zidong Liu, PhD Student, Judge Business School*
+*Feryal Erhun, Professor of Operations and Technology Management, Judge Business School*
+
+
+*Zidong Liu, PhD Student, Judge Business School*
 
 
 This proof-of-concept project explores the potential of AI in predicting and managing healthcare demand across the UK's primary and secondary care sectors. The NHS grapples with escalating service demand due to an ageing population and resource constraints, exacerbated by the COVID-19 pandemic. This project addresses these challenges by developing predictive models that accurately forecast healthcare demand, enabling proactive resource allocation and improved patient outcomes.
@@ -105,15 +107,19 @@ This proof-of-concept project explores the potential of AI in predicting and man
 \
 *Exploring Interdisciplinary Frontiers: Cognitive Science, Computational Modeling, and Artificial Intelligence*
 
-*Runhao Lu, PhD student (Gates Cambridge Scholar), MRC Cognition and Brain Sciences Unit
-Alexandra Woolgar, Programme Leader, MRC Cognition and Brain Sciences Unit*
+*Runhao Lu, PhD student (Gates Cambridge Scholar), MRC Cognition and Brain Sciences Unit*
+
+
+*Alexandra Woolgar, Programme Leader, MRC Cognition and Brain Sciences Unit*
 
 This project aims to foster academic exchange and collaboration among leading scholars and early career researchers in the UK and EU, within the fields of AI, cognitive neuroscience, psychology, philosophy, computer science, and robotics. By facilitating partnerships between institutions, the team aim to advance both AI’s role in understanding brain function and how neuroscience can inspire new AI frameworks. Through interdisciplinary collaboration, the project seeks to bridge the gap between these rapidly evolving fields, driving innovative solutions and expanding the impact of cognitive science and related domains. 
 
 *Voice in the Machine: Harnessing Speech AI for Naturalistic Prosody in Audiological Assessment*
 
 
-*Alexis Deighton MacIntyre, Research Fellow (Leverhulme Trust), MRC Cognition and Brian Sciences Unit*\
+*Alexis Deighton MacIntyre, Research Fellow (Leverhulme Trust), MRC Cognition and Brian Sciences Unit*
+
+\
 *Lidea Shahidi, Research Associate, MRC Cognition and Brain Sciences Unit*
 
 
@@ -122,8 +128,10 @@ Auditory disabilities affect people from all walks of life, and the World Health
 *AI meets cultural heritage – Non-invasive imaging and machine learning techniques for the reconstruction of degraded historical sheet music*
 
 
-*Anna Breger, Senior Postdoctoral Researcher, Department of Applied Mathematics and Theoretical Physics
-Carola-Bibiane Schönlieb, Professor of Applied Mathematics,  Head of Cambridge Image Analysis group, Department of Applied Mathematics and Theoretical Physics*
+*Anna Breger, Senior Postdoctoral Researcher, Department of Applied Mathematics and Theoretical Physics*
+
+
+*Carola-Bibiane Schönlieb, Professor of Applied Mathematics,  Head of Cambridge Image Analysis group, Department of Applied Mathematics and Theoretical Physics*
 
 
 This project will explore the possibilities, challenges and limitations of imaging and machine learning methods for reconstructing degraded historical sheet music. Such degradations may happen due to chemical or physical damage. The project team will form a novel collaboration network spanning libraries, imaging laboratories and AI imaging researchers. Samples will be selected of musical manuscripts of historical interest and the team will employ advanced imaging systems to scan these manuscripts and apply standard as well as newly developed, advanced machine learning methods to reconstruct the degraded parts. 
@@ -131,8 +139,10 @@ This project will explore the possibilities, challenges and limitations of imagi
 *Mitigating Confounding Variables in MRE Brain Imaging through Domain-Invariant Contrastive Learning*
 
 
-*Jakob Träuble, PhD Student, Department of Chemical Engineering and Biotechnology
-Gabriele Kaminski Schierle, Professor in Molecular Biotechnology, Department of Chemical Engineering and Biotechnology*
+*Jakob Träuble, PhD Student, Department of Chemical Engineering and Biotechnology*
+
+
+*Gabriele Kaminski Schierle, Professor in Molecular Biotechnology, Department of Chemical Engineering and Biotechnology*
 
 
 Magnetic Resonance Elastography (MRE) is a promising brain imaging technique that measures the mechanical properties of brain tissue and shows potential for detecting neurological changes earlier than traditional MRI. However, its broader application is hindered by significant variability in datasets that distort machine learning models trained on such data. This project tackles this issue by developing an ML framework to account for and reduce the influence of these confounding variables with the goal to establish a more reliable framework for analysing MRE data, potentially improving the early diagnosis and treatment of neurological diseases.
@@ -140,8 +150,10 @@ Magnetic Resonance Elastography (MRE) is a promising brain imaging technique tha
 *Online training of large-scale Fortran-based hybrid computational science models, with applications in climate science*
 
 
-*Joe Wallwork, Research Software Engineer, Institute of Computing for Climate Science (ICCS), University Information Services
-Jack Atkinson, Senior Research Software Engineer, Institute of Computing for Climate Science (ICCS)*
+*Joe Wallwork, Research Software Engineer, Institute of Computing for Climate Science (ICCS), University Information Services*
+
+
+*Jack Atkinson, Senior Research Software Engineer, Institute of Computing for Climate Science (ICCS)*
 
 
 Many fields make use of large-scale Fortran codes that have been developed over decades through international research efforts, for example numerical weather and climate prediction. Recent advances in machine learning have opened up several exciting opportunities to advance these models. However, this presents a significant software challenge as much machine learning is conducted in Python.  The team has developed a software solution - FTorch - that allows Python-based ML models written in PyTorch to be easily interfaced with Fortran codebases. This project seeks to extend the functionality of this software to facilitate online training of models.
