@@ -45,7 +45,7 @@ Many researchers work in large scientific collaborations where they must process
 
 *Multi-modal Foundation Models for the Early Detection of Neurodegenerative Diseases*
 
-Zhongying Deng, Post-doctoral Research Associate at the Department of Applied Mathematics and Theoretical Physics
+*Zhongying Deng, Post-doctoral Research Associate at the Department of Applied Mathematics and Theoretical Physics*
 
 Neurodegenerative diseases like Alzheimer’s and Parkinson’s are chronic, incurable conditions that gradually impair brain function. Current diagnostic methods often rely on a single type of data, limiting their ability to detect only a single neurodegenerative disease. This project addresses this limitation by using multi-modal data, e.g., MRI, PET, and genomics data, to train large-scale foundation models to improve early detection. 
 
