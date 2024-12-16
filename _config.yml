@@ -31,6 +31,9 @@ url: "https://science.ai.cam.ac.uk/" # the base hostname & protocol for your sit
 twitter_username: jekyllrb
 github_username:  jekyll
 
+# Set Jekyll to accept future dates
+future: true
+
 # Collections
 collections:
   blog:
