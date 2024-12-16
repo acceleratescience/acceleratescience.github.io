@@ -9,4 +9,4 @@ Writing research software in Python presents numerous challenges to reproducibil
 
 Open to all postgraduate students and research staff.
 
-M﻿ore information and registration will be available soon.
+Find out more and register [here.](https://www.training.cam.ac.uk/apsci/event/5586242)
