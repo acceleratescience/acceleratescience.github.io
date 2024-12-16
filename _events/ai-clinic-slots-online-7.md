@@ -15,4 +15,4 @@ No matter your level of experience with AI, we invite you to book a session and 
 
 The clinic is open at any time for support so if you want to get in touch before your session or to book an earlier time, please email accelerate-mle@cst.cam.ac.uk.
 
-Bookable slots will be available soon.
+Bookable slots are available [here.](https://www.training.cam.ac.uk/apsci/event/5598182)
