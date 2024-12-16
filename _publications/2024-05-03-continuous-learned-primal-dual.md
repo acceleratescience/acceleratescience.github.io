@@ -17,6 +17,6 @@ authors:
     - family: Schonlieb
       given: C.B.
 details:
-  doi: 10.48550/arXiv.2405.02478 Focus to learn more
+  doi: 10.48550/arXiv.2405.02478
   arxiv: "2405.02478v1 "
 ---
