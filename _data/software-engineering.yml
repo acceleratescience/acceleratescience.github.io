@@ -35,3 +35,6 @@ resources:
   - introducing-data-science-for-science
   - machine-learning-for-science-jupyter-notebooks
   - ai-and-large-language-models-workshop
+  - an-introduction-to-diffusion-models-in-generative-ai
+  - an-introduction-to-docker
+  - publishing-and-packaging-python-code-for-research
