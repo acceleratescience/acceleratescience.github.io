@@ -32,7 +32,7 @@ twitter_username: jekyllrb
 github_username:  jekyll
 
 # Set Jekyll to accept future dates
-future: true
+future: false
 
 # Collections
 collections:
