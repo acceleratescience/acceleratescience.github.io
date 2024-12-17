@@ -696,7 +696,8 @@ collections:
         default: ""
         date_format: "DD/MM/YYYY" # e.g. 24.12.2021
         time_format: "HH:mm" # e.g. 21:07
-        format: "LLL"
+        # format: "LLL"
+        format: "YYYY-MM-DDTHH:mm:ssZ"
         picker_utc: false
       - label: "Category"
         name: "categories"
@@ -756,7 +757,8 @@ collections:
         default: ""
         date_format: "DD/MM/YYYY" # e.g. 24.12.2021
         time_format: "HH:mm" # e.g. 21:07
-        format: "LLL"
+        # format: "LLL"
+        format: "YYYY-MM-DDTHH:mm:ssZ"
         picker_utc: false
       - label: 'Image'
         name: 'image'
