@@ -79,7 +79,11 @@ layout: page
                     <a class="button button--large" href="/news">Show All</a>
                 </div>
                 <div class="post__grid post__grid--col3">
-                    {% assign news_items = site.news | sort: 'date' | reverse %}
+                    <!-- {% assign news_items = site.news | sort: 'date' | reverse %} -->
+
+                    {% assign current_date = site.time | date: '%Y-%m-%d %H:%M:%S' %}
+                    {% assign news_items = site.news | where_exp: "item", "item.date <= current_date" | sort: 'date' | reverse %}
+
                     {% for post in news_items limit:3 %}
                     {% if post.link != nil %}
                     <a class="post__post post__post--standard" href="{{ post.link }}" rel="noreferrer" target="_blank">
