@@ -79,28 +79,42 @@ layout: page
                     <a class="button button--large" href="/news">Show All</a>
                 </div>
                 <div class="post__grid post__grid--col3">
-                    {% assign news_items = site.news | sort: 'date' | reverse %}
+                    {% assign current_date = site.time | date: '%Y-%m-%d %H:%M:%S' %}
+                    {% assign formatted_news = "" | split: "" %}
+                
+                    <!-- Preprocess news items to exclude future posts -->
+                    {% for item in site.news %}
+                        {% assign item_date = item.date | date: '%Y-%m-%d %H:%M:%S' %}
+                        {% if item_date <= current_date %}
+                            {% assign formatted_news = formatted_news | push: item %}
+                        {% endif %}
+                    {% endfor %}
+                
+                    <!-- Sort filtered news items by date in reverse order -->
+                    {% assign news_items = formatted_news | sort: 'date' | reverse %}
+                
+                    <!-- Loop through the filtered and sorted news items -->
                     {% for post in news_items limit:3 %}
-                    {% if post.link != nil %}
-                    <a class="post__post post__post--standard" href="{{ post.link }}" rel="noreferrer" target="_blank">
+                        {% if post.link != nil %}
+                        <a class="post__post post__post--standard" href="{{ post.link }}" rel="noreferrer" target="_blank">
                         {% else %}
                         <a class="post__post post__post--standard" href="{{ post.url }}">
-                            {% endif %}
+                        {% endif %}
                             <div class="post__post-thumbnail">
                                 {% if post.image != nil %}
                                 <img src="{{ post.image }}">
                                 {% else %}
-                                <img class="placeholder-image" src="{{site.baseurl}}/assets/images/placeholder.png">
-                                {% endif; %}
+                                <img class="placeholder-image" src="{{ site.baseurl }}/assets/images/placeholder.png">
+                                {% endif %}
                             </div>
                             <div class="post__post-content">
                                 <h4>{{ post.category | replace: "-", " " | replace: "[", "" | replace: "]", "" | replace: '"', "" }}</h4>
-                                <h3>{{ post.title}}</h3>
+                                <h3>{{ post.title }}</h3>
                                 <p class="date">{{ post.date | date: "%-d %B %Y" }}</p>
                                 <span class="button">Read More</span>
                             </div>
                         </a>
-                        {% endfor %}
+                    {% endfor %}
                 </div>
             </div>
         </div>
