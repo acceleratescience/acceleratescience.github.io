@@ -17,7 +17,7 @@ author: "Radzim Sendyka,     Research Assistant, Department of Computer Science
   and Technology, Accelerate Programme for Scientific Discovery "
 date: 2024-12-19T15:00:00+00:00
 teaser: /assets/uploads/data-visualisation.png
-image: /assets/uploads/blog-image-radzim-sendyka.png
+image: /assets/uploads/radzim-sendyka-blog.jpg
 ---
 *A﻿bove image shows graphical representation of connections between tablets and personal names, presented in the user interface. Yellow nodes are ancient tablets, connected with blue nodes representing the people who lived during that time, and are mentioned in the tablet texts.*
 
