@@ -3,7 +3,7 @@ layout: event-single
 title: Neuroscience AI Café
 start: January 16, 2025 3:00 PM
 end: January 16, 2025 5:00 PM
-image: /assets/uploads/updated-image.png
+image: /assets/uploads/ai-cafe-with-cind.jpg
 ---
 The Accelerate Programme for Scientific Discovery and Centre for Integrative Neuroscience Discovery (CIND) are pleased to invite you to an AI café on Thursday 16 January from 15:00 - 17:00. 
 
