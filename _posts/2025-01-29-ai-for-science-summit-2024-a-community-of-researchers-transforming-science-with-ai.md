@@ -8,7 +8,7 @@ excerpt: Over 100 researchers converged at Magdalene College in November 2024
   future of AI in scientific research.
 date: 2025-01-29T09:55:23+00:00
 teaser: ""
-image: /assets/uploads/blogpost-photo-collage.jpg
+image: /assets/uploads/blogpost-photo-collage-2.jpg
 ---
 **AI Powers Scientific Breakthroughs**
 
