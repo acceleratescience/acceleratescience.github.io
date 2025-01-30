@@ -15,7 +15,7 @@ Cambridge’s GLAM institutions (galleries, libraries, archives, and museums) ho
 
 To address these challenges, the AI for Cultural Heritage Hub (ArCH) will deploy the convening power of Cambridge’s distributed network of collections to create a secure workspace and Community of Practice to empower non-technical users (practitioners and academics) to analyse cultural heritage data securely with AI tools. By encouraging collaboration among curators, researchers, IT professionals, and AI experts, the new hub will prototype adaptive AI solutions to enhance understanding of collections and identify a selection of AI tools to address these problems.
 
-This project is supported by Accelerate Science and ai@cam, the University's flagship mission on on AI for science, citizens and society. 
+This project is supported by Accelerate Science and [ai@cam](https://ai.cam.ac.uk/), the University's flagship mission on on AI for science, citizens and society. 
 
 T﻿his challenge led programme is part of the [AI-deas initiative](https://ai.cam.ac.uk/initiatives/ai-deas), ai@cam’s incubator for challenge-led AI research that tackles major scientific and societal challenge.
 
