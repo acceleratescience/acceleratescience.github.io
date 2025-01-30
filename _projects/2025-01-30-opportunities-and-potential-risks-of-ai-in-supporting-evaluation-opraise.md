@@ -19,11 +19,11 @@ T﻿his challenge led programme is part of the [AI-deas initiative](https://ai.c
 
 **Project contributors:**
 
-* Deborah Talmi, Associate Professor, Department of Psychology, University of Cambridge
-* Isla Fay, User Experience Researcher,University Information Services, University of Cambridge
-* Ruth Walker, Chair of the Cambridge Higher Education Research Ethics Committee and Senior Teaching Associate at the Cambridge Centre for Teaching and Learning, University of Cambridge
-* Roni Tibon, Fellow of the Higher Education Academy, Assistant Professor, School of Psychology, University of Nottingham
-* Alexandru Marcoci, Assistant Professor, Politics and International Relations, University of Nottingham and Centre for the Study of Existential Risk, University of Cambridge, UKRI Policy Fellow at the Department for Science, Innovation and Technology and co-director Institue for Replication
-* Maryam Abo-Tabik, Lecturer, School of Engineering and Computing, University of Central Lancashire
-* Yael Benn, Senior Lecturer and Equality and Diversity Lead, Department of Psychology, Manchester Metropolitan University 
-* Giulio Corsi, Research Associate, Leverhulme Centre for the Future of Intelligence, University of Cambridge
+* Deborah Talmi
+* Isla Fay
+* Ruth Walker
+* Roni Tibon
+* Alexandru Marcoci
+* Maryam Abo-Tabik
+* Yael Benn
+* Giulio Corsi
