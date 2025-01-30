@@ -13,6 +13,10 @@ As AI continues to advance, concerns are growing about its impact on traditional
 
 OpRaise (opportunities and potential risks of AI in supporting evaluation) aims to transform higher education assessment by establishing an evidence-based framework for integrating AI into academic evaluation processes. To do this, the winning team will systematically analyse a comprehensive corpus of university essays from summative assessments in UK Universities. The team will compare expert academic evaluations against assessments from multiple AI systems, varying prompting strategies to optimise AI performance. By analysing the differences between human and AI assessments the goal is to develop targeted interventions to enhance AI effectiveness.
 
+This project is supported by Accelerate Science and ai@cam, the University's flagship mission on on AI for science, citizens and society. 
+
+T﻿his challenge led programme is part of the [AI-deas initiative](https://ai.cam.ac.uk/initiatives/ai-deas), ai@cam’s incubator for challenge-led AI research that tackles major scientific and societal challenge.
+
 **Project contributors:**
 
 * Deborah Talmi, Associate Professor, Department of Psychology, University of Cambridge
@@ -23,7 +27,3 @@ OpRaise (opportunities and potential risks of AI in supporting evaluation) aims 
 * Maryam Abo-Tabik, Lecturer, School of Engineering and Computing, University of Central Lancashire
 * Yael Benn, Senior Lecturer and Equality and Diversity Lead, Department of Psychology, Manchester Metropolitan University 
 * Giulio Corsi, Research Associate, Leverhulme Centre for the Future of Intelligence, University of Cambridge
-
-This project is supported by Accelerate Science and ai@cam, the University's flagship mission on on AI for science, citizens and society. 
-
-T﻿his challenge led programme is part of the [AI-deas initiative](https://ai.cam.ac.uk/initiatives/ai-deas), ai@cam’s incubator for challenge-led AI research that tackles major scientific and societal challenge.
