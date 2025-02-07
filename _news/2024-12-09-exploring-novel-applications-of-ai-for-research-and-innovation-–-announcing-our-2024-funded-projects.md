@@ -77,6 +77,8 @@ OCD is a complex and heterogeneous condition, where comorbidities such as Autism
 
 *Dr Golnar Mahani, Research Associate, Department of Oncology, Cancer Research UK, Cambridge Institute and Early Cancer Institute*
 
+*Dr Mireia Crispin-Ortuzar, Assistant Professor and Group Leader, Department of Oncology*
+
 Ovarian cancer is the most lethal gynaecologic malignancy, with less than half of patients surviving five years post-diagnosis. This poor prognosis reflects lack of early detection strategies as well as rapid emergence of chemoresistance. This project aims to develop new early detection strategies by focusing on endometriosis-associated ovarian cancer (EAOC). By reconstructing patient journeys using large language models the project aims to identify potential EAOC cohorts and gain critical insights into early signs of malignancy.
 
 *AI-powered Demand Forecasting for Enhanced Healthcare Resource Allocation in the NHS*
