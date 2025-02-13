@@ -9,7 +9,7 @@ excerpt: >-
 
   With the increase in AI-generated imagery using models such as Dall-E, Midjourney and Sora and research applications such as AlphaFold, there has been a surge in workflows incorporating models like Stable Diffusion. These models have potential in research applications including drug discovery, weather forecasting, synthetic speech and medical imaging.
 ---
-A [collection of resources](https://docs.science.ai.cam.ac.uk/diffusion-models/) for researchers interested in using Diffusion Models in their research. 
+A [collection of resources](https://github.com/acceleratescience/diffusion-models) for researchers interested in using Diffusion Models in their research. 
 
 With the increase in AI-generated imagery using models such as Dall-E, Midjourney and Sora and research applications such as AlphaFold, there has been a surge in workflows incorporating models like Stable Diffusion. These models have potential in research applications including drug discovery, weather forecasting, synthetic speech and medical imaging.
 
