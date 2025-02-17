@@ -3,7 +3,7 @@ layout: event-single
 title: "AI Clinic - Library Hub Help Session (West Hub) "
 start: March 19, 2025 10:00 AM
 end: March 19, 2025 1:00 PM
-image: /assets/uploads/2025-03-19-ai-clinic-library-hub-help-session.jpg
+image: /assets/uploads/2025-03-19-ai-clinic-library-hub-help-session-1-.jpg
 ---
 Have you thought about using AI in your research but aren’t sure how to get started? Or are you already using AI and have run into challenges with implementation? Come and meet Accelerate Science’s team of AI experts to find the support you need.
 
