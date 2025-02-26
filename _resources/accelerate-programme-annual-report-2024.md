@@ -10,5 +10,5 @@ excerpt: 2024 has brought a new wave of excitement about the potential of AI for
   programme, we’ve delivered a step-change in our engagement with the Cambridge
   AI for science community. We are pleased to share our 2024 report that
   introduces the highlights from this work.
-link: science.ai.cam.ac.uk/assets/uploads/apsci-annual-report-2024.pdf
+link: /assets/uploads/apsci-annual-report-2024.pdf
 ---
