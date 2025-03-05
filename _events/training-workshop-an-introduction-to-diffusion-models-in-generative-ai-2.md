@@ -3,7 +3,7 @@ layout: event-single
 title: "Training Workshop: An Introduction to Diffusion Models in Generative AI"
 start: May 2, 2025 9:30 AM
 end: May 2, 2025 5:00 PM
-image: /assets/uploads/website-icon-04.03.25-diffusion-models.jpg
+image: /assets/uploads/website-icon-02.05.25-diffusion-models.jpg
 link_to: https://www.training.cam.ac.uk/apsci/event/5691056
 ---
 With the increase in AI-generated imagery using models such as Dall-E, Midjourney and Sora and research applications such as AlphaFold, there has been a surge in workflows incorporating models like Stable Diffusion. These models have potential in research applications including drug discovery, weather forecasting, synthetic speech and medical imaging.
