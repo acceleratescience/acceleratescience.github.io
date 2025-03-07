@@ -10,9 +10,9 @@ category:
 image: /assets/uploads/scott-webb-ahhhdkup77m-unsplash.jpg
 authors:
   internal_authors:
-    - Hongyu Zhou
-    - Jess Montgomery
     - Neil D. Lawrence
+    - Jess Montgomery
+    - Hongyu Zhou
 ---
 Science drives solutions to humanity’s most complex challenges. Building a meta understanding of scientific systems—how they operate, evolve, and self-regulate—is essential, particularly as AI's role in research practices grows. In 2024, we launched the AI for Metascience project, organized around three key research threads:
 
