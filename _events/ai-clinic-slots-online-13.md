@@ -2,7 +2,7 @@
 layout: event-single
 title: AI Clinic slots - online
 start: April 3, 2025 11:00 AM
-end: March 27, 2025 12:00 PM
+end: April 3, 2025 12:00 PM
 image: /assets/uploads/2025-04-03-clinic-slots.jpg
 ---
 Have you thought about using AI in your research but aren’t sure how to get started? Or are you already using AI and have run into challenges with implementation? Meet the Accelerate Programme’s team of AI experts to find the support you need.
