@@ -14,7 +14,7 @@ excerpt: >
   One challenge is ensuring that models that will be used in a healthcare setting are trained using data that represents patients. An important first step in addressing bias from underrepresentation in datasets is to understand why it can be difficult to acquire large and diverse datasets from which to develop AI algorithms.
 author: Lekaashree Rambabu, NIHR Academic Clinical Fellow in Anaesthetics,
   Cambridge University Hospitals & University of Cambridge
-date: 2025-03-27T12:00:00+00:00
+date: 2025-04-01T12:00:00+01:00
 categories:
   - machine-learning
 teaser: ""
