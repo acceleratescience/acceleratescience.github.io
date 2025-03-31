@@ -18,7 +18,7 @@ date: 2025-03-31T17:59:56+01:00
 categories:
   - machine-learning
 teaser: ""
-image: /assets/uploads/lekaa-rambabu-blogpost-photo-1-.jpg
+image: /assets/uploads/lekaa-rambabu-blogpost-photo-2-.jpg
 ---
 Artificial Intelligence models are only as fair as the data they are trained on. They are vulnerable to biases in training data, often reflecting deep-rooted systemic inequalities, human prejudices, and socio-economic disparities. This is a serious concern in healthcare, where algorithmic decisions can directly affect patient outcomes and can lead to severe, even catastrophic, consequences to human health.
 
