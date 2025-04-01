@@ -2,7 +2,7 @@
 layout: event-single
 title: "Training Workshop: Generative AI"
 start: April 7, 2025 9:30 AM
-end: April 7, 2025 4:30 PM
+end: April 7, 2025 1:00 PM
 image: /assets/uploads/website-icon-07.04.25-generative-ai-1-.jpg
 link_to: https://www.training.cam.ac.uk/apsci/event/5706891
 ---
