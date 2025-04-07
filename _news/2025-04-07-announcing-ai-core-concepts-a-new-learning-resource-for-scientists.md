@@ -8,6 +8,7 @@ excerpt: Accelerate Science is proud to launch AI Core Concepts, an online
   programming knowledge, but need to quickly get to grips with contemporary
   techniques.
 date: 2025-04-07T14:21:56+01:00
+image: /assets/uploads/core-concepts-image-for-news-item.jpeg
 ---
 **Bridging the AI Knowledge Gap for Researchers**
 
