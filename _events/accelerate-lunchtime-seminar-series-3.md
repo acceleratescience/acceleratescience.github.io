@@ -1,9 +1,9 @@
 ---
 layout: event-single
 title: Accelerate Lunchtime Seminar Series
-start: April 28, 2025 12:00 PM
-end: April 28, 2025 1:00 PM
-image: /assets/uploads/2025-04-28-lunchtime-seminar.jpg
+start: April 28, 2025 12:30 PM
+end: April 28, 2025 1:30 PM
+image: /assets/uploads/2025-04-28-lunchtime-seminar-1-.jpg
 ---
 Join us to find out more about research taking place in AI for Science across the Accelerate Science community.
 
