@@ -1,6 +1,6 @@
 ---
 layout: event-single
-title: AI Café - AI and Education
+title: AI Café - AI and Maths
 start: April 24, 2025 1:30 PM
 end: April 24, 2025 3:30 PM
 image: /assets/uploads/2025-04-24-ai-cafe-math-session-presentation-.jpg
