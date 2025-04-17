@@ -2,7 +2,7 @@
 layout: event-single
 title: "Training Workshop: LLM Hands on Workshop"
 start: June 10, 2025 9:30 AM
-end: April 14, 2025 5:00 PM
+end: June 10, 2025 5:00 PM
 image: /assets/uploads/website-icon-10.06.25-llm-hands-on-workshop.jpg
 link_to: https://www.training.cam.ac.uk/apsci/event/5775273
 ---
