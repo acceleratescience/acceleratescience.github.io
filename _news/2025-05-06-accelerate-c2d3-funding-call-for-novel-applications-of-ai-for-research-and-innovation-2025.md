@@ -104,7 +104,7 @@ This funding is particularly suited to activities that can be initiated in the n
 Key dates:
 
 * Call opens:  Monday 6 May 2025
-* Funding Call Q and A session: Thursday 22 May, 15:00 – 16:00 (via Zoom [register here](https://cam-ac-uk.zoom.us/meeting/register/Qbaf6yADQmukpIVa_S3dUQ#/registration)) 
+* Funding Call Q and A session: Thursday 22 May 2025, 15:00 – 16:00 (via Zoom [register here](https://cam-ac-uk.zoom.us/meeting/register/Qbaf6yADQmukpIVa_S3dUQ#/registration)) 
 * Call closes: Friday 12 September 2025, 17:00 BST 
 * Outcome communicated early October 2025
 * Earliest project start date: November 2025
