@@ -30,7 +30,7 @@ This is the fourth annual call with [13 projects funded in 2024](https://science
 \
 We will be holding a funding Q and A event on Thursday 22 May from 15:00 – 16:00  (please [register here](https://cam-ac-uk.zoom.us/meeting/register/Qbaf6yADQmukpIVa_S3dUQ#/registration)). There we will answer your questions about the funding call and to talk to our Machine Learning Engineers about the technical aspects of your project. 
 
-[Apply here](https://forms.office.com/e/us4HEJfMhT)
+# **[Apply here](https://forms.office.com/e/us4HEJfMhT)**
 
 [Register](https://cam-ac-uk.zoom.us/meeting/register/Qbaf6yADQmukpIVa_S3dUQ#/registration) to attend the Q and A event on Thursday 22 May, 15:00 – 16:00.
 
