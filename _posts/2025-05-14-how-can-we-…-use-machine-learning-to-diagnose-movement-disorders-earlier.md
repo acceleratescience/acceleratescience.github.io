@@ -1,7 +1,7 @@
 ---
 layout: blog-single
 title: How can we … use machine learning to diagnose movement disorders earlier?
-excerpt: >
+excerpt: >-
   Parkinson's is the fastest-growing neurological condition in the world, but
   currently, there is no cure.
 
