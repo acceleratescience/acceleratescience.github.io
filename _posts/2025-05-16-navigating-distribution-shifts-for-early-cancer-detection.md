@@ -10,7 +10,7 @@ excerpt: >
 
 
   Distribution shift, where target data statistical properties diverge from source (training) data, poses a critical deployment challenge. This divergence can stem from demographic changes, evolving clinical practices, or external events like the COVID-19 pandemic. Such shifts compromise a model’s predictive reliability, risking misinformed decisions and exacerbating health disparities. Identifying, understanding and mitigating distribution shifts is essential to ensure that clinical decision support systems remain reliable and equitable.
-author: Samantha Ip, Research Associate, Department of Public Health and Primary Care
+author: Samantha Ip, Research Fellow, Department of Public Health and Primary Care
 date: 2025-05-21T10:00:00+01:00
 image: /assets/uploads/sam-ip.jpg
 ---
