@@ -110,8 +110,16 @@ function init() {
             proximity,
             growth
         } = parameters;
+        
+        // Get the hero section's position relative to the viewport
+        const heroRect = hero.getBoundingClientRect();
+        
+        // Calculate mouse position relative to the hero section
+        const mouseX = event.clientX - heroRect.left;
+        const mouseY = event.clientY - heroRect.top;
+        
         for (let c of circles) {
-            let distance = Math.sqrt(Math.pow(c.x - event.clientX, 2) + Math.pow(c.y - event.clientY, 2));
+            let distance = Math.sqrt(Math.pow(c.x - mouseX, 2) + Math.pow(c.y - mouseY, 2));
             let d = map(distance, c._radius, c._radius + proximity, growth, 0);
             if (d < 0) d = 0;
             c.addRadius(d);
