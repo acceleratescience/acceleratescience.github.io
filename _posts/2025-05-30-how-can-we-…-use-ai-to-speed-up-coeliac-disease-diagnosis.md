@@ -13,7 +13,7 @@ excerpt: >
 author: Florian Jaeckle, Visiting Research Associate, Department of Pathology,
   University of Cambridge; Research Fellow, Hughes Hall, University of Cambridge
 date: 2025-05-30T10:50:33+01:00
-image: /assets/uploads/florian-jaeckle-1.png
+image: /assets/uploads/florian-jaeckle-2.jpg
 ---
 Around one in 100 people has coeliac disease , an autoimmune disease triggered by consuming gluten. Its symptoms are unpleasant and if left untreated, can in rare cases lead to cancer . Symptoms vary between individuals, from stomach cramps to fatigue and anaemia, which means patients can struggle to receive an accurate diagnosis.
 
