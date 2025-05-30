@@ -11,9 +11,9 @@ excerpt: >
 
   The gold standard for diagnosing coeliac disease is via a biopsy of the duodenum (part of the small intestine ). Pathologists will then analyse the sample under a microscope or on a computer to look for damage to the villi, tiny hair-like projections that line the inside of the small intestine. But interpreting biopsies is subjective, with discordance between pathologists regarding diagnosis occurring in one in five cases.
 author: Florian Jaeckle, Visiting Research Associate, Department of Pathology,
-  University of Cambridge; Research Fellow, Hughes Hall, University of Cambridge
+  Research Fellow, Hughes Hall, University of Cambridge
 date: 2025-05-30T10:50:33+01:00
-image: /assets/uploads/florian-jaeckle-blogpost-photo.jpg
+image: /assets/uploads/florian-jaeckle-blogpost-photo-2-.jpg
 ---
 Around one in 100 people has coeliac disease, an autoimmune disease triggered by consuming gluten. Its symptoms are unpleasant and if left untreated, can in rare cases lead to cancer . Symptoms vary between individuals, from stomach cramps to fatigue and anaemia, which means patients can struggle to receive an accurate diagnosis.
 
