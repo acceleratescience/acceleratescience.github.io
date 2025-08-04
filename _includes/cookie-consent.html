@@ -295,7 +295,35 @@
         analytics: false  // Controls Google Analytics
     };
 
+    // Google Analytics loading function
+    var analyticsLoaded = false;
+    function loadGoogleAnalytics() {
+        if (analyticsLoaded) return;
+        
+        // Load Google Analytics script
+        var script1 = document.createElement('script');
+        script1.async = true;
+        script1.src = 'https://www.googletagmanager.com/gtag/js?id=G-HHTDG8HW9M';
+        document.head.appendChild(script1);
+        
+        // Initialize Google Analytics
+        script1.onload = function() {
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            window.gtag = gtag;
+            gtag('js', new Date());
+            gtag('config', 'G-HHTDG8HW9M');
+            analyticsLoaded = true;
+        };
+    }
+
     function updateAnalyticsConsent(granted) {
+        if (granted) {
+            // Load Google Analytics if consent given
+            loadGoogleAnalytics();
+        }
+        
+        // Update consent if gtag is available
         if (typeof gtag !== 'undefined') {
             gtag('consent', 'update', {
                 'analytics_storage': granted ? 'granted' : 'denied'
@@ -405,13 +433,6 @@
         } else {
             // Show cookie notice
             document.getElementById('cookie-notice').style.display = 'block';
-            
-            // Set default consent (deny analytics)
-            if (typeof gtag !== 'undefined') {
-                gtag('consent', 'default', {
-                    'analytics_storage': 'denied'
-                });
-            }
         }
     }
 
