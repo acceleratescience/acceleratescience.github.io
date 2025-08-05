@@ -10,7 +10,7 @@ excerpt: "A growing body of research suggests that using Large Language Model
   are fears around the impact of these tools, dependency, equity, and
   misinformation. "
 author: Megan Ennion, PhD Student, Faculty of Education
-date: 2025-08-05T10:00:16+01:00
+date: 2025-08-05T10:43:04+01:00
 image: /assets/uploads/megan-ennion-blogpost-photo.png
 ---
 A growing body of research suggests that using Large Language Model (LLM) tutors could reshape how students engage with learning, offering promising new forms of support, but also raising important concerns about their educational impact. While they may offer scalable, on-demand support, helping schools grappling with teacher shortages and rising absenteeism, there are fears around the impact of these tools, dependency, equity, and misinformation.
