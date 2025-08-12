@@ -13,7 +13,7 @@ excerpt: >-
 author: Richard Diehl Martinez, PhD student, Department of Computer Science and
   Technology
 date: 2025-08-19T08:00:00+01:00
-image: /assets/uploads/richard-diehl-martinez-photo-1-.jpg
+image: /assets/uploads/richard-diehl-martinez-blogpost-photo.png
 ---
 Large Language Models (LLMs), a core AI technology, are sometimes compared to black boxes in airplanes because their inner workings are hard to interpret. They can reflect unknown biases due to uncurated training datasets, lack transparency in their outputs, and are often developed and controlled by a small number of key players. 
 
