@@ -3,7 +3,7 @@ layout: event-single
 title: "Training Workshop: LLM Hands on Workshop"
 start: October 6, 2025 9:30 AM
 end: October 6, 2025 5:00 PM
-image: /assets/uploads/06.10.25-llm-hands-on-workshop.png
+image: /assets/uploads/website-icon-06.10.25-llm-hands-on-workshop.png
 ---
 We know that when you’re learning AI & ML, a mix of classroom theory and hands-on practice is the best way to learn. So, we’re running a 1-day hands-on ML workshop to help you apply and develop further practical ML skills. This workshop will focus on Large Language Models (LLMs).
 
