@@ -4,6 +4,7 @@ title: "Training Workshop: LLM Hands on Workshop"
 start: October 6, 2025 9:30 AM
 end: October 6, 2025 5:00 PM
 image: /assets/uploads/website-icon-06.10.25-llm-hands-on-workshop.png
+link_to: https://training.cam.ac.uk/apsci/event/5906383
 ---
 We know that when you’re learning AI & ML, a mix of classroom theory and hands-on practice is the best way to learn. So, we’re running a 1-day hands-on ML workshop to help you apply and develop further practical ML skills. This workshop will focus on Large Language Models (LLMs).
 
@@ -15,4 +16,4 @@ Open to all postgraduate students and research staff.
 
 Lunch will be provided with the opportunity for networking during the breaks.
 
-Find out more and register [here. ](https://www.training.cam.ac.uk/apsci/event/5586134)F﻿urther details and registration coming soon.
+More information and registration details can be found [here](https://training.cam.ac.uk/apsci/event/5906383).
