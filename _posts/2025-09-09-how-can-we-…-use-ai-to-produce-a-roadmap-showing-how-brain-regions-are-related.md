@@ -12,7 +12,7 @@ excerpt: >-
   We are living in the era of big data with increasing amounts of data available to us, but we don’t have a clear idea of the best way to take an image of the brain and turn it into a biologically validated representation of it, which researchers can work from to shed light on its inner workings. The question of how you take a brain scan and turn it into something meaningful remains unanswered in the neuroimaging community but has occupied them for about 20 years, and this is something which fascinates me. 
 author: Dr. Isaac Sebenius
 date: 2025-09-09T13:04:01+01:00
-image: /assets/uploads/isaac-sebenius.png
+image: /assets/uploads/isaac-sebenius-blogpost-photo.png
 ---
 Computational neuroscience - specifically combining neuroimaging and genetics - offers huge potential to better understand the brain and how it is organised, offering insights into healthy populations as well as shedding light into how the brain might be altered in clinical populations with mental health disorders. 
 
