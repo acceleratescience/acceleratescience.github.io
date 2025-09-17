@@ -14,7 +14,7 @@ excerpt: >-
   Rangers play a crucial role in detecting illegal activities and preventing further violations in protected areas. But growing up around Nigeria’s Cross River National Park and embarking on patrols here with rangers for almost two years, I noticed that patrol deployment could be improved to maximise limited human and financial resources. 
 author: Charles Emogor
 date: 2025-09-30T01:00:13+01:00
-image: /assets/uploads/charles-emogor-blogpost-photo.png
+image: /assets/uploads/charles-emogor-blogpost-photo-2-.png
 ---
 Africa supports an extraordinary range of habitats and animals, but its biodiversity is declining at an alarming rate. For example, the populations of monitored vertebrates have declined by 76% between 1970 and 2020 and numerous landscapes are under threats from human exploitations.  
 
