@@ -8,7 +8,7 @@ image: /assets/uploads/2025-04-24-ai-cafe-math-session-presentation-.png
 The Accelerate Programme for Scientific Discovery and Cancer Research UK (CRUK) are pleased to invite you to an AI café on Monday 20 October from 14:00 - 16:00.
 
 \
-Are you using AI methods in your research, or considering doing so? Would you like to find out more about how AI is being used in education and meet other researchers exploring the challenges and possibilities of deploying AI in research?\
+Are you using AI methods in your research, or considering doing so? Would you like to find out more about how AI is being used in cancer research and meet other researchers exploring the challenges and possibilities of deploying AI in research?\
 \
 Come along to the AI café on Monday 20 October to hear short talks from researchers and to discuss your questions about AI with an expert.\
 \
