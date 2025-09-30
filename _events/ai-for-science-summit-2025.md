@@ -2,7 +2,7 @@
 layout: event-single
 title: AI for Science Summit 2025
 start: December 9, 2025 10:00 AM
-end: September 10, 2025 6:00 PM
+end: December 10, 2025 6:00 PM
 image: /assets/uploads/2025-ai-for-science-summit_social-graphic_no-reg-1-.png
 ---
 On Tuesday 9 December, the Accelerate Programme for Scientific Discovery are inviting members of the AI for Science community to attend an AI for Science Summit, bringing together our community to combine our shared insights and experiences to drive progress in building the AI for Science community and deliver an impactful research agenda.
