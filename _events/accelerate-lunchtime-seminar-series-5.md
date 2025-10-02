@@ -1,0 +1,26 @@
+---
+layout: event-single
+title: Accelerate Lunchtime Seminar Series
+start: October 27, 2025 12:00 PM
+end: October 27, 2025 1:00 PM
+image: /assets/uploads/2025-10-27-lunchtime-seminar.png
+---
+Join us to find out more about research taking place in AI for Science across the Accelerate Science community.
+
+Details of future talks are available on [Talks@Cam](https://talks.cam.ac.uk/show/index/191074)
+
+Lunch provided, please register to attend via [this form](https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fforms.office.com%2Fe%2FWC3aD69CYM&data=05%7C02%7Cbp374%40cam.ac.uk%7Cbd01cc1fd6814db6104f08de0189b50b%7C49a50445bdfa4b79ade3547b4f3986e9%7C1%7C0%7C638949888124409042%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=7SEg2281NGbO4ujLEPVsC9RrIxZuIBUB84OgRYhPEro%3D&reserved=0) so we can confirm catering arrangements. 
+
+**From Code to the Lab: Applying Transfer Learning to Discover New Antibacterials**
+
+D﻿r Sergio Bacallado de Lara, Department of Pure Maths and Mathematical Statistics
+
+The scarcity of high-quality public data presents a major hurdle for applying deep learning to drug discovery. This is particularly acute in the search for new antibiotics, where active compounds are rare. In this talk, I will discuss how my group has addressed this “low-data” challenge by applying transfer learning with deep graph neural networks (DGNNs) to discover novel antibacterials. By pre-training models on large, general chemical datasets before fine-tuning them on small, specific antibacterial screens, we were able to virtually screen over a billion compounds. Supported by a £15,000 grant from the Accelerate Programme, this computational work led to the experimental validation of several potent, low-toxicity compounds with broad-spectrum activity against critical ESKAPE pathogens, achieving a ~54% hit rate from our prioritized candidates. This project highlights a broader story about bridging the gap between computational theory and experimental practice. I’ll touch upon the significant challenges in developing robust benchmarks for molecular machine learning, a critical step for ensuring our models are truly learning meaningful chemical principles. Furthermore, I will share how our group, based in the maths faculty, collaborated with experimental facilities to validate our computational hypotheses, turning predictive models into tangible results. My goal is to encourage others in the Cambridge AI community to develop methodologies that are not only computationally novel but are also geared towards practical, hypothesis-driven validation, demonstrating how even modest funding can generate significant real-world impact.
+
+**Talk Title TBC**
+
+D﻿r Boris Bolliet, Department of Physics
+
+*A﻿bstract coming soon.*
+
+These seminars are open to members of the University of Cambridge. For further details, please email accelerate-science@cst.cam.ac.uk.
