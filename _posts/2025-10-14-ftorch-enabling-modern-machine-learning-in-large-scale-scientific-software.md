@@ -19,7 +19,11 @@ The funding from Accelerate-C2D3 allowed us to secure time to focus on developin
 
 **M﻿L coupling workshop**
 
+![Fig 1: Participants at the September Workshop ](/assets/uploads/workshop-photo.jpeg "Fig 1: Participants at the September Workshop ")
+
 In September 2025 we brought 40 researchers, scientists, and software engineers from across Europe to gather in Cambridge for a [workshop on coupling ML technologies into large-scale scientific models](https://cambridge-iccs.github.io/ml-coupling-workshop/). The event was hosted at the Maxwell Centre over the course of two days, with college accommodation provided for 30 attendees. The first day of the workshop featured [eight talks by invited speakers from key universities](https://cambridge-iccs.github.io/ml-coupling-workshop/programme.html#talks), research institutes, and operational centres, a panel session in which attendees could hear the speakers’ perspectives on their ideas and concerns, and a poster session in the evening.
+
+![Fig 2: Word-cloud generated from questions submitted to the panel discussion. Highlighting areas of interest from participants’ questions and popular topics at the workshop.](/assets/uploads/joewallwork_wordcloud.png "Fig 2: Word-cloud generated from questions submitted to the panel discussion. Highlighting areas of interest from participants’ questions and popular topics at the workshop.")
 
 The second day of the workshop consisted of break-out sessions, where attendees were given the opportunity to share their thoughts and ideas on the key challenges and opportunities for hybrid modelling going forward. Collaborative note-taking tools were used during the break-out sessions to distill discussions into a format that will be used to inform another technical blog post on the details of the workshop content.
 
