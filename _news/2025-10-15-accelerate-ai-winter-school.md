@@ -11,7 +11,7 @@ date: 2025-10-07T14:54:40+01:00
 image: /assets/uploads/winter-school.jpg
 ---
 
-The Accelerate programme for Scientific Discovery at the University of Cambridge in collaboration with CSD3 and NVIDIA, is launching its first **AI Winter School**, a three-day intensive programme designed specifically for undergraduate students interested in Generative Artificial Intelligence. As AI becomes integral to all research disciplines, this programme aims to equip the next generation of researchers from all academic backgrounds with foundational AI skills. The programme will bring together 30 students from diverse academic backgrounds to participate in hands-on workshops, present their own research, and network with peers and industry professionals. This hybrid conference-school format provides undergraduates with practical AI skills, research presentation experience, and connections that are typically only available to graduate students.
+The Accelerate programme for Scientific Discovery at the University of Cambridge in collaboration with CSD3 and NVIDIA, is launching its first **AI Winter School**, a three-day intensive programme designed specifically for **final year undergraduate students interested in Generative Artificial Intelligence**. As AI becomes integral to all research disciplines, this programme aims to equip the next generation of researchers from all academic backgrounds with foundational AI skills. The programme will bring together 30 students from diverse academic backgrounds to participate in hands-on workshops, and network with peers and industry professionals. This hybrid conference-school format provides undergraduates with practical AI skills, research presentation experience, and connections that are typically only available to graduate students.
 
 Undergraduate students interested in AI face significant barriers to gaining practical experience and research exposure. Most AI workshops and conferences are designed for graduate students and professionals, leaving undergraduates without access to hands-on learning opportunities or platforms to discuss their work and ideas. Additionally, many undergraduates from diverse academic backgrounds lack awareness of AI career pathways and training opportunities, particularly those from underrepresented groups.
 
@@ -107,7 +107,7 @@ Students apply through a process that considers academic background, research in
         </button>
         <div class="faq-answer">
             <div class="faq-answer-content">
-                <p>The AI Winter School will run from Tuesday January 13 until Saturday January 17.</p>
+                <p>The AI Winter School will run from Tuesday January 13 until Friday January 16.</p>
             </div>
         </div>
     </div>
@@ -151,11 +151,11 @@ Students apply through a process that considers academic background, research in
     <div class="faq-item">
         <button class="faq-question">
             <span class="faq-arrow">➤</span>
-            When is the application deadline? And when will applicants be notified of a decision?
+            When is the application deadline?
         </button>
         <div class="faq-answer">
             <div class="faq-answer-content">
-                <p>The deadline for application will be <b>December 1st</b>, with applicants being notified before December 22nd.</p>
+                <p>The deadline for application will be <b>November 22</b>.</p>
             </div>
         </div>
     </div>
