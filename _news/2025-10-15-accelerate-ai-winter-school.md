@@ -1,12 +1,7 @@
 ---
 layout: news-single
 title: Accelerate AI Winter School
-excerpt: The Accelerate Programme in collaboration with the Cambridge Centre for
-  Data-Driven Discovery (C2D3) is offering small grants for University of
-  Cambridge researchers pursuing innovative applications of AI, in research or
-  real-world contexts. Funding can support a variety of activities, including
-  research, events, workshops, teaching, software development, or software
-  development, with a focus on interdisciplinary collaboration.
+excerpt: The Accelerate Programme for Scientific Discovery in collaboration with CSD3 and NVIDIA is launching the AI Winter School, a three-day intensive programme designed for final year undergraduate students interested in Generative Artificial Intelligence. This hybrid conference-school format provides undergraduates with practical AI skills, research presentation experience, and networking opportunities.
 date: 2025-10-07T14:54:40+01:00
 image: /assets/uploads/winter-school.jpg
 ---
