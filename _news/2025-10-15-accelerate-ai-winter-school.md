@@ -2,8 +2,8 @@
 layout: news-single
 title: Accelerate AI Winter School
 excerpt: The Accelerate Programme for Scientific Discovery in collaboration with CSD3 and NVIDIA is launching the AI Winter School, a three-day intensive programme designed for final year undergraduate students interested in Generative Artificial Intelligence. This hybrid conference-school format provides undergraduates with practical AI skills, research presentation experience, and networking opportunities.
-date: 2025-10-07T14:54:40+01:00
-image: /assets/uploads/winter-school.jpg
+date: 2025-10-21T14:54:40+01:00
+image: /assets/uploads/winter-school.png
 ---
 
 The Accelerate programme for Scientific Discovery at the University of Cambridge in collaboration with CSD3 and NVIDIA, is launching its first **AI Winter School**, a three-day intensive programme designed specifically for **final year undergraduate students interested in Generative Artificial Intelligence**. As AI becomes integral to all research disciplines, this programme aims to equip the next generation of researchers from all academic backgrounds with foundational AI skills. The programme will bring together 30 students from diverse academic backgrounds to participate in hands-on workshops, and network with peers and industry professionals. This hybrid conference-school format provides undergraduates with practical AI skills, research presentation experience, and connections that are typically only available to graduate students.
@@ -150,7 +150,7 @@ Students apply through a process that considers academic background, research in
         </button>
         <div class="faq-answer">
             <div class="faq-answer-content">
-                <p>The deadline for application will be <b>November 22</b>.</p>
+                <p>The deadline for application will be <b>November 21, 5pm.</b>.</p>
             </div>
         </div>
     </div>
