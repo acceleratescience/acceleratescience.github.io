@@ -8,6 +8,7 @@ excerpt: Many fields, from climate science to nuclear fusion, make use of
   Doing so is not straightforward, however. The process presents technical
   challenges as well as new scientific questions and methods that arise from
   exploring these new frontiers.
+author: Joe Wallwork and Jack Atkinson
 date: 2025-10-21T00:00:00+01:00
 image: /assets/uploads/joe-wallwork-blogpost-photo.png
 ---
@@ -46,3 +47,9 @@ We plan to build on the success of the ML coupling workshop by hosting an FTorch
 **R﻿eferences**
 
 Atkinson et al., (2025). FTorch: a library for coupling PyTorch models to Fortran. Journal of Open Source Software, 10(107), 7602, <https://doi.org/10.21105/joss.07602>
+
+J﻿oe Wallwork: *[https://joewallwork.com/](https://joewallwork.com/ "Original URL: https\://joewallwork.com/. Click or tap if you trust this link.")*
+
+J﻿ack Atkinson: *[https://jackatkinson.net/](https://jackatkinson.net/ "Original URL: https\://jackatkinson.net/. Click or tap if you trust this link.")*
+
+I﻿nstitute of Computing for Climate Science (ICCS): *[https://iccs.cam.ac.uk/](https://iccs.cam.ac.uk/ "https\://iccs.cam.ac.uk/")*
