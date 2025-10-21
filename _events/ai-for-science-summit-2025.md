@@ -11,6 +11,7 @@ Confirmed speakers and panellists include:
 
 * Professor Charlotte Deane MBE, University of Oxford
 * P﻿rofessor Finale Doshi-Velez, Harvard University
+* P﻿rofessor Mateja Jamnik, University of Cambridge
 * P﻿rofessor Anil Madhapaveddy, University of Cambridge
 * Professor Richard Turner, University of Cambridge
 * Dr David Walters, Principal Fellow of Research to Production, Met Office
