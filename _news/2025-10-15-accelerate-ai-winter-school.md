@@ -3,7 +3,7 @@ layout: news-single
 title: Accelerate Science Winter School
 excerpt: The Accelerate Programme for Scientific Discovery in collaboration with CSD3 and NVIDIA is launching the Accelerate Winter School, a three-day intensive programme designed for final year undergraduate students interested in Generative Artificial Intelligence. This hybrid conference-school format provides undergraduates with practical AI skills, research presentation experience, and networking opportunities.
 date: 2025-10-20T14:54:40+01:00
-image: /assets/uploads/winter-school.png
+image: /assets/uploads/ai-winter-school.png
 ---
 
 <div class="info-box">
