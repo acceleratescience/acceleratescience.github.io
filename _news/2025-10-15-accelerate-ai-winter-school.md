@@ -1,25 +1,118 @@
 ---
 layout: news-single
-title: Accelerate AI Winter School
-excerpt: The Accelerate Programme for Scientific Discovery in collaboration with CSD3 and NVIDIA is launching the AI Winter School, a three-day intensive programme designed for final year undergraduate students interested in Generative Artificial Intelligence. This hybrid conference-school format provides undergraduates with practical AI skills, research presentation experience, and networking opportunities.
+title: Accelerate Science Winter School
+excerpt: The Accelerate Programme for Scientific Discovery in collaboration with CSD3 and NVIDIA is launching the Accelerate Winter School, a three-day intensive programme designed for final year undergraduate students interested in Generative Artificial Intelligence. This hybrid conference-school format provides undergraduates with practical AI skills, research presentation experience, and networking opportunities.
 date: 2025-10-20T14:54:40+01:00
-image: /assets/uploads/winter-school.png
+image: /assets/uploads/ai-winter-school.png
 ---
 
-The Accelerate programme for Scientific Discovery at the University of Cambridge in collaboration with CSD3 and NVIDIA, is launching its first **AI Winter School**, a three-day intensive programme designed specifically for **final year undergraduate students interested in Generative Artificial Intelligence**. As AI becomes integral to all research disciplines, this programme aims to equip the next generation of researchers from all academic backgrounds with foundational AI skills. The programme will bring together 30 students from diverse academic backgrounds to participate in hands-on workshops, and network with peers and industry professionals. This hybrid conference-school format provides undergraduates with practical AI skills, talks from industry professionals, and connections that are typically only available to graduate students.
+<div class="info-box">
+    <h3>Key Information</h3>
+    <div class="info-box-grid">
+        <div class="info-item">
+            <div class="info-label">Programme Dates</div>
+            <div class="info-value">13-16 January 2025</div>
+        </div>
+        <div class="info-item">
+            <div class="info-label">Application Deadline</div>
+            <div class="info-value">21 November 2025, 5:00 PM</div>
+        </div>
+        <div class="info-item">
+            <div class="info-label">Eligibility</div>
+            <div class="info-value">Final year undergraduate students (UK home fee status)</div>
+        </div>
+        <div class="info-item">
+            <div class="info-label">Location</div>
+            <div class="info-value">University of Cambridge (in-person)</div>
+        </div>
+        <div class="info-item">
+            <div class="info-label">Prerequisites</div>
+            <div class="info-value">Basic Python familiarity recommended</div>
+        </div>
+    </div>
+</div>
+
+The Accelerate Science in collaboration with CSD3 and NVIDIA, is launching its first undergraduate **Accelerate Winter School**, a three-day intensive programme designed specifically for **final year undergraduate students interested in Generative Artificial Intelligence**. As AI becomes integral to all research disciplines, this programme aims to equip the next generation of researchers from all academic backgrounds with foundational AI skills. The programme will bring together students from diverse academic backgrounds to participate in hands-on workshops, and network with peers and industry professionals. This hybrid conference-school format provides undergraduates with practical AI skills, research presentation experience, and connections that are typically only available to graduate students.
 
 Undergraduate students interested in AI face significant barriers to gaining practical experience and research exposure. Most AI workshops and conferences are designed for graduate students and professionals, leaving undergraduates without access to hands-on learning opportunities or platforms to discuss their work and ideas. Additionally, many undergraduates from diverse academic backgrounds lack awareness of AI career pathways and training opportunities, particularly those from underrepresented groups.
 
-The AI Winter School solves these problems by creating a dedicated space for undergraduate learning and networking. The programme features intensive workshops on large language models and practical AI applications, giving students hands-on experience with cutting-edge tools. Crucially, all workshops and presentations are focused on the application of AI for academic research, not for generating coursework. The programme includes structured networking opportunities, mentorship sessions, and career panels to help students understand AI pathways and build professional connections. By focusing specifically on undergraduates and maintaining small cohort sizes, the programme ensures a supportive, collaborative environment and a high level of interaction with instructors and mentors, and developing meaningful peer connections.
+The Accelerate Winter School solves these problems by creating a dedicated space for undergraduate learning and networking. The programme features intensive workshops on large language models and practical AI applications, giving students hands-on experience with cutting-edge tools. Crucially, all workshops and presentations are focused on the application of AI for academic research, not for generating coursework. The programme includes structured networking opportunities, mentorship sessions, and career panels to help students understand AI pathways and build professional connections. By focusing specifically on undergraduates and maintaining small cohort sizes, the programme ensures a supportive, collaborative environment and a high level of interaction with instructors and mentors, and developing meaningful peer connections.
 
-## How it will work
 Students apply through a process that considers academic background, research interests, and commitment to diversity in AI. Selected participants attend three days of programming including workshops on LLMs and practical AI tools, working with high performance compute resources, talks and panels on careers in AI, and networking sessions with graduate students, researchers, and industry professionals. The programme includes accommodation and some meals. Participants leave with practical AI skills, presentation experience, and a network of peers and mentors in the field.
-
 
 <a href="https://forms.office.com/e/6ygtakwZeA" class="apply-button">Apply here</a>
 
 
 <style>
+    .partner-logos {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        flex-wrap: wrap;
+        margin: 4rem 0;
+        padding: 3rem 0;
+        border-top: 1px solid #e0e0e0;
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+    .partner-logos img {
+        max-height: 80px;
+        max-width: 200px;
+        object-fit: contain;
+        filter: grayscale(0);
+        transition: transform 0.3s ease;
+    }
+
+    .partner-logos img:hover {
+        transform: scale(1.05);
+    }
+
+    .partner-logos h3 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1rem;
+        color: #666;
+        font-size: 1.4rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .info-box {
+        background-color: #f5f5f5;
+        border-left: 4px solid #0066cc;
+        padding: 2rem 2.5rem;
+        margin: 3rem 0;
+        border-radius: 5px;
+    }
+
+    .info-box h3 {
+        margin-top: 0;
+        margin-bottom: 1.5rem;
+        color: #0066cc;
+        font-size: 2rem;
+    }
+
+    .info-box-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 2rem;
+    }
+
+    .info-item {
+        margin-bottom: 1rem;
+    }
+
+    .info-label {
+        font-weight: 700;
+        color: #333;
+        margin-bottom: 0.5rem;
+    }
+
+    .info-value {
+        color: #666;
+    }
     .apply-button {
         display: inline-block;
         background-color: #0066cc;
@@ -116,11 +209,11 @@ Students apply through a process that considers academic background, research in
     <div class="faq-item">
         <button class="faq-question">
             <span class="faq-arrow">➤</span>
-            What dates will the Accelerate AI Winter School run?
+            What dates will the Accelerate Winter School run?
         </button>
         <div class="faq-answer">
             <div class="faq-answer-content">
-                <p>The AI Winter School will run from Tuesday January 13 until Friday January 16.</p>
+                <p>The Accelerate Winter School will run from Tuesday January 13 until Friday January 16.</p>
             </div>
         </div>
     </div>
@@ -211,6 +304,12 @@ Students apply through a process that considers academic background, research in
 </div>
 
 Please direct any enquiries to _accelerate-mle@cst.cam.ac.uk_
+
+<div class="partner-logos">
+    <img src="/assets/uploads/logo-landscape.png" alt="Accelerate Programme for Scientific Discovery">
+    <img src="/assets/images/csd3.png" alt="CSD3">
+    <img src="/assets/images/NVLogo_2D.jpg" alt="NVIDIA">
+</div>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {
