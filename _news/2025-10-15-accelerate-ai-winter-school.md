@@ -2,7 +2,7 @@
 layout: news-single
 title: Accelerate AI Winter School
 excerpt: The Accelerate Programme for Scientific Discovery in collaboration with CSD3 and NVIDIA is launching the AI Winter School, a three-day intensive programme designed for final year undergraduate students interested in Generative Artificial Intelligence. This hybrid conference-school format provides undergraduates with practical AI skills, research presentation experience, and networking opportunities.
-date: 2025-10-21T14:54:40+01:00
+date: 2025-10-20T14:54:40+01:00
 image: /assets/uploads/winter-school.png
 ---
 
@@ -16,80 +16,98 @@ The AI Winter School solves these problems by creating a dedicated space for und
 Students apply through a process that considers academic background, research interests, and commitment to diversity in AI. Selected participants attend three days of programming including workshops on LLMs and practical AI tools, working with high performance compute resources, talks and panels on careers in AI, and networking sessions with graduate students, researchers, and industry professionals. The programme includes accommodation and some meals. Participants leave with practical AI skills, presentation experience, and a network of peers and mentors in the field.
 
 
-<!-- ## [Apply here](https://forms.office.com/e/us4HEJfMhT) -->
+<a href="https://forms.office.com/e/6ygtakwZeA" class="apply-button">Apply here</a>
 
 
 <style>
-.custom-faq {
-    margin: 4rem 0;
-}
+    .apply-button {
+        display: inline-block;
+        background-color: #0066cc;
+        color: white;
+        padding: 1.5rem 3rem;
+        font-size: 1.8rem;
+        font-weight: 600;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        margin: 2rem 0;
+    }
 
-.custom-faq h2 {
-    margin-bottom: 2rem;
-}
+    .apply-button:hover {
+        background-color: #0052a3;
+        color: white;
+    }
 
-.faq-item {
-    border-bottom: 1px solid #e0e0e0;
-    margin-bottom: 0;
-}
+    .custom-faq {
+        margin: 4rem 0;
+    }
 
-.faq-question {
-    width: 100%;
-    background: none;
-    border: none;
-    padding: 2rem 0;
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    cursor: pointer;
-    text-align: left;
-    font-size: 1.8rem;
-    font-weight: 600;
-    transition: color 0.3s ease;
-}
+    .custom-faq h2 {
+        margin-bottom: 2rem;
+    }
 
-.faq-question:hover {
-    color: #0066cc;
-}
+    .faq-item {
+        border-bottom: 1px solid #e0e0e0;
+        margin-bottom: 0;
+    }
 
-.faq-arrow {
-    font-size: 1.4rem;
-    transition: transform 0.3s ease;
-    flex-shrink: 0;
-    margin-right: 1.5rem;
-}
+    .faq-question {
+        width: 100%;
+        background: none;
+        border: none;
+        padding: 2rem 0;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        cursor: pointer;
+        text-align: left;
+        font-size: 1.8rem;
+        font-weight: 600;
+        transition: color 0.3s ease;
+    }
 
-.faq-item.active .faq-arrow {
-    transform: rotate(90deg);
-}
+    .faq-question:hover {
+        color: #0066cc;
+    }
 
-.faq-answer {
-    max-height: 0;
-    overflow: hidden;
-    transition: max-height 0.3s ease-out;
-}
+    .faq-arrow {
+        font-size: 1.4rem;
+        transition: transform 0.3s ease;
+        flex-shrink: 0;
+        margin-right: 1.5rem;
+    }
 
-.faq-item.active .faq-answer {
-    max-height: 1000px;
-    transition: max-height 0.5s ease-in;
-}
+    .faq-item.active .faq-arrow {
+        transform: rotate(90deg);
+    }
 
-.faq-answer-content {
-    padding-bottom: 2rem;
-}
+    .faq-answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out;
+    }
 
-.faq-answer p {
-    margin-bottom: 1rem;
-}
+    .faq-item.active .faq-answer {
+        max-height: 1000px;
+        transition: max-height 0.5s ease-in;
+    }
 
-.faq-answer ul {
-    margin: 1rem 0;
-    padding-left: 2rem;
-}
+    .faq-answer-content {
+        padding-bottom: 2rem;
+    }
 
-.faq-answer li {
-    margin-bottom: 0.5rem;
-}
+    .faq-answer p {
+        margin-bottom: 1rem;
+    }
+
+    .faq-answer ul {
+        margin: 1rem 0;
+        padding-left: 2rem;
+    }
+
+    .faq-answer li {
+        margin-bottom: 0.5rem;
+    }
 </style>
 
 <div class="custom-faq">
