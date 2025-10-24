@@ -308,6 +308,7 @@ Please direct any enquiries to _accelerate-mle@cst.cam.ac.uk_
 <div class="partner-logos">
     <img src="/assets/uploads/logo-landscape.png" alt="Accelerate Programme for Scientific Discovery">
     <img src="/assets/images/csd3.png" alt="CSD3">
+    <img src="/assets/images/oxfordrse.png" alt="OxRSE">
     <img src="/assets/images/NVLogo_2D.jpg" alt="NVIDIA">
 </div>
 
