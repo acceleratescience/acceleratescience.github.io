@@ -30,4 +30,4 @@ D﻿etails of the programme will be shared in due course.
 
 *C﻿onference Dinner Sponsor*
 
-![](/assets/uploads/cambridgeinnovationcapital.jpg)
+![](/assets/uploads/cambridgeinnovationcapital_25.png)
