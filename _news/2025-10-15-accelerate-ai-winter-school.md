@@ -11,7 +11,7 @@ image: /assets/uploads/accelerate-winter-school-for-ai-2.png
     <div class="info-box-grid">
         <div class="info-item">
             <div class="info-label">Programme Dates</div>
-            <div class="info-value">13-16 January 2025</div>
+            <div class="info-value">13-16 January 2026</div>
         </div>
         <div class="info-item">
             <div class="info-label">Application Deadline</div>
