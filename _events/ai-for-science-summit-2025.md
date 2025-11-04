@@ -25,3 +25,9 @@ The Summit will take place Tuesday 9 December, 10:00 - 18:00. The Conference din
 R﻿egister to attend [here.](https://forms.office.com/Pages/ResponsePage.aspx?id=RQSlSfq9eUut41R7TzmG6bVVsyU9DSpOsyxmYdYCiK5UNzFSUlc2MlE1S05PQ0JMUFVFME5VRVc0NS4u)
 
 D﻿etails of the programme will be shared in due course.
+
+
+
+*C﻿onference Dinner Sponsor*
+
+![](/assets/uploads/cambridgeinnovationcapital.jpg)
