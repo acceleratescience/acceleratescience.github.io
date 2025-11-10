@@ -11,7 +11,7 @@ excerpt: >-
 
   Trials in high‑resource settings often produce results that do not necessarily translate to low‑resource contexts, undermining intervention effectiveness. Overall, underinvestment in high‑burden regions leaves critical needs unmet, exacerbating disparities in morbidity and mortality, leading to widened global health inequities.
 author: Hongyu Zhou, Research Associate, Department of Computer Science and Technology
-date: 2025-11-11T00:00:09+00:00
+date: 2025-11-10T16:15:23+00:00
 image: /assets/uploads/hongyu-zhou-blogpost-photo.png
 ---
 Only 43% of clinical trials take place in low and middle‑income countries, despite being home to 80% of the world’s population, while just 0.2% of global biomedical research funding goes to low‑income countries, even though they shoulder a disproportionately high share of disease burden. 
