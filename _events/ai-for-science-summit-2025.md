@@ -12,6 +12,7 @@ Confirmed speakers and panellists include:
 * Professor Charlotte Deane MBE, University of Oxford
 * P﻿rofessor Finale Doshi-Velez, Harvard University
 * P﻿rofessor Mateja Jamnik, University of Cambridge
+* D﻿r Ian Lane, Partner, Cambridge Innovation Capital
 * P﻿rofessor Anil Madhapaveddy, University of Cambridge
 * Professor Richard Turner, University of Cambridge
 * Dr David Walters, Principal Fellow of Research to Production, Met Office
@@ -25,8 +26,6 @@ D﻿etails of the C2D3 Early Career Researcher and Student Conference programme 
 T﻿he meetings will be held in person at the Department of Computer Science and Technology at the University of Cambridge and will be available online for those joining remotely.
 
 R﻿egister to attend [here.](https://forms.office.com/Pages/ResponsePage.aspx?id=RQSlSfq9eUut41R7TzmG6bVVsyU9DSpOsyxmYdYCiK5UNzFSUlc2MlE1S05PQ0JMUFVFME5VRVc0NS4u)
-
-
 
 *C﻿onference Dinner Sponsor*
 
