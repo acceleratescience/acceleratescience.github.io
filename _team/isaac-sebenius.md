@@ -25,6 +25,6 @@ end: null
 institution: Cambridge University
 department: null
 position: PhD Student
-team: main
+team: alumni
 supervisor: null
 ---
