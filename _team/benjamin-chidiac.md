@@ -12,5 +12,5 @@ image: /assets/uploads/benjamin-chidiac-updated.jpg
 institution: University of Cambridge
 department: Department of Computer Science and Technology
 position: PhD Student
-team: main
+team: alumni
 ---
