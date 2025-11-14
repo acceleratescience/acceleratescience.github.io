@@ -11,5 +11,5 @@ crsid: hl663
 institution: University of Cambridge
 department: Computer Science and Technology
 position: Research Assistant
-team: main
+team: alumni
 ---
