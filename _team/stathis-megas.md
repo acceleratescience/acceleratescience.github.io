@@ -17,5 +17,5 @@ image: /assets/uploads/stathis-megas.jpg
 institution: University of Cambridge
 department: Cambridge Stem Cell Institute
 position: Research Associate
-team: main
+team: alumni
 ---
