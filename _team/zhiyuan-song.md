@@ -12,5 +12,5 @@ image: /assets/uploads/zhiyuan-song-5109-978-3.jpg
 institution: University of Cambridge
 department: CIDDRG
 position: PhD Student
-team: main
+team: alumni
 ---
