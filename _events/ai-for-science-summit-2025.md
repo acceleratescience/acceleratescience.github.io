@@ -25,7 +25,7 @@ D﻿etails of the C2D3 Early Career Researcher and Student Conference programme 
 
 T﻿he meetings will be held in person at the Department of Computer Science and Technology at the University of Cambridge and will be available online for those joining remotely.
 
-R﻿egister to attend [here.](https://forms.office.com/Pages/ResponsePage.aspx?id=RQSlSfq9eUut41R7TzmG6bVVsyU9DSpOsyxmYdYCiK5UNzFSUlc2MlE1S05PQ0JMUFVFME5VRVc0NS4u)A﻿s of 19 November 2025, in-person registration is now full. A virtual attendance option will soon be offered.
+A﻿s of 19 November 2025, in-person registration is now full. A virtual attendance option will soon be offered.
 
 *C﻿onference Dinner Sponsor*
 
