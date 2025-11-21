@@ -1,7 +1,7 @@
 ---
 layout: event-single
 title: " AI Clinic slots - online"
-start: November 4, 2025 3:00 PM
+start: November 27, 2025 9:30 AM
 end: November 27, 2025 12:00 PM
 image: /assets/uploads/website-icon-ai-clinic-slots-nov-2025-1-.jpg
 ---
