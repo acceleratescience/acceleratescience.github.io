@@ -5,7 +5,9 @@ excerpt: The Accelerate Programme for Scientific Discovery in collaboration with
 date: 2025-10-20T14:54:40+01:00
 image: /assets/uploads/accelerate-winter-school-for-ai-2.png
 ---
-
+<div class="notice-banner" style="background:#fff8e1;border-left:4px solid #ffd54f;padding:1rem 1.25rem;border-radius:4px;margin-bottom:1.5rem;color:#5f4300;font-weight:600;">
+    The deadline for applications has been extended to 24 November 9:00 AM.
+</div>
 <div class="info-box">
     <h3>Key Information</h3>
     <div class="info-box-grid">
@@ -15,7 +17,7 @@ image: /assets/uploads/accelerate-winter-school-for-ai-2.png
         </div>
         <div class="info-item">
             <div class="info-label">Application Deadline</div>
-            <div class="info-value">21 November 2025, 5:00 PM</div>
+            <div class="info-value">24 November 2025, 9:00 AM</div>
         </div>
         <div class="info-item">
             <div class="info-label">Eligibility</div>
