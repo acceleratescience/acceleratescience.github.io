@@ -5,8 +5,8 @@ excerpt: The Accelerate Programme for Scientific Discovery in collaboration with
 date: 2025-10-20T14:54:40+01:00
 image: /assets/uploads/accelerate-winter-school-for-ai-2.png
 ---
-<div class="notice-banner" style="background:#fff8e1;border-left:4px solid #ffd54f;padding:1rem 1.25rem;border-radius:4px;margin-bottom:1.5rem;color:#5f4300;font-weight:600;">
-    The deadline for applications has been extended to 24 November 9:00 AM.
+<div class="notice-banner" style="background:#ff4f4f4c;border-left:4px solid #ff4f4fff;padding:1rem 1.25rem;border-radius:4px;margin-bottom:1.5rem;color:#5f4300;font-weight:600;">
+    Applications for the Winter School for AI have now closed.
 </div>
 <div class="info-box">
     <h3>Key Information</h3>
@@ -41,8 +41,8 @@ Undergraduate students interested in AI face significant barriers to gaining pra
 The Accelerate Winter School for AI solves these problems by creating a dedicated space for undergraduate learning and networking. The programme features intensive workshops on large language models and practical AI applications, giving students hands-on experience with cutting-edge tools. Crucially, all workshops and presentations are focused on the application of AI for academic research, not for generating coursework. The programme includes structured networking opportunities, mentorship sessions, and career panels to help students understand AI pathways and build professional connections. By focusing specifically on undergraduates and maintaining small cohort sizes, the programme ensures a supportive, collaborative environment and a high level of interaction with instructors and mentors, and developing meaningful peer connections.
 
 Students apply through a process that considers academic background, research interests, and commitment to diversity in AI. Selected participants attend three days of programming including workshops on LLMs and practical AI tools, working with high performance compute resources, talks and panels on careers in AI, and networking sessions with graduate students, researchers, and industry professionals. The programme includes accommodation and some meals. Participants leave with practical AI skills, presentation experience, and a network of peers and mentors in the field.
-
-<a href="https://forms.office.com/e/6ygtakwZeA" class="apply-button">Apply here</a>
+<!-- 
+<a href="https://forms.office.com/e/6ygtakwZeA" class="apply-button">Apply here</a> -->
 
 
 <style>
