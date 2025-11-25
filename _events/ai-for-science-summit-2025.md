@@ -5,6 +5,8 @@ start: December 9, 2025 10:00 AM
 end: December 10, 2025 6:00 PM
 image: /assets/uploads/2025-ai-for-science-summit_social-graphic_no-reg-1-.png
 ---
+**In-person registration is now full.** If you would like to register virtually or be added to the waitlist in case an in-person place becomes free, please make use of [our virtual and waitlist registration form](https://forms.office.com/Pages/ResponsePage.aspx?id=RQSlSfq9eUut41R7TzmG6bVVsyU9DSpOsyxmYdYCiK5UQzU4T0hOR1pCQjY0SEtUQVFTTDNRSE1TUC4u).
+
 **A﻿I for Science Summit 2025**
 
 On Tuesday 9 December, the Accelerate Programme for Scientific Discovery are inviting members of the AI for Science community to attend our annual Summit, bringing together our community to combine our shared insights and experiences to drive progress and deliver an impactful research agenda.
