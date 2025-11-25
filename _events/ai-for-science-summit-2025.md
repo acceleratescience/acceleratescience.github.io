@@ -14,10 +14,13 @@ Confirmed speakers and panellists include:
 * P﻿rofessor Mateja Jamnik, University of Cambridge
 * D﻿r Ian Lane, Partner, Cambridge Innovation Capital
 * P﻿rofessor Anil Madhapaveddy, University of Cambridge
+* D﻿r Sarah Morgan, King's College London
 * Professor Richard Turner, University of Cambridge
 * Dr David Walters, Principal Fellow of Research to Production, Met Office
 
-D﻿etails of the AI for Science Summit programme will be shared in due course. The Summit will take place Tuesday 9 December, 10:00 - 18:00. The Conference dinner at a location TBD will take place from 19:00 on 9 December.
+D﻿etails of the AI for Science Summit programme will be shared in due course. The Summit will take place Tuesday 9 December, 10:00 - 18:00. The drinks reception and conference dinner will take place from 18:00 in the Ray Dolby Centre, Department of Physics, on 9 December.
+
+T﻿he AI for Science Summit programme can be found [here](assets/uploads/ai-for-science-summit-programme-2025.pdf) or below.
 
 O﻿n Wednesday 10 December, the NeurIPS Cambridge (NeurIPS@Cam) community and Cambridge Centre for Data-Driven Discovery (C2D3) are inviting the AI for Science community and beyond to attend a day of exciting activities aimed at early career researchers.
 
@@ -32,3 +35,7 @@ A﻿s of 19 November 2025, in-person registration is now full. A virtual attenda
 ![](/assets/uploads/cambridgeinnovationcapital_25.png)
 
 [C﻿ambridge Innovation Capital](https://www.cic.vc/)
+
+*A﻿I for Science Summit Programme (9 December)*
+
+![](/assets/uploads/ai-for-science-summit-programme-2025.png)
