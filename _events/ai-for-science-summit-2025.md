@@ -24,9 +24,9 @@ Confirmed speakers and panellists include:
 
 D﻿etails of the AI for Science Summit programme will be shared in due course. The Summit will take place Tuesday 9 December, 10:00 - 18:00. The drinks reception and conference dinner will take place from 18:00 in the Ray Dolby Centre, Department of Physics, on 9 December.
 
-T﻿he AI for Science Summit programme can be found below, or downloaded <a href="/assets/uploads/ai-for-science-summit-programme-2025.pdf" target="_blank">here</a>.
+T﻿he AI for Science Summit programme can be found below, or downloaded <a href="/assets/uploads/ai-for-science-summit-programme-2025_v2.pdf" target="_blank">here</a>
 
-![](/assets/uploads/ai-for-science-summit-programme-2025.png)
+![](/assets/uploads/ai-for-science-summit-programme-2025_v2.png)
 
 **C2D3 Early Career Researcher and Student conference and NeurIPS Cambridge meetup**
 
