@@ -123,7 +123,7 @@ Whales, elephants, and naked mole-rats rarely get cancer despite their size and 
 
 *Yuanfei Liu, PhD Student, Department of Psychiatry*
 
-*James Rudd, Professor of Cardiovascular Medicine, Department of Medicine*
+*Sharon Neufeld, Senior Research Associate, Department of Psychiatry*
 
 Heatwaves are among the most lethal climate-related hazards with rising risks under climate change, but testing different cooling strategies — like where to place cooling centers — is expensive and slow. This project uses AI-powered computer simulations that mimic how people respond to heat to test which cooling approaches work best before implementing them in real communities, providing a cost-effective tool which enhances community resilience and reduces heat-related illness.
 
