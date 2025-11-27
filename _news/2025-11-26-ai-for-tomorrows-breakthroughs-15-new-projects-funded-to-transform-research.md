@@ -16,59 +16,59 @@ The Accelerate Programme for Scientific Discovery and the [Cambridge Centre for 
 
 From detecting Alzheimer's disease years before symptoms emerge, to identifying coral reefs that can survive climate change, to revolutionising plastic recycling—these interdisciplinary teams will develop AI tools with the potential to deliver transformative benefits across health, environment, and society.
 
-## **Detecting Disease Before Symptoms Appear**
+**Detecting Disease Before Symptoms Appear**
 
 Several projects are pushing the boundaries of early disease detection, using AI to spot warning signs long before traditional methods.
 
-***A Brain Imaging Foundation Model For Clinical Diagnosis in Dementia*** will train AI on massive brain imaging datasets to detect Alzheimer's, vascular dementia, and other subtypes years before symptoms appear. With over 57 million people affected by dementia worldwide, earlier detection could enable intervention when treatments are most effective.
+*A Brain Imaging Foundation Model For Clinical Diagnosis in Dementia* will train AI on massive brain imaging datasets to detect Alzheimer's, vascular dementia, and other subtypes years before symptoms appear. With over 57 million people affected by dementia worldwide, earlier detection could enable intervention when treatments are most effective.
 
-In a related project exploring ***the relationship between sex hormones and brain changes in people at increased genetic risk of dementia***, researchers will use machine learning to analyse a decade of brain scans, genetic data, and hormone measurements to identify which women at higher dementia risk could benefit from targeted hormone replacement therapy.
+In a related project exploring *the relationship between sex hormones and brain changes in people at increased genetic risk of dementia*, researchers will use machine learning to analyse a decade of brain scans, genetic data, and hormone measurements to identify which women at higher dementia risk could benefit from targeted hormone replacement therapy.
 
-***Coronary artery CT foundation model (ViTAL-CT)*** tackles the world's leading cause of death by training AI on 50,000 heart scans to automatically detect high-risk blockages and predict future heart attacks, delivering faster and more consistent diagnoses than current manual analysis.
+*Coronary artery CT foundation model (ViTAL-CT)* tackles the world's leading cause of death by training AI on 50,000 heart scans to automatically detect high-risk blockages and predict future heart attacks, delivering faster and more consistent diagnoses than current manual analysis.
 
-## **Accelerating Cancer Research and Treatment**
+**Accelerating Cancer Research and Treatment**
 
 Multiple projects harness AI to understand and combat cancer from novel angles.
 
-The ***AI-Powered Virtual Gut*** project will develop the first digital twin of the colon—a "Virtual Gut" that simulates how colon cancer develops over time by training neural networks on millions of individual cell measurements. This could reveal exactly when and how healthy cells become cancerous, identifying critical windows for early intervention.
+The *AI-Powered Virtual Gut* project will develop the first digital twin of the colon—a "Virtual Gut" that simulates how colon cancer develops over time by training neural networks on millions of individual cell measurements. This could reveal exactly when and how healthy cells become cancerous, identifying critical windows for early intervention.
 
-An innovative ***AI in Cancer Genomics Hackathon*** will train early-career researchers to use machine learning to study cancer-resistant species like whales, elephants, and naked mole-rats, uncovering natural tumour-fighting mechanisms that could inspire new approaches to preventing and treating human cancers.
+An innovative *AI in Cancer Genomics Hackathon* will train early-career researchers to use machine learning to study cancer-resistant species like whales, elephants, and naked mole-rats, uncovering natural tumour-fighting mechanisms that could inspire new approaches to preventing and treating human cancers.
 
-Researchers working to ***unlock mechanistic insight into the drivers of dementia*** will develop an AI framework using convolutional neural networks to analyse microscope images of brain tissue and instantly calculate disease progression rates—packaged as a free tool to accelerate the search for effective treatments.
+Researchers working to *unlock mechanistic insight into the drivers of dementia* will develop an AI framework using convolutional neural networks to analyse microscope images of brain tissue and instantly calculate disease progression rates—packaged as a free tool to accelerate the search for effective treatments.
 
-## **Understanding Climate and Environmental Challenges**
+**Understanding Climate and Environmental Challenges**
 
 AI is also being deployed to address urgent environmental questions.
 
-***The spatial organisation of coral-algae symbiosis*** project uses AI with graph-based methods to analyse how algae are organised within coral cells. These spatial patterns shift before bleaching occurs, offering early warning signs and helping identify which coral-algae partnerships can survive climate change.
+*The spatial organisation of coral-algae symbiosis* project uses AI with graph-based methods to analyse how algae are organised within coral cells. These spatial patterns shift before bleaching occurs, offering early warning signs and helping identify which coral-algae partnerships can survive climate change.
 
-To help communities adapt to rising temperatures, researchers are ***exploring effective community-level cooling strategies in response to heatwaves*** using AI-powered simulations that mimic how people respond to heat. This will enable testing of different cooling approaches, such as like optimal placement of cooling centres, before implementing them in real communities.
+To help communities adapt to rising temperatures, researchers are *exploring effective community-level cooling strategies in response to heatwaves* using AI-powered simulations that mimic how people respond to heat. This will enable testing of different cooling approaches, such as like optimal placement of cooling centres, before implementing them in real communities.
 
-The ***AI for healthy and sustainable cities*** project will analyse street camera images and travel patterns across 45 cities worldwide, automatically detecting cyclists and pedestrians to create detailed neighbourhood maps that help city planners promote healthier, more sustainable transportation.
+The *AI for healthy and sustainable cities* project will analyse street camera images and travel patterns across 45 cities worldwide, automatically detecting cyclists and pedestrians to create detailed neighbourhood maps that help city planners promote healthier, more sustainable transportation.
 
-## **Advancing Sustainable Innovation**
+**Advancing Sustainable Innovation**
 
-***AI-Guided Precision Solvent Selection for Sustainable Plastic Recycling*** addresses a major recycling challenge: different plastics require different solvents, and finding the right match wastes time and resources. Machine learning trained on over 30,000 plastic-solvent combinations will predict which solvents selectively dissolve specific plastics from waste mixtures, enabling efficient recycling that supports a circular economy.
+*AI-Guided Precision Solvent Selection for Sustainable Plastic Recycling* addresses a major recycling challenge: different plastics require different solvents, and finding the right match wastes time and resources. Machine learning trained on over 30,000 plastic-solvent combinations will predict which solvents selectively dissolve specific plastics from waste mixtures, enabling efficient recycling that supports a circular economy.
 
-## **Building Research Capacity and Tools**
+**Building Research Capacity and Tools**
 
 Several projects focus on making AI more accessible and trustworthy for researchers.
 
-***Bridging the Skills Gap: Computer Vision Training for Marine Ecologists*** will run a two-day workshop teaching marine ecologists with little programming experience how to use AI tools that automatically identify species and map habitats from underwater images, addressing a major bottleneck in marine ecology research.
+*Bridging the Skills Gap: Computer Vision Training for Marine Ecologists* will run a two-day workshop teaching marine ecologists with little programming experience how to use AI tools that automatically identify species and map habitats from underwater images, addressing a major bottleneck in marine ecology research.
 
-***Trusting Qualitative AI: The Cambridge Protocol*** develops the first quality assurance framework for AI-assisted qualitative research. Tested on interviews with people who have experienced psychosis, it will ensure AI outputs meet rigorous standards for accuracy, inclusivity, and trustworthiness in healthcare and social science.
+*Trusting Qualitative AI: The Cambridge Protocol* develops the first quality assurance framework for AI-assisted qualitative research. Tested on interviews with people who have experienced psychosis, it will ensure AI outputs meet rigorous standards for accuracy, inclusivity, and trustworthiness in healthcare and social science.
 
-***CogMap: An Educational AI Tool for Interpreting Brain-Based Cognitive Profiles*** will make cutting-edge neuroscience accessible to students, researchers, and medical trainees by using machine learning to compare individual brain scans against population norms and employing language models to explain findings in simple terms.
+*CogMap: An Educational AI Tool for Interpreting Brain-Based Cognitive Profiles* will make cutting-edge neuroscience accessible to students, researchers, and medical trainees by using machine learning to compare individual brain scans against population norms and employing language models to explain findings in simple terms.
 
-## **Revealing Hidden Biological Mechanisms**
+**Revealing Hidden Biological Mechanisms**
 
 Other projects are using AI to uncover fundamental biological processes.
 
-***Development of an AI-Based Platform for Quantifying Feeding Behaviour in Mice*** will use AI-powered video analysis to track mouse behaviour while recording brain activity from neurons controlling reproduction, feeding, and sleep, showing how these systems interact to regulate fertility and potentially identifying new treatment approaches for women experiencing fertility problems linked to poor sleep or irregular eating.
+*Development of an AI-Based Platform for Quantifying Feeding Behaviour in Mice* will use AI-powered video analysis to track mouse behaviour while recording brain activity from neurons controlling reproduction, feeding, and sleep, showing how these systems interact to regulate fertility and potentially identifying new treatment approaches for women experiencing fertility problems linked to poor sleep or irregular eating.
 
-***Plant automatic cell lineage reconstruction*** will train a neural network to recognise "sister cells" in mature plant leaves and reconstruct their complete growth history from a single image, eliminating the need for damaging repeated imaging and enabling scientists to study how temperature and other factors influence plant development.
+*Plant automatic cell lineage reconstruction* will train a neural network to recognise "sister cells" in mature plant leaves and reconstruct their complete growth history from a single image, eliminating the need for damaging repeated imaging and enabling scientists to study how temperature and other factors influence plant development.
 
-## **About the Funding Programme**
+**About the Funding Programme**
 
 This year's call received over 100 applications from teams across the University of Cambridge. Successfully deploying AI to tackle real-world challenges requires effective interdisciplinary collaboration, supported by time and resources to bring together research partners, develop new tools, and build skills and networks.
 
@@ -76,7 +76,7 @@ The Accelerate-C2D3 funding programme helps fill a gap in routine funding by off
 
 Projects will be delivered over the next year, with updates shared through the Accelerate Programme blog. Accelerate Science and C2D3 will provide technical support and facilitation as part of project delivery.
 
-## **Translating Research to Real-World Impact**
+**Translating Research to Real-World Impact**
 
 To help translate promising approaches into real-world impact, Accelerate and C2D3 have for the second time offered Impact funding. Six projects from previous funding rounds are receiving support to scale their work:
 
