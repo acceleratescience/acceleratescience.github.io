@@ -34,6 +34,8 @@ O﻿n Wednesday 10 December, the NeurIPS Cambridge (NeurIPS@Cam) community and C
 
 D﻿etails of the C2D3 Early Career Researcher and Student Conference programme can be found [here](https://www.c2d3.cam.ac.uk/events/c2d3-ECR-and-student-conference-2025).
 
+D﻿etails of the NeurIPS@Cam programme can be found [here](https://www.ai.cam.ac.uk/events/neurips-at-cam-2025).
+
 T﻿he meetings will be held in person at the Department of Computer Science and Technology at the University of Cambridge and will be available online for those joining remotely.
 
 **Registration**
