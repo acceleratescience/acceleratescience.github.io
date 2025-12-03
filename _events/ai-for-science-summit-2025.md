@@ -19,6 +19,7 @@ Confirmed speakers and panellists include:
 * D﻿r Ian Lane, Partner, Cambridge Innovation Capital
 * P﻿rofessor Anil Madhapaveddy, University of Cambridge
 * D﻿r Sarah Morgan, King's College London
+* D﻿r Arfon Smith, Senior Fellow, Schmidt Sciences
 * Professor Richard Turner, University of Cambridge
 * Dr David Walters, Principal Fellow of Research to Production, Met Office
 
