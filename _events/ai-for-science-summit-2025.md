@@ -27,7 +27,7 @@ D﻿etails of the AI for Science Summit programme will be shared in due course. 
 
 T﻿he AI for Science Summit programme can be found below, or downloaded <a href="/assets/uploads/ai-for-science-summit-programme-2025_final_digital.pdf" target="_blank">here</a>
 
-![](/assets/uploads/ai-for-science-summit-programme-2025_final.png)
+![](/assets/uploads/ai-for-science-summit-programme-2025-final.png)
 
 **C2D3 Early Career Researcher and Student conference and NeurIPS Cambridge meetup**
 
