@@ -39,6 +39,8 @@ D﻿etails of the NeurIPS@Cam programme can be found [here](https://www.ai.cam.a
 
 T﻿he meetings will be held in person at the Department of Computer Science and Technology at the University of Cambridge and will be available online for those joining remotely.
 
+T﻿he poster list for all events can be found [here](/assets/uploads/2025-ai-for-science-summit-poster-details_digital.pdf).
+
 **Registration**
 
 A﻿s of 19 November 2025, in-person registration is now full. 
