@@ -57,4 +57,4 @@ From September, two PhD students - Tom Borret and Patrick Janulewicz - and one A
 
 Projects like CMBAGENT and DENARIO demonstrate that research is no longer something that only humans should conduct independently, and I expect we will continue to increase collaboration with machines to carry out scientific analysis faster and better.
 
-*This project was funded through the 2024 Accelerate-C2D3 funding call for novel applications of AI for research and innovation. You can read more about other funded projects [here.](https://science.ai.cam.ac.uk/news/2024-12-09-exploring-novel-applications-of-ai-for-research-and-innovation-%25E2%2580%2593-announcing-our-2024-funded-projects.html)*
+*This project was funded through the 2024 Accelerate-C2D3 funding call for novel applications of AI for research and innovation. You can read more about other funded projects [here.](https://science.ai.cam.ac.uk/news/2024-12-09-exploring-novel-applications-of-ai-for-research-and-innovation-%E2%80%93-announcing-our-2024-funded-projects.html)*
