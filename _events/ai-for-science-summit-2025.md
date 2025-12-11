@@ -5,7 +5,11 @@ start: December 9, 2025 10:00 AM
 end: December 10, 2025 6:00 PM
 image: /assets/uploads/2025-ai-for-science-summit_social-graphic_no-reg-1-.png
 ---
-**In-person registration is now full.** If you would like to register virtually or be added to the waitlist in case an in-person place becomes free, please make use of [our virtual and waitlist registration form](https://forms.office.com/Pages/ResponsePage.aspx?id=RQSlSfq9eUut41R7TzmG6bVVsyU9DSpOsyxmYdYCiK5UQzU4T0hOR1pCQjY0SEtUQVFTTDNRSE1TUC4u).
+**T﻿he event has now concluded.** Thank you to everyone who joined us! Please find below the artwork created to summarise the day created by our partners Scriberia.
+
+![](/assets/uploads/8170camb_cambridge-uni_final_mks.jpg)
+
+![](/assets/uploads/8170camb_uni-of-cambridge-dept-of-computer-science-and-technology_ai-for-science-summit_final_mks.jpg)
 
 **A﻿I for Science Summit 2025**
 
@@ -40,12 +44,6 @@ D﻿etails of the NeurIPS@Cam programme can be found [here](https://www.ai.cam.a
 T﻿he meetings will be held in person at the Department of Computer Science and Technology at the University of Cambridge and will be available online for those joining remotely.
 
 T﻿he poster list for all events can be found [here](/assets/uploads/2025-ai-for-science-summit-poster-details_digital.pdf).
-
-**Registration**
-
-A﻿s of 19 November 2025, in-person registration is now full. 
-
-If you would like to register virtually or be added to the waitlist in case an in-person place becomes free, please make use of [our virtual and waitlist registration form](https://forms.office.com/Pages/ResponsePage.aspx?id=RQSlSfq9eUut41R7TzmG6bVVsyU9DSpOsyxmYdYCiK5UQzU4T0hOR1pCQjY0SEtUQVFTTDNRSE1TUC4u).
 
 *C﻿onference Dinner Sponsor*
 
