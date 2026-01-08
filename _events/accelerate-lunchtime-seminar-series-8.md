@@ -1,15 +1,15 @@
 ---
 layout: event-single
 title: Accelerate Lunchtime Seminar Series
-start: February 2, 2026 12:00 PM
-end: February 2, 2026 1:00 PM
-image: /assets/uploads/2026-02-02-lunchtime-seminar.png
+start: February 16, 2026 12:00 PM
+end: February 16, 2026 1:00 PM
+image: /assets/uploads/2026-02-16-lunchtime-seminar.png
 ---
 Join us to find out more about research taking place in AI for Science across the Accelerate Science community.
 
 Details of future talks are available on [Talks@Cam](https://talks.cam.ac.uk/show/index/191074)
 
-Lunch provided, registration is required. Registration link coming soon.
+Lunch provided, registration is required, please register [here](https://forms.office.com/Pages/ResponsePage.aspx?id=RQSlSfq9eUut41R7TzmG6SCH_8-s-LhNq5ASf8etR39UREFYVlRLUlNPNzVaREVCWFJJODNHQTVTTC4u).
 
 **Evaluating machine learning models for prediction of attention deficit hyperactivity disorder among autistic individuals using genetic data**\
 Niran Okewole, Department of Psychiatry, University of Cambridge
