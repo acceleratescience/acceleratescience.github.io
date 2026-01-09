@@ -3,7 +3,7 @@ layout: event-single
 title: Accelerate Lunchtime Seminar Series
 start: February 16, 2026 12:00 PM
 end: February 16, 2026 1:00 PM
-image: /assets/uploads/2026-02-16-lunchtime-seminar.png
+image: /assets/uploads/2026-02-16-lunchtime-seminar_final.png
 ---
 Join us to find out more about research taking place in AI for Science across the Accelerate Science community.
 
@@ -16,6 +16,9 @@ Niran Okewole, Department of Psychiatry, University of Cambridge
 
 Autistic individuals with co-occurring attention deficit hyperactivity disorder (ADHD) experience additional challenges which are amenable to interventions, especially if identified early. Prediction algorithms often utilise regression methods which have limited decision boundaries. This study thus aimed to evaluate the utility of machine learning methods in combination with genetic data to predict co-occurring ADHD among autistic individuals. The study was conducted among autistic individuals \[n=13,290] of genetically inferred European ancestry in the Simons Foundation Powering Autism Research (SPARK) dataset. ADHD diagnosis was based on informer-reported clinician diagnosis. Features included age at registration in the study, sex, presence/absence of cognitive impairment, three polygenic scores (ADHD, depression and educational attainment), and the first 10 genetic principal components. Models tested include logistic regression, elastic net, random forest, gradient boosting and a stacking ensemble classifier. The data was split into training (80%) and test (20%) sets, with iterations of 5-fold and 10-fold cross-validation in the training set. Model specifications included hyperparameter tuning using a grid search approach. Global model explainability was assessed using Shapley Additive Explanations (SHAP). External validation was conducted in genetically-inferred African ancestry individuals in the SPARK dataset \[n=2,489]. Tree-based methods were found to perform better than linear models by ~3 percentage points in AUC . The best performing model utilising all features was Random Forest (training set: AUC = 0.707, F1 = 0.653, Balanced Accuracy = 0.659; test set: AUC = 0.703, F1 = 0.667, Balanced Accuracy = 0.652). Model performance was better for males than for females. External validation showed reduced performance in African ancestry individuals (AUC = 0.649, F1 = 0.587, Balanced Accuracy = 0.625). We conclude that tree-based predictive models incorporating genetic data are promising although not currently suitable for individual-level prediction. Optimisations will be required for females and individuals of African ancestry. 
 
-**Talk 2 TBC**
+**What Is the Most Dangerous Thing a Woman Can Do? Weaponised Attachment and the Invisible Abuser**\
+Mags Lesiak, Institute of Criminology, University of Cambridge
+
+Public conversations about women’s safety tend to focus on streets, strangers, and personal precautions. This talk begins with a simple question that unsettles those assumptions and leads somewhere unexpected. Drawing on ongoing criminological research, it explores how danger is often misrecognised, how trust and intimacy can become sites of risk, and why some forms of harm remain difficult to see, even when they are widespread.
 
 These seminars are open to members of the University of Cambridge. For further details, please email accelerate-science@cst.cam.ac.uk.
