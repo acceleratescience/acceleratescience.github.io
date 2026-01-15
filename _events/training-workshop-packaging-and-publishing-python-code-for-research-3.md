@@ -14,4 +14,4 @@ Open to all postgraduate students and research staff.
 
 Lunch will be provided with the opportunity for networking during the breaks.
 
-F﻿ind out more and register [here](https://training.cam.ac.uk/apsci/event/5906519).
+F﻿ind out more and register [here](https://www.training.cam.ac.uk/event/6174876).
