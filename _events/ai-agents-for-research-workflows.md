@@ -1,6 +1,6 @@
 ---
 layout: event-single
-title: AI Agents for Research Workflows
+title: "Training Workshop: AI Agents for Research Workflows"
 start: March 16, 2026 9:30 AM
 end: March 16, 2026 5:30 PM
 image: /assets/uploads/website-icon-16.03.2026-ai-agents-for-research-workflows.png
