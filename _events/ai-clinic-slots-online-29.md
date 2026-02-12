@@ -1,7 +1,7 @@
 ---
 layout: event-single
 title: AI Clinic slots - online
-start: February 10, 2026 9:30 AM
+start: February 13, 2026 9:30 AM
 end: February 19, 2026 12:00 PM
 image: /assets/uploads/website-icon-ai-clinic-slots-feb-2026.jpg
 ---
