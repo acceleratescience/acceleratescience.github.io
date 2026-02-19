@@ -16,7 +16,7 @@ author: By Villiam V. Kildal, resident doctor in anaesthesia and intensive care,
   postdoctoral researcher at Karolinska Institutet, Stockholm, Sweden, and
   visiting researcher, University of Cambridge, Department of Computer Science
   and Technology
-date: 2026-02-24T00:01:00+00:00
+date: 2026-02-19T10:43:28+00:00
 image: /assets/uploads/villiam-vejbrink-kildal-blogpost-photo.png
 ---
 Intensive care units (ICUs) treat the sickest patients in the hospital and are among the most complex and resource-intensive environments in modern healthcare. Teams of specialists must make high-stakes decisions under intense time pressure, where even small delays or misjudgements can have major consequences for patient survival and recovery. At the same time, ICUs generate vast amounts of data, including continuous monitoring, ventilator settings, medication infusions, and laboratory tests.
