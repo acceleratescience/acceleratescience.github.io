@@ -1,5 +1,3 @@
-const fetch = require('node-fetch');
-
 const BUILD_HOOK = 'https://api.netlify.com/build_hooks/66c5db56f8ce52214d4eab11';
 
 export default async () => {
