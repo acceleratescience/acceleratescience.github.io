@@ -7,7 +7,7 @@ biography: Fin is a machine learning engineer with experience in AI for
   University of Oxford. Fin is particularly interested in how software
   engineering principles and MLOps can be used to build infrastructure that
   makes research software more scalable and reproducible. He is also interested
-  in applying machine learning to the life sciences.
+  in agents.
 image: /assets/uploads/fin.png
 crsid: flsg2
 institution: University of Cambridge
