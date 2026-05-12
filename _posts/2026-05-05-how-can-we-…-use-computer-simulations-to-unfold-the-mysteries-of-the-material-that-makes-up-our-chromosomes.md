@@ -51,6 +51,6 @@ With our newly validated model demonstrating strong alignment with experimental 
 
 **R﻿eferences**
 
-1. *Preprint for GPU chromatin model*: <https://www.biorxiv.org/content/10.1101/2025.11.17.688899v1>
+*Preprint for GPU chromatin model*: <https://www.biorxiv.org/content/10.1101/2025.11.17.688899v1>
 
-2﻿. <https://www.science.org/doi/10.1126/science.adv6588>
+<https://www.science.org/doi/10.1126/science.adv6588>
