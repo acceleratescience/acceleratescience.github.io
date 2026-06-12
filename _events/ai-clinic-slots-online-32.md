@@ -1,9 +1,9 @@
 ---
 layout: event-single
 title: " AI Clinic slots - online"
-start: July 16, 2026 10:30 AM
+start: July 15, 2026 10:30 AM
 end: July 23, 2026 12:00 PM
-image: /assets/uploads/website-icon-ai-clinic-slots-july-2026.png
+image: /assets/uploads/website-icon-ai-clinic-slots-july-2026-1-.png
 ---
 Have you thought about using AI in your research but aren’t sure how to get started? Or are you already using AI and have run into challenges with implementation? Meet the Accelerate Programme’s team of AI experts to find the support you need.
 
