@@ -10,5 +10,5 @@ image: /assets/uploads/ryan-daniels3.jpg
 institution: University of Cambridge
 department: Department of Computer Science and Technology
 position: Senior Machine Learning Engineer, Accelerate Programme
-team: main
+team: alumni
 ---
