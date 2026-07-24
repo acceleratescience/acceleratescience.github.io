@@ -11,5 +11,5 @@ crsid: cb580
 start: 04/09/23
 institution: University of Cambridge
 position: Programme Coordinator
-team: main
+team: alumni
 ---
