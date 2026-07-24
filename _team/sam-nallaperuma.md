@@ -23,5 +23,5 @@ biography: "Sam is a Senior Research Associate at the department of Computer
 image: /assets/uploads/sam-nallaperuma.jpg
 department: Department of Computer Science and Technology
 position: Senior Research Associate
-team: main
+team: alumni
 ---
