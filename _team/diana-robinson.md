@@ -11,5 +11,5 @@ image: /assets/uploads/diana_robinson_photo.jpg
 institution: University of Cambridge
 department: Computer Science and Technology
 position: Research Assistant
-team: main
+team: alumni
 ---
