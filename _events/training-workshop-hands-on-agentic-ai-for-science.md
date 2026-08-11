@@ -1,8 +1,8 @@
 ---
 layout: event-single
 title: "Training Workshop: Hands on Agentic AI for Science"
-start: August 11, 2026 9:30 AM
-end: August 11, 2026 1:30 PM
+start: November 11, 2026 9:30 AM
+end: November 11, 2026 1:30 PM
 desc: ""
 image: /assets/uploads/11.11.26-llm-hands-on-agentic-ai.png
 ---
