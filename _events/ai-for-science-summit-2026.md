@@ -18,6 +18,7 @@ Confirmed speakers and panellists include:
 * D﻿r Sadiq Jaffer, University of Cambridge
 * P﻿rofessor Neil Lawrence, University of Cambridge
 * D﻿r Cait Newport, University of Oxford
+* P﻿rofessor Stephen Roberts, University of Oxford
 * Professor Richard Turner, University of Cambridge
 * P﻿rofessor Max Welling, University of Amsterdam
 
