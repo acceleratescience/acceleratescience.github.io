@@ -14,13 +14,13 @@ This year's AI for Science Summit will be held under the theme "*Aspiration, Act
 Confirmed speakers and panellists include:
 
 * D﻿r Hana Aliee, Cancer Research UK Cambridge Institute
-* D﻿r Boris Bolliet, University of Cambridge
-* D﻿r Sadiq Jaffer, University of Cambridge
-* P﻿rofessor Neil Lawrence, University of Cambridge
-* D﻿r Cait Newport, University of Oxford
-* P﻿rofessor Stephen Roberts, University of Oxford
-* Professor Richard Turner, University of Cambridge
-* P﻿rofessor Max Welling, University of Amsterdam
+* D﻿r Boris Bolliet, Department of Physics, University of Cambridge
+* D﻿r Sadiq Jaffer, Department of Computer Science and Technology, University of Cambridge
+* P﻿rofessor Neil Lawrence, Department of Computer Science and Technology, University of Cambridge
+* D﻿r Cait Newport, Department of Biology, University of Oxford
+* P﻿rofessor Stephen Roberts, Department of Engineering Science, University of Oxford
+* Professor Richard Turner, Department of Engineering, University of Cambridge
+* P﻿rofessor Max Welling, Amsterdam Machine Learning Lab, University of Amsterdam
 
 D﻿etails of the AI for Science Summit programme will be shared in due course. 
 
