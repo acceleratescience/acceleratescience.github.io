@@ -7,9 +7,9 @@ image: /assets/uploads/2026-ai-for-science-summit_social_web_graphic_no-registra
 ---
 **A﻿I for Science Summit 2026**
 
-On Tuesday 24 November, the Accelerate Programme for Scientific Discovery is inviting members of the AI for Science community to attend our annual Summit, bringing together our community to combine our shared insights and experiences to drive progress and deliver an impactful research agenda.
+On Tuesday 24 November, the Accelerate Programme for Scientific Discovery is inviting members of the AI for Science community to attend our annual Summit at Churchill College in Cambridge.
 
-T﻿his year's Summit will be held at Churchill College.
+This year's AI for Science Summit will be held under the theme "*Aspiration, Action, Anticipation: AI for Science Looking to 2030.*" From decoding cancer at the molecular level to modelling climate and probing the origins of the universe, our speakers will explore how AI is transforming scientific discovery, and what's next as we look to the future. The day will feature talks by researchers and practitioners involved in the development of machine learning and its application to and in science, plus a poster session and panel discussion.
 
 Confirmed speakers and panellists include:
 
