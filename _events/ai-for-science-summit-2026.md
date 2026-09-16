@@ -4,7 +4,7 @@ title: AI for Science Summit 2026
 start: November 24, 2026 10:00 AM
 end: November 24, 2026 6:00 PM
 image: /assets/uploads/2026-ai-for-science-summit_social_web_graphic_with-registration.png
-link_to: https://forms.cloud.microsoft/e/KD3f2funpV
+link_to: ""
 ---
 **A﻿I for Science Summit 2026**
 
