@@ -38,14 +38,13 @@ We have published two papers on the model so far* with another to be published s
 
 The model has some limitations. Many subjects may have incomplete modalities, and these subjects cannot be used for training or inference, limiting the flexibility of HyDA, and our method cannot effectively handle the class imbalance issue, when one data class outnumbers another significantly, potentially reducing the performance of an AI model. This imbalance leads to our method excelling in some metrics like accuracy and specificity while failing in the others such as AUC (Area Under the Curve, where in this case the curve is an Receiver Operating Characteristic curve). It would be interesting to explore how to effectively utilise incomplete modalities and better tackle the class imbalance issue in the future.
 
-
 We found that model performance can also vary across brain regions, with preliminary observations suggesting that regions strongly implicated in disease pathology – such as the hippocampus in Alzheimer’s disease - tend to provide greater discriminative power, whereas regions with more subtle changes are more challenging to model. We plan to pursue this direction in future work, with the aim of improving clinical interpretability and understanding of disease mechanisms.
 
 We hope that one day our model can be used in clinical practice to help clinicians deal with diverse tasks and scenarios, including the early detection of dementia. Currently, around 982,000 people in the UK are thought to live with the debilitating condition, with that number expected to rise to 1.4 million by 2040, making effective new detection methods and treatments a high priority in medical research. 
 
 This project was funded though the 2024 Accelerate-C2D3 funding call for novel applications of AI for research and innovation. You can read more about other funded projects h[ere.](https://science.ai.cam.ac.uk/news/2024-12-09-exploring-novel-applications-of-ai-for-research-and-innovation-%E2%80%93-announcing-our-2024-funded-projects.html)
 
-\*﻿Full papers available here:
+\*﻿Research papers:
 
 Deng, Z., Wang, H., Huang, Z., Zhang, L., Aviles-Rivero, A.I., Liu, C., He, J., Kourtzi, Z. and Schönlieb, C.B., 2025. Brain foundation models with hypergraph dynamic adapter for brain disease analysis. *Pattern Recognition*, p.112595.
 
