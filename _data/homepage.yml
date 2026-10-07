@@ -23,14 +23,14 @@ accordions:
         accelerate scientific progress and creating AI tools that are capable of
         delivering benefits for science and society.
       heading: Research
-      link: /research
+      link: /projects
       icon: /assets/uploads/research.png
     - content: Through a range of learning and development activities, Accelerate
         Science is equipping early career researchers and future research
         leaders with the data science and machine learning skills that will
         enable them to drive a new wave of scientific progress.
       heading: Education & Training
-      link: /about
+      link: /software-engineering
       icon: /assets/uploads/education-and-training.png
     - content: Through its work, Accelerate Science is building a community of
         committed researchers to promote and facilitate the use of machine
