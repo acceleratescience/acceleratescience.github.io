@@ -8,7 +8,9 @@ link_to: ""
 ---
 **A﻿I for Science Summit 2026**
 
-**Registration is now open** for the 2026 AI for Science Summit, taking place at Churchill College, Cambridge, on Tuesday 24 November.
+**In-person registration is now full.** Register for the waitlist or virtual attendance [here](https://forms.cloud.microsoft/e/HQppdzUazR).
+
+The 2026 AI for Science Summit is taking place at Churchill College, Cambridge, on Tuesday 24 November.
 
 This year's Summit asks where AI is already changing how science is done, and what scientific research might look like by 2030.
 
@@ -20,4 +22,4 @@ The day will bring together researchers and practitioners working across AI and 
 
 24 November 2026 ]\[ 10:00–18:00 ][ Churchill College, Cambridge
 
-**[R﻿egister to attend the 2026 AI for Science Summit](https://forms.cloud.microsoft/e/KD3f2funpV)**
+**[J﻿oin the waitlist or register for virtual attendance](https://forms.cloud.microsoft/e/HQppdzUazR)**
