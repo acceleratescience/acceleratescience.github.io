@@ -29,7 +29,7 @@ When it comes to optimising this metric, mathematically deriving a model to capt
 
 Once we had a loss metric for these standard crutches, we fed them to our Bayesian optimiser with the crutch parameters, enabling the model to suggest the next set of crutch parameters to test. We then fed the suggested new parameters into a simulator to assess whether the AI’s crutch geometry was possible, and if it was, set up our flexible crutch to match. We could then run the suggested physical experiment, collecting qualitative and quantitative data to generate a new person- and geometry-specific loss, which could be analysed by the model again. Each new experiment, therefore, provides new information that brings us closer to finding the optimal crutch geometry for that participant. 
 
-![](/assets/uploads/updated-image-how-can-we-use-ai-to-redesign-crutches.png)
+![](/assets/uploads/updated-image-how-can-we-use-ai-to-redesign-crutches.png "Image showing research design")
 
 **Results**
 
