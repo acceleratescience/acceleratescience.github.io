@@ -20,6 +20,10 @@ Confirmed speakers and panellists include **Professor Max Welling**, Amsterdam M
 
 The day will bring together researchers and practitioners working across AI and science for talks, discussion and a poster session, creating an opportunity to take stock of what is happening now and look ahead to the next few years of AI-enabled research.
 
+T﻿he AI for Science Summit programme can be found below, or downloaded [here](https://science.ai.cam.ac.uk/assets/uploads/ai-for-science-summit-programme-2026.pdf).
+
+![](/assets/uploads/ai-for-science-summit-programme-2026-image.png)
+
 24 November 2026 ]\[ 10:00–18:00 ][ Churchill College, Cambridge
 
 **[J﻿oin the waitlist or register for virtual attendance](https://forms.cloud.microsoft/e/HQppdzUazR)**
