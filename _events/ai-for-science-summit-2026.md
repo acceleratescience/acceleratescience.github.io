@@ -22,7 +22,7 @@ The day will bring together researchers and practitioners working across AI and 
 
 T﻿he AI for Science Summit programme can be found below, or downloaded [here](https://science.ai.cam.ac.uk/assets/uploads/ai-for-science-summit-programme-2026.pdf).
 
-![](/assets/uploads/ai-for-science-summit-programme-2026-image.png)
+![](/assets/uploads/ai-for-science-summit-programme-v2.png)
 
 24 November 2026 ]\[ 10:00–18:00 ][ Churchill College, Cambridge
 
