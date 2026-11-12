@@ -1,7 +1,7 @@
 ---
 layout: event-single
 title: " AI Clinic slots - online"
-start: November 6, 2026 10:30 AM
+start: November 26, 2026 10:30 AM
 end: November 26, 2026 12:00 PM
 image: /assets/uploads/website-icon-ai-clinic-slots-november-2026-2-.png
 ---
