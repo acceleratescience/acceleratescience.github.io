@@ -73,6 +73,8 @@ Our [CHARM toolbox](https://github.com/Accelerate-CambridgeCIA/charm-toolbox/rel
 Future work will include application of the methods developed within the toolbox to a broader range of case studies, encompassing diverse document types and characteristics, to further evaluate their applicability, robustness, and transferability.
 
 **Acknowledgments**
+
+
 The Accelerate-C2D3 funding enabled the project from conceptualization over imaging to research time for advanced reconstruction methods and lastly, the implementation and dissemination of the toolbox. The West Hub Small Grants Programme helped with funding for a "Workshop on Image Analysis for Manuscript Data (WIAM)" (Organizers: Anna Breger & Wallace Peaslee). 
 
 Moreover, I thank the Master and Fellows of Gonville and Caius College for access to the manuscripts and permission to share the images (Figure 1, 2, 3 and 6), as well as the Parker Library, Corpus Christi College Cambridge, for access to the manuscript (Figure 5). 
