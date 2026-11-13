@@ -15,7 +15,7 @@ author: 'Dr Anna Breger, PI of the project "Non-invasive imaging and machine
   learning techniques for the reconstruction of degraded historical sheet music"
   '
 date: 2026-11-13T11:03:54+00:00
-image: /assets/uploads/anna-breger-blogpost-photo.jpg
+image: /assets/uploads/anna-breger-blogpost-photo-1-.jpg
 ---
 Cambridge libraries and archives are an extraordinary treasure chest for historical documents, and with that, also for manuscripts with early music notation. Whilst many documents are well preserved and allow research and discussion in their current form, there are also many cases where degradations over the centuries, e.g. physical or chemical processes, have rendered the notation illegible, making a complete reconstruction impossible. It was my hope with this project to bring together non-invasive image acquisition, advanced machine learning methods, and musical expertise to study some of the materials and bring them back to life. 
 
