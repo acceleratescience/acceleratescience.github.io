@@ -22,7 +22,7 @@ The day will bring together researchers and practitioners working across AI and 
 
 T﻿he AI for Science Summit programme can be found below, or downloaded [here](https://science.ai.cam.ac.uk/assets/uploads/ai-for-science-summit-programme-2026.pdf).
 
-T﻿he list of posters for the event can be found [here](assets/uploads/ai-for-science-summit-poster-list-2026_final.pdf).
+T﻿he list of posters for the event can be found [here](https://science.ai.cam.ac.uk/assets/uploads/ai-for-science-summit-poster-list-2026_final.pdf).
 
 ![](/assets/uploads/ai-for-science-summit-programme-v2.png)
 
