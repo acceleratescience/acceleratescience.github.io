@@ -4,7 +4,7 @@ title: Registration opens for the 2026 AI for Science Summit
 date: 2026-09-16T21:08:20+01:00
 image: /assets/uploads/2026-ai-for-science-summit_social_web_graphic_with-registration.png
 ---
-**Registration is now open** for the 2026 AI for Science Summit, taking place at Churchill College, Cambridge, on Tuesday 24 November! Register to attend [here.](https://forms.cloud.microsoft/e/KD3f2funpV)
+On 16th September 2026, registration opened for the 2026 AI for Science Summit, taking place at Churchill College, Cambridge, on Tuesday 24 November. **A﻿s of 19 November 2026, registration has closed for the event.**
 
 This year's Summit asks where AI is already changing how science is done, and what scientific research might look like by 2030.
 
@@ -15,5 +15,3 @@ Confirmed speakers and panellists include **Professor Max Welling**, Amsterdam M
 The day will bring together researchers and practitioners working across AI and science for talks, discussion and a poster session, creating an opportunity to take stock of what is happening now and look ahead to the next few years of AI-enabled research.
 
 **24 November 2026 ]\[ 10:00–18:00 ][ Churchill College, Cambridge**
-
-**[R﻿egister to attend the 2026 AI for Science Summit](https://forms.cloud.microsoft/e/KD3f2funpV)**
