@@ -14,4 +14,6 @@ excerpt: >-
 
 
   Six years of experience provide an opportunity to examine how that engagement has evolved: who is interested in AI, how researchers develop their capabilities, and how their needs change as the technology advances.
+link: /six-years/
+image: /assets/uploads/six-years/topband.png
 ---
