@@ -1,6 +1,7 @@
 ---
 layout: resources-single
 title: NETTS - Networks of Transcript Semantics
+date: 2022-10-03T00:00:00+00:00
 category: software-code
 excerpt: The algorithms in this toolbox create a semantic speech graph from
   transcribed speech. Speech transcripts are short paragraphs of largely raw,

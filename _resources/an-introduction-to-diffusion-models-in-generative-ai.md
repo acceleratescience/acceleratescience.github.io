@@ -1,6 +1,7 @@
 ---
 layout: resources-single
 title: An Introduction to Diffusion Models in Generative AI
+date: 2024-12-17T00:00:00+00:00
 category: teaching-learning
 excerpt: >-
   A collection of resources for researchers interested in using Diffusion Models

@@ -1,6 +1,7 @@
 ---
 layout: resources-single
 title: Designing Machine Learning For Real-World Challenges
+date: 2022-10-03T00:00:00+00:00
 category: teaching-learning
 excerpt: This course - Machine Learning and the Physical World - is focused on
   how to build machine learning systems that interact directly with the real

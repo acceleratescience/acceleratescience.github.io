@@ -1,6 +1,7 @@
 ---
 layout: resources-single
 title: Six years of AI in Science
+date: 2026-11-23T00:00:00+00:00
 category: additional-resources
 excerpt: >-
   Much of the discussion about AI in science focuses on technological advances:

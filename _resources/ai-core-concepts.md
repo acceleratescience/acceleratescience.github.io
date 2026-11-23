@@ -1,6 +1,7 @@
 ---
 layout: resources-single
 title: AI Core Concepts
+date: 2025-04-07T00:00:00+00:00
 category: teaching-learning
 excerpt: >-
   AI and data-driven techniques have the potential to revolutionise research. AI

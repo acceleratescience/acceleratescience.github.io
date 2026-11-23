@@ -29,7 +29,8 @@ title: Resources
             <button class="yellow" data-resources-id="additional-resources">Additional Resources</button>
         </div>
         <div class="resources__grid">
-            {% for post in site.resources %}
+            {% assign resources = site.resources | sort: 'date' | reverse %}
+            {% for post in resources %}
                 {% if post.link != nil %}
                     <a class="resources__resource resources__resource--{{ post.category }}" data-resources-value="{{ post.category }}" href="{{ post.link }}" rel="noreferrer" target="_blank">
                         <div>

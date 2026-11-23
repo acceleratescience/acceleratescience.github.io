@@ -1,6 +1,7 @@
 ---
 layout: resources-single
 title: Machine Learning for Science Jupyter Notebooks
+date: 2022-10-03T00:00:00+00:00
 category: software-code
 excerpt: This gallery brings together Jupyter notebooks produced by participants
   in the Data Science for Science Residency. They contain information and code

@@ -1,6 +1,7 @@
 ---
 layout: resources-single
 title: Data Pipelines for Science
+date: 2023-06-12T00:00:00+00:00
 category: teaching-learning
 excerpt: Well-curated and managed data is central to the effective use of AI, in
   science and elsewhere. How can scientists build the data pipelines they need
