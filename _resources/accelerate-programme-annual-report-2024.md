@@ -1,6 +1,7 @@
 ---
 layout: resources-single
 title: Accelerate Programme Annual Report 2024
+date: 2025-02-26T00:00:00+00:00
 category: additional-resources
 excerpt: 2024 has brought a new wave of excitement about the potential of AI for
   science. Thanks to the continuing support of Schmidt Sciences, the University

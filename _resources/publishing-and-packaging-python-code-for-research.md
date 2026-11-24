@@ -1,6 +1,7 @@
 ---
 layout: resources-single
 title: Publishing and Packaging Python Code for Research
+date: 2024-09-06T00:00:00+00:00
 category: teaching-learning
 excerpt: >-
   A collection of resources for researchers interested in publishing and

@@ -1,6 +1,7 @@
 ---
 layout: resources-single
 title: Doing Data Science In The Real World
+date: 2022-10-03T00:00:00+00:00
 category: teaching-learning
 excerpt: "This course - Advanced Data Science - looks at the real world
   challenges of data science, separating them into three stages: access, assess

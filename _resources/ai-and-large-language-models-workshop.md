@@ -1,6 +1,7 @@
 ---
 layout: resources-single
 title: " AI and Large Language Models"
+date: 2024-02-19T00:00:00+00:00
 category: teaching-learning
 excerpt: >-
   A collection of resources for researchers interested in using Large Language

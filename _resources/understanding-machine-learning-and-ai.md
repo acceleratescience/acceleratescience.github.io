@@ -1,6 +1,7 @@
 ---
 layout: resources-single
 title: Understanding Machine Learning and AI
+date: 2022-10-03T00:00:00+00:00
 category: teaching-learning
 excerpt: This course - Machine Learning and Adaptive Intelligence - was
   originally delivered at the University of Sheffield (2011-2015), but has been

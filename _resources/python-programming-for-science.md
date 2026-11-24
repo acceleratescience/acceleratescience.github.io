@@ -1,6 +1,7 @@
 ---
 layout: resources-single
 title: Python Programming For Science
+date: 2022-10-03T00:00:00+00:00
 category: teaching-learning
 excerpt: This self-learning module introduces the fundamentals of Python, some
   of the kinds of data it can handle, and how to store that data. Designed for

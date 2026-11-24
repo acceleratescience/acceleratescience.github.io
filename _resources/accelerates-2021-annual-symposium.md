@@ -1,6 +1,7 @@
 ---
 layout: resources-single
 title: Accelerate's 2021 Annual Symposium
+date: 2022-10-03T00:00:00+00:00
 category: additional-resources
 excerpt: 2021's Annual Symposium convened researchers from across Cambridge to
   explore how AI is advancing their work, and what action is needed to support

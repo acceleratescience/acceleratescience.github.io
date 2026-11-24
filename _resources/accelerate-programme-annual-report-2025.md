@@ -1,6 +1,7 @@
 ---
 layout: resources-single
 title: Accelerate Programme Annual Report 2025
+date: 2026-01-05T00:00:00+00:00
 category: additional-resources
 excerpt: 2025 has brought further shifts in the relationship between AI and
   scientific discovery. Questions about how to deploy AI responsibly and
