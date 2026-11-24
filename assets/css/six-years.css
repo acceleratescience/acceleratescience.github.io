@@ -18,6 +18,20 @@
 
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--fg);font-family:var(--display);font-weight:300;font-size:clamp(17px,.5vw + 15px,20px);line-height:1.55;margin:0;overflow-x:clip}
+
+/* University of Cambridge top banner (same markup as site-header; in-flow, not fixed) */
+.layout-six-years > header[role="banner"]{width:100%;position:relative;z-index:20;font-family:"DM Sans",Helvetica,Arial,sans-serif}
+.layout-six-years .nav-topbar-upper{padding:1.5rem 0;background-color:#040404}
+@media (min-width:1440px){.layout-six-years .nav-topbar-upper{padding:2rem 0}}
+.layout-six-years .nav-topbar-upper .container{width:90%;max-width:1440px;margin:0 auto}
+.layout-six-years .nav-topbar-upper .row{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px}
+.layout-six-years .university-of-cambridge img{width:120px;height:auto;display:block;max-width:none}
+@media (min-width:1440px){.layout-six-years .university-of-cambridge img{width:180px}}
+.layout-six-years .cambridge-uni-quicklinks-footer{display:none}
+.layout-six-years .cambridge-uni-quicklinks{display:flex;flex-wrap:wrap;align-items:center;gap:0;justify-content:flex-end}
+.layout-six-years .cambridge-uni-quicklinks a{display:inline-block;font-size:12px;line-height:normal;font-weight:700;color:#fff;text-decoration:none}
+.layout-six-years .cambridge-uni-quicklinks a::after{content:"|";margin-left:1rem;margin-right:1rem;display:inline-block;color:#fff}
+.layout-six-years .cambridge-uni-quicklinks a:last-child::after{content:"";display:none;margin:0}
 .wrap{max-width:1240px;margin:0 auto;padding-inline:max(16px,env(safe-area-inset-left,0px)) max(16px,env(safe-area-inset-right,0px))}
 h1,h2,h3{font-weight:700;margin:0;text-wrap:balance}
 h1{font-size:clamp(34px,6.2vw,88px);line-height:.98;letter-spacing:-.04em;white-space:nowrap}
