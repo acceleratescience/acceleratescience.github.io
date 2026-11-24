@@ -19,8 +19,8 @@
 *{box-sizing:border-box}
 body{background:var(--bg);color:var(--fg);font-family:var(--display);font-weight:300;font-size:clamp(17px,.5vw + 15px,20px);line-height:1.55;margin:0;overflow-x:clip}
 
-/* University of Cambridge top banner (same markup as site-header; in-flow, not fixed) */
-.layout-six-years > header[role="banner"]{width:100%;position:relative;z-index:20;font-family:"DM Sans",Helvetica,Arial,sans-serif}
+/* University of Cambridge top banner (same markup as site-header; fixed like main site) */
+.layout-six-years > header[role="banner"]{width:100%;position:fixed;top:0;left:0;z-index:9999;font-family:"DM Sans",Helvetica,Arial,sans-serif}
 .layout-six-years .nav-topbar-upper{padding:1.5rem 0;background-color:#040404}
 @media (min-width:1440px){.layout-six-years .nav-topbar-upper{padding:2rem 0}}
 .layout-six-years .nav-topbar-upper .container{width:90%;max-width:1440px;margin:0 auto}
@@ -32,6 +32,9 @@ body{background:var(--bg);color:var(--fg);font-family:var(--display);font-weight
 .layout-six-years .cambridge-uni-quicklinks a{display:inline-block;font-size:12px;line-height:normal;font-weight:700;color:#fff;text-decoration:none}
 .layout-six-years .cambridge-uni-quicklinks a::after{content:"|";margin-left:1rem;margin-right:1rem;display:inline-block;color:#fff}
 .layout-six-years .cambridge-uni-quicklinks a:last-child::after{content:"";display:none;margin:0}
+.layout-six-years .topband{margin-top:var(--cam-banner-h,76px)}
+.layout-six-years{scroll-padding-top:calc(var(--cam-banner-h,76px) + env(safe-area-inset-top,0px))}
+html{scroll-padding-top:calc(var(--cam-banner-h,76px) + env(safe-area-inset-top,0px))}
 .wrap{max-width:1240px;margin:0 auto;padding-inline:max(16px,env(safe-area-inset-left,0px)) max(16px,env(safe-area-inset-right,0px))}
 h1,h2,h3{font-weight:700;margin:0;text-wrap:balance}
 h1{font-size:clamp(34px,6.2vw,88px);line-height:.98;letter-spacing:-.04em;white-space:nowrap}
@@ -72,7 +75,7 @@ section.band{background:var(--band);color:var(--band-fg);border-top:0;--accent:#
 .scrolly+.scrolly{margin-top:clamp(20px,3vw,32px)}
 .scrolly{align-items:center}.steps{align-self:center}
 .scrolly.flip{grid-template-columns:minmax(0,1fr) minmax(0,1.15fr)}.scrolly.flip .vis{order:2}
-.vis{background:var(--card);border-radius:22px;border-top:5px solid var(--neon);padding:clamp(18px,2.4vw,32px);display:grid;position:sticky;top:calc(6vh + env(safe-area-inset-top,0px));align-self:start}
+.vis{background:var(--card);border-radius:22px;border-top:5px solid var(--neon);padding:clamp(18px,2.4vw,32px);display:grid;position:sticky;top:calc(var(--cam-banner-h,76px) + 6vh + env(safe-area-inset-top,0px));align-self:start}
 .steps{display:block}
 .step{min-height:0;padding:0;margin:0 0 1.55em;display:block}.step:last-child{margin-bottom:0}
 .step.short{min-height:0}
@@ -111,7 +114,7 @@ button.cta{background:none;font-family:inherit;cursor:pointer;line-height:1.2;bo
 button.cta:hover{background:var(--accent);color:var(--bg)}
 .sk-card{background:var(--card);border-radius:20px;padding:clamp(16px,2.5vw,28px)}
 .sk-card.bleed{width:100vw;margin-inline:calc(50% - 50vw);border-radius:0;min-height:100vh;display:flex;flex-direction:column;justify-content:center;padding:clamp(20px,3vw,40px) max(16px,env(safe-area-inset-right,0px)) clamp(20px,3vw,40px) max(16px,env(safe-area-inset-left,0px))}
-.sk-card.full{position:fixed;inset:0;z-index:100;border-radius:0;background:var(--bg);overflow:auto;padding:max(20px,env(safe-area-inset-top,0px)) max(20px,env(safe-area-inset-right,0px)) 32px max(20px,env(safe-area-inset-left,0px))}
+.sk-card.full{position:fixed;inset:0;z-index:10000;border-radius:0;background:var(--bg);overflow:auto;padding:max(20px,env(safe-area-inset-top,0px)) max(20px,env(safe-area-inset-right,0px)) 32px max(20px,env(safe-area-inset-left,0px))}
 .sk-bar{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap;margin-bottom:12px}
 .sk-h{font-size:clamp(26px,3vw,42px);max-width:22em}.sk-sub{font-size:clamp(18px,1vw + 12px,24px);line-height:1.3;margin-top:8px;max-width:44em;color:var(--mute);font-weight:400}
 .sk-key{display:grid;grid-template-columns:1fr 44px 44px;gap:3px 6px;font-size:14px;margin-top:14px}.sk-key b{text-align:right;font-weight:700}.sk-key span:nth-child(3n+2),.sk-key span:nth-child(3n){text-align:right}.sk-key i{display:inline-block;width:10px;height:10px;margin-right:8px;border-radius:2px}
